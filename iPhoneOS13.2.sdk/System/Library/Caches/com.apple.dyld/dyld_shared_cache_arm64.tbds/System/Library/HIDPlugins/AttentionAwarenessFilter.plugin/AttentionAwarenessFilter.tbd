@@ -1,0 +1,11 @@
+---
+archs:                 [ x86_64 ]
+platform:              ios
+install-name:          /System/Library/HIDPlugins/AttentionAwarenessFilter.plugin/AttentionAwarenessFilter
+current-version:       0
+compatibility-version: 0
+exports:
+  - archs:              [ x86_64 ]
+    symbols:            [ _AttentionAwarenessFilterVersionNumber, _AttentionAwarenessFilterVersionString,
+                          _AttentionServiceEventFilterFactory ]
+...

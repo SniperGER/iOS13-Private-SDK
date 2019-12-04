@@ -1,0 +1,1 @@
+#import <DiagnosticLogCollection/CDStructures.h>

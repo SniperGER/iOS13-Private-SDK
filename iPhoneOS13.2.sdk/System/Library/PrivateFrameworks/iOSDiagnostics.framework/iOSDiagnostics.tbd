@@ -1,0 +1,13 @@
+---
+archs:                 [ arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/iOSDiagnostics.framework/iOSDiagnostics
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:              [ arm64 ]
+    objc-classes:       [ _DADiagnosticResponder, _DADiagnosticsRemoteHostViewController ]
+    objc-ivars:         [ _DADiagnosticsRemoteHostViewController._delegate,
+                          _DADiagnosticsRemoteHostViewController._originalScreenBrightness,
+                          _DADiagnosticsRemoteHostViewController._responder ]
+...

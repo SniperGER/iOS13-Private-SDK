@@ -1,0 +1,12 @@
+---
+archs:                 [ x86_64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/SiriUIActivation.framework/SiriUIActivation
+current-version:       1
+compatibility-version: 0
+exports:
+  - archs:              [ x86_64 ]
+    symbols:            [ _SiriUIActivationVersionNumber, _SiriUIActivationVersionString ]
+    objc-classes:       [ _SASGuideMonitor, _SASHIDGenerator, _SiriPresentationSpringBoardMainScreenViewController,
+                          _SiriPresentationViewController ]
+...

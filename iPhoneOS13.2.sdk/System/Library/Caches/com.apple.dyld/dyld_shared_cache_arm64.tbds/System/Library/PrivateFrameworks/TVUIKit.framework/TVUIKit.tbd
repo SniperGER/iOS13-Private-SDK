@@ -1,0 +1,11 @@
+---
+archs:                 [ x86_64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/TVUIKit.framework/TVUIKit
+current-version:       1
+compatibility-version: 0
+exports:
+  - archs:              [ x86_64 ]
+    objc-classes:       [ __TVCarouselView, __TVContentRating, __TVContentRatingBadgeManager, __TVContentRatingSystemUtilities,
+                          __TVContentRatingTextBadgeView ]
+...

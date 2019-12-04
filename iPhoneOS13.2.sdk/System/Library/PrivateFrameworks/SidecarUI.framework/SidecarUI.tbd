@@ -1,0 +1,14 @@
+---
+archs:                 [ arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/SidecarUI.framework/SidecarUI
+current-version:       207
+compatibility-version: 1
+exports:
+  - archs:              [ arm64 ]
+    objc-classes:       [ _SidecarServiceViewController ]
+    objc-ivars:         [ _SidecarServiceViewController._allowsDisplaySleep, _SidecarServiceViewController._backgrounded,
+                          _SidecarServiceViewController._calledServiceReady, _SidecarServiceViewController._request,
+                          _SidecarServiceViewController._terminationRequested, _SidecarServiceViewController._waitForReconnect,
+                          _SidecarServiceViewController._wantsVolumeButtonEvents ]
+...

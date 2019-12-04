@@ -1,0 +1,11 @@
+---
+archs:                 [ arm64 ]
+platform:              ios
+install-name:          /System/Library/AccessibilityBundles/CameraKit.axbundle/CameraKit
+current-version:       0
+compatibility-version: 0
+exports:
+  - archs:              [ arm64 ]
+    symbols:            [ _accessibilityCameraKitLocalizedString, _accessibilityCameraUILocalizedString ]
+    objc-classes:       [ _AXCameraKitGlue, _CMKShutterButtonAccessibility, ___CMKShutterButtonAccessibility_super ]
+...

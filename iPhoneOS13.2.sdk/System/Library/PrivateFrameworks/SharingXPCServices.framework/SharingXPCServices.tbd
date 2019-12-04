@@ -1,0 +1,10 @@
+---
+archs:                 [ arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/SharingXPCServices.framework/SharingXPCServices
+current-version:       1496.8
+compatibility-version: 1
+exports:
+  - archs:              [ arm64 ]
+    symbols:            [ _SharingXPCServicesVersionNumber, _SharingXPCServicesVersionString ]
+...

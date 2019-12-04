@@ -1,0 +1,7 @@
+---
+archs:                 [ arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/MallocStackLogging.framework/MallocStackLogging
+current-version:       1
+compatibility-version: 0
+...

@@ -1,0 +1,15 @@
+#import <HealthPluginHost/CDStructures.h>
+#import <HealthPluginHost/HKHealthAppPluginHost-Protocol.h>
+#import <HealthPluginHost/HealthPluginHost-Protocol.h>
+#import <HealthPluginHost/_TtC16HealthPluginHost19DeleteFeedOperation.h>
+#import <HealthPluginHost/_TtC16HealthPluginHost23SubmitTrainingOperation.h>
+#import <HealthPluginHost/_TtC16HealthPluginHost25HealthPluginHostOperation.h>
+#import <HealthPluginHost/_TtC16HealthPluginHost25PostNotificationOperation.h>
+#import <HealthPluginHost/_TtC16HealthPluginHost26HealthPluginHostConnection.h>
+#import <HealthPluginHost/_TtC16HealthPluginHost27FeedItemGenerationOperation.h>
+#import <HealthPluginHost/_TtC16HealthPluginHost29PopulateDiscoverFeedOperation.h>
+#import <HealthPluginHost/_TtC16HealthPluginHost34SubmitHighlightsAnalyticsOperation.h>
+#import <HealthPluginHost/_TtC16HealthPluginHost38InteractiveFeedItemGenerationOperation.h>
+#import <HealthPluginHost/_TtC16HealthPluginHost43SubmitFeedPersonalizationAnalyticsOperation.h>
+#import <HealthPluginHost/_TtC16HealthPluginHost43SummarySingleDayFeedItemGenerationOperation.h>
+#import <HealthPluginHost/_TtC16HealthPluginHost44CollectFeedPopulationDiagnosticLogsOperation.h>

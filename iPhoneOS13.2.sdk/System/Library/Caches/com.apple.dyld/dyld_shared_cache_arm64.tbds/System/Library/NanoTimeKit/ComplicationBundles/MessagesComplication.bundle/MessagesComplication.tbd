@@ -1,0 +1,11 @@
+---
+archs:                 [ x86_64 ]
+platform:              ios
+install-name:          /System/Library/NanoTimeKit/ComplicationBundles/MessagesComplication.bundle/MessagesComplication
+current-version:       0
+compatibility-version: 0
+exports:
+  - archs:              [ x86_64 ]
+    objc-classes:       [ _CKMessagesComplicationDataContext, _CKMessagesComplicationDataProvider, _CKMessagesComplicationDataSource,
+                          _CKMessagesComplicationSpecs, _CKMessagesNotificationChatItemRules ]
+...

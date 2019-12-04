@@ -1,0 +1,11 @@
+---
+archs:                 [ x86_64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/ProactiveWidgetTracker.framework/ProactiveWidgetTracker
+current-version:       258.3
+compatibility-version: 0
+exports:
+  - archs:              [ x86_64 ]
+    symbols:            [ _ProactiveWidgetTrackerVersionNumber, _ProactiveWidgetTrackerVersionString ]
+    objc-classes:       [ __PWTWidgetEventTracker ]
+...

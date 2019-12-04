@@ -1,0 +1,16 @@
+---
+archs:                 [ x86_64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/CDDataAccess.framework/Frameworks/DADaemonSupport.framework/DADaemonSupport
+current-version:       1
+compatibility-version: 0
+exports:
+  - archs:              [ x86_64 ]
+    symbols:            [ ___RootDomainConnect, __devicePowerChanged, _gDADHighAvailabilityQueue, _gDADMainRunloopStopped,
+                          _gDADOperationQueue, _handleSignal ]
+    objc-classes:       [ _DAAgent, _DAChangeHistoryClerk, _DACoreDAVAgent, _DADAgentManager, _DADBuddyStateObserver, _DADMain,
+                          _DADREMLocalDBWatcher, _DADREMShareResponseDelegate, _DADREMXPCPerformerDelegate,
+                          _DADSystemAvailabilityChecker, _DADaemonPowerAssertionManager, _DAFolderSyncRequest, _DARefreshManager,
+                          _DARefreshWrapper, _DATokenRegistrationRequest, _REMDAAccountInfo, __DAChangeHistoryABLegacyClerk,
+                          __DAChangeHistoryContactsClerk ]
+...

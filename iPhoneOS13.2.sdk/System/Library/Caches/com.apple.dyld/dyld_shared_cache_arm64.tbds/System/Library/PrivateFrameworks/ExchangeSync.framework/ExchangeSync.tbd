@@ -1,0 +1,16 @@
+---
+archs:                 [ x86_64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/ExchangeSync.framework/ExchangeSync
+current-version:       1
+compatibility-version: 0
+exports:
+  - archs:              [ x86_64 ]
+    symbols:            [ _kDAClientNameForChangeInsertion, _kGenericDAAccountType, _kGenericDAAccountWithLoggingType,
+                          _kSubCalCalendarStoreExternalId ]
+    objc-classes:       [ _ESAccount, _ESAccountActor, _ESAccountClassNames, _ESAccountLoader, _ESLocalDBHelper, _ESLocalDBWatcher,
+                          _ESUserNotificationInfo, _ESUserNotificationUtilities ]
+    objc-ivars:         [ _ESAccountClassNames._accountClassName, _ESAccountClassNames._agentClassName,
+                          _ESAccountClassNames._clientAccountClassName, _ESAccountClassNames._daemonAccountClassName,
+                          _ESUserNotificationInfo._groupIdentifier, _ESUserNotificationInfo._handler ]
+...

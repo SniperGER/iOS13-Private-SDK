@@ -1,0 +1,11 @@
+---
+archs:                 [ arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/ProactiveSupportStubs.framework/ProactiveSupportStubs
+current-version:       258.3
+compatibility-version: 1
+exports:
+  - archs:              [ arm64 ]
+    symbols:            [ _ProactiveSupportStubsVersionNumber, _ProactiveSupportStubsVersionString ]
+    objc-classes:       [ __PASDeviceStateStub ]
+...

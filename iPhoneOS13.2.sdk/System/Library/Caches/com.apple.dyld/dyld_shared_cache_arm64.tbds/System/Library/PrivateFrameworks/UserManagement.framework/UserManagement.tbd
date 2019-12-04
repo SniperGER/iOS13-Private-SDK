@@ -1,0 +1,17 @@
+---
+archs:                 [ x86_64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/UserManagement.framework/UserManagement
+current-version:       1
+compatibility-version: 0
+exports:
+  - archs:              [ x86_64 ]
+    symbols:            [ _UMErrorPasscodeBackOffInterval, _UMUserManagerErrorDomain, _kDebugErrorCausingLogoutKey,
+                          _kErrorCausingLogoutKey, _kHasManagedCredentials, _kLanguagesKey, _kPasscodeTypeKey,
+                          _kUMUserPersonaBundleIDsKey, _kUMUserPersonaDisabledKey, _kUMUserPersonaDisplayNameKey, _kUMUserPersonaIDKey,
+                          _kUMUserPersonaNickNameKey, _kUMUserPersonaPathKey, _kUMUserPersonaTypeKey, _kUMUserPersonaUniqueStringKey,
+                          _kUMUserPersonaUserGIDKey, _kUMUserPersonaUserODUUIDKey, _kUMUserPersonaUserUIDKey ]
+    objc-classes:       [ _UMMobileKeyBag, _UMMutableUser, _UMTask, _UMUser, _UMUserManager, _UMUserMutablePersona, _UMUserPersona,
+                          _UMUserPersonaAttributes, _UMUserPersonaContext, _UMUserSwitchBlockingTask, _UMUserSwitchContext,
+                          _UMUserSyncTask ]
+...

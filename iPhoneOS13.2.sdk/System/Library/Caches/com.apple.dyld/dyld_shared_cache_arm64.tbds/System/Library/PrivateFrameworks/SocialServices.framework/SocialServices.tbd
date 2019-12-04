@@ -1,0 +1,10 @@
+---
+archs:                 [ x86_64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/SocialServices.framework/SocialServices
+current-version:       87
+compatibility-version: 0
+exports:
+  - archs:              [ x86_64 ]
+    objc-classes:       [ _SLGoogleAuthController ]
+...

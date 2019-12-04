@@ -1,0 +1,15 @@
+#import <AssertionServices/BKSApplicationStateMonitor.h>
+#import <AssertionServices/BKSAssertion.h>
+#import <AssertionServices/BKSLaunchdJobSpecification.h>
+#import <AssertionServices/BKSProcess.h>
+#import <AssertionServices/BKSProcessAssertion.h>
+#import <AssertionServices/BKSProcessExitContext.h>
+#import <AssertionServices/BKSTerminationAssertion.h>
+#import <AssertionServices/BKSTerminationAssertionObserverManager.h>
+#import <AssertionServices/BKSTerminationContext.h>
+#import <AssertionServices/BKSWorkspace.h>
+#import <AssertionServices/BSDescriptionProviding-Protocol.h>
+#import <AssertionServices/BSXPCCoding-Protocol.h>
+#import <AssertionServices/CDStructures.h>
+#import <AssertionServices/RBSAssertionObserving-Protocol.h>
+#import <AssertionServices/RBSServiceDelegate-Protocol.h>

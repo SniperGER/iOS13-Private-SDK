@@ -1,0 +1,13 @@
+---
+archs:                 [ x86_64 ]
+platform:              ios
+install-name:          /System/Library/PreferenceBundles/MobileSlideShowSettings.bundle/MobileSlideShowSettings
+current-version:       1
+compatibility-version: 0
+exports:
+  - archs:              [ x86_64 ]
+    symbols:            [ _kCPLExistNonLocalOriginalsKey, _kCPLNonLocalOriginalsCountKey, _kCPLNonLocalOriginalsFileSizeKey,
+                          _kCPLNonLocalOriginalsPhotoCountKey, _kCPLNonLocalOriginalsVideoCountKey ]
+    objc-classes:       [ _MSSCellularDataSettingsController, _MSSPhotoStreamInAccountSettingsController, _MSSSettingsController,
+                          _SettingsBaseController, __MSSCellularDataEnabledInvocation ]
+...

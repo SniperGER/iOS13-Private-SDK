@@ -1,0 +1,21 @@
+---
+archs:                 [ x86_64 ]
+platform:              ios
+install-name:          /System/Library/Frameworks/MetalKit.framework/MetalKit
+current-version:       141
+compatibility-version: 0
+exports:
+  - archs:              [ x86_64 ]
+    symbols:            [ _MTKMetalVertexDescriptorFromModelIO, _MTKMetalVertexDescriptorFromModelIOWithError,
+                          _MTKMetalVertexFormatFromModelIO, _MTKModelErrorDomain, _MTKModelErrorKey,
+                          _MTKModelIOVertexDescriptorFromMetal, _MTKModelIOVertexDescriptorFromMetalWithError,
+                          _MTKModelIOVertexFormatFromMetal, _MTKTextureLoaderCubeLayoutVertical, _MTKTextureLoaderErrorDomain,
+                          _MTKTextureLoaderErrorKey, _MTKTextureLoaderOptionAllocateMipmaps, _MTKTextureLoaderOptionCubeLayout,
+                          _MTKTextureLoaderOptionGenerateMipmaps, _MTKTextureLoaderOptionOrigin,
+                          _MTKTextureLoaderOptionPackedRowStride, _MTKTextureLoaderOptionSRGB,
+                          _MTKTextureLoaderOptionTextureCPUCacheMode, _MTKTextureLoaderOptionTextureStorageMode,
+                          _MTKTextureLoaderOptionTextureUsage, _MTKTextureLoaderOriginBottomLeft,
+                          _MTKTextureLoaderOriginFlippedVertically, _MTKTextureLoaderOriginTopLeft ]
+    objc-classes:       [ _MTKMesh, _MTKMeshBuffer, _MTKMeshBufferAllocator, _MTKSubmesh, _MTKTextureIOBuffer, _MTKTextureIOBufferAllocator,
+                          _MTKTextureIOBufferMap, _MTKTextureLoader, _MTKView ]
+...

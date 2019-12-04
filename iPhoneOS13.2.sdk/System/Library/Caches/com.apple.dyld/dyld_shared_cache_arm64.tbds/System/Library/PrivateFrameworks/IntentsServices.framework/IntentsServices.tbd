@@ -1,0 +1,15 @@
+---
+archs:                 [ x86_64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/IntentsServices.framework/IntentsServices
+current-version:       1
+compatibility-version: 0
+exports:
+  - archs:              [ x86_64 ]
+    symbols:            [ _INSAssistantErrorDomain, _INSExtensionServiceTraceCompletionHandlerWithCode,
+                          _INSExtractPreferencesResponseFromMetricsContext, _INSGenerateMetricsContextUsingAppPreferenceResponse,
+                          _INSJSONEncodedIntent, _INSJSONEncodedIntentResponse, _INSJSONEncodedSlotResolutionResult,
+                          _INSSiriAceErrorDomain, _INSSiriSerializedUserActivityKey, _IntentsServicesVersionNumber,
+                          _IntentsServicesVersionString ]
+    objc-classes:       [ _INSAnalytics, _INSExtensionService ]
+...

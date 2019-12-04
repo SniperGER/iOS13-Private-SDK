@@ -1,0 +1,12 @@
+---
+archs:                 [ arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/FMFCore.framework/FMFCore
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:              [ arm64 ]
+    allowed-clients:    [ FMFCoreTests, FindMy, FindMySiriIntents, FindMyTests, fmfcoretool ]
+    objc-classes:       [ _FMIPPhoneNumberUtils, __TtC7FMFCore22FMAPSConnectionHandler, __TtC7FMFCore23FMFMyLocationController,
+                          __TtC7FMFCore25FMFGenericResponseHandler ]
+...

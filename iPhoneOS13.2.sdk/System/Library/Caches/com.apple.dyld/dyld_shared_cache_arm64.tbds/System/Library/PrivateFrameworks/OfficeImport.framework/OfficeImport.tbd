@@ -1,0 +1,14 @@
+---
+archs:                 [ x86_64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/OfficeImport.framework/OfficeImport
+current-version:       276
+compatibility-version: 0
+exports:
+  - archs:              [ x86_64 ]
+    symbols:            [ _HTMLError, _HTMLHeight, _HTMLMainContent, _HTMLPageCount, _HTMLResources, _HTMLWidth, _OICopyHTMLForOfficeData,
+                          _OICopyHTMLFromFileAtURL, _OICopyHTMLThumbnailForOfficeData, _OICopyHTMLThumbnailFromFileAtURL,
+                          _OICopyPrecomputedThumbnailDataFromFileAtURLIfPresent, _OIErrorDomain, _OIPreviewProcessWithData,
+                          _OIPreviewProcessWithDataAndOptions, _OIPreviewProcessWithURL, _OIPreviewProcessWithURLAndOptions,
+                          _kOIPreviewOptionsNoDecorations, _kOIPreviewOptionsPassphrase ]
+...

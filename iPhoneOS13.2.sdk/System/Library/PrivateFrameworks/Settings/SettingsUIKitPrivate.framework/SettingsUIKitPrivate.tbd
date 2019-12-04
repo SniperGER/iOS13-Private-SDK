@@ -1,0 +1,11 @@
+---
+archs:                 [ arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/Settings/SettingsUIKitPrivate.framework/SettingsUIKitPrivate
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:              [ arm64 ]
+    objc-classes:       [ __TtC20SettingsUIKitPrivate22SUIKPControllerFactory,
+                          __TtC20SettingsUIKitPrivate32SUIKPThirdPartyAppListController ]
+...

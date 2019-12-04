@@ -1,0 +1,11 @@
+---
+archs:                 [ arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/Accessibility.framework/Frameworks/AccessibilityUIViewServices.framework/AccessibilityUIViewServices
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:              [ arm64 ]
+    objc-classes:       [ _AXCACCorrectionsService, _AXCACCustomCommandEditorService, _AXVSBaseService,
+                          _AXVSVoiceOverItemChooserService ]
+...

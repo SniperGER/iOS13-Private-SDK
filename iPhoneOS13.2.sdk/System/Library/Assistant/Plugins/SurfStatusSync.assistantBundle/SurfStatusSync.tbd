@@ -1,0 +1,11 @@
+---
+archs:                 [ arm64 ]
+platform:              ios
+install-name:          /System/Library/Assistant/Plugins/SurfStatusSync.assistantBundle/SurfStatusSync
+current-version:       0
+compatibility-version: 0
+exports:
+  - archs:              [ arm64 ]
+    symbols:            [ _SiriSyncSystemSettingIdentifier, _SiriSyncSystemSettingValidity ]
+    objc-classes:       [ _SurfStatusSyncPlugin ]
+...

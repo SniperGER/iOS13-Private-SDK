@@ -1,0 +1,10 @@
+---
+archs:                 [ x86_64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/FMFCore.framework/FMFCore
+current-version:       1
+compatibility-version: 0
+exports:
+  - archs:              [ x86_64 ]
+    allowed-clients:    [ FMFCoreTests, FindMy, FindMySiriIntents, FindMyTests, fmfcoretool ]
+...

@@ -1,0 +1,11 @@
+---
+archs:                 [ x86_64 ]
+platform:              ios
+install-name:          /System/Library/Accounts/Authentication/DAAccountAuthenticator.bundle/DAAccountAuthenticator
+current-version:       0
+compatibility-version: 0
+exports:
+  - archs:              [ x86_64 ]
+    objc-classes:       [ _DAAccountAuthenticator ]
+    objc-ivars:         [ _DAAccountAuthenticator._accountIDToAccount, _DAAccountAuthenticator._accountIDToVerificationHandler ]
+...

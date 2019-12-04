@@ -1,0 +1,11 @@
+---
+archs:                 [ x86_64 ]
+platform:              ios
+install-name:          /usr/lib/libPPM.dylib
+current-version:       0
+compatibility-version: 0
+exports:
+  - archs:              [ x86_64 ]
+    symbols:            [ _gNotifyPort ]
+    objc-classes:       [ _PPMClient, _PPMClientUserClientInterface ]
+...

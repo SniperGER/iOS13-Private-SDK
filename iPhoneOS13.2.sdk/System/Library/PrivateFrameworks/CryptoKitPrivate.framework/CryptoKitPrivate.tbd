@@ -1,0 +1,11 @@
+---
+archs:                 [ arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/CryptoKitPrivate.framework/CryptoKitPrivate
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:              [ arm64 ]
+    symbols:            [ _CryptoKitPrivateVersionNumber, _CryptoKitPrivateVersionString ]
+    objc-classes:       [ __TtC16CryptoKitPrivate6Scrypt ]
+...

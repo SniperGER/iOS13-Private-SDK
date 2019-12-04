@@ -1,0 +1,7 @@
+---
+archs:                 [ arm64 ]
+platform:              ios
+install-name:          /System/Library/Accounts/Authentication/CloudKitAuthenticationPlugin.bundle/CloudKitAuthenticationPlugin
+current-version:       0
+compatibility-version: 0
+...

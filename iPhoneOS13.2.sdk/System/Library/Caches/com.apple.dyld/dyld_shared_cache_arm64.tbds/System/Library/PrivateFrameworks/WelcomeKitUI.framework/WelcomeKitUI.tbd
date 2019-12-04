@@ -1,0 +1,13 @@
+---
+archs:                 [ x86_64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/WelcomeKitUI.framework/WelcomeKitUI
+current-version:       1
+compatibility-version: 0
+exports:
+  - archs:              [ x86_64 ]
+    symbols:            [ _WelcomeKitUIVersionNumber, _WelcomeKitUIVersionString ]
+    objc-classes:       [ _WLAvailabilityRequestController, _WLIntroViewController, _WLMigrationCompletedViewController,
+                          _WLMigrationProgressViewController, _WLPairingViewController, _WLRetryViewController,
+                          _WLWelcomeGroupViewController, _WLWelcomeViewController, _WLWelcomeViewControllerMetrics ]
+...

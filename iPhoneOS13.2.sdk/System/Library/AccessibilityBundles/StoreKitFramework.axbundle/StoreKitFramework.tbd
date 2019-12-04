@@ -1,0 +1,12 @@
+---
+archs:                 [ arm64 ]
+platform:              ios
+install-name:          /System/Library/AccessibilityBundles/StoreKitFramework.axbundle/StoreKitFramework
+current-version:       0
+compatibility-version: 0
+exports:
+  - archs:              [ arm64 ]
+    symbols:            [ __Failover, _accessibilityLocalizedString ]
+    objc-classes:       [ _AXStoreKitGlue, _SKStarRatingControlAccessibility, _SKStoreReviewPresentationWindowAccessibility,
+                          ___SKStarRatingControlAccessibility_super, ___SKStoreReviewPresentationWindowAccessibility_super ]
+...

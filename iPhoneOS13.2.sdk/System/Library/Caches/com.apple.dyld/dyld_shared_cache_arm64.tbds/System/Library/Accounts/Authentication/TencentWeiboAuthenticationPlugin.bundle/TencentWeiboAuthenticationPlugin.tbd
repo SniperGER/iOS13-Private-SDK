@@ -1,0 +1,13 @@
+---
+archs:                 [ x86_64 ]
+platform:              ios
+install-name:          /System/Library/Accounts/Authentication/TencentWeiboAuthenticationPlugin.bundle/TencentWeiboAuthenticationPlugin
+current-version:       0
+compatibility-version: 0
+exports:
+  - archs:              [ x86_64 ]
+    symbols:            [ _SLTencentWeiboAPIError, _SLTencentWeiboAPIErrorAuthorizationError, _SLTencentWeiboAPIErrorCode,
+                          _SLTencentWeiboAPIErrorInternalServerError, _SLTencentWeiboAPIErrorParameterError,
+                          _SLTencentWeiboAccessError, _SLTencentWeiboAccountCreationError, _SLTencentWeiboError,
+                          _SLTencentWeiboLoginError, _SLTencentWeiboRevokeError ]
+...

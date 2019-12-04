@@ -1,0 +1,12 @@
+---
+archs:                 [ x86_64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/TestFlightCore.framework/TestFlightCore
+current-version:       1
+compatibility-version: 0
+exports:
+  - archs:              [ x86_64 ]
+    objc-classes:       [ _TFBetaAppLaunchScreenProvider, _TFBetaApplicationProxy, _TFBetaLaunchHandle,
+                          _TFBetaLaunchHandleConfiguration, _TFFeedbackHandle, _TFFeedbackHandleConfiguration, _TFFeedbackSession,
+                          _TFLocale ]
+...

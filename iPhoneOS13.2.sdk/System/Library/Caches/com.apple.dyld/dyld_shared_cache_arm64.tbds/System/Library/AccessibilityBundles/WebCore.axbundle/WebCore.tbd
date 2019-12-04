@@ -1,0 +1,13 @@
+---
+archs:                 [ x86_64 ]
+platform:              ios
+install-name:          /System/Library/AccessibilityBundles/WebCore.axbundle/WebCore
+current-version:       0
+compatibility-version: 0
+exports:
+  - archs:              [ x86_64 ]
+    symbols:            [ _accessibilityLocalizedString ]
+    objc-classes:       [ _AXLiveRegionNode, _AXWebCoreGlue, _AXWebThreadPreparer, _UIKitAccessibilityTextMarker,
+                          _UIKitWebAccessibilityObjectWrapper, _WAKScrollViewAccessibility, ___UIKitAccessibilityTextMarker_super,
+                          ___UIKitWebAccessibilityObjectWrapper_super, ___WAKScrollViewAccessibility_super ]
+...

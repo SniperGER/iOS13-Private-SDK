@@ -1,0 +1,11 @@
+---
+archs:                 [ arm64 ]
+platform:              ios
+install-name:          /System/Library/RelevanceEngine/NanoDataSources/NanoMapsNavigationCompanionDataSource.bundle/NanoMapsNavigationCompanionDataSource
+current-version:       0
+compatibility-version: 0
+exports:
+  - archs:              [ arm64 ]
+    symbols:            [ _NanoMapsNavigationCompanionDataSourceVersionNumber, _NanoMapsNavigationCompanionDataSourceVersionString ]
+    objc-classes:       [ _NanoMapsNavigationCompanionBundleConfiguration, _NanoMapsNavigationCompanionDataSource ]
+...

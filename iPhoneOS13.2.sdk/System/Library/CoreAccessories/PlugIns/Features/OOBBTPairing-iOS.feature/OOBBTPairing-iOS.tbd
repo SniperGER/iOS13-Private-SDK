@@ -1,0 +1,12 @@
+---
+archs:                 [ arm64 ]
+platform:              ios
+install-name:          "/System/Library/CoreAccessories/PlugIns/Features/OOBBTPairing-iOS.feature/OOBBTPairing-iOS"
+current-version:       0
+compatibility-version: 0
+exports:
+  - archs:              [ arm64 ]
+    symbols:            [ _ascii_to_hex, _getMemoryUse, _init_logging, _kBTQueueName, _kBTSessionName, _kProcessingQueueName,
+                          _kXPCIAPAppBeginOOBPairingStr, _obfuscatedPointer, _printBytes, _removeNewline ]
+    objc-classes:       [ _ACCOOBBTPairingAccessory, _ACCOOBBTPairingFeaturePlugin, _ACCOOBBTPairingShim ]
+...

@@ -1,0 +1,12 @@
+---
+archs:                 [ arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/OSAServicesClient.framework/OSAServicesClient
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:              [ arm64 ]
+    symbols:            [ _OSAServicesClientVersionNumber, _OSAServicesClientVersionString ]
+    objc-classes:       [ _OSAServicesClient ]
+    objc-ivars:         [ _OSAServicesClient._connection, _OSAServicesClient._synchRemoteObjectProxy ]
+...

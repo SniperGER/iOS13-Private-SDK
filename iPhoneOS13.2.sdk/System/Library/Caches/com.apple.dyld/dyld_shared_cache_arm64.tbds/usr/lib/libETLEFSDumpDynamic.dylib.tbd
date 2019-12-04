@@ -1,0 +1,11 @@
+---
+archs:                 [ x86_64 ]
+platform:              ios
+install-name:          /usr/lib/libETLEFSDumpDynamic.dylib
+current-version:       1
+compatibility-version: 0
+exports:
+  - archs:              [ x86_64 ]
+    symbols:            [ _ETLEFSDUmpCopyCrashLocationDetails, _ETLEFSDumpCopyCrashHeaderDetails, _ETLEFSDumpCopySoftwareVersion,
+                          _ETLEFSDumpInfoFree, _ETLEFSDumpInterpret ]
+...

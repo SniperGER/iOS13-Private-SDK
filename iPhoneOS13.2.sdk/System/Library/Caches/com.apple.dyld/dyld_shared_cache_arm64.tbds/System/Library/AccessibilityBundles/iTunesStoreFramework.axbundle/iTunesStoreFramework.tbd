@@ -1,0 +1,11 @@
+---
+archs:                 [ x86_64 ]
+platform:              ios
+install-name:          /System/Library/AccessibilityBundles/iTunesStoreFramework.axbundle/iTunesStoreFramework
+current-version:       0
+compatibility-version: 0
+exports:
+  - archs:              [ x86_64 ]
+    symbols:            [ __Failover, _accessibilityLocalizedString ]
+    objc-classes:       [ _AXiTunesStoreGlue ]
+...

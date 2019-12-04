@@ -1,0 +1,11 @@
+---
+archs:                 [ x86_64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/MetricKitSource.framework/MetricKitSource
+current-version:       1
+compatibility-version: 0
+exports:
+  - archs:              [ x86_64 ]
+    symbols:            [ _MetricKitSourceVersionNumber, _MetricKitSourceVersionString ]
+    objc-classes:       [ _MXPowerlogData, _MXSourceData, _MXSourceManager, _MXSourceXPCPayload ]
+...

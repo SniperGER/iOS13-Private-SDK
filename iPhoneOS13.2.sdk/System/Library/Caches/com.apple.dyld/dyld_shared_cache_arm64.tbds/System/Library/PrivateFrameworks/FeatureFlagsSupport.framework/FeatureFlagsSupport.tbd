@@ -1,0 +1,10 @@
+---
+archs:                 [ x86_64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/FeatureFlagsSupport.framework/FeatureFlagsSupport
+current-version:       17
+compatibility-version: 0
+exports:
+  - archs:              [ x86_64 ]
+    objc-classes:       [ _FFConfiguration, _FFFeatureState ]
+...

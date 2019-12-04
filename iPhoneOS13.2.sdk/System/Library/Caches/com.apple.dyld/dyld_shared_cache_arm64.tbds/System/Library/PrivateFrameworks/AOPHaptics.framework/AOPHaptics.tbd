@@ -1,0 +1,12 @@
+---
+archs:                 [ x86_64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/AOPHaptics.framework/AOPHaptics
+current-version:       1
+compatibility-version: 0
+exports:
+  - archs:              [ x86_64 ]
+    symbols:            [ _AOPHapticsActionKey, _AOPHapticsGainKey, _AOPHapticsOutputTypeKey, _AOPHapticsPreSilenceDurationKey,
+                          _AOPHapticsPriorityKey, _AOPHapticsRequestTimestampKey, _AOPHapticsSlotIndexKey ]
+    objc-classes:       [ _AOPHapticsController ]
+...

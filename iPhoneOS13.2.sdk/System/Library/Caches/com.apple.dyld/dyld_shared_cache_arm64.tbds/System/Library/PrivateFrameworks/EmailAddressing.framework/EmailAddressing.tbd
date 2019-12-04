@@ -1,0 +1,12 @@
+---
+archs:                 [ x86_64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/EmailAddressing.framework/EmailAddressing
+current-version:       3601.9.10
+compatibility-version: 0
+exports:
+  - archs:              [ x86_64 ]
+    symbols:            [ _EAAddressComment ]
+    objc-classes:       [ _EAEmailAddressGenerator, _EAEmailAddressLists, _EAEmailAddressParser, _EAEmailAddressSet, __EAEmailAddress,
+                          __EAEmailAddressSetEnumerator ]
+...

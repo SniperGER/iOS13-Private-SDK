@@ -1,0 +1,14 @@
+#import <CoreRecents/CDStructures.h>
+#import <CoreRecents/CRDRecentContactsLibraryInterface.h>
+#import <CoreRecents/CRDRecentContactsLibraryProtocol-Protocol.h>
+#import <CoreRecents/CRRecentContact.h>
+#import <CoreRecents/CRRecentContactsLibrary.h>
+#import <CoreRecents/CRSQLRow.h>
+#import <CoreRecents/CRSearchQuery.h>
+#import <CoreRecents/NSArray-CoreRecentsUtilities.h>
+#import <CoreRecents/NSData-CoreRecentsUtilities.h>
+#import <CoreRecents/NSDictionary-CoreRecentsUtilities.h>
+#import <CoreRecents/NSMutableArray-CoreRecentsUtilities.h>
+#import <CoreRecents/NSMutableDictionary-CoreRecentsUtilities.h>
+#import <CoreRecents/NSNumber-CoreRecentsUtilities.h>
+#import <CoreRecents/NSString-CoreRecentsUtilities.h>

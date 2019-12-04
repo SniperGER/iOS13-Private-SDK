@@ -1,0 +1,12 @@
+---
+archs:                 [ arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/SecureChannel.framework/SecureChannel
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:              [ arm64 ]
+    objc-classes:       [ _SecureChannelAction, _SecureChannelController, _SecureChannelServiceProxy ]
+    objc-ivars:         [ _SecureChannelAction._message, _SecureChannelAction._title, _SecureChannelAction._url,
+                          _SecureChannelServiceProxy._connectionToService, _SecureChannelServiceProxy._remoteObject ]
+...

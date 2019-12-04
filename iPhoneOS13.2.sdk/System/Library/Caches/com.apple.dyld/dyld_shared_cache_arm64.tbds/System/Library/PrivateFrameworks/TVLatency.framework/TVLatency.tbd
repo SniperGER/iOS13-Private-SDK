@@ -1,0 +1,15 @@
+---
+archs:                 [ x86_64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/TVLatency.framework/TVLatency
+current-version:       1
+compatibility-version: 0
+exports:
+  - archs:              [ x86_64 ]
+    symbols:            [ _AllRecordings, _EraseAllRecordings, _TVLAudioLatencyEstimationInternalProgressEventEstimationConfidenceKey,
+                          _TVLAudioLatencyEstimationInternalProgressEventEstimationLatencyKey,
+                          _TVLAudioLatencyEstimationProgressEventErrorObjectKey, _TVLAudioLatencyUnknown,
+                          _TVLToneIdentifierCalibration, _TVLToneIdentifierFailure, _TVLToneIdentifierSuccess, _TVLatencyErrorDomain,
+                          _TapToRadar ]
+    objc-classes:       [ _TVLAudioLatencyEstimator, _TVLPersistenceManager, _TVLToneProvider ]
+...

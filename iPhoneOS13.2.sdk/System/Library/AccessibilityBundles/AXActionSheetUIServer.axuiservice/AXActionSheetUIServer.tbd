@@ -1,0 +1,12 @@
+---
+archs:                 [ arm64 ]
+platform:              ios
+install-name:          /System/Library/AccessibilityBundles/AXActionSheetUIServer.axuiservice/AXActionSheetUIServer
+current-version:       0
+compatibility-version: 0
+exports:
+  - archs:              [ arm64 ]
+    objc-classes:       [ _AXActionSheetUIServer ]
+    objc-ivars:         [ _AXActionSheetUIServer._actionSheetClients, _AXActionSheetUIServer._alertController,
+                          _AXActionSheetUIServer._alertIdentifier, _AXActionSheetUIServer._emptyViewController ]
+...

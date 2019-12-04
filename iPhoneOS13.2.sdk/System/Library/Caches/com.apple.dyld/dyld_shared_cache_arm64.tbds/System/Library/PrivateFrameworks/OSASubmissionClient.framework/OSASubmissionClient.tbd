@@ -1,0 +1,11 @@
+---
+archs:                 [ x86_64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/OSASubmissionClient.framework/OSASubmissionClient
+current-version:       1
+compatibility-version: 0
+exports:
+  - archs:              [ x86_64 ]
+    symbols:            [ _OSASubmissionClientVersionNumber, _OSASubmissionClientVersionString ]
+    objc-classes:       [ _OSASubmissionClient ]
+...

@@ -1,0 +1,10 @@
+---
+archs:                 [ x86_64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/DataDetectorsCore.framework/PlugIns/PhoneNumbers.plugin/PhoneNumbers
+current-version:       659
+compatibility-version: 0
+exports:
+  - archs:              [ x86_64 ]
+    symbols:            [ _GetPrefixInitialState, _GetResultPostprocessor, _GetSuffixInitialState, _GetVersion ]
+...

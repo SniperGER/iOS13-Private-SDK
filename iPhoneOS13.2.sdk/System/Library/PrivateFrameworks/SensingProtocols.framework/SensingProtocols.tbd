@@ -1,0 +1,11 @@
+---
+archs:                 [ arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/SensingProtocols.framework/SensingProtocols
+current-version:       2
+compatibility-version: 1
+exports:
+  - archs:              [ arm64 ]
+    symbols:            [ _BinaryFrameReadFrom, _SensingProtocolsVersionNumber, _SensingProtocolsVersionString ]
+    objc-classes:       [ _BinaryFrame ]
+...

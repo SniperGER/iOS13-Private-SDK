@@ -1,0 +1,12 @@
+---
+archs:                 [ x86_64 ]
+platform:              ios
+install-name:          /System/Library/Frameworks/MultipeerConnectivity.framework/MultipeerConnectivity
+current-version:       163
+compatibility-version: 0
+exports:
+  - archs:              [ x86_64 ]
+    symbols:            [ _MCErrorDomain, _kMCSessionMaximumNumberOfPeers, _kMCSessionMinimumNumberOfPeers ]
+    objc-classes:       [ _MCAdvertiserAssistant, _MCBrowserViewController, _MCNearbyServiceAdvertiser, _MCNearbyServiceBrowser,
+                          _MCPeerID, _MCSession ]
+...

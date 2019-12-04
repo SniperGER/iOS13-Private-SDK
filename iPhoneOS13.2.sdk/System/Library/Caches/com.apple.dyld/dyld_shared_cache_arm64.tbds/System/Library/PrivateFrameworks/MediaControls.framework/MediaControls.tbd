@@ -1,0 +1,18 @@
+---
+archs:                 [ x86_64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/MediaControls.framework/MediaControls
+current-version:       1
+compatibility-version: 0
+exports:
+  - archs:              [ x86_64 ]
+    symbols:            [ _MRMediaControlsPlatterDeviceIdentifierAppleTV, _MRMediaControlsPlatterDeviceIdentifierGenericSpeaker,
+                          _MRMediaControlsPlatterDeviceIdentifierHomePod, _MRMediaControlsPlatterDeviceIdentifierHomePodStereoPair,
+                          _MRMediaControlsPlatterDeviceIdentifierSpeaker ]
+    objc-classes:       [ _MRPlatterViewController, _MediaControlsBluetoothListeningModeButton,
+                          _MediaControlsCollectionViewController, _MediaControlsEndpointsViewController,
+                          _MediaControlsExpandableButton, _MediaControlsExpandableButtonOption,
+                          _MediaControlsLanguageOptionsViewController, _MediaControlsPanelViewController,
+                          _MediaControlsStyleCoordinator, _MediaControlsVolumeBackgroundViewController,
+                          _MediaControlsVolumeController, _MediaControlsVolumeSliderView, _MediaControlsVolumeViewController ]
+...

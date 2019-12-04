@@ -1,0 +1,14 @@
+---
+archs:                 [ arm64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/CloudKitCode.framework/CloudKitCode
+current-version:       854
+compatibility-version: 1
+exports:
+  - archs:              [ arm64 ]
+    allowed-clients:    [ CloudKitIntegrationTests, CloudKitSerialIntegrationTests, CloudKitTestSupport, CloudKitUnitTests,
+                          CloudPhotoLibraryTests, DPSubmissionService, DeviceSimulator, Fitness, OctagonTests, SessionTrackerApp,
+                          SeymourClient, SeymourCore, SeymourServerProtocol, SeymourServices, SeymourTestApp, SeymourUI, SeymourViewService,
+                          TrustedPeersHelper, TrustedPeersHelperUnitTests, UnitTests, cloudphotod, cplctl, seymourcatalogd, seymoursessiond,
+                          smctl ]
+...

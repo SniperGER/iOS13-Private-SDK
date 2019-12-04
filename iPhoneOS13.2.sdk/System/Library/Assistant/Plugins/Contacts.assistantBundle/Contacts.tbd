@@ -1,0 +1,13 @@
+---
+archs:                 [ arm64 ]
+platform:              ios
+install-name:          /System/Library/Assistant/Plugins/Contacts.assistantBundle/Contacts
+current-version:       0
+compatibility-version: 0
+exports:
+  - archs:              [ arm64 ]
+    objc-classes:       [ _ABAssistantSyncAnchor, _ABAssistantSyncHandler, _ABAssistantSyncInfoPersistence, _ABAssistantSyncPeople,
+                          _ABAssistantSyncWorker, _CNAssistantCache, _CNAssistantCommandCancelPerson, _CNAssistantCommandClear,
+                          _CNAssistantCommandCommitPerson, _CNAssistantCommandMultiSearchPerson, _CNAssistantCommandPunchOut,
+                          _CNAssistantCommandRetrievePerson, _CNAssistantCommandSearchPerson, _CNAssistantCommandUpdatePerson ]
+...

@@ -1,0 +1,13 @@
+---
+archs:                 [ x86_64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/SiriAudioSupport.framework/SiriAudioSupport
+current-version:       1
+compatibility-version: 0
+exports:
+  - archs:              [ x86_64 ]
+    allowed-clients:    [ AudioInternalIntentExtension, IntentsServices, SiriAudioDESPlugin, SiriAudioInternal, SiriAudioInternalTests,
+                          SiriAudioSupport, SiriAudioSupportIntegrationTests, SiriAudioSupportTests, siriaudio_helper ]
+    symbols:            [ _SiriAudioSupportVersionNumber, _SiriAudioSupportVersionString ]
+    objc-classes:       [ _SAASSignals, _SAHConnection ]
+...

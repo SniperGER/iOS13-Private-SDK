@@ -1,0 +1,23 @@
+---
+archs:                 [ x86_64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/SharingUI.framework/SharingUI
+current-version:       1496.8
+compatibility-version: 0
+exports:
+  - archs:              [ x86_64 ]
+    symbols:            [ _SFAdjustmentFiltersForAssetTypeAndURL, _SFAirDropActivityMaxPreviewsKey,
+                          _SFFontForTextStyleWithAdditionalSymbolicTraits, _SFImageStackFromImages,
+                          _SFMathAddToValueWithRubberbanding, _SFMathClamp, _SFMathClampedMap, _SFMathClampedProgress, _SFMathMap,
+                          _SFMathProgress, _SFMathRubberband, _SFMathTransition, _SFMathUnrubberband,
+                          _SFPlaybackTimeRangesFromFeaturesTimeURL, _SFRoundToScreen, _SFScaleAndRotateImage,
+                          _SFSpringConvertDampingRatioResponseToStiffnessDamping,
+                          _SFSpringConvertMassStiffnessDampingToDampingRatioResponse,
+                          _SFSpringConvertMassStiffnessDampingToStiffnessDamping,
+                          _SFSpringConvertStiffnessDampingToDampingRatioResponse, _SFVisualEffectViewWrapperForView,
+                          _activityImageForCurrentTraitCollectionWithName ]
+    objc-classes:       [ _SFAdjustedImageView, _SFAirDropActivityViewController, _SFAirDropDiscoveryController,
+                          _SFAirDropMagicHeadViewController, _SFAirDropPayload, _SFAirDropViewController, _SFB332SetupObserver,
+                          _SFCAPackageView, _SFCircleProgressView, _SFHighlightButton, _SFMediaPlayerItem, _SFMediaPlayerView,
+                          _SFPersonCollectionViewCell, _SFPersonImageView, _SFShareAudioViewController, _SFSharedAudioDeviceInfo ]
+...

@@ -1,0 +1,7 @@
+---
+archs:                 [ arm64 ]
+platform:              ios
+install-name:          /System/Library/Accounts/Notification/SocialAccountNotificationPlugin.bundle/SocialAccountNotificationPlugin
+current-version:       0
+compatibility-version: 0
+...

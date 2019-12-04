@@ -1,0 +1,12 @@
+---
+archs:                 [ x86_64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/Pegasus.framework/Pegasus
+current-version:       1
+compatibility-version: 0
+exports:
+  - archs:              [ x86_64 ]
+    symbols:            [ _PGPegasusErrorDomain, _PGPictureInPictureProxyPictureInPictureActiveChangedNotification ]
+    objc-classes:       [ _PGPictureInPictureApplication, _PGPictureInPictureController, _PGPictureInPictureProxy,
+                          _PGPictureInPictureViewController ]
+...

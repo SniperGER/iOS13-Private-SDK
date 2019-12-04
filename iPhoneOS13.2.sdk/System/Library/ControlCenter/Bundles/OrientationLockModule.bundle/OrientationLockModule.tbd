@@ -1,0 +1,12 @@
+---
+archs:                 [ arm64 ]
+platform:              ios
+install-name:          /System/Library/ControlCenter/Bundles/OrientationLockModule.bundle/OrientationLockModule
+current-version:       0
+compatibility-version: 0
+exports:
+  - archs:              [ arm64 ]
+    symbols:            [ _OrientationLockModuleVersionNumber, _OrientationLockModuleVersionString ]
+    objc-classes:       [ _CCUIOrientationLockModule ]
+    objc-ivars:         [ _CCUIOrientationLockModule._systemAgent ]
+...

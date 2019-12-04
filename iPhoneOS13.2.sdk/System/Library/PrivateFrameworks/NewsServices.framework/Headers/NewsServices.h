@@ -1,0 +1,11 @@
+#import <NewsServices/CDStructures.h>
+#import <NewsServices/NAVNewsArticleViewerRemoteProviderType-Protocol.h>
+#import <NewsServices/NAVNewsArticleViewerServiceProviderType-Protocol.h>
+#import <NewsServices/NNCComplicationDataSource.h>
+#import <NewsServices/NNCLastNewsStoryResult.h>
+#import <NewsServices/NSSArticle.h>
+#import <NewsServices/NSSArticleViewController.h>
+#import <NewsServices/NSSComplicationDataSource.h>
+#import <NewsServices/NSSNewsArticlePrefetcher.h>
+#import <NewsServices/NSSNewsRemoteViewController.h>
+#import <NewsServices/NSSNewsViewController.h>

@@ -1,0 +1,16 @@
+---
+archs:                 [ x86_64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/ConstantClasses.framework/ConstantClasses
+current-version:       1
+compatibility-version: 0
+exports:
+  - archs:              [ x86_64 ]
+    symbols:            [ _CFStringHashNSString, __NSConstantDictionaryKeyHash ]
+    objc-classes:       [ __NSConstantArray, __NSConstantArrayEnumerator, __NSConstantData, __NSConstantDate, __NSConstantDictionary,
+                          __NSConstantDictionaryEnumerator, __NSConstantNumber, __NSConstantNumberBool, __NSConstantNumberFloat,
+                          __NSConstantNumberInt ]
+    objc-ivars:         [ __NSConstantArrayEnumerator.capacity, __NSConstantArrayEnumerator.index,
+                          __NSConstantArrayEnumerator.objects, __NSConstantDictionaryEnumerator.capacity,
+                          __NSConstantDictionaryEnumerator.currentKey, __NSConstantDictionaryEnumerator.keyIndex ]
+...

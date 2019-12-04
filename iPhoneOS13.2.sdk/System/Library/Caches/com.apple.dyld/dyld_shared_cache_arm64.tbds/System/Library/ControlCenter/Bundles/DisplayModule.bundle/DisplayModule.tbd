@@ -1,0 +1,13 @@
+---
+archs:                 [ x86_64 ]
+platform:              ios
+install-name:          /System/Library/ControlCenter/Bundles/DisplayModule.bundle/DisplayModule
+current-version:       0
+compatibility-version: 0
+exports:
+  - archs:              [ x86_64 ]
+    symbols:            [ _DisplayModuleVersionNumber, _DisplayModuleVersionString ]
+    objc-classes:       [ _CCUIDisplayBackgroundViewController, _CCUIDisplayModule, _CCUIDisplayModuleViewController ]
+    objc-ivars:         [ _CCUIDisplayModule._backgroundViewController, _CCUIDisplayModule._contentModuleContext,
+                          _CCUIDisplayModule._moduleViewController ]
+...

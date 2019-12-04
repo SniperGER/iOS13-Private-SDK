@@ -1,0 +1,18 @@
+---
+archs:                 [ x86_64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/SensorKitUI.framework/SensorKitUI
+current-version:       1
+compatibility-version: 0
+exports:
+  - archs:              [ x86_64 ]
+    symbols:            [ _SRAuthorizationAllServices, _SRAuthorizationGroupForService, _SRAuthorizationGroupToServiceIdentifierMap,
+                          _SRErrorDomain, _SRLocalizationIdentifier, _SRLocalizedDescriptionForAuthorizationGroup,
+                          _SRLocalizedDescriptionForSensor, _SRLocalizedNameForAuthorizationGroup, _SRLocalizedNameForSensor,
+                          _SRRealCategoryToInfoPlistAuthCategory, _SensorKitUIVersionNumber, _SensorKitUIVersionString,
+                          _kTCCOverrideDummyBundleId ]
+    objc-classes:       [ _SRAppInfoPlistHelper, _SRAppUsageCell, _SRAuthorizationCategoryDetailCell,
+                          _SRAuthorizationCategoryGroupViewController, _SRAuthorizationCell, _SRAuthorizationCommonUI,
+                          _SRAuthorizationPromptPresentationController, _SRAuthorizationStore, _SRError,
+                          _SRRemoteAuthorizationPromptViewController, _SRSampleViewController ]
+...

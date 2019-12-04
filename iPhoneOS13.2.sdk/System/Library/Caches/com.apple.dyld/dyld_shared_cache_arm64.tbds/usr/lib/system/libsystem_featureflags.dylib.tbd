@@ -1,0 +1,10 @@
+---
+archs:                 [ x86_64 ]
+platform:              ios
+install-name:          /usr/lib/system/libsystem_featureflags.dylib
+current-version:       17
+compatibility-version: 0
+exports:
+  - archs:              [ x86_64 ]
+    symbols:            [ __os_feature_enabled_impl ]
+...

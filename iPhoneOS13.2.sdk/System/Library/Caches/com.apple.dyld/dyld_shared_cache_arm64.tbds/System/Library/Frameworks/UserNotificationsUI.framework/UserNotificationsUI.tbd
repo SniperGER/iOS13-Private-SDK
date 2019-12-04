@@ -1,0 +1,13 @@
+---
+archs:                 [ x86_64 ]
+platform:              ios
+install-name:          /System/Library/Frameworks/UserNotificationsUI.framework/UserNotificationsUI
+current-version:       1
+compatibility-version: 0
+exports:
+  - archs:              [ x86_64 ]
+    symbols:            [ _UNAppLaunchOriginContentExtension, _UserNotificationsUIVersionNumber, _UserNotificationsUIVersionString,
+                          __UNNotificationExtensionActionsKey ]
+    objc-classes:       [ __UNNotificationContentExtensionContext, __UNNotificationExtensionHostViewController,
+                          __UNNotificationExtensionRemoteViewController, __UNNotificationExtensionRemoteViewControllerView ]
+...

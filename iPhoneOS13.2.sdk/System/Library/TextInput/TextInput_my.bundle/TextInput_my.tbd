@@ -1,0 +1,10 @@
+---
+archs:                 [ arm64 ]
+platform:              ios
+install-name:          /System/Library/TextInput/TextInput_my.bundle/TextInput_my
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:              [ arm64 ]
+    objc-classes:       [ _TIKeyboardInputManager_my ]
+...

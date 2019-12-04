@@ -1,0 +1,10 @@
+---
+archs:                 [ arm64 ]
+platform:              ios
+install-name:          /System/Library/Accounts/Authentication/AppleIDAuthentication.bundle/AppleIDAuthentication
+current-version:       0
+compatibility-version: 0
+exports:
+  - archs:              [ arm64 ]
+    objc-classes:       [ _AppleIDAuthenticationPlugin, _AppleIDAuthenticationUtil, _AppleIDTokenMigrator ]
+...

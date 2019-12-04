@@ -1,0 +1,15 @@
+---
+archs:                 [ arm64 ]
+platform:              ios
+install-name:          /System/Library/AccessibilityBundles/HearingAidUIServer.axuiservice/HearingAidUIServer
+current-version:       0
+compatibility-version: 0
+exports:
+  - archs:              [ arm64 ]
+    objc-classes:       [ _AXHearingAidDisplayController, _AXUltronStatusProviderViewController, _HearingAidUIServer ]
+    objc-ivars:         [ _AXHearingAidDisplayController._moduleUIController, _AXHearingAidDisplayController._parentController,
+                          _AXUltronStatusProviderViewController._clearTimer, _AXUltronStatusProviderViewController._confidence,
+                          _AXUltronStatusProviderViewController._listenType, _HearingAidUIServer._disableSystemGestureAssertion,
+                          _HearingAidUIServer._displayController, _HearingAidUIServer._emptyViewController,
+                          _HearingAidUIServer._handoffAlertController, _HearingAidUIServer._userNotificationCenter ]
+...

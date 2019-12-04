@@ -1,0 +1,13 @@
+---
+archs:                 [ x86_64 ]
+platform:              ios
+install-name:          /System/Library/PrivateFrameworks/HealthEducationUI.framework/HealthEducationUI
+current-version:       1
+compatibility-version: 0
+exports:
+  - archs:              [ x86_64 ]
+    symbols:            [ _HealthEducationUIVersionNumber, _HealthEducationUIVersionString ]
+    objc-classes:       [ __TtC17HealthEducationUI12TileSashView, __TtC17HealthEducationUI14SoundLevelView,
+                          __TtC17HealthEducationUI19HorizontalMeterView, __TtC17HealthEducationUI23HealthEducationTileView,
+                          __TtC17HealthEducationUI29HealthEducationViewController ]
+...

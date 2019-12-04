@@ -1,0 +1,11 @@
+---
+archs:                 [ x86_64 ]
+platform:              ios
+install-name:          /System/Library/Frameworks/LocalAuthentication.framework/Support/DaemonUtils.framework/DaemonUtils
+current-version:       693.40.8
+compatibility-version: 0
+exports:
+  - archs:              [ x86_64 ]
+    symbols:            [ _LANVRAMNamespaceStartupManager, __libBiometricKit ]
+    objc-classes:       [ _BiometryHelper, _Caller, _DaemonUtils, _InstalledAppsCache, _LANVRAM, _PushButtonMonitor, _Request ]
+...
