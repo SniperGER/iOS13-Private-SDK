@@ -7,7 +7,7 @@
 #import <UIKit/UIView.h>
 
 #import <PassKitUI/PKPasscodeLockManagerObserver-Protocol.h>
-#import <PassKitUI/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSMutableArray, NSString, PKPass, PKPassColorProfile, PKPassFaceViewRendererState, PKPassFrontFaceView, PKPasscodeLockManager, UITapGestureRecognizer;
 @protocol WLCardViewDelegate;

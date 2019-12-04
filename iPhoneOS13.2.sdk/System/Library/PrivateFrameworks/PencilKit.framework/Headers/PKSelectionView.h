@@ -7,7 +7,7 @@
 #import <UIKit/UIView.h>
 
 #import <PencilKit/UIDragInteractionDelegate_Private-Protocol.h>
-#import <PencilKit/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class CAShapeLayer, NSMutableArray, NSString, PKSelectionController, PKStrokeSelection, UIBezierPath, UIDragInteraction, UIDragPreview, UIImage, UIImageView, UILongPressGestureRecognizer, UIResponder, UITapGestureRecognizer;
 

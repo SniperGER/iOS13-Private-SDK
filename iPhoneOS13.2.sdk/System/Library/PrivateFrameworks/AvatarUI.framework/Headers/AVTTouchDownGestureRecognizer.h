@@ -6,7 +6,7 @@
 
 #import <UIKit/UIGestureRecognizer.h>
 
-#import <AvatarUI/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSHashTable, NSString;
 

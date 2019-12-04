@@ -44,5 +44,5 @@
 #import <DigitalTouchShared/KissNode.h>
 #import <DigitalTouchShared/NSKeyedArchiver-ETAdditions.h>
 #import <DigitalTouchShared/NSKeyedUnarchiver-ETAdditions.h>
-#import <DigitalTouchShared/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <DigitalTouchShared/UIImage-ETImage.h>

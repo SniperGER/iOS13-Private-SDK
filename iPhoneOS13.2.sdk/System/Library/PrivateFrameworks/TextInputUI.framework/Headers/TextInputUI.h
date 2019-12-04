@@ -44,7 +44,7 @@
 #import <TextInputUI/TUITypedStringCandidate.h>
 #import <TextInputUI/UICollectionViewDataSource-Protocol.h>
 #import <TextInputUI/UICollectionViewDelegate-Protocol.h>
-#import <TextInputUI/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <TextInputUI/UIKeyboardInputMode-Staging_Compatibility.h>
 #import <TextInputUI/UIScrollViewDelegate-Protocol.h>
 #import <TextInputUI/UIView-TUICandidateLine.h>

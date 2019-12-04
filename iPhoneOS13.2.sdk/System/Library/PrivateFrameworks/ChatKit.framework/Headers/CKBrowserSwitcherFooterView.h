@@ -8,7 +8,7 @@
 
 #import <ChatKit/UICollectionViewDataSource-Protocol.h>
 #import <ChatKit/UICollectionViewDelegate-Protocol.h>
-#import <ChatKit/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class CKAppStripLayout, NSString, NSTimer, UICollectionView, UILongPressGestureRecognizer;
 @protocol CKAppStripPredictiveTypeTransition, CKBrowserSwitcherFooterViewDataSource, CKBrowserSwitcherFooterViewDelegate;

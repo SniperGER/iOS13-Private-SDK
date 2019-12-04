@@ -35,24 +35,6 @@ struct CAColorMatrix {
     float _field20;
 };
 
-struct CATransform3D {
-    double _field1;
-    double _field2;
-    double _field3;
-    double _field4;
-    double _field5;
-    double _field6;
-    double _field7;
-    double _field8;
-    double _field9;
-    double _field10;
-    double _field11;
-    double _field12;
-    double _field13;
-    double _field14;
-    double _field15;
-    double _field16;
-};
 
 
 
@@ -135,7 +117,7 @@ typedef struct {
 
 typedef struct {
     unsigned long long _field1;
-    id *_field2;
+    id _field2;
     unsigned long long *_field3;
     unsigned long long _field4[5];
 } CDStruct_70511ce9;

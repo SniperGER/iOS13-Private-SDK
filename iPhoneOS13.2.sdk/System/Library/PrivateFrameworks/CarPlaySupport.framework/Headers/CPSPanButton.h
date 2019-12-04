@@ -6,7 +6,7 @@
 
 #import <UIKit/UIButton.h>
 
-#import <CarPlaySupport/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSString, UIView;
 

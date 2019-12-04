@@ -1,4 +1,3 @@
-#import <CameraEditKit/CAAnimationDelegate-Protocol.h>
 #import <CameraEditKit/CDStructures.h>
 #import <CameraEditKit/CEKAbstractSlider-Protocol.h>
 #import <CameraEditKit/CEKAnimationGenerator.h>
@@ -40,6 +39,6 @@
 #import <CameraEditKit/NSIndexSet-CEKLightingFrameCache.h>
 #import <CameraEditKit/UICollectionViewDataSource-Protocol.h>
 #import <CameraEditKit/UICollectionViewDelegate-Protocol.h>
-#import <CameraEditKit/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <CameraEditKit/UIPreviewInteractionDelegate-Protocol.h>
 #import <CameraEditKit/UIScrollViewDelegate-Protocol.h>

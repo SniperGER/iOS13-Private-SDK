@@ -34,7 +34,7 @@
 #import <ConversationKit/TURouteControllerDelegate-Protocol.h>
 #import <ConversationKit/UICollectionViewDataSource-Protocol.h>
 #import <ConversationKit/UICollectionViewDelegate-Protocol.h>
-#import <ConversationKit/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <ConversationKit/UIInteraction-Protocol.h>
 #import <ConversationKit/UIScrollViewDelegate-Protocol.h>
 #import <ConversationKit/UIViewControllerAnimatedTransitioning-Protocol.h>

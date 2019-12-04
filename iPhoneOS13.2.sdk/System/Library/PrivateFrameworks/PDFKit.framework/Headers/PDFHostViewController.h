@@ -7,7 +7,7 @@
 #import <UIKit/_UIRemoteViewController.h>
 
 #import <PDFKit/UIDocumentPasswordViewDelegate-Protocol.h>
-#import <PDFKit/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSString, PDFHostViewControllerPrivate;
 

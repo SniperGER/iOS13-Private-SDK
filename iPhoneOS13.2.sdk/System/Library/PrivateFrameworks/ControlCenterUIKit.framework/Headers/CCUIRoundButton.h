@@ -6,7 +6,7 @@
 
 #import <UIKit/UIControl.h>
 
-#import <ControlCenterUIKit/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class CCUICAPackageDescription, CCUICAPackageView, MTVisualStylingProvider, NSString, UIColor, UIImage, UIImageView, UILongPressGestureRecognizer, UIView;
 

@@ -6,7 +6,7 @@
 
 #import <QuartzCore/CALayer.h>
 
-#import <PencilKit/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class CATextLayer, NSString, NSTimer, PKRulerController;
 

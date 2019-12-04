@@ -11,7 +11,7 @@
 #import <PencilKit/PKRulerHostingDelegate-Protocol.h>
 #import <PencilKit/PKTiledCanvasViewDelegate-Protocol.h>
 #import <PencilKit/UIDropInteractionDelegate_Private-Protocol.h>
-#import <PencilKit/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <PencilKit/UIScrollViewDelegate-Protocol.h>
 #import <PencilKit/_UIScrollViewLayoutObserver-Protocol.h>
 #import <PencilKit/_UIScrollViewScrollObserver-Protocol.h>

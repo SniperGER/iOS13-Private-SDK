@@ -8,7 +8,7 @@
 
 #import <SearchUI/SearchUIKeyboardableTableViewScrollDelegate-Protocol.h>
 #import <SearchUI/SearchUITableViewTesting-Protocol.h>
-#import <SearchUI/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSArray, NSString, SearchUIBackgroundView, SearchUIReplicatorView, SearchUIResultTableViewController, SearchUISearchField, UIView;
 @protocol SFFeedbackListener, SearchUIResultsViewDelegate;

@@ -8,7 +8,7 @@
 
 #import <ControlCenterUI/CCUIContentModuleContainer-Protocol.h>
 #import <ControlCenterUI/CCUISafeAppearancePropagationProvider-Protocol.h>
-#import <ControlCenterUI/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <ControlCenterUI/_UIClickPresentationInteractionDelegate-Protocol.h>
 
 @class CCUIContentModuleBackgroundView, CCUIContentModuleContainerPresentationController, CCUIContentModuleContentContainerView, NSArray, NSString, UITapGestureRecognizer, UIView, _UIClickPresentationInteraction;

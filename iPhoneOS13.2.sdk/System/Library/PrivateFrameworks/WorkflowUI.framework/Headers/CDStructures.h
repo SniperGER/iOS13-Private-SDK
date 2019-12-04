@@ -651,10 +651,10 @@ struct unordered_map<unsigned long, UIImage *, std::__1::hash<unsigned long>, st
 };
 
 struct vector<CKComponent *, std::__1::allocator<CKComponent *>> {
-    id *__begin_;
-    id *__end_;
+    id __begin_;
+    id __end_;
     struct __compressed_pair<CKComponent *__strong *, std::__1::allocator<CKComponent *>> {
-        id *__value_;
+        id __value_;
     } __end_cap_;
 };
 
@@ -844,10 +844,10 @@ typedef struct unordered_map<unsigned long, UIImage *, std::__1::hash<unsigned l
 } unordered_map_25560788;
 
 typedef struct vector<CKComponent *, std::__1::allocator<CKComponent *>> {
-    id *__begin_;
-    id *__end_;
+    id __begin_;
+    id __end_;
     struct __compressed_pair<CKComponent *__strong *, std::__1::allocator<CKComponent *>> {
-        id *__value_;
+        id __value_;
     } __end_cap_;
 } vector_e48f0605;
 

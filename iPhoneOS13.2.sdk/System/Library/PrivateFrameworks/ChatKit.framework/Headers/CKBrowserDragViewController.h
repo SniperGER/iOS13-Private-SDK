@@ -8,7 +8,7 @@
 
 #import <ChatKit/CKAnimationTimerObserver-Protocol.h>
 #import <ChatKit/UIDynamicAnimatorDelegate-Protocol.h>
-#import <ChatKit/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class CADisplayLink, CALayer, CKAnimatedImage, CKElasticFunction, NSArray, NSMutableDictionary, NSString, UIImage, UILongPressGestureRecognizer, UIPanGestureRecognizer, UIView;
 @protocol CKBrowserDragViewControllerDelegate;

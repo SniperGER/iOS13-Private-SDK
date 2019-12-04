@@ -6,7 +6,6 @@
 
 #import <UIKit/UIView.h>
 
-#import <SpringBoardUIServices/CAAnimationDelegate-Protocol.h>
 #import <SpringBoardUIServices/SBNumberPadDelegate-Protocol.h>
 
 @class NSArray, NSString, SBNumberPadWithDelegate, SBUIButton, UIColor, UIControl;

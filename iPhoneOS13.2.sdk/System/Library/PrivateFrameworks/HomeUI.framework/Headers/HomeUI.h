@@ -2,7 +2,6 @@
 #import <HomeUI/AVPlayerViewControllerDelegate-Protocol.h>
 #import <HomeUI/AVPlayerViewControllerDelegatePrivate-Protocol.h>
 #import <HomeUI/AXUISettingsEditableTableCellWithStepperDelegate-Protocol.h>
-#import <HomeUI/CAAnimationDelegate-Protocol.h>
 #import <HomeUI/CALayer-HUAdditions.h>
 #import <HomeUI/CAMediaTimingFunction-HUAnimationAdditions.h>
 #import <HomeUI/CAStateControllerDelegate-Protocol.h>
@@ -1000,7 +999,7 @@
 #import <HomeUI/UIDevice-HUAdditions.h>
 #import <HomeUI/UIDropInteractionDelegate-Protocol.h>
 #import <HomeUI/UIGestureRecognizer-HUGeometryAdditions.h>
-#import <HomeUI/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <HomeUI/UIImage-HUAdditions.h>
 #import <HomeUI/UIImagePickerControllerDelegate-Protocol.h>
 #import <HomeUI/UIInteractionProgressObserver-Protocol.h>

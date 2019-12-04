@@ -9,7 +9,7 @@
 #import <NanoTimeKitCompanion/NTKAstronomyRotationModelObserver-Protocol.h>
 #import <NanoTimeKitCompanion/NTKAstronomyVistaViewObserver-Protocol.h>
 #import <NanoTimeKitCompanion/NTKTimeView-Protocol.h>
-#import <NanoTimeKitCompanion/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSArray, NSDate, NSDateFormatter, NSString, NTKAstronomyLocationDot, NTKAstronomyRotationModel, NTKAstronomyVistaView, NTKColoringLabel, NTKDateComplicationLabel, NTKDelayedBlock, NTKDigitalTimeLabelStyle, NTKDigitialUtilitarianFaceViewComplicationFactory, UIImageView, UIPanGestureRecognizer, UITapGestureRecognizer, UIView;
 

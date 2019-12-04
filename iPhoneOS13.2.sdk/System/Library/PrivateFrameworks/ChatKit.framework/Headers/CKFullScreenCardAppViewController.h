@@ -9,7 +9,7 @@
 #import <ChatKit/CKBrowserViewControllerProtocol-Protocol.h>
 #import <ChatKit/CKFullScreenAppViewControllerProtocol-Protocol.h>
 #import <ChatKit/UIAdaptivePresentationControllerDelegate-Protocol.h>
-#import <ChatKit/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class CKBrowserDragManager, CKConversation, CKDismissView, IMBalloonPlugin, IMBalloonPluginDataSource, NSArray, NSData, NSNumber, NSObject, NSString, UIView;
 @protocol CKBrowserViewControllerProtocol, CKBrowserViewControllerSendDelegate, CKFullScreenAppViewControllerDelegate, UIViewControllerTransitioningDelegate;

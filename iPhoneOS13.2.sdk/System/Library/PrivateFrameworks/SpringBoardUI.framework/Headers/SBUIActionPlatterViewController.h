@@ -6,7 +6,7 @@
 
 #import <UIKit/UIViewController.h>
 
-#import <SpringBoardUI/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSArray, NSString, UILongPressGestureRecognizer, UISelectionFeedbackGenerator, UIStackView, UIView;
 @protocol SBUIActionPlatterViewControllerDelegate;

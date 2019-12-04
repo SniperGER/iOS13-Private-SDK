@@ -26,7 +26,7 @@
 #import <SpringBoard/SBRootFolderPageStateObserver-Protocol.h>
 #import <SpringBoard/SBSearchGestureObserver-Protocol.h>
 #import <SpringBoard/SPUIRemoteSearchViewDelegate-Protocol.h>
-#import <SpringBoard/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <SpringBoard/WGWidgetGroupViewControllerDelegate-Protocol.h>
 
 @class BBObserver, BSEventQueue, NSArray, NSIndexPath, NSMapTable, NSMutableArray, NSMutableSet, NSSet, NSString, NSTimer, PTSingleTestRecipe, SBAlertItemsController, SBAppStatusBarDateTimeAssertion, SBApplicationController, SBApplicationPlaceholderController, SBAssistantController, SBFloatingDockController, SBFolderController, SBFolderStatsQueryableMetric, SBHIconImageCache, SBHIconManager, SBHRootFolderSettings, SBHomeScreenSpotlightViewController, SBHomeScreenTodayViewController, SBIconContentView, SBIconDragManager, SBIconModel, SBIconVisibilityService, SBMainDisplayPolicyAggregator, SBRootFolder, SBRootFolderController, SBTodayOverlayController, SBUIController, SBWorkspaceTransitionRequest, UIView, UIWindow, WGWidgetGroupViewController, _UILegibilitySettings;

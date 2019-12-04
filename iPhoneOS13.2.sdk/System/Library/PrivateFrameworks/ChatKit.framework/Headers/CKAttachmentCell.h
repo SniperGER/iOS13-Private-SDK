@@ -7,7 +7,7 @@
 #import <UIKit/UICollectionViewCell.h>
 
 #import <ChatKit/CKAnimationTimerObserver-Protocol.h>
-#import <ChatKit/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class CKAnimatedImage, CKAttachmentItem, NSArray, NSObject, NSString, UIImage, UIImageView, UITapGestureRecognizer;
 @protocol CKAttachmentCellDelegate;

@@ -6,7 +6,6 @@
 
 #import <TVMLKit/_TVBgImageLoadingViewController.h>
 
-#import <TVMLKit/CAAnimationDelegate-Protocol.h>
 #import <TVMLKit/TVAppTemplateImpressionable-Protocol.h>
 #import <TVMLKit/UICollectionViewDataSource-Protocol.h>
 #import <TVMLKit/UICollectionViewDelegate-Protocol.h>

@@ -6,7 +6,7 @@
 
 #import <UIKit/UIViewController.h>
 
-#import <VideosUI/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSString;
 

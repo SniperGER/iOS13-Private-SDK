@@ -7,7 +7,7 @@
 #import <CoverSheet/CSCoverSheetViewControllerBase.h>
 
 #import <CoverSheet/CSDismissableModalViewControllerDelegate-Protocol.h>
-#import <CoverSheet/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <CoverSheet/WKWallpaperLocketViewControllerDelegate-Protocol.h>
 
 @class NSSet, NSString, SBFFluidBehaviorSettings, UIView, UIViewFloatAnimatableProperty;

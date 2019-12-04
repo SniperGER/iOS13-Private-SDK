@@ -6,7 +6,6 @@
 
 #import <objc/NSObject.h>
 
-#import <SpringBoard/CAAnimationDelegate-Protocol.h>
 #import <SpringBoard/SBUIAnimationStepping-Protocol.h>
 
 @class BSAnimationSettings, CADisplayLink, NSArray, NSMutableSet, NSString;

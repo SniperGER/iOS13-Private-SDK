@@ -6,7 +6,7 @@
 
 #import <WorkflowUI/WFRunWorkflowViewController.h>
 
-#import <WorkflowUI/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <WorkflowUI/WFContentClassesToolbarDelegate-Protocol.h>
 #import <WorkflowUI/WFContentClassesViewControllerDelegate-Protocol.h>
 #import <WorkflowUI/WFDragControllerDelegate-Protocol.h>

@@ -557,10 +557,10 @@ struct vector<IPCAUSharedMemoryBase::Element, std::__1::allocator<IPCAUSharedMem
 };
 
 struct vector<NSObject<OS_dispatch_semaphore>*, std::__1::allocator<NSObject<OS_dispatch_semaphore>*>> {
-    id *__begin_;
-    id *__end_;
+    id __begin_;
+    id __end_;
     struct __compressed_pair<NSObject<OS_dispatch_semaphore>**, std::__1::allocator<NSObject<OS_dispatch_semaphore>*>> {
-        id *__value_;
+        id __value_;
     } __end_cap_;
 };
 
@@ -600,7 +600,7 @@ struct vector<std::__1::unique_ptr<AUv3InstanceBase::ClientPropertyListener, std
 
 typedef struct {
     unsigned long long _field1;
-    id *_field2;
+    id _field2;
     unsigned long long *_field3;
     unsigned long long _field4[5];
 } CDStruct_70511ce9;

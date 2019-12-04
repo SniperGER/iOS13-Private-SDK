@@ -8,7 +8,7 @@
 
 #import <SpringBoard/PGPictureInPictureViewControllerContentContainer-Protocol.h>
 #import <SpringBoard/SBPIPContentViewLayoutSettingsObserver-Protocol.h>
-#import <SpringBoard/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class FBDisplayLayoutElement, NSHashTable, NSLayoutConstraint, NSMutableArray, NSString, PGPictureInPictureViewController, UIView;
 

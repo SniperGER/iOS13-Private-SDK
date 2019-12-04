@@ -7,7 +7,7 @@
 #import <StoreKitUI/SKUIViewReuseView.h>
 
 #import <StoreKitUI/SKUIViewElementView-Protocol.h>
-#import <StoreKitUI/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSArray, NSMapTable, NSString, SKUIImageDeckViewElement, UIDynamicAnimator, UIView;
 

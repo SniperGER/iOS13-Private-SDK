@@ -8,7 +8,7 @@
 
 #import <CarPlaySupport/CPSLinearFocusProviding-Protocol.h>
 #import <CarPlaySupport/CPSPanViewDelegate-Protocol.h>
-#import <CarPlaySupport/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class CPSPanView, NSArray, NSString;
 @protocol CPSPanEventDelegate;

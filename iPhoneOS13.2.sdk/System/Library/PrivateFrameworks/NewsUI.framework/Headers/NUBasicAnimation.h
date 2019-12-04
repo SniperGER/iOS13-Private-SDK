@@ -6,7 +6,6 @@
 
 #import <QuartzCore/CABasicAnimation.h>
 
-#import <NewsUI/CAAnimationDelegate-Protocol.h>
 
 @class NSString;
 

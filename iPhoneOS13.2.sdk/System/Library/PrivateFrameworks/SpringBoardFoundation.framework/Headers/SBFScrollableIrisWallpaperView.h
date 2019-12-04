@@ -8,7 +8,7 @@
 
 #import <SpringBoardFoundation/ISPlayerViewDelegate-Protocol.h>
 #import <SpringBoardFoundation/SBFIrisWallpaperView-Protocol.h>
-#import <SpringBoardFoundation/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class AVAsset, ISPlayerView, NSString, NSURL;
 @protocol SBFIrisWallpaperViewDelegate;

@@ -6,7 +6,7 @@
 
 #import <UIKit/UIView.h>
 
-#import <WorkflowUI/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <WorkflowUI/WFSlotTemplateTextStorageDelegate-Protocol.h>
 #import <WorkflowUI/WFSlotTemplateTypingTextViewDelegate-Protocol.h>
 #import <WorkflowUI/WFTextAttachmentInteractionDelegate-Protocol.h>

@@ -6,7 +6,7 @@
 
 #import <UIKit/UIViewController.h>
 
-#import <AppSSOUI/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <AppSSOUI/_UIRemoteViewControllerContaining-Protocol.h>
 
 @class NSString, _UIRemoteViewController;

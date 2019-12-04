@@ -9,7 +9,7 @@
 #import <CarPlaySupport/CPBaseTemplateProviding-Protocol.h>
 #import <CarPlaySupport/CPSBaseTemplateViewController-Protocol.h>
 #import <CarPlaySupport/CPSButtonDelegate-Protocol.h>
-#import <CarPlaySupport/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class CPTemplate, NAFuture, NSString, UITapGestureRecognizer;
 @protocol CPSTemplateViewControllerDelegate, CPTemplateDelegate;

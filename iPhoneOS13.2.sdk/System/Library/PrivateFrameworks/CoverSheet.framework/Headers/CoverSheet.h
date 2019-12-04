@@ -1,6 +1,5 @@
 #import <CoverSheet/BSDescriptionProviding-Protocol.h>
 #import <CoverSheet/BSUIScrollViewDelegate-Protocol.h>
-#import <CoverSheet/CAAnimationDelegate-Protocol.h>
 #import <CoverSheet/CDStructures.h>
 #import <CoverSheet/CSAction.h>
 #import <CoverSheet/CSActionHandling-Protocol.h>
@@ -206,7 +205,7 @@
 #import <CoverSheet/SBUISpotlightInitiating-Protocol.h>
 #import <CoverSheet/SPUISearchBarDelegate-Protocol.h>
 #import <CoverSheet/UICoordinateSpace-Protocol.h>
-#import <CoverSheet/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <CoverSheet/UIInteractionProgressObserver-Protocol.h>
 #import <CoverSheet/UIScrollViewDelegate-Protocol.h>
 #import <CoverSheet/UIView-CSCoverSheetViewBase.h>

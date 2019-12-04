@@ -7,7 +7,7 @@
 #import <UIKit/UIViewController.h>
 
 #import <HearingUI/HACCContentModuleDelegate-Protocol.h>
-#import <HearingUI/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class AXDispatchTimer, AXRemoteHearingAidDevice, CCUIContentModuleContext, HACCContentViewController, NSMutableArray, NSMutableDictionary, NSString, UIScrollView;
 @protocol AXHAShortcutUpdateProtocol;

@@ -6,7 +6,7 @@
 
 #import <VideosUI/VUILibraryFetchControllerViewController.h>
 
-#import <VideosUI/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <VideosUI/VUIEpisodeDetailViewDelegate-Protocol.h>
 #import <VideosUI/VUIMediaEntitiesFetchControllerDelegate-Protocol.h>
 

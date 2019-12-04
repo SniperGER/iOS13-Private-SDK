@@ -7,7 +7,7 @@
 #import <objc/NSObject.h>
 
 #import <PhotosUICore/PXVerticalSwipeGestureRecognizerHelperDelegate-Protocol.h>
-#import <PhotosUICore/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <PhotosUICore/UINavigationControllerDelegate-Protocol.h>
 
 @class NSMapTable, NSMutableSet, NSString, PXVerticalSwipeGestureRecognizerHelper;

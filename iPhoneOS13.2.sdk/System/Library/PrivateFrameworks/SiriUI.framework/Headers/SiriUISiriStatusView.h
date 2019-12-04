@@ -8,7 +8,7 @@
 
 #import <SiriUI/SUICFlamesViewDelegate-Protocol.h>
 #import <SiriUI/SiriUISiriStatusViewProtocol-Protocol.h>
-#import <SiriUI/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class AVAudioSession, AVPlayerItem, AVPlayerLayer, AVPlayerLooper, AVQueuePlayer, NSObject, NSString, SUICFlamesView, SiriUIConfiguration, UILongPressGestureRecognizer, UIScreen;
 @protocol OS_dispatch_queue, SiriUISiriStatusViewAnimationDelegate, SiriUISiriStatusViewDelegate;

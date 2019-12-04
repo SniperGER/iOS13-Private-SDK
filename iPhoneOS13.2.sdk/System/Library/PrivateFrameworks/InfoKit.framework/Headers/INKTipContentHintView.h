@@ -6,7 +6,7 @@
 
 #import <InfoKit/INKContentView.h>
 
-#import <InfoKit/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class INKMultilineButton, NSMutableArray, NSString, UIButton, UIImageView, UILabel;
 @protocol INKTipContentHintViewDelegate;

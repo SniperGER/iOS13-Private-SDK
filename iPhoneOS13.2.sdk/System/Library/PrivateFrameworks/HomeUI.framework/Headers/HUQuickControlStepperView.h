@@ -7,7 +7,7 @@
 #import <UIKit/UIView.h>
 
 #import <HomeUI/HUQuickControlInteractiveView-Protocol.h>
-#import <HomeUI/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class HUQuickControlStepperViewProfile, NSArray, NSNumber, NSString, UIImpactFeedbackGenerator, UILongPressGestureRecognizer;
 @protocol HUQuickControlViewInteractionDelegate;

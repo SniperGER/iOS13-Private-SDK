@@ -9,7 +9,7 @@
 #import <StoreKitUI/SKUIArtworkRequestDelegate-Protocol.h>
 #import <StoreKitUI/SKUIItemStateCenterObserver-Protocol.h>
 #import <StoreKitUI/SKUILayoutCacheDelegate-Protocol.h>
-#import <StoreKitUI/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class IKAppDocument, NSString, SKUIHorizontalLockupView, SKUILayoutCache, SKUIViewElementLayoutContext, SUPlayerStatus, UITapGestureRecognizer;
 

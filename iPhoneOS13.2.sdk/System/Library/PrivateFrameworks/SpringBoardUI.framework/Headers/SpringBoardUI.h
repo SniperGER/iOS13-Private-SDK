@@ -68,7 +68,7 @@
 #import <SpringBoardUI/SBUIStarkBannerViewButton.h>
 #import <SpringBoardUI/SBUIViewFloatSpringProperty.h>
 #import <SpringBoardUI/SBUIWallpaperOverlay-Protocol.h>
-#import <SpringBoardUI/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <SpringBoardUI/UITraitCollection-SBUIAdditions.h>
 #import <SpringBoardUI/UIView-SBUIAdditions.h>
 #import <SpringBoardUI/UIViewSpringAnimationBehaviorDescribing-Protocol.h>

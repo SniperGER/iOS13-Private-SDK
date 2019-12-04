@@ -6,7 +6,7 @@
 
 #import <ChatKit/CKSharedAssetCollectionViewCell.h>
 
-#import <ChatKit/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSString, UIImage, UIImageView, UITapGestureRecognizer;
 @protocol CKSharedContentsCollectionViewCellDelegate;

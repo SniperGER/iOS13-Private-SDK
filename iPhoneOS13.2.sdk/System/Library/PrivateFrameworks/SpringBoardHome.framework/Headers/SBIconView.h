@@ -13,7 +13,7 @@
 #import <SpringBoardHome/SBSHardwareButtonEventConsuming-Protocol.h>
 #import <SpringBoardHome/UIContextMenuInteractionDelegate-Protocol.h>
 #import <SpringBoardHome/UIDragInteractionDelegate-Protocol.h>
-#import <SpringBoardHome/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <SpringBoardHome/_UISettingsKeyObserver-Protocol.h>
 
 @class NSArray, NSCountedSet, NSDate, NSHashTable, NSMapTable, NSString, NSURL, SBCloseBoxView, SBFParallaxSettings, SBFolderIcon, SBFolderIconImageCache, SBHIconImageCache, SBHRecentsDocumentExtensionProvider, SBIcon, SBIconImageCrossfadeView, SBIconImageView, UIColor, UIContextMenuConfiguration, UIContextMenuInteraction, UIDragInteraction, UIFont, UIImage, UILongPressGestureRecognizer, UITapGestureRecognizer, UIViewPropertyAnimator, _UILegibilitySettings, _UIStatesFeedbackGenerator;

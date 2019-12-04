@@ -1,4 +1,3 @@
-#import <PhotoLibrary/CAAnimationDelegate-Protocol.h>
 #import <PhotoLibrary/CDStructures.h>
 #import <PhotoLibrary/PHAssetCollectionDataSource-Protocol.h>
 #import <PhotoLibrary/PHImageManagerSettings.h>
@@ -73,7 +72,7 @@
 #import <PhotoLibrary/SBFLegibilitySettingsProviderDelegate-Protocol.h>
 #import <PhotoLibrary/UIApplication-PhotosInternal.h>
 #import <PhotoLibrary/UIApplicationDelegate-Protocol.h>
-#import <PhotoLibrary/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <PhotoLibrary/UIImagePickerControllerDelegate-Protocol.h>
 #import <PhotoLibrary/UIMovieScrubberDataSource-Protocol.h>
 #import <PhotoLibrary/UIMovieScrubberDelegate-Protocol.h>

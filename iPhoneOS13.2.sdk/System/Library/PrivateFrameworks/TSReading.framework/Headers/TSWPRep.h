@@ -6,7 +6,6 @@
 
 #import <TSReading/TSDContainerRep.h>
 
-#import <TSReading/CAAnimationDelegate-Protocol.h>
 #import <TSReading/TSDDecorator-Protocol.h>
 #import <TSReading/TSDTilingLayerDelegate-Protocol.h>
 #import <TSReading/TSKHighlightArrayControllerProtocol-Protocol.h>

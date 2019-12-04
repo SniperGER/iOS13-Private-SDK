@@ -3,7 +3,6 @@
 #import <SiriUI/AVPlayerViewController-SiriUI.h>
 #import <SiriUI/AceObject-CommandUserInfo.h>
 #import <SiriUI/AceObject-Protocol.h>
-#import <SiriUI/CAAnimationDelegate-Protocol.h>
 #import <SiriUI/CDStructures.h>
 #import <SiriUI/CRCardSection-Protocol.h>
 #import <SiriUI/CRCommandHandling-Protocol.h>
@@ -168,7 +167,7 @@
 #import <SiriUI/UICollectionViewDragDelegate-Protocol.h>
 #import <SiriUI/UIColor-UIKit_SiriUIFrameworkAdditions.h>
 #import <SiriUI/UIFont-UIKit_SiriUIFrameworkAdditions.h>
-#import <SiriUI/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <SiriUI/UIImage-UIKit_SiriUIFrameworkAdditions.h>
 #import <SiriUI/UILabel-SiriUITextStyles.h>
 #import <SiriUI/UIScrollViewDelegate-Protocol.h>

@@ -6,7 +6,7 @@
 
 #import <UIKit/UIGestureRecognizer.h>
 
-#import <TSReading/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSMutableSet, NSString, UIView;
 

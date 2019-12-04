@@ -924,7 +924,7 @@ struct HashTable<WebCore::WindowProxy *, WebCore::WindowProxy *, WTF::IdentityEx
 };
 
 struct HashTable<WebView *, WebView *, WTF::IdentityExtractor, WTF::PtrHash<WebView *>, WTF::HashTraits<WebView *>, WTF::HashTraits<WebView *>> {
-    id *m_table;
+    id m_table;
     unsigned int m_tableSize;
     unsigned int m_tableSizeMask;
     unsigned int m_keyCount;

@@ -6,7 +6,7 @@
 
 #import <UIKit/UIView.h>
 
-#import <CameraUI/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSString, NSTimer, UIImage, UIImageView, UISwipeGestureRecognizer, UITapGestureRecognizer;
 @protocol CAMTransientImageWellDelegate;

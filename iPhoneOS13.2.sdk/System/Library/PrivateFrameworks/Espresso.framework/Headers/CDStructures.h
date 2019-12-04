@@ -993,10 +993,10 @@ struct vector<FaceLandmarkDetectorPoint, std::__1::allocator<FaceLandmarkDetecto
 };
 
 struct vector<NSString *, std::__1::allocator<NSString *>> {
-    id *__begin_;
-    id *__end_;
+    id __begin_;
+    id __end_;
     struct __compressed_pair<NSString *__strong *, std::__1::allocator<NSString *>> {
-        id *__value_;
+        id __value_;
     } __end_cap_;
 };
 

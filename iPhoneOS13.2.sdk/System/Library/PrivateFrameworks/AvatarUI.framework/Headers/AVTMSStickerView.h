@@ -6,7 +6,7 @@
 
 #import <Messages/MSStickerView.h>
 
-#import <AvatarUI/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSString;
 @protocol AVTMSStickerViewDelegate, AVTStickerDisclosureValidationDelegate;

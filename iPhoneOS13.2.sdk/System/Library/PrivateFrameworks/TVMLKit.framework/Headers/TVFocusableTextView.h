@@ -6,7 +6,7 @@
 
 #import <UIKit/UIView.h>
 
-#import <TVMLKit/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <TVMLKit/_UIFloatingContentViewDelegate-Protocol.h>
 
 @class NSAttributedString, NSString, UIColor, UILabel, UITapGestureRecognizer, UITextView, UIVisualEffectView, _UIFloatingContentView;

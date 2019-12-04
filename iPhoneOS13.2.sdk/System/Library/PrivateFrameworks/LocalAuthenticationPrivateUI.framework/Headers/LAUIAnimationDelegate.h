@@ -6,7 +6,6 @@
 
 #import <objc/NSObject.h>
 
-#import <LocalAuthenticationPrivateUI/CAAnimationDelegate-Protocol.h>
 
 @class NSString;
 

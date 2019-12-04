@@ -26,6 +26,6 @@
 #import <FMFUI/MKMapViewDelegate-Protocol.h>
 #import <FMFUI/MKUserTrackingView-Protocol.h>
 #import <FMFUI/UIColor-FMF.h>
-#import <FMFUI/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <FMFUI/UIView-FrameExtensions.h>
 #import <FMFUI/UIViewController-FMFModal.h>

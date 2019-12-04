@@ -6,7 +6,6 @@
 
 #import <UIKit/UIViewController.h>
 
-#import <VideosUI/CAAnimationDelegate-Protocol.h>
 #import <VideosUI/VideosExtrasZoomingImageTransitionParticipant-Protocol.h>
 
 @class NSString, NSTimer, UIImage, VideosExtrasConstrainedArtworkContainerView;

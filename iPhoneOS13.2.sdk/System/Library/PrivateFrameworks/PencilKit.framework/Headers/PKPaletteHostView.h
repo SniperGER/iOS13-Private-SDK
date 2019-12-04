@@ -9,7 +9,7 @@
 #import <PencilKit/PKPalettePencilInteractionFeedbackHostViewDelegate-Protocol.h>
 #import <PencilKit/PKPaletteTransitionDelegate-Protocol.h>
 #import <PencilKit/PKPaletteViewInternalDelegate-Protocol.h>
-#import <PencilKit/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <PencilKit/UIPopoverPresentationControllerDelegate-Protocol.h>
 
 @class NSLayoutConstraint, NSString, PKColorPicker, PKPalettePencilInteractionFeedbackHostView, PKPaletteTransition, PKPaletteView, UILongPressGestureRecognizer, UIPanGestureRecognizer, UITapGestureRecognizer;

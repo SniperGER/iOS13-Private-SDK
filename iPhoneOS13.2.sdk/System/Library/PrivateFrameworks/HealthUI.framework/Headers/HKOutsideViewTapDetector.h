@@ -6,7 +6,7 @@
 
 #import <objc/NSObject.h>
 
-#import <HealthUI/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSString, UITapGestureRecognizer, UIView;
 

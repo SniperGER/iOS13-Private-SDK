@@ -6,7 +6,6 @@
 
 #import <UIKit/UIView.h>
 
-#import <SpringBoardUIServices/CAAnimationDelegate-Protocol.h>
 
 @class CAGradientLayer, NSMutableArray, NSString, NSTimer, SBUILegibilityLabel, _UILegibilitySettings;
 

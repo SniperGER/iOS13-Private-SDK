@@ -10,7 +10,7 @@
 #import <SpringBoard/SBPressPrecedenceArbiter-Protocol.h>
 #import <SpringBoard/SBSOSClawGestureObserverDelegate-Protocol.h>
 #import <SpringBoard/SBSOSLockGestureObserverDelegate-Protocol.h>
-#import <SpringBoard/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSMutableDictionary, NSString, SBBacklightController, SBClickGestureRecognizer, SBCombinationHardwareButtonActions, SBHomeHardwareButton, SBLockHardwareButton, SBLongPressGestureRecognizer, SBPressGestureRecognizer, SBProximitySensorManager, SBSOSClawGestureObserver, SBSOSLockGestureObserver, SBVolumeHardwareButton;
 

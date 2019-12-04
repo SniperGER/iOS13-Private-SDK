@@ -7,7 +7,7 @@
 #import <objc/NSObject.h>
 
 #import <SpringBoard/SBPressPrecedenceArbiter-Protocol.h>
-#import <SpringBoard/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSHashTable, NSString, SBPressGestureRecognizer, SBPressSequenceObserver, SBVolumeHardwareButtonActions, UIGestureRecognizer;
 

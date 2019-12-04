@@ -3,7 +3,6 @@
 #import <SpringBoardUIServices/BKMatchPearlOperationDelegate-Protocol.h>
 #import <SpringBoardUIServices/BKOperationDelegate-Protocol.h>
 #import <SpringBoardUIServices/BSDescriptionProviding-Protocol.h>
-#import <SpringBoardUIServices/CAAnimationDelegate-Protocol.h>
 #import <SpringBoardUIServices/CDStructures.h>
 #import <SpringBoardUIServices/NSItemProvider-SBUISystemDrag.h>
 #import <SpringBoardUIServices/NSString-SBPasscodeLockEntryFieldExtras.h>

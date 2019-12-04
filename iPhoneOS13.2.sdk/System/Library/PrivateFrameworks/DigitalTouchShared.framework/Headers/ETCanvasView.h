@@ -7,7 +7,7 @@
 #import <UIKit/UIView.h>
 
 #import <DigitalTouchShared/ETMessageDelegate-Protocol.h>
-#import <DigitalTouchShared/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class AVPlayerLayer, DTSSceneView, ETAngerMessage, ETGLSketchView, ETHeartbeatMessage, ETKissMessage, ETMessage, ETTapMessage, NSMutableDictionary, NSMutableSet, NSString, NSTimer, SKScene, UIColor, UIImageView, UILongPressGestureRecognizer, UITapGestureRecognizer, UITouch;
 @protocol ETCanvasViewDelegate, ETMessageTimeSource;

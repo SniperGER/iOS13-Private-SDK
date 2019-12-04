@@ -10,7 +10,7 @@
 #import <MediaControls/CCUIGroupRendering-Protocol.h>
 #import <MediaControls/MPVolumeDisplaying-Protocol.h>
 #import <MediaControls/MediaControlsVolumeControllerObserver-Protocol.h>
-#import <MediaControls/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class CALayer, MediaControlsVolumeController, MediaControlsVolumeSliderView, NSArray, NSString, UIViewPropertyAnimator, UIWindowScene;
 @protocol MediaControlsVolumeViewControllerDelegate;

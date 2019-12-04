@@ -7,7 +7,7 @@
 #import <objc/NSObject.h>
 
 #import <ChatKit/CKBrowserDragViewControllerDelegate-Protocol.h>
-#import <ChatKit/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class CKBrowserDragViewController, NSString, UILongPressGestureRecognizer, UIView, UIViewController, UIWindow;
 @protocol CKBrowserDragControllerDelegate, CKBrowserDragControllerTranscriptDelegate;

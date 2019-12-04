@@ -1,5 +1,4 @@
 #import <MaterialKit/BSUIEmojiLabelView-MTVibrantStylingAdditions.h>
-#import <MaterialKit/CAAnimationDelegate-Protocol.h>
 #import <MaterialKit/CDStructures.h>
 #import <MaterialKit/MTCoreMaterialVisualStylingProviderObserving-Protocol.h>
 #import <MaterialKit/MTLumaDodgePillDomain.h>

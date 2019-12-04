@@ -8,7 +8,7 @@
 
 #import <ChatKit/CKAdaptivePresentedControllerProtocol-Protocol.h>
 #import <ChatKit/CKMessageAcknowledgmentPickerBarDelegate-Protocol.h>
-#import <ChatKit/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class CKMessageAcknowledgmentPickerBarViewController, CKMessagePartChatItem, NSString, UIGestureRecognizer, UIView;
 @protocol CKFullScreenBalloonViewControllerDelegate;

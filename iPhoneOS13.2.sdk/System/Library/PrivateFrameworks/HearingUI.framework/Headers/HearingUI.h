@@ -15,5 +15,5 @@
 #import <HearingUI/HACCSlider.h>
 #import <HearingUI/HACCStatusView.h>
 #import <HearingUI/HACCUltronControl.h>
-#import <HearingUI/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <HearingUI/_HUIUtilitiesPlaceholder.h>

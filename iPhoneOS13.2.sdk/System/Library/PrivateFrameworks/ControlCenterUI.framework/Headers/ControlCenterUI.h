@@ -77,7 +77,7 @@
 #import <ControlCenterUI/CDStructures.h>
 #import <ControlCenterUI/NSBundle-ControlCenterUIPrototyping.h>
 #import <ControlCenterUI/NSValue-CCUILayout.h>
-#import <ControlCenterUI/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <ControlCenterUI/UIScrollView-ControlCenterUI.h>
 #import <ControlCenterUI/UIScrollViewDelegate-Protocol.h>
 #import <ControlCenterUI/UIView-ControlCenterUI.h>

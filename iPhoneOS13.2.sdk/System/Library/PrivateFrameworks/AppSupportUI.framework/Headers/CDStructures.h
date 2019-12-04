@@ -116,10 +116,10 @@ struct objc_super {
 struct pair<CGSize, CGSize>;
 
 struct vector<CALayer *, std::__1::allocator<CALayer *>> {
-    id *__begin_;
-    id *__end_;
+    id __begin_;
+    id __end_;
     struct __compressed_pair<CALayer **, std::__1::allocator<CALayer *>> {
-        id *__value_;
+        id __value_;
     } __end_cap_;
 };
 

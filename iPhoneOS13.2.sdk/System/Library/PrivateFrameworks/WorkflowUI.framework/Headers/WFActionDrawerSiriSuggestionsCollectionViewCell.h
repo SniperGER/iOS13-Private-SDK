@@ -6,7 +6,7 @@
 
 #import <UIKit/UICollectionViewCell.h>
 
-#import <WorkflowUI/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSArray, NSString, UILabel, UIViewController, WFActionDrawerImage, WFActionDrawerImageLoadTask, WFCircularImageView, WFDragController, WFDragGestureRecognizer;
 @protocol VCActionDonation;

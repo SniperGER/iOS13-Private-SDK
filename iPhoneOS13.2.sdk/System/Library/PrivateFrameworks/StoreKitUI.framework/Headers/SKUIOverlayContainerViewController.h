@@ -6,7 +6,7 @@
 
 #import <UIKit/UIViewController.h>
 
-#import <StoreKitUI/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSArray, NSMutableArray, NSString, UIColor, UIControl, UITapGestureRecognizer;
 @protocol SKUIOverlayContainerDelegate;

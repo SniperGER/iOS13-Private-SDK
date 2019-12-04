@@ -6,7 +6,7 @@
 
 #import <UIKit/UICollectionViewCell.h>
 
-#import <VideosUI/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <VideosUI/VideosExtrasCarouselCollectionViewCell-Protocol.h>
 
 @class MPUContentSizeLayoutConstraint, NSArray, NSLayoutConstraint, NSString, UILabel, UIPinchGestureRecognizer, UIView, VideosExtrasConstrainedArtworkContainerView, VideosExtrasZoomingImageInteractiveTransitionSourceContext;

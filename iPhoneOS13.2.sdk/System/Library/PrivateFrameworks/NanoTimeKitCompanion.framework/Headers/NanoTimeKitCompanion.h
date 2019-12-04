@@ -1,6 +1,5 @@
 #import <NanoTimeKitCompanion/ACXDeviceConnectionDelegate-Protocol.h>
 #import <NanoTimeKitCompanion/BSPathProviding-Protocol.h>
-#import <NanoTimeKitCompanion/CAAnimationDelegate-Protocol.h>
 #import <NanoTimeKitCompanion/CDStructures.h>
 #import <NanoTimeKitCompanion/CLKCComplicationDataSourceDelegate-Protocol.h>
 #import <NanoTimeKitCompanion/CLKComplicationTemplate-CalendarRichComplication.h>
@@ -856,7 +855,7 @@
 #import <NanoTimeKitCompanion/UICollectionViewDelegate-Protocol.h>
 #import <NanoTimeKitCompanion/UICollectionViewDelegateFlowLayout-Protocol.h>
 #import <NanoTimeKitCompanion/UIColor-NTKFaceColorScheme.h>
-#import <NanoTimeKitCompanion/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <NanoTimeKitCompanion/UIImage-NTKRoundedCornerOverlayView.h>
 #import <NanoTimeKitCompanion/UIImagePickerControllerDelegate-Protocol.h>
 #import <NanoTimeKitCompanion/UILabel-Linguistic.h>

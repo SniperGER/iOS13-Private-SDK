@@ -6,7 +6,7 @@
 
 #import <UIKit/UIPreviewPresentationController.h>
 
-#import <MediaControls/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class MTMaterialView, NSString, UIView;
 

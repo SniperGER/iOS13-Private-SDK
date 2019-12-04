@@ -6,7 +6,7 @@
 
 #import <NewsArticles/_TtC12NewsArticles39PDFReplicaBarVisibilityAnimatorForMacOS.h>
 
-#import <NewsArticles/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @interface _TtC12NewsArticles39PDFReplicaBarVisibilityAnimatorForMacOS (NewsArticles) <UIGestureRecognizerDelegate>
 - (_Bool)gestureRecognizer:(id)arg1 shouldRecognizeSimultaneouslyWithGestureRecognizer:(id)arg2;

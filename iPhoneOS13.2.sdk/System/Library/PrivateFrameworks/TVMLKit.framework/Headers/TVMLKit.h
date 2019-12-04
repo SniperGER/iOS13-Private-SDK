@@ -1,4 +1,3 @@
-#import <TVMLKit/CAAnimationDelegate-Protocol.h>
 #import <TVMLKit/CDStructures.h>
 #import <TVMLKit/IKAppContextDelegate-Protocol.h>
 #import <TVMLKit/IKAppContextInspectorDelegate-Protocol.h>
@@ -142,7 +141,7 @@
 #import <TVMLKit/UIColor-TVMLKitAdditions.h>
 #import <TVMLKit/UIFocusEnvironment-Protocol.h>
 #import <TVMLKit/UIFont-TVMLKitAdditions.h>
-#import <TVMLKit/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <TVMLKit/UIKeyInput-Protocol.h>
 #import <TVMLKit/UILabel-TVMLKitAdditions.h>
 #import <TVMLKit/UINavigationControllerDelegate-Protocol.h>

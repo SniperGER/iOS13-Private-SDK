@@ -7,7 +7,7 @@
 #import <UIKit/UIViewController.h>
 
 #import <VideosUI/TVApplicationControllerDelegate-Protocol.h>
-#import <VideosUI/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <VideosUI/_TVInterfaceCreatingPrivate-Protocol.h>
 
 @class NSString, TVApplicationController, UINavigationController, VUIBootURLController;

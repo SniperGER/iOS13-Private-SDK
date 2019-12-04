@@ -7,7 +7,7 @@
 #import <UIKit/UIControl.h>
 
 #import <CameraUI/CAMMetalViewDelegate-Protocol.h>
-#import <CameraUI/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class CADisplayLink, CAMDisplayLinkTarget, CAMDynamicShutterGestureRecognizer, CAMFeedbackController, CAMLiquidShutterRenderer, CAMMetalView, CAMShutterButtonRingView, CAMSpring, CAMTimelapseShutterRingView, CAMTrackingSpring, NSArray, NSString, UIImageView, UILabel, UIView;
 @protocol CAMDynamicShutterControlAGGDDelegate, CAMDynamicShutterControlDelegate;

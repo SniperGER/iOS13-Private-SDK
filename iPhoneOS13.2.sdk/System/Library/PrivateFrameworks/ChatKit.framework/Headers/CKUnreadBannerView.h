@@ -6,7 +6,7 @@
 
 #import <UIKit/UIView.h>
 
-#import <ChatKit/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSString, UIImageView, UILabel, _UIBackdropView;
 @protocol CKUnreadBannerViewDelegate;

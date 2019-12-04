@@ -6,9 +6,8 @@
 
 #import <UIKit/UIView.h>
 
-#import <CameraEditKit/CAAnimationDelegate-Protocol.h>
 #import <CameraEditKit/CEKBadgeViewDelegate-Protocol.h>
-#import <CameraEditKit/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class CEKAnimationGenerator, CEKLightingDialBackground, CEKLightingFrameCache, CEKLightingNameBadge, CEKSelectionFeedbackGenerator, NSArray, NSDate, NSDictionary, NSSet, NSString, NSTimer, UIImageView, UILongPressGestureRecognizer, UIPanGestureRecognizer, UITapGestureRecognizer;
 @protocol CEKLightingControlDelegate;

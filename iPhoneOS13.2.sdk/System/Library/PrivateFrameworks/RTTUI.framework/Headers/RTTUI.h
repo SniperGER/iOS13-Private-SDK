@@ -14,7 +14,7 @@
 #import <RTTUI/RTTUtteranceRequest.h>
 #import <RTTUI/UICollectionViewDataSource-Protocol.h>
 #import <RTTUI/UICollectionViewDelegate-Protocol.h>
-#import <RTTUI/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <RTTUI/UIScrollViewDelegate-Protocol.h>
 #import <RTTUI/UITableViewDataSource-Protocol.h>
 #import <RTTUI/UITableViewDelegate-Protocol.h>

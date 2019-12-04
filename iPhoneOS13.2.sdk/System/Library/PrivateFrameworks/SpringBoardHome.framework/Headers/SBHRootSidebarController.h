@@ -7,7 +7,7 @@
 #import <UIKit/UIViewController.h>
 
 #import <SpringBoardHome/SBHSidebarProvider-Protocol.h>
-#import <SpringBoardHome/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSLayoutConstraint, NSMutableArray, NSString, SBHDateHeaderViewController, SBHSidebarVisualConfiguration, WGWidgetGroupViewController, _UILegibilitySettings;
 @protocol SBHSidebarProviderDelegate;

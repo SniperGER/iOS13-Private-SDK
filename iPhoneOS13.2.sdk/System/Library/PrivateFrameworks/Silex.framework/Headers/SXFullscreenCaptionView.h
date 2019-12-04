@@ -8,7 +8,7 @@
 
 #import <Silex/STStandaloneTextLayoutDelegate-Protocol.h>
 #import <Silex/SXAutoSizedCanvasControllerDelegate-Protocol.h>
-#import <Silex/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <Silex/UIScrollViewDelegate-Protocol.h>
 
 @class NSString, STStandaloneTextInfo, STStandaloneTextLayout, STTextTangierDocumentRoot, STTextTangierStorage, SXAutoSizedCanvasController, SXFullscreenCaption, SXTextSource, UIScrollView, UISwipeGestureRecognizer, UITapGestureRecognizer, UIVisualEffectView;

@@ -6,7 +6,6 @@
 
 #import <SpringBoardFoundation/SBFTouchPassThroughView.h>
 
-#import <CoverSheet/CAAnimationDelegate-Protocol.h>
 
 @class NSArray, NSString;
 

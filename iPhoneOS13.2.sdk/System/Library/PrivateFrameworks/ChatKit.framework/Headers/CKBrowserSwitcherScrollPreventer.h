@@ -6,7 +6,7 @@
 
 #import <UIKit/UIView.h>
 
-#import <ChatKit/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <ChatKit/UIScrollViewDelegate-Protocol.h>
 
 @class NSString, UILongPressGestureRecognizer, UIScrollView;

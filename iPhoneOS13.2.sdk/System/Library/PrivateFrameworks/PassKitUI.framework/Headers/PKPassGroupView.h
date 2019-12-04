@@ -7,7 +7,7 @@
 #import <UIKit/UIView.h>
 
 #import <PassKitUI/PKGroupDelegate-Protocol.h>
-#import <PassKitUI/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <PassKitUI/UIScrollViewDelegate-Protocol.h>
 #import <PassKitUI/WLCardViewDelegate-Protocol.h>
 

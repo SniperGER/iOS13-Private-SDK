@@ -8,7 +8,7 @@
 
 #import <WorkflowUI/UICollectionViewDragDelegate-Protocol.h>
 #import <WorkflowUI/UICollectionViewDropDelegate-Protocol.h>
-#import <WorkflowUI/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <WorkflowUI/WFEditableLibraryResultsControllerDelegate-Protocol.h>
 
 @class AVAudioPlayer, NSIndexPath, NSString, UIBarButtonItem, WFEditableLibraryResultsController;

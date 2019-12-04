@@ -9,7 +9,7 @@
 #import <CameraEditKit/CEKWheelScrubberCollectionViewLayoutDelegate-Protocol.h>
 #import <CameraEditKit/UICollectionViewDataSource-Protocol.h>
 #import <CameraEditKit/UICollectionViewDelegate-Protocol.h>
-#import <CameraEditKit/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <CameraEditKit/UIPreviewInteractionDelegate-Protocol.h>
 
 @class CEKAnimationGenerator, CEKEdgeGradientView, CEKSelectionFeedbackGenerator, CEKWheelScrubberCollectionViewLayout, NSArray, NSString, UICollectionView, UILabel, UILongPressGestureRecognizer, UIPreviewInteraction, UITapGestureRecognizer;

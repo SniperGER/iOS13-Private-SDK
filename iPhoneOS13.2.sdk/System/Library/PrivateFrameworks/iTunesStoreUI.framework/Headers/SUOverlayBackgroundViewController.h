@@ -7,7 +7,7 @@
 #import <iTunesStoreUI/SUViewController.h>
 
 #import <iTunesStoreUI/SUScalingFlipViewDelegate-Protocol.h>
-#import <iTunesStoreUI/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSArray, NSMutableArray, NSString, SUOverlayViewController, SUScalingFlipView, SUTouchCaptureView, UISwipeGestureRecognizer;
 @protocol SUOverlayBackgroundDelegate;

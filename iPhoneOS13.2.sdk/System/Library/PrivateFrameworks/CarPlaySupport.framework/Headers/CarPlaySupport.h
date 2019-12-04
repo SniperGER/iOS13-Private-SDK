@@ -120,7 +120,7 @@
 #import <CarPlaySupport/SBUIBannerView-Protocol.h>
 #import <CarPlaySupport/UIBarPositioningDelegate-Protocol.h>
 #import <CarPlaySupport/UIButton-CarPlaySupport.h>
-#import <CarPlaySupport/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <CarPlaySupport/UINavigationControllerDelegate-Protocol.h>
 #import <CarPlaySupport/UIScrollViewDelegate-Protocol.h>
 #import <CarPlaySupport/UISearchBarDelegate-Protocol.h>

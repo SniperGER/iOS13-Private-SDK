@@ -6,7 +6,7 @@
 
 #import <UIKit/UIView.h>
 
-#import <PassKitUI/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSDecimalNumber, NSNumberFormatter, NSString, UIActivityIndicatorView, UILabel, UITapGestureRecognizer;
 @protocol PKEnterValueNewBalanceViewDelegate;

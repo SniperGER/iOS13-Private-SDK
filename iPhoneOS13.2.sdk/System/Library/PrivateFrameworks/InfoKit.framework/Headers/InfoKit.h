@@ -9,5 +9,5 @@
 #import <InfoKit/INKTipContentHintViewDelegate-Protocol.h>
 #import <InfoKit/NSString-INKAdditions.h>
 #import <InfoKit/TPSEventsProviderDelegate-Protocol.h>
-#import <InfoKit/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <InfoKit/_TPSXPCExportable-Protocol.h>

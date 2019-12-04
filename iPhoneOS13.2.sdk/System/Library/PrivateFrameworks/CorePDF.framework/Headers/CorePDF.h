@@ -75,7 +75,7 @@
 #import <CorePDF/CPZoneFilter.h>
 #import <CorePDF/CPZoneMaker.h>
 #import <CorePDF/SurfaceLayer.h>
-#import <CorePDF/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <CorePDF/UIPDFAnnotation.h>
 #import <CorePDF/UIPDFAnnotationController.h>
 #import <CorePDF/UIPDFAnnotationParserDelegate.h>

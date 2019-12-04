@@ -8,7 +8,7 @@
 
 #import <SpringBoardHome/PTSettingsKeyObserver-Protocol.h>
 #import <SpringBoardHome/SBFolderBackgroundViewDelegate-Protocol.h>
-#import <SpringBoardHome/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSMapTable, NSMutableArray, NSString, SBFloatyFolderBackgroundClipView, SBHFolderSettings, SBIconView, UILongPressGestureRecognizer, UIPinchGestureRecognizer, UITapGestureRecognizer;
 

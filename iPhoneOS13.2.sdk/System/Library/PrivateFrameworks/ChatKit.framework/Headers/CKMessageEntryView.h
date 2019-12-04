@@ -14,7 +14,7 @@
 #import <ChatKit/CKMessageEntryContentViewDelegate-Protocol.h>
 #import <ChatKit/CKMessageEntryRecordedAudioViewDelegate-Protocol.h>
 #import <ChatKit/CKMessageEntryViewStyleProtocol-Protocol.h>
-#import <ChatKit/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class CAMShutterButton, CKActionMenuController, CKActionMenuGestureRecognizerButton, CKAudioRecorder, CKBrowserSwitcherFooterView, CKComposition, CKConversation, CKEntryViewButton, CKInlineAudioReplyButtonController, CKMessageEntryAudioHintView, CKMessageEntryContentView, CKMessageEntryRecordedAudioView, CKMessageEntryWaveformView, CKScheduledUpdater, NSArray, NSString, UIInputContextHistory, UIKBVisualEffectView, UILabel, UISwipeGestureRecognizer, UITraitCollection, UIVisualEffectView, _UIClickInteraction;
 @protocol CKMessageEntryViewDelegate, CKMessageEntryViewInputDelegate, UITextInputTraits_Private, _UIClickInteractionDelegate;

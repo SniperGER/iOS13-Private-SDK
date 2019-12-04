@@ -6,7 +6,6 @@
 
 #import <iWorkImport/KNAnimationRenderer.h>
 
-#import <iWorkImport/CAAnimationDelegate-Protocol.h>
 
 @class CALayer, KNAnimatedBuild, KNAnimationInfo, KNBuildChunk, NSArray, NSMapTable, NSMutableArray, NSMutableSet, NSString, TSDDrawableInfo, TSDFPSCounter, TSDRep, TSDTextureDescription, TSDTextureSet;
 

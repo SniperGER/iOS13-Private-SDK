@@ -6,7 +6,7 @@
 
 #import <AnnotationKit/AKMainEventHandler.h>
 
-#import <AnnotationKit/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class AKPanGestureRecognizer, AKRotationGestureRecognizer, NSString, UILongPressGestureRecognizer, UITapGestureRecognizer;
 

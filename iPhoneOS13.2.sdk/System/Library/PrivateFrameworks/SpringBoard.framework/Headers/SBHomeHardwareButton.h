@@ -7,7 +7,7 @@
 #import <objc/NSObject.h>
 
 #import <SpringBoard/SBHardwareButtonGestureParametersObserver-Protocol.h>
-#import <SpringBoard/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class BKSButtonHapticsDefinition, NSMutableDictionary, NSMutableOrderedSet, NSMutableSet, NSString, SBHardwareButtonGestureParameters, SBHomeHardwareButtonActions, SBHomeHardwareButtonGestureRecognizerConfiguration, SBNotificationBannerDestination, UIGestureRecognizer;
 @protocol BSInvalidatable;

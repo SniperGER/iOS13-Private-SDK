@@ -11,7 +11,7 @@
 #import <PhotosUICore/PXGDiagnosticsProvider-Protocol.h>
 #import <PhotosUICore/PXGEngineDelegate-Protocol.h>
 #import <PhotosUICore/PXScrollViewControllerObserver-Protocol.h>
-#import <PhotosUICore/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class MTKView, NSDictionary, NSString, PXGAnchor, PXGDebugHUDLayer, PXGEngine, PXGLayout, PXGRectDiagnosticsLayer, PXScrollViewController, PXScrollViewSpeedometer, UIColor;
 @protocol PXGViewAccessibilityDelegate, PXGViewDiagnosticsSource;

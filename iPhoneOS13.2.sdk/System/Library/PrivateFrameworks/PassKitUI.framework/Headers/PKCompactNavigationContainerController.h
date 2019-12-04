@@ -8,7 +8,7 @@
 
 #import <PassKitUI/PKContentContainerObserver-Protocol.h>
 #import <PassKitUI/PKViewWindowObserver-Protocol.h>
-#import <PassKitUI/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <PassKitUI/UINavigationControllerDelegate-Protocol.h>
 #import <PassKitUI/UIViewControllerTransitioningDelegate-Protocol.h>
 

@@ -1,6 +1,5 @@
 #import <TSReading/AVAssetResourceLoaderDelegate-Protocol.h>
 #import <TSReading/CAAnimation-TSDCAAnimationAdditions.h>
-#import <TSReading/CAAnimationDelegate-Protocol.h>
 #import <TSReading/CAAnimationGroup-TSDCAAnimationAdditions.h>
 #import <TSReading/CABasicAnimation-TSDCAAnimationAdditions.h>
 #import <TSReading/CAKeyframeAnimation-TSDCAAnimationAdditions.h>
@@ -891,7 +890,7 @@
 #import <TSReading/UIColor-TSKAdditions.h>
 #import <TSReading/UIDragInteractionDelegate-Protocol.h>
 #import <TSReading/UIGestureRecognizer-TSDGestureDispatcher.h>
-#import <TSReading/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <TSReading/UIKeyInput-Protocol.h>
 #import <TSReading/UIMenuItem-Additions.h>
 #import <TSReading/UINavigationControllerDelegate-Protocol.h>

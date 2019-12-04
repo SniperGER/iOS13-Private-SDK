@@ -1,4 +1,3 @@
-#import <RemoteUI/CAAnimationDelegate-Protocol.h>
 #import <RemoteUI/CDStructures.h>
 #import <RemoteUI/NSMutableArray-RemoteUIAdditions.h>
 #import <RemoteUI/NSURL-RemoteUIAdditions.h>

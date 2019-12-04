@@ -6,7 +6,6 @@
 
 #import <objc/NSObject.h>
 
-#import <SpringBoard/CAAnimationDelegate-Protocol.h>
 
 @class NSString;
 

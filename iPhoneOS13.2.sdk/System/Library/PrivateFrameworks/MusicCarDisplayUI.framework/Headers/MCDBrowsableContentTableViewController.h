@@ -9,7 +9,7 @@
 #import <MusicCarDisplayUI/CARSessionObserving-Protocol.h>
 #import <MusicCarDisplayUI/MCDErrorViewDelegate-Protocol.h>
 #import <MusicCarDisplayUI/MCDPCContainerDelegate-Protocol.h>
-#import <MusicCarDisplayUI/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <MusicCarDisplayUI/UITableViewDataSource-Protocol.h>
 #import <MusicCarDisplayUI/UITableViewDelegate-Protocol.h>
 

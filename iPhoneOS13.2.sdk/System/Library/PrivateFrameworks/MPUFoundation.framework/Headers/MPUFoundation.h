@@ -1,4 +1,3 @@
-#import <MPUFoundation/CAAnimationDelegate-Protocol.h>
 #import <MPUFoundation/CDStructures.h>
 #import <MPUFoundation/MPAVItem-MPUContentItemIdentifierCollectionAdditions.h>
 #import <MPUFoundation/MPMediaEntity-MPUContentItemIdentifierCollectionAdditions.h>

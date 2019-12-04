@@ -6,7 +6,7 @@
 
 #import <objc/NSObject.h>
 
-#import <UserNotificationsUIKit/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NCNotificationListCell, NCNotificationListSectionHeaderView, NCTouchEaterGestureRecognizer, NSString;
 @protocol NCNotificationListCoalescingControlsHandler;

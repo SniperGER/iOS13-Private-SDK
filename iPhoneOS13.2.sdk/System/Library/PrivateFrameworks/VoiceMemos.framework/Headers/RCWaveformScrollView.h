@@ -6,7 +6,7 @@
 
 #import <UIKit/UIScrollView.h>
 
-#import <VoiceMemos/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSString;
 

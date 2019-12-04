@@ -7,7 +7,7 @@
 #import <SearchUI/SearchUITableViewController.h>
 
 #import <SearchUI/SearchUITableHeaderViewDelegate-Protocol.h>
-#import <SearchUI/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSArray, NSMutableOrderedSet, NSMutableSet, NSString;
 

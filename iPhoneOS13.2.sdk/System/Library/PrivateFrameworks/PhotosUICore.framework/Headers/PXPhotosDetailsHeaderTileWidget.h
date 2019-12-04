@@ -20,7 +20,7 @@
 #import <PhotosUICore/PXUISlideshowViewTileDelegate-Protocol.h>
 #import <PhotosUICore/PXUIWidget-Protocol.h>
 #import <PhotosUICore/PXZoomAnimationObserverCoordinatorDelegate-Protocol.h>
-#import <PhotosUICore/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSMutableSet, NSString, OKPresentationViewController, PHAssetCollection, PHFetchResult, PXBasicUIViewTileAnimator, PXImageRequester, PXMovieProvider, PXOneUpPresentation, PXPhotoKitUIMediaProvider, PXPhotosDataSource, PXPhotosDetailsContext, PXPhotosDetailsHeaderSpec, PXPhotosDetailsHeaderSpecManager, PXPhotosDetailsLoadCoordinationToken, PXReusableObjectPool, PXSectionedSelectionManager, PXSlideshowSession, PXTilingController, PXTitleSubtitleUILabelTile, PXUIPlayButtonTile, PXUISlideshowViewTile, PXUITapGestureRecognizer, PXWidgetSpec;
 @protocol OS_dispatch_queue, PXAnonymousView, PXDisplayAsset, PXWidgetDelegate, PXWidgetUnlockDelegate;

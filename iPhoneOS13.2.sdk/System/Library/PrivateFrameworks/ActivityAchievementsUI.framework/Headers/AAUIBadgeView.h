@@ -6,7 +6,7 @@
 
 #import <HealthKitUI/HKGLView.h>
 
-#import <ActivityAchievementsUI/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class AAUIBadge, AAUIBadgeModelConfiguration, GLKTextureInfo, NSAttributedString, NSDictionary, NSObject, NSString, UIImage, UILongPressGestureRecognizer, UIPanGestureRecognizer, UITapGestureRecognizer;
 @protocol AAUIBadgeViewDelegate, OS_dispatch_queue;

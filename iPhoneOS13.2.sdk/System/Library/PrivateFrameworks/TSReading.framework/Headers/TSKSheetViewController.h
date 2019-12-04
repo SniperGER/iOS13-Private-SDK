@@ -6,7 +6,7 @@
 
 #import <UIKit/UIViewController.h>
 
-#import <TSReading/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <TSReading/UIViewControllerAnimatedTransitioning-Protocol.h>
 #import <TSReading/UIViewControllerTransitioningDelegate-Protocol.h>
 

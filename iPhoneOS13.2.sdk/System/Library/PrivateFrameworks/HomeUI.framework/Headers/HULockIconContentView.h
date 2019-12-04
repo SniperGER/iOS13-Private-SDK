@@ -6,7 +6,6 @@
 
 #import <HomeUI/HUPrimaryStateIconContentView.h>
 
-#import <HomeUI/CAAnimationDelegate-Protocol.h>
 
 @class HULockIconStateTransition, HUShapeLayerView, HUVisualEffectContainerView, NSString, UIVisualEffectView;
 

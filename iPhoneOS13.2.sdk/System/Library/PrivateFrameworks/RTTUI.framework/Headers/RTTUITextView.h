@@ -8,7 +8,7 @@
 
 #import <RTTUI/UICollectionViewDataSource-Protocol.h>
 #import <RTTUI/UICollectionViewDelegate-Protocol.h>
-#import <RTTUI/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSArray, NSString, UICollectionView, UICollectionViewFlowLayout, UIView;
 

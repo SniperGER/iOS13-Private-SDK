@@ -9,7 +9,7 @@
 #import <PlatterKit/PLContentSizeCategoryAdjusting-Protocol.h>
 #import <PlatterKit/PLExpandedPlatter-Protocol.h>
 #import <PlatterKit/PLTitled-Protocol.h>
-#import <PlatterKit/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <PlatterKit/UIScrollViewDelegate-Protocol.h>
 
 @class MTMaterialView, NSArray, NSDate, NSString, NSTimeZone, PLInterfaceActionGroupView, PLPlatterHeaderContentView, UIButton, UIControl, UIScrollView;

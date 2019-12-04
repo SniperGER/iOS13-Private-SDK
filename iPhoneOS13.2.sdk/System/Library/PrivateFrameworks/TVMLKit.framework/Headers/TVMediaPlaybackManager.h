@@ -6,7 +6,7 @@
 
 #import <objc/NSObject.h>
 
-#import <TVMLKit/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSString, NSTimer, UIPanGestureRecognizer, UITapGestureRecognizer, UIViewController, _TVNonFocusSwipeUpCapture;
 @protocol TVMediaController, TVMediaPlaybackManagerDelegate;

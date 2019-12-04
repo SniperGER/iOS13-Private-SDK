@@ -279,7 +279,7 @@
 #import <AnnotationKit/UICollectionViewDelegate-Protocol.h>
 #import <AnnotationKit/UIColor-AKPlatformColor_Extensions_Shared.h>
 #import <AnnotationKit/UIGestureRecognizer-AKPlatformGestureRecognizer_Extensions.h>
-#import <AnnotationKit/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <AnnotationKit/UIImage-AKPlatformImageExtensions.h>
 #import <AnnotationKit/UINavigationBarDelegate-Protocol.h>
 #import <AnnotationKit/UIPasteboard-AKPlatformPasteboard_Extensions.h>

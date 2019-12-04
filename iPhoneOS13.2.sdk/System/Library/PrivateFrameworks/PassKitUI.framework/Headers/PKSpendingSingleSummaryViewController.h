@@ -11,7 +11,7 @@
 #import <PassKitUI/PKSpendingSummaryFooterViewDelegate-Protocol.h>
 #import <PassKitUI/PKSpendingSummaryResponder-Protocol.h>
 #import <PassKitUI/UICollectionViewDelegateFlowLayout-Protocol.h>
-#import <PassKitUI/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSArray, NSCalendar, NSDate, NSDateFormatter, NSString, PKAccount, PKAccountService, PKAccountServiceAccountResolutionController, PKDashboardFooterTextView, PKDashboardTitleHeaderView, PKPaymentPass, PKSpendingSummary, PKSpendingSummaryFooterView, PKSpendingSummaryLayout, PKSpendingSummaryPresenter, PKTransactionGroupItemPresenter, UIGestureRecognizer;
 @protocol PKSpendingSingleSummaryViewControllerDelegate;

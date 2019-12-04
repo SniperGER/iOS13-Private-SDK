@@ -7,7 +7,7 @@
 #import <objc/NSObject.h>
 
 #import <SpringBoard/BSDescriptionProviding-Protocol.h>
-#import <SpringBoard/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class FBSDisplayIdentity, NSMutableDictionary, NSMutableSet, NSSet, NSString, UIGestureRecognizer;
 

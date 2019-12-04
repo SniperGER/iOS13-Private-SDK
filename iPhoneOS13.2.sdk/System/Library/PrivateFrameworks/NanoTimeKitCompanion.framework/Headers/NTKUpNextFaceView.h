@@ -12,7 +12,7 @@
 #import <NanoTimeKitCompanion/REUIElementIntentActionDelegate-Protocol.h>
 #import <NanoTimeKitCompanion/REUIRelevanceEngineControllerDelegate-Protocol.h>
 #import <NanoTimeKitCompanion/UICollectionViewDelegateFlowLayout-Protocol.h>
-#import <NanoTimeKitCompanion/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSArray, NSMutableArray, NSMutableSet, NSOrderedSet, NSSet, NSString, NSTimer, NTKDigitalTimeLabelStyle, NTKUpNextCollectionView, NTKUpNextCollectionViewFlowLayout, NTKUtilityComplicationFactory, REUIRelevanceEngineController, REUpNextScheduler, UICollectionViewDiffableDataSource, UIImage, UITapGestureRecognizer, UIView;
 

@@ -438,7 +438,7 @@
 #import <iTunesStoreUI/UIButton-SUScriptButtonAdditions.h>
 #import <iTunesStoreUI/UIColor-SUAdditions.h>
 #import <iTunesStoreUI/UIDocumentInteractionControllerDelegate-Protocol.h>
-#import <iTunesStoreUI/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <iTunesStoreUI/UIImage-SUAdditions.h>
 #import <iTunesStoreUI/UINavigationController-SUTabBarControllerAdditions.h>
 #import <iTunesStoreUI/UINavigationControllerDelegate-Protocol.h>

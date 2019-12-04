@@ -36,7 +36,7 @@
 #import <RelevanceEngineUI/TableCell.h>
 #import <RelevanceEngineUI/UICollectionView-DataSourceConfiguration.h>
 #import <RelevanceEngineUI/UICollectionViewDataSource-Protocol.h>
-#import <RelevanceEngineUI/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <RelevanceEngineUI/UITableView-DataSourceConfiguration.h>
 #import <RelevanceEngineUI/UITableViewDataSource-Protocol.h>
 #import <RelevanceEngineUI/_REUIBundlePlaceholder.h>

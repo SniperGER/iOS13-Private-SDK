@@ -5,7 +5,6 @@
 #import <Silex/AVPlayerViewControllerDelegatePrivate-Protocol.h>
 #import <Silex/AVPlayerViewControllerDelegate_AppStoreOnly-Protocol.h>
 #import <Silex/AVPlayerViewControllerDelegate_WebKitOnly-Protocol.h>
-#import <Silex/CAAnimationDelegate-Protocol.h>
 #import <Silex/CALayer-AnchorPoint.h>
 #import <Silex/CDStructures.h>
 #import <Silex/CNContactViewControllerDelegate-Protocol.h>
@@ -1250,7 +1249,7 @@
 #import <Silex/UIDevice-SXAdditions.h>
 #import <Silex/UIDragInteractionDelegate-Protocol.h>
 #import <Silex/UIGestureRecognizer-SXCancel.h>
-#import <Silex/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <Silex/UIScrollViewDelegate-Protocol.h>
 #import <Silex/UIView-FrameUsingCenterAndBounds.h>
 #import <Silex/UIViewController-SXHostable.h>

@@ -6,7 +6,7 @@
 
 #import <objc/NSObject.h>
 
-#import <CameraUI/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSString, UILongPressGestureRecognizer, UIView;
 @protocol CAMBarsAccessibilityHUDManagerDelegate, CAMBarsAccessibilityHUDManagerGestureProvider><CAMAccessibilityHUDItemProvider;

@@ -6,7 +6,7 @@
 
 #import <objc/NSObject.h>
 
-#import <PencilKit/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSString, PKRulerGestureRecognizer, PKRulerLayer, PKRulerView, UIImpactFeedbackGenerator, UIView;
 @protocol PKRulerDelegate, PKRulerHostingDelegate;

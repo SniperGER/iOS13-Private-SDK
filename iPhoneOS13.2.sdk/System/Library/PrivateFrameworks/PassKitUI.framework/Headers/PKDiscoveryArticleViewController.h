@@ -10,7 +10,7 @@
 #import <PassKitUI/PKPaymentSetupDelegate-Protocol.h>
 #import <PassKitUI/UICollectionViewDataSource-Protocol.h>
 #import <PassKitUI/UICollectionViewDelegateFlowLayout-Protocol.h>
-#import <PassKitUI/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <PassKitUI/UIViewControllerTransitioningDelegate-Protocol.h>
 
 @class NSMutableDictionary, NSObject, NSString, PKDiscoveryArticleAnimatedTransitioningHandler, PKDiscoveryArticleLayout, PKDiscoveryCardView, PKDiscoveryDismissButton, UIActivityIndicatorView, UICollectionView, UILabel, UIPanGestureRecognizer, UIScreenEdgePanGestureRecognizer;

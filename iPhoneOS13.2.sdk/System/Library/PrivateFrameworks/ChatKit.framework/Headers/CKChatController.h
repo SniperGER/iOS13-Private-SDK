@@ -35,7 +35,7 @@
 #import <ChatKit/SGSuggestionPresenterDelegate-Protocol.h>
 #import <ChatKit/UIDragInteractionDelegate-Protocol.h>
 #import <ChatKit/UIDropInteractionDelegate-Protocol.h>
-#import <ChatKit/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <ChatKit/UIInteractionProgressObserver-Protocol.h>
 #import <ChatKit/UIPopoverPresentationControllerDelegate-Protocol.h>
 #import <ChatKit/UITextDropDelegate-Protocol.h>

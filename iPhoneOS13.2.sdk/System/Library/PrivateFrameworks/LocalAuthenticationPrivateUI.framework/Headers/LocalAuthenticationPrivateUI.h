@@ -1,5 +1,4 @@
 #import <LocalAuthenticationPrivateUI/CAAnimation-LAUICAUtilities.h>
-#import <LocalAuthenticationPrivateUI/CAAnimationDelegate-Protocol.h>
 #import <LocalAuthenticationPrivateUI/CDStructures.h>
 #import <LocalAuthenticationPrivateUI/LAPKGlyphWrapper.h>
 #import <LocalAuthenticationPrivateUI/LAUIAnimationDelegate.h>

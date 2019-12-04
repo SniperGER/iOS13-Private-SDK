@@ -13,7 +13,7 @@
 #import <Silex/SXFullscreenNavigationBarViewDelegate-Protocol.h>
 #import <Silex/SXItemizedScrollViewDataSource-Protocol.h>
 #import <Silex/SXItemizedScrollViewDelegate-Protocol.h>
-#import <Silex/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <Silex/UIScrollViewDelegate-Protocol.h>
 
 @class NSString, SXDragManager, SXFullscreenCanvasViewController, SXFullscreenCaptionView, SXFullscreenNavigationBarView, SXItemizedScrollView, UIColor, UIPanGestureRecognizer, UIPinchGestureRecognizer, UIRotationGestureRecognizer, UITapGestureRecognizer, UIView;

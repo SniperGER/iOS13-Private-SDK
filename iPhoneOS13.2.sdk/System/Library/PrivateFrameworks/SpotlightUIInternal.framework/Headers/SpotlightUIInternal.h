@@ -26,7 +26,7 @@
 #import <SpotlightUIInternal/SearchUIFirstTimeExperienceDelegate-Protocol.h>
 #import <SpotlightUIInternal/SearchUIResultsViewDelegate-Protocol.h>
 #import <SpotlightUIInternal/SearchUITextFieldDelegate-Protocol.h>
-#import <SpotlightUIInternal/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <SpotlightUIInternal/UINavigationControllerDelegate-Protocol.h>
 #import <SpotlightUIInternal/UITextFieldDelegate-Protocol.h>
 #import <SpotlightUIInternal/UITextPasteDelegate-Protocol.h>

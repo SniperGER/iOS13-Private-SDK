@@ -9,7 +9,6 @@
 #import <CameraUI/AVMomentCaptureSettings-CAMCaptureEngine.h>
 #import <CameraUI/AVOfflineVideoStabilizerDataProvider-Protocol.h>
 #import <CameraUI/BKSAccelerometerDelegate-Protocol.h>
-#import <CameraUI/CAAnimationDelegate-Protocol.h>
 #import <CameraUI/CAMAccessibilityHUDImageProvider-Protocol.h>
 #import <CameraUI/CAMAccessibilityHUDItemProvider-Protocol.h>
 #import <CameraUI/CAMAdditiveAnimation.h>
@@ -508,7 +507,7 @@
 #import <CameraUI/UIButton-Camera.h>
 #import <CameraUI/UIDevice-CAMLayoutStyle.h>
 #import <CameraUI/UIFont-Camera.h>
-#import <CameraUI/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <CameraUI/UIImagePickerCameraViewController-Protocol.h>
 #import <CameraUI/UIInteractionProgressObserver-Protocol.h>
 #import <CameraUI/UILongPressGestureRecognizer-Camera.h>

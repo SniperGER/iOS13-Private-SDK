@@ -7,7 +7,7 @@
 #import <objc/NSObject.h>
 
 #import <FMFUI/MKMapViewDelegate-Protocol.h>
-#import <FMFUI/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class FMAnnotationView, FMFWildcardGestureRecognizer, MKMapView, NSString;
 @protocol FMFMapViewDelegateInternalDelegate;

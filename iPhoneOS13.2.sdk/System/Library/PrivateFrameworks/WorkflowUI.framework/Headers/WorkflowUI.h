@@ -82,7 +82,7 @@
 #import <WorkflowUI/UIDocumentPickerDelegate-Protocol.h>
 #import <WorkflowUI/UIDropInteractionDelegate-Protocol.h>
 #import <WorkflowUI/UIFont-Workflow.h>
-#import <WorkflowUI/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <WorkflowUI/UIImage-WorkflowUI.h>
 #import <WorkflowUI/UIImagePickerControllerDelegate-Protocol.h>
 #import <WorkflowUI/UIInteraction-Protocol.h>

@@ -2,7 +2,6 @@
 #import <LinkPresentation/AVPlayerViewControllerDelegate-Protocol.h>
 #import <LinkPresentation/AVPlayerViewControllerDelegatePrivate-Protocol.h>
 #import <LinkPresentation/CAAnimation-LPExtras.h>
-#import <LinkPresentation/CAAnimationDelegate-Protocol.h>
 #import <LinkPresentation/CALayerDelegate-Protocol.h>
 #import <LinkPresentation/CASpringAnimation-LPExtras.h>
 #import <LinkPresentation/CDStructures.h>
@@ -244,7 +243,7 @@
 #import <LinkPresentation/UIColor-LPExtras.h>
 #import <LinkPresentation/UIContextMenuInteractionDelegate-Protocol.h>
 #import <LinkPresentation/UIFont-LPExtras.h>
-#import <LinkPresentation/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <LinkPresentation/UIImage-LPExtras.h>
 #import <LinkPresentation/UIImageView-LPExtras.h>
 #import <LinkPresentation/UIScrollViewDelegate-Protocol.h>

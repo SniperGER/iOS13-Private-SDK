@@ -6,7 +6,6 @@
 
 #import <UIKit/UIView.h>
 
-#import <ChatKit/CAAnimationDelegate-Protocol.h>
 
 @class CAAnimation, NSString, UIImageView, UITapGestureRecognizer, UITextView;
 @protocol CKAvatarNotificationCalloutViewDelegate;

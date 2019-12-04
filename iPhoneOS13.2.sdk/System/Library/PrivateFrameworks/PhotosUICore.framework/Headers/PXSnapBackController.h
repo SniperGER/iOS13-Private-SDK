@@ -6,7 +6,7 @@
 
 #import <objc/NSObject.h>
 
-#import <PhotosUICore/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSString, UILongPressGestureRecognizer, UINavigationController;
 

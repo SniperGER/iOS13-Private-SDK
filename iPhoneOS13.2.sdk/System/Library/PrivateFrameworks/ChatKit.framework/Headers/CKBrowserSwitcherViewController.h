@@ -11,7 +11,7 @@
 #import <ChatKit/CKBrowserTransitionCoordinatorDelegate-Protocol.h>
 #import <ChatKit/UICollectionViewDataSource-Protocol.h>
 #import <ChatKit/UICollectionViewDelegate-Protocol.h>
-#import <ChatKit/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <ChatKit/UIScrollViewDelegate-Protocol.h>
 #import <ChatKit/_UIBackdropViewGraphicsQualityChangeDelegate-Protocol.h>
 

@@ -8,7 +8,7 @@
 
 #import <VideosUI/UICollectionViewDataSource-Protocol.h>
 #import <VideosUI/UICollectionViewDelegateFlowLayout-Protocol.h>
-#import <VideosUI/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <VideosUI/_TVCollectionViewDelegate-Protocol.h>
 
 @class IKHeaderElement, IKViewElement, NSArray, NSString, UICollectionView, VUICollectionFooterView, VUICollectionHeaderView, VUIFavoriteCollectionViewCell, VUISportsFavoritesContainerView;

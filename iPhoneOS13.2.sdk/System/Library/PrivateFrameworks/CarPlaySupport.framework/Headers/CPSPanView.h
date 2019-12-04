@@ -6,7 +6,7 @@
 
 #import <UIKit/UIView.h>
 
-#import <CarPlaySupport/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class CPSPanButton, NSString;
 @protocol CPSPanViewDelegate;

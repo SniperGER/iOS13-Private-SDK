@@ -7,7 +7,6 @@
 #import <ChatKit/AVTAvatarEditorViewControllerDelegate-Protocol.h>
 #import <ChatKit/AVVoiceControllerRecordDelegate-Protocol.h>
 #import <ChatKit/BKSAccelerometerDelegate-Protocol.h>
-#import <ChatKit/CAAnimationDelegate-Protocol.h>
 #import <ChatKit/CALayer-BalloonLayerExtension.h>
 #import <ChatKit/CAMShutterButton-CKActionMenuItemView.h>
 #import <ChatKit/CDStructures.h>
@@ -844,7 +843,7 @@
 #import <ChatKit/UIDropInteractionDelegate-Protocol.h>
 #import <ChatKit/UIDynamicAnimatorDelegate-Protocol.h>
 #import <ChatKit/UIFont-CKUtilities.h>
-#import <ChatKit/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <ChatKit/UIImage-ChatKitAdditions.h>
 #import <ChatKit/UIImagePickerControllerDelegate-Protocol.h>
 #import <ChatKit/UIInteractionProgressObserver-Protocol.h>

@@ -7,7 +7,7 @@
 #import <VideosUI/VUILibraryStackViewController.h>
 
 #import <VideosUI/UICollectionViewDataSource-Protocol.h>
-#import <VideosUI/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <VideosUI/VUIDownloadDataSourceDelegate-Protocol.h>
 #import <VideosUI/VUILibraryPopoverDataSource-Protocol.h>
 #import <VideosUI/VUILibraryPopoverDelegate-Protocol.h>

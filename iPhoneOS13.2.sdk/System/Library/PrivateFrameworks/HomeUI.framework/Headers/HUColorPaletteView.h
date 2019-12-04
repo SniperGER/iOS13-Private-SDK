@@ -7,7 +7,7 @@
 #import <UIKit/UIView.h>
 
 #import <HomeUI/HUQuickControlInteractiveView-Protocol.h>
-#import <HomeUI/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class HFColorPalette, HFColorPaletteColor, HUQuickControlColorViewProfile, NSArray, NSNumber, NSString, UILongPressGestureRecognizer;
 @protocol HUQuickControlColorPaletteViewInteractionDelegate;

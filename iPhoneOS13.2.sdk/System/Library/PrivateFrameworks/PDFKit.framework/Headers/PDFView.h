@@ -6,7 +6,7 @@
 
 #import <UIKit/UIView.h>
 
-#import <PDFKit/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSArray, NSString, PDFDestination, PDFDocument, PDFPage, PDFSelection, PDFViewPrivate, UIColor;
 @protocol PDFViewDelegate;

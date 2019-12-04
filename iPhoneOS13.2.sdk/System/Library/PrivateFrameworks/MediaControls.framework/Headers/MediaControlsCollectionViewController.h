@@ -6,7 +6,7 @@
 
 #import <UIKit/UIViewController.h>
 
-#import <MediaControls/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <MediaControls/UIScrollViewDelegate-Protocol.h>
 
 @class MediaControlsCollectionViewCountData, NSArray, NSIndexSet, NSMutableArray, NSMutableDictionary, NSMutableSet, NSString, UIScrollView, _MediaControlsTapHoldGestureRecognizer;

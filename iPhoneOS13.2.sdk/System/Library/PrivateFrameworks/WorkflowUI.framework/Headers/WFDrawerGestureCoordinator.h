@@ -6,7 +6,7 @@
 
 #import <objc/NSObject.h>
 
-#import <WorkflowUI/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <WorkflowUI/WFDrawerDismissalHelperDelegate-Protocol.h>
 
 @class NSString, UIPanGestureRecognizer, UIScrollView, UITapGestureRecognizer, WFDrawerVelocityFilter;

@@ -4,7 +4,6 @@
 #import <VoiceMemos/AVCaptureAudioDataOutputSampleBufferDelegate-Protocol.h>
 #import <VoiceMemos/AVURLAsset-RCAdditions.h>
 #import <VoiceMemos/AXWaveformSelectionBarElement.h>
-#import <VoiceMemos/CAAnimationDelegate-Protocol.h>
 #import <VoiceMemos/CADisplayLink-RCAdditions.h>
 #import <VoiceMemos/CALayerDelegate-Protocol.h>
 #import <VoiceMemos/CDStructures.h>
@@ -107,7 +106,7 @@
 #import <VoiceMemos/RecordVoiceMemoIntentResponse.h>
 #import <VoiceMemos/UIActivityItemSource-Protocol.h>
 #import <VoiceMemos/UIFont-RCAdditions.h>
-#import <VoiceMemos/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <VoiceMemos/UINavigationController-RCAdditions.h>
 #import <VoiceMemos/UINavigationItem-RCAdditions.h>
 #import <VoiceMemos/UIScrollViewDelegate-Protocol.h>

@@ -6,7 +6,7 @@
 
 #import <UIKit/UITextView.h>
 
-#import <HomeUI/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSString, UITapGestureRecognizer;
 @protocol HUTappableTextViewDelegate;

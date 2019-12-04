@@ -10,7 +10,7 @@
 #import <CameraUI/CAMFacesDelegate-Protocol.h>
 #import <CameraUI/CAMFocusDelegate-Protocol.h>
 #import <CameraUI/CAMFocusIndicatorViewDelegate-Protocol.h>
-#import <CameraUI/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class CAMBurstIndicatorView, CAMCaptureGraphConfiguration, CAMExposureResult, CAMFocusIndicatorView, CAMFocusResult, CAMMachineReadableCodeResult, CAMMotionController, CAMPreviewView, CAMStageLightOverlayView, CAMSubjectIndicatorView, CAMTimelapseController, CUCaptureController, NSArray, NSDate, NSMutableDictionary, NSString, UILongPressGestureRecognizer, UIPanGestureRecognizer, UITapGestureRecognizer;
 @protocol CAMPreviewViewControllerDelegate;

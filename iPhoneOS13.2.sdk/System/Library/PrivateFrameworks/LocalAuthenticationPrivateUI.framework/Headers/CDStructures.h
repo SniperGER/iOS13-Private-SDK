@@ -52,10 +52,10 @@ struct periodic_animation_state {
 };
 
 struct vector<CAShapeLayer *, std::__1::allocator<CAShapeLayer *>> {
-    id *__begin_;
-    id *__end_;
+    id __begin_;
+    id __end_;
     struct __compressed_pair<CAShapeLayer *__strong *, std::__1::allocator<CAShapeLayer *>> {
-        id *__value_;
+        id __value_;
     } __end_cap_;
 };
 
@@ -68,10 +68,10 @@ struct vector<LAUI_CA_utilities::animation_completion_handler_container, std::__
 };
 
 struct vector<UIView *, std::__1::allocator<UIView *>> {
-    id *__begin_;
-    id *__end_;
+    id __begin_;
+    id __end_;
     struct __compressed_pair<UIView *__strong *, std::__1::allocator<UIView *>> {
-        id *__value_;
+        id __value_;
     } __end_cap_;
 };
 

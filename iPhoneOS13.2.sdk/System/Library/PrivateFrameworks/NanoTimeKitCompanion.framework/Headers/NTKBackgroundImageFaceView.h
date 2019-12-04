@@ -6,7 +6,7 @@
 
 #import <NanoTimeKitCompanion/NTKDigitalFaceView.h>
 
-#import <NanoTimeKitCompanion/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSString, NTKEditOption, UIImageView, UIView;
 

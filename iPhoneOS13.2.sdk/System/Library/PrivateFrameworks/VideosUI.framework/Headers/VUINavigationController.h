@@ -6,7 +6,7 @@
 
 #import <VideosUI/VUIAppNavigationController.h>
 
-#import <VideosUI/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <VideosUI/UIPopoverPresentationControllerDelegate-Protocol.h>
 
 @class NSString, UITapGestureRecognizer, VUIDocumentUIConfiguration;

@@ -6,7 +6,6 @@
 
 #import <objc/NSObject.h>
 
-#import <DocumentCamera/CAAnimationDelegate-Protocol.h>
 
 @class ICDocCamImageQuad, NSString, UIImageView, UIView;
 

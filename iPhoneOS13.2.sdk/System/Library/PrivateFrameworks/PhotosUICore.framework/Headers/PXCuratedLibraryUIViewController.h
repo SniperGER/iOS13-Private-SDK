@@ -22,7 +22,7 @@
 #import <PhotosUICore/UIContextMenuInteractionDelegate-Protocol.h>
 #import <PhotosUICore/UIDragInteractionDelegate-Protocol.h>
 #import <PhotosUICore/UIDropInteractionDelegate-Protocol.h>
-#import <PhotosUICore/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSString, PHPhotoLibrary, PXAssetReference, PXCPLServiceUI, PXChangeDirectionNumberFilter, PXContentUnavailableView, PXCuratedLibraryBarsController, PXCuratedLibrarySecondaryToolbarController, PXCuratedLibrarySkimmingController, PXCuratedLibraryViewProvider, PXCuratedLibraryZoomLevelControl, PXCuratedLibraryZoomLevelPinchFilter, PXGTransition, PXGView, PXMovieProvider, PXProgrammaticNavigationRequest, PXRelaxedScreenEdgePanGestureRecognizer, PXSwipeSelectionManager, PXTouchingUIGestureRecognizer, UIContextMenuInteraction, UIPanGestureRecognizer, UIPinchGestureRecognizer, UITapGestureRecognizer, UITargetedPreview;
 @protocol UIDragSession;

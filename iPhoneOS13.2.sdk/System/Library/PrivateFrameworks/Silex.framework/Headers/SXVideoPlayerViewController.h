@@ -11,7 +11,7 @@
 #import <Silex/SXAutomaticFullscreenVideoPlaybackBehaviorManagerDelegate-Protocol.h>
 #import <Silex/SXVideoAdViewControllerProviding-Protocol.h>
 #import <Silex/SXVideoPlaybackObserver-Protocol.h>
-#import <Silex/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class AVPlayerViewController, NSString, SVAdPrivacyButton, SVKeyValueObserver, SVLearnMoreButton, SXAutomaticFullscreenVideoPlaybackBehaviorManager, SXPlaybackCoordinator, SXVideoAdSkipButton, SXVideoPlaybackQueue, SXVideoVolumeObserver, UIActivityIndicatorView, UIGestureRecognizer;
 @protocol SVVolumeReporting, SXVideoAdProviding, SXVideoPlayerViewControllerDataSource, SXVideoPlayerViewControllerDelegate;

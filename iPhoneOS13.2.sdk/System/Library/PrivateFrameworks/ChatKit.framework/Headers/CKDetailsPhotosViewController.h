@@ -14,7 +14,7 @@
 #import <ChatKit/QLPreviewControllerDelegate-Protocol.h>
 #import <ChatKit/UICollectionViewDataSource-Protocol.h>
 #import <ChatKit/UICollectionViewDragSource-Protocol.h>
-#import <ChatKit/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <ChatKit/UIViewControllerPreviewingDelegate-Protocol.h>
 #import <ChatKit/UIViewControllerPreviewingDelegate_Private-Protocol.h>
 

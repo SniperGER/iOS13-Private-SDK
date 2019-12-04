@@ -9,7 +9,7 @@
 #import <PhotosUICore/PXPeopleDataSourceDelegate-Protocol.h>
 #import <PhotosUICore/PXPeopleStripCollectionViewControllerDelegate-Protocol.h>
 #import <PhotosUICore/PXWidget-Protocol.h>
-#import <PhotosUICore/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSString, PXPeopleStripCollectionViewController, PXPeopleWidgetDataSource, PXPhotosDetailsContext, PXSectionedSelectionManager, PXTilingController, PXUITapGestureRecognizer, PXWidgetSpec;
 @protocol PXAnonymousView, PXWidgetDelegate, PXWidgetUnlockDelegate;

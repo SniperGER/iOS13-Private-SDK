@@ -214,7 +214,7 @@
 #import <SearchUI/UIContextMenuInteractionDelegate-Protocol.h>
 #import <SearchUI/UIDragInteractionDelegate-Protocol.h>
 #import <SearchUI/UIDragInteractionDelegate_Private-Protocol.h>
-#import <SearchUI/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <SearchUI/UILayoutGuide-SearchUIAutoLayout.h>
 #import <SearchUI/UIScrollViewDelegate-Protocol.h>
 #import <SearchUI/UITextViewDelegate-Protocol.h>

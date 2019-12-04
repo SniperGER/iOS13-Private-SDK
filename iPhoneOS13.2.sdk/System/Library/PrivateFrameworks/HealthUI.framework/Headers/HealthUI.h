@@ -658,7 +658,7 @@
 #import <HealthUI/UIColor-HKAdditions.h>
 #import <HealthUI/UIFont-HKAdditions.h>
 #import <HealthUI/UIFontMetrics-HKAdditions.h>
-#import <HealthUI/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <HealthUI/UIImage-HKAdditions.h>
 #import <HealthUI/UIImagePickerControllerDelegate-Protocol.h>
 #import <HealthUI/UILabel-HKAdditions.h>

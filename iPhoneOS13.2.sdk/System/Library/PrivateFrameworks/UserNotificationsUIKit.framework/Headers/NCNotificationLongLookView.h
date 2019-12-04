@@ -9,7 +9,7 @@
 #import <UserNotificationsUIKit/NCCustomContentContainingLookView-Protocol.h>
 #import <UserNotificationsUIKit/NCNotificationContentViewDelegate-Protocol.h>
 #import <UserNotificationsUIKit/NCNotificationStaticContentAccepting-Protocol.h>
-#import <UserNotificationsUIKit/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NCNotificationContentView, NSArray, NSDate, NSString, NSTimeZone, UIButton, UIControl, UIImage, UIScrollView, UITapGestureRecognizer, UIView;
 @protocol NCNotificationLongLookViewDelegate;

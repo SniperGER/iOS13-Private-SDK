@@ -1,5 +1,4 @@
 #import <NotesUI/AVAsset-IC_UI.h>
-#import <NotesUI/CAAnimationDelegate-Protocol.h>
 #import <NotesUI/CDStructures.h>
 #import <NotesUI/DCScanDataDelegate-Protocol.h>
 #import <NotesUI/HTMLConverterProtocol-Protocol.h>

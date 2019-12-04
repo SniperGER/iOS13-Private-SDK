@@ -7,7 +7,7 @@
 #import <HomeUI/HUQuickControlInteractionCoordinator.h>
 
 #import <HomeUI/HUQuickControlSliderGestureTransformerDelegate-Protocol.h>
-#import <HomeUI/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class HUDisplayLinkApplier, HUElasticApplier, HUQuickControlSliderGestureTransformer, HUQuickControlViewProfile, NSDate, NSString, UILongPressGestureRecognizer, UITapGestureRecognizer;
 @protocol HUQuickControlIncrementalConvertibleProfile;

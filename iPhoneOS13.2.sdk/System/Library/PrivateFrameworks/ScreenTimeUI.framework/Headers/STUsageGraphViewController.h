@@ -6,7 +6,7 @@
 
 #import <UIKit/UIViewController.h>
 
-#import <ScreenTimeUI/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSArray, NSLayoutConstraint, NSString, STBarView, STDashedVerticalDivider, STPaddleView, STUsageReportGraphDataSet, UIImage, UIImageView, UILabel, UILayoutGuide, UIView;
 

@@ -13,7 +13,7 @@
 #import <SpringBoard/SBFIdleTimerBehaviorProviding-Protocol.h>
 #import <SpringBoard/SBFTodayOverlayControlling-Protocol.h>
 #import <SpringBoard/SBTodayOverlayViewControllerDelegate-Protocol.h>
-#import <SpringBoard/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class FBDisplayLayoutElement, NSHashTable, NSString, SBAppStatusBarDateTimeAssertion, SBBarSwipeAffordanceViewController, SBHomeGesturePanGestureRecognizer, SBMainScreenActiveInterfaceOrientationWindow, SBTodayOverlayViewController;
 

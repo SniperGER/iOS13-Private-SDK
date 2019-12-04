@@ -12,7 +12,7 @@
 #import <SpotlightUIInternal/SPUISearchHeaderDelegate-Protocol.h>
 #import <SpotlightUIInternal/SearchUIFirstTimeExperienceDelegate-Protocol.h>
 #import <SpotlightUIInternal/SearchUIResultsViewDelegate-Protocol.h>
-#import <SpotlightUIInternal/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSMutableSet, NSString, SPUILockScreenFooterView, SPUIResultsViewController, SPUISearchFirstTimeViewController, SPUISearchHeader, SPUITestingHelper, _UILegibilitySettings;
 @protocol SPUISearchViewControllerDelegate;

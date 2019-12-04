@@ -6,7 +6,7 @@
 
 #import <objc/NSObject.h>
 
-#import <UserNotificationsUIKit/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <UserNotificationsUIKit/_UIClickInteractionDelegate-Protocol.h>
 
 @class MTMaterialView, NCClickInteractionPresentedControl, NCTouchEaterGestureRecognizer, NSString, UIView, _UIClickInteraction;

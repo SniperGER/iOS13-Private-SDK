@@ -6,7 +6,6 @@
 
 #import <objc/NSObject.h>
 
-#import <ChatKit/CAAnimationDelegate-Protocol.h>
 #import <ChatKit/CKImpactEffectAnimationProvider-Protocol.h>
 
 @class CAEmitterLayer, NSString;

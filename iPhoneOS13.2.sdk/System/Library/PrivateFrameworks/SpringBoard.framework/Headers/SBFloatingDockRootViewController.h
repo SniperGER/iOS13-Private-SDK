@@ -9,7 +9,7 @@
 #import <SpringBoard/SBFloatingDockViewControllerDelegate-Protocol.h>
 #import <SpringBoard/SBIconLocationPresenting-Protocol.h>
 #import <SpringBoard/SBIconViewQuerying-Protocol.h>
-#import <SpringBoard/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class FBDisplayLayoutElement, NSSet, NSString, SBAppSuggestionManager, SBApplication, SBApplicationController, SBFAnalyticsClient, SBFloatingDockSuggestionsModel, SBFloatingDockViewController, SBFolderController, SBIconController, SBIconListView, SBLayoutStateTransitionCoordinator, SBRecentDisplayItemsController, SBRecentDisplayItemsDataStore, SBWorkspaceApplicationSceneTransitionContext, _UILegibilitySettings;
 @protocol SBFloatingDockRootViewControllerDelegate, SBIconViewProviding;

@@ -4662,18 +4662,18 @@ struct vector<CGRect, std::__1::allocator<CGRect>> {
 };
 
 struct vector<OADTableCell *, std::__1::allocator<OADTableCell *>> {
-    id *_field1;
-    id *_field2;
+    id _field1;
+    id _field2;
     struct __compressed_pair<OADTableCell *__strong *, std::__1::allocator<OADTableCell *>> {
-        id *_field1;
+        id _field1;
     } _field3;
 };
 
 struct vector<OADTablePartStyle *, std::__1::allocator<OADTablePartStyle *>> {
-    id *_field1;
-    id *_field2;
+    id _field1;
+    id _field2;
     struct __compressed_pair<OADTablePartStyle *__strong *, std::__1::allocator<OADTablePartStyle *>> {
-        id *_field1;
+        id _field1;
     } _field3;
 };
 
@@ -4915,7 +4915,7 @@ typedef struct {
 
 typedef struct {
     unsigned long long _field1;
-    id *_field2;
+    id _field2;
     unsigned long long *_field3;
     unsigned long long _field4[5];
 } CDStruct_70511ce9;

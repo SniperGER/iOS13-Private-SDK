@@ -6,7 +6,6 @@
 
 #import <UIKit/UIView.h>
 
-#import <SpringBoard/CAAnimationDelegate-Protocol.h>
 
 @class CSHomeAffordanceView, NSArray, NSObject, NSString, SBUICallToActionLabel, SBUILegibilityLabel, UIButton, UILabel, _UILegibilitySettings;
 @protocol OS_dispatch_source;

@@ -11,7 +11,7 @@
 
 typedef struct {
     unsigned long long state;
-    id *itemsPtr;
+    id itemsPtr;
     unsigned long long *mutationsPtr;
     unsigned long long extra[5];
 } CDStruct_58648341;

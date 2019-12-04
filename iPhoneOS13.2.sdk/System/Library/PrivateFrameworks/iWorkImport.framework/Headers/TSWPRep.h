@@ -6,7 +6,6 @@
 
 #import <iWorkImport/TSDContainerRep.h>
 
-#import <iWorkImport/CAAnimationDelegate-Protocol.h>
 
 @class CALayer, CAShapeLayer, NSArray, NSString, TSDLayout, TSWPSearchReference, TSWPSelection, TSWPStorage;
 @protocol TSWPLayoutTarget;

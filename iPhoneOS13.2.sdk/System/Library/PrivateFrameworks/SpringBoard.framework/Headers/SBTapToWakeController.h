@@ -6,7 +6,7 @@
 
 #import <objc/NSObject.h>
 
-#import <SpringBoard/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSString, SBFTapToWakeGestureRecognizer, SBIdleTimerDefaults;
 @protocol SBTapToWakeDelegate;

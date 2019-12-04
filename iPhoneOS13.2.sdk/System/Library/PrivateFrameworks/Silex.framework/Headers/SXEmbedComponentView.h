@@ -7,7 +7,7 @@
 #import <Silex/SXComponentView.h>
 
 #import <Silex/SXViewportChangeListener-Protocol.h>
-#import <Silex/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <Silex/UIScrollViewDelegate-Protocol.h>
 #import <Silex/WKNavigationDelegate-Protocol.h>
 #import <Silex/WKScriptMessageHandler-Protocol.h>

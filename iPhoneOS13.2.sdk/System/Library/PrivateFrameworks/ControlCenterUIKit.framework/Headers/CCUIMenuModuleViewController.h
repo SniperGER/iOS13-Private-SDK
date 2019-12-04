@@ -7,7 +7,7 @@
 #import <ControlCenterUIKit/CCUIButtonModuleViewController.h>
 
 #import <ControlCenterUIKit/CCUIContentModuleContentViewController-Protocol.h>
-#import <ControlCenterUIKit/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class CCUIContentModuleContext, CCUIMenuModuleItemView, MTMaterialView, MTVisualStylingProvider, NSMutableArray, NSMutableDictionary, NSString, UIActivityIndicatorView, UILabel, UILongPressGestureRecognizer, UIScrollView, UISelectionFeedbackGenerator, UIStackView, UIView, UIViewPropertyAnimator;
 

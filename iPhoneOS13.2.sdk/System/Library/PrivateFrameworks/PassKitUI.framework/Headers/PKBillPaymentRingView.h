@@ -7,7 +7,7 @@
 #import <UIKit/UIView.h>
 
 #import <PassKitUI/PKRenderLoopDelegate-Protocol.h>
-#import <PassKitUI/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSArray, NSDecimalNumber, NSDictionary, NSString, PKBillPaymentCircularView, PKBillPaymentRingGradientState, PKBillPaymentSuggestedAmount, PKBillPaymentSuggestedAmountList, PKCurvedTextLabel, PKEnterCurrencyAmountView, PKRenderLoop, PKRingGradientView, UIColor, UILabel, UILongPressGestureRecognizer, UIPanGestureRecognizer, UISelectionFeedbackGenerator, UITapGestureRecognizer;
 @protocol PKBillPaymentRingViewDataSource, PKBillPaymentRingViewDelegate;

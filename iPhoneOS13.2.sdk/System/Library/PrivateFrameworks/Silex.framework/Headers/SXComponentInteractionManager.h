@@ -7,7 +7,7 @@
 #import <objc/NSObject.h>
 
 #import <Silex/SXComponentInteractionManager-Protocol.h>
-#import <Silex/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSString, SXComponentInteractionPreview, SXComponentView, SXDelayed, SXViewport, UILongPressGestureRecognizer, UITapGestureRecognizer;
 @protocol SXComponentInteractionHandlerManager;

@@ -6,7 +6,7 @@
 
 #import <UIKit/UICollectionViewCell.h>
 
-#import <RelevanceEngineUI/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class CALayer, NSString, REContent, UIColor, UIImage, UIImageView, UILongPressGestureRecognizer, UIView;
 @protocol REUpNextCellDelegate;

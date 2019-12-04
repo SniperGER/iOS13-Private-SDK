@@ -20,7 +20,6 @@
 #import <SpringBoard/BSUIScrollViewDelegate-Protocol.h>
 #import <SpringBoard/BSWatchdogDelegate-Protocol.h>
 #import <SpringBoard/BluetoothDevice-SpringBoardExtensions.h>
-#import <SpringBoard/CAAnimationDelegate-Protocol.h>
 #import <SpringBoard/CCSModulePresentationEndpoint-Protocol.h>
 #import <SpringBoard/CCUIControlCenterSystemAgent-Protocol.h>
 #import <SpringBoard/CCUIHostStatusBarStyleProvider-Protocol.h>
@@ -1814,7 +1813,7 @@
 #import <SpringBoard/UIDynamicAnimatorDelegate-Protocol.h>
 #import <SpringBoard/UIDynamicItem-Protocol.h>
 #import <SpringBoard/UIGestureRecognizer-UIGestureRecognizer_SpringBoard.h>
-#import <SpringBoard/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <SpringBoard/UIGestureRecognizerTransformAnalyzer.h>
 #import <SpringBoard/UIGestureRecognizerTransformAnalyzerInfo.h>
 #import <SpringBoard/UIImage-_SBUserNotificationAlert.h>

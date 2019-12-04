@@ -399,7 +399,7 @@
 #import <GameCenterUI/UICollectionViewDelegate_Private-Protocol.h>
 #import <GameCenterUI/UICollectionViewFocusDelegate_Legacy-Protocol.h>
 #import <GameCenterUI/UIColor-GKColorAdditions.h>
-#import <GameCenterUI/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <GameCenterUI/UIImage-GKAdditions.h>
 #import <GameCenterUI/UILabel-GKDashboardUtils.h>
 #import <GameCenterUI/UINavigationBar-GKUITheme.h>

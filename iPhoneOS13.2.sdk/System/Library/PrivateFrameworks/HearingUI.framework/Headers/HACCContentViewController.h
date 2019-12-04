@@ -7,7 +7,7 @@
 #import <UIKit/UIViewController.h>
 
 #import <HearingUI/CCUIContentModuleContentViewController-Protocol.h>
-#import <HearingUI/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class CCUIContentModuleDetailTransitioningDelegate, NSString, UITapGestureRecognizer, UIView, UIViewPropertyAnimator;
 @protocol CCUIContentModuleContentViewController, HACCContentModule;

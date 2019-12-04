@@ -8,7 +8,7 @@
 
 #import <HomeUI/HUQuickControlInteractiveView-Protocol.h>
 #import <HomeUI/HURingSliderStatusLabelUpdateDelegate-Protocol.h>
-#import <HomeUI/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class HUQuickControlRingSliderHandleView, HUQuickControlRingSliderViewProfile, NSMutableArray, NSMutableDictionary, NSString, UIImage, UIImageView, UIImpactFeedbackGenerator, UILabel, UILongPressGestureRecognizer, UISelectionFeedbackGenerator;
 @protocol HUQuickControlViewInteractionDelegate;

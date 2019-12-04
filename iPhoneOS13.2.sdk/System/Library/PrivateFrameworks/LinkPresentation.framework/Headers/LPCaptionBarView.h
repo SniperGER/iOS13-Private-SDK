@@ -6,7 +6,6 @@
 
 #import <LinkPresentation/LPComponentView.h>
 
-#import <LinkPresentation/CAAnimationDelegate-Protocol.h>
 
 @class LPCaptionBarAccessoryView, LPCaptionBarPresentationProperties, LPCaptionBarStyle, LPInlineMediaPlaybackInformation, LPPlayButtonView, LPVerticalTextStackView, NSString;
 @protocol LPTextStyleable;

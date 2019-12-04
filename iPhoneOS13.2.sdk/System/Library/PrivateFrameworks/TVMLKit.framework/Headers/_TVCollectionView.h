@@ -6,7 +6,7 @@
 
 #import <UIKit/UICollectionView.h>
 
-#import <TVMLKit/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSIndexPath, NSString, UILongPressGestureRecognizer;
 @protocol _TVCollectionViewDelegate;

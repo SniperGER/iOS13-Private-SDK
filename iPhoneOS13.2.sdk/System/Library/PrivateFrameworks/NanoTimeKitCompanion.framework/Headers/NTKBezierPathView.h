@@ -6,7 +6,6 @@
 
 #import <UIKit/UIView.h>
 
-#import <NanoTimeKitCompanion/CAAnimationDelegate-Protocol.h>
 
 @class NSString, NTKBezierPathPointModel, UIBezierPath, UIColor;
 

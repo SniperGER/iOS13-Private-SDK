@@ -7,7 +7,7 @@
 #import <TVMLKit/TVDocumentViewController.h>
 
 #import <TVMLKit/IKAppDocumentDelegate-Protocol.h>
-#import <TVMLKit/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <TVMLKit/_TVApplicationInspectorDocumentProvider-Protocol.h>
 #import <TVMLKit/_TVIKAppDocumentDelegate-Protocol.h>
 #import <TVMLKit/_TVModalPresenterFocusing-Protocol.h>

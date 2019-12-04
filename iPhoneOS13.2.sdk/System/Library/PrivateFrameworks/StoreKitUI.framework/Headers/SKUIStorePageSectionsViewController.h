@@ -12,7 +12,7 @@
 #import <StoreKitUI/SKUIStorePageCollectionViewDelegate-Protocol.h>
 #import <StoreKitUI/SKUIViewControllerTesting-Protocol.h>
 #import <StoreKitUI/UICollectionViewDataSource-Protocol.h>
-#import <StoreKitUI/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <StoreKitUI/UIViewControllerPreviewingDelegate-Protocol.h>
 #import <StoreKitUI/UIViewControllerPreviewingDelegate_Private-Protocol.h>
 

@@ -78,7 +78,7 @@
 #import <MediaControls/NSBundle-MediaControls.h>
 #import <MediaControls/SBSHardwareButtonEventConsuming-Protocol.h>
 #import <MediaControls/UIColor-MediaControls.h>
-#import <MediaControls/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <MediaControls/UIScrollViewDelegate-Protocol.h>
 #import <MediaControls/UITableViewDataSource-Protocol.h>
 #import <MediaControls/UITableViewDelegate-Protocol.h>

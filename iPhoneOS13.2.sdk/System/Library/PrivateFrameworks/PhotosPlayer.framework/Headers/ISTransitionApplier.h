@@ -6,7 +6,6 @@
 
 #import <objc/NSObject.h>
 
-#import <PhotosPlayer/CAAnimationDelegate-Protocol.h>
 
 @class NSString;
 

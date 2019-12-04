@@ -12,7 +12,7 @@
 #import <PhotosUICore/PXTilingControllerPreheatHandler-Protocol.h>
 #import <PhotosUICore/PXTilingControllerZoomAnimationCoordinatorDelegate-Protocol.h>
 #import <PhotosUICore/PXUIWidget-Protocol.h>
-#import <PhotosUICore/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSMutableSet, NSObject, NSString, PXOneUpPresentation, PXPhotoKitUIMediaProvider, PXPhotosDetailsContext, PXReusableObjectPool, PXSectionedSelectionManager, PXTilingController, PXTouchingUIGestureRecognizer, PXUITapGestureRecognizer, PXWidgetSpec, _PXUIRelatedPreviewOrbContext;
 @protocol PXAnonymousView, PXWidgetDelegate, PXWidgetUnlockDelegate;

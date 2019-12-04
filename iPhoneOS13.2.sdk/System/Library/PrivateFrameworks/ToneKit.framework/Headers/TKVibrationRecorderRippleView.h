@@ -6,7 +6,6 @@
 
 #import <UIKit/UIView.h>
 
-#import <ToneKit/CAAnimationDelegate-Protocol.h>
 
 @class CAAnimation, NSMutableArray, NSMutableDictionary, NSString;
 @protocol NSCopying, TKVibrationRecorderStyleProvider;

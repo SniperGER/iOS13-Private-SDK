@@ -134,7 +134,7 @@
 #import <NewsArticles/UIActivityItemsConfiguration-Bridge.h>
 #import <NewsArticles/UIAdaptivePresentationControllerDelegate-Protocol.h>
 #import <NewsArticles/UICollectionViewDelegate-Protocol.h>
-#import <NewsArticles/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <NewsArticles/UIPopoverPresentationControllerDelegate-Protocol.h>
 #import <NewsArticles/UIScrollViewDelegate-Protocol.h>
 #import <NewsArticles/UITextViewDelegate-Protocol.h>

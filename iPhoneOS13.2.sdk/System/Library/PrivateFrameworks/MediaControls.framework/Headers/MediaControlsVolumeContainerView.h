@@ -6,7 +6,7 @@
 
 #import <UIKit/UIView.h>
 
-#import <MediaControls/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class MTVisualStylingProvider, MediaControlsRelativeVolumeStepper, MediaControlsVolumeSlider, NSString;
 

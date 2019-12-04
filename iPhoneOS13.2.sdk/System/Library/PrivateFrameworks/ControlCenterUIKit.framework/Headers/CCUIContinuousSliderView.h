@@ -6,7 +6,7 @@
 
 #import <ControlCenterUIKit/CCUIBaseSliderView.h>
 
-#import <ControlCenterUIKit/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSString, UIPanGestureRecognizer, UIView, _UIEdgeFeedbackGenerator;
 

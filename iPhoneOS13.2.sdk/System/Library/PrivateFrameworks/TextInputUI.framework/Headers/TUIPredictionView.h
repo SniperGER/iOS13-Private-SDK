@@ -6,7 +6,7 @@
 
 #import <UIKitCore/UIView.h>
 
-#import <TextInputUI/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSArray, NSLocale, NSString, TIAutocorrectionList, TUIPredictionViewStackView, UIKBRenderConfig, UIKBVisualEffectView, UILongPressGestureRecognizer;
 @protocol TUIPredictionViewDelegate;

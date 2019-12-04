@@ -41,24 +41,6 @@ struct AttributeCollection {
     struct map<std::__1::pair<id<EQKitLayoutNode>, EQKitTypes::Attributes::Enum>, EQKitTypes::CFRetainRelease, std::__1::less<std::__1::pair<id<EQKitLayoutNode>, EQKitTypes::Attributes::Enum>>, std::__1::allocator<std::__1::pair<const std::__1::pair<id<EQKitLayoutNode>, EQKitTypes::Attributes::Enum>, EQKitTypes::CFRetainRelease>>> _field24;
 };
 
-struct CATransform3D {
-    double m11;
-    double m12;
-    double m13;
-    double m14;
-    double m21;
-    double m22;
-    double m23;
-    double m24;
-    double m31;
-    double m32;
-    double m33;
-    double m34;
-    double m41;
-    double m42;
-    double m43;
-    double m44;
-};
 
 
 struct CGColor;
@@ -934,11 +916,11 @@ struct deque<EQKitMathMLParserState, std::__1::allocator<EQKitMathMLParserState>
 
 struct deque<id<EQKitLayoutNode>, std::__1::allocator<id<EQKitLayoutNode>>> {
     struct __split_buffer<id<EQKitLayoutNode>*, std::__1::allocator<id<EQKitLayoutNode>*>> {
-        id **_field1;
-        id **_field2;
-        id **_field3;
+        id *_field1;
+        id *_field2;
+        id *_field3;
         struct __compressed_pair<id<EQKitLayoutNode>**, std::__1::allocator<id<EQKitLayoutNode>*>> {
-            id **_field1;
+            id *_field1;
         } _field4;
     } _field1;
     unsigned long long _field2;
@@ -1832,10 +1814,10 @@ struct vector<double, std::__1::allocator<double>> {
 };
 
 struct vector<id<EQKitLayoutNode>, std::__1::allocator<id<EQKitLayoutNode>>> {
-    id *_field1;
-    id *_field2;
+    id _field1;
+    id _field2;
     struct __compressed_pair<id<EQKitLayoutNode>*, std::__1::allocator<id<EQKitLayoutNode>>> {
-        id *_field1;
+        id _field1;
     } _field3;
 };
 
@@ -1930,7 +1912,7 @@ typedef struct {
 
 typedef struct {
     unsigned long long _field1;
-    id *_field2;
+    id _field2;
     unsigned long long *_field3;
     unsigned long long _field4[5];
 } CDStruct_70511ce9;

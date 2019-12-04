@@ -2,7 +2,6 @@
 #import <NewsUI/ADBannerViewInternalDelegate-Protocol.h>
 #import <NewsUI/ADInterstitialAdDelegate-Protocol.h>
 #import <NewsUI/ADLayoutOptions-News.h>
-#import <NewsUI/CAAnimationDelegate-Protocol.h>
 #import <NewsUI/CDStructures.h>
 #import <NewsUI/FCAppActivityMonitor-Protocol.h>
 #import <NewsUI/FCAppleAccount-Protocol.h>

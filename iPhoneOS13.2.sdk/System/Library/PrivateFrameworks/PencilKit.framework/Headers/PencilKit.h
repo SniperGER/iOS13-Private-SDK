@@ -230,7 +230,7 @@
 #import <PencilKit/UIDropInteractionDelegate_Private-Protocol.h>
 #import <PencilKit/UIEditingOverlayInteractionWithView-Protocol.h>
 #import <PencilKit/UIEvent-PKAdditions.h>
-#import <PencilKit/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <PencilKit/UIInputResponderControllerVisibilityObserver-Protocol.h>
 #import <PencilKit/UIInteraction-Protocol.h>
 #import <PencilKit/UIPencilInteractionDelegate-Protocol.h>

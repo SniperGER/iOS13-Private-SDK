@@ -6,7 +6,7 @@
 
 #import <objc/NSObject.h>
 
-#import <EmojiKit/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSString;
 

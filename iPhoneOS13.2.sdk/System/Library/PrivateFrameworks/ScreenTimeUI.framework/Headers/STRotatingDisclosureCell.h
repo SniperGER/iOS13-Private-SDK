@@ -6,7 +6,7 @@
 
 #import <Preferences/PSTableCell.h>
 
-#import <ScreenTimeUI/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSString, UILongPressGestureRecognizer;
 

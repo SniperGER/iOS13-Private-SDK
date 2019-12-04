@@ -6,7 +6,7 @@
 
 #import <UIKit/UINavigationController.h>
 
-#import <TVMLKit/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <TVMLKit/_TVApplicationInspectorDocumentProvider-Protocol.h>
 #import <TVMLKit/_TVModalPresenterFocusing-Protocol.h>
 

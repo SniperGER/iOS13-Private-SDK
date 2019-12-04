@@ -8,7 +8,7 @@
 
 #import <TSReading/TSDCanvasLayerHosting-Protocol.h>
 #import <TSReading/TSDCanvasZoomTrackerDelegate-Protocol.h>
-#import <TSReading/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class CALayer, NSArray, NSMutableArray, NSSet, NSString, TSDAllTouchesDoneGestureRecognizer, TSDCanvasLayer, TSDCanvasSubviewsController, TSDCanvasView, TSDCanvasZoomPinchGestureRecognizer, TSDCanvasZoomTracker, TSDEditMenuTapGestureRecognizer, TSDGuidedPanController, TSDInteractiveCanvasController, TSDKnobDragGestureRecognizer, TSDMultiSelectGestureRecognizer, TSDNudgeGestureRecognizer, TSDPreventScrollGestureRecognizer, TSDRepDragGestureRecognizer, TSDRepRotateGestureRecognizer, UIPanGestureRecognizer, UIPinchGestureRecognizer, UITapGestureRecognizer, UIView;
 @protocol TSDiOSCanvasViewControllerDelegate;

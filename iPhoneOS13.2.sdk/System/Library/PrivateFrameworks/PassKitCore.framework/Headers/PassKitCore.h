@@ -1,7 +1,6 @@
 #import <PassKitCore/AMSPromise-PassKit.h>
 #import <PassKitCore/APSConnectionDelegate-Protocol.h>
 #import <PassKitCore/CAAnimation-PKCAUtilities.h>
-#import <PassKitCore/CAAnimationDelegate-Protocol.h>
 #import <PassKitCore/CABasicAnimation-PKCAUtilities.h>
 #import <PassKitCore/CALayer-PKCAUtilities.h>
 #import <PassKitCore/CBCentralManagerDelegate-Protocol.h>

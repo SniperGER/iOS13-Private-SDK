@@ -12,7 +12,7 @@
 #import <PhotosUICore/PXPeopleSectionedDataSourceChangeObserver-Protocol.h>
 #import <PhotosUICore/PXPeopleSwipeSelectionManagerDelegate-Protocol.h>
 #import <PhotosUICore/UICollectionViewDelegateFlowLayout-Protocol.h>
-#import <PhotosUICore/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <PhotosUICore/UIPopoverPresentationControllerDelegate-Protocol.h>
 #import <PhotosUICore/UIViewControllerTransitioningDelegate-Protocol.h>
 

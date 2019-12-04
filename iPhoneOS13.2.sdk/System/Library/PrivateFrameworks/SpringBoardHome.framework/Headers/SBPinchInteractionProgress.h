@@ -6,7 +6,7 @@
 
 #import <UIKit/UIInteractionProgress.h>
 
-#import <SpringBoardHome/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSString, UIPinchGestureRecognizer;
 

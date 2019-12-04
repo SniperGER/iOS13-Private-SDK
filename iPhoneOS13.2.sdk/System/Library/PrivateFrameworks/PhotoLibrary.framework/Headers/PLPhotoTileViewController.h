@@ -7,7 +7,7 @@
 #import <UIKit/UIViewController.h>
 
 #import <PhotoLibrary/PLPhotoTileCloudPlaceholderViewDelegate-Protocol.h>
-#import <PhotoLibrary/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <PhotoLibrary/UIScrollViewDelegate-Protocol.h>
 
 @class NSArray, NSNumber, NSObject, NSString, PHAsset, PHCachingImageManager, PLExpandableImageView, PLImageScrollView, PLTileContainerView, PLVideoView, UIGestureRecognizer, UIImage, UIImageView, UIView;

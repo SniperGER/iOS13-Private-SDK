@@ -6,7 +6,6 @@
 
 #import <TeaUI/_TtC5TeaUI14TwoLabelButton.h>
 
-#import <TeaUI/CAAnimationDelegate-Protocol.h>
 
 @interface _TtC5TeaUI14TwoLabelButton (TeaUI) <CAAnimationDelegate>
 - (void)animationDidStop:(id)arg1 finished:(_Bool)arg2;

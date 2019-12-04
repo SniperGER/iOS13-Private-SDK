@@ -132,8 +132,8 @@ typedef struct {
     NSTextRange *textRange;
     NSMapTable *layoutFragmentTable;
     struct CGRect usageBounds;
-    id *layoutFragments;
-    id *layoutFragmentsHint;
+    id layoutFragments;
+    id layoutFragmentsHint;
     unsigned long long layoutFragmentsCount;
     unsigned long long layoutFragmentsSize;
 } CDStruct_80f920e0;

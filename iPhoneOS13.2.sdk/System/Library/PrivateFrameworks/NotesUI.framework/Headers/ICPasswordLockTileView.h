@@ -6,7 +6,6 @@
 
 #import <UIKit/UIView.h>
 
-#import <NotesUI/CAAnimationDelegate-Protocol.h>
 
 @class CALayer, NSString, UILabel;
 

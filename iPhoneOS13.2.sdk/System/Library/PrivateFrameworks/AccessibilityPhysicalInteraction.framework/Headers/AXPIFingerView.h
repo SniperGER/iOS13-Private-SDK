@@ -6,7 +6,6 @@
 
 #import <UIKit/UIView.h>
 
-#import <AccessibilityPhysicalInteraction/CAAnimationDelegate-Protocol.h>
 
 @class AXPIFingerLayer, CAShapeLayer, NSString;
 @protocol AXPIFingerAppearanceDelegate;

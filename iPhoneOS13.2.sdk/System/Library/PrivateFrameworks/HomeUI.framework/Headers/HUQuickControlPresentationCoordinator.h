@@ -9,7 +9,7 @@
 #import <HomeUI/HUCardViewControllerDelegate-Protocol.h>
 #import <HomeUI/HUPresentationDelegate-Protocol.h>
 #import <HomeUI/HUQuickControlContainerViewControllerDelegate-Protocol.h>
-#import <HomeUI/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <HomeUI/UINavigationControllerDelegate-Protocol.h>
 #import <HomeUI/UIPresentationControllerDelegatePrivate-Protocol.h>
 #import <HomeUI/UITraitEnvironment-Protocol.h>

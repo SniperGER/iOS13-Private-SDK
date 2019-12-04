@@ -8,7 +8,7 @@
 
 #import <SpringBoard/SBHardwareButtonGestureParametersObserver-Protocol.h>
 #import <SpringBoard/SBPressPrecedenceArbiter-Protocol.h>
-#import <SpringBoard/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class BSMonotonicReferenceTime, NSString, SBClickGestureRecognizer, SBHardwareButtonGestureParameters, SBHomeHardwareButton, SBLockHardwareButtonActions, SBLongPressGestureRecognizer, SBPressGestureRecognizer, SBVolumeHardwareButton, UIGestureRecognizer;
 

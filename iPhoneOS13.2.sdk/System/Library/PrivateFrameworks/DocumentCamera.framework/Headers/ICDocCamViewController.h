@@ -7,14 +7,13 @@
 #import <UIKit/UIViewController.h>
 
 #import <DocumentCamera/AVCaptureVideoDataOutputSampleBufferDelegate-Protocol.h>
-#import <DocumentCamera/CAAnimationDelegate-Protocol.h>
 #import <DocumentCamera/DCUnsavedDataDelegate-Protocol.h>
 #import <DocumentCamera/ICDocCamDebugMovieControllerDelegate-Protocol.h>
 #import <DocumentCamera/ICDocCamExtractedDocumentControllerDelegate-Protocol.h>
 #import <DocumentCamera/ICDocCamPhysicalCaptureNotifierDelegate-Protocol.h>
 #import <DocumentCamera/ICDocCamProcessingBlockerDelegate-Protocol.h>
 #import <DocumentCamera/ICDocCamThumbnailViewDelegate-Protocol.h>
-#import <DocumentCamera/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <DocumentCamera/UINavigationControllerDelegate-Protocol.h>
 #import <DocumentCamera/UIScrollViewDelegate-Protocol.h>
 

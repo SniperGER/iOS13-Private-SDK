@@ -6,7 +6,6 @@
 
 #import <SiriUI/SiriUIClearBackgroundCell.h>
 
-#import <SiriUI/CAAnimationDelegate-Protocol.h>
 
 @class NSString, SiriUIAceObjectViewController, UIView;
 

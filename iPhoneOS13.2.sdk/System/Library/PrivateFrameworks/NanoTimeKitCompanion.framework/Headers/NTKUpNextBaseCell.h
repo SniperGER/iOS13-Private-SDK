@@ -7,7 +7,7 @@
 #import <UIKit/UICollectionViewCell.h>
 
 #import <NanoTimeKitCompanion/CLKMonochromeComplicationView-Protocol.h>
-#import <NanoTimeKitCompanion/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class CALayer, CLKDevice, NSHashTable, NSString, REContent, UIColor, UIImage, UIImageView, UIView;
 @protocol CLKMonochromeFilterProvider;

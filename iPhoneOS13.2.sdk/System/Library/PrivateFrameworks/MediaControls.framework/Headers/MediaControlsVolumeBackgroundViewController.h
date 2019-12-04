@@ -7,7 +7,7 @@
 #import <ControlCenterUIKit/CCUISliderModuleBackgroundViewController.h>
 
 #import <MediaControls/MediaControlsVolumeControllerObserver-Protocol.h>
-#import <MediaControls/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class MediaControlsBluetoothListeningModeButton, MediaControlsRouteView, MediaControlsVolumeController, NSString, NSTimer;
 

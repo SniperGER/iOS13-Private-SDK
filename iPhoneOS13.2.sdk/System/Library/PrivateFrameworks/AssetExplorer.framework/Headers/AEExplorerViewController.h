@@ -16,7 +16,7 @@
 #import <AssetExplorer/PXTileSource-Protocol.h>
 #import <AssetExplorer/PXTilingControllerScrollDelegate-Protocol.h>
 #import <AssetExplorer/PXTilingControllerTransitionDelegate-Protocol.h>
-#import <AssetExplorer/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <AssetExplorer/UIImagePickerControllerDelegate-Protocol.h>
 #import <AssetExplorer/UINavigationControllerDelegate-Protocol.h>
 #import <AssetExplorer/UIPopoverPresentationControllerDelegate-Protocol.h>

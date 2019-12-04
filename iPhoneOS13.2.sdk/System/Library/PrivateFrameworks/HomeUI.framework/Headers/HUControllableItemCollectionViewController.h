@@ -8,7 +8,7 @@
 
 #import <HomeUI/HUQuickControlPresentationCoordinatorDelegate-Protocol.h>
 #import <HomeUI/HUQuickControlPresentationHost-Protocol.h>
-#import <HomeUI/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class HFItem, HFItemManager, HUQuickControlPresentationCoordinator, NSMutableDictionary, NSString, UICollectionViewLayout, UIGestureRecognizer, UILongPressGestureRecognizer, UIViewController;
 @protocol HUControllableCollectionViewLayout, HUQuickControlPresentationHost, NSCopying;

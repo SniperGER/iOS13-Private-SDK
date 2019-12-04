@@ -9,7 +9,7 @@
 #import <SpringBoard/SBBarSwipeScreenEdgePanGestureRecognizerDelegate-Protocol.h>
 #import <SpringBoard/SBHomeGrabberDelegate-Protocol.h>
 #import <SpringBoard/SBSystemGestureRecognizerDelegate-Protocol.h>
-#import <SpringBoard/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSHashTable, NSString, SBBarSwipeScreenEdgePanGestureRecognizer, SBHomeGesturePanGestureRecognizer, SBHomeGrabberView, UINotificationFeedbackGenerator;
 @protocol SBBarSwipeAffordanceDelegate;

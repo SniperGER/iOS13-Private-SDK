@@ -12,7 +12,7 @@
 #import <ControlCenterUI/CCUIScrollViewDelegate-Protocol.h>
 #import <ControlCenterUI/CCUIStatusBarDelegate-Protocol.h>
 #import <ControlCenterUI/CCUIStatusLabelViewControllerDelegate-Protocol.h>
-#import <ControlCenterUI/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class CCUIAnimationRunner, CCUIFlickGestureRecognizer, CCUIHeaderPocketView, CCUIModuleCollectionView, CCUIOverlayTransitionState, CCUIScrollView, CCUIStatusBarStyleSnapshot, CCUIStatusLabelViewController, FBSDisplayLayoutMonitor, MTMaterialView, NSHashTable, NSString, NSUUID, UIPanGestureRecognizer, UIScrollView, UIStatusBar, UIStatusBar_Modern, UITapGestureRecognizer, UIView;
 @protocol CCUIHostStatusBarStyleProvider, CCUIModularControlCenterOverlayViewControllerDelegate, CCUIOverlayPresentationProvider;

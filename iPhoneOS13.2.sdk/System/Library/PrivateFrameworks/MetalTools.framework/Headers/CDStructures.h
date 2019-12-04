@@ -184,12 +184,12 @@ struct array<AttachmentDescriptorSimple, 8> {
 };
 
 struct deque<id, std::__1::allocator<id>> {
-    struct __split_buffer<id *, std::__1::allocator<id *>> {
-        id **__first_;
-        id **__begin_;
-        id **__end_;
-        struct __compressed_pair<id **, std::__1::allocator<id *>> {
-            id **__value_;
+    struct __split_buffer<id , std::__1::allocator<id >> {
+        id *__first_;
+        id *__begin_;
+        id *__end_;
+        struct __compressed_pair<id *, std::__1::allocator<id >> {
+            id *__value_;
         } __end_cap_;
     } __map_;
     unsigned long long __start_;
@@ -371,10 +371,10 @@ struct vector<MetalBuffer, std::__1::allocator<MetalBuffer>> {
 };
 
 struct vector<NSString *, std::__1::allocator<NSString *>> {
-    id *__begin_;
-    id *__end_;
+    id __begin_;
+    id __end_;
     struct __compressed_pair<NSString **, std::__1::allocator<NSString *>> {
-        id *__value_;
+        id __value_;
     } __end_cap_;
 };
 
@@ -387,10 +387,10 @@ struct vector<ReportBufferEntry, std::__1::allocator<ReportBufferEntry>> {
 };
 
 struct vector<id<MTLBuffer>, std::__1::allocator<id<MTLBuffer>>> {
-    id *__begin_;
-    id *__end_;
+    id __begin_;
+    id __end_;
     struct __compressed_pair<id<MTLBuffer>*, std::__1::allocator<id<MTLBuffer>>> {
-        id *__value_;
+        id __value_;
     } __end_cap_;
 };
 

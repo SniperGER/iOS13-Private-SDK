@@ -9,7 +9,7 @@
 #import <HomeUI/HFItemManagerDelegate-Protocol.h>
 #import <HomeUI/HUQuickControlViewControllerCoordinatorDelegate-Protocol.h>
 #import <HomeUI/HUViewControllerCustomDismissing-Protocol.h>
-#import <HomeUI/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <HomeUI/UIScrollViewDelegate-Protocol.h>
 
 @class HFItem, HUAnimationApplier, HUQuickControlContainerViewController, HUQuickControlSummaryNavigationBarTitleView, HUQuickControlViewControllerCoordinator, NSMutableArray, NSString, UIButton, UIColor, UIImpactFeedbackGenerator, UILayoutGuide, UIPanGestureRecognizer, UIScrollView;

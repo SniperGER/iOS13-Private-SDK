@@ -6,7 +6,7 @@
 
 #import <objc/NSObject.h>
 
-#import <TVMLKit/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <TVMLKit/UINavigationControllerDelegate-Protocol.h>
 #import <TVMLKit/UIPopoverPresentationControllerDelegate-Protocol.h>
 #import <TVMLKit/UIViewControllerTransitioningDelegate-Protocol.h>

@@ -6,7 +6,6 @@
 
 #import <RemoteUI/RUIElement.h>
 
-#import <RemoteUI/CAAnimationDelegate-Protocol.h>
 #import <RemoteUI/PSPasscodeFieldDelegate-Protocol.h>
 #import <RemoteUI/RUITableFooterDelegate-Protocol.h>
 #import <RemoteUI/RUITopLevelPageElement-Protocol.h>

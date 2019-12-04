@@ -16,7 +16,7 @@
 #import <AssetExplorer/PXTileSource-Protocol.h>
 #import <AssetExplorer/PXTilingControllerScrollDelegate-Protocol.h>
 #import <AssetExplorer/PXTilingControllerTransitionDelegate-Protocol.h>
-#import <AssetExplorer/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class AEPackageTransport, AEWrappedDataSourceManager, NSMutableSet, NSString, PUAssetExplorerReviewScreenViewController, PUReviewAssetsDataSourceManager, PUReviewAssetsMediaProvider, PUReviewDataSource, PXAssetsScene, PXBasicUIViewTileAnimator, PXScrollViewController, PXTilingController, UIColor;
 @protocol CKPluginEntryViewControllerDelegate;

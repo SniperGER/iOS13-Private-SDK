@@ -6,7 +6,7 @@
 
 #import <objc/NSObject.h>
 
-#import <CorePDF/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class CALayer, NSString, UIColor, UIPDFAnnotation, UIPDFMarkupAnnotation, UIPDFPageView;
 @protocol NSObject><UIPDFAnnotationControllerDelegate;

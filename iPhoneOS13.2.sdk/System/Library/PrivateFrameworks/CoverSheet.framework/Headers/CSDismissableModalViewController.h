@@ -7,7 +7,7 @@
 #import <CoverSheet/CSPresentationViewController.h>
 
 #import <CoverSheet/CSModalHomeGestureParticipating-Protocol.h>
-#import <CoverSheet/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSString, UIScreenEdgePanGestureRecognizer;
 @protocol CSDismissableModalViewControllerDelegate, CSModalHomeAffordanceControlling;

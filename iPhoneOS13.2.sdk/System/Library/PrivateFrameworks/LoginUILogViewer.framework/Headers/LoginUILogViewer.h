@@ -20,7 +20,7 @@
 #import <LoginUILogViewer/UICollectionViewDelegate-Protocol.h>
 #import <LoginUILogViewer/UICollectionViewDelegateFlowLayout-Protocol.h>
 #import <LoginUILogViewer/UIColor-LogViewerColor.h>
-#import <LoginUILogViewer/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <LoginUILogViewer/UIPageViewControllerDataSource-Protocol.h>
 #import <LoginUILogViewer/UIPageViewControllerDelegate-Protocol.h>
 #import <LoginUILogViewer/UIScrollViewDelegate-Protocol.h>

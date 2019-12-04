@@ -9,7 +9,7 @@
 #import <LoginUILogViewer/LUILogContentViewControllerDelegate-Protocol.h>
 #import <LoginUILogViewer/LUILogFilterViewControllerDelegate-Protocol.h>
 #import <LoginUILogViewer/LUILogViewerViewDelegate-Protocol.h>
-#import <LoginUILogViewer/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <LoginUILogViewer/UIPageViewControllerDataSource-Protocol.h>
 #import <LoginUILogViewer/UIPageViewControllerDelegate-Protocol.h>
 #import <LoginUILogViewer/UISearchBarDelegate-Protocol.h>

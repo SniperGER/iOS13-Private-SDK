@@ -165,7 +165,7 @@
 #import <UserNotificationsUIKit/PLViewControllerAnimatorDelegate-Protocol.h>
 #import <UserNotificationsUIKit/UIContentSizeCategoryAdjusting-Protocol.h>
 #import <UserNotificationsUIKit/UIDragInteractionDelegate-Protocol.h>
-#import <UserNotificationsUIKit/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <UserNotificationsUIKit/UIImage-NCAdditions.h>
 #import <UserNotificationsUIKit/UILabel-NCNotificationContentViewAdditions.h>
 #import <UserNotificationsUIKit/UIPresentationController-NCAdditions.h>

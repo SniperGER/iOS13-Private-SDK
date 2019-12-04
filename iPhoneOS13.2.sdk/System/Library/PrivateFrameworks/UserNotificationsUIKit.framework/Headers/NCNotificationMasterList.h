@@ -11,7 +11,7 @@
 #import <UserNotificationsUIKit/NCNotificationListViewDataSource-Protocol.h>
 #import <UserNotificationsUIKit/NCNotificationManagementSuggestionManagerDelegate-Protocol.h>
 #import <UserNotificationsUIKit/NCNotificationStructuredSectionListDelegate-Protocol.h>
-#import <UserNotificationsUIKit/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <UserNotificationsUIKit/UIScrollViewDelegate-Protocol.h>
 
 @class NCNotificationListCache, NCNotificationListRevealCoordinator, NCNotificationListStalenessEventTracker, NCNotificationListView, NCNotificationManagementSuggestionManager, NCNotificationStructuredSectionList, NSMutableArray, NSString;

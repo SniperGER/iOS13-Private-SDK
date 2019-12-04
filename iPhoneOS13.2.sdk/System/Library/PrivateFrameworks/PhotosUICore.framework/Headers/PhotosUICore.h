@@ -1832,7 +1832,7 @@
 #import <PhotosUICore/UIDropInteractionDelegate-Protocol.h>
 #import <PhotosUICore/UIFont-PhotosUICoreCore.h>
 #import <PhotosUICore/UIGestureRecognizer-PhotosUICore.h>
-#import <PhotosUICore/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <PhotosUICore/UIImage-PhotosUICore.h>
 #import <PhotosUICore/UILabel-Truncation.h>
 #import <PhotosUICore/UIMultiSelectInteractionDelegate-Protocol.h>

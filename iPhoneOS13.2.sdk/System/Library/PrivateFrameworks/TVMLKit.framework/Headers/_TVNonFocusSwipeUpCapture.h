@@ -6,7 +6,7 @@
 
 #import <objc/NSObject.h>
 
-#import <TVMLKit/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSString, UIPanGestureRecognizer, UIView;
 

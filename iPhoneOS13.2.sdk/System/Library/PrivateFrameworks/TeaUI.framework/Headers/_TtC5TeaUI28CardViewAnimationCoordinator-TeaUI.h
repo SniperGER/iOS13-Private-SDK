@@ -6,7 +6,7 @@
 
 #import <TeaUI/_TtC5TeaUI28CardViewAnimationCoordinator.h>
 
-#import <TeaUI/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @interface _TtC5TeaUI28CardViewAnimationCoordinator (TeaUI) <UIGestureRecognizerDelegate>
 - (_Bool)gestureRecognizer:(id)arg1 shouldRecognizeSimultaneouslyWithGestureRecognizer:(id)arg2;

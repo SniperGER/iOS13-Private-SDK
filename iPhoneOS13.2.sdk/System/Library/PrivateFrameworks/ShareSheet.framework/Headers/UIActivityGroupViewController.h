@@ -7,7 +7,7 @@
 #import <UIKitCore/UICollectionViewController.h>
 
 #import <ShareSheet/UICollectionViewDataSourcePrefetching-Protocol.h>
-#import <ShareSheet/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <ShareSheet/_UIActivityGroupViewDelegateFlowLayout-Protocol.h>
 
 @class NSArray, NSIndexPath, NSString, UILongPressGestureRecognizer, _UIActivityUserDefaults, _UIUserDefaultsActivity;

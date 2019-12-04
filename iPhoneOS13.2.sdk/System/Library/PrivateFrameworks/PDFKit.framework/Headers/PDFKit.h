@@ -138,7 +138,7 @@
 #import <PDFKit/SelectionRectInfo.h>
 #import <PDFKit/TileRenderRequest.h>
 #import <PDFKit/UIDocumentPasswordViewDelegate-Protocol.h>
-#import <PDFKit/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <PDFKit/UIKeyInput-Protocol.h>
 #import <PDFKit/UIPageViewControllerDataSource-Protocol.h>
 #import <PDFKit/UIPageViewControllerDelegate-Protocol.h>

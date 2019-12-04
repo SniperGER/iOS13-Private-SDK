@@ -8,7 +8,7 @@
 
 #import <TVMLKit/IKAppNavigationController-Protocol.h>
 #import <TVMLKit/TVAppRootViewController-Protocol.h>
-#import <TVMLKit/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <TVMLKit/UINavigationControllerDelegate-Protocol.h>
 #import <TVMLKit/_TVApplicationInspectorDocumentProvider-Protocol.h>
 

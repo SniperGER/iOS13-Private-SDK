@@ -7,7 +7,7 @@
 #import <GameCenterFoundation/_GKStateMachine.h>
 
 #import <GameCenterUI/GKSegmentedSectionDataSourceEventHandler-Protocol.h>
-#import <GameCenterUI/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class GKCancelSwipeToEditGestureRecognizer, GKCollectionViewCell, GKCollectionViewDataSource, NSIndexPath, NSString, UICollectionView, UIPanGestureRecognizer, _UIDynamicAnimation;
 

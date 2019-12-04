@@ -6,7 +6,7 @@
 
 #import <objc/NSObject.h>
 
-#import <WorkflowUI/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <WorkflowUI/UIInteraction-Protocol.h>
 
 @class NSString, NSTextContainer, UITapGestureRecognizer, UIView;

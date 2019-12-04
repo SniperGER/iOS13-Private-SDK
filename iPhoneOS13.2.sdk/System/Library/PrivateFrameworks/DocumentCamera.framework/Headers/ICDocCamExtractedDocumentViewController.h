@@ -6,7 +6,6 @@
 
 #import <UIKit/UIViewController.h>
 
-#import <DocumentCamera/CAAnimationDelegate-Protocol.h>
 #import <DocumentCamera/DCUnsavedDataDelegate-Protocol.h>
 #import <DocumentCamera/ICDocCamExtractedThumbnailContainerViewDelegate-Protocol.h>
 #import <DocumentCamera/ICDocCamFilterViewDelegate-Protocol.h>
@@ -14,7 +13,7 @@
 #import <DocumentCamera/ICDocCamZoomablePageContentDelegate-Protocol.h>
 #import <DocumentCamera/UICollectionViewDataSource-Protocol.h>
 #import <DocumentCamera/UICollectionViewDelegate-Protocol.h>
-#import <DocumentCamera/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <DocumentCamera/UIPageViewControllerDataSource-Protocol.h>
 #import <DocumentCamera/UIPageViewControllerDelegate-Protocol.h>
 #import <DocumentCamera/UIPageViewControllerDelegatePrivate-Protocol.h>

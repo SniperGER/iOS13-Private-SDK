@@ -8,7 +8,7 @@
 
 #import <SpringBoard/PTSettingsKeyObserver-Protocol.h>
 #import <SpringBoard/SBHUDViewControlling-Protocol.h>
-#import <SpringBoard/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class CCUICAPackageDescription, NSArray, NSDate, NSMutableArray, NSMutableOrderedSet, NSString, NSTimer, SBElasticSliderMaterialWrapperView, SBElasticSliderView, SBFTouchPassThroughView, SBUIViewFloatSpringProperty, SBVolumeHUDSettings, UIButton, UILabel, UILongPressGestureRecognizer, UIPanGestureRecognizer, UISegmentedControl, UISlider, UISwitch, UIView, _UIEdgeFeedbackGenerator, _UIFeedback, _UIFeedbackEngine, _UILegibilityLabel;
 @protocol SBElasticAudioDataSource, SBElasticAudioVolumeViewControllerDelegate;

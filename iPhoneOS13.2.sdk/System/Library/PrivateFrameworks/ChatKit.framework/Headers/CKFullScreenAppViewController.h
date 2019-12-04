@@ -10,7 +10,7 @@
 #import <ChatKit/CKBrowserViewControllerProtocol-Protocol.h>
 #import <ChatKit/CKFullScreenAppNavbarManagerDelegate-Protocol.h>
 #import <ChatKit/CKFullScreenAppViewControllerProtocol-Protocol.h>
-#import <ChatKit/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class CKAppGrabberView, CKBrowserDragManager, CKConversation, CKDismissView, CKFullScreenAppNavbarManager, CKImmediatePanGestureRecognizer, IMBalloonPlugin, IMBalloonPluginDataSource, NSArray, NSData, NSNumber, NSObject, NSString, UILongPressGestureRecognizer, UIView, UIViewPropertyAnimator;
 @protocol CKBrowserViewControllerProtocol, CKBrowserViewControllerSendDelegate, CKFullScreenAppViewControllerDelegate, UIViewControllerTransitioningDelegate;

@@ -6,7 +6,7 @@
 
 #import <UIKit/UIButton.h>
 
-#import <CameraUI/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSMutableArray, NSString, UIImage, UIImageView, UIView;
 

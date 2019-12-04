@@ -7,7 +7,6 @@
 #import <UIKit/UIViewController.h>
 
 #import <AuthKitUI/AKSecondFactorCodeEntry-Protocol.h>
-#import <AuthKitUI/CAAnimationDelegate-Protocol.h>
 
 @class AKAppleIDAuthenticationContext, AKBasicLoginContentViewController, AKCodeEntryView, NSArray, NSString;
 

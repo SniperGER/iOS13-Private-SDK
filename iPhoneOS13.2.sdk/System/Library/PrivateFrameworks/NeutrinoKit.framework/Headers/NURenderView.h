@@ -6,7 +6,6 @@
 
 #import <UIKit/UIView.h>
 
-#import <NeutrinoKit/CAAnimationDelegate-Protocol.h>
 
 @class CALayer, NSString, NUImageGeometry, _NUBackfillLayer, _NUContainerLayer, _NUROILayer;
 

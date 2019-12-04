@@ -7,7 +7,7 @@
 #import <UIKit/UIViewController.h>
 
 #import <AnnotationKit/AKPopoverAnnotationEditor-Protocol.h>
-#import <AnnotationKit/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class AKAnnotation, AKAnnotationTheme, AKPageController, AKTouchOutsideViewGestureRecognizer, IMTheme, NSString, UIView;
 @protocol AKAnnotationEditorDelegate;

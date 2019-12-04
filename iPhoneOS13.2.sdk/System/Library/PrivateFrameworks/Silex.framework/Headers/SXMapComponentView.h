@@ -8,7 +8,7 @@
 
 #import <Silex/MKMapViewDelegate-Protocol.h>
 #import <Silex/SXFullscreenCanvasViewControllerDelegate-Protocol.h>
-#import <Silex/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class MKMapView, NSArray, NSCache, NSString, SXFullscreenCanvasViewController, SXMapSnapShotter, SXMediaEngageEvent, UIBarButtonItem, UIImageView, UISegmentedControl, UITapGestureRecognizer;
 @protocol SXDocumentTitleProviding;

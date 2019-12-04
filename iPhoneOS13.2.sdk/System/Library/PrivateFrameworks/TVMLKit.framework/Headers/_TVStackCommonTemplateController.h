@@ -11,7 +11,7 @@
 #import <TVMLKit/TVObserving-Protocol.h>
 #import <TVMLKit/UICollectionViewDataSource-Protocol.h>
 #import <TVMLKit/UICollectionViewDelegateFlowLayout-Protocol.h>
-#import <TVMLKit/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <TVMLKit/_TVCollectionViewDelegate-Protocol.h>
 
 @class IKAudioElement, IKImageElement, IKMediaContentElement, IKViewElement, NSArray, NSString, TVMediaInfo, TVObservableEventController, UIImage, UIView, UIViewController, _TVFocusCaptureView, _TVStackCollectionView, _TVStackWrappingView;

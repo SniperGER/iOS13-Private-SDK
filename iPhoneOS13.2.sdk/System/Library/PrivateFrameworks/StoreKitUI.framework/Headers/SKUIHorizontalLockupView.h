@@ -13,7 +13,7 @@
 #import <StoreKitUI/SKUIPreviewContainerView-Protocol.h>
 #import <StoreKitUI/SKUIToggleButtonDelegate-Protocol.h>
 #import <StoreKitUI/SKUIViewElementView-Protocol.h>
-#import <StoreKitUI/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSHashTable, NSMapTable, NSMutableArray, NSString, SKUIBadgeViewElement, SKUIGradientView, SKUIHorizontalLockupLayout, SKUILockupViewElement, SKUIPlayButton, SKUIPreviewProgressIndicator, SUPlayerStatus, UIColor, UITapGestureRecognizer, UIView;
 

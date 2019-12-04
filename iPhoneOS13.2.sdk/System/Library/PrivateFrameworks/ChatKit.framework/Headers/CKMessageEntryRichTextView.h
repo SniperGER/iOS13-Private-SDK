@@ -7,7 +7,7 @@
 #import <ChatKit/CKMessageEntryTextView.h>
 
 
-#import <ChatKit/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSMutableDictionary, NSString, UILongPressGestureRecognizer, UITapGestureRecognizer;
 @protocol CKMessageEntryRichTextViewDelegate;

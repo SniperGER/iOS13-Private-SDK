@@ -15,7 +15,7 @@
 #import <HealthUI/HKLollipopDelegate-Protocol.h>
 #import <HealthUI/HKMonthViewControllerDelegate-Protocol.h>
 #import <HealthUI/HKSampleTypeDateRangeControllerObserver-Protocol.h>
-#import <HealthUI/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class HKChartDataCacheController, HKCurrentTimeView, HKCurrentValueViewDataSource, HKDateCache, HKDisplayCategoryController, HKDisplayType, HKDisplayTypeController, HKGraphViewController, HKHealthStore, HKInteractiveChartAnnotationViewDataSource, HKLollipopController, HKSampleType, HKSampleTypeDateRangeController, HKSelectedRangeFormatter, HKSelectedTimeScopeController, HKTimeScopeControl, HKUIDateLabel, HKUnitPreferenceController, HKValueRange, NSArray, NSDate, NSMutableArray, NSString, UIColor, UIFont, UIImpactFeedbackGenerator, UILabel, UIView;
 @protocol HKInteractiveChartCurrentValueViewCallbacks, HKInteractiveChartCurrentValueViewHandler;

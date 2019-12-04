@@ -6,11 +6,10 @@
 
 #import <UIKit/UIView.h>
 
-#import <LinkPresentation/CAAnimationDelegate-Protocol.h>
 #import <LinkPresentation/LPTapToLoadViewDelegate-Protocol.h>
 #import <LinkPresentation/LPThemeClient-Protocol.h>
 #import <LinkPresentation/UIContextMenuInteractionDelegate-Protocol.h>
-#import <LinkPresentation/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class LPAnimationMaskView, LPCaptionBarPresentationProperties, LPCaptionButtonPresentationProperties, LPImage, LPImagePresentationProperties, LPInlineMediaPlaybackInformation, LPLinkMetadata, LPLinkViewComponents, LPTheme, LPVideo, NSArray, NSHashTable, NSMutableArray, NSString, NSURL, UIColor, UIContextMenuInteraction;
 @protocol LPLinkViewDelegate;

@@ -200,7 +200,7 @@
 #import <SpringBoardFoundation/SBWorkspaceDefaults.h>
 #import <SpringBoardFoundation/UIDevice-ControlCenter.h>
 #import <SpringBoardFoundation/UIGestureRecognizer-SpringBoardFoundation.h>
-#import <SpringBoardFoundation/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <SpringBoardFoundation/UIImage-SBFWallpaperHelpers.h>
 #import <SpringBoardFoundation/UIScrollViewDelegate-Protocol.h>
 #import <SpringBoardFoundation/UISpringLoadedInteractionBehavior-Protocol.h>

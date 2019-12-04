@@ -6,7 +6,7 @@
 
 #import <UIKit/UIViewController.h>
 
-#import <DocumentCamera/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <DocumentCamera/UIScrollViewDelegate-Protocol.h>
 
 @class DCSinglePixelHorizontalLineView, DCSinglePixelVerticalLineView, NSArray, NSLayoutConstraint, NSMutableArray, NSString, UILongPressGestureRecognizer, UIScrollView, UIView;

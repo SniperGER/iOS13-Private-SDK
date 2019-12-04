@@ -3801,10 +3801,10 @@ struct vector<RouteSegment, geo::StdAllocator<RouteSegment, mdm::Allocator>> {
 };
 
 struct vector<VKLabelNavRoadLabel *, geo::StdAllocator<VKLabelNavRoadLabel *, mdm::Allocator>> {
-    id *__begin_;
-    id *__end_;
+    id __begin_;
+    id __end_;
     struct __compressed_pair<VKLabelNavRoadLabel **, geo::StdAllocator<VKLabelNavRoadLabel *, mdm::Allocator>> {
-        id *__value_;
+        id __value_;
         struct StdAllocator<VKLabelNavRoadLabel *, mdm::Allocator> __value_;
     } __end_cap_;
 };
@@ -5245,10 +5245,10 @@ typedef struct vector<RouteJunctionInfo, geo::StdAllocator<RouteJunctionInfo, md
 } vector_397bdcab;
 
 typedef struct vector<VKLabelNavRoadLabel *, geo::StdAllocator<VKLabelNavRoadLabel *, mdm::Allocator>> {
-    id *__begin_;
-    id *__end_;
+    id __begin_;
+    id __end_;
     struct __compressed_pair<VKLabelNavRoadLabel **, geo::StdAllocator<VKLabelNavRoadLabel *, mdm::Allocator>> {
-        id *__value_;
+        id __value_;
         struct StdAllocator<VKLabelNavRoadLabel *, mdm::Allocator> __value_;
     } __end_cap_;
 } vector_7c356ace;

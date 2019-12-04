@@ -6,7 +6,7 @@
 
 #import <objc/NSObject.h>
 
-#import <SpringBoard/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSHashTable, NSString, UIScreenEdgePanGestureRecognizer, UITapGestureRecognizer;
 @protocol OS_dispatch_queue;

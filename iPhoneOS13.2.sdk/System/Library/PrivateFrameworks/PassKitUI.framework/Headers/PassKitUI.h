@@ -725,7 +725,7 @@
 #import <PassKitUI/UIContentContainer-Protocol.h>
 #import <PassKitUI/UIDatePicker-PKAppearanceObject.h>
 #import <PassKitUI/UIFont-PKPeerPaymentAdditions.h>
-#import <PassKitUI/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <PassKitUI/UIImage-PKUIUtilities.h>
 #import <PassKitUI/UIImageView-PKUIUtilities.h>
 #import <PassKitUI/UIKeyInput-Protocol.h>

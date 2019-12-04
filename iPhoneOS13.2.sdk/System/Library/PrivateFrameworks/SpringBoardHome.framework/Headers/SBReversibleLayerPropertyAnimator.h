@@ -7,7 +7,6 @@
 #import <objc/NSObject.h>
 
 #import <SpringBoardHome/BSInvalidatable-Protocol.h>
-#import <SpringBoardHome/CAAnimationDelegate-Protocol.h>
 
 @class BSAnimationSettings, CALayer, NSMutableArray, NSString;
 

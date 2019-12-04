@@ -6,7 +6,6 @@
 
 #import <Silex/SXComponentAnimationHandler.h>
 
-#import <Silex/CAAnimationDelegate-Protocol.h>
 
 @class NSString;
 

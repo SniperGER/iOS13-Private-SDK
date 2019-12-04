@@ -8,7 +8,7 @@
 
 #import <CoverSheet/BSDescriptionProviding-Protocol.h>
 #import <CoverSheet/CSEventHandling-Protocol.h>
-#import <CoverSheet/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class CSHorizontalScrollFailureRecognizer, NSString, UIGestureRecognizer, UIScrollView, UIView;
 @protocol CSScrollGestureControllerDelegate, CSScrollableView;

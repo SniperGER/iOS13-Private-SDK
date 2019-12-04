@@ -6,7 +6,7 @@
 
 #import <UIKit/UIView.h>
 
-#import <VideosUI/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSString, TVImageProxy, VUIButton, VUIPopoverDescriptor;
 

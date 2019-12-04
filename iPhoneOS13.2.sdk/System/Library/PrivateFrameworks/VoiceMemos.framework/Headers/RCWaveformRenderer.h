@@ -6,7 +6,6 @@
 
 #import <UIKit/UIViewController.h>
 
-#import <VoiceMemos/CAAnimationDelegate-Protocol.h>
 #import <VoiceMemos/RCDisplayLinkObserver-Protocol.h>
 #import <VoiceMemos/RCWaveformDataSourceObserver-Protocol.h>
 

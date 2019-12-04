@@ -6,7 +6,6 @@
 
 #import <UIKit/UIView.h>
 
-#import <MPUFoundation/CAAnimationDelegate-Protocol.h>
 
 @class NSArray, NSPointerArray, NSString, NSUUID;
 @protocol MPUMarqueeViewDelegate;

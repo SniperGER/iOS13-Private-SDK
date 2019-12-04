@@ -390,7 +390,7 @@
 #import <AvatarUI/UICollectionViewDelegateFlowLayout-Protocol.h>
 #import <AvatarUI/UICollectionViewLayout-AVTCollectionViewLayout.h>
 #import <AvatarUI/UIFont-AvatarUI.h>
-#import <AvatarUI/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <AvatarUI/UINavigationControllerDelegate-Protocol.h>
 #import <AvatarUI/UIScrollView-AvatarUI.h>
 #import <AvatarUI/UIScrollViewDelegate-Protocol.h>

@@ -6,7 +6,7 @@
 
 #import <objc/NSObject.h>
 
-#import <VideosUI/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <VideosUI/UIViewControllerAnimatedTransitioning-Protocol.h>
 #import <VideosUI/UIViewControllerTransitioningDelegate-Protocol.h>
 #import <VideosUI/VUIPreviewInteractionControllerDelegate-Protocol.h>

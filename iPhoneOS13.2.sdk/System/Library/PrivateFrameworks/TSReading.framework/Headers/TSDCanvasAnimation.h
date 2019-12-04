@@ -6,7 +6,6 @@
 
 #import <objc/NSObject.h>
 
-#import <TSReading/CAAnimationDelegate-Protocol.h>
 
 @class CAMediaTimingFunction, NSDate, NSString, TSDInteractiveCanvasController, TSUNoCopyDictionary;
 

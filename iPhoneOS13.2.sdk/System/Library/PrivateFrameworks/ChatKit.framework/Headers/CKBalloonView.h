@@ -7,7 +7,7 @@
 #import <ChatKit/CKBalloonImageView.h>
 
 #import <ChatKit/CKInvisibleInkEffectHostView-Protocol.h>
-#import <ChatKit/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class CABackdropLayer, CKInvisibleInkEffectController, CKManualUpdater, NSMutableArray, NSString, UIColor, UIImage, UIImageView, UILongPressGestureRecognizer, UITapGestureRecognizer;
 @protocol CKBalloonViewDelegate;

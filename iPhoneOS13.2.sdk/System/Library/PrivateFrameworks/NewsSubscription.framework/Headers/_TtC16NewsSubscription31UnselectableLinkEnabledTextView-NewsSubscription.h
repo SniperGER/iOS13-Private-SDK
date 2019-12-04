@@ -6,7 +6,7 @@
 
 #import <NewsSubscription/_TtC16NewsSubscription31UnselectableLinkEnabledTextView.h>
 
-#import <NewsSubscription/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @interface _TtC16NewsSubscription31UnselectableLinkEnabledTextView (NewsSubscription) <UIGestureRecognizerDelegate>
 - (_Bool)gestureRecognizerShouldBegin:(id)arg1;

@@ -10,7 +10,7 @@
 #import <StoreKitUI/SKUIDocumentViewController-Protocol.h>
 #import <StoreKitUI/SKUIOnboardingAffiliationCirclesDelegate-Protocol.h>
 #import <StoreKitUI/SKUIPhysicalCirclesTemplateDelegate-Protocol.h>
-#import <StoreKitUI/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSMapTable, NSString, SKUIOnboardingAffiliationCirclesViewController, SKUIOnboardingFooterView, SKUIOnboardingProgressView, SKUIPhysicalCirclesTemplateViewElement, SKUIResourceLoader, UIGestureRecognizer;
 

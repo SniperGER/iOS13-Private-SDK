@@ -1,4 +1,3 @@
-#import <TeaUI/CAAnimationDelegate-Protocol.h>
 #import <TeaUI/CALayer-Bridge.h>
 #import <TeaUI/CALayerDelegate-Protocol.h>
 #import <TeaUI/CDStructures.h>
@@ -134,7 +133,7 @@
 #import <TeaUI/UIContextMenuInteractionDelegate-Protocol.h>
 #import <TeaUI/UIFont-Bridge.h>
 #import <TeaUI/UIGestureRecognizer-Bridge.h>
-#import <TeaUI/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <TeaUI/UIImage-Bridge.h>
 #import <TeaUI/UILabel-Bridge.h>
 #import <TeaUI/UINavigationBar-Bridge.h>

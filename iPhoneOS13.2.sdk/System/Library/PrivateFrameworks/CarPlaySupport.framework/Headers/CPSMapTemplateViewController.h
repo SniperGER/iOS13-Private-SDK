@@ -19,7 +19,7 @@
 #import <CarPlaySupport/CPSNavigationDisplaying-Protocol.h>
 #import <CarPlaySupport/CPSPanEventDelegate-Protocol.h>
 #import <CarPlaySupport/CPSTripInitiating-Protocol.h>
-#import <CarPlaySupport/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class BKSHIDEventDeliveryPolicyObserver, CARSessionStatus, CPMapTemplate, CPSApplicationStateMonitor, CPSLayoutHelperView, CPSNavigationAlertQueue, CPSNavigationCardView, CPSNavigationETAView, CPSNavigator, CPSPanViewController, CPSTripPreviewsCardView, CPTripPreviewTextConfiguration, NSArray, NSLayoutConstraint, NSMutableArray, NSMutableDictionary, NSMutableSet, NSString, NSTimer, UIColor, UIFocusGuide, UIPanGestureRecognizer, UIStackView, UITapGestureRecognizer, UIView, _CPSFocusHoldingButton;
 @protocol CPMapClientTemplateDelegate, CPSSafeAreaDelegate, UIFocusItem;

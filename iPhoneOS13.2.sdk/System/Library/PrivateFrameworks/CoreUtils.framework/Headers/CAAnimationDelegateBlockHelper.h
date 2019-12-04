@@ -6,7 +6,6 @@
 
 #import <objc/NSObject.h>
 
-#import <CoreUtils/CAAnimationDelegate-Protocol.h>
 
 @class NSString;
 

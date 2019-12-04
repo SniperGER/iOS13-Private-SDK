@@ -8,7 +8,7 @@
 
 #import <LinkPresentation/CALayerDelegate-Protocol.h>
 #import <LinkPresentation/LPMediaPlayer-Protocol.h>
-#import <LinkPresentation/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class CATextLayer, LPFullScreenVideoController, LPImage, LPImageViewStyle, LPVideo, LPVideoViewConfiguration, LPVideoViewStyle, NSString, UIImageView, UIView;
 

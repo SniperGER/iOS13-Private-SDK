@@ -6,7 +6,6 @@
 
 #import <ChatKit/CKInvisibleInkEffectView.h>
 
-#import <ChatKit/CAAnimationDelegate-Protocol.h>
 
 @class CAEmitterLayer, CALayer, NSString, UITextView;
 

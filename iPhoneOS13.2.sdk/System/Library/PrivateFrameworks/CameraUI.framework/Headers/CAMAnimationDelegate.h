@@ -6,7 +6,6 @@
 
 #import <objc/NSObject.h>
 
-#import <CameraUI/CAAnimationDelegate-Protocol.h>
 
 @class NSString;
 

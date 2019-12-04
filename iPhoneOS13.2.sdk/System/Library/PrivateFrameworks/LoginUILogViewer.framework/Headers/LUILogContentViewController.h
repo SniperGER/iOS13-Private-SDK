@@ -8,7 +8,7 @@
 
 #import <LoginUILogViewer/UICollectionViewDataSource-Protocol.h>
 #import <LoginUILogViewer/UICollectionViewDelegate-Protocol.h>
-#import <LoginUILogViewer/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class LUILogLocatorView, LUILogOptionsView, NSArray, NSString, UIActivityIndicatorView, UILabel, UIPanGestureRecognizer, UITextView, UIView;
 @protocol LUILogContentViewControllerDelegate;

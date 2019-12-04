@@ -9,7 +9,7 @@
 #import <UserNotificationsUIKit/MTMaterialGrouping-Protocol.h>
 #import <UserNotificationsUIKit/NCNotificationViewControllerObserving-Protocol.h>
 #import <UserNotificationsUIKit/PLContentSizeCategoryAdjusting-Protocol.h>
-#import <UserNotificationsUIKit/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <UserNotificationsUIKit/UIScrollViewDelegate-Protocol.h>
 
 @class NCNotificationListCellActionButtonsView, NCNotificationViewController, NSString, UIPanGestureRecognizer, UIViewFloatAnimatableProperty;

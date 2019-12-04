@@ -43,7 +43,7 @@
 #import <PlatterKit/PLViewControllerAnimatorObserving-Protocol.h>
 #import <PlatterKit/PLViewControllerEdgeAnimator.h>
 #import <PlatterKit/UIContentSizeCategoryAdjusting-Protocol.h>
-#import <PlatterKit/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <PlatterKit/UIImage-PlatterKitAdditions.h>
 #import <PlatterKit/UIScrollViewDelegate-Protocol.h>
 #import <PlatterKit/UIView-PLCrossFade.h>

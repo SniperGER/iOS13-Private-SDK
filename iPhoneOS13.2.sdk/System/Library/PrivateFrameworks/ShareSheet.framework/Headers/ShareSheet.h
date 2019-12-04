@@ -53,7 +53,7 @@
 #import <ShareSheet/UIDocumentInteractionControllerDismissMarkupAction.h>
 #import <ShareSheet/UIDocumentPickerDelegate-Protocol.h>
 #import <ShareSheet/UIFileProviderApplicationExtensionActivity.h>
-#import <ShareSheet/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <ShareSheet/UIImagePickerControllerDelegate-Protocol.h>
 #import <ShareSheet/UIMailActivity.h>
 #import <ShareSheet/UIManagedConfigurationRestrictableActivity-Protocol.h>

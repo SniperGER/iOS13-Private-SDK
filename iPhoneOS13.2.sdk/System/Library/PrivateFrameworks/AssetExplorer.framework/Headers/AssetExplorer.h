@@ -65,7 +65,7 @@
 #import <AssetExplorer/PXUIScrollViewController-EnsureSubview.h>
 #import <AssetExplorer/PXUIViewBasicTile-Protocol.h>
 #import <AssetExplorer/UIAdaptivePresentationControllerDelegate-Protocol.h>
-#import <AssetExplorer/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <AssetExplorer/UIImagePickerControllerDelegate-Protocol.h>
 #import <AssetExplorer/UINavigationControllerDelegate-Protocol.h>
 #import <AssetExplorer/UIPopoverPresentationControllerDelegate-Protocol.h>

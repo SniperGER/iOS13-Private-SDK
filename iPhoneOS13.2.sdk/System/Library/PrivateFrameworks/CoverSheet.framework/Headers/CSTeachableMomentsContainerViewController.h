@@ -6,7 +6,6 @@
 
 #import <CoverSheet/CSCoverSheetViewControllerBase.h>
 
-#import <CoverSheet/CAAnimationDelegate-Protocol.h>
 
 @class CSHomeAffordanceViewController, CSTeachableMomentsContainerView, NSMutableDictionary, NSString, NSTimer;
 @protocol SBDashBoardHomeAffordanceAnimationViewProviding, SBUIBiometricResource;

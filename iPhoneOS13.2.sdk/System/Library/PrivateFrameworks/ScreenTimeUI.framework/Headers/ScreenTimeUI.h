@@ -187,7 +187,7 @@
 #import <ScreenTimeUI/UIAlertController-ScreenTimeAdditions.h>
 #import <ScreenTimeUI/UIButton-ScreenTime.h>
 #import <ScreenTimeUI/UIFont-ScreenTime.h>
-#import <ScreenTimeUI/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <ScreenTimeUI/UIImage-STImageAdditions.h>
 #import <ScreenTimeUI/UINavigationControllerDelegate-Protocol.h>
 #import <ScreenTimeUI/UIPageViewControllerDataSource-Protocol.h>

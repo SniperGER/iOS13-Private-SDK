@@ -7,7 +7,7 @@
 #import <objc/NSObject.h>
 
 #import <PhotosUICore/PXSettingsKeyObserver-Protocol.h>
-#import <PhotosUICore/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSArray, NSString, UITapGestureRecognizer, UIWindow;
 

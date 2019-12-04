@@ -6,7 +6,7 @@
 
 #import <UIKit/UIControl.h>
 
-#import <LinkPresentation/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class LPMusicPlayButtonStyle, LPPlayButtonShapeView, NSString, UIImageView, UILongPressGestureRecognizer, UIView;
 

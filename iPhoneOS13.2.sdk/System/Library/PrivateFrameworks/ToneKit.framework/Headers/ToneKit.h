@@ -1,4 +1,3 @@
-#import <ToneKit/CAAnimationDelegate-Protocol.h>
 #import <ToneKit/CDStructures.h>
 #import <ToneKit/MPMediaPickerControllerDelegate-Protocol.h>
 #import <ToneKit/NSIndexPath-TKSectionAwareTableView.h>

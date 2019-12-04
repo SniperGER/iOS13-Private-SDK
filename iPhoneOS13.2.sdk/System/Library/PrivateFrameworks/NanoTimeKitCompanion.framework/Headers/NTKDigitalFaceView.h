@@ -27,8 +27,5 @@
 - (void)_unloadSnapshotContentViews;
 - (void)_loadSnapshotContentViews;
 
-// Remaining properties
-@property(readonly, nonatomic) NTKDigitalTimeLabel *timeView; // @dynamic timeView;
-
 @end
 

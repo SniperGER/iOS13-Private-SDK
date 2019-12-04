@@ -6,7 +6,7 @@
 
 #import <UIKit/UIView.h>
 
-#import <Silex/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <Silex/UIScrollViewDelegate-Protocol.h>
 
 @class NSString, SXImageView, UIActivityIndicatorView, UIScrollView, UITapGestureRecognizer;

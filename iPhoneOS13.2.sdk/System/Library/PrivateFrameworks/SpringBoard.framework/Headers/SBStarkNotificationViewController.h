@@ -10,7 +10,7 @@
 #import <SpringBoard/SBStarkBannerTargetObserver-Protocol.h>
 #import <SpringBoard/UICollectionViewDataSource-Protocol.h>
 #import <SpringBoard/UICollectionViewDelegate-Protocol.h>
-#import <SpringBoard/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class CPSTemplateBannerController, NSArray, NSString, SBCarBannerNotificationView, SBStarkAlertItemBannerSource, SBStarkBannerCell, SBStarkBannerTarget, SBStarkNotificationBannerSource, SBStarkNotificationLayout, SBStarkNotificationSystemGestureManager, SBUIBannerContext, UISwipeGestureRecognizer, UITapGestureRecognizer;
 @protocol SBStarkNotificationViewControllerDelegate, SBStarkNotificationsConfiguring;

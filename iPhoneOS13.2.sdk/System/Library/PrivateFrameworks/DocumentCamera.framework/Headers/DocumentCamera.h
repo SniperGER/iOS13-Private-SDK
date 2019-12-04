@@ -1,7 +1,6 @@
 #import <DocumentCamera/AVCapturePhotoCaptureDelegate-Protocol.h>
 #import <DocumentCamera/AVCaptureVideoDataOutputSampleBufferDelegate-Protocol.h>
 #import <DocumentCamera/BKSAccelerometerDelegate-Protocol.h>
-#import <DocumentCamera/CAAnimationDelegate-Protocol.h>
 #import <DocumentCamera/CDStructures.h>
 #import <DocumentCamera/DCAccessibility.h>
 #import <DocumentCamera/DCAccessibilityExtras-Protocol.h>
@@ -132,7 +131,7 @@
 #import <DocumentCamera/UIColor-DC.h>
 #import <DocumentCamera/UIDevice-DocumentCameraDeviceSupport.h>
 #import <DocumentCamera/UIFont-IC.h>
-#import <DocumentCamera/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <DocumentCamera/UIImage-DCUtilities.h>
 #import <DocumentCamera/UINavigationControllerDelegate-Protocol.h>
 #import <DocumentCamera/UIPageViewControllerDataSource-Protocol.h>

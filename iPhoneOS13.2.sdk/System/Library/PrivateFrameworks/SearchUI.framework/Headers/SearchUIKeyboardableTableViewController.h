@@ -6,7 +6,7 @@
 
 #import <UIKit/UITableViewController.h>
 
-#import <SearchUI/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSString, UIControl;
 @protocol SearchUIKeyboardableTableViewScrollDelegate, UITextInput;

@@ -42,7 +42,7 @@
 #import <ControlCenterUIKit/MTVisualStylingProvider-ControlCenterAdditionsPrivate.h>
 #import <ControlCenterUIKit/NSBundle-ControlCenterUIKit.h>
 #import <ControlCenterUIKit/UIDevice-ControlCenterAdditions.h>
-#import <ControlCenterUIKit/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <ControlCenterUIKit/UIImage-ControlCenterAdditions.h>
 #import <ControlCenterUIKit/UIVibrancyEffect-CCUIAdditions.h>
 #import <ControlCenterUIKit/UIView-CCUIAdditions_Private.h>

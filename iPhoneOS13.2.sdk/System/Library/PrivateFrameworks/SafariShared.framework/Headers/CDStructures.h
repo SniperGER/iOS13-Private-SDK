@@ -109,7 +109,7 @@ struct Vector<double, 0, WTF::CrashOnOverflow, 16> {
 };
 
 struct Vector<id<WBSURLCompletionMatchData>, 0, WTF::CrashOnOverflow, 16> {
-    id *m_buffer;
+    id m_buffer;
     unsigned int m_capacity;
     unsigned int m_size;
 };
@@ -280,7 +280,7 @@ typedef struct {
 
 typedef struct {
     unsigned long long _field1;
-    id *_field2;
+    id _field2;
     unsigned long long *_field3;
     unsigned long long _field4[5];
 } CDStruct_70511ce9;

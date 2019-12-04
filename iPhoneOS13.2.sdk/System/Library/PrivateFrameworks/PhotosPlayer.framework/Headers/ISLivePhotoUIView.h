@@ -7,7 +7,7 @@
 #import <PhotosPlayer/ISBasePlayerUIView.h>
 
 #import <PhotosPlayer/ISChangeObserver-Protocol.h>
-#import <PhotosPlayer/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class ISLivePhotoPlayer, ISTouchLivePhotoPlaybackFilter, NSString, UIGestureRecognizer, UIImpactFeedbackGenerator, UILabel;
 

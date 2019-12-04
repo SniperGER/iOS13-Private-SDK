@@ -1,7 +1,6 @@
 #import <iWorkImport/AVAsset-TSUAdditions.h>
 #import <iWorkImport/AVAssetResourceLoaderDelegate-Protocol.h>
 #import <iWorkImport/CAAnimation-TSDCAAnimationContextCache.h>
-#import <iWorkImport/CAAnimationDelegate-Protocol.h>
 #import <iWorkImport/CAAnimationGroup-TSDCAAnimationContextCache.h>
 #import <iWorkImport/CABasicAnimation-TSDCAAnimationContextCache.h>
 #import <iWorkImport/CAKeyframeAnimation-TSDCAAnimationContextCache.h>

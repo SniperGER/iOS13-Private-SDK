@@ -31,7 +31,7 @@
 #import <ActionKitUI/UICollectionViewDelegate-Protocol.h>
 #import <ActionKitUI/UIDocumentInteractionControllerDelegate-Protocol.h>
 #import <ActionKitUI/UIDocumentInteractionControllerDelegatePrivate-Protocol.h>
-#import <ActionKitUI/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <ActionKitUI/UIImage-FixOrientation.h>
 #import <ActionKitUI/UIImagePickerControllerDelegate-Protocol.h>
 #import <ActionKitUI/UINavigationControllerDelegate-Protocol.h>

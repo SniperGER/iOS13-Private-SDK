@@ -6,7 +6,6 @@
 
 #import <CoverSheet/CSPageViewBase.h>
 
-#import <CoverSheet/CAAnimationDelegate-Protocol.h>
 
 @class CSVibrantWallpaperButton, NSString, SBWallpaperEffectView, _UILegibilitySettings;
 

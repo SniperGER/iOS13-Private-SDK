@@ -437,8 +437,8 @@ struct unique_ptr<RLMResultsSetInfo, std::__1::default_delete<RLMResultsSetInfo>
 };
 
 struct unique_ptr<id [], std::__1::default_delete<id []>> {
-    struct __compressed_pair<__strong id *, std::__1::default_delete<id []>> {
-        id *__value_;
+    struct __compressed_pair<__strong id , std::__1::default_delete<id []>> {
+        id __value_;
     } __ptr_;
 };
 
@@ -604,7 +604,7 @@ struct vector<unsigned long, std::__1::allocator<unsigned long>> {
 
 typedef struct {
     unsigned long long _field1;
-    id *_field2;
+    id _field2;
     unsigned long long *_field3;
     unsigned long long _field4[5];
 } CDStruct_70511ce9;

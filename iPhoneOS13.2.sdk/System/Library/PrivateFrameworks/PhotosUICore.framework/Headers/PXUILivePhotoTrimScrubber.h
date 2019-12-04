@@ -6,7 +6,7 @@
 
 #import <PhotosUICore/PXLivePhotoTrimScrubber.h>
 
-#import <PhotosUICore/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSString, UIImpactFeedbackGenerator, UIPanGestureRecognizer, UITapGestureRecognizer;
 

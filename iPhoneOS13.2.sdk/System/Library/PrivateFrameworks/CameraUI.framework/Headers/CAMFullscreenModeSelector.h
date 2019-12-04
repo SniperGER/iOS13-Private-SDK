@@ -6,7 +6,7 @@
 
 #import <UIKit/UIView.h>
 
-#import <CameraUI/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSArray, NSDictionary, NSString;
 @protocol CAMFullscreenModeSelectorDataSource, CAMFullscreenModeSelectorDelegate;

@@ -6,7 +6,7 @@
 
 #import <UIKit/UIResponder.h>
 
-#import <CorePDF/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSString, UILongPressGestureRecognizer, UIMenuController, UIPDFMagnifierController, UIPDFPageView, UIPDFSelectionController, UITapGestureRecognizer;
 

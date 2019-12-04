@@ -8,7 +8,7 @@
 
 #import <HelpKit/HLPHelpLoadingViewDelegate-Protocol.h>
 #import <HelpKit/HLPHelpTopicViewControllerDelegate-Protocol.h>
-#import <HelpKit/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <HelpKit/WKNavigationDelegate-Protocol.h>
 
 @class HLPHelpBookController, HLPHelpLoadingView, HLPHelpLocale, HLPHelpTopicHistoryItem, HLPHelpUsageController, NSArray, NSCache, NSLayoutConstraint, NSMutableArray, NSMutableDictionary, NSString, NSURL, TPSURLSessionItem, UIBarButtonItem, WKWebView;

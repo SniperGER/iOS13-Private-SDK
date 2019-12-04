@@ -7,7 +7,7 @@
 #import <UIKit/UIViewController.h>
 
 #import <PhotosUICore/PXNavigationListDataSectionManagerObserver-Protocol.h>
-#import <PhotosUICore/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <PhotosUICore/UITableViewDataSource-Protocol.h>
 #import <PhotosUICore/UITableViewDelegate-Protocol.h>
 

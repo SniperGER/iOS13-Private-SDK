@@ -8,7 +8,7 @@
 
 #import <Silex/SXDragManagerDataSource-Protocol.h>
 #import <Silex/SXImageViewDelegate-Protocol.h>
-#import <Silex/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSString, SXAnimatedImageController, SXDragManager, SXImageView;
 @protocol SXImageViewFactory, SXMediaSharingPolicyProvider;

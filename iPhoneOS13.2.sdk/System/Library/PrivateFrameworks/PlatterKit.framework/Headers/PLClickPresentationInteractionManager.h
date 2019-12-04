@@ -6,7 +6,7 @@
 
 #import <objc/NSObject.h>
 
-#import <PlatterKit/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <PlatterKit/_UIClickPresentationInteractionDelegate-Protocol.h>
 
 @class NSString, UIGestureRecognizer, UIViewController, _UIClickPresentation, _UIClickPresentationInteraction;

@@ -1,6 +1,5 @@
 #import <PhotosPlayer/AVAsset-PhotosPlayer.h>
 #import <PhotosPlayer/AVPlayerItem-PhotosPlayer.h>
-#import <PhotosPlayer/CAAnimationDelegate-Protocol.h>
 #import <PhotosPlayer/CALayer-PhotosPlayer.h>
 #import <PhotosPlayer/CDStructures.h>
 #import <PhotosPlayer/ISAVPlayer.h>
@@ -74,7 +73,7 @@
 #import <PhotosPlayer/ISWrappedAVPlayer.h>
 #import <PhotosPlayer/ISWrappedAVPlayerDelegate-Protocol.h>
 #import <PhotosPlayer/PTRow-PhotosPlayer.h>
-#import <PhotosPlayer/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <PhotosPlayer/UIScreen-PhotosPlayer.h>
 #import <PhotosPlayer/UIScrollView-ISScrollViewVitalityController.h>
 #import <PhotosPlayer/UIScrollViewDelegate-Protocol.h>

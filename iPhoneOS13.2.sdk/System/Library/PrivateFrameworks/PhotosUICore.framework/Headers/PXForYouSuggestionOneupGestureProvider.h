@@ -6,7 +6,7 @@
 
 #import <PhotosUICore/PXGestureProvider.h>
 
-#import <PhotosUICore/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSArray, NSString, PXForYouSuggestionAssetsDataSourceManager, UILongPressGestureRecognizer;
 

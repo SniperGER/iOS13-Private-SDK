@@ -3,7 +3,6 @@
 #import <VideosUI/AVPlayerViewControllerDelegatePrivate-Protocol.h>
 #import <VideosUI/AccountCell.h>
 #import <VideosUI/ButtonCell.h>
-#import <VideosUI/CAAnimationDelegate-Protocol.h>
 #import <VideosUI/CDStructures.h>
 #import <VideosUI/DetailCell.h>
 #import <VideosUI/IKAppContextDelegate-Protocol.h>
@@ -77,7 +76,7 @@
 #import <VideosUI/UIContextMenuInteractionDelegate-Protocol.h>
 #import <VideosUI/UIContextMenuInteractionDelegate_Private-Protocol.h>
 #import <VideosUI/UIFont-VideosUI.h>
-#import <VideosUI/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <VideosUI/UIImage-VUISBGraphics.h>
 #import <VideosUI/UILabel-VideosUI.h>
 #import <VideosUI/UINavigationController-ReplaceViewController.h>

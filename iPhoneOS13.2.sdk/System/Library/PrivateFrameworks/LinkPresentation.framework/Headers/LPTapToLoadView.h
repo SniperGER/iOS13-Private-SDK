@@ -6,8 +6,7 @@
 
 #import <LinkPresentation/LPComponentView.h>
 
-#import <LinkPresentation/CAAnimationDelegate-Protocol.h>
-#import <LinkPresentation/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class LPTapToLoadViewStyle, LPTextView, NSString, UILongPressGestureRecognizer, UIView;
 @protocol LPTapToLoadViewDelegate;

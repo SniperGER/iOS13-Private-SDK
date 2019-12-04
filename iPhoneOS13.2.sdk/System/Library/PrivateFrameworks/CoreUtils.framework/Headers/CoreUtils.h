@@ -1,5 +1,4 @@
 #import <CoreUtils/AVAudioPlayerDelegate-Protocol.h>
-#import <CoreUtils/CAAnimationDelegate-Protocol.h>
 #import <CoreUtils/CAAnimationDelegateBlockHelper.h>
 #import <CoreUtils/CBCentralManagerDelegate-Protocol.h>
 #import <CoreUtils/CBPeripheralDelegate-Protocol.h>

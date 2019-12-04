@@ -6,7 +6,6 @@
 
 #import <MaterialKit/MTPillView.h>
 
-#import <MaterialKit/CAAnimationDelegate-Protocol.h>
 
 @class MTLumaDodgePillSettings, NSMutableArray, NSString, _MTLumaDodgePillLowQualityEffectView;
 @protocol MTLumaDodgePillBackgroundLuminanceObserver;

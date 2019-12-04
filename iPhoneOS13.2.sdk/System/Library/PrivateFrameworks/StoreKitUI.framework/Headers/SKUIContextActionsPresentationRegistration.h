@@ -6,7 +6,7 @@
 
 #import <objc/NSObject.h>
 
-#import <StoreKitUI/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <StoreKitUI/UIPreviewInteractionDelegate-Protocol.h>
 
 @class NSString, NSTimer, SKUIContextActionsViewController, UILongPressGestureRecognizer, UIPreviewInteraction, UIViewController, UIViewPropertyAnimator;

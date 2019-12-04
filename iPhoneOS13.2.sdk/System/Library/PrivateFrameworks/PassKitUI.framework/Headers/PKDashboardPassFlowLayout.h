@@ -7,7 +7,7 @@
 #import <UIKit/UICollectionViewLayout.h>
 
 #import <PassKitUI/PKDashboardLayout-Protocol.h>
-#import <PassKitUI/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSMutableDictionary, NSString;
 

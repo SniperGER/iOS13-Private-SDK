@@ -7,7 +7,7 @@
 #import <PencilKit/_UITextAttachmentDrawingView.h>
 
 #import <PencilKit/PKTextAttachmentView-Protocol.h>
-#import <PencilKit/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <PencilKit/UIScrollViewDelegate-Protocol.h>
 
 @class CALayer, NSString, NSTextAttachment, PKSelectDrawingGestureRecognizer, PKTextAttachmentDrawingResizeView, PKTextAttachmentDrawingViewTouchRecognizer, UILongPressGestureRecognizer, UIPanGestureRecognizer, UIScrollView, UITapGestureRecognizer, UIView;

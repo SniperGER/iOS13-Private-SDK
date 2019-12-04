@@ -7,7 +7,7 @@
 #import <UIKit/UIView.h>
 
 #import <HomeUI/HUQuickControlInteractiveView-Protocol.h>
-#import <HomeUI/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class HUColorWheelView, HUQuickControlColorViewProfile, HUQuickControlMagnifierView, NSString, UILongPressGestureRecognizer;
 @protocol HUColorWheelSpace, HUQuickControlColorPickerViewInteractionDelegate;

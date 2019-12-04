@@ -7,7 +7,7 @@
 #import <NanoTimeKitCompanion/NTKFaceView.h>
 
 #import <NanoTimeKitCompanion/NTKUtilityComplicationFactoryDelegate-Protocol.h>
-#import <NanoTimeKitCompanion/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSString, NTKCharacterTimeView, NTKUtilityComplicationFactory, UIColor, UITapGestureRecognizer, UIView;
 

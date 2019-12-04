@@ -15,5 +15,4 @@
 #import <AccessibilityPhysicalInteraction/AXPIFingerView.h>
 #import <AccessibilityPhysicalInteraction/AXPIPinchChainView.h>
 #import <AccessibilityPhysicalInteraction/AXPISystemActionHelper.h>
-#import <AccessibilityPhysicalInteraction/CAAnimationDelegate-Protocol.h>
 #import <AccessibilityPhysicalInteraction/CDStructures.h>

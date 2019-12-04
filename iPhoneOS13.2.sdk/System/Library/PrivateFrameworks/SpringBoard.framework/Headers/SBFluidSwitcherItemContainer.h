@@ -8,7 +8,7 @@
 
 #import <SpringBoard/SBAppPlatterDragSourceViewProviding-Protocol.h>
 #import <SpringBoard/SBFailureNotifyingTapGestureRecognizerDelegate-Protocol.h>
-#import <SpringBoard/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <SpringBoard/UIScrollViewDelegate-Protocol.h>
 
 @class NSArray, NSString, SBAppSwitcherPageView, SBAppSwitcherSettings, SBFFluidBehaviorSettings, SBFailureNotifyingTapGestureRecognizer, SBFluidSwitcherIconOverlayView, SBFluidSwitcherItemContainerHeaderView, SBFluidSwitcherTouchPassThroughScrollView, UILongPressGestureRecognizer, UITapGestureRecognizer, UIView;

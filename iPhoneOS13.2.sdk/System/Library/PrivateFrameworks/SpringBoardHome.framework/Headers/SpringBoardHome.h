@@ -1,7 +1,6 @@
 #import <SpringBoardHome/BSDescriptionProviding-Protocol.h>
 #import <SpringBoardHome/BSInvalidatable-Protocol.h>
 #import <SpringBoardHome/BSUIScrollViewDelegate-Protocol.h>
-#import <SpringBoardHome/CAAnimationDelegate-Protocol.h>
 #import <SpringBoardHome/CDStructures.h>
 #import <SpringBoardHome/LSOpenResourceOperationDelegate-Protocol.h>
 #import <SpringBoardHome/NSIndexPath-SBIconIndex.h>
@@ -284,7 +283,7 @@
 #import <SpringBoardHome/UIDragSession-Protocol.h>
 #import <SpringBoardHome/UIDropInteractionDelegate-Protocol.h>
 #import <SpringBoardHome/UIDropSession-Protocol.h>
-#import <SpringBoardHome/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <SpringBoardHome/UIInteractionProgressObserver-Protocol.h>
 #import <SpringBoardHome/UIPopoverPresentationControllerDelegate-Protocol.h>
 #import <SpringBoardHome/UIScrollViewDelegate-Protocol.h>

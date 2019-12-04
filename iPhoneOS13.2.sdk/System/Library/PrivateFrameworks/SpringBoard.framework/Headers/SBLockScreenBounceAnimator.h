@@ -8,7 +8,7 @@
 
 #import <SpringBoard/PTSettingsKeyObserver-Protocol.h>
 #import <SpringBoard/UIDynamicAnimatorDelegate-Protocol.h>
-#import <SpringBoard/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class CSBounceSettings, NSMutableSet, NSSet, NSString, SBBounceBehavior, SBBouncingItem, SBBouncingSystem, UIDynamicAnimator, UIGestureRecognizer, UIView;
 @protocol SBPresentingDelegate;

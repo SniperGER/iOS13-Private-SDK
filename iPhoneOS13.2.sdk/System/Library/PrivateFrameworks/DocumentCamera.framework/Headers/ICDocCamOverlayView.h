@@ -6,7 +6,6 @@
 
 #import <UIKit/UIView.h>
 
-#import <DocumentCamera/CAAnimationDelegate-Protocol.h>
 
 @class CAAnimation, CAGradientLayer, CAShapeLayer, ICDocCamImageQuad, NSArray, NSDate, NSObject, NSString, UIColor, UILabel;
 @protocol OS_dispatch_semaphore;

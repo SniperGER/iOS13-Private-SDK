@@ -6,7 +6,7 @@
 
 #import <MediaControls/MediaControlsVolumeSlider.h>
 
-#import <MediaControls/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSString, UIImpactFeedbackGenerator, UILongPressGestureRecognizer, UINotificationFeedbackGenerator, UIView;
 @protocol MediaControlsMasterVolumeSliderDelegate;

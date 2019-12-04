@@ -49,7 +49,7 @@
 #import <MusicCarDisplayUI/MCDTransportControlView.h>
 #import <MusicCarDisplayUI/MPMediaItem-CarDisplay.h>
 #import <MusicCarDisplayUI/MPRequestResponseControllerDelegate-Protocol.h>
-#import <MusicCarDisplayUI/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <MusicCarDisplayUI/UIImage-CarDisplay.h>
 #import <MusicCarDisplayUI/UINavigationControllerDelegate-Protocol.h>
 #import <MusicCarDisplayUI/UIScrollViewDelegate-Protocol.h>

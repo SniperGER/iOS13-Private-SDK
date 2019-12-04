@@ -8,7 +8,7 @@
 
 #import <ControlCenterUIKit/CCUIContentClipping-Protocol.h>
 #import <ControlCenterUIKit/CCUIContentModuleExpandedStateListener-Protocol.h>
-#import <ControlCenterUIKit/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSArray, NSString, UIPanGestureRecognizer, UISelectionFeedbackGenerator, UITapGestureRecognizer;
 

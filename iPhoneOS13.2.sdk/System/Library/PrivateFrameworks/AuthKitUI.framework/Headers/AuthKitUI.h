@@ -75,7 +75,6 @@
 #import <AuthKitUI/AKTiburonRequestReport.h>
 #import <AuthKitUI/AKURLRequestApprover.h>
 #import <AuthKitUI/CAAnimation-AuthKit.h>
-#import <AuthKitUI/CAAnimationDelegate-Protocol.h>
 #import <AuthKitUI/CALayer-AKCAUtilities.h>
 #import <AuthKitUI/CDStructures.h>
 #import <AuthKitUI/LAUIAuthenticationDelegate-Protocol.h>

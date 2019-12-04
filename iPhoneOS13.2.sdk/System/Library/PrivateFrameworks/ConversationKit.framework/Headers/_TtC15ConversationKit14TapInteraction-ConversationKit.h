@@ -6,7 +6,7 @@
 
 #import <ConversationKit/_TtC15ConversationKit14TapInteraction.h>
 
-#import <ConversationKit/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @interface _TtC15ConversationKit14TapInteraction (ConversationKit) <UIGestureRecognizerDelegate>
 - (_Bool)gestureRecognizer:(id)arg1 shouldRequireFailureOfGestureRecognizer:(id)arg2;

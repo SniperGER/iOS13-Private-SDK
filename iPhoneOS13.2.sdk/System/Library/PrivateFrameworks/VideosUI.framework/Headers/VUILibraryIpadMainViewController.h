@@ -6,7 +6,7 @@
 
 #import <VideosUI/VUILibraryFetchControllerViewController.h>
 
-#import <VideosUI/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <VideosUI/VUILibraryCategoryMenuViewModelDelegate-Protocol.h>
 #import <VideosUI/VUILibrarySplitViewControllerDelegate-Protocol.h>
 

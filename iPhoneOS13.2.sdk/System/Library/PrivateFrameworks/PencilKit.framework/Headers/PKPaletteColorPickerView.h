@@ -14,7 +14,7 @@
 #import <PencilKit/UICollectionViewDataSource-Protocol.h>
 #import <PencilKit/UICollectionViewDelegate-Protocol.h>
 #import <PencilKit/UICollectionViewDelegateFlowLayout-Protocol.h>
-#import <PencilKit/UIGestureRecognizerDelegate-Protocol.h>
+
 #import <PencilKit/UIPopoverPresentationControllerDelegate-Protocol.h>
 
 @class NSArray, NSString, PKColorPicker, UICollectionView, UIColor, UILongPressGestureRecognizer;

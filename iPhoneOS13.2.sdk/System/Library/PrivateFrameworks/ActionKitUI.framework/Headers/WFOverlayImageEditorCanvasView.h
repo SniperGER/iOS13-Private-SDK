@@ -6,7 +6,7 @@
 
 #import <UIKit/UIView.h>
 
-#import <ActionKitUI/UIGestureRecognizerDelegate-Protocol.h>
+
 
 @class NSString, UIImageView, UIRotationGestureRecognizer, WFOverlayImageTransform;
 
