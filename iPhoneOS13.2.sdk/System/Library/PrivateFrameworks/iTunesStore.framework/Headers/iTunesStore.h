@@ -84,7 +84,6 @@
 #import <iTunesStore/ISUniqueOperationManager.h>
 #import <iTunesStore/ISUserNotification.h>
 #import <iTunesStore/NSBundle-ISAdditions.h>
-#import <iTunesStore/NSDictionary-NSDictionaryAdditions.h>
 #import <iTunesStore/NSError-ISAdditions.h>
 #import <iTunesStore/NSFileManager-ISAdditions.h>
 #import <iTunesStore/NSHTTPURLResponse-ISAdditions.h>

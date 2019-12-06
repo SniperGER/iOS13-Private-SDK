@@ -1,8 +1,5 @@
 #import <TVUIKit/CDStructures.h>
 #import <TVUIKit/TVUIKitUtilities.h>
-#import <TVUIKit/UICollectionViewDataSource-Protocol.h>
-#import <TVUIKit/UICollectionViewDelegate-Protocol.h>
-#import <TVUIKit/UIScrollViewDelegate-Protocol.h>
 #import <TVUIKit/_TVCarouselCollectionView.h>
 #import <TVUIKit/_TVCarouselCollectionViewLayout.h>
 #import <TVUIKit/_TVCarouselView.h>

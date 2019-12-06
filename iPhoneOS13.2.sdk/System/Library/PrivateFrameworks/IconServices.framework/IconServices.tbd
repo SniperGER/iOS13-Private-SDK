@@ -39,7 +39,7 @@ exports:
                           _ISConcreteImage._placeholder, _ISConcreteImage._scale, _ISConcreteImage._size,
                           _ISDefaults.__usePerstentCache, _ISDefaults._lock, _ISDeviceInfo._deviceClass, _ISDeviceInfo._deviceSubtype,
                           _ISDeviceInfo._screenClass, _ISDeviceInfo._screenScale, _ISEmbossedEffect._offset, _ISEmbossedEffect._range,
-                          _ISGenericIconIOS._imageCache, _ISGenericRecipe._options, _ISGraphicsContext._cgContext,
+                          _ISGenericIconIOS._imageCache, _ISGenericRecipe._options, _ISGraphicsContext._CGContextRef,
                           _ISGraphicsContext._preset, _ISHintedValue._dimensions, _ISHintedValue._options, _ISHintedValue._values,
                           _ISIconCacheClient._sandboxExtensionHandle, _ISIconCacheIOS._cacheKeySalt, _ISIconCacheIOS._cacheURL,
                           _ISIconCacheIOS._initialized, _ISIconDecoration._identifier, _ISIconDecoration._identifierKind,

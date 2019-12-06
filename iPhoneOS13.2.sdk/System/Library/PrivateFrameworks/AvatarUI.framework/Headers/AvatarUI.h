@@ -381,20 +381,10 @@
 #import <AvatarUI/NSNotification-AVTAvatarStoreNotification.h>
 #import <AvatarUI/NSString-AvatarUI.h>
 #import <AvatarUI/SCNSceneRendererDelegate-Protocol.h>
-#import <AvatarUI/UIActivityItemSource-Protocol.h>
-#import <AvatarUI/UIAdaptivePresentationControllerDelegate-Protocol.h>
 #import <AvatarUI/UICollectionViewCell-Downcasting.h>
-#import <AvatarUI/UICollectionViewDataSource-Protocol.h>
-#import <AvatarUI/UICollectionViewDataSourcePrefetching-Protocol.h>
-#import <AvatarUI/UICollectionViewDelegate-Protocol.h>
-#import <AvatarUI/UICollectionViewDelegateFlowLayout-Protocol.h>
 #import <AvatarUI/UICollectionViewLayout-AVTCollectionViewLayout.h>
 #import <AvatarUI/UIFont-AvatarUI.h>
-
-#import <AvatarUI/UINavigationControllerDelegate-Protocol.h>
 #import <AvatarUI/UIScrollView-AvatarUI.h>
-#import <AvatarUI/UIScrollViewDelegate-Protocol.h>
-#import <AvatarUI/UIViewControllerAnimatedTransitioning-Protocol.h>
 #import <AvatarUI/_AVTAdaptiveFullSizeLayout.h>
 #import <AvatarUI/_AVTAvatarRecordImageProvider.h>
 #import <AvatarUI/_AVTAvatarToLiveNoTransition.h>

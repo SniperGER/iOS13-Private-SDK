@@ -2,10 +2,6 @@
 #import <WebUI/MCProfileConnectionObserver-Protocol.h>
 #import <WebUI/NSHTTPCookieStorage-WebUIExtras.h>
 #import <WebUI/NSUserDefaults-WebUIExtras.h>
-#import <WebUI/UIPrintInteractionControllerDelegate-Protocol.h>
-#import <WebUI/UIScrollViewDelegate-Protocol.h>
-#import <WebUI/UITableViewDataSource-Protocol.h>
-#import <WebUI/UITableViewDelegate-Protocol.h>
 #import <WebUI/WBSFormAutoFillCorrectionManagerDelegate-Protocol.h>
 #import <WebUI/WBSFormFieldClassificationCorrectorDelegate-Protocol.h>
 #import <WebUI/WBUAlertController.h>

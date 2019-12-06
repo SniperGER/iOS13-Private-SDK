@@ -42,11 +42,8 @@
 #import <ControlCenterUIKit/MTVisualStylingProvider-ControlCenterAdditionsPrivate.h>
 #import <ControlCenterUIKit/NSBundle-ControlCenterUIKit.h>
 #import <ControlCenterUIKit/UIDevice-ControlCenterAdditions.h>
-
 #import <ControlCenterUIKit/UIImage-ControlCenterAdditions.h>
 #import <ControlCenterUIKit/UIVibrancyEffect-CCUIAdditions.h>
 #import <ControlCenterUIKit/UIView-CCUIAdditions_Private.h>
-#import <ControlCenterUIKit/UIViewControllerAnimatedTransitioning-Protocol.h>
-#import <ControlCenterUIKit/UIViewControllerTransitioningDelegate-Protocol.h>
 #import <ControlCenterUIKit/_UIClickPresentationInteractionDelegate-Protocol.h>
 #import <ControlCenterUIKit/_UIClickPresentationTransition-Protocol.h>

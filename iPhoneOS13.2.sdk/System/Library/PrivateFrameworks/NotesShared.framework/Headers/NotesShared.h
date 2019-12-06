@@ -190,7 +190,6 @@
 #import <NotesShared/ICUserDefaults.h>
 #import <NotesShared/ICUserSpecificRecordID.h>
 #import <NotesShared/NSArray-PreviewDeviceInfoAppearanceAdditions.h>
-#import <NotesShared/NSAttributedString-NSAttributedStringPersistenceAdditions.h>
 #import <NotesShared/NSData-Gzip.h>
 #import <NotesShared/NSDictionary-ICQueryComponents.h>
 #import <NotesShared/NSManagedObject-IC.h>
@@ -208,7 +207,6 @@
 #import <NotesShared/NSString-CRDT_Additions.h>
 #import <NotesShared/NSURL-ICQueryComponents.h>
 #import <NotesShared/NSURLComponents-IC.h>
-#import <NotesShared/NSUUID-NSUUIDAdditions.h>
 #import <NotesShared/NSUndoManager-IC.h>
 #import <NotesShared/NSValue-IC.h>
 #import <NotesShared/NoteAccountObject-ICLegacyAccount.h>

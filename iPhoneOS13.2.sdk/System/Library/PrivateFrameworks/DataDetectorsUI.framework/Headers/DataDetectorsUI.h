@@ -98,10 +98,6 @@
 #import <DataDetectorsUI/NSMutableAttributedString-DataDetectorsSupport.h>
 #import <DataDetectorsUI/NSString-DDSubstring.h>
 #import <DataDetectorsUI/NSURL-dd_private.h>
-#import <DataDetectorsUI/UIActionSheetDelegate-Protocol.h>
-#import <DataDetectorsUI/UIAdaptivePresentationControllerDelegate-Protocol.h>
-#import <DataDetectorsUI/UINavigationControllerDelegate-Protocol.h>
-#import <DataDetectorsUI/UIPopoverPresentationControllerDelegate-Protocol.h>
 #import <DataDetectorsUI/UITextView-DataDetectorsOperationExtensions.h>
 #import <DataDetectorsUI/WebFrame-DataDetectorsOperationExtensions.h>
 #import <DataDetectorsUI/WebTextIterator-DDExtensions.h>

@@ -78,10 +78,6 @@
 #import <HeartRhythmUI/UIFont-NanoHeartRhythm.h>
 #import <HeartRhythmUI/UIImage-HeartRhythmUI.h>
 #import <HeartRhythmUI/UILabel-HeartRhythmUI.h>
-#import <HeartRhythmUI/UINavigationControllerDelegate-Protocol.h>
 #import <HeartRhythmUI/UIScreen-HeartRhythmUI.h>
-#import <HeartRhythmUI/UIScrollViewDelegate-Protocol.h>
-#import <HeartRhythmUI/UITextFieldDelegate-Protocol.h>
-#import <HeartRhythmUI/UITextViewDelegate-Protocol.h>
 #import <HeartRhythmUI/UIView-HeartRhythmUI.h>
 #import <HeartRhythmUI/WKNavigationDelegate-Protocol.h>

@@ -302,7 +302,7 @@ exports:
                           _SUFrameAdjustmentImageModifier._sizingMask, _SUGradient._colorStops, _SUGradient._lock, _SUGradient._p0,
                           _SUGradient._p1, _SUGradient._sorted, _SUGradient._type, _SUGradientColorStop._a, _SUGradientColorStop._b,
                           _SUGradientColorStop._g, _SUGradientColorStop._offset, _SUGradientColorStop._r,
-                          _SUGradientColorStop._rawColor, _SUGradientView._cgGradient, _SUGradientView._gradient,
+                          _SUGradientColorStop._rawColor, _SUGradientView._CGGradientRef, _SUGradientView._gradient,
                           _SUHitTestView._hitTestTargets, _SUImageCache._dictionary, _SUImageCacheKey._dataProvider,
                           _SUImageCacheKey._url, _SUImageDataProvider._fillColor, _SUImageDataProvider._finalSize,
                           _SUImageDataProvider._inputImageScale, _SUImageDataProvider._modifier, _SUImageViewController._backstopView,

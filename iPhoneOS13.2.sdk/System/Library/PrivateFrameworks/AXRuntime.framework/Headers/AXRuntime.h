@@ -25,4 +25,3 @@
 #import <AXRuntime/NSObject-AXAttributedStringAdditions.h>
 #import <AXRuntime/NSString-AXExtensions.h>
 #import <AXRuntime/NSUUID-AXPropertyListCoersion.h>
-#import <AXRuntime/UIElementProtocol-Protocol.h>

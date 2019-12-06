@@ -109,9 +109,6 @@
 #import <Stocks/SymbolValidator.h>
 #import <Stocks/SymbolValidatorDelegate-Protocol.h>
 #import <Stocks/TintedView.h>
-#import <Stocks/UIScrollViewDelegate-Protocol.h>
-#import <Stocks/UITableViewDataSource-Protocol.h>
-#import <Stocks/UITableViewDelegate-Protocol.h>
 #import <Stocks/VolumeGraphView.h>
 #import <Stocks/YQLConstants.h>
 #import <Stocks/YQLRequest.h>

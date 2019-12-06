@@ -53,7 +53,5 @@
 #import <ToneKit/TKVibrationRecorderViewDelegate-Protocol.h>
 #import <ToneKit/TKVibratorController.h>
 #import <ToneKit/TLToneStoreDownloadObserver-Protocol.h>
-#import <ToneKit/UINavigationControllerDelegate-Protocol.h>
 #import <ToneKit/UIResponder-TKExtensions.h>
-#import <ToneKit/UITextFieldDelegate-Protocol.h>
 #import <ToneKit/UIView-TKConstraintBasedLayout.h>

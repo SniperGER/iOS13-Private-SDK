@@ -162,18 +162,7 @@
 #import <SiriUI/SiriUIVisualEffectView.h>
 #import <SiriUI/UIApplication-SiriUI.h>
 #import <SiriUI/UICollectionViewCell-SiriUI.h>
-#import <SiriUI/UICollectionViewDataSource-Protocol.h>
-#import <SiriUI/UICollectionViewDelegate-Protocol.h>
-#import <SiriUI/UICollectionViewDragDelegate-Protocol.h>
-#import <SiriUI/UIColor-UIKit_SiriUIFrameworkAdditions.h>
-#import <SiriUI/UIFont-UIKit_SiriUIFrameworkAdditions.h>
-
-#import <SiriUI/UIImage-UIKit_SiriUIFrameworkAdditions.h>
 #import <SiriUI/UILabel-SiriUITextStyles.h>
-#import <SiriUI/UIScrollViewDelegate-Protocol.h>
-#import <SiriUI/UITextFieldDelegate-Protocol.h>
-#import <SiriUI/UIVibrancyEffect-UIKit_SiriUIFrameworkAdditions.h>
-#import <SiriUI/UIView-UIKit_SiriUIFrameworkAdditions.h>
 #import <SiriUI/UIViewController-SiriUI.h>
 #import <SiriUI/_SFPBURL-SearchFoundationTypeNaming.h>
 #import <SiriUI/_SiriUICachedPreferences.h>

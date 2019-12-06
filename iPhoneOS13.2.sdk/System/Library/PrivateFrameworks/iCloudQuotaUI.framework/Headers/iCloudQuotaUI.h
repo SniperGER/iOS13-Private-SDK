@@ -19,8 +19,5 @@
 #import <iCloudQuotaUI/NSURL-ICQAdditions.h>
 #import <iCloudQuotaUI/PSCloudStorageOffersManagerDelegate-Protocol.h>
 #import <iCloudQuotaUI/UIImage-ICQAdditions.h>
-#import <iCloudQuotaUI/UINavigationControllerDelegate-Protocol.h>
-#import <iCloudQuotaUI/UIScrollViewDelegate-Protocol.h>
-#import <iCloudQuotaUI/UITextViewDelegate-Protocol.h>
 #import <iCloudQuotaUI/_ICQTextView.h>
 #import <iCloudQuotaUI/icqImageAdditionsDummyClass.h>

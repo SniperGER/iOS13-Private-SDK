@@ -32,8 +32,5 @@
 #import <CoreCDPUI/KeychainSyncViewControllerDelegate-Protocol.h>
 #import <CoreCDPUI/PSController-Protocol.h>
 #import <CoreCDPUI/PSStateRestoration-Protocol.h>
-#import <CoreCDPUI/UIScrollViewDelegate-Protocol.h>
-#import <CoreCDPUI/UITableViewDataSource-Protocol.h>
-#import <CoreCDPUI/UITableViewDelegate-Protocol.h>
 #import <CoreCDPUI/_CDPExtensionHostContext.h>
 #import <CoreCDPUI/_CDPHostViewController.h>

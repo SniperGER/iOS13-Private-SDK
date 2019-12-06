@@ -284,7 +284,6 @@
 #import <ActionKit/TMSDKFunctions.h>
 #import <ActionKit/TMSDKUserAgent.h>
 #import <ActionKit/TMTumblrAuthenticator.h>
-#import <ActionKit/UIDocumentPickerDelegate-Protocol.h>
 #import <ActionKit/WFACEAction.h>
 #import <ActionKit/WFACESetSettingAction.h>
 #import <ActionKit/WFACESetWiFiAction.h>

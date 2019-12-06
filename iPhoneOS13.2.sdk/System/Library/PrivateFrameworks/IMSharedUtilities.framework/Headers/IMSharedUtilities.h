@@ -166,7 +166,6 @@
 #import <IMSharedUtilities/NSFileManager-IMSharedUtilities.h>
 #import <IMSharedUtilities/NSNumber-IMKeyValueCollectionUserDefaultsStorage.h>
 #import <IMSharedUtilities/NSObject-IMKeyValueCollectionUserDefaultsStorage.h>
-#import <IMSharedUtilities/NSProxy-NSProxyWorkaround.h>
 #import <IMSharedUtilities/NSString-IMEngramUtilities.h>
 #import <IMSharedUtilities/NSURL-IMCoreAdditions.h>
 #import <IMSharedUtilities/XCTestObservation-Protocol.h>

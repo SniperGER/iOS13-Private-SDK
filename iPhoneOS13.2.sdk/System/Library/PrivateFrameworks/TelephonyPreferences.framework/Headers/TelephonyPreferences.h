@@ -87,7 +87,3 @@
 #import <TelephonyPreferences/TUCallCapabilitiesDelegate-Protocol.h>
 #import <TelephonyPreferences/TUCallCapabilitiesDelegatePrivate-Protocol.h>
 #import <TelephonyPreferences/TUCloudCallingDevice-TelephonyPreferences.h>
-#import <TelephonyPreferences/UIScrollViewDelegate-Protocol.h>
-#import <TelephonyPreferences/UITableViewDataSource-Protocol.h>
-#import <TelephonyPreferences/UITableViewDelegate-Protocol.h>
-#import <TelephonyPreferences/UIWebViewDelegate-Protocol.h>

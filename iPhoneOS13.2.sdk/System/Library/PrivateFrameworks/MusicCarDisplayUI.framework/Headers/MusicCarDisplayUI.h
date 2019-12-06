@@ -49,13 +49,7 @@
 #import <MusicCarDisplayUI/MCDTransportControlView.h>
 #import <MusicCarDisplayUI/MPMediaItem-CarDisplay.h>
 #import <MusicCarDisplayUI/MPRequestResponseControllerDelegate-Protocol.h>
-
 #import <MusicCarDisplayUI/UIImage-CarDisplay.h>
-#import <MusicCarDisplayUI/UINavigationControllerDelegate-Protocol.h>
-#import <MusicCarDisplayUI/UIScrollViewDelegate-Protocol.h>
-#import <MusicCarDisplayUI/UITabBarControllerDelegate-Protocol.h>
-#import <MusicCarDisplayUI/UITableViewDataSource-Protocol.h>
-#import <MusicCarDisplayUI/UITableViewDelegate-Protocol.h>
 #import <MusicCarDisplayUI/_MCDBrowsableTableView.h>
 #import <MusicCarDisplayUI/_MCDNowPlayingContentManager.h>
 #import <MusicCarDisplayUI/_MCDNowPlayingHostView.h>

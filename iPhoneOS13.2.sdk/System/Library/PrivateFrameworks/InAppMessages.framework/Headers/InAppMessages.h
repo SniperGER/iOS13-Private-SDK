@@ -34,7 +34,6 @@
 #import <InAppMessages/NSArray-Utilities.h>
 #import <InAppMessages/NSBundle-Utilities.h>
 #import <InAppMessages/NSDictionary-IAMSubset.h>
-#import <InAppMessages/UIAdaptivePresentationControllerDelegate-Protocol.h>
 #import <InAppMessages/UIView-AutoLayout.h>
 #import <InAppMessages/UIViewController-Utilities.h>
 #import <InAppMessages/WKNavigationDelegate-Protocol.h>

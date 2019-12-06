@@ -401,7 +401,7 @@ exports:
                           _CMDrawableMapper.mName, _CMDrawableMapper.mOrientedBounds, _CMDrawableMapper.mResourceType,
                           _CMDrawableMapper.mRotation, _CMDrawableMapper.mSourcePath, _CMDrawableMapper.mStyle,
                           _CMDrawableMapper.mUncroppedBox, _CMDrawableStyle.mDrawable, _CMDrawingAction._floatValue,
-                          _CMDrawingAction._type, _CMDrawingAction._value, _CMDrawingContext._actions, _CMDrawingContext._cgContext,
+                          _CMDrawingAction._type, _CMDrawingAction._value, _CMDrawingContext._actions, _CMDrawingContext._CGContextRef,
                           _CMDrawingContext._currentTransform, _CMDrawingContext._data, _CMDrawingContext._dataConsumer,
                           _CMDrawingContext._fillImage, _CMDrawingContext._finalFrame, _CMDrawingContext._frame,
                           _CMDrawingContext._mapper, _CMDrawingContext._transforms, _CMFreeFormShapeBuilder._path,

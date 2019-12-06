@@ -84,16 +84,7 @@
 #import <AuthKitUI/UIColor-AuthKit.h>
 #import <AuthKitUI/UIFont-AuthKitUI.h>
 #import <AuthKitUI/UIImage-AuthKitUI.h>
-#import <AuthKitUI/UIKeyInput-Protocol.h>
-#import <AuthKitUI/UINavigationControllerDelegate-Protocol.h>
-#import <AuthKitUI/UIScrollViewDelegate-Protocol.h>
-#import <AuthKitUI/UITableViewDataSource-Protocol.h>
-#import <AuthKitUI/UITableViewDelegate-Protocol.h>
 #import <AuthKitUI/UITextField-AuthKitUI.h>
-#import <AuthKitUI/UITextFieldDelegate-Protocol.h>
-#import <AuthKitUI/UITextInputTraits-Protocol.h>
-#import <AuthKitUI/UIViewControllerAnimatedTransitioning-Protocol.h>
-#import <AuthKitUI/UIViewControllerTransitioningDelegate-Protocol.h>
 #import <AuthKitUI/WKNavigationDelegate-Protocol.h>
 #import <AuthKitUI/WKWebView-AuthKit.h>
 #import <AuthKitUI/_AKInsetTextField.h>

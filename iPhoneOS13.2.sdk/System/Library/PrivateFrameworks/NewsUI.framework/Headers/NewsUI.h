@@ -382,16 +382,11 @@
 #import <NewsUI/SXWebContentComponentContentRuleProvider-Protocol.h>
 #import <NewsUI/SXWebContentComponentDeveloperSettingsProvider-Protocol.h>
 #import <NewsUI/SXWebContentLoadingPolicyProvider-Protocol.h>
-#import <NewsUI/UIActivityItemSource-Protocol.h>
 #import <NewsUI/UIBarButtonItem-NUAdditions.h>
-#import <NewsUI/UICollectionViewDataSource-Protocol.h>
 #import <NewsUI/UIColor-NUCSS.h>
 #import <NewsUI/UIImage-NUScale.h>
 #import <NewsUI/UIImageView-NUCrossFadeViewAnimatable.h>
 #import <NewsUI/UILabel-NUCrossFadeViewAnimatable.h>
-#import <NewsUI/UIPageViewControllerDataSource-Protocol.h>
-#import <NewsUI/UIPageViewControllerDelegate-Protocol.h>
-#import <NewsUI/UIScrollViewDelegate-Protocol.h>
 #import <NewsUI/UIView-NUAddtions.h>
 #import <NewsUI/UIViewController-NUChromeControl.h>
 #import <NewsUI/WKNavigationDelegate-Protocol.h>

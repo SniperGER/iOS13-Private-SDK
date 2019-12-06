@@ -1245,12 +1245,8 @@
 #import <Silex/TSWPInteractiveCanvasControllerDelegate-Protocol.h>
 #import <Silex/UIBezierPath-SXAdditions.h>
 #import <Silex/UIColor-SXAdditions.h>
-#import <Silex/UIContextMenuInteractionDelegate-Protocol.h>
 #import <Silex/UIDevice-SXAdditions.h>
-#import <Silex/UIDragInteractionDelegate-Protocol.h>
 #import <Silex/UIGestureRecognizer-SXCancel.h>
-
-#import <Silex/UIScrollViewDelegate-Protocol.h>
 #import <Silex/UIView-FrameUsingCenterAndBounds.h>
 #import <Silex/UIViewController-SXHostable.h>
 #import <Silex/WKNavigationDelegate-Protocol.h>

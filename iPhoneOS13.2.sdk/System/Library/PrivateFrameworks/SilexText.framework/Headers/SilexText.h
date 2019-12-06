@@ -83,5 +83,4 @@
 #import <SilexText/TSWPLayoutTarget-Protocol.h>
 #import <SilexText/TSWPRep-STAccessibility.h>
 #import <SilexText/TSWPTextWrap-Protocol.h>
-#import <SilexText/UIAccessibilityReadingContent-Protocol.h>
 #import <SilexText/UIBezierPath-Silex.h>

@@ -1,6 +1,5 @@
 #import <PlugInKit/CDStructures.h>
 #import <PlugInKit/LSApplicationWorkspaceObserverProtocol-Protocol.h>
-#import <PlugInKit/NSArray-NSArrayBlockComprehension.h>
 #import <PlugInKit/NSDictionary-SmallDictionaryChanges.h>
 #import <PlugInKit/NSMutableDictionary-PKMerge.h>
 #import <PlugInKit/NSString-PKVersionComparison.h>

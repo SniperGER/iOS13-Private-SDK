@@ -271,7 +271,6 @@
 #import <Navigation/NSLocale-MNExtras.h>
 #import <Navigation/NSMethodSignature-NavigationMethodForwarding.h>
 #import <Navigation/NSMutableArray-MNTraceRouteSimulator.h>
-#import <Navigation/NSNumber-CGFloat.h>
 #import <Navigation/NSProcessInfo-MNExtras.h>
 #import <Navigation/NSString-HTMLEncoding.h>
 #import <Navigation/NSTimeZone-MNExtras.h>

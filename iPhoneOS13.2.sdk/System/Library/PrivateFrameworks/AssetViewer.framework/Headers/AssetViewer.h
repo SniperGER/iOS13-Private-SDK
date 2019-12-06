@@ -90,10 +90,7 @@
 #import <AssetViewer/QLPreviewControllerDelegate-Protocol.h>
 #import <AssetViewer/QLPreviewItemPrivateCustomExtensionHandling-Protocol.h>
 #import <AssetViewer/SensorInterceptor.h>
-#import <AssetViewer/UIAccessibilityHUDGestureDelegate-Protocol.h>
 #import <AssetViewer/UIColor-HexColor.h>
-#import <AssetViewer/UIImpactFeedbackGenerator-UIFeedbackGenerator_ASVFeedbackGenerator.h>
 #import <AssetViewer/UIScreen-Orientation.h>
-#import <AssetViewer/UITouch-UITouch_ASVTouch.h>
 #import <AssetViewer/_ARViewerRemoteViewController.h>
 #import <AssetViewer/_ARViewerViewController.h>

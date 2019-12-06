@@ -61,10 +61,7 @@
 #import <MobileMailUI/MessageSaveVideoAttachmentActivity.h>
 #import <MobileMailUI/NSError-MessageContentView.h>
 #import <MobileMailUI/SeparatorLayer.h>
-#import <MobileMailUI/UIAdaptivePresentationControllerDelegate-Protocol.h>
 #import <MobileMailUI/UIColor-MobileMail.h>
-#import <MobileMailUI/UIPopoverPresentationControllerDelegate-Protocol.h>
-#import <MobileMailUI/UIScrollViewDelegate-Protocol.h>
 #import <MobileMailUI/UIView-MFUIDebugging.h>
 #import <MobileMailUI/VIPManager.h>
 #import <MobileMailUI/WKNavigationDelegate-Protocol.h>

@@ -163,20 +163,13 @@
 #import <UserNotificationsUIKit/PLPlatter-Protocol.h>
 #import <UserNotificationsUIKit/PLTitled-Protocol.h>
 #import <UserNotificationsUIKit/PLViewControllerAnimatorDelegate-Protocol.h>
-#import <UserNotificationsUIKit/UIContentSizeCategoryAdjusting-Protocol.h>
-#import <UserNotificationsUIKit/UIDragInteractionDelegate-Protocol.h>
-
 #import <UserNotificationsUIKit/UIImage-NCAdditions.h>
 #import <UserNotificationsUIKit/UILabel-NCNotificationContentViewAdditions.h>
 #import <UserNotificationsUIKit/UIPresentationController-NCAdditions.h>
 #import <UserNotificationsUIKit/UIScreen-NCAdditions.h>
-#import <UserNotificationsUIKit/UIScrollViewDelegate-Protocol.h>
 #import <UserNotificationsUIKit/UITextView-NCNotificationContentViewAdditions.h>
-#import <UserNotificationsUIKit/UITextViewDelegate-Protocol.h>
 #import <UserNotificationsUIKit/UIView-NCDeferredActions.h>
 #import <UserNotificationsUIKit/UIViewController-NCBannerPresentationControllerAdditions.h>
-#import <UserNotificationsUIKit/UIViewControllerAnimatedTransitioning-Protocol.h>
-#import <UserNotificationsUIKit/UIViewControllerTransitioningDelegate-Protocol.h>
 #import <UserNotificationsUIKit/UNNotification-UserNotificationsUIKit.h>
 #import <UserNotificationsUIKit/_NCActionButtonDescription.h>
 #import <UserNotificationsUIKit/_NCNotificationShortLookScrollView.h>

@@ -13,7 +13,4 @@
 #import <AMPCoreUI/AMPUserNotificationContentViewController.h>
 #import <AMPCoreUI/AMPUserNotificationViewController.h>
 #import <AMPCoreUI/CDStructures.h>
-#import <AMPCoreUI/UIAdaptivePresentationControllerDelegate-Protocol.h>
-#import <AMPCoreUI/UIScrollViewDelegate-Protocol.h>
-#import <AMPCoreUI/UIViewControllerAnimatedTransitioning-Protocol.h>
 #import <AMPCoreUI/UNNotificationContentExtension-Protocol.h>

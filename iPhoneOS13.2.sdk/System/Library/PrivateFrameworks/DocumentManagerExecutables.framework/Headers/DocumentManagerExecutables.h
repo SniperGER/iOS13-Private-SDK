@@ -17,11 +17,9 @@
 #import <DocumentManagerExecutables/NSObject-DOCMethodSwizzling.h>
 #import <DocumentManagerExecutables/QLPreviewControllerDataSource-Protocol.h>
 #import <DocumentManagerExecutables/QLPreviewItem-Protocol.h>
-#import <DocumentManagerExecutables/UIKeyInput-Protocol.h>
 #import <DocumentManagerExecutables/UILabel-_DOC_TagChainTitleView.h>
 #import <DocumentManagerExecutables/UINavigationBar-DOCExtensions.h>
 #import <DocumentManagerExecutables/UIScrollView-DOCExtensions.h>
-#import <DocumentManagerExecutables/UITextInputTraits-Protocol.h>
 #import <DocumentManagerExecutables/UIView-DOCAppearanceInheritance.h>
 #import <DocumentManagerExecutables/UIViewController-DOCAppearanceInheritance.h>
 #import <DocumentManagerExecutables/UIViewController-DocumentManagerExecutables.h>

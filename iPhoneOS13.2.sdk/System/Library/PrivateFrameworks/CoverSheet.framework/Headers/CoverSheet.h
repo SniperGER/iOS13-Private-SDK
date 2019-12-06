@@ -204,10 +204,6 @@
 #import <CoverSheet/SBUIProudLockContainerViewControllerLockStatusProvider-Protocol.h>
 #import <CoverSheet/SBUISpotlightInitiating-Protocol.h>
 #import <CoverSheet/SPUISearchBarDelegate-Protocol.h>
-#import <CoverSheet/UICoordinateSpace-Protocol.h>
-
-#import <CoverSheet/UIInteractionProgressObserver-Protocol.h>
-#import <CoverSheet/UIScrollViewDelegate-Protocol.h>
 #import <CoverSheet/UIView-CSCoverSheetViewBase.h>
 #import <CoverSheet/WGWidgetDiscoveryControllerDelegate-Protocol.h>
 #import <CoverSheet/WGWidgetGroupViewControllerDelegate-Protocol.h>

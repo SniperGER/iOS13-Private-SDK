@@ -17,5 +17,4 @@
 #import <IntlPreferences/NSBundle-IntlPreferencesAdditions.h>
 #import <IntlPreferences/NSDictionary-IPDictionaryExtensions.h>
 #import <IntlPreferences/NSLocale-Setup.h>
-#import <IntlPreferences/NSPersonNameComponentsFormatterPreferences.h>
 #import <IntlPreferences/NSString-IPScriptAdditions.h>

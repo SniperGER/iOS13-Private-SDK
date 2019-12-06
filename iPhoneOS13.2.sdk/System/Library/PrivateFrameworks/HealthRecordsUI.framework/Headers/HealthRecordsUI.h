@@ -79,16 +79,8 @@
 #import <HealthRecordsUI/SFSafariViewControllerDelegate-Protocol.h>
 #import <HealthRecordsUI/UIAlertController-HealthRecordsUI.h>
 #import <HealthRecordsUI/UIBarButtonItem-HealthRecordsUI.h>
-#import <HealthRecordsUI/UIBarPositioningDelegate-Protocol.h>
 #import <HealthRecordsUI/UIColor-HealthRecordsUI.h>
 #import <HealthRecordsUI/UIImageView-HealthRecordsUI.h>
-#import <HealthRecordsUI/UIScrollViewDelegate-Protocol.h>
-#import <HealthRecordsUI/UISearchBarDelegate-Protocol.h>
-#import <HealthRecordsUI/UISearchControllerDelegate-Protocol.h>
-#import <HealthRecordsUI/UISearchResultsUpdating-Protocol.h>
-#import <HealthRecordsUI/UITableViewDataSource-Protocol.h>
-#import <HealthRecordsUI/UITableViewDelegate-Protocol.h>
-#import <HealthRecordsUI/UITextViewDelegate-Protocol.h>
 #import <HealthRecordsUI/UITraitCollection-HealthRecordsUI.h>
 #import <HealthRecordsUI/UIView-HealthRecordsUI.h>
 #import <HealthRecordsUI/UNUserNotificationCenterDelegate-Protocol.h>

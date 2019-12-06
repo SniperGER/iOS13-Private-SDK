@@ -211,16 +211,8 @@
 #import <SearchUI/TLKDescriptionViewDelegate-Protocol.h>
 #import <SearchUI/TLKDetailsViewDelegate-Protocol.h>
 #import <SearchUI/TLKSelectableGridViewDelegate-Protocol.h>
-#import <SearchUI/UIContextMenuInteractionDelegate-Protocol.h>
-#import <SearchUI/UIDragInteractionDelegate-Protocol.h>
-#import <SearchUI/UIDragInteractionDelegate_Private-Protocol.h>
-
 #import <SearchUI/UILayoutGuide-SearchUIAutoLayout.h>
-#import <SearchUI/UIScrollViewDelegate-Protocol.h>
-#import <SearchUI/UITextViewDelegate-Protocol.h>
 #import <SearchUI/UIView-SearchUIAutoLayout.h>
-#import <SearchUI/UIViewControllerAnimatedTransitioning-Protocol.h>
-#import <SearchUI/UIViewControllerTransitioningDelegate-Protocol.h>
 #import <SearchUI/WKNavigationDelegate-Protocol.h>
 #import <SearchUI/WKScriptMessageHandler-Protocol.h>
 #import <SearchUI/_MKPlaceViewControllerDelegate-Protocol.h>

@@ -25,6 +25,3 @@
 #import <BridgePreferences/BPSWatchView.h>
 #import <BridgePreferences/BPSWelcomeOptinViewController.h>
 #import <BridgePreferences/CDStructures.h>
-#import <BridgePreferences/UIScrollViewDelegate-Protocol.h>
-#import <BridgePreferences/UITableViewDataSource-Protocol.h>
-#import <BridgePreferences/UITableViewDelegate-Protocol.h>

@@ -103,7 +103,3 @@
 #import <SettingsCellularUI/RemoteUIControllerDelegate-Protocol.h>
 #import <SettingsCellularUI/SettingsCellularUtils.h>
 #import <SettingsCellularUI/TSSIMSetupDelegate-Protocol.h>
-#import <SettingsCellularUI/UIAlertViewDelegate-Protocol.h>
-#import <SettingsCellularUI/UIScrollViewDelegate-Protocol.h>
-#import <SettingsCellularUI/UITextFieldDelegate-Protocol.h>
-#import <SettingsCellularUI/UITextViewDelegate-Protocol.h>

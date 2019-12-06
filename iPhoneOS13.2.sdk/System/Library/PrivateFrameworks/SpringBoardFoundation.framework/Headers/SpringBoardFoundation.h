@@ -200,14 +200,9 @@
 #import <SpringBoardFoundation/SBWorkspaceDefaults.h>
 #import <SpringBoardFoundation/UIDevice-ControlCenter.h>
 #import <SpringBoardFoundation/UIGestureRecognizer-SpringBoardFoundation.h>
-
 #import <SpringBoardFoundation/UIImage-SBFWallpaperHelpers.h>
-#import <SpringBoardFoundation/UIScrollViewDelegate-Protocol.h>
-#import <SpringBoardFoundation/UISpringLoadedInteractionBehavior-Protocol.h>
-#import <SpringBoardFoundation/UISpringLoadedInteractionEffect-Protocol.h>
 #import <SpringBoardFoundation/UIView-SBUtilities.h>
 #import <SpringBoardFoundation/UIViewController-SpringBoardFoundation.h>
-#import <SpringBoardFoundation/UIViewSpringAnimationBehaviorDescribing-Protocol.h>
 #import <SpringBoardFoundation/UIWebClip-SBAdditions.h>
 #import <SpringBoardFoundation/_SBFAccumulatingObserver.h>
 #import <SpringBoardFoundation/_SBFBlockObservable.h>

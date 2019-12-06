@@ -196,7 +196,6 @@
 #import <ContactsFoundation/NSMutableString-CNOrderedDictionary.h>
 #import <ContactsFoundation/NSNotification-ContactsFoundation.h>
 #import <ContactsFoundation/NSNumber-ContactsFoundation.h>
-#import <ContactsFoundation/NSObject-NSObject_ContactsFoundation.h>
 #import <ContactsFoundation/NSSet-ContactsFoundation.h>
 #import <ContactsFoundation/NSString-ContactsUnitTesting.h>
 #import <ContactsFoundation/SynchronousQueueSchedulerCancelationToken.h>

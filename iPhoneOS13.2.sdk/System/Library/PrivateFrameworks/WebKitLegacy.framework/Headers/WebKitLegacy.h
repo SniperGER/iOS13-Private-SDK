@@ -135,7 +135,6 @@
 #import <WebKitLegacy/NSURL-WebDataURL.h>
 #import <WebKitLegacy/NSUserDefaults-WebNSUserDefaultsExtras.h>
 #import <WebKitLegacy/NSValue-_web_Extensions.h>
-#import <WebKitLegacy/UITextInputTraits-Protocol.h>
 #import <WebKitLegacy/WAKView-WebHTMLViewFileInternal.h>
 #import <WebKitLegacy/WKQuadObject.h>
 #import <WebKitLegacy/WebAllowDenyPolicyListener-Protocol.h>

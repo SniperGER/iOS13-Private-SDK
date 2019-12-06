@@ -258,7 +258,6 @@
 #import <AnnotationKit/CDStructures.h>
 #import <AnnotationKit/CHPointFIFODrawingTarget-Protocol.h>
 #import <AnnotationKit/NSCoder-AKPlatformImage_Extensions.h>
-#import <AnnotationKit/NSData-CGPathExtensions.h>
 #import <AnnotationKit/NSObject-AKToolbarButtonItem_Extensions.h>
 #import <AnnotationKit/NSScanner-TSUAdditions.h>
 #import <AnnotationKit/NSString-AKExtensions.h>
@@ -272,27 +271,15 @@
 #import <AnnotationKit/PKPaletteViewDelegate-Protocol.h>
 #import <AnnotationKit/PKPaletteViewPositionObserving-Protocol.h>
 #import <AnnotationKit/PKPaletteViewPrivateDelegate-Protocol.h>
-#import <AnnotationKit/UIAdaptivePresentationControllerDelegate-Protocol.h>
-#import <AnnotationKit/UIBarPositioningDelegate-Protocol.h>
 #import <AnnotationKit/UIBezierPath-AKPlatformGeometryExtensions.h>
-#import <AnnotationKit/UICollectionViewDataSource-Protocol.h>
-#import <AnnotationKit/UICollectionViewDelegate-Protocol.h>
 #import <AnnotationKit/UIColor-AKPlatformColor_Extensions_Shared.h>
 #import <AnnotationKit/UIGestureRecognizer-AKPlatformGestureRecognizer_Extensions.h>
-
 #import <AnnotationKit/UIImage-AKPlatformImageExtensions.h>
-#import <AnnotationKit/UINavigationBarDelegate-Protocol.h>
 #import <AnnotationKit/UIPasteboard-AKPlatformPasteboard_Extensions.h>
-#import <AnnotationKit/UIPopoverControllerDelegate-Protocol.h>
-#import <AnnotationKit/UIPopoverPresentationControllerDelegate-Protocol.h>
 #import <AnnotationKit/UIScrollView-AKPlatformView_Extensions.h>
-#import <AnnotationKit/UIScrollViewDelegate-Protocol.h>
 #import <AnnotationKit/UISlider-AKPlatformSlider_Extensions.h>
 #import <AnnotationKit/UITableView-AKUtilityExtensions.h>
-#import <AnnotationKit/UITableViewDataSource-Protocol.h>
-#import <AnnotationKit/UITableViewDelegate-Protocol.h>
 #import <AnnotationKit/UITapGestureRecognizer-AKPlatformGestureRecognizer_Extensions.h>
-#import <AnnotationKit/UITextViewDelegate-Protocol.h>
 #import <AnnotationKit/UIView-AKPlatformView_Extensions.h>
 #import <AnnotationKit/_AKInkOverlayDrawingUndoTarget.h>
 #import <AnnotationKit/_AKNonMinibarToolbar.h>

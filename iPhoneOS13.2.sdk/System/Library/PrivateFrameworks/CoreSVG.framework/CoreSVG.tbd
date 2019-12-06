@@ -6,7 +6,7 @@ current-version:       129
 compatibility-version: 1
 exports:
   - archs:              [ arm64 ]
-    symbols:            [ _CGContextDrawSVGDocument, _CGContextDrawSVGNode, _CGSVGAtomCopyString, _CGSVGAtomFromCString,
+    symbols:            [ _CGContextRefDrawSVGDocument, _CGContextRefDrawSVGNode, _CGSVGAtomCopyString, _CGSVGAtomFromCString,
                           _CGSVGAtomFromString, _CGSVGAtomGetCString, _CGSVGAttributeCopyString, _CGSVGAttributeCreateWithAtom,
                           _CGSVGAttributeCreateWithCString, _CGSVGAttributeCreateWithColor, _CGSVGAttributeCreateWithFloat,
                           _CGSVGAttributeCreateWithFloats, _CGSVGAttributeCreateWithGradient, _CGSVGAttributeCreateWithPaint,

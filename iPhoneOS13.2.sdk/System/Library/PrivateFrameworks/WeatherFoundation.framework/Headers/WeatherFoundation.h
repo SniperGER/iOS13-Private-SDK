@@ -114,7 +114,6 @@
 #import <WeatherFoundation/WFWeatherStoreServiceConfiguration.h>
 #import <WeatherFoundation/WFWeatherUndergroundParser.h>
 #import <WeatherFoundation/WFWeatherUndergroundRequestFormatter.h>
-#import <Weather/WeatherPreferencesPersistence-Protocol.h>
 #import <WeatherFoundation/WeatherService.h>
 #import <WeatherFoundation/WeatherServiceClientProtocol-Protocol.h>
 #import <WeatherFoundation/WeatherServiceInternalProtocol-Protocol.h>

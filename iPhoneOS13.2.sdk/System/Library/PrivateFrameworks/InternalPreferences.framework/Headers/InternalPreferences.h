@@ -12,4 +12,3 @@
 #import <InternalPreferences/MFMailComposeViewControllerDelegate-Protocol.h>
 #import <InternalPreferences/PropertyListPane.h>
 #import <InternalPreferences/SharkTraceController.h>
-#import <InternalPreferences/UITextFieldDelegate-Protocol.h>

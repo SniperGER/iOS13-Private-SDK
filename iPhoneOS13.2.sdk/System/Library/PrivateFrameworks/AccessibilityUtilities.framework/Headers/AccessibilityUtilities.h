@@ -168,7 +168,6 @@
 #import <AccessibilityUtilities/NSMutableDictionary-AXExtensions.h>
 #import <AccessibilityUtilities/NSMutableSet-AXExtensions.h>
 #import <AccessibilityUtilities/NSNumber-AXMIDIExtras.h>
-#import <AccessibilityUtilities/NSObject-UIAccessibilitySafeCategory_Private.h>
 #import <AccessibilityUtilities/NSProxy-AXSideStorage.h>
 #import <AccessibilityUtilities/NSString-AXPriv.h>
 #import <AccessibilityUtilities/NSValue-AXGeometryExtensions.h>

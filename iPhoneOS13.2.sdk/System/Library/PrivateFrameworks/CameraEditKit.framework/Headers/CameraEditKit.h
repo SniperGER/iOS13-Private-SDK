@@ -37,8 +37,3 @@
 #import <CameraEditKit/CEKWheelScrubberView.h>
 #import <CameraEditKit/CEKWheelScrubberViewCell.h>
 #import <CameraEditKit/NSIndexSet-CEKLightingFrameCache.h>
-#import <CameraEditKit/UICollectionViewDataSource-Protocol.h>
-#import <CameraEditKit/UICollectionViewDelegate-Protocol.h>
-
-#import <CameraEditKit/UIPreviewInteractionDelegate-Protocol.h>
-#import <CameraEditKit/UIScrollViewDelegate-Protocol.h>

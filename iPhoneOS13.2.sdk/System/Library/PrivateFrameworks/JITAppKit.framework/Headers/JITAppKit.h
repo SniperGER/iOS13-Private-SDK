@@ -42,8 +42,5 @@
 #import <JITAppKit/TKTableViewCellSubtitle.h>
 #import <JITAppKit/TKUtils.h>
 #import <JITAppKit/TMLModule-Protocol.h>
-#import <JITAppKit/UIScrollViewDelegate-Protocol.h>
-#import <JITAppKit/UITextFieldDelegate-Protocol.h>
-#import <JITAppKit/UITextViewDelegate-Protocol.h>
 #import <JITAppKit/UIView-JITAppKit.h>
 #import <JITAppKit/UIViewController-JITAppKit.h>

@@ -9,7 +9,6 @@
 #import <PencilKit/NSData-Gzip.h>
 #import <PencilKit/NSNumberFormatter-PKAccessibility.h>
 #import <PencilKit/NSObject-PKAccessibility.h>
-#import <PencilKit/NSUUID-NSUUIDAdditions.h>
 #import <PencilKit/PKAccessibility.h>
 #import <PencilKit/PKAccessibilityExtras-Protocol.h>
 #import <PencilKit/PKAccessoryView.h>
@@ -219,25 +218,8 @@
 #import <PencilKit/PKVersionedDocument.h>
 #import <PencilKit/PKVisualizationManager.h>
 #import <PencilKit/PencilKit_Localization.h>
-#import <PencilKit/UIAdaptivePresentationControllerDelegate-Protocol.h>
-#import <PencilKit/UICollectionViewDataSource-Protocol.h>
-#import <PencilKit/UICollectionViewDelegate-Protocol.h>
-#import <PencilKit/UICollectionViewDelegateFlowLayout-Protocol.h>
 #import <PencilKit/UIColor-PKAccessibility.h>
-#import <PencilKit/UIDragInteractionDelegate-Protocol.h>
-#import <PencilKit/UIDragInteractionDelegate_Private-Protocol.h>
-#import <PencilKit/UIDropInteractionDelegate-Protocol.h>
-#import <PencilKit/UIDropInteractionDelegate_Private-Protocol.h>
-#import <PencilKit/UIEditingOverlayInteractionWithView-Protocol.h>
 #import <PencilKit/UIEvent-PKAdditions.h>
-
-#import <PencilKit/UIInputResponderControllerVisibilityObserver-Protocol.h>
-#import <PencilKit/UIInteraction-Protocol.h>
-#import <PencilKit/UIPencilInteractionDelegate-Protocol.h>
-#import <PencilKit/UIPopoverPresentationControllerDelegate-Protocol.h>
-#import <PencilKit/UIScrollViewDelegate-Protocol.h>
-#import <PencilKit/UITextView-UITextViewDrawing.h>
-#import <PencilKit/UITextViewDrawingInfo.h>
 #import <PencilKit/UITouch-PKAdditions.h>
 #import <PencilKit/UIView-PKAdditions.h>
 #import <PencilKit/UIViewController-PKInlineInkPickerSerialTransitions.h>

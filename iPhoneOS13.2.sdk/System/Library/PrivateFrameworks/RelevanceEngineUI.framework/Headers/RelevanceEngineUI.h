@@ -5,7 +5,6 @@
 #import <RelevanceEngineUI/REContent-REUIAdditions.h>
 #import <RelevanceEngineUI/REDataImage-REUIImage.h>
 #import <RelevanceEngineUI/REFileImage-REUIImage.h>
-#import <RelevanceEngineUI/REImage-UIImageExtensions.h>
 #import <RelevanceEngineUI/REImageImage.h>
 #import <RelevanceEngineUI/RENamedImage-REUIImage.h>
 #import <RelevanceEngineUI/RERelevanceEngineObserver-Protocol.h>
@@ -35,10 +34,7 @@
 #import <RelevanceEngineUI/REUpNextThumbnailCell.h>
 #import <RelevanceEngineUI/TableCell.h>
 #import <RelevanceEngineUI/UICollectionView-DataSourceConfiguration.h>
-#import <RelevanceEngineUI/UICollectionViewDataSource-Protocol.h>
-
 #import <RelevanceEngineUI/UITableView-DataSourceConfiguration.h>
-#import <RelevanceEngineUI/UITableViewDataSource-Protocol.h>
 #import <RelevanceEngineUI/_REUIBundlePlaceholder.h>
 #import <RelevanceEngineUI/_REUIControllerTrainingContext.h>
 #import <RelevanceEngineUI/_REUIControllerTrainingContextDelegate-Protocol.h>

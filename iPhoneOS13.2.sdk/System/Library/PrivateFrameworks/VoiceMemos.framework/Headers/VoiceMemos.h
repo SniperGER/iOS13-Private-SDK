@@ -104,12 +104,9 @@
 #import <VoiceMemos/RCXPCStoreServer.h>
 #import <VoiceMemos/RecordVoiceMemoIntent.h>
 #import <VoiceMemos/RecordVoiceMemoIntentResponse.h>
-#import <VoiceMemos/UIActivityItemSource-Protocol.h>
 #import <VoiceMemos/UIFont-RCAdditions.h>
-
 #import <VoiceMemos/UINavigationController-RCAdditions.h>
 #import <VoiceMemos/UINavigationItem-RCAdditions.h>
-#import <VoiceMemos/UIScrollViewDelegate-Protocol.h>
 #import <VoiceMemos/UIView-RCAdditions.h>
 #import <VoiceMemos/UIViewController-RCAdditions.h>
 #import <VoiceMemos/_CLPlaceInference-RCLocationOfInterest.h>

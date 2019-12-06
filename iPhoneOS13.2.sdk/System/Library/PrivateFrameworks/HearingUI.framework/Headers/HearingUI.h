@@ -15,5 +15,4 @@
 #import <HearingUI/HACCSlider.h>
 #import <HearingUI/HACCStatusView.h>
 #import <HearingUI/HACCUltronControl.h>
-
 #import <HearingUI/_HUIUtilitiesPlaceholder.h>

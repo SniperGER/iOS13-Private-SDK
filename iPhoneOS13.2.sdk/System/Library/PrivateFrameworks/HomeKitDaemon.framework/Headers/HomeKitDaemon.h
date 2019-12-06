@@ -1210,7 +1210,6 @@
 #import <HomeKitDaemon/HMRemoteLoginMessageProtocol-Protocol.h>
 #import <HomeKitDaemon/HMSetupAccessoryDescription-Internal.h>
 #import <HomeKitDaemon/HMSetupAccessoryPayload-Internal.h>
-#import <HomeKitDaemon/HMSoftwareUpdateDocumentation-NSBundle.h>
 #import <HomeKitDaemon/HMSyncAnisetteDataRequest.h>
 #import <HomeKitDaemon/HMSyncAnisetteDataResponse.h>
 #import <HomeKitDaemon/HMXPCMessageTransport-Protocol.h>

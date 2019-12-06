@@ -1,5 +1,4 @@
 #import <TextInputUI/CDStructures.h>
-#import <TextInputUI/TIKeyboardCandidate-UIKeyboardAdditions.h>
 #import <TextInputUI/TUIAssistantButtonBarGroupView.h>
 #import <TextInputUI/TUIAssistantButtonBarView.h>
 #import <TextInputUI/TUIAssistantButtonBarViewDelegate-Protocol.h>
@@ -42,9 +41,5 @@
 #import <TextInputUI/TUISystemInputAssistantPageViewDelegate-Protocol.h>
 #import <TextInputUI/TUISystemInputAssistantView.h>
 #import <TextInputUI/TUITypedStringCandidate.h>
-#import <TextInputUI/UICollectionViewDataSource-Protocol.h>
-#import <TextInputUI/UICollectionViewDelegate-Protocol.h>
-
 #import <TextInputUI/UIKeyboardInputMode-Staging_Compatibility.h>
-#import <TextInputUI/UIScrollViewDelegate-Protocol.h>
 #import <TextInputUI/UIView-TUICandidateLine.h>

@@ -54,7 +54,6 @@
 #import <TelephonyUI/TPView.h>
 #import <TelephonyUI/TUCallProviderManagerDelegate-Protocol.h>
 #import <TelephonyUI/UIAlertController-TelephonyUI.h>
-#import <TelephonyUI/UIAlertViewDelegate-Protocol.h>
 #import <TelephonyUI/UIBarButtonItem-TelephonyUI.h>
 #import <TelephonyUI/UIColor-TPTelephonyUIUtilities.h>
 #import <TelephonyUI/UIFont-TelephonyUI.h>

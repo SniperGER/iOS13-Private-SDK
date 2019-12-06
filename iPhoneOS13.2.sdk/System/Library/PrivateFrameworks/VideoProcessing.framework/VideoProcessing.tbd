@@ -365,7 +365,7 @@ exports:
                           _VCPImageBlurAnalyzer._blurAnalyzer, _VCPImageBlurAnalyzer._contrast, _VCPImageBlurAnalyzer._faceInput,
                           _VCPImageBlurAnalyzer._faceModel, _VCPImageBlurAnalyzer._faces, _VCPImageBlurAnalyzer._sdof,
                           _VCPImageBlurAnalyzer._sharpness, _VCPImageBlurAnalyzer._sharpnessBlocks,
-                          _VCPImageBlurAnalyzer._textureScore, _VCPImageBlurAnalyzer._useGPU, _VCPImageConverter._cgContext,
+                          _VCPImageBlurAnalyzer._textureScore, _VCPImageBlurAnalyzer._useGPU, _VCPImageConverter._CGContextRef,
                           _VCPImageConverter._height, _VCPImageConverter._pixelFormat, _VCPImageConverter._rgbColorSpace,
                           _VCPImageConverter._rgbFrame, _VCPImageConverter._rgbToYuv, _VCPImageConverter._width,
                           _VCPImageConverter._yuvFrames, _VCPImageDescriptor._imagePrint, _VCPImageExposureAnalyzer._exposureScore,

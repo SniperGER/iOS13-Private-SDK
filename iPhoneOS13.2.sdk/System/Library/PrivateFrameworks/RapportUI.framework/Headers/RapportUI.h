@@ -5,6 +5,4 @@
 #import <RapportUI/RPPairingPromptViewController.h>
 #import <RapportUI/RPPairingShowViewController.h>
 #import <RapportUI/RPPairingUIController.h>
-#import <RapportUI/UIKeyInput-Protocol.h>
-#import <RapportUI/UITextInputTraits-Protocol.h>
 #import <RapportUI/UIView-RPUIViewExtensions.h>

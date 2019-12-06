@@ -71,13 +71,6 @@
 #import <PhotoLibrary/PLiPhotoMigrationSupport.h>
 #import <PhotoLibrary/SBFLegibilitySettingsProviderDelegate-Protocol.h>
 #import <PhotoLibrary/UIApplication-PhotosInternal.h>
-#import <PhotoLibrary/UIApplicationDelegate-Protocol.h>
-
-#import <PhotoLibrary/UIImagePickerControllerDelegate-Protocol.h>
-#import <PhotoLibrary/UIMovieScrubberDataSource-Protocol.h>
-#import <PhotoLibrary/UIMovieScrubberDelegate-Protocol.h>
-#import <PhotoLibrary/UINavigationControllerDelegate-Protocol.h>
-#import <PhotoLibrary/UIScrollViewDelegate-Protocol.h>
 #import <PhotoLibrary/UITableView-PhotoLibraryAdditions.h>
 #import <PhotoLibrary/UIView-PLVideoOverlayButton.h>
 #import <PhotoLibrary/UIViewController-PLNavigationControllerInterface.h>

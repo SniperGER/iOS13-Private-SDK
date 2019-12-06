@@ -68,10 +68,8 @@
 #import <SpringBoardUI/SBUIStarkBannerViewButton.h>
 #import <SpringBoardUI/SBUIViewFloatSpringProperty.h>
 #import <SpringBoardUI/SBUIWallpaperOverlay-Protocol.h>
-
 #import <SpringBoardUI/UITraitCollection-SBUIAdditions.h>
 #import <SpringBoardUI/UIView-SBUIAdditions.h>
-#import <SpringBoardUI/UIViewSpringAnimationBehaviorDescribing-Protocol.h>
 #import <SpringBoardUI/UIWindow-SBUICoronaAnimationControllerAdditions.h>
 #import <SpringBoardUI/_SBAlertController.h>
 #import <SpringBoardUI/_SBAlertItemHeaderViewController.h>

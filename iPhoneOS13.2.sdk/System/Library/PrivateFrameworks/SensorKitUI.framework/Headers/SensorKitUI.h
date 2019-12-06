@@ -16,7 +16,3 @@
 #import <SensorKitUI/SRRemoteAuthorizationPromptViewController.h>
 #import <SensorKitUI/SRRemoteAuthorizationPromptViewControllerDelegate-Protocol.h>
 #import <SensorKitUI/SRSampleViewController.h>
-#import <SensorKitUI/UIScrollViewDelegate-Protocol.h>
-#import <SensorKitUI/UITableViewDelegate-Protocol.h>
-#import <SensorKitUI/UITableViewDelegatePrivate-Protocol.h>
-#import <SensorKitUI/UITableViewFocusDelegateLegacy-Protocol.h>

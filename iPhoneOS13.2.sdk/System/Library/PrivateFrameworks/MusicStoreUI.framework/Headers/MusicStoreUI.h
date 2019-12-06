@@ -21,5 +21,3 @@
 #import <MusicStoreUI/MSTrackListViewController.h>
 #import <MusicStoreUI/MSViewControllerFactory.h>
 #import <MusicStoreUI/MSVolumeViewController.h>
-#import <MusicStoreUI/UIActionSheetDelegate-Protocol.h>
-#import <MusicStoreUI/UIAlertViewDelegate-Protocol.h>

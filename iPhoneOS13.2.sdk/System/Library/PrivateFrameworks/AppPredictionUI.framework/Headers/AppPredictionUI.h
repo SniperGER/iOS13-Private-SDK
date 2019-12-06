@@ -38,7 +38,6 @@
 #import <AppPredictionUI/PLExpandedPlatterPresentationViewDelegate-Protocol.h>
 #import <AppPredictionUI/SFResourceLoader-Protocol.h>
 #import <AppPredictionUI/SearchUIResultShortLook-Protocol.h>
-#import <AppPredictionUI/UIScrollViewDelegate-Protocol.h>
 #import <AppPredictionUI/WFLActionUserInterface-Protocol.h>
 #import <AppPredictionUI/WFLWorkflowControllerDelegate-Protocol.h>
 #import <AppPredictionUI/_APUIActionCardInfo.h>

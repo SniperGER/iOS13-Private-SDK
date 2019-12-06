@@ -2,9 +2,6 @@
 #import <HealthProfile/CNAvatarViewControllerDelegate-Protocol.h>
 #import <HealthProfile/CNKeyDescriptor-Protocol.h>
 #import <HealthProfile/HKMedicalIDViewControllerDelegate-Protocol.h>
-#import <HealthProfile/UIScrollViewDelegate-Protocol.h>
-#import <HealthProfile/UITableViewDelegate-Protocol.h>
-#import <HealthProfile/UITextViewDelegate-Protocol.h>
 #import <HealthProfile/_TtC13HealthProfile14MeContactCache.h>
 #import <HealthProfile/_TtC13HealthProfile16ProfileBarButton.h>
 #import <HealthProfile/_TtC13HealthProfile16ProfileBasicCell.h>

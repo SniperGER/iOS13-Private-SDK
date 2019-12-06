@@ -20,6 +20,3 @@
 #import <AppleMediaServicesUI/CDStructures.h>
 #import <AppleMediaServicesUI/NSBundle-AppleMediaServices.h>
 #import <AppleMediaServicesUI/NSURL-AppleMediaServicesUI.h>
-#import <AppleMediaServicesUI/UIAdaptivePresentationControllerDelegate-Protocol.h>
-#import <AppleMediaServicesUI/UIScrollViewDelegate-Protocol.h>
-#import <AppleMediaServicesUI/UIViewControllerAnimatedTransitioning-Protocol.h>

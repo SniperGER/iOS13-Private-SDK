@@ -29,9 +29,6 @@
 #import <CertInfo/NSData-CertInfoAdditions.h>
 #import <CertInfo/TrustCertificateViewController.h>
 #import <CertInfo/UIColor-CertUIAdditions.h>
-#import <CertInfo/UIScrollViewDelegate-Protocol.h>
-#import <CertInfo/UITableViewDataSource-Protocol.h>
-#import <CertInfo/UITableViewDelegate-Protocol.h>
 #import <CertInfo/_CertInfoActionButton.h>
 #import <CertInfo/_CertInfoGradientLabel.h>
 #import <CertInfo/_CertInfoTrustSummaryHeaderCell.h>

@@ -14,7 +14,6 @@
 #import <NeutrinoCore/NSNull-NUDigest.h>
 #import <NeutrinoCore/NSNumber-NUSchemaAdditions.h>
 #import <NeutrinoCore/NSObject-NUDigest.h>
-#import <NeutrinoCore/NSPredicateRule.h>
 #import <NeutrinoCore/NSScanner-NUPatternAdditions.h>
 #import <NeutrinoCore/NSSet-NUDigest.h>
 #import <NeutrinoCore/NSString-NUDigest.h>
@@ -434,8 +433,6 @@
 #import <NeutrinoCore/NUVideoUtilities.h>
 #import <NeutrinoCore/NUWrappedBufferStorage.h>
 #import <NeutrinoCore/NUZoomFactorScalePolicy.h>
-#import <NeutrinoCore/_NSPredicateBlockRule.h>
-#import <NeutrinoCore/_NSPredicateRule.h>
 #import <NeutrinoCore/_NUAbstractBufferStorage.h>
 #import <NeutrinoCore/_NUAbstractStorage.h>
 #import <NeutrinoCore/_NUAuxiliaryImageRenderResult.h>

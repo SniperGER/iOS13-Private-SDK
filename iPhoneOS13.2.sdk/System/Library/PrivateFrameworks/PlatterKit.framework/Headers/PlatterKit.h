@@ -42,14 +42,9 @@
 #import <PlatterKit/PLViewControllerAnimatorDelegate-Protocol.h>
 #import <PlatterKit/PLViewControllerAnimatorObserving-Protocol.h>
 #import <PlatterKit/PLViewControllerEdgeAnimator.h>
-#import <PlatterKit/UIContentSizeCategoryAdjusting-Protocol.h>
-
 #import <PlatterKit/UIImage-PlatterKitAdditions.h>
-#import <PlatterKit/UIScrollViewDelegate-Protocol.h>
 #import <PlatterKit/UIView-PLCrossFade.h>
 #import <PlatterKit/UIViewController-PlatterKitAdditions.h>
-#import <PlatterKit/UIViewControllerAnimatedTransitioning-Protocol.h>
-#import <PlatterKit/UIViewControllerTransitioningDelegate-Protocol.h>
 #import <PlatterKit/_PLViewControllerOneToOneTransitionContext.h>
 #import <PlatterKit/_UIClickPresentationInteractionDelegate-Protocol.h>
 #import <PlatterKit/_UIClickPresentationTransition-Protocol.h>

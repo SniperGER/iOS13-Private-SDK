@@ -13,5 +13,4 @@
 #import <PersonaUI/PRMonogramView.h>
 #import <PersonaUI/UIColor-PersonaUI.h>
 #import <PersonaUI/UIImage-PRLikenessView.h>
-#import <PersonaUI/UITextFieldDelegate-Protocol.h>
 #import <PersonaUI/_PRMonogramFontSpec.h>

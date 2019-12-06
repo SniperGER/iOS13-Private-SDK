@@ -7,4 +7,3 @@
 #import <EmojiKit/EMKOverlayView.h>
 #import <EmojiKit/EMKTextEnumerator.h>
 #import <EmojiKit/EMKTextView.h>
-

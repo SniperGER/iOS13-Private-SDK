@@ -73,10 +73,8 @@
 #import <PhotosPlayer/ISWrappedAVPlayer.h>
 #import <PhotosPlayer/ISWrappedAVPlayerDelegate-Protocol.h>
 #import <PhotosPlayer/PTRow-PhotosPlayer.h>
-
 #import <PhotosPlayer/UIScreen-PhotosPlayer.h>
 #import <PhotosPlayer/UIScrollView-ISScrollViewVitalityController.h>
-#import <PhotosPlayer/UIScrollViewDelegate-Protocol.h>
 #import <PhotosPlayer/UIView-PhotosPlayer.h>
 #import <PhotosPlayer/_ISAnimatedImageTimerForwardingProxy.h>
 #import <PhotosPlayer/_ISPlayerItemChefOperation.h>

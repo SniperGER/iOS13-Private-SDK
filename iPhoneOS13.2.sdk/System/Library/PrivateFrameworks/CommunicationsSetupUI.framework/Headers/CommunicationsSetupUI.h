@@ -104,10 +104,4 @@
 #import <CommunicationsSetupUI/PSSpecifier-CNFRegSettings.h>
 #import <CommunicationsSetupUI/PSStateRestoration-Protocol.h>
 #import <CommunicationsSetupUI/RUIObjectModelDelegate-Protocol.h>
-#import <CommunicationsSetupUI/UIBarPositioningDelegate-Protocol.h>
 #import <CommunicationsSetupUI/UINavigationController-CNFRegSignInController.h>
-#import <CommunicationsSetupUI/UISearchBarDelegate-Protocol.h>
-#import <CommunicationsSetupUI/UISearchControllerDelegate-Protocol.h>
-#import <CommunicationsSetupUI/UISearchResultsUpdating-Protocol.h>
-#import <CommunicationsSetupUI/UITextInputTraits-Protocol.h>
-#import <CommunicationsSetupUI/UIWebViewDelegate-Protocol.h>

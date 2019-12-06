@@ -32,12 +32,6 @@
 #import <ConversationKit/TUConversationMediaControllerDelegate-Protocol.h>
 #import <ConversationKit/TUMomentsControllerDelegate-Protocol.h>
 #import <ConversationKit/TURouteControllerDelegate-Protocol.h>
-#import <ConversationKit/UICollectionViewDataSource-Protocol.h>
-#import <ConversationKit/UICollectionViewDelegate-Protocol.h>
-
-#import <ConversationKit/UIInteraction-Protocol.h>
-#import <ConversationKit/UIScrollViewDelegate-Protocol.h>
-#import <ConversationKit/UIViewControllerAnimatedTransitioning-Protocol.h>
 #import <ConversationKit/_TtC15ConversationKit10CallCenter-ConversationKit.h>
 #import <ConversationKit/_TtC15ConversationKit10CallCenter-ConversationKit1.h>
 #import <ConversationKit/_TtC15ConversationKit10CallCenter-ConversationKit2.h>

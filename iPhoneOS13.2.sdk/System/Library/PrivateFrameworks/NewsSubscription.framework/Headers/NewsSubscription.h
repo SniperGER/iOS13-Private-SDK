@@ -78,9 +78,6 @@
 #import <NewsSubscription/TSImageProcessorType-Protocol.h>
 #import <NewsSubscription/TSProcessedImageRequestType-Protocol.h>
 #import <NewsSubscription/TSSharedImageCacheType-Protocol.h>
-
-#import <NewsSubscription/UIScrollViewDelegate-Protocol.h>
-#import <NewsSubscription/UITextViewDelegate-Protocol.h>
 #import <NewsSubscription/_TtC16NewsSubscription10BaseStyler.h>
 #import <NewsSubscription/_TtC16NewsSubscription12ColorPalette.h>
 #import <NewsSubscription/_TtC16NewsSubscription14PaywallFactory.h>

@@ -124,8 +124,6 @@
 #import <WorkflowKit/RLMWeakObjectHandle.h>
 #import <WorkflowKit/SAIntentGroupConfirmIntent-RemoteOperation.h>
 #import <WorkflowKit/SAIntentGroupHandleIntent-RemoteOperation.h>
-#import <WorkflowKit/UICollectionViewDataSource-Protocol.h>
-#import <WorkflowKit/UITableViewDataSource-Protocol.h>
 #import <WorkflowKit/UNUserNotificationCenter-Workflow.h>
 #import <WorkflowKit/VCVoiceShortcut-Workflow.h>
 #import <WorkflowKit/WFAccessResource.h>

@@ -37,5 +37,4 @@
 #import <FMCore/FMXPCTransactionManager.h>
 #import <FMCore/IDSServiceDelegate-Protocol.h>
 #import <FMCore/NSData-FMCoreAdditions.h>
-#import <FMCore/NSObject-NSObject_KVOBlock.h>
 #import <FMCore/NSString-FMCoreAdditions.h>

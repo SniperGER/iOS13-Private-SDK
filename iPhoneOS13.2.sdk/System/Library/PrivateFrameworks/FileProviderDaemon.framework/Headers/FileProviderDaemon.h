@@ -82,4 +82,3 @@
 #import <FileProviderDaemon/WrappedFPXEnumeratorObserverProxy.h>
 #import <FileProviderDaemon/_FPDAccessControlEnumerator.h>
 #import <FileProviderDaemon/_FPDExtensionRequestRecord.h>
-#import <FileProviderDaemon/_NSFileProviderExtensionHostContext.h>

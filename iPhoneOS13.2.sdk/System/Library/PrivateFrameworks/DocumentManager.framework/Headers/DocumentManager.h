@@ -45,16 +45,5 @@
 #import <DocumentManager/DOCWeakProxy.h>
 #import <DocumentManager/NSPointerArray-DOCExtensions.h>
 #import <DocumentManager/NSUserDefaults-DOCUserDefaults.h>
-#import <DocumentManager/UIAdaptivePresentationControllerDelegate-Protocol.h>
 #import <DocumentManager/UIBarButtonItem-DOCAdditions.h>
-#import <DocumentManager/UIDocumentBrowserAction.h>
-#import <DocumentManager/UIDocumentBrowserActionDescriptor.h>
-#import <DocumentManager/UIDocumentBrowserTransitionController.h>
-#import <DocumentManager/UIDocumentBrowserViewController.h>
-#import <DocumentManager/UIDocumentBrowserViewControllerDelegate-Protocol.h>
-#import <DocumentManager/UIKeyInput-Protocol.h>
-#import <DocumentManager/UIPresentationControllerDelegatePrivate-Protocol.h>
-#import <DocumentManager/UITextInput-Protocol.h>
-#import <DocumentManager/UITextInputTraits-Protocol.h>
-#import <DocumentManager/UIViewControllerAnimatedTransitioning-Protocol.h>
 #import <DocumentManager/_UIRemoteViewControllerContaining-Protocol.h>

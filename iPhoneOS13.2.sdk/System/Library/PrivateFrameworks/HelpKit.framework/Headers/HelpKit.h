@@ -43,10 +43,5 @@
 #import <HelpKit/TPSURLSessionTask.h>
 #import <HelpKit/TPSURLSessionTaskDelegate-Protocol.h>
 #import <HelpKit/TPSVideoCacheController.h>
-#import <HelpKit/UIBarPositioningDelegate-Protocol.h>
-
-#import <HelpKit/UISearchBarDelegate-Protocol.h>
-#import <HelpKit/UISearchControllerDelegate-Protocol.h>
-#import <HelpKit/UISearchResultsUpdating-Protocol.h>
 #import <HelpKit/WKNavigationDelegate-Protocol.h>
 #import <HelpKit/WKWebView-HLPAdditions.h>

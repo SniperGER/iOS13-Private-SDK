@@ -35,10 +35,5 @@
 #import <SharingUI/SFShareAudioViewController.h>
 #import <SharingUI/SFSharedAudioDeviceInfo.h>
 #import <SharingUI/SFWirelessSettingsControllerDelegate-Protocol.h>
-#import <SharingUI/UIActionSheetDelegate-Protocol.h>
-#import <SharingUI/UICollectionViewDataSource-Protocol.h>
-#import <SharingUI/UICollectionViewDelegate-Protocol.h>
-#import <SharingUI/UIScrollViewDelegate-Protocol.h>
-#import <SharingUI/UIViewSpringAnimationBehaviorDescribing-Protocol.h>
 #import <SharingUI/_SFAirDropRemoteViewController.h>
 #import <SharingUI/_UIRemoteViewControllerContaining-Protocol.h>

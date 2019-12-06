@@ -1,6 +1,4 @@
 #import <HealthEducationUI/CDStructures.h>
-#import <HealthEducationUI/UIScrollViewDelegate-Protocol.h>
-#import <HealthEducationUI/UITextViewDelegate-Protocol.h>
 #import <HealthEducationUI/_TtC17HealthEducationUI10ButtonView.h>
 #import <HealthEducationUI/_TtC17HealthEducationUI12TileSashView.h>
 #import <HealthEducationUI/_TtC17HealthEducationUI13ParagraphView.h>

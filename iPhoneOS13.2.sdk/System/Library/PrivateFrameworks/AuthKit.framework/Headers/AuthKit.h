@@ -111,7 +111,6 @@
 #import <AuthKit/NSMutableURLRequest-AuthKit.h>
 #import <AuthKit/NSString-AuthKit.h>
 #import <AuthKit/NSURLRequest-AuthKit.h>
-#import <AuthKit/NSValue-CGSize.h>
 #import <AuthKit/NSXPCConnection-AKAdaptiveServiceShouldHandle.h>
 #import <AuthKit/_AKAnisetteProviderProxy.h>
 #import <AuthKit/_AKMessageForwarder.h>

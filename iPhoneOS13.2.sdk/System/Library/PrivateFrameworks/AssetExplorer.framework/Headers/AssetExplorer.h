@@ -64,10 +64,5 @@
 #import <AssetExplorer/PXTilingControllerTransitionDelegate-Protocol.h>
 #import <AssetExplorer/PXUIScrollViewController-EnsureSubview.h>
 #import <AssetExplorer/PXUIViewBasicTile-Protocol.h>
-#import <AssetExplorer/UIAdaptivePresentationControllerDelegate-Protocol.h>
-
-#import <AssetExplorer/UIImagePickerControllerDelegate-Protocol.h>
-#import <AssetExplorer/UINavigationControllerDelegate-Protocol.h>
-#import <AssetExplorer/UIPopoverPresentationControllerDelegate-Protocol.h>
 #import <AssetExplorer/UIView-PXUIViewBasicTile.h>
 #import <AssetExplorer/_AEDurationLabelTile.h>

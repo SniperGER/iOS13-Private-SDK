@@ -177,14 +177,6 @@
 #import <FileProvider/NSError-FPFSHelpers.h>
 #import <FileProvider/NSFileCoordinator-FPFSHelpers.h>
 #import <FileProvider/NSFileManager-FPAdditions.h>
-#import <FileProvider/NSFileProviderDomain.h>
-#import <FileProvider/NSFileProviderEnumerationProperties.h>
-#import <FileProvider/NSFileProviderExtension.h>
-#import <FileProvider/NSFileProviderInPlaceExtension.h>
-#import <FileProvider/NSFileProviderItemVersion.h>
-#import <FileProvider/NSFileProviderManager.h>
-#import <FileProvider/NSFileProviderRequest.h>
-#import <FileProvider/NSFileProviderSearchQuery.h>
 #import <FileProvider/NSInvocation-FPCopy.h>
 #import <FileProvider/NSMethodSignature-FP.h>
 #import <FileProvider/NSProgress-FPAdditions.h>
@@ -205,5 +197,3 @@
 #import <FileProvider/_FPParentProgress.h>
 #import <FileProvider/_FPProviderDomainChangesHandlerWrapper.h>
 #import <FileProvider/_FPUnionDataSource.h>
-#import <FileProvider/_NSFileProviderEmptyItemVersion.h>
-#import <FileProvider/_NSFileProviderExtensionContext.h>

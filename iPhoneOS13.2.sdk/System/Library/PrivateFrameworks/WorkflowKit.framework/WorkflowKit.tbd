@@ -556,7 +556,7 @@ exports:
                           _WFGalleryWorkflow._identifier, _WFGalleryWorkflow._language, _WFGalleryWorkflow._longDescription,
                           _WFGalleryWorkflow._modifiedAt, _WFGalleryWorkflow._name, _WFGalleryWorkflow._persistentIdentifier,
                           _WFGalleryWorkflow._searchable, _WFGalleryWorkflow._shortDescription, _WFGalleryWorkflow._shortcutFile,
-                          _WFGalleryWorkflow._workflowRecord, _WFGradient._CGGradient, _WFGradient._accessibilityBaseColor,
+                          _WFGalleryWorkflow._workflowRecord, _WFGradient._CGGradientRef, _WFGradient._accessibilityBaseColor,
                           _WFGradient._baseColor, _WFGradient._blendMode, _WFGradient._darkAccessibilityBaseColor,
                           _WFGradient._darkBaseColor, _WFGradient._endColor, _WFGradient._startColor,
                           _WFGranularAccessResource._stateForRequestedEntries, _WFGranularAccessResourcePerWorkflowState._entries,

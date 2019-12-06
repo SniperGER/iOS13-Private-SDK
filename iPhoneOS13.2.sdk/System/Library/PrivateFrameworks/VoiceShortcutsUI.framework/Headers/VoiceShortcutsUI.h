@@ -10,9 +10,6 @@
 #import <VoiceShortcutsUI/CRKProviding-Protocol.h>
 #import <VoiceShortcutsUI/SUICProgressIndicatorViewControllerDataSource-Protocol.h>
 #import <VoiceShortcutsUI/SUICProgressStateMachineObserving-Protocol.h>
-#import <VoiceShortcutsUI/UIScrollViewDelegate-Protocol.h>
-#import <VoiceShortcutsUI/UITableViewDataSource-Protocol.h>
-#import <VoiceShortcutsUI/UITableViewDelegate-Protocol.h>
 #import <VoiceShortcutsUI/VCUIActionDonationCell.h>
 #import <VoiceShortcutsUI/VCUIActionDonationDataSource.h>
 #import <VoiceShortcutsUI/VCUIActionDonationDetailsViewController.h>

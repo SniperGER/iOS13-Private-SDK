@@ -3,7 +3,6 @@
 #import <ScreenReaderCore/NSAttributedString-SCRCMathExpression.h>
 #import <ScreenReaderCore/NSBundle-SCRCBundleExtras.h>
 #import <ScreenReaderCore/NSCharacterSet-SCRCCharacterSetExtras.h>
-#import <ScreenReaderCore/NSData-NSDataExtras.h>
 #import <ScreenReaderCore/NSDictionary-SCRCDictionaryExtras.h>
 #import <ScreenReaderCore/NSIndexPath-SCRCIndexPathExtras.h>
 #import <ScreenReaderCore/NSIndexSet-SCRCIndexSetExtras.h>

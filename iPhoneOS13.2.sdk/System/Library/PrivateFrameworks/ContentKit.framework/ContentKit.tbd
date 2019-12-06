@@ -250,7 +250,7 @@ exports:
                           _WFArticle._numberOfWords, _WFArticle._publishedDate, _WFArticle._title,
                           _WFAttributedAlertButton._attributedTitle, _WFAttributedAlertButton._label,
                           _WFBKSBackgroundAssertion._assertion, _WFBKSBackgroundAssertion._expirationHandler,
-                          _WFBKSBackgroundAssertion._observer, _WFBKSBackgroundAssertion._taskName, _WFBitmapContext._CGContext,
+                          _WFBKSBackgroundAssertion._observer, _WFBKSBackgroundAssertion._taskName, _WFBitmapContext._CGContextRef,
                           _WFBitmapContext._scale, _WFBitmapContext._size, _WFBlockRecoveryAttempter._handlerBlock,
                           _WFBrowseGalleryCategoryEvent._galleryCategoryIdentifier, _WFBrowseGalleryCategoryEvent._key,
                           _WFCNContact._contact, _WFCNContact._fromVCard, _WFCNContact._multivalueIndex, _WFCNContact._propertyID,

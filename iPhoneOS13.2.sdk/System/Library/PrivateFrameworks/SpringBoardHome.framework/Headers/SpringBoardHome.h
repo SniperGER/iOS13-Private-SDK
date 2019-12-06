@@ -275,24 +275,7 @@
 #import <SpringBoardHome/SBViewControllerTransitionRestartedReporting-Protocol.h>
 #import <SpringBoardHome/SBWorkspaceInteractionContext.h>
 #import <SpringBoardHome/SBXCloseBoxView.h>
-#import <SpringBoardHome/UIAdaptivePresentationControllerDelegate-Protocol.h>
-#import <SpringBoardHome/UIContextMenuInteractionDelegate-Protocol.h>
-#import <SpringBoardHome/UIDragDropSession-Protocol.h>
-#import <SpringBoardHome/UIDragInteractionDelegate-Protocol.h>
 #import <SpringBoardHome/UIDragItem-SBHIconDragUtilities.h>
-#import <SpringBoardHome/UIDragSession-Protocol.h>
-#import <SpringBoardHome/UIDropInteractionDelegate-Protocol.h>
-#import <SpringBoardHome/UIDropSession-Protocol.h>
-
-#import <SpringBoardHome/UIInteractionProgressObserver-Protocol.h>
-#import <SpringBoardHome/UIPopoverPresentationControllerDelegate-Protocol.h>
-#import <SpringBoardHome/UIScrollViewDelegate-Protocol.h>
-#import <SpringBoardHome/UITextFieldDelegate-Protocol.h>
-#import <SpringBoardHome/UIViewControllerAnimatedTransitioning-Protocol.h>
-#import <SpringBoardHome/UIViewControllerContextTransitioning-Protocol.h>
-#import <SpringBoardHome/UIViewControllerInteractiveTransitioning-Protocol.h>
-#import <SpringBoardHome/UIViewControllerTransitionCoordinator-Protocol.h>
-#import <SpringBoardHome/UIViewControllerTransitionCoordinatorContext-Protocol.h>
 #import <SpringBoardHome/WGWidgetIconAnimationExtraViewsProviding-Protocol.h>
 #import <SpringBoardHome/WGWidgetViewControllerDelegate-Protocol.h>
 #import <SpringBoardHome/_SBFloatingDockPlatterMetrics.h>

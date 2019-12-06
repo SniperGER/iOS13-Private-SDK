@@ -1,5 +1,4 @@
 #import <TextInput/CDStructures.h>
-#import <TextInput/NSArray-UIKBCandidateExtras.h>
 #import <TextInput/NSAttributedString-TIExtras.h>
 #import <TextInput/NSLocale-TIExtras.h>
 #import <TextInput/NSMutableString-TIExtras.h>

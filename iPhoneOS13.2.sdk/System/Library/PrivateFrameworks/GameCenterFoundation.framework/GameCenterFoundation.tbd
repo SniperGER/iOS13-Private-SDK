@@ -211,7 +211,7 @@ exports:
                           _GKURLComponentHostTD4Internal, _GKURLComponentITMSGCSScheme, _GKURLComponentITMSGCScheme, _GKURLComponentMe,
                           _GKURLComponentPlayer, _GKURLComponentRecommendations, _GKURLComponentRequests, _GKURLComponentStore,
                           _GKUnavailablePlayerID, _GKUnderageKey, _GKUnknownPlayerID, _GKVerifiedKey, _GKVoiceChatServiceErrorDomain,
-                          _NSRangeInRange, __GKIsRemoteUI, __gkBeautifyVariableName, __gkTabStringForTabLevel, __gkUnicodifyDescription,
+                          NSRange *InRange, __GKIsRemoteUI, __gkBeautifyVariableName, __gkTabStringForTabLevel, __gkUnicodifyDescription,
                           __hash, _dispatch_async_join, _gkEscapedQueryString, _gk_dispatch_as_group, _gk_dispatch_async_do,
                           _gk_dispatch_debounce, _gk_dispatch_debounce_do, _gk_dispatch_group_do, _headerChecksum,
                           _kGKArgumentIndexesCopied, _os_log_GKLogAccount, _os_log_GKLogAccountError, _os_log_GKLogCache,

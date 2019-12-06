@@ -503,20 +503,12 @@
 #import <CameraUI/PXPhotosDataSourceChangeObserver-Protocol.h>
 #import <CameraUI/UIAlertController-Camera.h>
 #import <CameraUI/UIApplication-Camera.h>
-#import <CameraUI/UIApplicationDelegate-Protocol.h>
 #import <CameraUI/UIButton-Camera.h>
 #import <CameraUI/UIDevice-CAMLayoutStyle.h>
 #import <CameraUI/UIFont-Camera.h>
-
-#import <CameraUI/UIImagePickerCameraViewController-Protocol.h>
-#import <CameraUI/UIInteractionProgressObserver-Protocol.h>
 #import <CameraUI/UILongPressGestureRecognizer-Camera.h>
-#import <CameraUI/UIScrollViewDelegate-Protocol.h>
 #import <CameraUI/UIView-CameraKit.h>
 #import <CameraUI/UIViewController-CAMCameraRollController.h>
-#import <CameraUI/UIViewControllerPreviewingDelegate-Protocol.h>
-#import <CameraUI/UIViewControllerPreviewingDelegate_Private-Protocol.h>
-#import <CameraUI/UIWindow-UIWindow_Camera.h>
 #import <CameraUI/UNUserNotificationCenterDelegate-Protocol.h>
 #import <CameraUI/_UIBasicAnimationFactory-Protocol.h>
 #import <CameraUI/_UILegibilitySettingsProvider-CameraAdditions.h>

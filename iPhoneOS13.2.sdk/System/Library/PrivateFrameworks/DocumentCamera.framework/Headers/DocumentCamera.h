@@ -124,24 +124,11 @@
 #import <DocumentCamera/NSParagraphStyle-DC.h>
 #import <DocumentCamera/NSSet-DC.h>
 #import <DocumentCamera/NSString-DC.h>
-#import <DocumentCamera/UIActivityItemSource-Protocol.h>
-#import <DocumentCamera/UIActivityItemSourceAttachment-Protocol.h>
-#import <DocumentCamera/UICollectionViewDataSource-Protocol.h>
-#import <DocumentCamera/UICollectionViewDelegate-Protocol.h>
 #import <DocumentCamera/UIColor-DC.h>
 #import <DocumentCamera/UIDevice-DocumentCameraDeviceSupport.h>
 #import <DocumentCamera/UIFont-IC.h>
-
 #import <DocumentCamera/UIImage-DCUtilities.h>
-#import <DocumentCamera/UINavigationControllerDelegate-Protocol.h>
-#import <DocumentCamera/UIPageViewControllerDataSource-Protocol.h>
-#import <DocumentCamera/UIPageViewControllerDelegate-Protocol.h>
-#import <DocumentCamera/UIPageViewControllerDelegatePrivate-Protocol.h>
-#import <DocumentCamera/UIScrollViewDelegate-Protocol.h>
-#import <DocumentCamera/UITextFieldDelegate-Protocol.h>
 #import <DocumentCamera/UIView-DC.h>
 #import <DocumentCamera/UIViewController-EffectiveInterface.h>
-#import <DocumentCamera/UIViewControllerAnimatedTransitioning-Protocol.h>
-#import <DocumentCamera/UIViewControllerTransitioningDelegate-Protocol.h>
 #import <DocumentCamera/WhiteboardFilter.h>
 #import <DocumentCamera/ZhangHeFilter.h>

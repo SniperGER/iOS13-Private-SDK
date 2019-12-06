@@ -10,5 +10,3 @@
 #import <ActivityAchievementsUI/AAUIBadgeView.h>
 #import <ActivityAchievementsUI/AAUIMockAchievementsDataProvider.h>
 #import <ActivityAchievementsUI/CDStructures.h>
-
-#import <ActivityAchievementsUI/UIViewControllerAnimatedTransitioning-Protocol.h>

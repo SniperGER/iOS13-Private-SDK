@@ -50,7 +50,6 @@
 #import <Weather/WeatherOpenURLHelper.h>
 #import <Weather/WeatherPrecipitationFormatter.h>
 #import <Weather/WeatherPreferences.h>
-#import <Weather/WeatherPreferencesPersistence-Protocol.h>
 #import <Weather/WeatherPressureFormatter.h>
 #import <Weather/WeatherUserDefaults.h>
 #import <Weather/WeatherView.h>

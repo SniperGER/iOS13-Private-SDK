@@ -67,8 +67,6 @@
 #import <ScreenshotServices/SSVellumOpacityControl.h>
 #import <ScreenshotServices/SSXPCEncodableRectWrapper.h>
 #import <ScreenshotServices/UIBarButtonItem-SSSAdditions.h>
-#import <ScreenshotServices/UIBarPositioningDelegate-Protocol.h>
 #import <ScreenshotServices/UIImage-SSImageSurface.h>
-#import <ScreenshotServices/UINavigationBarDelegate-Protocol.h>
 #import <ScreenshotServices/_SSSFlashSuperColorView.h>
 #import <ScreenshotServices/_SSScreenCaptureResults.h>

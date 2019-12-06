@@ -137,16 +137,5 @@
 #import <PDFKit/PageSignature.h>
 #import <PDFKit/SelectionRectInfo.h>
 #import <PDFKit/TileRenderRequest.h>
-#import <PDFKit/UIDocumentPasswordViewDelegate-Protocol.h>
-
-#import <PDFKit/UIKeyInput-Protocol.h>
-#import <PDFKit/UIPageViewControllerDataSource-Protocol.h>
-#import <PDFKit/UIPageViewControllerDelegate-Protocol.h>
-#import <PDFKit/UIScrollView-UIScrollViewExtensions.h>
-#import <PDFKit/UIScrollViewDelegate-Protocol.h>
-#import <PDFKit/UITextInput-Protocol.h>
-#import <PDFKit/UITextInputTraits-Protocol.h>
-#import <PDFKit/UITextInteractionDelegate-Protocol.h>
-#import <PDFKit/UITextViewDelegate-Protocol.h>
 #import <PDFKit/UIView-ViewExtensions.h>
 #import <PDFKit/XPCExtensionInterface.h>

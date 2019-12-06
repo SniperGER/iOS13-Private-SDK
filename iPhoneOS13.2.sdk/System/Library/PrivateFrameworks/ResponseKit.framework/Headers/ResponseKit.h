@@ -1,6 +1,5 @@
 #import <ResponseKit/CDStructures.h>
 #import <ResponseKit/NSLinguisticTagger-RKPrivate.h>
-#import <ResponseKit/NSString-NSString_FirstWordExtensions.h>
 #import <ResponseKit/RKAggdStatistics.h>
 #import <ResponseKit/RKAssets.h>
 #import <ResponseKit/RKBundleDataProvider.h>

@@ -36,10 +36,4 @@
 #import <MarkupUI/PDFViewDelegate-Protocol.h>
 #import <MarkupUI/PDFViewDelegatePrivate-Protocol.h>
 #import <MarkupUI/PKRulerHostingDelegate-Protocol.h>
-#import <MarkupUI/UIBarPositioningDelegate-Protocol.h>
-#import <MarkupUI/UIImage-UIImage_MarkupAppIcon.h>
-#import <MarkupUI/UINavigationBarDelegate-Protocol.h>
-#import <MarkupUI/UIPDFDocument-UIPDFDocumentAdditions.h>
-#import <MarkupUI/UIScrollViewDelegate-Protocol.h>
-#import <MarkupUI/UIToolbarDelegate-Protocol.h>
 #import <MarkupUI/_UIViewBoundingPathChangeObserver-Protocol.h>

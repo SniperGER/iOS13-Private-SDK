@@ -47,9 +47,4 @@
 #import <DocumentManagerUICore/DOCThumbnailRequest.h>
 #import <DocumentManagerUICore/DOCVisualEffectLabel.h>
 #import <DocumentManagerUICore/FPItem-DOCThumbnailAdditions.h>
-#import <DocumentManagerUICore/UICollectionViewDataSource-Protocol.h>
-#import <DocumentManagerUICore/UICollectionViewDelegate-Protocol.h>
-#import <DocumentManagerUICore/UICollectionViewDelegateTableLayout-Protocol.h>
 #import <DocumentManagerUICore/UIColor-DOCExtensions.h>
-#import <DocumentManagerUICore/UIScrollViewDelegate-Protocol.h>
-#import <DocumentManagerUICore/UITextFieldDelegate-Protocol.h>

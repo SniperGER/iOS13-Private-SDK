@@ -72,8 +72,5 @@
 #import <OnBoardingKit/TapOffGestureRecognizer.h>
 #import <OnBoardingKit/UIButton-AXFont.h>
 #import <OnBoardingKit/UINavigationItem-ScrollToEdge.h>
-#import <OnBoardingKit/UIScrollViewDelegate-Protocol.h>
-#import <OnBoardingKit/UITableViewDataSource-Protocol.h>
-#import <OnBoardingKit/UITableViewDelegate-Protocol.h>
 #import <OnBoardingKit/UIView-BuddyPinAutoLayout.h>
 #import <OnBoardingKit/_UIScrollViewLayoutObserver-Protocol.h>

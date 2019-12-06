@@ -393,4 +393,3 @@
 #import <SilexVideo/SVVolumeReporting-Protocol.h>
 #import <SilexVideo/SVWeakObjectCache.h>
 #import <SilexVideo/SVWeakReferenceObject.h>
-#import <SilexVideo/UICoordinateSpace-Protocol.h>

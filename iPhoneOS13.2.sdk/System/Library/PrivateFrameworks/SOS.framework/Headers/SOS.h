@@ -1,6 +1,5 @@
 #import <SOS/CDStructures.h>
 #import <SOS/CLLocationManagerDelegate-Protocol.h>
-#import <SOS/NSString-NSString_StringWithPositionalSpecifiersFormat.h>
 #import <SOS/SOSClientProtocol-Protocol.h>
 #import <SOS/SOSContact.h>
 #import <SOS/SOSContactsManager.h>

@@ -129,15 +129,7 @@
 #import <NewsArticles/TSSharedImageCacheType-Protocol.h>
 #import <NewsArticles/TSTabBarSplitViewAutoObserver-Protocol.h>
 #import <NewsArticles/TUContentSizeCategoryProviderType-Protocol.h>
-#import <NewsArticles/UIActivityItemLinkPresentationSource-Protocol.h>
-#import <NewsArticles/UIActivityItemSource-Protocol.h>
 #import <NewsArticles/UIActivityItemsConfiguration-Bridge.h>
-#import <NewsArticles/UIAdaptivePresentationControllerDelegate-Protocol.h>
-#import <NewsArticles/UICollectionViewDelegate-Protocol.h>
-
-#import <NewsArticles/UIPopoverPresentationControllerDelegate-Protocol.h>
-#import <NewsArticles/UIScrollViewDelegate-Protocol.h>
-#import <NewsArticles/UITextViewDelegate-Protocol.h>
 #import <NewsArticles/_TtC12NewsArticles10URLHandler-NewsArticles.h>
 #import <NewsArticles/_TtC12NewsArticles10URLHandler-NewsArticles1.h>
 #import <NewsArticles/_TtC12NewsArticles10URLHandler.h>

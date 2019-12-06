@@ -44,11 +44,6 @@
 #import <SIMSetupSupport/TSUtilities.h>
 #import <SIMSetupSupport/TSWebsheetSignupFlow.h>
 #import <SIMSetupSupport/TSWebsheetViewController.h>
-#import <SIMSetupSupport/UINavigationControllerDelegate-Protocol.h>
-#import <SIMSetupSupport/UIScrollViewDelegate-Protocol.h>
-#import <SIMSetupSupport/UITableViewDataSource-Protocol.h>
-#import <SIMSetupSupport/UITableViewDelegate-Protocol.h>
-#import <SIMSetupSupport/UITextFieldDelegate-Protocol.h>
 #import <SIMSetupSupport/WKNavigationDelegate-Protocol.h>
 #import <SIMSetupSupport/WKScriptMessageHandler-Protocol.h>
 #import <SIMSetupSupport/WKUIDelegate-Protocol.h>

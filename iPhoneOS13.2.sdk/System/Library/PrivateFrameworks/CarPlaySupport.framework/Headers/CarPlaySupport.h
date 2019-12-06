@@ -4,8 +4,6 @@
 #import <CarPlaySupport/CARNavigationOwnershipManagerDelegate-Protocol.h>
 #import <CarPlaySupport/CARSessionObserving-Protocol.h>
 #import <CarPlaySupport/CDStructures.h>
-#import <CarPlaySupport/CPActionSheetTemplate-UIKitBridging.h>
-#import <CarPlaySupport/CPAlertAction-UIKitBridging.h>
 #import <CarPlaySupport/CPBannerDelegate-Protocol.h>
 #import <CarPlaySupport/CPBannerProviding-Protocol.h>
 #import <CarPlaySupport/CPBaseTemplateProviding-Protocol.h>
@@ -118,16 +116,7 @@
 #import <CarPlaySupport/SBUIBannerSource-Protocol.h>
 #import <CarPlaySupport/SBUIBannerTargetManagerObserver-Protocol.h>
 #import <CarPlaySupport/SBUIBannerView-Protocol.h>
-#import <CarPlaySupport/UIBarPositioningDelegate-Protocol.h>
 #import <CarPlaySupport/UIButton-CarPlaySupport.h>
-
-#import <CarPlaySupport/UINavigationControllerDelegate-Protocol.h>
-#import <CarPlaySupport/UIScrollViewDelegate-Protocol.h>
-#import <CarPlaySupport/UISearchBarDelegate-Protocol.h>
-#import <CarPlaySupport/UISearchControllerDelegate-Protocol.h>
-#import <CarPlaySupport/UISearchResultsUpdating-Protocol.h>
-#import <CarPlaySupport/UITableViewDataSource-Protocol.h>
-#import <CarPlaySupport/UITableViewDelegate-Protocol.h>
 #import <CarPlaySupport/UIViewController-CPSBaseTemplateViewController.h>
 #import <CarPlaySupport/_CPSFocusHoldingButton.h>
 #import <CarPlaySupport/_CPSNudgeLongPressGestureRecognizer.h>

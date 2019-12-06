@@ -33,11 +33,7 @@
 #import <NewsFeed/TSProcessedImageRequestType-Protocol.h>
 #import <NewsFeed/TSSharedImageCacheType-Protocol.h>
 #import <NewsFeed/TUMotionManagerObserver-Protocol.h>
-#import <NewsFeed/UIAppearanceContainer-Protocol.h>
 #import <NewsFeed/UILabel-NewsFeed.h>
-#import <NewsFeed/UIScrollViewDelegate-Protocol.h>
-#import <NewsFeed/UITableViewDataSource-Protocol.h>
-#import <NewsFeed/UITableViewDelegate-Protocol.h>
 #import <NewsFeed/_TtC8NewsFeed10ImageLayer.h>
 #import <NewsFeed/_TtC8NewsFeed11DebugButton.h>
 #import <NewsFeed/_TtC8NewsFeed11PlayerLayer.h>

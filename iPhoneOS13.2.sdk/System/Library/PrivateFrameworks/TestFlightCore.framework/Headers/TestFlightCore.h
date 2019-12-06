@@ -66,9 +66,4 @@
 #import <TestFlightCore/UIFont-LayoutAdditions.h>
 #import <TestFlightCore/UIFontDescriptor-TFCoreAdditions.h>
 #import <TestFlightCore/UIImage-TFCoreAdditions.h>
-#import <TestFlightCore/UIScrollViewDelegate-Protocol.h>
-#import <TestFlightCore/UITableViewDataSource-Protocol.h>
-#import <TestFlightCore/UITableViewDelegate-Protocol.h>
-#import <TestFlightCore/UITextFieldDelegate-Protocol.h>
 #import <TestFlightCore/UITextView-LayoutAdditions.h>
-#import <TestFlightCore/UITextViewDelegate-Protocol.h>

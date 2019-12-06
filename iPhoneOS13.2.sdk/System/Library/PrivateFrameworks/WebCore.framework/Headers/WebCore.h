@@ -16,8 +16,6 @@
 #import <WebCore/LegacyTileLayer.h>
 #import <WebCore/NSItemProvider-WebCoreExtras.h>
 #import <WebCore/NSObject-WebDescriptionCategory.h>
-#import <WebCore/UIAdaptivePresentationControllerDelegate-Protocol.h>
-#import <WebCore/UIPopoverPresentationControllerDelegate-Protocol.h>
 #import <WebCore/WAKClipView.h>
 #import <WebCore/WAKResponder.h>
 #import <WebCore/WAKScrollView.h>

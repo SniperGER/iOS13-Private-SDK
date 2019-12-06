@@ -74,11 +74,4 @@
 #import <FamilyCircleUI/PSCloudStorageOffersManagerDelegate-Protocol.h>
 #import <FamilyCircleUI/RUIObjectModelDelegate-Protocol.h>
 #import <FamilyCircleUI/RemoteUIControllerDelegate-Protocol.h>
-#import <FamilyCircleUI/UIActionSheetDelegate-Protocol.h>
-#import <FamilyCircleUI/UIImagePickerControllerDelegate-Protocol.h>
-#import <FamilyCircleUI/UINavigationControllerDelegate-Protocol.h>
-#import <FamilyCircleUI/UIScrollViewDelegate-Protocol.h>
-#import <FamilyCircleUI/UITableViewDataSource-Protocol.h>
-#import <FamilyCircleUI/UITableViewDelegate-Protocol.h>
-#import <FamilyCircleUI/UITextFieldDelegate-Protocol.h>
 #import <FamilyCircleUI/_FASharedServiceImage.h>

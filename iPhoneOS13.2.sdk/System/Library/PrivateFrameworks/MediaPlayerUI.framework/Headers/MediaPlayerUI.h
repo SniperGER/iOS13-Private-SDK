@@ -21,8 +21,5 @@
 #import <MediaPlayerUI/NSBundle-MPUAdditions.h>
 #import <MediaPlayerUI/RadioArtworkCollection-MPArtworkCatalog.h>
 #import <MediaPlayerUI/SKUIItemOfferButtonDelegate-Protocol.h>
-#import <MediaPlayerUI/UICollectionViewDataSource-Protocol.h>
-#import <MediaPlayerUI/UICollectionViewDelegate-Protocol.h>
 #import <MediaPlayerUI/UIImage-MPUAdditions.h>
 #import <MediaPlayerUI/UINavigationController-MPUAdditions.h>
-#import <MediaPlayerUI/UIScrollViewDelegate-Protocol.h>

@@ -18,9 +18,4 @@
 #import <PreferencesUI/PSUIPrefsRootController.h>
 #import <PreferencesUI/RadiosPreferencesDelegate-Protocol.h>
 #import <PreferencesUI/SUIKSearchResultsCollectionViewControllerDelegate-Protocol.h>
-#import <PreferencesUI/UIBarPositioningDelegate-Protocol.h>
 #import <PreferencesUI/UIImage-PSCPBitmap.h>
-#import <PreferencesUI/UINavigationControllerDelegate-Protocol.h>
-#import <PreferencesUI/UISearchBarDelegate-Protocol.h>
-#import <PreferencesUI/UISearchControllerDelegate-Protocol.h>
-#import <PreferencesUI/UISearchResultsUpdating-Protocol.h>

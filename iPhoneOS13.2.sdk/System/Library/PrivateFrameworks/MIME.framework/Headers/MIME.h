@@ -56,17 +56,12 @@
 #import <MIME/MFWeakReferenceHolder.h>
 #import <MIME/MFWeakSet.h>
 #import <MIME/MFZeroCopyDataConsumer.h>
-#import <MIME/NSArray-NSEmailAddressArray.h>
-#import <MIME/NSData-NSDataExtensions.h>
 #import <MIME/NSDate-MFDateUtils_Private.h>
 #import <MIME/NSError-MIME.h>
-#import <MIME/NSFileManager-NSFileManagerAdditions.h>
 #import <MIME/NSLock-MessageAdditions.h>
 #import <MIME/NSMutableData-RFC2231Support.h>
 #import <MIME/NSMutableDictionary-RFC2231Support.h>
 #import <MIME/NSObject-LockingAdditions.h>
 #import <MIME/NSProcessInfo-MIMEAdditions.h>
-#import <MIME/NSScanner-NSScannerUtils.h>
-#import <MIME/NSString-NSEmailAddressString.h>
 #import <MIME/_MFEmailSetEmail.h>
 #import <MIME/_MFEmailSetEnumerator.h>

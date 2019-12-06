@@ -3,7 +3,6 @@
 #import <ScreenTimeUI/CAStateControllerDelegate-Protocol.h>
 #import <ScreenTimeUI/CDPUIDeviceToDeviceEncryptionHelperDelegate-Protocol.h>
 #import <ScreenTimeUI/CDStructures.h>
-#import <ScreenTimeUI/CEMLegacyRestrictionsAppsDeclaration-UIAdditions.h>
 #import <ScreenTimeUI/CNContactViewControllerDelegate-Protocol.h>
 #import <ScreenTimeUI/CNUIFamilyMemberContactsPresentation-Protocol.h>
 #import <ScreenTimeUI/DevicePINControllerDelegate-Protocol.h>
@@ -187,12 +186,4 @@
 #import <ScreenTimeUI/UIAlertController-ScreenTimeAdditions.h>
 #import <ScreenTimeUI/UIButton-ScreenTime.h>
 #import <ScreenTimeUI/UIFont-ScreenTime.h>
-
 #import <ScreenTimeUI/UIImage-STImageAdditions.h>
-#import <ScreenTimeUI/UINavigationControllerDelegate-Protocol.h>
-#import <ScreenTimeUI/UIPageViewControllerDataSource-Protocol.h>
-#import <ScreenTimeUI/UIPageViewControllerDelegate-Protocol.h>
-#import <ScreenTimeUI/UIScrollViewDelegate-Protocol.h>
-#import <ScreenTimeUI/UISearchControllerDelegate-Protocol.h>
-#import <ScreenTimeUI/UISearchResultsUpdating-Protocol.h>
-#import <ScreenTimeUI/UITableViewDelegate-Protocol.h>

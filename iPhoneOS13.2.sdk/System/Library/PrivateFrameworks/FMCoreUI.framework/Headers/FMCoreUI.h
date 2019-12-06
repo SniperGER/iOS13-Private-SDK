@@ -37,7 +37,6 @@
 #import <FMCoreUI/MKUserTrackingView-Protocol.h>
 #import <FMCoreUI/SlidingPaneViewState.h>
 #import <FMCoreUI/UIColor-Invert.h>
-
 #import <FMCoreUI/UIImage-Compositing.h>
 #import <FMCoreUI/UIResponder-ISCommonUI.h>
 #import <FMCoreUI/UIScrollView-FMCoreUI.h>

@@ -342,16 +342,8 @@
 #import <NewsUI2/TUGutterViewBoundsObserver-Protocol.h>
 #import <NewsUI2/TUMotionManagerObserver-Protocol.h>
 #import <NewsUI2/TUPluggable-Protocol.h>
-#import <NewsUI2/UIActivityItemSource-Protocol.h>
 #import <NewsUI2/UIActivityViewController-NewsUIBridge.h>
-#import <NewsUI2/UIAppearanceContainer-Protocol.h>
-#import <NewsUI2/UIApplicationDelegate-Protocol.h>
-#import <NewsUI2/UICollectionViewDelegate-Protocol.h>
 #import <NewsUI2/UIImage-NewsUIBridge.h>
-#import <NewsUI2/UINavigationControllerDelegate-Protocol.h>
-#import <NewsUI2/UIScrollViewDelegate-Protocol.h>
-#import <NewsUI2/UITableViewDataSource-Protocol.h>
-#import <NewsUI2/UITableViewDelegate-Protocol.h>
 #import <NewsUI2/UNUserNotificationCenterDelegate-Protocol.h>
 #import <NewsUI2/UserNotificationsAssembly-NewsUI2.h>
 #import <NewsUI2/UserNotificationsAssembly.h>

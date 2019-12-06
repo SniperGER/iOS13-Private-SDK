@@ -30,5 +30,3 @@
 #import <CoreSuggestionsUI/SGTappableTextViewDelegate-Protocol.h>
 #import <CoreSuggestionsUI/SGUIDateFormatting.h>
 #import <CoreSuggestionsUI/SGUIIconSupport.h>
-#import <CoreSuggestionsUI/UIAdaptivePresentationControllerDelegate-Protocol.h>
-#import <CoreSuggestionsUI/UIPopoverPresentationControllerDelegate-Protocol.h>

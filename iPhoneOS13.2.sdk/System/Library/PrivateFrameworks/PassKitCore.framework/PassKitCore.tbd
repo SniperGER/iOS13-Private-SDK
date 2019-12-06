@@ -1280,7 +1280,7 @@ exports:
                           __Z25SSEGetAuthorizationRandomjPK8__CFDataPS1_S2_,
                           __Z27PDScheduledActivityRegisterP8NSStringS0_P27PDScheduledActivityCriteria,
                           __Z27PKCreateLinearBitmapContext6CGSizebd, __Z27PKCreateLinearBitmapContext6CGSizebdb,
-                          __Z27PKGetImageFromBitmapContextP9CGContext, __Z27PKGetImageFromBitmapContextP9CGContextd,
+                          __Z27PKGetImageFromBitmapContextP9CGContextRef, __Z27PKGetImageFromBitmapContextP9CGContextRefd,
                           __Z27SSEEvaluateSecureElementACLPK8__CFDataS1_S1_S1_PK10__CFStringS1_PS1_S5_,
                           __Z28PDContactlessPassesAvailableb, __Z28PDContactlessPassesAvailablev,
                           __Z32SSEAuthorizeAndSignECommerceBlobPK8__CFDatajS1_bS1_S1_S1_S1_PS1_,

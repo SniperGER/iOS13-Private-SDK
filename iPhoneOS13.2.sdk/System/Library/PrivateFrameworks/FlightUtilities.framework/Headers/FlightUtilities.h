@@ -36,5 +36,3 @@
 #import <FlightUtilities/MKMapViewDelegate-Protocol.h>
 #import <FlightUtilities/NSAttributedString-FUUppercase.h>
 #import <FlightUtilities/NSString-FUUppercase.h>
-#import <FlightUtilities/UIPageViewControllerDataSource-Protocol.h>
-#import <FlightUtilities/UIPageViewControllerDelegate-Protocol.h>

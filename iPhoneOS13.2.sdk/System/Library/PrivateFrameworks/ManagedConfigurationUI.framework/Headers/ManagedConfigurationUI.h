@@ -14,7 +14,6 @@
 #import <ManagedConfigurationUI/MCCertificatePickerController.h>
 #import <ManagedConfigurationUI/MCCertificatePropertiesInfo.h>
 #import <ManagedConfigurationUI/MCCertificateSummaryController.h>
-#import <ManagedConfigurationUI/MCCertificateWrapperProfile-UIExtensions.h>
 #import <ManagedConfigurationUI/MCConfigurationDetailsController.h>
 #import <ManagedConfigurationUI/MCDetailsDescriptionTableCell.h>
 #import <ManagedConfigurationUI/MCDetailsDescriptionView.h>
@@ -52,7 +51,6 @@
 #import <ManagedConfigurationUI/MCPayloadDetailsViewController.h>
 #import <ManagedConfigurationUI/MCPayloadInfo.h>
 #import <ManagedConfigurationUI/MCPayloadSection.h>
-#import <ManagedConfigurationUI/MCProfile-UIExtensions.h>
 #import <ManagedConfigurationUI/MCProfileDetailsCell.h>
 #import <ManagedConfigurationUI/MCProfileDetailsSummaryCell.h>
 #import <ManagedConfigurationUI/MCProfileDetailsViewController.h>
@@ -111,16 +109,9 @@
 #import <ManagedConfigurationUI/NSData-MCUIAdditions.h>
 #import <ManagedConfigurationUI/NSDate-MCUIExpiration.h>
 #import <ManagedConfigurationUI/PSStateRestoration-Protocol.h>
-#import <ManagedConfigurationUI/UIActionSheetDelegate-Protocol.h>
-#import <ManagedConfigurationUI/UIAdaptivePresentationControllerDelegate-Protocol.h>
-#import <ManagedConfigurationUI/UIAlertViewDelegate-Protocol.h>
 #import <ManagedConfigurationUI/UIColor-MCUIAdditions.h>
 #import <ManagedConfigurationUI/UIFont-MCUIFont.h>
 #import <ManagedConfigurationUI/UIImage-MCUIImage.h>
 #import <ManagedConfigurationUI/UINavigationController-MCUI.h>
-#import <ManagedConfigurationUI/UIScrollViewDelegate-Protocol.h>
 #import <ManagedConfigurationUI/UITableViewCell-MCAppCell.h>
-#import <ManagedConfigurationUI/UITableViewDataSource-Protocol.h>
-#import <ManagedConfigurationUI/UITableViewDelegate-Protocol.h>
-#import <ManagedConfigurationUI/UITextFieldDelegate-Protocol.h>
 #import <ManagedConfigurationUI/UIViewController-MCUIProgressIndicators.h>

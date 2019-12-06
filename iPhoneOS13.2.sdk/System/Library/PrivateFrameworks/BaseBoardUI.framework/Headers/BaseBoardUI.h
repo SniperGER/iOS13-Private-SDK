@@ -23,7 +23,6 @@
 #import <BaseBoardUI/NSBundle-BaseBoardUI.h>
 #import <BaseBoardUI/NSString-BSUIEmojiAdditions.h>
 #import <BaseBoardUI/UIFont-BaseBoardUIAdditions.h>
-#import <BaseBoardUI/UIScrollViewDelegate-Protocol.h>
 #import <BaseBoardUI/UIView-BaseBoardUI.h>
 #import <BaseBoardUI/UIViewController-BaseBoardUI.h>
 #import <BaseBoardUI/_BSUIAnimationAttributesFactory.h>

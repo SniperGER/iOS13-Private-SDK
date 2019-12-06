@@ -2,7 +2,6 @@
 #import <Coherence/CRStringDecoderProtocol-Protocol.h>
 #import <Coherence/NSAttributedString-IC.h>
 #import <Coherence/NSMutableAttributedString-IC.h>
-#import <Coherence/NSUUID-NSUUIDAdditions.h>
 #import <Coherence/TTMergeableString.h>
 #import <Coherence/TTMergeableStringDelegate-Protocol.h>
 #import <Coherence/TTMergeableStringIndex.h>

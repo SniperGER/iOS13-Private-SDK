@@ -7,12 +7,7 @@
 #import <Widgets/NSExtensionContext-WidgetAdditions.h>
 #import <Widgets/PLContentSizeCategoryAdjusting-Protocol.h>
 #import <Widgets/PLContentSizeManaging-Protocol.h>
-#import <Widgets/UIContentSizeCategoryAdjusting-Protocol.h>
 #import <Widgets/UIImage-Widgets.h>
-#import <Widgets/UIScrollViewDelegate-Protocol.h>
-#import <Widgets/UITableViewDataSource-Protocol.h>
-#import <Widgets/UITableViewDelegate-Protocol.h>
-#import <Widgets/UITextViewDelegate-Protocol.h>
 #import <Widgets/UIView-WGCAPackageViewAdditions.h>
 #import <Widgets/UIViewController-Widgets.h>
 #import <Widgets/WGCalendarWidgetInfo.h>
