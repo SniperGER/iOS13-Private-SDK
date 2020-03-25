@@ -1,7 +1,0 @@
----
-archs:                 [ arm64 ]
-platform:              ios
-install-name:          /System/Library/Health/FeedItemPlugins/HighlightAlerts.healthplugin/HighlightAlerts
-current-version:       0
-compatibility-version: 0
-...

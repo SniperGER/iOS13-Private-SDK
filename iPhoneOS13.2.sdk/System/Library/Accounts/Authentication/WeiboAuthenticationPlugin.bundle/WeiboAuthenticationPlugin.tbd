@@ -1,7 +1,0 @@
----
-archs:                 [ arm64 ]
-platform:              ios
-install-name:          /System/Library/Accounts/Authentication/WeiboAuthenticationPlugin.bundle/WeiboAuthenticationPlugin
-current-version:       0
-compatibility-version: 0
-...

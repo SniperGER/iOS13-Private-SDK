@@ -1,7 +1,0 @@
----
-archs:                 [ arm64 ]
-platform:              ios
-install-name:          /System/Library/PrivateFrameworks/UserManagementUI.framework/UserManagementUI
-current-version:       1
-compatibility-version: 1
-...

@@ -1,7 +1,0 @@
----
-archs:                 [ arm64 ]
-platform:              ios
-install-name:          /System/Library/DataClassMigrators/FaceTimeMigrator.migrator/FaceTimeMigrator
-current-version:       800
-compatibility-version: 1
-...
