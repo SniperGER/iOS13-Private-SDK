@@ -8,7 +8,7 @@
 
 @interface NSIndexSet (TSUAdditions)
 + (id)tsu_indexSetWithIndices:(NSUInteger )arg1 count:(NSUInteger)arg2;
-- (id)tsu_indexSetByInsertingIndexes:(id)arg1 inRange:(_NSRange)arg2;
+- (id)tsu_indexSetByInsertingIndexes:(id)arg1 inRange:(NSRange)arg2;
 - (BOOL)tsu_intersectsIndexesInIndexSet:(id)arg1;
 @property(readonly, nonatomic) BOOL tsu_isSingleContiguousRange;
 - (id)tsu_indexSetByAddingIndexes:(id)arg1;

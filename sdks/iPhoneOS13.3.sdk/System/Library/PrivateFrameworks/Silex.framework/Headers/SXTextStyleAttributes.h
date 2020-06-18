@@ -12,18 +12,18 @@
 @interface SXTextStyleAttributes : NSObject <NSCopying>
 {
     NSMutableDictionary *_mutableAttributes;
-    _NSRange _range;
+    NSRange _range;
 }
 
-+ (id)attributesWithRange:(_NSRange)arg1;
++ (id)attributesWithRange:(NSRange)arg1;
 @property(readonly, nonatomic) NSMutableDictionary *mutableAttributes; // @synthesize mutableAttributes=_mutableAttributes;
-@property(readonly, nonatomic) _NSRange range; // @synthesize range=_range;
+@property(readonly, nonatomic) NSRange range; // @synthesize range=_range;
 // - (void).cxx_destruct;
 - (id)description;
 // - (id)copyWithZone:(_NSZone )arg1;
 @property(readonly, nonatomic) NSDictionary *attributes;
 - (void)addAttribute:(id)arg1 value:(id)arg2;
-- (id)initWithRange:(_NSRange)arg1;
+- (id)initWithRange:(NSRange)arg1;
 
 @end
 

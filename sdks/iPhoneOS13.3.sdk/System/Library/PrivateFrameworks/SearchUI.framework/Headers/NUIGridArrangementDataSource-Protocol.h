@@ -9,7 +9,7 @@
 @protocol NUIArrangementItem;
 
 @protocol NUIGridArrangementDataSource <NSObject>
-- (id <NUIArrangementItem>)gridArrangement:(NUIGridArrangement *)arg1 itemAtIndex:(long long)arg2 columns:(_NSRange )arg3 rows:(_NSRange )arg4 horizontalAlignment:(long long )arg5 verticalAlignment:(long long )arg6;
+- (id <NUIArrangementItem>)gridArrangement:(NUIGridArrangement *)arg1 itemAtIndex:(long long)arg2 columns:(NSRange )arg3 rows:(NSRange )arg4 horizontalAlignment:(long long )arg5 verticalAlignment:(long long )arg6;
 - (long long)numberOfItemsInGridArrangement:(NUIGridArrangement *)arg1;
 
 @optional

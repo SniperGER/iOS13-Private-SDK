@@ -26,10 +26,10 @@
 - (UIViewController *)viewControllerForPresenting;
 - (void)knobTrackingDidEnd;
 - (void)knobTrackingDidBegin;
-- (void)showCustomEditMenuForStorage:(TSWPStorage *)arg1 range:(_NSRange)arg2;
+- (void)showCustomEditMenuForStorage:(TSWPStorage *)arg1 range:(NSRange)arg2;
 - (BOOL)willChangeContentOffsetIfKeyboardHidden;
 - (void)filterPasteboardTextStorages:(NSArray *)arg1 forTargetStorage:(TSWPStorage *)arg2;
 - (id <TSWPStyleProvider>)styleProviderForStorage:(TSWPStorage *)arg1;
-- (void)editingController:(TSWPEditingController *)arg1 willDeleteCharactersInRange:(_NSRange)arg2;
+- (void)editingController:(TSWPEditingController *)arg1 willDeleteCharactersInRange:(NSRange)arg2;
 @end
 

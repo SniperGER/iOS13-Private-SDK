@@ -15,7 +15,7 @@
 // - (void).cxx_destruct;
 - (void)performBatchUpdates:(id /* CDUnknownBlockType */)arg1;
 - (void)removeItemsAtIndexes:(id)arg1 inSection:(long long)arg2;
-- (void)removeItemsInRange:(_NSRange)arg1 inSection:(long long)arg2;
+- (void)removeItemsInRange:(NSRange)arg1 inSection:(long long)arg2;
 - (void)removeItemAtIndexPath:(id)arg1;
 - (void)replaceItemAtIndexPath:(id)arg1 withItem:(id)arg2;
 - (void)insertItems:(id)arg1 atIndexes:(id)arg2 inSection:(long long)arg3;

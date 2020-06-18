@@ -7,7 +7,12 @@
 
 @class NSString;
 
+#ifndef NTKCacheableKeyProvider_Protocol
+#define NTKCacheableKeyProvider_Protocol
+
 @protocol NTKCacheableKeyProvider <NSObject>
 - (NSString *)ntkCacheableKey;
 @end
+
+#endif
 

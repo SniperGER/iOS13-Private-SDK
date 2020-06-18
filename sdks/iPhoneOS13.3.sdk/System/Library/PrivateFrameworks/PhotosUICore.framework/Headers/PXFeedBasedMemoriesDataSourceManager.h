@@ -14,12 +14,12 @@
 {
     PXMemoriesFeedWidgetDataSourceManager *_childDataSourceManager;
     PXMemoriesFeedDataSource *_childDataSource;
-    _NSRange _dataSourceRange;
+    NSRange _dataSourceRange;
 }
 
 @property(retain, nonatomic) PXMemoriesFeedDataSource *childDataSource; // @synthesize childDataSource=_childDataSource;
 @property(readonly, nonatomic) PXMemoriesFeedWidgetDataSourceManager *childDataSourceManager; // @synthesize childDataSourceManager=_childDataSourceManager;
-@property(nonatomic) _NSRange dataSourceRange; // @synthesize dataSourceRange=_dataSourceRange;
+@property(nonatomic) NSRange dataSourceRange; // @synthesize dataSourceRange=_dataSourceRange;
 // - (void).cxx_destruct;
 - (id)_adjustChangedIndexSetIfNeeded:(id)arg1;
 - (id)_adjustChangeDetailsIfNeeded:(id)arg1 previousDataSource:(id)arg2 newDataSource:(id)arg3;

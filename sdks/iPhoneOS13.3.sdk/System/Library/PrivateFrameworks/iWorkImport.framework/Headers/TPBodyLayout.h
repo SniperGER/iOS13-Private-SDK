@@ -79,7 +79,7 @@ __attribute__((visibility("hidden")))
 @property(readonly, nonatomic) TSWPStorage *storage;
 @property(readonly, nonatomic) BOOL marginsAreMirrored;
 - (double)textScaleForChild:(id)arg1;
-- (id)columnMetricsForCharIndex:(NSUInteger)arg1 outRange:(_NSRange )arg2;
+- (id)columnMetricsForCharIndex:(NSUInteger)arg1 outRange:(NSRange )arg2;
 - (void)unregisterFromLayoutController;
 - (BOOL)shouldProvideSizingGuides;
 - (void)p_addLayoutIfAttached:(id)arg1;
@@ -101,7 +101,7 @@ __attribute__((visibility("hidden")))
 - (BOOL)needsInflation;
 - (CGRect)p_rectForSelection:(id)arg1 useParagraphModeRects:(BOOL)arg2;
 - (CGRect)rectForPresentingAnnotationPopoverForSelectionPath:(id)arg1;
-- (BOOL)containsStartOfRange:(_NSRange)arg1;
+- (BOOL)containsStartOfRange:(NSRange)arg1;
 - (BOOL)containsStartOfPencilAnnotation:(id)arg1;
 - (id)pageAnchorDetailsForPencilAnnotationAtSelectionPath:(id)arg1 attachedType:(long long)arg2;
 - (id)unscaledContentRectsToAvoidPencilAnnotationOverlap;

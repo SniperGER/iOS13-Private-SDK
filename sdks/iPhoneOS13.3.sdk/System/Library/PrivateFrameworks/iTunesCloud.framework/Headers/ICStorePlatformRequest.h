@@ -51,7 +51,7 @@
 // - (id)copyWithZone:(_NSZone )arg1;
 @property(readonly, copy, nonatomic) NSArray *queryItems;
 @property(readonly, copy, nonatomic) NSDictionary *HTTPHeaders;
-- (id)copyWithItemIdentifiersInRange:(_NSRange)arg1;
+- (id)copyWithItemIdentifiersInRange:(NSRange)arg1;
 - (id)performWithResponseHandler:(id /* CDUnknownBlockType */)arg1;
 - (id)init;
 

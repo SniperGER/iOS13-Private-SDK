@@ -19,9 +19,9 @@
 - (BOOL)host:(id)arg1 matchesSubpattern:(id)arg2;
 - (int)host:(id)arg1 matchesPatternList:(id)arg2;
 - (id)hostConfigForHost:(id)arg1;
-- (_NSRange)rangeOfFirstTokenInString:(id)arg1 suffix:(id )arg2;
-- (_NSRange)rangeInString:(id)arg1 fromLocationUntilBlankOrEnd:(NSUInteger)arg2;
-- (_NSRange)rangeOfQuotedSubstringInString:(id)arg1 startingAtIndex:(NSUInteger)arg2;
+- (NSRange)rangeOfFirstTokenInString:(id)arg1 suffix:(id )arg2;
+- (NSRange)rangeInString:(id)arg1 fromLocationUntilBlankOrEnd:(NSUInteger)arg2;
+- (NSRange)rangeOfQuotedSubstringInString:(id)arg1 startingAtIndex:(NSUInteger)arg2;
 - (id)blanksCharacterSet;
 - (void)parseIdentityFileWithArguments:(id)arg1 intoArray:(id)arg2;
 - (void)parsePortWithArguments:(id)arg1 intoArray:(id)arg2;

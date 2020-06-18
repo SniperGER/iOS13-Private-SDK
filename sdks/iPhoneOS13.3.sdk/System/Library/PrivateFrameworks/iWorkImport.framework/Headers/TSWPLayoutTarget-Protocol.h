@@ -37,7 +37,7 @@
 @property(readonly, nonatomic) NSMutableArray *columns;
 - (BOOL)descendersCannotClip;
 - (TSUBezierPath *)interiorClippingPath;
-- (BOOL)containsStartOfRange:(_NSRange)arg1;
+- (BOOL)containsStartOfRange:(NSRange)arg1;
 - (BOOL)isLayoutOffscreen;
 - (double)textScaleForChild:(TSDLayout *)arg1;
 - (void)addAttachmentLayout:(TSDLayout *)arg1;
@@ -50,7 +50,7 @@
 - (CGRect)targetRectForCanvasRect:(CGRect)arg1;
 - (void)setNeedsDisplayInTargetRect:(CGRect)arg1;
 - (BOOL)isLastTarget;
-- (NSObject<TSWPColumnMetrics> *)columnMetricsForCharIndex:(NSUInteger)arg1 outRange:(_NSRange )arg2;
+- (NSObject<TSWPColumnMetrics> *)columnMetricsForCharIndex:(NSUInteger)arg1 outRange:(NSRange )arg2;
 
 @optional
 @property(readonly, nonatomic) BOOL marginsAreMirrored;

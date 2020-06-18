@@ -11,6 +11,6 @@
 - (id)abDecodedUTF7;
 - (id)abEncodeVCardBase64DataWithInitialLength:(NSUInteger)arg1;
 - (BOOL)abIsUTF16EntourageVCard;
-- (id)abStringAtRange:(_NSRange)arg1 inEncoding:(NSUInteger)arg2;
+- (id)abStringAtRange:(NSRange)arg1 inEncoding:(NSUInteger)arg2;
 @end
 

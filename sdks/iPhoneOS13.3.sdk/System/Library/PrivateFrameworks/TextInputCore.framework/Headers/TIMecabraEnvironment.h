@@ -19,8 +19,8 @@
     NSString *_leftDocumentContextCorrespondingToCandidates;
     NSString *_rightDocumentContextCorrespondingToCandidates;
     NSMutableArray *_candidatesToDelete;
-    _NSRange _leftDocumentContextCorrespondingToCandidatesRange;
-    _NSRange _rightDocumentContextCorrespondingToCandidatesRange;
+    NSRange _leftDocumentContextCorrespondingToCandidatesRange;
+    NSRange _rightDocumentContextCorrespondingToCandidatesRange;
 }
 
 + (void)loadMobileAssetContentsForInputModes:(id)arg1 assetContentTypes:(id)arg2 onQueue:(id)arg3 withCompletionBlock:(id /* CDUnknownBlockType */)arg4;
@@ -33,8 +33,8 @@
 + (int)maxNumberOfDrawSamples;
 + (id)baseLayout;
 @property(retain, nonatomic) NSMutableArray *candidatesToDelete; // @synthesize candidatesToDelete=_candidatesToDelete;
-@property(nonatomic) _NSRange rightDocumentContextCorrespondingToCandidatesRange; // @synthesize rightDocumentContextCorrespondingToCandidatesRange=_rightDocumentContextCorrespondingToCandidatesRange;
-@property(nonatomic) _NSRange leftDocumentContextCorrespondingToCandidatesRange; // @synthesize leftDocumentContextCorrespondingToCandidatesRange=_leftDocumentContextCorrespondingToCandidatesRange;
+@property(nonatomic) NSRange rightDocumentContextCorrespondingToCandidatesRange; // @synthesize rightDocumentContextCorrespondingToCandidatesRange=_rightDocumentContextCorrespondingToCandidatesRange;
+@property(nonatomic) NSRange leftDocumentContextCorrespondingToCandidatesRange; // @synthesize leftDocumentContextCorrespondingToCandidatesRange=_leftDocumentContextCorrespondingToCandidatesRange;
 @property(copy, nonatomic) NSString *rightDocumentContextCorrespondingToCandidates; // @synthesize rightDocumentContextCorrespondingToCandidates=_rightDocumentContextCorrespondingToCandidates;
 @property(copy, nonatomic) NSString *leftDocumentContextCorrespondingToCandidates; // @synthesize leftDocumentContextCorrespondingToCandidates=_leftDocumentContextCorrespondingToCandidates;
 @property(retain, nonatomic) NSMutableArray *candidatesRightOfCaret; // @synthesize candidatesRightOfCaret=_candidatesRightOfCaret;

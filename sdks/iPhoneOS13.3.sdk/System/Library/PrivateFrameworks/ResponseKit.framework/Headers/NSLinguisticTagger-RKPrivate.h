@@ -7,6 +7,6 @@
 #import <Foundation/NSLinguisticTagger.h>
 
 @interface NSLinguisticTagger (RKPrivate)
-- (id)languageOfRange:(_NSRange)arg1 withAdditionalContext:(id)arg2 withPreferredLanguages:(id)arg3;
+- (id)languageOfRange:(NSRange)arg1 withAdditionalContext:(id)arg2 withPreferredLanguages:(id)arg3;
 @end
 

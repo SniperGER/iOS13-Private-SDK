@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id)appName;
-+ (_NSRange)range:(_NSRange)arg1 liesWithinRange:(_NSRange)arg2 assert:(BOOL)arg3;
++ (NSRange)range:(NSRange)arg1 liesWithinRange:(NSRange)arg2 assert:(BOOL)arg3;
 
 @end
 

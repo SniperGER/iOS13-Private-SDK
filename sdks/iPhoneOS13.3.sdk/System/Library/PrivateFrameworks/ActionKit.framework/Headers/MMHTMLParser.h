@@ -13,7 +13,7 @@
 - (void)_parseAttributesWithScanner:(id)arg1;
 - (BOOL)_parseAttributeValueWithScanner:(id)arg1;
 - (BOOL)_parseStringWithScanner:(id)arg1;
-- (_NSRange)_parseNameWithScanner:(id)arg1;
+- (NSRange)_parseNameWithScanner:(id)arg1;
 - (id)_parseLenientBlockTagWithScanner:(id)arg1;
 - (BOOL)_parseEndTag:(id)arg1 withScanner:(id)arg2;
 - (id)_parseStrictBlockTagWithScanner:(id)arg1;

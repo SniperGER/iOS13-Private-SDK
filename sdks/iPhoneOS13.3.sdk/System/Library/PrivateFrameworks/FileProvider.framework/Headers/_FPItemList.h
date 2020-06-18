@@ -26,7 +26,7 @@ __attribute__((visibility("hidden")))
 - (void)removeObjectAtIndex:(NSUInteger)arg1;
 - (void)removeObjectWithID:(id)arg1;
 - (void)insertObject:(id)arg1 atIndex:(NSUInteger)arg2;
-- (NSUInteger)indexOfObject:(id)arg1 inSortedRange:(_NSRange)arg2 options:(NSUInteger)arg3 usingComparator:(id /* CDUnknownBlockType */)arg4;
+- (NSUInteger)indexOfObject:(id)arg1 inSortedRange:(NSRange)arg2 options:(NSUInteger)arg3 usingComparator:(id /* CDUnknownBlockType */)arg4;
 - (NSUInteger)indexOfItemID:(id)arg1;
 - (NSUInteger)indexOfObject:(id)arg1;
 - (id)objectAtIndex:(NSUInteger)arg1;

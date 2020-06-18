@@ -31,7 +31,7 @@
 - (void)updateSublayoutAttributes;
 - (void)invalidateSublayoutAttributes;
 - (void)updateEstimate;
-- (void)enumerateSublayoutProvidersForRange:(_NSRange)arg1 usingBlock:(id /* CDUnknownBlockType */)arg2;
+- (void)enumerateSublayoutProvidersForRange:(NSRange)arg1 usingBlock:(id /* CDUnknownBlockType */)arg2;
 @property(readonly, nonatomic) CDStruct_ff9a7497 sublayoutGeometries;
 @property(readonly, nonatomic) long long numberOfSublayouts;
 - (void)referenceSizeDidChange;

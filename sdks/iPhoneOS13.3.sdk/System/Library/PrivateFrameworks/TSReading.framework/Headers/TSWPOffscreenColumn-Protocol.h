@@ -9,9 +9,9 @@
 
 @protocol TSWPOffscreenColumn <NSObject>
 @property(readonly, nonatomic) NSUInteger nextWidowPullsDownFromCharIndex;
-@property(readonly, nonatomic) _NSRange anchoredRange;
+@property(readonly, nonatomic) NSRange anchoredRange;
 @property(readonly, nonatomic) NSUInteger startAnchoredCharIndex;
-@property(readonly, nonatomic) _NSRange range;
+@property(readonly, nonatomic) NSRange range;
 @property(readonly, nonatomic) NSUInteger startCharIndex;
 - (void)trimToCharIndex:(NSUInteger)arg1 inTarget:(id <TSWPLayoutTarget>)arg2 removeAutoNumberFootnoteCount:(NSUInteger)arg3;
 @end

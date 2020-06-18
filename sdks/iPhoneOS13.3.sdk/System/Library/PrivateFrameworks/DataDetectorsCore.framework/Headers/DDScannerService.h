@@ -13,10 +13,10 @@
 + (void)cancelJob:(long long)arg1;
 + (long long)scanString:(id)arg1 completionBlock:(id /* CDUnknownBlockType */)arg2;
 + (long long)scanQuery:(struct __DDScanQuery )arg1 configuration:(id)arg2 completionBlock:(id /* CDUnknownBlockType */)arg3;
-+ (long long)scanString:(id)arg1 range:(_NSRange)arg2 configuration:(id)arg3 completionBlock:(id /* CDUnknownBlockType */)arg4;
++ (long long)scanString:(id)arg1 range:(NSRange)arg2 configuration:(id)arg3 completionBlock:(id /* CDUnknownBlockType */)arg4;
 + (id)scanString:(id)arg1;
 + (id)scanQuery:(struct __DDScanQuery )arg1 configuration:(id)arg2;
-+ (id)scanString:(id)arg1 range:(_NSRange)arg2 configuration:(id)arg3;
++ (id)scanString:(id)arg1 range:(NSRange)arg2 configuration:(id)arg3;
 + (void)appendWatchOSLinksToString:(id)arg1;
 
 @end

@@ -94,7 +94,7 @@
 - (void)_updateButtonState;
 - (void)_updateDateOfBirthDisplay;
 - (void)stackedButtonView:(id)arg1 didTapButtonAtIndex:(long long)arg2;
-- (BOOL)textField:(id)arg1 shouldChangeCharactersInRange:(_NSRange)arg2 replacementString:(id)arg3;
+- (BOOL)textField:(id)arg1 shouldChangeCharactersInRange:(NSRange)arg2 replacementString:(id)arg3;
 - (void)_keyboardFrameChanged:(id)arg1;
 - (void)_diagnosisRowTapped:(id)arg1;
 - (void)_setUpDiagnosisRowWithTitle:(id)arg1 value:(BOOL)arg2;

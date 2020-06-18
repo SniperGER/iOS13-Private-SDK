@@ -114,12 +114,12 @@ __attribute__((visibility("hidden")))
 - (void)markAllExternalGroupByRefsDirty:(const UUIDData_5fbc143e )arg1;
 - (void)markRangeRefAsDirty:(const struct TSCERangeRef )arg1;
 - (void)dirtyCellsForMergingRange:(struct TSCERangeCoordinate)arg1 forTable:(const UUIDData_5fbc143e )arg2 headerRowRange:(struct TSCERangeCoordinate)arg3 headerColumnRange:(struct TSCERangeCoordinate)arg4;
-- (void)dirtyCellsForInsertionOfRows:(_NSRange)arg1 forTable:(const UUIDData_5fbc143e )arg2 tableRange:(struct TSCERangeCoordinate)arg3 headerRange:(struct TSCERangeCoordinate)arg4;
-- (void)dirtyCellsForInsertionOfColumns:(_NSRange)arg1 forTable:(const UUIDData_5fbc143e )arg2 tableRange:(struct TSCERangeCoordinate)arg3 headerRange:(struct TSCERangeCoordinate)arg4;
-- (void)dirtyCellsForRemovalOfRows:(_NSRange)arg1 fromTable:(const UUIDData_5fbc143e )arg2 tableRange:(struct TSCERangeCoordinate)arg3;
-- (void)dirtyCellsForRemovalOfColumns:(_NSRange)arg1 fromTable:(const UUIDData_5fbc143e )arg2 tableRange:(struct TSCERangeCoordinate)arg3;
-- (void)dirtyCellsForRowRange:(_NSRange)arg1 fromTable:(const UUIDData_5fbc143e )arg2 tableRange:(struct TSCERangeCoordinate)arg3;
-- (void)dirtyCellsForColumnRange:(_NSRange)arg1 fromTable:(const UUIDData_5fbc143e )arg2 tableRange:(struct TSCERangeCoordinate)arg3;
+- (void)dirtyCellsForInsertionOfRows:(NSRange)arg1 forTable:(const UUIDData_5fbc143e )arg2 tableRange:(struct TSCERangeCoordinate)arg3 headerRange:(struct TSCERangeCoordinate)arg4;
+- (void)dirtyCellsForInsertionOfColumns:(NSRange)arg1 forTable:(const UUIDData_5fbc143e )arg2 tableRange:(struct TSCERangeCoordinate)arg3 headerRange:(struct TSCERangeCoordinate)arg4;
+- (void)dirtyCellsForRemovalOfRows:(NSRange)arg1 fromTable:(const UUIDData_5fbc143e )arg2 tableRange:(struct TSCERangeCoordinate)arg3;
+- (void)dirtyCellsForRemovalOfColumns:(NSRange)arg1 fromTable:(const UUIDData_5fbc143e )arg2 tableRange:(struct TSCERangeCoordinate)arg3;
+- (void)dirtyCellsForRowRange:(NSRange)arg1 fromTable:(const UUIDData_5fbc143e )arg2 tableRange:(struct TSCERangeCoordinate)arg3;
+- (void)dirtyCellsForColumnRange:(NSRange)arg1 fromTable:(const UUIDData_5fbc143e )arg2 tableRange:(struct TSCERangeCoordinate)arg3;
 - (void)headerStateOfTableChanged:(const UUIDData_5fbc143e )arg1;
 - (void)headerStateOfTableChanged:(const UUIDData_5fbc143e )arg1 changedRows:(BOOL)arg2;
 - (void)markCellRefsAsDirty:(id)arg1;

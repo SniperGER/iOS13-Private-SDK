@@ -114,7 +114,7 @@
 - (id)opacitySettings;
 - (id)layoutSettings;
 - (long long)preferredSnapshotOrientation;
-- (_NSRange)fullSizeSnapshotsRange;
+- (NSRange)fullSizeSnapshotsRange;
 - (NSUInteger)numberOfAppLayoutsToCacheSnapshots;
 - (NSUInteger)numberOfDefaultAppLayoutsToCacheSnapshots;
 - (BOOL)isSwitcherWindowUserInteractionEnabled;

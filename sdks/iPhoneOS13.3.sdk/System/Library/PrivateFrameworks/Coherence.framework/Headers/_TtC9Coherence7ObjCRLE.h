@@ -16,7 +16,7 @@
 // - (void).cxx_destruct;
 @property(nonatomic, readonly) NSString *description;
 - (void)addMappingFrom:(long long)arg1 to:(long long)arg2;
-- (void)enumerateRangesIn:(_NSRange)arg1:(id /* CDUnknownBlockType */)arg2;
+- (void)enumerateRangesIn:(NSRange)arg1:(id /* CDUnknownBlockType */)arg2;
 @property(nonatomic, readonly) long long rangeCount;
 - (id)init;
 

@@ -51,7 +51,7 @@ __attribute__((visibility("hidden")))
     CGPoint _originalPosition;
     CGSize _singleTextureSize;
     CGSize _size;
-    _NSRange _textRange;
+    NSRange _textRange;
     CGRect _contentRect;
 }
 
@@ -61,7 +61,7 @@ __attribute__((visibility("hidden")))
 @property(nonatomic) double textureOpacity; // @synthesize textureOpacity=_textureOpacity;
 @property(nonatomic) long long textureType; // @synthesize textureType=_textureType;
 @property(nonatomic) double textXHeight; // @synthesize textXHeight=_textXHeight;
-@property(nonatomic) _NSRange textRange; // @synthesize textRange=_textRange;
+@property(nonatomic) NSRange textRange; // @synthesize textRange=_textRange;
 @property(copy, nonatomic) TSUColor *textColor; // @synthesize textColor=_textColor;
 @property(nonatomic) double textBaseline; // @synthesize textBaseline=_textBaseline;
 @property(copy, nonatomic) NSString *text; // @synthesize text=_text;

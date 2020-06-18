@@ -43,7 +43,7 @@
 - (id)cachedIndexByIdentifier:(id)arg1;
 - (id)cachedItemForIdentifier:(id)arg1;
 - (id)cachedItemForIndex:(long long)arg1;
-- (void)getChildrenInRange:(_NSRange)arg1 completion:(id /* CDUnknownBlockType */)arg2;
+- (void)getChildrenInRange:(NSRange)arg1 completion:(id /* CDUnknownBlockType */)arg2;
 - (void)getCountOfChildrenWithCompletion:(id /* CDUnknownBlockType */)arg1;
 - (void)getNowPlayingIdentifiersWithCompletion:(id /* CDUnknownBlockType */)arg1;
 - (void)getPlaybackProgressSupportForChildrenWithCompletion:(id /* CDUnknownBlockType */)arg1;

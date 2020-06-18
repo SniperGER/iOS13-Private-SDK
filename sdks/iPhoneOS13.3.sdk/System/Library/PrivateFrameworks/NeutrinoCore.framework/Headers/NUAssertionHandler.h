@@ -19,9 +19,9 @@
 // - (void).cxx_destruct;
 - (void)handleFailureInFunction:(id)arg1 file:(id)arg2 lineNumber:(long long)arg3 description:(id)arg4;
 - (void)handleFailureInMethod:(SEL)arg1 object:(id)arg2 file:(id)arg3 lineNumber:(long long)arg4 description:(id)arg5;
-- (void)continueAfterAssertInFunction:(id)arg1 file:(id)arg2 lineNumber:(NSUInteger)arg3 description:(id)arg4 arguments:(struct __va_list_tag [1])arg5;
-- (void)handleFailureInFunction:(id)arg1 file:(id)arg2 lineNumber:(NSUInteger)arg3 description:(id)arg4 arguments:(struct __va_list_tag [1])arg5;
-- (id)newAssertionInfoInMethod:(SEL)arg1 object:(id)arg2 function:(id)arg3 file:(id)arg4 lineNumber:(NSUInteger)arg5 description:(id)arg6 arguments:(struct __va_list_tag [1])arg7;
+// - (void)continueAfterAssertInFunction:(id)arg1 file:(id)arg2 lineNumber:(NSUInteger)arg3 description:(id)arg4 arguments:(struct __va_list_tag [1])arg5;
+// - (void)handleFailureInFunction:(id)arg1 file:(id)arg2 lineNumber:(NSUInteger)arg3 description:(id)arg4 arguments:(struct __va_list_tag [1])arg5;
+// - (id)newAssertionInfoInMethod:(SEL)arg1 object:(id)arg2 function:(id)arg3 file:(id)arg4 lineNumber:(NSUInteger)arg5 description:(id)arg6 arguments:(struct __va_list_tag [1])arg7;
 - (id)defaultTestingPolicy;
 - (id)defaultPolicy;
 - (id)init;

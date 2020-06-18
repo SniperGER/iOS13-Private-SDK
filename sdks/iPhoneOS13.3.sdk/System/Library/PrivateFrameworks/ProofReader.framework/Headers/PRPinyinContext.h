@@ -58,7 +58,7 @@
 - (void)_addSpecialEnglishWords;
 - (void)_addEnglishWordsQuickly:(BOOL)arg1;
 - (BOOL)_addEnglishWordsEndingAtIndex:(NSUInteger)arg1 quickly:(BOOL)arg2;
-- (BOOL)_addEnglishWordForRange:(_NSRange)arg1 quickly:(BOOL)arg2;
+- (BOOL)_addEnglishWordForRange:(NSRange)arg1 quickly:(BOOL)arg2;
 - (void)_advanceIndexes;
 - (void)_removeModificationsAndMoveStartingPoint;
 - (double)validSequenceCorrectionThreshold;

@@ -18,7 +18,7 @@
 - (BOOL)shouldRender;
 - (UIFont *)font;
 - (NSString *)string;
-- (_NSRange)stringRange;
+- (NSRange)stringRange;
 - (NSUInteger)glyphCount;
 @end
 

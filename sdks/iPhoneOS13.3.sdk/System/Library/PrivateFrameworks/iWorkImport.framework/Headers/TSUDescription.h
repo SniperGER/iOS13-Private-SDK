@@ -38,7 +38,7 @@ __attribute__((visibility("hidden")))
 - (id)initWithObject:(id)arg1;
 - (id)initWithObject:(id)arg1 format:(id)arg2;
 - (id)initWithObject:(id)arg1 class:(Class)arg2 format:(id)arg3;
-- (id)initWithObject:(id)arg1 class:(Class)arg2 format:(id)arg3 arguments:(struct __va_list_tag [1])arg4;
+// - (id)initWithObject:(id)arg1 class:(Class)arg2 format:(id)arg3 arguments:(struct __va_list_tag [1])arg4;
 - (id)initWithCFType:(void )arg1 header:(id)arg2;
 - (id)initWithObject:(id)arg1 class:(Class)arg2 header:(id)arg3;
 

@@ -32,7 +32,7 @@
 - (void)arrangedObjects:(id /* CDUnknownBlockType */)arg1;
 - (id)arrangedObjects;
 - (long long)numberOfItems;
-- (void)removeObjectsInRange:(_NSRange)arg1;
+- (void)removeObjectsInRange:(NSRange)arg1;
 - (void)removeAllObjects;
 - (void)removeObject:(id)arg1;
 - (void)addObjectsFromArray:(id)arg1;

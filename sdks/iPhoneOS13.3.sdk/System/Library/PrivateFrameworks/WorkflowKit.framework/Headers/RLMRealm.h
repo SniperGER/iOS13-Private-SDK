@@ -42,7 +42,7 @@
 - (id)createObject:(id)arg1 withValue:(id)arg2;
 - (id)objectWithClassName:(id)arg1 forPrimaryKey:(id)arg2;
 - (id)objects:(id)arg1 withPredicate:(id)arg2;
-- (id)objects:(id)arg1 where:(id)arg2 args:(struct __va_list_tag [1])arg3;
+// - (id)objects:(id)arg1 where:(id)arg2 args:(struct __va_list_tag [1])arg3;
 - (id)objects:(id)arg1 where:(id)arg2;
 - (id)allObjects:(id)arg1;
 - (void)deleteAllObjects;

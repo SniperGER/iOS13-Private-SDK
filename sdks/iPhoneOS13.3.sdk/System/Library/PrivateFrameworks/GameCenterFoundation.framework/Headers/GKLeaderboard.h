@@ -20,7 +20,7 @@
     GKScore *_localPlayerScore;
     id <GKLeaderboardDelegate> _weakDelegate;
     GKLeaderboardInternal *_internal;
-    _NSRange _range;
+    NSRange _range;
 }
 
 + (BOOL)instancesRespondToSelector:(SEL)arg1;
@@ -52,7 +52,7 @@
 - (id)scoreRequestForGame:(id)arg1;
 - (void)loadScoresWithCompletionHandler:(id /* CDUnknownBlockType */)arg1;
 @property(readonly, getter=isLoading) BOOL loading; // @dynamic loading;
-@property(nonatomic) _NSRange range; // @synthesize range=_range;
+@property(nonatomic) NSRange range; // @synthesize range=_range;
 @property(nonatomic) id <GKLeaderboardDelegate> delegate; // @synthesize delegate=_weakDelegate;
 - (id)description;
 - (NSUInteger)hash;

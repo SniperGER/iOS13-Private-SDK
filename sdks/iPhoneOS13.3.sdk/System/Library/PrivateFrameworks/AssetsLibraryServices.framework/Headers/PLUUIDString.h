@@ -15,9 +15,9 @@
 + (BOOL)parseUUIDString:(id)arg1 uuidBuffer:(char )arg2;
 + (id)UUIDString;
 - (const char )UTF8String;
-- (long long)compare:(id)arg1 options:(NSUInteger)arg2 range:(_NSRange)arg3 locale:(id)arg4;
+- (long long)compare:(id)arg1 options:(NSUInteger)arg2 range:(NSRange)arg3 locale:(id)arg4;
 - (BOOL)isEqualToString:(id)arg1;
-- (void)getCharacters:(unsigned short )arg1 range:(_NSRange)arg2;
+- (void)getCharacters:(unsigned short )arg1 range:(NSRange)arg2;
 - (unsigned short)characterAtIndex:(NSUInteger)arg1;
 - (NSUInteger)length;
 - (CDStruct_bd2f613f)UUIDBytes;

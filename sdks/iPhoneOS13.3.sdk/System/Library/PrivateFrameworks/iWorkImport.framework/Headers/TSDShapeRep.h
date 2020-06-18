@@ -22,8 +22,8 @@ __attribute__((visibility("hidden")))
     CGContext mCommittedPathContext;
     CGImage mCommittedPathImage;
     CGRect mCommittedPathImageUnscaledRect;
-    _NSRange mCommittedPointRange;
-    _NSRange mAvailableToCommitPointRange;
+    NSRange mCommittedPointRange;
+    NSRange mAvailableToCommitPointRange;
     unsigned int mOverrideState:2;
     double mOverriddenValue;
     CGRect mLastDynamicInvalidRect;

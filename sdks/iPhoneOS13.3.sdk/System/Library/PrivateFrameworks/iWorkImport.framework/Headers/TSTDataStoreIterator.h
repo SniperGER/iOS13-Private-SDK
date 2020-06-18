@@ -28,7 +28,7 @@ __attribute__((visibility("hidden")))
     TSTTableTile *_curTile;
     TSTTableTileRowInfo *_curRow;
     TSTCell *_cell;
-    _NSRange _curTileRange;
+    NSRange _curTileRange;
 }
 
 @property(nonatomic) BOOL terminated; // @synthesize terminated=_terminated;
@@ -36,7 +36,7 @@ __attribute__((visibility("hidden")))
 @property(readonly, nonatomic) TSTCell *cell; // @synthesize cell=_cell;
 @property(nonatomic) unsigned int curRowIndex; // @synthesize curRowIndex=_curRowIndex;
 @property(retain, nonatomic) TSTTableTileRowInfo *curRow; // @synthesize curRow=_curRow;
-@property(nonatomic) _NSRange curTileRange; // @synthesize curTileRange=_curTileRange;
+@property(nonatomic) NSRange curTileRange; // @synthesize curTileRange=_curTileRange;
 @property(retain, nonatomic) TSTTableTile *curTile; // @synthesize curTile=_curTile;
 @property(nonatomic) struct TSUCellCoord curCellID; // @synthesize curCellID=_curCellID;
 @property(nonatomic) NSUInteger searchMask; // @synthesize searchMask=_searchMask;

@@ -7,6 +7,6 @@
 #import <NewsSubscription/_TtC16NewsSubscription33DeferredHardPaywallViewController.h>
 
 @interface _TtC16NewsSubscription33DeferredHardPaywallViewController (NewsSubscription1)
-- (BOOL)textView:(id)arg1 shouldInteractWithURL:(id)arg2 inRange:(_NSRange)arg3 interaction:(long long)arg4;
+- (BOOL)textView:(id)arg1 shouldInteractWithURL:(id)arg2 inRange:(NSRange)arg3 interaction:(long long)arg4;
 @end
 

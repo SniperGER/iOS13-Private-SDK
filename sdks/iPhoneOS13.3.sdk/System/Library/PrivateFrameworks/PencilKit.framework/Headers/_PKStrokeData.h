@@ -33,7 +33,7 @@
 - (id).cxx_construct;
 // - (void).cxx_destruct;
 - (struct PKCompressedStrokePoint)pointAt:(NSUInteger)arg1;
-- (void)setPointsFrom:(id)arg1 range:(_NSRange)arg2;
+- (void)setPointsFrom:(id)arg1 range:(NSRange)arg2;
 - (void)setPoints:(struct PKCompressedStrokePoint )arg1 pointsCount:(NSUInteger)arg2;
 @property(readonly, nonatomic) BOOL inflight;
 @property(readonly, nonatomic) BOOL hasPointTimestampData;
@@ -41,7 +41,7 @@
 - (struct _PKStrokeDataPoints )_mutablePoints;
 @property(readonly, nonatomic) const struct _PKStrokeDataPoints _points; // @dynamic _points;
 // - (id)copyWithZone:(_NSZone )arg1;
-- (id)initWithData:(id)arg1 range:(_NSRange)arg2 UUID:(id)arg3;
+- (id)initWithData:(id)arg1 range:(NSRange)arg2 UUID:(id)arg3;
 - (id)initWithPoints:(struct PKCompressedStrokePoint )arg1 count:(NSUInteger)arg2 immutableCount:(NSUInteger)arg3 inputType:(long long)arg4 timestamp:(double)arg5 UUID:(id)arg6;
 - (id)init;
 - (id)dataApplying:(id)arg1;

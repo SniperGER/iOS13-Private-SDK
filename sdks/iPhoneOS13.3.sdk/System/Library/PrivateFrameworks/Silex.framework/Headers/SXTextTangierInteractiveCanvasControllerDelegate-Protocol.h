@@ -14,6 +14,6 @@
 - (BOOL)interactiveCanvasController:(SXTextTangierInteractiveCanvasController *)arg1 shouldBeginInteraction:(UITextInteraction *)arg2 atPoint:(CGPoint)arg3;
 - (void)interactiveCanvasControllerWillStartInteraction:(SXTextTangierInteractiveCanvasController *)arg1;
 - (void)interactiveCanvasController:(TSDInteractiveCanvasController *)arg1 scrollViewDidEndDragging:(UIScrollView *)arg2 willDecelerate:(BOOL)arg3;
-- (void)interactiveCanvasController:(SXTextTangierInteractiveCanvasController *)arg1 interactedWithHyperlink:(TSWPHyperlinkField *)arg2 info:(SXTextTangierFlowInfo *)arg3 range:(_NSRange)arg4 touchPoint:(CGPoint)arg5 touchAndHold:(BOOL)arg6;
+- (void)interactiveCanvasController:(SXTextTangierInteractiveCanvasController *)arg1 interactedWithHyperlink:(TSWPHyperlinkField *)arg2 info:(SXTextTangierFlowInfo *)arg3 range:(NSRange)arg4 touchPoint:(CGPoint)arg5 touchAndHold:(BOOL)arg6;
 @end
 

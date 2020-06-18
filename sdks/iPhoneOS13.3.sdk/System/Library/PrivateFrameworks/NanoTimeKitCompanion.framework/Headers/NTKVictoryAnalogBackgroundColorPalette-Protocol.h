@@ -7,6 +7,9 @@
 
 @class UIColor;
 
+#ifndef NTKVictoryAnalogBackgroundColorPalette_Protocol
+#define NTKVictoryAnalogBackgroundColorPalette_Protocol
+
 @protocol NTKVictoryAnalogBackgroundColorPalette <NSObject>
 @property(readonly, nonatomic) BOOL hasWhiteElements;
 @property(readonly, nonatomic) UIColor *analogDotColor;
@@ -14,4 +17,6 @@
 @property(readonly, nonatomic) UIColor *numbersColor;
 @property(readonly, nonatomic) UIColor *backgroundColor;
 @end
+
+#endif
 

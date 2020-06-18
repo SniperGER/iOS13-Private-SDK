@@ -11,7 +11,7 @@
 }
 
 + (id)newTransformerInstanceForConfig:(id)arg1 seed:(NSUInteger)arg2 useSeed:(BOOL)arg3;
-+ (id)featurizerWithMethods:(id)arg1 bucketSize:(NSUInteger)arg2 characterNGramRange:(_NSRange)arg3 tokenNGramRange:(_NSRange)arg4;
++ (id)featurizerWithMethods:(id)arg1 bucketSize:(NSUInteger)arg2 characterNGramRange:(NSRange)arg3 tokenNGramRange:(NSRange)arg4;
 + (id)newTransformerInstanceForLanguage:(id)arg1 withDictionary:(id)arg2 withSeed:(NSUInteger)arg3 forMode:(NSUInteger)arg4;
 + (id)newTransformerInstanceForLanguage:(id)arg1 mode:(NSUInteger)arg2 plistPath:(id)arg3;
 

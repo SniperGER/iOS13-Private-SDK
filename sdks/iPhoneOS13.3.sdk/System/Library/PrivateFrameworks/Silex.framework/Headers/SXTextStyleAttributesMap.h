@@ -18,7 +18,7 @@
 @property(readonly, nonatomic) NSString *string; // @synthesize string=_string;
 // - (void).cxx_destruct;
 - (id)description;
-- (id)attributesMapWithAttributesForRange:(_NSRange)arg1;
+- (id)attributesMapWithAttributesForRange:(NSRange)arg1;
 - (id)attributedString;
 - (void)addAttributes:(id)arg1;
 - (id)initWithString:(id)arg1;

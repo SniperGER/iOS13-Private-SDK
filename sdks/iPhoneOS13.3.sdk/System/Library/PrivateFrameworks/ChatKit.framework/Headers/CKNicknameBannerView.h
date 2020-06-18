@@ -48,7 +48,7 @@
 - (id)contactStore;
 - (id)nicknameController;
 - (void)cancelButtonTapped:(id)arg1;
-- (BOOL)textView:(id)arg1 shouldInteractWithURL:(id)arg2 inRange:(_NSRange)arg3 interaction:(long long)arg4;
+- (BOOL)textView:(id)arg1 shouldInteractWithURL:(id)arg2 inRange:(NSRange)arg3 interaction:(long long)arg4;
 - (id)createContactForOutgoingShare;
 - (id)createContactFromNickname:(id)arg1;
 - (void)_updateSubtitleLabel;

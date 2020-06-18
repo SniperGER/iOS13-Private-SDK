@@ -7,6 +7,6 @@
 #import <Foundation/NSString.h>
 
 @interface NSString (ICExtras)
-- (BOOL)_ICEnumerateLongCharactersInRange:(_NSRange)arg1 usingBlock:(id /* CDUnknownBlockType */)arg2;
+- (BOOL)_ICEnumerateLongCharactersInRange:(NSRange)arg1 usingBlock:(id /* CDUnknownBlockType */)arg2;
 @end
 

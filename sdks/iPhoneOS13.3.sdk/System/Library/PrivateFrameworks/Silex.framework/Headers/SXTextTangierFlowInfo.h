@@ -23,11 +23,11 @@
     NSObject<TSDContainerInfo> *parentInfo;
     SXTextTangierFlowStorage *_storage;
     id <TSDRepDirectLayerHosting> _directLayerHost;
-    _NSRange _range;
+    NSRange _range;
 }
 
 @property(nonatomic) __weak id <TSDRepDirectLayerHosting> directLayerHost; // @synthesize directLayerHost=_directLayerHost;
-@property(readonly, nonatomic) _NSRange range; // @synthesize range=_range;
+@property(readonly, nonatomic) NSRange range; // @synthesize range=_range;
 @property(readonly, nonatomic) SXTextTangierFlowStorage *storage; // @synthesize storage=_storage;
 @property(readonly, nonatomic, getter=isAttachedToBodyText) BOOL attachedToBodyText; // @synthesize attachedToBodyText;
 @property(readonly, nonatomic, getter=isInlineWithText) BOOL inlineWithText; // @synthesize inlineWithText;
@@ -49,7 +49,7 @@
 - (BOOL)floatingAboveText;
 - (BOOL)attachedToBodyText;
 - (BOOL)anchoredToText;
-- (id)initWithStorage:(id)arg1 range:(_NSRange)arg2;
+- (id)initWithStorage:(id)arg1 range:(NSRange)arg2;
 
 @end
 

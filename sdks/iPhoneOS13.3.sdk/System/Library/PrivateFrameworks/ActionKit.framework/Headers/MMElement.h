@@ -21,7 +21,7 @@
     NSString *_stringValue;
     MMElement *_parent;
     NSString *_language;
-    _NSRange _range;
+    NSRange _range;
 }
 
 @property(copy, nonatomic) NSString *language; // @synthesize language=_language;
@@ -35,13 +35,13 @@
 @property(nonatomic) long long alignment; // @synthesize alignment=_alignment;
 @property(copy, nonatomic) NSArray *innerRanges; // @synthesize innerRanges=_innerRanges;
 @property(nonatomic) int type; // @synthesize type=_type;
-@property(nonatomic) _NSRange range; // @synthesize range=_range;
+@property(nonatomic) NSRange range; // @synthesize range=_range;
 // - (void).cxx_destruct;
 - (id)removeLastChild;
 - (void)removeChild:(id)arg1;
 - (void)addChild:(id)arg1;
 - (void)removeLastInnerRange;
-- (void)addInnerRange:(_NSRange)arg1;
+- (void)addInnerRange:(NSRange)arg1;
 - (id)description;
 - (void)dealloc;
 - (id)init;

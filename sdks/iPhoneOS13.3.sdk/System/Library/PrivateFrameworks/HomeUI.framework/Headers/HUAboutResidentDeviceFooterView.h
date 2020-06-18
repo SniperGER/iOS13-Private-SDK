@@ -26,7 +26,7 @@
 - (id)_linkTextAttributes;
 - (id)_textAttributes;
 - (void)_setupViews;
-- (BOOL)textView:(id)arg1 shouldInteractWithURL:(id)arg2 inRange:(_NSRange)arg3 interaction:(long long)arg4;
+- (BOOL)textView:(id)arg1 shouldInteractWithURL:(id)arg2 inRange:(NSRange)arg3 interaction:(long long)arg4;
 - (void)updateConstraints;
 - (CGSize)sizeThatFits:(CGSize)arg1;
 - (id)initWithFrame:(CGRect)arg1;

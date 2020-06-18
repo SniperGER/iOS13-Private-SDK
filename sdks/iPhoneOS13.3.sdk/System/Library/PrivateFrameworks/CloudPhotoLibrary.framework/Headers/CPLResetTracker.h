@@ -21,7 +21,7 @@
 + (id)currentReasonDescriptions;
 + (void)discardTracker:(id)arg1;
 + (id)currentTracker;
-+ (void)registerLikelyResetReason:(id)arg1 arguments:(struct __va_list_tag [1])arg2;
+// + (void)registerLikelyResetReason:(id)arg1 arguments:(struct __va_list_tag [1])arg2;
 + (void)registerLikelyResetReason:(id)arg1;
 + (void)_registerReasonLocked:(id)arg1;
 + (void)_storeReasonsLocked;

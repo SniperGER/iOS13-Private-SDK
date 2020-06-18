@@ -36,7 +36,7 @@ __attribute__((visibility("hidden")))
 - (BOOL)hasValidUidMap;
 - (BOOL)hasValidInfo;
 - (id)sortedArrayFromArray:(id)arg1;
-- (unsigned char)minimumCategoryLevelInRowRange:(_NSRange)arg1;
+- (unsigned char)minimumCategoryLevelInRowRange:(NSRange)arg1;
 - (id)targetGroupFromRowIndex:(unsigned int)arg1 minSourceLevel:(unsigned char)arg2 templateRowUID:(UUIDData_5fbc143e )arg3;
 - (vector_4dc5f307)orderedRowUidsWithLabels;
 - (vector_4dc5f307)orderedRowUidsFromUids:(const vector_4dc5f307 )arg1;

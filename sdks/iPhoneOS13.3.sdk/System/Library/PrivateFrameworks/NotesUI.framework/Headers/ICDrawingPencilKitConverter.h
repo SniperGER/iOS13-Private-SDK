@@ -46,7 +46,7 @@
 - (BOOL)compareDrawingAttachment:(id)arg1 withConvertedDrawing:(id)arg2;
 - (id)updateInlineDrawingAttachment:(id)arg1;
 - (id)convertSketch:(id)arg1;
-- (id)convertSketchAttachment:(id)arg1 toInlineDrawingAtRange:(_NSRange)arg2 inNote:(id)arg3;
+- (id)convertSketchAttachment:(id)arg1 toInlineDrawingAtRange:(NSRange)arg2 inNote:(id)arg3;
 - (NSUInteger)convertAllSketchesInNote:(id)arg1;
 - (void)convertAllSketchesWithProgress:(id)arg1 completion:(id /* CDUnknownBlockType */)arg2;
 - (void)convertAllSketchesWithProgress:(id)arg1;

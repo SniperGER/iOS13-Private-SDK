@@ -52,8 +52,8 @@
 - (void)setFocused:(BOOL)arg1 forToken:(long long)arg2;
 - (void)unselectAllForToken:(long long)arg1;
 - (void)selectAllForToken:(long long)arg1;
-- (void)setSelection:(_NSRange)arg1 forToken:(long long)arg2;
-- (_NSRange)rangeOfCellRepresentingCharacterAtIndex:(long long)arg1;
+- (void)setSelection:(NSRange)arg1 forToken:(long long)arg2;
+- (NSRange)rangeOfCellRepresentingCharacterAtIndex:(long long)arg1;
 - (id)tokenArray;
 - (id)_getWorkingString;
 - (long long)tokenForRouterIndex:(long long)arg1 location:(long long )arg2 appToken:(id )arg3 forDisplayWithToken:(int)arg4;

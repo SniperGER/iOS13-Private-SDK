@@ -11,8 +11,8 @@
 }
 
 + (NSUInteger)maxContextLength;
-+ (_NSRange)searchRangeForString:(id)arg1 aroundLocation:(NSUInteger)arg2;
-+ (_NSRange)revealRangeAtIndex:(NSUInteger)arg1 selectedRanges:(id)arg2 shouldUpdateSelection:(BOOL )arg3;
++ (NSRange)searchRangeForString:(id)arg1 aroundLocation:(NSUInteger)arg2;
++ (NSRange)revealRangeAtIndex:(NSUInteger)arg1 selectedRanges:(id)arg2 shouldUpdateSelection:(BOOL )arg3;
 
 @end
 

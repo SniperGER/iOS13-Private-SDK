@@ -15,7 +15,7 @@
     id _value;
 }
 
-+ (id)featureDataWithType:(NSUInteger)arg1 value:(id)arg2 matchRange:(_NSRange)arg3;
++ (id)featureDataWithType:(NSUInteger)arg1 value:(id)arg2 matchRange:(NSRange)arg3;
 @property(retain) id value; // @synthesize value=_value;
 @property NSUInteger type; // @synthesize type=_type;
 // - (void).cxx_destruct;

@@ -25,7 +25,7 @@
 - (void)setStyle:(NSUInteger)arg1;
 - (id)init;
 - (NSUInteger)desiredDateComplicationDateStyle;
-- (void)setDateComplicationText:(id)arg1 withDayRange:(_NSRange)arg2 forDateStyle:(NSUInteger)arg3;
+- (void)setDateComplicationText:(id)arg1 withDayRange:(NSRange)arg2 forDateStyle:(NSUInteger)arg3;
 
 @end
 

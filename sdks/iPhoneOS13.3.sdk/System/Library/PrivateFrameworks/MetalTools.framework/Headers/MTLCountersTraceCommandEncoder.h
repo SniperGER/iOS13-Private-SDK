@@ -11,10 +11,10 @@ __attribute__((visibility("hidden")))
 {
     struct BinaryBuffer _stream;
     NSUInteger _flags;
-    _NSRange _segment;
+    NSRange _segment;
 }
 
-@property(readonly, nonatomic) _NSRange segment; // @synthesize segment=_segment;
+@property(readonly, nonatomic) NSRange segment; // @synthesize segment=_segment;
 @property(readonly, nonatomic) NSUInteger flags; // @synthesize flags=_flags;
 - (void)endEncoding;
 - (void)setLabel:(id)arg1;

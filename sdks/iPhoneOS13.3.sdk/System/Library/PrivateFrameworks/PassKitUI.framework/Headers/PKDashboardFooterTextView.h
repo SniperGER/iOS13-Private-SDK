@@ -16,17 +16,17 @@
     NSString *_footerText;
     UIColor *_linkTextColor;
     id /* CDUnknownBlockType */ _action;
-    _NSRange _linkRange;
+    NSRange _linkRange;
 }
 
 + (double)defaultHorizontalInset;
 + (id)defaultBackgroundColor;
 @property(copy, nonatomic) id /* CDUnknownBlockType */ action; // @synthesize action=_action;
 @property(retain, nonatomic) UIColor *linkTextColor; // @synthesize linkTextColor=_linkTextColor;
-@property(nonatomic) _NSRange linkRange; // @synthesize linkRange=_linkRange;
+@property(nonatomic) NSRange linkRange; // @synthesize linkRange=_linkRange;
 @property(copy, nonatomic) NSString *footerText; // @synthesize footerText=_footerText;
 // - (void).cxx_destruct;
-- (BOOL)textView:(id)arg1 shouldInteractWithURL:(id)arg2 inRange:(_NSRange)arg3 interaction:(long long)arg4;
+- (BOOL)textView:(id)arg1 shouldInteractWithURL:(id)arg2 inRange:(NSRange)arg3 interaction:(long long)arg4;
 - (BOOL)_isLinkRangeValid;
 - (void)_updateText;
 - (CGSize)_layoutWithBounds:(CGRect)arg1;

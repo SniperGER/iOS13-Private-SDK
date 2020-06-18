@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
     NSMutableIndexSet *_unhandledIndexSet;
     long long _stageIndex;
     double _opacityFromRenderer;
-    _NSRange _range;
+    NSRange _range;
 }
 
 @property(nonatomic) double opacityFromRenderer; // @synthesize opacityFromRenderer=_opacityFromRenderer;
@@ -27,7 +27,7 @@ __attribute__((visibility("hidden")))
 @property(retain, nonatomic) NSMutableIndexSet *unhandledIndexSet; // @synthesize unhandledIndexSet=_unhandledIndexSet;
 @property(nonatomic) BOOL hasListLabel; // @synthesize hasListLabel=_hasListLabel;
 @property(copy, nonatomic) NSString *stringValue; // @synthesize stringValue=_stringValue;
-@property(nonatomic) _NSRange range; // @synthesize range=_range;
+@property(nonatomic) NSRange range; // @synthesize range=_range;
 @property(nonatomic) TSWPShapeRep *rep; // @synthesize rep=_rep;
 - (id)description;
 - (void)dealloc;

@@ -7,7 +7,12 @@
 
 @class NTKOlympusTimeView;
 
+#ifndef NTKOlympusViewDelegate_Protocol
+#define NTKOlympusViewDelegate_Protocol
+
 @protocol NTKOlympusViewDelegate <NSObject>
 - (void)olympusView:(NTKOlympusTimeView *)arg1 didTapAppLogoFromRect:(CGRect)arg2;
 @end
+
+#endif
 

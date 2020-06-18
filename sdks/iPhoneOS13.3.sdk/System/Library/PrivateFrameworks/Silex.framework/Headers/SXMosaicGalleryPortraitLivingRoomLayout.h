@@ -13,9 +13,9 @@
 - (NSUInteger)indexOfLargeItem;
 - (double)desiredHeightForSmallerItems;
 - (double)desiredHeightForLargeItem;
-- (_NSRange)columnRangeForLargeItem;
-- (_NSRange)columnRangeForSmallerItems;
-- (_NSRange)columnRangeForItem:(id)arg1;
+- (NSRange)columnRangeForLargeItem;
+- (NSRange)columnRangeForSmallerItems;
+- (NSRange)columnRangeForItem:(id)arg1;
 - (id)calculateFrames;
 - (double)calculateHeight;
 

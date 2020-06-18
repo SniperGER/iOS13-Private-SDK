@@ -14,7 +14,7 @@
 }
 
 @property(copy, nonatomic) NSString *rubyText; // @synthesize rubyText=_rubyText;
-- (BOOL)canCopy:(_NSRange)arg1;
+- (BOOL)canCopy:(NSRange)arg1;
 - (BOOL)allowsEditing;
 - (int)styleAttributeArrayKind;
 - (unsigned int)attributeArrayKind;

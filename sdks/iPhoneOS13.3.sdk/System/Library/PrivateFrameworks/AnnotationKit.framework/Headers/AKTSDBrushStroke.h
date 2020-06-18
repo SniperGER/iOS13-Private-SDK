@@ -31,8 +31,8 @@
 @property(readonly, copy, nonatomic) NSString *strokeName; // @synthesize strokeName=_strokeName;
 // - (void).cxx_destruct;
 - (void)brushPath:(id)arg1 inContext:(CGContext )arg2;
-- (void)brushPath:(id)arg1 withScaling:(CDStruct_c3b9c2ee)arg2 inElementRange:(_NSRange)arg3 into:(id)arg4 sectionIndex:(NSUInteger )arg5 viewScale:(double)arg6;
-- (void)brushSection:(id)arg1 sectionIndex:(NSUInteger)arg2 ontoPath:(id)arg3 withScaling:(CDStruct_c3b9c2ee)arg4 inElementRange:(_NSRange)arg5 into:(id)arg6 viewScale:(double)arg7;
+- (void)brushPath:(id)arg1 withScaling:(CDStruct_c3b9c2ee)arg2 inElementRange:(NSRange)arg3 into:(id)arg4 sectionIndex:(NSUInteger )arg5 viewScale:(double)arg6;
+- (void)brushSection:(id)arg1 sectionIndex:(NSUInteger)arg2 ontoPath:(id)arg3 withScaling:(CDStruct_c3b9c2ee)arg4 inElementRange:(NSRange)arg5 into:(id)arg6 viewScale:(double)arg7;
 - (id)description;
 - (void)paintLineEnd:(id)arg1 atPoint:(CGPoint)arg2 atAngle:(double)arg3 withScale:(double)arg4 inContext:(CGContext )arg5 useFastDrawing:(BOOL)arg6;
 - (void)paintLineEnd:(id)arg1 atPoint:(CGPoint)arg2 atAngle:(double)arg3 withScale:(double)arg4 inContext:(CGContext )arg5;

@@ -37,7 +37,7 @@
 - (CGRect)_glyphsBoundingRect;
 - (CGPoint)_offsetOfBoundingRect:(CGRect)arg1 inRect:(CGRect)arg2;
 - (struct __CTLine )_newLineFromDrawableTextStorage;
-- (_NSRange)_drawableCharacterRange:(_NSRange )arg1;
+- (NSRange)_drawableCharacterRange:(NSRange )arg1;
 @property(readonly, nonatomic) CGRect textBoundingRect;
 - (void)drawTextInRect:(CGRect)arg1;
 - (CGSize)sizeThatFits:(CGSize)arg1;

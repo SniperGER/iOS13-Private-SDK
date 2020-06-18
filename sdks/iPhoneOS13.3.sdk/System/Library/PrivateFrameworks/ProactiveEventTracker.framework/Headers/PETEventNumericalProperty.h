@@ -8,7 +8,7 @@
 
 @interface PETEventNumericalProperty : PETEventProperty
 {
-    _NSRange _validRange;
+    NSRange _validRange;
     BOOL _clampValues;
 }
 
@@ -17,9 +17,9 @@
 - (NSUInteger)_unsignedIntegerValueForNumericValue:(id)arg1;
 - (id)_loggingKeyStringRepresentationForValue:(id)arg1;
 - (BOOL)isValidValue:(id)arg1;
-- (_NSRange)validRange;
+- (NSRange)validRange;
 - (id)description;
-- (id)initWithName:(id)arg1 range:(_NSRange)arg2 clampValues:(BOOL)arg3;
+- (id)initWithName:(id)arg1 range:(NSRange)arg2 clampValues:(BOOL)arg3;
 
 @end
 

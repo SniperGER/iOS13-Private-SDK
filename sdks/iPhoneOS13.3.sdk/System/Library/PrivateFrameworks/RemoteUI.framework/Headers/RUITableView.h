@@ -53,7 +53,7 @@
 @property(readonly, nonatomic) NSMutableArray *sections; // @synthesize sections=_sections;
 // - (void).cxx_destruct;
 - (Class)tableCellClassForTableViewRow:(id)arg1;
-- (id)textFieldRow:(id)arg1 changeCharactersInRange:(_NSRange)arg2 replacementString:(id)arg3;
+- (id)textFieldRow:(id)arg1 changeCharactersInRange:(NSRange)arg2 replacementString:(id)arg3;
 - (void)rowIsFirstResponder:(id)arg1;
 - (void)rowDidChange:(id)arg1 action:(int)arg2;
 - (BOOL)_becomeFirstResponderAtIndexPath:(id)arg1;

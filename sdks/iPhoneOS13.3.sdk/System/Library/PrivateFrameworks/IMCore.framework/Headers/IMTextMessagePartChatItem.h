@@ -15,9 +15,9 @@
 
 @property(readonly, copy, nonatomic) NSAttributedString *subject; // @synthesize subject=_subject;
 // - (void).cxx_destruct;
-- (id)_initWithItem:(id)arg1 text:(id)arg2 index:(long long)arg3 messagePartRange:(_NSRange)arg4 subject:(id)arg5 visibleAssociatedMessageChatItems:(id)arg6;
-- (id)_initWithItem:(id)arg1 text:(id)arg2 index:(long long)arg3 messagePartRange:(_NSRange)arg4 subject:(id)arg5;
-- (id)_initWithItem:(id)arg1 text:(id)arg2 index:(long long)arg3 messagePartRange:(_NSRange)arg4 subject:(id)arg5 shouldDisplayLink:(BOOL)arg6;
+- (id)_initWithItem:(id)arg1 text:(id)arg2 index:(long long)arg3 messagePartRange:(NSRange)arg4 subject:(id)arg5 visibleAssociatedMessageChatItems:(id)arg6;
+- (id)_initWithItem:(id)arg1 text:(id)arg2 index:(long long)arg3 messagePartRange:(NSRange)arg4 subject:(id)arg5;
+- (id)_initWithItem:(id)arg1 text:(id)arg2 index:(long long)arg3 messagePartRange:(NSRange)arg4 subject:(id)arg5 shouldDisplayLink:(BOOL)arg6;
 // - (id)copyWithZone:(_NSZone )arg1;
 - (id)description;
 - (void)setShouldDisplayRichLink:(BOOL)arg1;

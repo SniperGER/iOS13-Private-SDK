@@ -78,10 +78,10 @@
 - (long long)performHitTestForTouchEvent:(id)arg1 keyboardState:(id)arg2;
 - (id)generateRefinementsForCandidate:(id)arg1;
 - (id)generateReplacementsForString:(id)arg1 keyLayout:(id)arg2;
-- (void)generateCandidatesWithKeyboardState:(id)arg1 candidateRange:(_NSRange)arg2 completionHandler:(id /* CDUnknownBlockType */)arg3;
+- (void)generateCandidatesWithKeyboardState:(id)arg1 candidateRange:(NSRange)arg2 completionHandler:(id /* CDUnknownBlockType */)arg3;
 - (BOOL)alreadyGeneratedCandidates;
 - (BOOL)supportsCandidateGeneration;
-- (void)generateAutocorrectionsWithKeyboardState:(id)arg1 candidateRange:(_NSRange)arg2 candidateHandler:(id)arg3;
+- (void)generateAutocorrectionsWithKeyboardState:(id)arg1 candidateRange:(NSRange)arg2 candidateHandler:(id)arg3;
 - (id)keyboardConfiguration;
 - (void)updateProactiveCandidatesForCandidateResultSet:(id)arg1 withInput:(id)arg2;
 - (void)addProactiveTriggers:(id)arg1 withCompletionHandler:(id /* CDUnknownBlockType */)arg2;
@@ -126,7 +126,7 @@
 - (void)restoreGeometryForInput:(id)arg1 atIndex:(NSUInteger)arg2;
 - (void)saveGeometryForInput:(id)arg1 atIndex:(NSUInteger)arg2;
 @property(readonly, nonatomic) NSCharacterSet *validCharacterSetForAutocorrection;
-- (_NSRange)analysisStringRange;
+- (NSRange)analysisStringRange;
 - (id)geometryModelData;
 @property(readonly, nonatomic) NSMutableArray *touchDataArray; // @synthesize touchDataArray=_touchDataArray;
 @property(readonly, nonatomic) struct __Mecabra mecabra;

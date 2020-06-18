@@ -58,7 +58,7 @@
 - (id)descriptionBuilderWithMultilinePrefix:(id)arg1;
 - (id)descriptionWithMultilinePrefix:(id)arg1;
 @property(readonly, copy) NSString *debugDescription;
-- (BOOL)textView:(id)arg1 shouldInteractWithURL:(id)arg2 inRange:(_NSRange)arg3 interaction:(long long)arg4;
+- (BOOL)textView:(id)arg1 shouldInteractWithURL:(id)arg2 inRange:(NSRange)arg3 interaction:(long long)arg4;
 - (void)traitCollectionDidChange:(id)arg1;
 - (BOOL)adjustForContentSizeCategoryChange;
 - (void)setVisualStylingProvider:(id)arg1 forCategory:(long long)arg2;

@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 
 + (int)_atomicIncrementAssertCount;
 + (void)handleFailureInFunction:(id)arg1 file:(id)arg2 lineNumber:(long long)arg3 isFatal:(BOOL)arg4 description:(const char )arg5;
-+ (void)handleFailureInFunction:(id)arg1 file:(id)arg2 lineNumber:(long long)arg3 isFatal:(BOOL)arg4 format:(id)arg5 args:(struct __va_list_tag [1])arg6;
+// + (void)handleFailureInFunction:(id)arg1 file:(id)arg2 lineNumber:(long long)arg3 isFatal:(BOOL)arg4 format:(id)arg5 args:(struct __va_list_tag [1])arg6;
 + (void)simulateCrashWithMessage:(id)arg1;
 + (id)packedBacktraceStringWithReturnAddresses:(id)arg1;
 + (id)packedBacktraceString;

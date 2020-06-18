@@ -11,6 +11,6 @@
 @protocol ICTableCellMergeableStringObserving <NSObject>
 @property(readonly, nonatomic) BOOL shouldPreventUndoCommands;
 @property(readonly, nonatomic) id <ICTableUndoHelping> undoHelper;
-- (void)tableCellWasEditedAtColumnID:(NSUUID *)arg1 rowID:(NSUUID *)arg2 edited:(NSUInteger)arg3 range:(_NSRange)arg4 changeInLength:(long long)arg5;
+- (void)tableCellWasEditedAtColumnID:(NSUUID *)arg1 rowID:(NSUUID *)arg2 edited:(NSUInteger)arg3 range:(NSRange)arg4 changeInLength:(long long)arg5;
 @end
 

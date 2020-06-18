@@ -11,9 +11,9 @@
 @interface WFVariableString (AttributedString)
 + (id)attributedStringWithVariable:(id)arg1;
 - (id)attributedStringByAddingTypingAttributes:(id)arg1;
-- (id)substringWithRange:(_NSRange)arg1;
-- (id)stringByReplacingCharactersInRange:(_NSRange)arg1 withVariableString:(id)arg2;
-- (id)stringByReplacingCharactersInRange:(_NSRange)arg1 withVariable:(id)arg2;
+- (id)substringWithRange:(NSRange)arg1;
+- (id)stringByReplacingCharactersInRange:(NSRange)arg1 withVariableString:(id)arg2;
+- (id)stringByReplacingCharactersInRange:(NSRange)arg1 withVariable:(id)arg2;
 @property(readonly, nonatomic) NSAttributedString *attributedString;
 - (id)initWithAttributedString:(id)arg1;
 @end

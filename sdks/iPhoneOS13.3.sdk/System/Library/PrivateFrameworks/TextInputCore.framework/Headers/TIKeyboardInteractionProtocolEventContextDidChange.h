@@ -17,7 +17,7 @@
     BOOL _cursorMoved;
     BOOL _extendsPriorWord;
     NSString *_word;
-    _NSRange _inWordRange;
+    NSRange _inWordRange;
     NSUInteger _selectionLocation;
 }
 
@@ -26,7 +26,7 @@
 - (void)sendTo:(id)arg1;
 - (id)initWithCoder:(id)arg1;
 - (void)encodeWithCoder:(id)arg1;
-- (id)initWithContext:(id)arg1 wordDelete:(BOOL)arg2 cursorMoved:(BOOL)arg3 extendsPriorWord:(BOOL)arg4 inWord:(id)arg5 range:(_NSRange)arg6 selectionLocation:(NSUInteger)arg7 keyboardState:(id)arg8;
+- (id)initWithContext:(id)arg1 wordDelete:(BOOL)arg2 cursorMoved:(BOOL)arg3 extendsPriorWord:(BOOL)arg4 inWord:(id)arg5 range:(NSRange)arg6 selectionLocation:(NSUInteger)arg7 keyboardState:(id)arg8;
 
 @end
 

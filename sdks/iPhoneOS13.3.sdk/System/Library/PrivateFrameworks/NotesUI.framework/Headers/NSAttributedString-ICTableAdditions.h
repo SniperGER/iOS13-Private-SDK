@@ -7,18 +7,18 @@
 #import <Foundation/NSAttributedString.h>
 
 @interface NSAttributedString (ICTableAdditions)
-- (id)ic_textTablesInRange:(_NSRange)arg1;
+- (id)ic_textTablesInRange:(NSRange)arg1;
 - (NSUInteger)ic_numberOfTables;
-- (_NSRange)ic_rangeofNextTableFromIndex:(NSUInteger)arg1;
-- (id)ic_nextTableStringFromIndex:(NSUInteger)arg1 tableRange:(_NSRange )arg2;
+- (NSRange)ic_rangeofNextTableFromIndex:(NSUInteger)arg1;
+- (id)ic_nextTableStringFromIndex:(NSUInteger)arg1 tableRange:(NSRange )arg2;
 - (NSUInteger)ic_numRowsForTextTable:(id)arg1 outNumColumns:(out NSUInteger )arg2;
-- (CDStruct_4bcfbbae)ic_tableSizeForTextTable:(id)arg1 inRange:(_NSRange)arg2;
+- (CDStruct_4bcfbbae)ic_tableSizeForTextTable:(id)arg1 inRange:(NSRange)arg2;
 - (id)ic_itemProviderDataForUTI:(id)arg1;
 - (id)ic_attributedStringByHighlightingRegex:(id)arg1 withHighlightColor:(UIColor )arg2;
 - (long long)ic_writingDirectionAtIndex:(NSUInteger)arg1;
 - (id)ic_attributesByHighlightingAttributes:(id)arg1 withHighlightColor:(UIColor )arg2;
 - (id)ic_stringWithoutAttachments;
 - (id)ic_stringByTrimmingLeadingTrailingWhitespace;
-- (_NSRange)ic_rangeForAttachment:(id)arg1 withTextAttachment:(id )arg2;
+- (NSRange)ic_rangeForAttachment:(id)arg1 withTextAttachment:(id )arg2;
 @end
 

@@ -19,11 +19,11 @@
 @property(readonly, retain, nonatomic) NSArray *standaloneFileTransferGUIDs; // @synthesize standaloneFileTransferGUIDs=_standaloneFileTransferGUIDs;
 @property(readonly, retain, nonatomic) NSArray *inlinedFileTransferGUIDs; // @synthesize inlinedFileTransferGUIDs=_inlinedFileTransferGUIDs;
 - (void)parser:(id)arg1 foundBreadcrumbText:(id)arg2 withOptions:(unsigned int)arg3;
-- (void)parser:(id)arg1 foundAttributes:(id)arg2 inRange:(_NSRange)arg3 fileTransferGUID:(id)arg4 filename:(id)arg5 bookmark:(id)arg6 width:(id)arg7 height:(id)arg8 emoji:(id)arg9;
-- (void)parser:(id)arg1 foundAttributes:(id)arg2 inRange:(_NSRange)arg3 fileTransferGUID:(id)arg4 filename:(id)arg5 bookmark:(id)arg6 width:(id)arg7 height:(id)arg8;
-- (void)parser:(id)arg1 foundAttributes:(id)arg2 inRange:(_NSRange)arg3 characters:(id)arg4;
+- (void)parser:(id)arg1 foundAttributes:(id)arg2 inRange:(NSRange)arg3 fileTransferGUID:(id)arg4 filename:(id)arg5 bookmark:(id)arg6 width:(id)arg7 height:(id)arg8 emoji:(id)arg9;
+- (void)parser:(id)arg1 foundAttributes:(id)arg2 inRange:(NSRange)arg3 fileTransferGUID:(id)arg4 filename:(id)arg5 bookmark:(id)arg6 width:(id)arg7 height:(id)arg8;
+- (void)parser:(id)arg1 foundAttributes:(id)arg2 inRange:(NSRange)arg3 characters:(id)arg4;
 - (void)parserDidStart:(id)arg1 bodyAttributes:(id)arg2;
-- (void)parser:(id)arg1 foundAttributes:(id)arg2 inRange:(_NSRange)arg3;
+- (void)parser:(id)arg1 foundAttributes:(id)arg2 inRange:(NSRange)arg3;
 - (void)parserDidStart:(id)arg1;
 - (id)resultsForLogging;
 - (id)name;

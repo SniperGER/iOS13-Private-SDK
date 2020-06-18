@@ -17,22 +17,22 @@ __attribute__((visibility("hidden")))
     id <TSTTableHiddenRowColumnProviding><TSTTableInternalGeometryProviding> _tableProvider;
     id <TSTCategoryProviding> _categoryProvider;
     NSPointerArray *_strokeTypeToLayerMap;
-    _NSRange _headerSideBorderColumnRange;
-    _NSRange _headerColumnSeparatorColumnRange;
-    _NSRange _bodySideBorderColumnRange;
-    _NSRange _topBorderRowRange;
-    _NSRange _headerRowSeparatorRowRange;
-    _NSRange _footerRowSeparatorRowRange;
-    _NSRange _bottomBorderRowRange;
+    NSRange _headerSideBorderColumnRange;
+    NSRange _headerColumnSeparatorColumnRange;
+    NSRange _bodySideBorderColumnRange;
+    NSRange _topBorderRowRange;
+    NSRange _headerRowSeparatorRowRange;
+    NSRange _footerRowSeparatorRowRange;
+    NSRange _bottomBorderRowRange;
 }
 
-@property(nonatomic) _NSRange bottomBorderRowRange; // @synthesize bottomBorderRowRange=_bottomBorderRowRange;
-@property(nonatomic) _NSRange footerRowSeparatorRowRange; // @synthesize footerRowSeparatorRowRange=_footerRowSeparatorRowRange;
-@property(nonatomic) _NSRange headerRowSeparatorRowRange; // @synthesize headerRowSeparatorRowRange=_headerRowSeparatorRowRange;
-@property(nonatomic) _NSRange topBorderRowRange; // @synthesize topBorderRowRange=_topBorderRowRange;
-@property(nonatomic) _NSRange bodySideBorderColumnRange; // @synthesize bodySideBorderColumnRange=_bodySideBorderColumnRange;
-@property(nonatomic) _NSRange headerColumnSeparatorColumnRange; // @synthesize headerColumnSeparatorColumnRange=_headerColumnSeparatorColumnRange;
-@property(nonatomic) _NSRange headerSideBorderColumnRange; // @synthesize headerSideBorderColumnRange=_headerSideBorderColumnRange;
+@property(nonatomic) NSRange bottomBorderRowRange; // @synthesize bottomBorderRowRange=_bottomBorderRowRange;
+@property(nonatomic) NSRange footerRowSeparatorRowRange; // @synthesize footerRowSeparatorRowRange=_footerRowSeparatorRowRange;
+@property(nonatomic) NSRange headerRowSeparatorRowRange; // @synthesize headerRowSeparatorRowRange=_headerRowSeparatorRowRange;
+@property(nonatomic) NSRange topBorderRowRange; // @synthesize topBorderRowRange=_topBorderRowRange;
+@property(nonatomic) NSRange bodySideBorderColumnRange; // @synthesize bodySideBorderColumnRange=_bodySideBorderColumnRange;
+@property(nonatomic) NSRange headerColumnSeparatorColumnRange; // @synthesize headerColumnSeparatorColumnRange=_headerColumnSeparatorColumnRange;
+@property(nonatomic) NSRange headerSideBorderColumnRange; // @synthesize headerSideBorderColumnRange=_headerSideBorderColumnRange;
 @property(retain, nonatomic) NSPointerArray *strokeTypeToLayerMap; // @synthesize strokeTypeToLayerMap=_strokeTypeToLayerMap;
 @property(nonatomic) BOOL isValid; // @synthesize isValid=_isValid;
 @property(nonatomic) __weak id <TSTCategoryProviding> categoryProvider; // @synthesize categoryProvider=_categoryProvider;

@@ -17,7 +17,7 @@
 - (void)setOriginalInput:(NSString *)arg1;
 - (void)adjustPhraseBoundaryInForwardDirection:(BOOL)arg1 granularity:(int)arg2 keyboardState:(TIKeyboardState *)arg3 completionHandler:(void (^)(TIKeyboardConfiguration *))arg4;
 - (void)adjustPhraseBoundaryInForwardDirection:(BOOL)arg1 keyboardState:(TIKeyboardState *)arg2 completionHandler:(void (^)(TIKeyboardConfiguration *))arg3;
-- (void)smartSelectionForTextInDocument:(NSString *)arg1 inRange:(_NSRange)arg2 language:(NSString *)arg3 tokenizedRanges:(NSArray *)arg4 options:(NSUInteger)arg5 completion:(void (^)(_NSRange))arg6;
+- (void)smartSelectionForTextInDocument:(NSString *)arg1 inRange:(NSRange)arg2 language:(NSString *)arg3 tokenizedRanges:(NSArray *)arg4 options:(NSUInteger)arg5 completion:(void (^)(NSRange))arg6;
 - (void)skipHitTestForTouchEvents:(NSArray *)arg1 keyboardState:(TIKeyboardState *)arg2;
 - (void)skipHitTestForTouchEvent:(TIKeyboardTouchEvent *)arg1 keyboardState:(TIKeyboardState *)arg2;
 - (void)performHitTestForTouchEvents:(NSArray *)arg1 keyboardState:(TIKeyboardState *)arg2 continuation:(void (^)(long long))arg3;
@@ -25,9 +25,9 @@
 - (void)generateRefinementsForCandidate:(TIKeyboardCandidate *)arg1 keyboardState:(TIKeyboardState *)arg2 completionHandler:(void (^)(TIAutocorrectionList *))arg3;
 - (void)generateReplacementsForString:(NSString *)arg1 keyLayout:(TIKeyboardLayout *)arg2 continuation:(void (^)(NSArray *))arg3;
 - (void)handleAcceptedCandidate:(TIKeyboardCandidate *)arg1 keyboardState:(TIKeyboardState *)arg2 completionHandler:(void (^)(TIKeyboardConfiguration *, TIKeyboardOutput *))arg3;
-- (void)generateCandidatesWithKeyboardState:(TIKeyboardState *)arg1 candidateRange:(_NSRange)arg2 completionHandler:(void (^)(TIKeyboardCandidateResultSet *))arg3;
-- (void)generateAutocorrectionsWithKeyboardState:(TIKeyboardState *)arg1 candidateRange:(_NSRange)arg2 requestToken:(TICandidateRequestToken *)arg3 completionHandler:(void (^)(TIAutocorrectionList *))arg4;
-- (void)generateAutocorrectionsWithKeyboardState:(TIKeyboardState *)arg1 candidateRange:(_NSRange)arg2 completionHandler:(void (^)(TIAutocorrectionList *))arg3;
+- (void)generateCandidatesWithKeyboardState:(TIKeyboardState *)arg1 candidateRange:(NSRange)arg2 completionHandler:(void (^)(TIKeyboardCandidateResultSet *))arg3;
+- (void)generateAutocorrectionsWithKeyboardState:(TIKeyboardState *)arg1 candidateRange:(NSRange)arg2 requestToken:(TICandidateRequestToken *)arg3 completionHandler:(void (^)(TIAutocorrectionList *))arg4;
+- (void)generateAutocorrectionsWithKeyboardState:(TIKeyboardState *)arg1 candidateRange:(NSRange)arg2 completionHandler:(void (^)(TIAutocorrectionList *))arg3;
 - (void)generateAutocorrectionsWithKeyboardState:(TIKeyboardState *)arg1 completionHandler:(void (^)(TIAutocorrectionList *))arg2;
 - (void)handleKeyboardInput:(TIKeyboardInput *)arg1 keyboardState:(TIKeyboardState *)arg2 completionHandler:(void (^)(TIKeyboardOutput *, TIKeyboardConfiguration *))arg3;
 - (void)syncToKeyboardState:(TIKeyboardState *)arg1 completionHandler:(void (^)(TIKeyboardConfiguration *))arg2;

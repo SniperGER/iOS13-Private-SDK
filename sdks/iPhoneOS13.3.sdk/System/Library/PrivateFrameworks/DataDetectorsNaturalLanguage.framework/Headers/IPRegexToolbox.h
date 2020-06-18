@@ -12,8 +12,8 @@
 
 + (id)regularExpressionWithKey:(id)arg1 generator:(id /* CDUnknownBlockType */)arg2;
 + (id)emailSubjectPrefixRegex;
-+ (BOOL)isRangeInsideQuotationMarks:(_NSRange)arg1 text:(id)arg2 limitToSurroundingText:(BOOL)arg3;
-+ (BOOL)isRangeNearbyExclusionKeyword:(_NSRange)arg1 text:(id)arg2 limitToSurroundingText:(BOOL)arg3 language:(id)arg4;
++ (BOOL)isRangeInsideQuotationMarks:(NSRange)arg1 text:(id)arg2 limitToSurroundingText:(BOOL)arg3;
++ (BOOL)isRangeNearbyExclusionKeyword:(NSRange)arg1 text:(id)arg2 limitToSurroundingText:(BOOL)arg3 language:(id)arg4;
 + (id)matchingKeywordResultsForRegex:(id)arg1 inString:(id)arg2 needsToLowercase:(BOOL)arg3;
 + (id)firstMatchingKeywordForRegex:(id)arg1 inString:(id)arg2 needsToLowercase:(BOOL)arg3;
 + (NSUInteger)numberOfMatchesForRegex:(id)arg1 inString:(id)arg2 needsToLowercase:(BOOL)arg3;

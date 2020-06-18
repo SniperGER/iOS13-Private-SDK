@@ -8,12 +8,12 @@
 
 @interface IKCSSParseDeclarationList : IKCSSParseBlock
 {
-    _NSRange __range;
+    NSRange __range;
 }
 
 - (id)description;
-- (_NSRange)range;
-- (void)setRange:(_NSRange)arg1;
+- (NSRange)range;
+- (void)setRange:(NSRange)arg1;
 - (id)init;
 
 @end

@@ -7,9 +7,14 @@
 
 @class NSString;
 
+#ifndef NTKRemoteComplicationProvider_Protocol
+#define NTKRemoteComplicationProvider_Protocol
+
 @protocol NTKRemoteComplicationProvider <NSObject>
 - (NSString *)localizedAppNameForClientIdentifier:(NSString *)arg1;
 - (BOOL)vendorExistsWithClientIdentifier:(NSString *)arg1 appBundleIdentifier:(NSString *)arg2;
 - (void)enumerateEnabledVendorsForComplicationFamily:(long long)arg1 withBlock:(void (^)(NSString *, NSString *))arg2;
 @end
+
+#endif
 

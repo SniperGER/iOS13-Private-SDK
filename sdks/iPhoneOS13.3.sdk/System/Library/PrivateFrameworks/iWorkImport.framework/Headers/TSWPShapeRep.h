@@ -23,13 +23,13 @@ __attribute__((visibility("hidden")))
 
 + (double)magicMoveAttributeMatchPercentBetweenOutgoingObject:(id)arg1 incomingObject:(id)arg2 mixingTypeContext:(id)arg3;
 + (id)magicMoveTextMatchesBetweenOutgoingObjects:(id)arg1 andIncomingObjects:(id)arg2 textureDescription:(id)arg3 textDeliveryType:(long long)arg4 repToOpacityTextRangeDictMap:(id)arg5;
-+ (BOOL)p_shouldDisableTextMorphingBetweenOutgoingRep:(id)arg1 outgoingChunkRange:(_NSRange)arg2 incomingRep:(id)arg3 incomingChunkRange:(_NSRange)arg4;
++ (BOOL)p_shouldDisableTextMorphingBetweenOutgoingRep:(id)arg1 outgoingChunkRange:(NSRange)arg2 incomingRep:(id)arg3 incomingChunkRange:(NSRange)arg4;
 + (id)magicMoveAnimationMatchesFromMatches:(id)arg1 description:(id)arg2;
-+ (void)p_getOutgoingTextureSet:(id )arg1 incomingTextureSet:(id )arg2 withOutgoingRep:(id)arg3 outgoingChunkRange:(_NSRange)arg4 outgoingTextureByGlyphStyle:(int)arg5 incomingRep:(id)arg6 incomingChunkRange:(_NSRange)arg7 incomingTextureByGlyphStyle:(int)arg8 includeListLabels:(BOOL)arg9;
-+ (id)p_textureSetFromRep:(id)arg1 range:(_NSRange)arg2 textureByGlyphStyle:(int)arg3 includeListLabel:(BOOL)arg4 desiredContentRect:(CGRect)arg5;
++ (void)p_getOutgoingTextureSet:(id )arg1 incomingTextureSet:(id )arg2 withOutgoingRep:(id)arg3 outgoingChunkRange:(NSRange)arg4 outgoingTextureByGlyphStyle:(int)arg5 incomingRep:(id)arg6 incomingChunkRange:(NSRange)arg7 incomingTextureByGlyphStyle:(int)arg8 includeListLabels:(BOOL)arg9;
++ (id)p_textureSetFromRep:(id)arg1 range:(NSRange)arg2 textureByGlyphStyle:(int)arg3 includeListLabel:(BOOL)arg4 desiredContentRect:(CGRect)arg5;
 + (BOOL)p_listLabelsAreEqualWithOutgoingStorage:(id)arg1 outgoingCharIndex:(long long)arg2 incomingStorage:(id)arg3 incomingCharIndex:(long long)arg4 shouldMatch:(BOOL )arg5;
 + (NSUInteger)p_longestChunkInOutgoingObjects:(id)arg1 incomingObjects:(id)arg2 textDeliveryType:(long long)arg3 addOutgoingChunksToArray:(id)arg4 addIncomingChunksToArray:(id)arg5 textureDescription:(id)arg6;
-+ (id)p_stringByApplyingCapitalizationPropertyFromStorage:(id)arg1 withRange:(_NSRange)arg2 toString:(id)arg3;
++ (id)p_stringByApplyingCapitalizationPropertyFromStorage:(id)arg1 withRange:(NSRange)arg2 toString:(id)arg3;
 + (id)p_potentialMatchesWithChunkLength:(NSUInteger)arg1 outgoingTextChunks:(id)arg2 incomingTextChunks:(id)arg3 textureDescription:(id)arg4 textDeliveryType:(long long)arg5;
 + (double)p_mmAttributeMatchPercentWithOutgoingTextChunk:(id)arg1 incomingTextChunk:(id)arg2;
 @property(readonly, nonatomic) TSWPRep *containedRep; // @synthesize containedRep=_containedRep;
@@ -46,14 +46,14 @@ __attribute__((visibility("hidden")))
 - (void)updateChildrenFromLayout;
 - (void)dealloc;
 - (id)initWithLayout:(id)arg1 canvas:(id)arg2;
-- (id)newTextureRenderableForRange:(_NSRange)arg1 includeListLabel:(BOOL)arg2 isMagicMove:(BOOL)arg3 desiredContentRect:(CGRect)arg4 textureByGlyphStyle:(int)arg5 includeGroupedShadow:(BOOL)arg6 groupedShadowOnly:(BOOL)arg7 textureBounds:(CGRect )arg8;
-- (BOOL)p_getBoundsRect:(CGRect )arg1 contentRect:(CGRect )arg2 transform:(CGAffineTransform )arg3 applyReflection:(BOOL )arg4 applyShadow:(BOOL )arg5 forRange:(_NSRange)arg6 includeListLabel:(BOOL)arg7 isMagicMove:(BOOL)arg8;
-- (BOOL)p_hasContentForRange:(_NSRange)arg1 labelOnly:(BOOL)arg2;
-- (void)p_drawRubyInContext:(CGContext )arg1 forRange:(_NSRange)arg2;
-- (CGRect)p_rectForRubyFields:(_NSRange)arg1;
+- (id)newTextureRenderableForRange:(NSRange)arg1 includeListLabel:(BOOL)arg2 isMagicMove:(BOOL)arg3 desiredContentRect:(CGRect)arg4 textureByGlyphStyle:(int)arg5 includeGroupedShadow:(BOOL)arg6 groupedShadowOnly:(BOOL)arg7 textureBounds:(CGRect )arg8;
+- (BOOL)p_getBoundsRect:(CGRect )arg1 contentRect:(CGRect )arg2 transform:(CGAffineTransform )arg3 applyReflection:(BOOL )arg4 applyShadow:(BOOL )arg5 forRange:(NSRange)arg6 includeListLabel:(BOOL)arg7 isMagicMove:(BOOL)arg8;
+- (BOOL)p_hasContentForRange:(NSRange)arg1 labelOnly:(BOOL)arg2;
+- (void)p_drawRubyInContext:(CGContext )arg1 forRange:(NSRange)arg2;
+- (CGRect)p_rectForRubyFields:(NSRange)arg1;
 @property(readonly, nonatomic) TSWPStorage *textStorageForTexture;
 - (id)textureForDescription:(id)arg1;
-- (long long)stageIndexForStorageRange:(_NSRange)arg1 forTextureDescription:(id)arg2 stageChunks:(id)arg3;
+- (long long)stageIndexForStorageRange:(NSRange)arg1 forTextureDescription:(id)arg2 stageChunks:(id)arg3;
 - (id)stageChunksForDeliveryStyle:(NSUInteger)arg1 byGlyphStyle:(int)arg2;
 @property(readonly, nonatomic) BOOL isShapeInvisible;
 

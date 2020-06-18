@@ -5,7 +5,12 @@
 //
 
 
+#ifndef NTKSiderealDataSourceDelegate_Protocol
+#define NTKSiderealDataSourceDelegate_Protocol
+
 @protocol NTKSiderealDataSourceDelegate <NSObject>
 - (void)dataSourceDidUpdateSolarData;
 @end
+
+#endif
 

@@ -14,15 +14,15 @@
     NSUInteger _type;
     NSString *_name;
     NSString *_aliasedName;
-    _NSRange _range;
-    _NSRange _nameRange;
-    _NSRange _valueRange;
+    NSRange _range;
+    NSRange _nameRange;
+    NSRange _valueRange;
 }
 
 + (id)typeString:(NSUInteger)arg1;
-@property(nonatomic) _NSRange valueRange; // @synthesize valueRange=_valueRange;
-@property(nonatomic) _NSRange nameRange; // @synthesize nameRange=_nameRange;
-@property(nonatomic) _NSRange range; // @synthesize range=_range;
+@property(nonatomic) NSRange valueRange; // @synthesize valueRange=_valueRange;
+@property(nonatomic) NSRange nameRange; // @synthesize nameRange=_nameRange;
+@property(nonatomic) NSRange range; // @synthesize range=_range;
 @property BOOL important; // @synthesize important=_important;
 @property(retain, nonatomic) NSString *aliasedName; // @synthesize aliasedName=_aliasedName;
 @property(retain, nonatomic) NSString *name; // @synthesize name=_name;

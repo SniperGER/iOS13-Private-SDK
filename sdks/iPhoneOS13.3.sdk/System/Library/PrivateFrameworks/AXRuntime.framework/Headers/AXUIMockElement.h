@@ -34,7 +34,7 @@
 - (void)setAXAttribute:(long long)arg1 withArray:(id)arg2;
 - (void)setAXAttribute:(long long)arg1 withUIElementArray:(id)arg2;
 - (void)setAXAttribute:(long long)arg1 withUIElement:(id)arg2;
-- (void)setAXAttribute:(long long)arg1 withRange:(_NSRange)arg2;
+- (void)setAXAttribute:(long long)arg1 withRange:(NSRange)arg2;
 - (void)setAXAttribute:(long long)arg1 withSize:(CGSize)arg2;
 - (void)setAXAttribute:(long long)arg1 withPoint:(CGPoint)arg2;
 - (void)setAXAttribute:(long long)arg1 withNumber:(id)arg2;
@@ -63,7 +63,7 @@
 - (id)urlWithAXAttribute:(long long)arg1;
 - (CGRect)rectWithAXAttribute:(long long)arg1;
 - (CGPath )pathWithAXAttribute:(long long)arg1;
-- (_NSRange)rangeWithAXAttribute:(long long)arg1;
+- (NSRange)rangeWithAXAttribute:(long long)arg1;
 - (CGSize)sizeWithAXAttribute:(long long)arg1;
 - (CGPoint)pointWithAXAttribute:(long long)arg1;
 - (id)numberWithAXAttribute:(long long)arg1;

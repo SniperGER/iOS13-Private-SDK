@@ -5,8 +5,13 @@
 //
 
 
+#ifndef NTKTimeTravelModuleViewTapClient_Protocol
+#define NTKTimeTravelModuleViewTapClient_Protocol
+
 @protocol NTKTimeTravelModuleViewTapClient <NSObject>
 - (UIEdgeInsets)timeTravelModuleTouchInsets;
 - (void)performTimeTravelModuleTapAction;
 @end
+
+#endif
 

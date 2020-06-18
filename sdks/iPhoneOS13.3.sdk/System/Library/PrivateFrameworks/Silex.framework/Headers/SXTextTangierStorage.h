@@ -28,8 +28,8 @@
 @property(readonly, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
 // - (void).cxx_destruct;
 - (void)dealloc;
-- (_NSRange)wordAtCharIndex:(NSUInteger)arg1 includePreviousWord:(BOOL)arg2;
-- (_NSRange)insertAttachmentOrFootnote:(id)arg1 range:(_NSRange)arg2;
+- (NSRange)wordAtCharIndex:(NSUInteger)arg1 includePreviousWord:(BOOL)arg2;
+- (NSRange)insertAttachmentOrFootnote:(id)arg1 range:(NSRange)arg2;
 - (BOOL)supportsSections;
 - (id)initWithContext:(id)arg1 stylesheet:(id)arg2 storageKind:(int)arg3 string:(id)arg4 locale:(id)arg5;
 

@@ -33,8 +33,8 @@
 @property(readonly) NSUInteger parentRelativeLevel;
 @property(readonly) id <MTLTexture> parentTexture;
 @property(readonly) id <MTLResource> rootResource;
-- (id <MTLTexture>)newTextureViewWithPixelFormat:(NSUInteger)arg1 textureType:(NSUInteger)arg2 levels:(_NSRange)arg3 slices:(_NSRange)arg4 swizzle:(CDStruct_a06f635e)arg5;
-- (id <MTLTexture>)newTextureViewWithPixelFormat:(NSUInteger)arg1 textureType:(NSUInteger)arg2 levels:(_NSRange)arg3 slices:(_NSRange)arg4;
+- (id <MTLTexture>)newTextureViewWithPixelFormat:(NSUInteger)arg1 textureType:(NSUInteger)arg2 levels:(NSRange)arg3 slices:(NSRange)arg4 swizzle:(CDStruct_a06f635e)arg5;
+- (id <MTLTexture>)newTextureViewWithPixelFormat:(NSUInteger)arg1 textureType:(NSUInteger)arg2 levels:(NSRange)arg3 slices:(NSRange)arg4;
 - (id <MTLTexture>)newTextureViewWithPixelFormat:(NSUInteger)arg1;
 - (void)replaceRegion:(CDStruct_1e3be3a8)arg1 mipmapLevel:(NSUInteger)arg2 withBytes:(const void )arg3 bytesPerRow:(NSUInteger)arg4;
 - (void)getBytes:(void )arg1 bytesPerRow:(NSUInteger)arg2 fromRegion:(CDStruct_1e3be3a8)arg3 mipmapLevel:(NSUInteger)arg4;

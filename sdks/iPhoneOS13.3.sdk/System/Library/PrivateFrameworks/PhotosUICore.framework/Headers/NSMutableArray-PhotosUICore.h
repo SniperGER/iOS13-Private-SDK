@@ -8,7 +8,7 @@
 
 @interface NSMutableArray (PhotosUICore)
 - (id)px_popFirstPassingTest:(id /* CDUnknownBlockType */)arg1;
-- (id)px_popRange:(_NSRange)arg1;
+- (id)px_popRange:(NSRange)arg1;
 - (id)px_popLast;
 - (id)px_popFirst;
 @end

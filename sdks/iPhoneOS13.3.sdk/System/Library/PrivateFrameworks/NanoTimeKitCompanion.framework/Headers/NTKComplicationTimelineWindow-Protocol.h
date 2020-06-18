@@ -7,10 +7,15 @@
 
 @class NSDate;
 
+#ifndef NTKComplicationTimelineWindow_Protocol
+#define NTKComplicationTimelineWindow_Protocol
+
 @protocol NTKComplicationTimelineWindow <NSObject>
 - (NSUInteger)rightEntryCount;
 - (NSUInteger)leftEntryCount;
 - (NSDate *)rightmostContiguousEntryDate;
 - (NSDate *)leftmostContiguousEntryDate;
 @end
+
+#endif
 

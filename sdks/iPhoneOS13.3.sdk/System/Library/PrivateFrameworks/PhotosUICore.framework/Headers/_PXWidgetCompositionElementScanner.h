@@ -13,7 +13,7 @@
 @interface _PXWidgetCompositionElementScanner : NSObject <_PXWidgetCompositionRow>
 {
     long long _scanLocation;
-    _NSRange _scannedRowRange;
+    NSRange _scannedRowRange;
     NSArray *_elements;
     id /* CDUnknownBlockType */ _wantsEdgeToEdgeLayoutBlock;
     double _referenceWidth;

@@ -24,8 +24,8 @@
 - (BOOL)writeToURL:(id)arg1 atomically:(BOOL)arg2;
 - (BOOL)writeToFile:(id)arg1 atomically:(BOOL)arg2;
 - (id)data;
-- (id)_initWithRange:(_NSRange)arg1 from:(id)arg2 retainingParent:(BOOL)arg3;
-- (id)subdataWithRange:(_NSRange)arg1;
+- (id)_initWithRange:(NSRange)arg1 from:(id)arg2 retainingParent:(BOOL)arg3;
+- (id)subdataWithRange:(NSRange)arg1;
 - (const void )bytes;
 - (NSUInteger)length;
 - (void)dealloc;

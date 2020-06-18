@@ -137,7 +137,7 @@
 - (void)_forceReloadChats:(BOOL)arg1;
 - (void)_setInitialLoadForTesting:(BOOL)arg1;
 - (id)_chatInfoForSaving;
-- (id)_chatInfoInRange:(_NSRange)arg1 wantsBlackholed:(BOOL)arg2;
+- (id)_chatInfoInRange:(NSRange)arg1 wantsBlackholed:(BOOL)arg2;
 - (id)_blackholedChatInfoForNumberOfChats:(long long)arg1;
 - (id)_chatInfoForNumberOfChats:(long long)arg1;
 - (id)_allChatInfo;

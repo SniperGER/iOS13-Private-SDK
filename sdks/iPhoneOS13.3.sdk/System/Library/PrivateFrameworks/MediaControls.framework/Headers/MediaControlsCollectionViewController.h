@@ -94,7 +94,7 @@
 - (CGRect)_frameForViewAtIndex:(long long)arg1 displayMode:(long long)arg2 size:(CGSize)arg3;
 - (CGRect)_frameForViewAtIndex:(long long)arg1 size:(CGSize)arg2;
 - (CGRect)_frameForViewAtIndex:(long long)arg1;
-- (_NSRange)_rangeOfItemsInRect:(CGRect)arg1;
+- (NSRange)_rangeOfItemsInRect:(CGRect)arg1;
 - (id)_indexesOfItemsInRect:(CGRect)arg1;
 - (double)_selectedItemHeightInSize:(CGSize)arg1 shouldIgnoreInsets:(BOOL)arg2;
 - (double)_selectedItemHeightInSize:(CGSize)arg1;

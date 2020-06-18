@@ -19,7 +19,7 @@
 + (id)compoundTextProviderCurrentlyFormattingOnThisThread;
 + (id)compoundProviderWithLocalizedFormat:(id)arg1 localizedTextProviders:(id)arg2;
 // - (void).cxx_destruct;
-- (void)_processFormat:(id)arg1 arguments:(struct __va_list_tag [1])arg2;
+// - (void)_processFormat:(id)arg1 arguments:(struct __va_list_tag [1])arg2;
 - (id)_arrayOfTextProviderJSONObjectRepresentations;
 - (id)JSONObjectRepresentation;
 - (id)_initWithJSONObjectRepresentation:(id)arg1;
@@ -40,7 +40,7 @@
 - (id)description;
 - (void)addTextProvider:(id)arg1 andGetPlaceholderString:(id )arg2;
 - (id)initWithSegments:(id)arg1 textProviders:(id)arg2;
-- (id)initWithFormat:(id)arg1 arguments:(struct __va_list_tag [1])arg2;
+// - (id)initWithFormat:(id)arg1 arguments:(struct __va_list_tag [1])arg2;
 
 @end
 

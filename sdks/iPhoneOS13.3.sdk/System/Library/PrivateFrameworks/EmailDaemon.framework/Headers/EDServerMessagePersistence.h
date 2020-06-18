@@ -39,7 +39,7 @@
 - (BOOL)addServerMessage:(id)arg1 invalidMessage:(BOOL )arg2 duplicateRemoteID:(BOOL )arg3;
 - (id)_serverMessageForRow:(id)arg1 connection:(id)arg2;
 - (id)_serverMessagesWithWhereClause:(id)arg1 limitClause:(id)arg2 returnLastEntries:(BOOL)arg3;
-- (id)serverMessagesInIMAPUIDRange:(_NSRange)arg1 limit:(NSUInteger)arg2 returnLastEntries:(BOOL)arg3;
+- (id)serverMessagesInIMAPUIDRange:(NSRange)arg1 limit:(NSUInteger)arg2 returnLastEntries:(BOOL)arg3;
 - (id)serverMessagesForRemoteIDs:(id)arg1;
 @property(readonly, nonatomic) unsigned int minimumIMAPUID;
 @property(readonly, nonatomic) unsigned int maximumIMAPUID;

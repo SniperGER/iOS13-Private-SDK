@@ -11,7 +11,7 @@
 }
 
 + (id)scanString:(id)arg1 scanRanges:(id)arg2;
-+ (id)calculateScanRanges:(id)arg1 changedRange:(_NSRange)arg2;
++ (id)calculateScanRanges:(id)arg1 changedRange:(NSRange)arg2;
 + (void)registerDataDetectorClass:(Class)arg1;
 
 @end

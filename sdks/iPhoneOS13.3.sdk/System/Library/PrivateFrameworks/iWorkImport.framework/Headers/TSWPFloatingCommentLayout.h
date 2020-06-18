@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)paragraphStyleAtParIndex:(NSUInteger)arg1 effectiveRange:(_NSRange )arg2;
+- (id)paragraphStyleAtParIndex:(NSUInteger)arg1 effectiveRange:(NSRange )arg2;
 - (id)styleProvider;
 - (BOOL)shouldDisplayGuides;
 - (CGSize)minimumSize;

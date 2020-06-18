@@ -13,26 +13,26 @@ __attribute__((visibility("hidden")))
     vector_b5e32e34 _rangeVector;
 }
 
-+ (id)rangeArrayWithRange:(_NSRange)arg1;
++ (id)rangeArrayWithRange:(NSRange)arg1;
 + (id)rangeArray;
 - (id).cxx_construct;
 // - (void).cxx_destruct;
 - (NSUInteger)p_finish;
 - (NSUInteger)p_start;
-- (id)rangesIntersecting:(_NSRange)arg1;
-- (id)intersection:(_NSRange)arg1;
-- (NSUInteger)indexForRange:(_NSRange)arg1;
-- (BOOL)intersectsRange:(_NSRange)arg1;
-- (_NSRange)rangeContainingPosition:(NSUInteger)arg1;
-- (BOOL)containsRange:(_NSRange)arg1;
+- (id)rangesIntersecting:(NSRange)arg1;
+- (id)intersection:(NSRange)arg1;
+- (NSUInteger)indexForRange:(NSRange)arg1;
+- (BOOL)intersectsRange:(NSRange)arg1;
+- (NSRange)rangeContainingPosition:(NSUInteger)arg1;
+- (BOOL)containsRange:(NSRange)arg1;
 - (BOOL)containsCharacterAtIndex:(NSUInteger)arg1 inclusive:(BOOL)arg2;
 - (BOOL)containsCharacterAtIndex:(NSUInteger)arg1;
 @property(readonly, nonatomic) NSUInteger indexCount;
-- (void)enumerateRangesInRange:(_NSRange)arg1 usingBlock:(id /* CDUnknownBlockType */)arg2;
+- (void)enumerateRangesInRange:(NSRange)arg1 usingBlock:(id /* CDUnknownBlockType */)arg2;
 - (void)reverseEnumerateRanges:(id /* CDUnknownBlockType */)arg1;
 - (void)enumerateRanges:(id /* CDUnknownBlockType */)arg1;
-- (_NSRange)rangeAtIndex:(NSUInteger)arg1;
-@property(readonly, nonatomic) _NSRange superRange;
+- (NSRange)rangeAtIndex:(NSUInteger)arg1;
+@property(readonly, nonatomic) NSRange superRange;
 @property(readonly, nonatomic) NSUInteger rangeCount;
 - (NSUInteger)hash;
 - (BOOL)isEqual:(id)arg1;
@@ -40,7 +40,7 @@ __attribute__((visibility("hidden")))
 - (id)mutableCopyWithZone:(_NSZone )arg1;
 // - (id)copyWithZone:(_NSZone )arg1;
 - (id)initWithRangeVector:(const vector_b5e32e34 )arg1;
-- (id)initWithRange:(_NSRange)arg1;
+- (id)initWithRange:(NSRange)arg1;
 - (id)init;
 
 @end

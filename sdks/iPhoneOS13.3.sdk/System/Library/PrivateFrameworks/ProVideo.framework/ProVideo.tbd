@@ -571,7 +571,7 @@ exports:
                           __Z37PCComputeSquareToQuadProjectionMatrixRK9PCVector2IdES2_S2_S2_R14PCMatrix44TmplIdE,
                           __Z37getOZChannelAffectedNodes_FactoryBasev, __Z37getOZChannelDiscreteColor_FactoryBasev,
                           __Z37getOZChannelEnumDimension_FactoryBasev, __Z37getOZChannelScaleOverLife_FactoryBasev,
-                          __Z37tailIntentFromAttributedStringAtRangeP18NSAttributedString8_NSRange,
+                          __Z37tailIntentFromAttributedStringAtRangeP18NSAttributedString8NSRange,
                           __Z38OZXEquirectProjectFilterSetFrontFacingPvP11OZXFxFilterb,
                           __Z38PCMakeDisplayGrayProfileFromRGBProfileRK12PCICCProfile,
                           __Z38PCMakeDisplayRGBProfileFromGrayProfileRK12PCICCProfile,

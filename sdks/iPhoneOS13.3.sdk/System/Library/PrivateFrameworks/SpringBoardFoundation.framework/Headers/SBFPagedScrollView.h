@@ -14,11 +14,11 @@
     BOOL _gestureEnabled;
     NSArray *_pageViews;
     NSUInteger _currentPageIndex;
-    _NSRange _visiblePageRange;
+    NSRange _visiblePageRange;
 }
 
 @property(nonatomic) BOOL gestureEnabled; // @synthesize gestureEnabled=_gestureEnabled;
-@property(nonatomic) _NSRange visiblePageRange; // @synthesize visiblePageRange=_visiblePageRange;
+@property(nonatomic) NSRange visiblePageRange; // @synthesize visiblePageRange=_visiblePageRange;
 @property(nonatomic) NSUInteger currentPageIndex; // @synthesize currentPageIndex=_currentPageIndex;
 @property(copy, nonatomic) NSArray *pageViews; // @synthesize pageViews=_pageViews;
 // - (void).cxx_destruct;

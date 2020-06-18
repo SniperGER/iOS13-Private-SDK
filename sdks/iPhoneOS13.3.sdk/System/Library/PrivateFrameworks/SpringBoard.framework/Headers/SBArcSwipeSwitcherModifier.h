@@ -21,7 +21,7 @@
 - (BOOL)shouldPerformCrossfadeForReduceMotion;
 - (id)layoutSettings;
 - (UIRectCornerRadii)cardCornerRadiiForIndex:(NSUInteger)arg1;
-- (_NSRange)fullSizeSnapshotsRange;
+- (NSRange)fullSizeSnapshotsRange;
 - (NSUInteger)numberOfAppLayoutsToCacheSnapshots;
 - (BOOL)isContentStatusBarVisibleForIndex:(NSUInteger)arg1;
 - (BOOL)isSwitcherWindowUserInteractionEnabled;

@@ -20,7 +20,7 @@ __attribute__((visibility("hidden")))
     TSTHiddenStatesOwner *_hiddenStatesOwner;
 }
 
-+ (id)mutableIndexSetByIntersecting:(id)arg1 withRange:(_NSRange)arg2;
++ (id)mutableIndexSetByIntersecting:(id)arg1 withRange:(NSRange)arg2;
 + (struct TSUCellCoord)filterFormulaCoordinate;
 + (struct TSUCellCoord)filterFormulaThresholdCoordinateForRow:(unsigned int)arg1;
 + (struct TSUCellCoord)filterFormulaCoordinateForRow:(unsigned int)arg1;
@@ -37,13 +37,13 @@ __attribute__((visibility("hidden")))
 - (id)mutableUserHiddenColumnIndexes;
 - (id)mutableUserHiddenRowIndexes;
 - (void)swapBaseRowAtIndex:(struct TSUModelRowIndex)arg1 withRowAtIndex:(struct TSUModelRowIndex)arg2;
-- (void)moveBaseColumnRange:(_NSRange)arg1 toColumnIndex:(struct TSUModelColumnIndex)arg2;
-- (void)moveBaseRowRange:(_NSRange)arg1 toRowIndex:(struct TSUModelRowIndex)arg2;
-- (void)moveViewColumnRange:(_NSRange)arg1 toColumnIndex:(struct TSUViewColumnIndex)arg2;
-- (void)deleteColumnsFromBaseRange:(_NSRange)arg1 columnUids:(const vector_4dc5f307 )arg2;
-- (void)deleteRowsFromBaseRange:(_NSRange)arg1 rowUids:(const vector_4dc5f307 )arg2;
-- (void)insertNewColumnsInBaseRange:(_NSRange)arg1;
-- (void)insertNewRowsInBaseRange:(_NSRange)arg1;
+- (void)moveBaseColumnRange:(NSRange)arg1 toColumnIndex:(struct TSUModelColumnIndex)arg2;
+- (void)moveBaseRowRange:(NSRange)arg1 toRowIndex:(struct TSUModelRowIndex)arg2;
+- (void)moveViewColumnRange:(NSRange)arg1 toColumnIndex:(struct TSUViewColumnIndex)arg2;
+- (void)deleteColumnsFromBaseRange:(NSRange)arg1 columnUids:(const vector_4dc5f307 )arg2;
+- (void)deleteRowsFromBaseRange:(NSRange)arg1 rowUids:(const vector_4dc5f307 )arg2;
+- (void)insertNewColumnsInBaseRange:(NSRange)arg1;
+- (void)insertNewRowsInBaseRange:(NSRange)arg1;
 @property(readonly, nonatomic) unsigned int numberOfUserHiddenColumns;
 @property(readonly, nonatomic) unsigned int numberOfUserHiddenRows;
 @property(readonly, nonatomic) unsigned int numberOfHiddenColumns;

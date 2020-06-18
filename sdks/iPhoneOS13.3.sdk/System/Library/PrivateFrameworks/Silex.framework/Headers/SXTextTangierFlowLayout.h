@@ -58,7 +58,7 @@
 @property(readonly, nonatomic) const void nextTargetTopicNumbers;
 @property(readonly, nonatomic) const void previousTargetTopicNumbers;
 @property(readonly, retain, nonatomic) id <TSWPOffscreenColumn> previousTargetLastColumn;
-- (id)columnMetricsForCharIndex:(NSUInteger)arg1 outRange:(_NSRange )arg2;
+- (id)columnMetricsForCharIndex:(NSUInteger)arg1 outRange:(NSRange )arg2;
 - (BOOL)shouldProvideSizingGuides;
 - (BOOL)shouldDisplayGuides;
 - (id)layoutGeometryFromInfo;

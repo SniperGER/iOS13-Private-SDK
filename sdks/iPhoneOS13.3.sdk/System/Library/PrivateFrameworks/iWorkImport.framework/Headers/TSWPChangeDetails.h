@@ -31,7 +31,7 @@ __attribute__((visibility("hidden")))
 - (void)commentWillBeAddedToDocumentRoot;
 @property(readonly, copy) NSString *description;
 - (void)p_updateChangeStrings;
-- (_NSRange)p_rangeInStorage;
+- (NSRange)p_rangeInStorage;
 @property(readonly, nonatomic) int annotationDisplayStringType;
 @property(readonly, nonatomic) int annotationType;
 @property(readonly, nonatomic) NSString *changeTrackingContentFormatString;

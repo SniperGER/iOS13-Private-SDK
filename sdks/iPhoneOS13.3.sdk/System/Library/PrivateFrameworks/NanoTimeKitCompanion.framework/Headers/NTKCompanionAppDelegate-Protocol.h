@@ -7,8 +7,13 @@
 
 @class NTKCompanionApp;
 
+#ifndef NTKCompanionAppDelegate_Protocol
+#define NTKCompanionAppDelegate_Protocol
+
 @protocol NTKCompanionAppDelegate <NSObject>
 - (void)companionAppUpdatedIcon:(NTKCompanionApp *)arg1;
 - (void)companionAppWasUpdated:(NTKCompanionApp *)arg1;
 @end
+
+#endif
 

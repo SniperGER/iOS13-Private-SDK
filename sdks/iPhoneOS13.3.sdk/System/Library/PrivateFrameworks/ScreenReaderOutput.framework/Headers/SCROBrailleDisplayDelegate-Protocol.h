@@ -23,7 +23,7 @@
 - (void)brailleDisplay:(SCROBrailleDisplay *)arg1 insertedUntranslatedText:(NSString *)arg2 speakLiterally:(BOOL)arg3;
 - (void)brailleDidStartEditingWithDisplay:(SCROBrailleDisplay *)arg1;
 - (void)brailleDisplay:(SCROBrailleDisplay *)arg1 didMoveSelection:(NSUInteger)arg2;
-- (void)brailleDisplay:(SCROBrailleDisplay *)arg1 didReplaceRange:(_NSRange)arg2 withString:(NSString *)arg3 cursor:(NSUInteger)arg4;
+- (void)brailleDisplay:(SCROBrailleDisplay *)arg1 didReplaceRange:(NSRange)arg2 withString:(NSString *)arg3 cursor:(NSUInteger)arg4;
 - (void)brailleDisplay:(SCROBrailleDisplay *)arg1 pressedKeys:(NSArray *)arg2;
 - (void)configurationChangedForBrailleDisplay:(SCROBrailleDisplay *)arg1;
 - (void)brailleDisplay:(SCROBrailleDisplay *)arg1 isSleeping:(BOOL)arg2;

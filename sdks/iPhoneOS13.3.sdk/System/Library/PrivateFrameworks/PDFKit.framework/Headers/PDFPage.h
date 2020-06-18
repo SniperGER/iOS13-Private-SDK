@@ -82,11 +82,11 @@
 - (id)selectionFromTopToPoint:(CGPoint)arg1 type:(int)arg2;
 - (id)selectionForAll;
 - (id)selectionFromPoint:(CGPoint)arg1 toPoint:(CGPoint)arg2 type:(int)arg3;
-- (id)selectionForRangeCommon:(_NSRange)arg1 isCodeRange:(BOOL)arg2;
+- (id)selectionForRangeCommon:(NSRange)arg1 isCodeRange:(BOOL)arg2;
 - (id)_createAttributedString;
 - (void)_commonInit;
 @property(readonly, nonatomic) NSData *dataRepresentation;
-- (id)selectionForRange:(_NSRange)arg1;
+- (id)selectionForRange:(NSRange)arg1;
 - (id)selectionFromPoint:(CGPoint)arg1 toPoint:(CGPoint)arg2;
 - (id)selectionForLineAtPoint:(CGPoint)arg1;
 - (id)selectionForWordAtPoint:(CGPoint)arg1;
@@ -100,7 +100,7 @@
 - (void)transformContext:(CGContext )arg1 forBox:(long long)arg2;
 - (CGAffineTransform)transformForBox:(long long)arg1;
 - (CGRect)columnFrameAtPoint:(CGPoint)arg1;
-- (id)selectionForCodeRange:(_NSRange)arg1;
+- (id)selectionForCodeRange:(NSRange)arg1;
 - (CGImage )_newCGImageWithBox:(long long)arg1 bitmapSize:(CGSize)arg2 scale:(double)arg3 offset:(CGPoint)arg4 backgroundColor:(id)arg5 withRotation:(BOOL)arg6 withAntialiasing:(BOOL)arg7 withAnnotations:(BOOL)arg8 withBookmark:(BOOL)arg9 withDelegate:(id)arg10;
 - (id)imageOfSize:(CGSize)arg1 forBox:(long long)arg2 withOptions:(id)arg3;
 - (id)thumbnailOfSize:(CGSize)arg1 forBox:(long long)arg2 withBookmark:(BOOL)arg3 withAnnotations:(BOOL)arg4;

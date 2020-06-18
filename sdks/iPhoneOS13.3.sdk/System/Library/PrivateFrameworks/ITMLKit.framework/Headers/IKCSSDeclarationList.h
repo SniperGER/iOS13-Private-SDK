@@ -12,11 +12,11 @@
 @interface IKCSSDeclarationList : NSObject <NSCopying>
 {
     IKMutableArray *_declarations;
-    _NSRange _range;
+    NSRange _range;
 }
 
 @property(readonly, nonatomic) IKMutableArray *declarations; // @synthesize declarations=_declarations;
-@property(nonatomic) _NSRange range; // @synthesize range=_range;
+@property(nonatomic) NSRange range; // @synthesize range=_range;
 // - (void).cxx_destruct;
 - (id)description;
 - (NSUInteger)count;

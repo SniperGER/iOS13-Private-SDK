@@ -10,7 +10,7 @@
 
 @interface PXCMMPosterBannerView : UIView
 {
-    _NSRange _headlineBoldRange;
+    NSRange _headlineBoldRange;
     PXCapsuleButton *_actionButton;
     NSString *_actionButtonTitle;
     id /* CDUnknownBlockType */ _actionButtonAction;
@@ -34,7 +34,7 @@
 @property(copy, nonatomic) NSString *subheadline; // @synthesize subheadline=_subheadline;
 @property(copy, nonatomic) NSString *headline; // @synthesize headline=_headline;
 // - (void).cxx_destruct;
-- (id)_attributedStringWithString:(id)arg1 boldRange:(_NSRange)arg2;
+- (id)_attributedStringWithString:(id)arg1 boldRange:(NSRange)arg2;
 - (id)_headlineStringAttributes;
 - (id)_actionButtonWithTitle:(id)arg1 action:(SEL)arg2 enabled:(BOOL)arg3;
 - (void)_contentSizeCategoryDidChangeNotification:(id)arg1;
@@ -48,7 +48,7 @@
 - (void)layoutSubviews;
 - (CGSize)sizeThatFits:(CGSize)arg1;
 - (void)setActionButtonWithTitle:(id)arg1 actionBlock:(id /* CDUnknownBlockType */)arg2;
-- (void)setHeadline:(id)arg1 boldRange:(_NSRange)arg2;
+- (void)setHeadline:(id)arg1 boldRange:(NSRange)arg2;
 - (id)initWithFrame:(CGRect)arg1;
 
 @end

@@ -10,7 +10,7 @@
 
 @interface PXCMMPosterUIView : UIView
 {
-    _NSRange _bannerHeadlineBoldRange;
+    NSRange _bannerHeadlineBoldRange;
     PXRoundedCornerOverlayView *_roundedCornerOverlayView;
     PXCMMPosterHeaderView *_headerView;
     PXCMMPosterBannerView *_bannerView;
@@ -50,7 +50,7 @@
 - (void)_updateBannerActionButton;
 - (void)_updateBannerTitles;
 - (void)setActionButtonWithType:(long long)arg1 actionBlock:(id /* CDUnknownBlockType */)arg2;
-- (void)setBannerHeadline:(id)arg1 boldRange:(_NSRange)arg2;
+- (void)setBannerHeadline:(id)arg1 boldRange:(NSRange)arg2;
 - (void)setAsset:(id)arg1 mediaProvider:(id)arg2;
 @property(copy, nonatomic) NSString *statusString;
 @property(copy, nonatomic) NSString *dateString;

@@ -36,7 +36,7 @@ __attribute__((visibility("hidden")))
 - (id)nextEvent;
 - (void)p_forceRangeEndForProvider:(id)arg1 providerIndex:(NSUInteger)arg2 atCharIndex:(NSUInteger)arg3;
 - (void)p_emitEventForMarkerCharacter:(unsigned short)arg1 atIndex:(NSUInteger)arg2;
-- (void)p_emitEventWithType:(int)arg1 provider:(id)arg2 range:(_NSRange)arg3 object:(id)arg4;
+- (void)p_emitEventWithType:(int)arg1 provider:(id)arg2 range:(NSRange)arg3 object:(id)arg4;
 - (void)p_emitPendingCharactersAndEvent:(id)arg1;
 - (void)addLocationProvider:(id)arg1;
 - (void)addAttributeRangeProvider:(NSUInteger)arg1;

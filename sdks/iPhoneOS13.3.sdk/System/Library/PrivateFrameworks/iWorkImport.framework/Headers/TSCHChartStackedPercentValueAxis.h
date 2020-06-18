@@ -22,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (BOOL)usesPercentNumberFormatPropertyForSeriesDataFormatting;
 - (BOOL)editableFormatForValueStrings;
 - (id)dataFormatter;
-- (double )unitSpaceValuesForSeries:(id)arg1 indexes:(_NSRange)arg2 min:(double)arg3 max:(double)arg4;
+- (double )unitSpaceValuesForSeries:(id)arg1 indexes:(NSRange)arg2 min:(double)arg3 max:(double)arg4;
 - (double)unitSpaceValueForDataSpaceValue:(double)arg1 series:(id)arg2 index:(NSUInteger)arg3;
 - (double)unitSpaceValueForSeries:(id)arg1 index:(NSUInteger)arg2 min:(double)arg3 max:(double)arg4;
 - (void)adjustMinMaxForDataRangeInAnalysis:(id)arg1;

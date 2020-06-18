@@ -23,7 +23,7 @@
 - (void)_invalidateLabelSize;
 - (double)_widthThatFits;
 - (void)setFont:(id)arg1;
-- (void)setDateComplicationText:(id)arg1 withDayRange:(_NSRange)arg2 forDateStyle:(NSUInteger)arg3;
+- (void)setDateComplicationText:(id)arg1 withDayRange:(NSRange)arg2 forDateStyle:(NSUInteger)arg3;
 - (void)layoutSubviews;
 - (id)initWithFrame:(CGRect)arg1;
 

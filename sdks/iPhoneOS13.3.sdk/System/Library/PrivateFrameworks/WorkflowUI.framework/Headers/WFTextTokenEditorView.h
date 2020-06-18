@@ -63,7 +63,7 @@
 @property(retain, nonatomic) UIFont *font; // @synthesize font=_font;
 @property(nonatomic) __weak id <WFTextTokenEditorViewDelegate> delegate; // @synthesize delegate=_delegate;
 // - (void).cxx_destruct;
-- (BOOL)textField:(id)arg1 shouldChangeCharactersInRange:(_NSRange)arg2 replacementString:(id)arg3;
+- (BOOL)textField:(id)arg1 shouldChangeCharactersInRange:(NSRange)arg2 replacementString:(id)arg3;
 - (BOOL)textFieldShouldReturn:(id)arg1;
 - (void)textFieldDidEndEditing:(id)arg1;
 - (void)textFieldDidBeginEditing:(id)arg1;
@@ -75,7 +75,7 @@
 - (BOOL)resignFirstResponder;
 - (BOOL)becomeFirstResponder;
 - (void)beginEditingWithContext:(id)arg1;
-- (void)selectRange:(_NSRange)arg1;
+- (void)selectRange:(NSRange)arg1;
 @property(copy, nonatomic) WFVariableString *variableString;
 @property(copy, nonatomic) NSString *text;
 - (void)dealloc;

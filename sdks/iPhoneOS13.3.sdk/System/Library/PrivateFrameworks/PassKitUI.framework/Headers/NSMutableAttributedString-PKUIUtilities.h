@@ -7,6 +7,6 @@
 #import <Foundation/NSMutableAttributedString.h>
 
 @interface NSMutableAttributedString (PKUIUtilities)
-- (void)pk_addLinkURL:(id)arg1 toRange:(_NSRange)arg2 withColor:(id)arg3 isUnderlined:(BOOL)arg4;
+- (void)pk_addLinkURL:(id)arg1 toRange:(NSRange)arg2 withColor:(id)arg3 isUnderlined:(BOOL)arg4;
 @end
 

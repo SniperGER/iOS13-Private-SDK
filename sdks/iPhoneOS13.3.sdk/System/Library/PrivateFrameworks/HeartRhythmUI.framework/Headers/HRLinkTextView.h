@@ -17,14 +17,14 @@
     UITapGestureRecognizer *_tapGestureRecognizer;
     long long _currentUserInterfaceStyle;
     id /* CDUnknownBlockType */ _userInterfaceStyleChanged;
-    _NSRange _linkRange;
+    NSRange _linkRange;
 }
 
 @property(copy, nonatomic) id /* CDUnknownBlockType */ userInterfaceStyleChanged; // @synthesize userInterfaceStyleChanged=_userInterfaceStyleChanged;
 @property(nonatomic) long long currentUserInterfaceStyle; // @synthesize currentUserInterfaceStyle=_currentUserInterfaceStyle;
 @property(retain, nonatomic) UITapGestureRecognizer *tapGestureRecognizer; // @synthesize tapGestureRecognizer=_tapGestureRecognizer;
 @property(nonatomic) __weak id <HRLinkTextViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _NSRange linkRange; // @synthesize linkRange=_linkRange;
+@property(nonatomic) NSRange linkRange; // @synthesize linkRange=_linkRange;
 @property(nonatomic) long long URLIdentifier; // @synthesize URLIdentifier=_URLIdentifier;
 @property(retain, nonatomic) UITextView *textView; // @synthesize textView=_textView;
 // - (void).cxx_destruct;
@@ -35,8 +35,8 @@
 - (void)linkTextViewTapped:(id)arg1;
 - (void)_updateCurrentUserInterfaceStyleIfNeeded;
 - (void)layoutSubviews;
-- (id)initWithLinkRange:(_NSRange)arg1 URLIdentifier:(long long)arg2 delegate:(id)arg3 userInterfaceStyleChanged:(id /* CDUnknownBlockType */)arg4;
-- (id)initWithLinkRange:(_NSRange)arg1 URLIdentifier:(long long)arg2 delegate:(id)arg3;
+- (id)initWithLinkRange:(NSRange)arg1 URLIdentifier:(long long)arg2 delegate:(id)arg3 userInterfaceStyleChanged:(id /* CDUnknownBlockType */)arg4;
+- (id)initWithLinkRange:(NSRange)arg1 URLIdentifier:(long long)arg2 delegate:(id)arg3;
 
 @end
 

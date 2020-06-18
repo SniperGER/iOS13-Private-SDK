@@ -35,7 +35,7 @@
 - (void)previewDidChange:(id)arg1;
 - (void)updateComposeImages;
 - (BOOL)gestureRecognizer:(id)arg1 shouldRecognizeSimultaneouslyWithGestureRecognizer:(id)arg2;
-- (void)textStorage:(id)arg1 willProcessEditing:(NSUInteger)arg2 range:(_NSRange)arg3 changeInLength:(long long)arg4;
+- (void)textStorage:(id)arg1 willProcessEditing:(NSUInteger)arg2 range:(NSRange)arg3 changeInLength:(long long)arg4;
 - (id)compositionText;
 - (void)setCompositionText:(id)arg1;
 - (id)initWithFrame:(CGRect)arg1 textContainer:(id)arg2;

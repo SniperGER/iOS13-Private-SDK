@@ -20,13 +20,13 @@
 - (BOOL)scrc_containsOnlyOneGlyph;
 - (id)scrc_composedCharacterAtIndex:(NSUInteger)arg1;
 - (id)stringWithMathIndicators;
-- (_NSRange)previousWordFromPosition:(long long)arg1;
-- (_NSRange)nextWordFromPosition:(long long)arg1;
+- (NSRange)previousWordFromPosition:(long long)arg1;
+- (NSRange)nextWordFromPosition:(long long)arg1;
 - (BOOL)containsAttachmentCharSet;
 - (id)contentsOfEmbeddedCommand:(id)arg1;
 - (unsigned int)fourCharCodeValue;
-- (_NSRange)sentenceBreakInDirection:(BOOL)arg1 fromIndex:(NSUInteger)arg2 skipCurrent:(BOOL)arg3;
-- (_NSRange)enclosingSentenceRangeForRange:(_NSRange)arg1;
+- (NSRange)sentenceBreakInDirection:(BOOL)arg1 fromIndex:(NSUInteger)arg2 skipCurrent:(BOOL)arg3;
+- (NSRange)enclosingSentenceRangeForRange:(NSRange)arg1;
 - (BOOL)hasMultipleWordsWithLocaleName:(const char )arg1 ignorePunctuation:(BOOL)arg2;
 - (id)stringByTrimmingEmptySpaceEdges;
 - (id)scrStringByTrimmingTrailingNewlines;

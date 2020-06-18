@@ -8,7 +8,6 @@ compatibility-version: 1
 objc-constraint:       retain_release
 exports:
   - archs:              [ armv7, armv7s, arm64, arm64e ]
-    allowable-clients:  [ FMIPClientXPCService, FMIPSiriBackendPlugin, FindMyiPhoneIntentsExtension, fmclienttool ]
     objc-classes:       [ __TtC8FMClient10HttpClient, __TtC8FMClient11SessionInfo, __TtC8FMClient12SearchFilter,
                           __TtC8FMClient12SearchResult, __TtC8FMClient15PlaySoundDevice, __TtC8FMClient16DiscoveredDevice,
                           __TtC8FMClient18SearchFilterDevice, __TtC8FMClient18SearchResultDevice, __TtC8FMClient19ClientConfiguration,

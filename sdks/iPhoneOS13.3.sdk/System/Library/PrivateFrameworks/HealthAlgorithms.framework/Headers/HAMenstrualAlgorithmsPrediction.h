@@ -21,11 +21,11 @@
     double _startProbabilityStdDev;
     double _endProbabilityStdDev;
     double _convolvedProbabilityStdDev;
-    _NSRange _lowRange;
+    NSRange _lowRange;
 }
 
 @property(nonatomic) BOOL isOngoingMenstruation; // @synthesize isOngoingMenstruation=_isOngoingMenstruation;
-@property(nonatomic) _NSRange lowRange; // @synthesize lowRange=_lowRange;
+@property(nonatomic) NSRange lowRange; // @synthesize lowRange=_lowRange;
 @property(nonatomic) double convolvedProbabilityStdDev; // @synthesize convolvedProbabilityStdDev=_convolvedProbabilityStdDev;
 @property(nonatomic) double endProbabilityStdDev; // @synthesize endProbabilityStdDev=_endProbabilityStdDev;
 @property(nonatomic) double startProbabilityStdDev; // @synthesize startProbabilityStdDev=_startProbabilityStdDev;

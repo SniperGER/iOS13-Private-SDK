@@ -83,11 +83,11 @@
 - (BOOL)shouldUpdateDecorationMediaTargetSizes;
 - (unsigned int)spriteIndexForObjectReference:(id)arg1 options:(NSUInteger)arg2 updatedObjectReference:(out id )arg3;
 - (id)itemsGeometry;
-- (_NSRange)itemsToLoad;
+- (NSRange)itemsToLoad;
 - (CGRect)_pageAlignedRectForVisibleRect:(CGRect)arg1;
-- (_NSRange)_itemsToLoadForVisibleRect:(CGRect)arg1;
-- (_NSRange)itemRangeForSpriteIndexRange:(struct _PXGSpriteIndexRange)arg1;
-- (_NSRange)itemRangeInRect:(CGRect)arg1;
+- (NSRange)_itemsToLoadForVisibleRect:(CGRect)arg1;
+- (NSRange)itemRangeForSpriteIndexRange:(struct _PXGSpriteIndexRange)arg1;
+- (NSRange)itemRangeInRect:(CGRect)arg1;
 @property(readonly, nonatomic) CGRect loadedItemsRect;
 - (long long)itemClosestTo:(CGPoint)arg1;
 - (long long)columnForItem:(long long)arg1;

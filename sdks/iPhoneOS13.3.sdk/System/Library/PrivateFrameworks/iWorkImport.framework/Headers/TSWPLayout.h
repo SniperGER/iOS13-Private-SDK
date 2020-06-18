@@ -40,7 +40,7 @@ __attribute__((visibility("hidden")))
 - (CGRect)p_rectForSelectionPath:(id)arg1 useParagraphModeRects:(BOOL)arg2;
 - (BOOL)selectionMustBeEntirelyOnscreenToCountAsVisibleInSelectionPath:(id)arg1;
 - (double)viewScaleForZoomingToSelectionPath:(id)arg1 targetPointSize:(double)arg2;
-- (BOOL)containsStartOfRange:(_NSRange)arg1;
+- (BOOL)containsStartOfRange:(NSRange)arg1;
 - (BOOL)containsStartOfPencilAnnotation:(id)arg1;
 - (id)pageAnchorDetailsForPencilAnnotationAtSelectionPath:(id)arg1 attachedType:(long long)arg2;
 - (id)unscaledContentRectsToAvoidPencilAnnotationOverlap;
@@ -89,7 +89,7 @@ __attribute__((visibility("hidden")))
 @property(readonly, nonatomic) NSObject<TSWPTopicNumberHints> *nextTargetTopicNumbers;
 @property(readonly, nonatomic) NSObject<TSWPTopicNumberHints> *previousTargetTopicNumbers;
 @property(readonly, nonatomic) id <TSWPOffscreenColumn> previousTargetLastColumn;
-- (id)columnMetricsForCharIndex:(NSUInteger)arg1 outRange:(_NSRange )arg2;
+- (id)columnMetricsForCharIndex:(NSUInteger)arg1 outRange:(NSRange )arg2;
 @property(readonly, nonatomic) BOOL isOverflowing;
 - (CGRect)p_protectedRectWithinLayoutForSelectionRect:(CGRect)arg1;
 - (void)endResizeWrapInvalidationCluster;
@@ -125,7 +125,7 @@ __attribute__((visibility("hidden")))
 - (BOOL)p_parentAutosizes;
 - (void)invalidateInlineSize;
 - (void)invalidateSize;
-@property(readonly, nonatomic) _NSRange containedTextRange;
+@property(readonly, nonatomic) NSRange containedTextRange;
 - (BOOL)descendersCannotClip;
 @property(readonly, nonatomic) BOOL isInstructional;
 - (BOOL)caresAboutStorageChanges;

@@ -20,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (void)dealloc;
 - (id)init;
 - (id)initWithObjects:(id)arg1;
-- (id)initWithFirstObject:(id)arg1 argumentList:(struct __va_list_tag [1])arg2;
+// - (id)initWithFirstObject:(id)arg1 argumentList:(struct __va_list_tag [1])arg2;
 
 @end
 

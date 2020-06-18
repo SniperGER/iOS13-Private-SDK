@@ -12,7 +12,7 @@
 
 + (id)shuffledSamplingWithoutReplacementForK:(NSUInteger)arg1 fromN:(NSUInteger)arg2 withRng:(id)arg3;
 + (void)shuffleMutableArray:(id)arg1 inApproxEqualEpsilon:(double)arg2 withValueBlock:(id /* CDUnknownBlockType */)arg3 withRng:(id)arg4;
-+ (void)shuffleMutableArray:(id)arg1 inRange:(_NSRange)arg2 withRng:(id)arg3;
++ (void)shuffleMutableArray:(id)arg1 inRange:(NSRange)arg2 withRng:(id)arg3;
 + (void)shuffleMutableArray:(id)arg1 withRng:(id)arg2;
 
 @end

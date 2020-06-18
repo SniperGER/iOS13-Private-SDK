@@ -10,7 +10,7 @@
 @protocol TSWPBookmarkEntry <NSObject>
 @property(readonly, nonatomic) NSString *key;
 @property(readonly, nonatomic) NSURL *url;
-@property(readonly, nonatomic) _NSRange range;
+@property(readonly, nonatomic) NSRange range;
 @property(readonly, nonatomic) NSString *displayName;
 @end
 

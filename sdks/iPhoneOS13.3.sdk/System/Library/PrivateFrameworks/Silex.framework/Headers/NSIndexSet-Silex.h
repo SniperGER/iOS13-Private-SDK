@@ -7,6 +7,6 @@
 #import <Foundation/NSIndexSet.h>
 
 @interface NSIndexSet (Silex)
-- (_NSRange)firstRangeAfterIndex:(NSUInteger)arg1;
+- (NSRange)firstRangeAfterIndex:(NSUInteger)arg1;
 @end
 

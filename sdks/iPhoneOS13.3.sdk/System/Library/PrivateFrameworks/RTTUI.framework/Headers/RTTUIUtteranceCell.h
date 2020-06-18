@@ -38,7 +38,7 @@
 - (void)setHighlighted:(BOOL)arg1 animated:(BOOL)arg2;
 - (void)setSelected:(BOOL)arg1 animated:(BOOL)arg2;
 - (double)preferredHeightForWidth:(double)arg1;
-- (_NSRange)selectedTextRange;
+- (NSRange)selectedTextRange;
 - (void)dealloc;
 - (void)setSendProgressIndex:(NSUInteger)arg1;
 - (void)updateUtterance:(id)arg1;

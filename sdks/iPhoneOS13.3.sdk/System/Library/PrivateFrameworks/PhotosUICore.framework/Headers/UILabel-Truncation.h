@@ -10,6 +10,6 @@
 + (BOOL)px_isTruncatedForAttributedString:(id)arg1 forWidth:(double)arg2 lines:(long long)arg3;
 - (BOOL)px_isTruncatedForWidth:(double)arg1 lines:(long long)arg2;
 - (BOOL)px_isOneLineForWidth:(double)arg1;
-- (CGRect)boundingRectForCharacterRange:(_NSRange)arg1;
+- (CGRect)boundingRectForCharacterRange:(NSRange)arg1;
 @end
 

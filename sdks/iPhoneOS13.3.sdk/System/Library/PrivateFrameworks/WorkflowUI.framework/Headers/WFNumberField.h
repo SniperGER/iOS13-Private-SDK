@@ -28,7 +28,7 @@
 @property(nonatomic) BOOL allowsDecimalNumbers; // @synthesize allowsDecimalNumbers=_allowsDecimalNumbers;
 // - (void).cxx_destruct;
 - (void)textFieldDidEndEditing:(id)arg1;
-- (BOOL)textField:(id)arg1 shouldChangeCharactersInRange:(_NSRange)arg2 replacementString:(id)arg3;
+- (BOOL)textField:(id)arg1 shouldChangeCharactersInRange:(NSRange)arg2 replacementString:(id)arg3;
 - (void)textDidChange;
 - (BOOL)becomeFirstResponder;
 @property(nonatomic) __weak id <WFVariableUIDelegate> variableUIDelegate;

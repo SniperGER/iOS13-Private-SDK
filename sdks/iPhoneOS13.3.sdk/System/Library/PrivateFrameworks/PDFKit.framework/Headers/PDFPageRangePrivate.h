@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 @interface PDFPageRangePrivate : NSObject
 {
     PDFPage *page;
-    _NSRange range;
+    NSRange range;
 }
 
 // - (void).cxx_destruct;

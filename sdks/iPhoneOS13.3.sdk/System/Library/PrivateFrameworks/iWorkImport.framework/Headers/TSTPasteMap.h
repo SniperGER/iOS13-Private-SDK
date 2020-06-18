@@ -23,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (struct TSUCellRect)pbRangeForTgtRange:(struct TSUCellRect)arg1;
 - (struct TSUCellCoord)p_tgtCellIDForPbCellID:(struct TSUCellCoord)arg1 givenColumnMaps:(const multiset_10d8bac2 )arg2 rowMaps:(const multiset_10d8bac2 )arg3;
 - (struct TSUCellRect)p_tgtRangeForPbRange:(struct TSUCellRect)arg1 givenColumnMaps:(const multiset_10d8bac2 )arg2 rowMaps:(const multiset_10d8bac2 )arg3;
-- (_NSRange)p_tgtRangeFromPbRange:(const struct TSTColumnOrRowMap )arg1 andMap:(const multiset_10d8bac2 )arg2;
+- (NSRange)p_tgtRangeFromPbRange:(const struct TSTColumnOrRowMap )arg1 andMap:(const multiset_10d8bac2 )arg2;
 - (unsigned int)p_indexForTgtToPbMaps:(set_fd9a82b7 )arg1 andMap:(struct TSTColumnOrRowMap )arg2;
 - (id)initWithPbTable:(id)arg1 pbRange:(struct TSUCellRect)arg2 tgtTable:(id)arg3 tgtRange:(struct TSUCellRect)arg4 flag:(int)arg5;
 - (id)initWithPbRange:(struct TSUCellRect)arg1 tgtRange:(struct TSUCellRect)arg2;

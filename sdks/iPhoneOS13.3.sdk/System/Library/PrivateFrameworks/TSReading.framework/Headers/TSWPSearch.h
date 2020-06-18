@@ -13,17 +13,17 @@
     NSString *_searchedString;
     TSWPFilteredString *_filteredString;
     TSWPStorage *_storage;
-    _NSRange _range;
+    NSRange _range;
 }
 
 @property(readonly, nonatomic) TSWPStorage *storage; // @synthesize storage=_storage;
 @property(readonly, retain, nonatomic) TSWPFilteredString *filteredString; // @synthesize filteredString=_filteredString;
 @property(readonly, nonatomic) NSString *searchedString; // @synthesize searchedString=_searchedString;
-@property(nonatomic) _NSRange range; // @synthesize range=_range;
-- (void)foundHitWithRange:(_NSRange)arg1;
+@property(nonatomic) NSRange range; // @synthesize range=_range;
+- (void)foundHitWithRange:(NSRange)arg1;
 - (BOOL)isComplete;
 - (void)dealloc;
-- (id)initWithString:(id)arg1 options:(NSUInteger)arg2 hitBlock:(id /* CDUnknownBlockType */)arg3 storage:(id)arg4 range:(_NSRange)arg5;
+- (id)initWithString:(id)arg1 options:(NSUInteger)arg2 hitBlock:(id /* CDUnknownBlockType */)arg3 storage:(id)arg4 range:(NSRange)arg5;
 
 @end
 

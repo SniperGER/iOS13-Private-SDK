@@ -14,10 +14,10 @@
     NSString *_language;
     NSData *_headerData;
     long long _encodedWordEncoding;
-    _NSRange _encodedTextRange;
+    NSRange _encodedTextRange;
 }
 
-@property(nonatomic) _NSRange encodedTextRange; // @synthesize encodedTextRange=_encodedTextRange;
+@property(nonatomic) NSRange encodedTextRange; // @synthesize encodedTextRange=_encodedTextRange;
 @property(nonatomic) long long encodedWordEncoding; // @synthesize encodedWordEncoding=_encodedWordEncoding;
 @property(readonly, copy, nonatomic) NSData *headerData; // @synthesize headerData=_headerData;
 @property(copy, nonatomic) NSString *language; // @synthesize language=_language;
@@ -32,7 +32,7 @@
 - (id)_encodedWordEndSequence;
 - (id)_lineSeparator;
 - (id)_encodedWordStartSequence;
-- (_NSRange)identifyRangeOfEncodedWordAtIndex:(NSUInteger)arg1;
+- (NSRange)identifyRangeOfEncodedWordAtIndex:(NSUInteger)arg1;
 - (id)init;
 - (id)initWithHeaderData:(id)arg1;
 

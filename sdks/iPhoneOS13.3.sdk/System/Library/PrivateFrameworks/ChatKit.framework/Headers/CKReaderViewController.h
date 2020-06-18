@@ -23,7 +23,7 @@
 @property(copy, nonatomic) NSString *messageGUID; // @synthesize messageGUID=_messageGUID;
 @property(nonatomic) __weak id <CKReaderViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
 // - (void).cxx_destruct;
-@property(nonatomic) _NSRange visibleRange; // @dynamic visibleRange;
+@property(nonatomic) NSRange visibleRange; // @dynamic visibleRange;
 @property(copy, nonatomic) NSAttributedString *text; // @dynamic text;
 - (void)contentSizeCategoryDidChange:(id)arg1;
 - (void)viewWillDisappear:(BOOL)arg1;

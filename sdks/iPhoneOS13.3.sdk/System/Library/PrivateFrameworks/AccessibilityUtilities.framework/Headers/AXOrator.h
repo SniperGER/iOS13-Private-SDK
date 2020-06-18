@@ -35,8 +35,8 @@
     AXLanguageTag *_lastUtteranceLanguageTag;
     NSString *_currentLanguageCode;
     NSMutableArray *_additionalContentToProcess;
-    _NSRange _lastSpokenSubstringRange;
-    _NSRange _lastUtteranceSubstringRange;
+    NSRange _lastSpokenSubstringRange;
+    NSRange _lastUtteranceSubstringRange;
 }
 
 @property(retain, nonatomic) NSMutableArray *additionalContentToProcess; // @synthesize additionalContentToProcess=_additionalContentToProcess;
@@ -46,7 +46,7 @@
 @property(nonatomic) BOOL shouldSpeakNextItemOnResume; // @synthesize shouldSpeakNextItemOnResume=_shouldSpeakNextItemOnResume;
 @property(retain, nonatomic) AXLanguageTag *lastUtteranceLanguageTag; // @synthesize lastUtteranceLanguageTag=_lastUtteranceLanguageTag;
 @property(retain, nonatomic) AVSpeechUtterance *lastUtterance; // @synthesize lastUtterance=_lastUtterance;
-@property(nonatomic) _NSRange lastUtteranceSubstringRange; // @synthesize lastUtteranceSubstringRange=_lastUtteranceSubstringRange;
+@property(nonatomic) NSRange lastUtteranceSubstringRange; // @synthesize lastUtteranceSubstringRange=_lastUtteranceSubstringRange;
 @property(retain, nonatomic) NSString *lastUtteranceLanguageCode; // @synthesize lastUtteranceLanguageCode=_lastUtteranceLanguageCode;
 @property(retain, nonatomic) NSMutableArray *speechSequenceItems; // @synthesize speechSequenceItems=_speechSequenceItems;
 @property(retain, nonatomic) AVSpeechSynthesizer *speechSynthesizer; // @synthesize speechSynthesizer=_speechSynthesizer;
@@ -58,10 +58,10 @@
 @property(nonatomic) BOOL spellOutContent; // @synthesize spellOutContent=_spellOutContent;
 @property(retain, nonatomic) AXLanguageTaggedContent *selectedContent; // @synthesize selectedContent=_selectedContent;
 @property(nonatomic) long long speakingContext; // @synthesize speakingContext=_speakingContext;
-@property(nonatomic) _NSRange lastSpokenSubstringRange; // @synthesize lastSpokenSubstringRange=_lastSpokenSubstringRange;
+@property(nonatomic) NSRange lastSpokenSubstringRange; // @synthesize lastSpokenSubstringRange=_lastSpokenSubstringRange;
 @property(nonatomic) __weak id <AXOratorDelegate> delegate; // @synthesize delegate=_delegate;
 // - (void).cxx_destruct;
-- (void)speechSynthesizer:(id)arg1 willSpeakRangeOfSpeechString:(_NSRange)arg2 utterance:(id)arg3;
+- (void)speechSynthesizer:(id)arg1 willSpeakRangeOfSpeechString:(NSRange)arg2 utterance:(id)arg3;
 - (void)speechSynthesizer:(id)arg1 didCancelSpeechUtterance:(id)arg2;
 - (void)speechSynthesizer:(id)arg1 didStartSpeechUtterance:(id)arg2;
 - (void)speechSynthesizer:(id)arg1 didContinueSpeechUtterance:(id)arg2;

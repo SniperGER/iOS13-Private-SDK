@@ -16,7 +16,7 @@
     CLKTimeFormatter *_timeFormatter;
     _CLKUIBasicTimeLabelManager *_numbersLabelManager;
     _CLKUIBasicTimeLabelManager *_blinkerLabelManager;
-    NSNumber _blinkTimerToken;
+    NSNumber *_blinkTimerToken;
     BOOL _animationsPaused;
     BOOL _showSeconds;
 }

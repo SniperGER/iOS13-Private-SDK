@@ -7,6 +7,9 @@
 
 @class NSArray, NSDate;
 
+#ifndef CLKCComplicationDataSourceDelegate_Protocol
+#define CLKCComplicationDataSourceDelegate_Protocol
+
 @protocol CLKCComplicationDataSourceDelegate <NSObject>
 - (void)invalidateSwitcherTemplate;
 - (double)minimumIntervalBetweenTimelineEntries;
@@ -17,4 +20,6 @@
 - (void)invalidateEntriesWithTritiumUpdatePriority:(long long)arg1;
 - (void)invalidateEntries;
 @end
+
+#endif
 

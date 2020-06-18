@@ -18,10 +18,10 @@ __attribute__((visibility("hidden")))
 - (void)protected_iterateHitChartElements:(CGPoint)arg1 withBlock:(id /* CDUnknownBlockType */)arg2;
 - (id)p_overrideLabelStringForHitTestingEmptyLabel;
 - (CGRect)layoutSpaceRectForAllLabels;
-- (CGAffineTransform)transformForRenderingLabel:(NSUInteger)arg1 range:(_NSRange)arg2 outElementSize:(CGSize )arg3 outClipRect:(CGRect )arg4;
+- (CGAffineTransform)transformForRenderingLabel:(NSUInteger)arg1 range:(NSRange)arg2 outElementSize:(CGSize )arg3 outClipRect:(CGRect )arg4;
 - (CGAffineTransform)transformForRenderingLabel:(NSUInteger)arg1 usingString:(id)arg2 outElementSize:(CGSize )arg3 outClipRect:(CGRect )arg4 useAngle:(BOOL)arg5;
 - (CGAffineTransform)transformForRenderingLabel:(NSUInteger)arg1 outElementSize:(CGSize )arg2 outClipRect:(CGRect )arg3;
-- (CGAffineTransform)p_transformForRenderingLabel:(NSUInteger)arg1 range:(_NSRange )arg2 inLayoutArea:(CGRect)arg3 outElementSize:(CGSize )arg4 outClipRect:(CGRect )arg5 usingString:(id)arg6 stride:(NSUInteger )arg7 useAngle:(BOOL)arg8;
+- (CGAffineTransform)p_transformForRenderingLabel:(NSUInteger)arg1 range:(NSRange )arg2 inLayoutArea:(CGRect)arg3 outElementSize:(CGSize )arg4 outClipRect:(CGRect )arg5 usingString:(id)arg6 stride:(NSUInteger )arg7 useAngle:(BOOL)arg8;
 - (NSUInteger)p_computeAutoStrideInLayoutArea:(CGRect)arg1;
 - (long long)p_smallestSecondValueLabelIndex:(long long)arg1 start:(long long)arg2 end:(long long)arg3 inLayoutArea:(CGRect)arg4 paragraphStyle:(id)arg5;
 - (long long)p_smallestSecondValueLabelIndex:(long long)arg1 start:(long long)arg2 end:(long long)arg3 inLayoutArea:(CGRect)arg4 paragraphStyle:(id)arg5 isTop:(BOOL)arg6;

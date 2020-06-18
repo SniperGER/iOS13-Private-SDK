@@ -7,9 +7,14 @@
 
 @class UIColor;
 
+#ifndef NTKCircularAnalogDialColorPalette_Protocol
+#define NTKCircularAnalogDialColorPalette_Protocol
+
 @protocol NTKCircularAnalogDialColorPalette <NSObject>
 - (UIColor *)circularDialFillColor;
 - (UIColor *)circularDialSubtickColor;
 - (UIColor *)circularDialTickColor;
 @end
+
+#endif
 

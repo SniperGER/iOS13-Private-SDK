@@ -70,7 +70,7 @@
 - (void)setPrepareToMemorizeNextKey:(BOOL)arg1 immediate:(BOOL)arg2 forDisplayWithToken:(int)arg3;
 - (void)_eventQueue_simulateKeypress:(id)arg1;
 - (void)simulateKeypress:(id)arg1;
-- (_NSRange)rangeOfBrailleCellRepresentingCharacterAtIndex:(NSUInteger)arg1;
+- (NSRange)rangeOfBrailleCellRepresentingCharacterAtIndex:(NSUInteger)arg1;
 - (long long)tokenForRouterIndex:(long long)arg1 location:(long long )arg2 appToken:(id )arg3 forDisplayWithToken:(int)arg4;
 - (void)_eventQueue_setLineDescriptorCallbackEnabled:(BOOL)arg1;
 - (BOOL)lineDescriptorDisplayCallbackEnabled;
@@ -162,7 +162,7 @@
 - (void)brailleDisplay:(id)arg1 deletedUntranslatedText:(id)arg2 speakLiterally:(BOOL)arg3;
 - (void)brailleDisplay:(id)arg1 copyStringToClipboard:(id)arg2;
 - (void)brailleDisplay:(id)arg1 insertedUntranslatedText:(id)arg2 speakLiterally:(BOOL)arg3;
-- (void)brailleDisplay:(id)arg1 didReplaceRange:(_NSRange)arg2 withString:(id)arg3 cursor:(NSUInteger)arg4;
+- (void)brailleDisplay:(id)arg1 didReplaceRange:(NSRange)arg2 withString:(id)arg3 cursor:(NSUInteger)arg4;
 - (void)brailleDidStartEditingWithDisplay:(id)arg1;
 - (void)brailleDisplay:(id)arg1 pressedKeys:(id)arg2;
 - (void)brailleDisplay:(id)arg1 didMoveSelection:(NSUInteger)arg2;
@@ -185,7 +185,7 @@
 - (void)_enableAutoDetect;
 - (void)_eventQueue_refreshEightDotEnabledOnDisplays;
 - (void)_refreshEightDotEnabledOnDisplays;
-- (void)tokenizeString:(id)arg1 intoFormatter:(id)arg2 selection:(_NSRange )arg3;
+- (void)tokenizeString:(id)arg1 intoFormatter:(id)arg2 selection:(NSRange )arg3;
 - (BOOL)isValid;
 - (void)_eventQueue_stop;
 - (void)_mainQueue_invalidate;

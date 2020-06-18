@@ -36,7 +36,7 @@
 @property(retain, nonatomic) NSString *currencyCode; // @synthesize currencyCode=_currencyCode;
 // - (void).cxx_destruct;
 - (id)_attributedString;
-- (void)_addSuperscriptToAttributedString:(id)arg1 inRange:(_NSRange)arg2;
+- (void)_addSuperscriptToAttributedString:(id)arg1 inRange:(NSRange)arg2;
 - (void)_addSuperscriptToAttributedString:(id)arg1 formattedCurrencyAmount:(id)arg2 currencyAmountWithoutSymbols:(id)arg3;
 - (void)_updateLabel;
 - (CGSize)sizeThatFits:(CGSize)arg1;

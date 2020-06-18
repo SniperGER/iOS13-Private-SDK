@@ -14,14 +14,14 @@
     NSMutableData *_outputData;
     id /* CDUnknownBlockType */ _readerBlock;
     id /* CDUnknownBlockType */ _writerBlock;
-    _NSRange _inputRange;
+    NSRange _inputRange;
 }
 
 + (id)archive;
 @property(copy, nonatomic) id /* CDUnknownBlockType */ writerBlock; // @synthesize writerBlock=_writerBlock;
 @property(copy, nonatomic) id /* CDUnknownBlockType */ readerBlock; // @synthesize readerBlock=_readerBlock;
 @property(retain, nonatomic) NSMutableData *outputData; // @synthesize outputData=_outputData;
-@property(nonatomic) _NSRange inputRange; // @synthesize inputRange=_inputRange;
+@property(nonatomic) NSRange inputRange; // @synthesize inputRange=_inputRange;
 @property(retain, nonatomic) NSData *inputData; // @synthesize inputData=_inputData;
 // - (void).cxx_destruct;
 - (int)_decompressionCompleteForArchive:(struct archive )arg1 error:(id )arg2;

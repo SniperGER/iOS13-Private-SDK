@@ -45,7 +45,7 @@
 - (void)removeInvitees:(id)arg1 completionHandler:(id /* CDUnknownBlockType */)arg2;
 - (void)addInvitees:(id)arg1 completionHandler:(id /* CDUnknownBlockType */)arg2;
 - (void)verifyPlayerForMatchmaking:(id)arg1 completionHandler:(id /* CDUnknownBlockType */)arg2;
-- (void)loadScoresWithScope:(long long)arg1 range:(_NSRange)arg2 completionHandler:(id /* CDUnknownBlockType */)arg3;
+- (void)loadScoresWithScope:(long long)arg1 range:(NSRange)arg2 completionHandler:(id /* CDUnknownBlockType */)arg3;
 - (void)updateWithCompletionHandler:(id /* CDUnknownBlockType */)arg1;
 - (void)getTournamentStateWithCompletionHandler:(id /* CDUnknownBlockType */)arg1;
 - (void)loadParticipantsWithRequest:(id)arg1 completionHandler:(id /* CDUnknownBlockType */)arg2;

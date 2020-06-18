@@ -13,7 +13,7 @@
     BOOL _isProcessName;
 }
 
-- (void)getCharacters:(unsigned short )arg1 range:(_NSRange)arg2;
+- (void)getCharacters:(unsigned short )arg1 range:(NSRange)arg2;
 - (unsigned short)characterAtIndex:(NSUInteger)arg1;
 - (NSUInteger)length;
 - (BOOL)_isProcessName;

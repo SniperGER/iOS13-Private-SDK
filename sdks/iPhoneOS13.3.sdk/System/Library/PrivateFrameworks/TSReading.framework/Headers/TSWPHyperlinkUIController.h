@@ -32,7 +32,7 @@
 @property(nonatomic) BOOL shouldMaintainKeyboardWhenEndingSession; // @synthesize shouldMaintainKeyboardWhenEndingSession=_shouldMaintainKeyboardWhenEndingSession;
 @property(retain, nonatomic) NSString *editedURLString; // @synthesize editedURLString=_editedURLString;
 @property(retain, nonatomic) NSString *editedDisplayText; // @synthesize editedDisplayText=_editedDisplayText;
-- (void)storage:(id)arg1 didChangeRange:(_NSRange)arg2 delta:(long long)arg3 broadcastKind:(int)arg4;
+- (void)storage:(id)arg1 didChangeRange:(NSRange)arg2 delta:(long long)arg3 broadcastKind:(int)arg4;
 @property(readonly, nonatomic) UIViewController *viewControllerForPresenting;
 @property(readonly, nonatomic) TSWPInteractiveCanvasController *interactiveCanvasController;
 @property(readonly, nonatomic) NSString *stringForURL;

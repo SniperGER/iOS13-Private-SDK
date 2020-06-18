@@ -46,7 +46,7 @@
 - (void)_updateTableHeaderConfiguration;
 - (void)serviceGridViewController:(id)arg1 didTapItem:(id)arg2;
 - (void)triggerSummaryActionGridViewController:(id)arg1 didUpdateTriggerBuilder:(id)arg2;
-- (BOOL)textView:(id)arg1 shouldInteractWithURL:(id)arg2 inRange:(_NSRange)arg3 interaction:(long long)arg4;
+- (BOOL)textView:(id)arg1 shouldInteractWithURL:(id)arg2 inRange:(NSRange)arg3 interaction:(long long)arg4;
 - (void)durationPicker:(id)arg1 didSelectDuration:(id)arg2;
 - (void)switchCell:(id)arg1 didTurnOn:(BOOL)arg2;
 - (void)triggerEditor:(id)arg1 didFinishWithTriggerBuilder:(id)arg2;

@@ -23,7 +23,7 @@
     id /* CDUnknownBlockType */ _variableBlock;
     UIPickerView *_pickerView;
     WFVariableInputCoordinator *_variableCoordinator;
-    _NSRange _allowedRange;
+    NSRange _allowedRange;
 }
 
 @property(retain, nonatomic) WFVariableInputCoordinator *variableCoordinator; // @synthesize variableCoordinator=_variableCoordinator;
@@ -31,7 +31,7 @@
 @property(copy, nonatomic) id /* CDUnknownBlockType */ variableBlock; // @synthesize variableBlock=_variableBlock;
 @property(copy, nonatomic) id /* CDUnknownBlockType */ updateBlock; // @synthesize updateBlock=_updateBlock;
 @property(nonatomic) NSUInteger currentValue; // @synthesize currentValue=_currentValue;
-@property(nonatomic) _NSRange allowedRange; // @synthesize allowedRange=_allowedRange;
+@property(nonatomic) NSRange allowedRange; // @synthesize allowedRange=_allowedRange;
 @property(nonatomic) __weak id <WFVariableUIDelegate> variableUIDelegate; // @synthesize variableUIDelegate=_variableUIDelegate;
 @property(nonatomic) __weak id <WFVariableProvider> variableProvider; // @synthesize variableProvider=_variableProvider;
 @property(copy, nonatomic) NSSet *allowedVariableTypes; // @synthesize allowedVariableTypes=_allowedVariableTypes;

@@ -17,11 +17,11 @@ __attribute__((visibility("hidden")))
 // - (id)copyWithZone:(_NSZone )arg1;
 - (NSUInteger)hash;
 - (BOOL)isEqualToString:(id)arg1;
-- (long long)compare:(id)arg1 options:(NSUInteger)arg2 range:(_NSRange)arg3 locale:(id)arg4;
-- (id)substringWithRange:(_NSRange)arg1;
+- (long long)compare:(id)arg1 options:(NSUInteger)arg2 range:(NSRange)arg3 locale:(id)arg4;
+- (id)substringWithRange:(NSRange)arg1;
 - (id)substringToIndex:(NSUInteger)arg1;
 - (id)substringFromIndex:(NSUInteger)arg1;
-- (void)getCharacters:(unsigned short )arg1 range:(_NSRange)arg2;
+- (void)getCharacters:(unsigned short )arg1 range:(NSRange)arg2;
 - (unsigned short)characterAtIndex:(NSUInteger)arg1;
 - (NSUInteger)length;
 - (void)dealloc;

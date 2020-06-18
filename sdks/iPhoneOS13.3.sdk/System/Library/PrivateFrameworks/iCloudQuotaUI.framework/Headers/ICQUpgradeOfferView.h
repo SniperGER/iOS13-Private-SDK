@@ -64,7 +64,7 @@
 @property(nonatomic) long long upgradeMode; // @synthesize upgradeMode=_upgradeMode;
 @property(copy, nonatomic) UIColor *buttonTintColor; // @synthesize buttonTintColor=_buttonTintColor;
 // - (void).cxx_destruct;
-- (BOOL)textView:(id)arg1 shouldInteractWithURL:(id)arg2 inRange:(_NSRange)arg3;
+- (BOOL)textView:(id)arg1 shouldInteractWithURL:(id)arg2 inRange:(NSRange)arg3;
 - (void)_updateTrayVisibility;
 - (void)scrollViewDidScroll:(id)arg1;
 - (void)flashScrollIndicatorsIfNeeded;

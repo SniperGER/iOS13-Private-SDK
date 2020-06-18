@@ -24,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (BOOL)canRenderSelectionPath:(id)arg1;
 - (void)p_renderIntoContext:(CGContext )arg1 visible:(CGRect)arg2;
 - (void)p_debugRenderRect:(CGRect)arg1 inContext:(CGContext )arg2 withColor:(id)arg3;
-- (void)p_drawTitle:(CGContext )arg1 rangePtr:(_NSRange )arg2;
+- (void)p_drawTitle:(CGContext )arg1 rangePtr:(NSRange )arg2;
 - (void)useEditedString:(id)arg1;
 
 @end

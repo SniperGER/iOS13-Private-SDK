@@ -14,11 +14,11 @@
 {
     NSMutableDictionary *_attributes;
     BOOL _created;
-    _NSRange _range;
+    NSRange _range;
 }
 
 @property(copy, nonatomic) NSDictionary *attributes; // @synthesize attributes=_attributes;
-@property(nonatomic) _NSRange range; // @synthesize range=_range;
+@property(nonatomic) NSRange range; // @synthesize range=_range;
 // - (void).cxx_destruct;
 @property(retain, nonatomic) NSNumber *accessibilityTextHeadingLevel;
 @property(retain, nonatomic) NSString *accessibilitySpeechIPANotation;

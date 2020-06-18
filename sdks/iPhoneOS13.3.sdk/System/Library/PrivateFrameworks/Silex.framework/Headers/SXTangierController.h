@@ -91,7 +91,7 @@
 - (void)_fixLayoutOffsets;
 - (void)interactiveCanvasControllerDidStopScrolling:(id)arg1;
 - (void)interactiveCanvasControllerDidScroll:(id)arg1;
-- (void)interactiveCanvasController:(id)arg1 interactedWithHyperlink:(id)arg2 info:(id)arg3 range:(_NSRange)arg4 touchPoint:(CGPoint)arg5 touchAndHold:(BOOL)arg6;
+- (void)interactiveCanvasController:(id)arg1 interactedWithHyperlink:(id)arg2 info:(id)arg3 range:(NSRange)arg4 touchPoint:(CGPoint)arg5 touchAndHold:(BOOL)arg6;
 - (CGRect)visibleBounds;
 - (id)topLevelLayersForInteractiveCanvasController:(id)arg1;
 - (id)topLevelRepsForInteractiveCanvasController:(id)arg1;

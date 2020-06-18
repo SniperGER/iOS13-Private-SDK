@@ -55,12 +55,12 @@
 - (void)closeDatabaseConnections;
 - (BOOL)isBusy;
 - (BOOL)libraryExists;
-- (id)messagesMatchingCriterion:(id)arg1 options:(unsigned int)arg2 range:(_NSRange)arg3 success:(BOOL )arg4;
+- (id)messagesMatchingCriterion:(id)arg1 options:(unsigned int)arg2 range:(NSRange)arg3 success:(BOOL )arg4;
 - (id)messagesMatchingCriterion:(id)arg1 options:(unsigned int)arg2 success:(BOOL )arg3;
 - (id)messagesMatchingCriterion:(id)arg1 options:(unsigned int)arg2;
-- (id)messagesMatchingCriterion:(id)arg1 options:(unsigned int)arg2 range:(_NSRange)arg3;
+- (id)messagesMatchingCriterion:(id)arg1 options:(unsigned int)arg2 range:(NSRange)arg3;
 - (void)sendMessagesMatchingCriterion:(id)arg1 to:(id)arg2 options:(unsigned int)arg3;
-- (void)sendMessagesMatchingCriterion:(id)arg1 to:(id)arg2 options:(unsigned int)arg3 range:(_NSRange)arg4;
+- (void)sendMessagesMatchingCriterion:(id)arg1 to:(id)arg2 options:(unsigned int)arg3 range:(NSRange)arg4;
 - (id)bodyDataForMessage:(id)arg1;
 - (id)headerDataForMessage:(id)arg1;
 - (id)loadMeetingMetadataForMessage:(id)arg1;
@@ -84,9 +84,9 @@
 - (id)messageWithLibraryID:(long long)arg1 options:(unsigned int)arg2 inMailbox:(id)arg3;
 - (id)messagesWithMessageIDHeader:(id)arg1;
 - (id)messageWithMessageID:(id)arg1 options:(unsigned int)arg2 inMailbox:(id)arg3;
-- (id)getDetailsForMessages:(NSUInteger)arg1 absoluteBottom:(NSUInteger)arg2 topOfDesiredRange:(NSUInteger)arg3 range:(_NSRange )arg4 fromMailbox:(id)arg5;
+- (id)getDetailsForMessages:(NSUInteger)arg1 absoluteBottom:(NSUInteger)arg2 topOfDesiredRange:(NSUInteger)arg3 range:(NSRange )arg4 fromMailbox:(id)arg5;
 - (id)getDetailsForAllMessagesFromMailbox:(id)arg1;
-- (id)getDetailsForMessagesWithRemoteIDInRange:(_NSRange)arg1 fromMailbox:(id)arg2;
+- (id)getDetailsForMessagesWithRemoteIDInRange:(NSRange)arg1 fromMailbox:(id)arg2;
 - (void)setSequenceIdentifier:(id)arg1 forMessagesWithRemoteIDs:(id)arg2 inMailbox:(id)arg3;
 - (void)setSequenceIdentifier:(id)arg1 forMessageWithLibraryID:(long long)arg2;
 - (id)sequenceIdentifierForMessagesWithRemoteIDs:(id)arg1 inMailbox:(id)arg2;
@@ -121,7 +121,7 @@
 - (id)messagesWithoutSummariesForMailbox:(id)arg1 fromRowID:(long long)arg2 limit:(unsigned int)arg3;
 - (id)messagesWithSummariesForMailbox:(id)arg1 fromRowID:(long long)arg2 limit:(unsigned int)arg3;
 - (id)messagesWithoutSummariesForMailbox:(id)arg1;
-- (id)messagesWithSummariesForMailbox:(id)arg1 range:(_NSRange)arg2;
+- (id)messagesWithSummariesForMailbox:(id)arg1 range:(NSRange)arg2;
 - (id)dateOfOldestNonIndexedNonSearchResultMessageInMailbox:(id)arg1;
 - (id)dateOfOldestNonSearchResultMessageInMailbox:(id)arg1;
 - (id)serverSearchResultMessagesForMailbox:(id)arg1;

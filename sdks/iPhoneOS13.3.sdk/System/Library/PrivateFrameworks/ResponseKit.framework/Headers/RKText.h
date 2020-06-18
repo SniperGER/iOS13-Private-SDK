@@ -35,11 +35,11 @@
 - (id)taggedText;
 - (NSUInteger)annotatedPolarity;
 - (id)subTextsByPolarity;
-- (id)subTextWithRange:(_NSRange)arg1;
+- (id)subTextWithRange:(NSRange)arg1;
 - (BOOL)cleanupData;
-- (void)enumerateAnnotationsInRange:(_NSRange)arg1 usingBlock:(id /* CDUnknownBlockType */)arg2;
-- (void)annotateRange:(_NSRange)arg1 type:(NSUInteger)arg2 machineGenerated:(BOOL)arg3;
-- (void)annotateRange:(_NSRange)arg1 type:(NSUInteger)arg2;
+- (void)enumerateAnnotationsInRange:(NSRange)arg1 usingBlock:(id /* CDUnknownBlockType */)arg2;
+- (void)annotateRange:(NSRange)arg1 type:(NSUInteger)arg2 machineGenerated:(BOOL)arg3;
+- (void)annotateRange:(NSRange)arg1 type:(NSUInteger)arg2;
 - (id)initWithString:(id)arg1 andLanguageIdentifier:(id)arg2 trainingWeight:(double)arg3 trainVerbatim:(BOOL)arg4;
 - (id)initWithString:(id)arg1 andLanguageIdentifier:(id)arg2;
 - (id)init;

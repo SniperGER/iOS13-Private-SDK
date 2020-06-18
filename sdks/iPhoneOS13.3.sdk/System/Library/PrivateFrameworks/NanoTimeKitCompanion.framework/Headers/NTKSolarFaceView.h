@@ -45,7 +45,7 @@
     UITapGestureRecognizer *_viewModeTapGesture;
     long long _previousViewMode;
     long long _nextViewMode;
-    NSNumber _clockTimerToken;
+    NSNumber *_clockTimerToken;
     NTKComplicationController *_dateComplicationController;
     NTKDateComplicationLabel *_dateComplicationLabel;
     NTKLayoutRule *_dateComplicationLayoutRule;

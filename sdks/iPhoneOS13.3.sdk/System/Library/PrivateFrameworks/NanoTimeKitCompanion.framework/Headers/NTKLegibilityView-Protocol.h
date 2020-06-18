@@ -7,9 +7,14 @@
 
 @class UIColor;
 
+#ifndef NTKLegibilityView_Protocol
+#define NTKLegibilityView_Protocol
+
 @protocol NTKLegibilityView <NSObject>
 @property(retain, nonatomic) UIColor *shadowColor;
 @property(nonatomic) double shadowBlur;
 @property(nonatomic) BOOL legibilityEnabled;
 @end
+
+#endif
 

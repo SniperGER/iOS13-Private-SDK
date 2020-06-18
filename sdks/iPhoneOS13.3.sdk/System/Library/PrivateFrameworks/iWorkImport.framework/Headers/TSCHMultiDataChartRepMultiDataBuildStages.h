@@ -14,13 +14,13 @@ __attribute__((visibility("hidden")))
 @interface TSCHMultiDataChartRepMultiDataBuildStages : NSObject <TSCHUnretainedParent>
 {
     TSCHMultiDataChartRep *mRep;
-    _NSRange mStages;
+    NSRange mStages;
     double mTotalDuration;
     double mDuration;
     NSUInteger mCurrentStage;
 }
 
-+ (id)buildStagesWithRep:(id)arg1 stages:(_NSRange)arg2 totalDuration:(double)arg3;
++ (id)buildStagesWithRep:(id)arg1 stages:(NSRange)arg2 totalDuration:(double)arg3;
 + (NSUInteger)dataSetIndexForRep:(id)arg1 buildStage:(NSUInteger)arg2;
 + (NSUInteger)numberOfFadingBuildStages;
 @property(readonly, nonatomic) double duration; // @synthesize duration=mDuration;
@@ -38,7 +38,7 @@ __attribute__((visibility("hidden")))
 - (void)setupLayoutDataSetIndexForCurrentStage;
 - (void)clearParent;
 - (void)dealloc;
-- (id)initWithRep:(id)arg1 stages:(_NSRange)arg2 totalDuration:(double)arg3;
+- (id)initWithRep:(id)arg1 stages:(NSRange)arg2 totalDuration:(double)arg3;
 
 @end
 

@@ -84,8 +84,8 @@
 - (BOOL)_isElementDisplayedInBlock:(id)arg1;
 - (BOOL)_isErrorBlacklisted:(struct _xmlError )arg1;
 - (BOOL)_isElementBlacklisted:(id)arg1 attributes:(const char )arg2;
-- (void)processImgTagSource:(id)arg1 contentRange:(_NSRange)arg2;
-- (void)processBodyHTMLContent:(id)arg1 style:(id)arg2 contentRange:(_NSRange)arg3;
+- (void)processImgTagSource:(id)arg1 contentRange:(NSRange)arg2;
+- (void)processBodyHTMLContent:(id)arg1 style:(id)arg2 contentRange:(NSRange)arg3;
 - (void)processHeadHTMLTagContent:(id)arg1;
 - (BOOL)caresAboutHTMLContentString;
 - (void)appendString:(id)arg1 stringAttributes:(id)arg2;

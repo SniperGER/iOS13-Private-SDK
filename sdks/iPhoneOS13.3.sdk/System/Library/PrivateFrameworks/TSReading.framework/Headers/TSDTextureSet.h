@@ -28,7 +28,7 @@
     TSUNoCopyDictionary *mFinalTexturesToStageMap;
     TSUNoCopyDictionary *mReverseFinalTexturesToStageMap;
     NSDictionary *mBakedAttributes;
-    _NSRange mActiveChunkIndices;
+    NSRange mActiveChunkIndices;
     CALayer *mLayer;
     BOOL mIsMagicMove;
     double mTextureOpacity;

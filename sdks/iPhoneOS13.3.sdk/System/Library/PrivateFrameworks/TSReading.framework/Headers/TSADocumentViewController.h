@@ -152,7 +152,7 @@
 - (long long)defaultDocumentMode;
 - (void)setDocumentMode:(long long)arg1 animated:(BOOL)arg2 dismissOnTop:(BOOL)arg3;
 - (void)setDocumentMode:(long long)arg1 animated:(BOOL)arg2;
-- (_NSRange)visibleRootIndexRange;
+- (NSRange)visibleRootIndexRange;
 - (id)childViewControllerForStatusBarStyle;
 - (void)interactiveCanvasController:(id)arg1 willAnimateToViewScale:(double)arg2 withDuration:(double)arg3 unscaledContentOffset:(CGPoint)arg4;
 - (double)toolbarTextButtonSpaceWidth;

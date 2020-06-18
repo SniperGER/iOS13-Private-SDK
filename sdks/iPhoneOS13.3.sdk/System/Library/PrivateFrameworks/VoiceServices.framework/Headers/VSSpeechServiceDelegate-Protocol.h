@@ -16,7 +16,7 @@
 - (oneway void)speechRequestDidReceiveTimingInfo:(NSArray *)arg1;
 - (oneway void)speechRequestSuccessWithInstrumentMetrics:(VSInstrumentMetrics *)arg1;
 - (oneway void)speechRequestDidStopWithSuccess:(BOOL)arg1 phonemesSpoken:(NSString *)arg2 error:(NSError *)arg3;
-- (oneway void)speechRequestMark:(long long)arg1 didStartForRange:(_NSRange)arg2;
+- (oneway void)speechRequestMark:(long long)arg1 didStartForRange:(NSRange)arg2;
 - (oneway void)speechRequestDidContinue;
 - (oneway void)speechRequestDidPause;
 - (oneway void)speechRequestDidStart;

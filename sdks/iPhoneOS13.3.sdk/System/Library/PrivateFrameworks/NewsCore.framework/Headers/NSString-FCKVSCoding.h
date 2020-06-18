@@ -36,6 +36,6 @@
 - (id)fc_stringByTrimmingWhiteSpace;
 - (id)tokenizedLowerCaseStringWithMinimumLength:(NSUInteger)arg1;
 - (id)fc_lowercaseTokensWithMinimumLength:(NSUInteger)arg1;
-@property(readonly, nonatomic) _NSRange range;
+@property(readonly, nonatomic) NSRange range;
 @end
 

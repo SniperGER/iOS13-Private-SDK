@@ -53,7 +53,7 @@ __attribute__((visibility("hidden")))
 - (void)disableVertexAttributeArrayBuffersWithShader:(id)arg1;
 - (void)enableVertexAttributeArrayBuffersWithShader:(id)arg1;
 - (void)addIndexNeedsUpdate:(long long)arg1;
-- (void)addIndexRangeNeedsUpdate:(_NSRange)arg1;
+- (void)addIndexRangeNeedsUpdate:(NSRange)arg1;
 - (void)addAllIndexesNeedUpdate;
 - (void)dealloc;
 - (id)initWithVertexAttributes:(id)arg1 vertexCount:(NSUInteger)arg2 bufferCount:(NSUInteger)arg3;

@@ -9,23 +9,23 @@
 __attribute__((visibility("hidden")))
 @interface OITSURangeList : NSObject
 {
-    struct vector<_NSRange, std::__1::allocator<_NSRange>> mRangeList;
+    struct vector<NSRange, std::__1::allocator<NSRange>> mRangeList;
 }
 
 - (id).cxx_construct;
 // - (void).cxx_destruct;
 - (id)stringValue;
 - (void)consolidate;
-- (_NSRange)rangeAtIndex:(NSUInteger)arg1;
+- (NSRange)rangeAtIndex:(NSUInteger)arg1;
 - (void)reverse;
-- (void)replaceWithRange:(_NSRange)arg1 atIndex:(NSUInteger)arg2;
+- (void)replaceWithRange:(NSRange)arg1 atIndex:(NSUInteger)arg2;
 - (void)removeRangeAtIndex:(NSUInteger)arg1;
-- (void)insertRange:(_NSRange)arg1 atIndex:(NSUInteger)arg2;
-- (void)addRange:(_NSRange)arg1;
+- (void)insertRange:(NSRange)arg1 atIndex:(NSUInteger)arg2;
+- (void)addRange:(NSRange)arg1;
 @property(readonly, nonatomic) NSUInteger count;
 - (id)initWithString:(id)arg1;
 - (id)initWithRangeList:(id)arg1;
-- (id)initWithRange:(_NSRange)arg1;
+- (id)initWithRange:(NSRange)arg1;
 
 @end
 

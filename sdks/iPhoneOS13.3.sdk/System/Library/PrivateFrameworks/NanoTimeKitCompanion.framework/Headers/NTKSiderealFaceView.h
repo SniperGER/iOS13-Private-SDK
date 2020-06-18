@@ -21,7 +21,7 @@
     NSTimer *_wheelDelayTimer;
     NSTimer *_buttonPressTimer;
     NTKSiderealDataSource *_dataSource;
-    NSNumber _clockTimerToken;
+    NSNumber *_clockTimerToken;
     double _currentSolarDayProgress;
     double _interactionProgress;
     double _lastTestedWaypointProgress;

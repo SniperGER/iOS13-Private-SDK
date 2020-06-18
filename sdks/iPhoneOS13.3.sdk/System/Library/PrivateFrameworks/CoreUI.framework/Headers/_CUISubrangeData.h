@@ -9,7 +9,7 @@
 __attribute__((visibility("hidden")))
 @interface _CUISubrangeData : NSData
 {
-    _NSRange _range;
+    NSRange _range;
     NSData *_data;
 }
 
@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (const void )bytes;
 - (NSUInteger)length;
 - (void)dealloc;
-- (id)initWithData:(id)arg1 range:(_NSRange)arg2;
+- (id)initWithData:(id)arg1 range:(NSRange)arg2;
 
 @end
 

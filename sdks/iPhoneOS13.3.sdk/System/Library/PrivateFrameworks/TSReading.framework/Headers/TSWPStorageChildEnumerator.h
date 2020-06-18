@@ -11,14 +11,14 @@
 @interface TSWPStorageChildEnumerator : NSEnumerator
 {
     TSWPStorage *_storage;
-    _NSRange _charRange;
+    NSRange _charRange;
     unsigned int _index;
     NSArray *_charOffsetArray;
 }
 
 - (id)nextObject;
 - (void)dealloc;
-- (id)initWithStorage:(id)arg1 range:(_NSRange)arg2;
+- (id)initWithStorage:(id)arg1 range:(NSRange)arg2;
 
 @end
 

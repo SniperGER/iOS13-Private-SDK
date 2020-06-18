@@ -8,7 +8,6 @@ compatibility-version: 0
 objc-constraint:       retain_release
 exports:
   - archs:              [ armv7, armv7s, arm64, arm64e ]
-    allowable-clients:  [ WorkflowUI ]
     symbols:            [ _CKTextKitEntityAttributeName, _CKTextKitTruncationAttributeName, __Z13CKScreenScalev,
                           __Z15CKMemoizeLayoutP11CKComponent11CKSizeRangeRK15CKComponentSize6CGSizeU13block_pointerF17CKComponentLayoutvE,
                           __Z16CKBuildComponentP20CKComponentScopeRootRKNSt3__118unordered_multimapIiU8__strongU13block_pointerFP11objc_objectS4_ENS1_4hashIiEENS1_8equal_toIiEENS1_9allocatorINS1_4pairIKiS7_EEEEEEU13block_pointerFP11CKComponentvE,

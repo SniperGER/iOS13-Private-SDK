@@ -11,13 +11,13 @@
 __attribute__((visibility("hidden")))
 @interface _UITextUndoOperationReplace : _UIUndoTextOperation
 {
-    _NSRange _replacementRange;
+    NSRange _replacementRange;
     NSAttributedString *_attributedString;
 }
 
 // - (void).cxx_destruct;
 - (void)undoRedo;
-- (id)initWithAffectedRange:(_NSRange)arg1 inputController:(id)arg2 replacementRange:(_NSRange)arg3;
+- (id)initWithAffectedRange:(NSRange)arg1 inputController:(id)arg2 replacementRange:(NSRange)arg3;
 
 @end
 

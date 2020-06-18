@@ -11,10 +11,10 @@
 @interface SXTextTangierAttachmentInfo : TSDDrawableInfo
 {
     SXTextExclusionPath *_exclusionPath;
-    _NSRange _actualRange;
+    NSRange _actualRange;
 }
 
-@property(nonatomic) _NSRange actualRange; // @synthesize actualRange=_actualRange;
+@property(nonatomic) NSRange actualRange; // @synthesize actualRange=_actualRange;
 @property(retain, nonatomic) SXTextExclusionPath *exclusionPath; // @synthesize exclusionPath=_exclusionPath;
 // - (void).cxx_destruct;
 - (Class)repClass;

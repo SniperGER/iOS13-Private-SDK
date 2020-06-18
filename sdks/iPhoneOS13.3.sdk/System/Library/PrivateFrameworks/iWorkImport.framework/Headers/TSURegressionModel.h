@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 
 - (id)formattedStringWithCoefficient:(double)arg1 locale:(id)arg2;
 - (id)equationString;
-- (_NSRange)superscriptRangeAtIndex:(int)arg1;
+- (NSRange)superscriptRangeAtIndex:(int)arg1;
 - (int)numSuperscriptRanges;
 - (id)getEquationStringAndBuildSuperscriptRangesArray:(id)arg1;
 - (double)rSquared;

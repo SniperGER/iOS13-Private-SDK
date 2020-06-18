@@ -53,11 +53,11 @@ __attribute__((visibility("hidden")))
 - (void)makeAliasableResource:(id)arg1 allocator:(id)arg2;
 - (void)heapBufferSizeAndAlignWithLength:(NSUInteger)arg1 options:(NSUInteger)arg2 allocator:(id)arg3;
 - (void)heapTextureSizeAndAlignWithDescriptor:(id)arg1 allocator:(id)arg2;
-- (void)argumentEncoderSetSamplerStates:(const id )arg1 withRange:(_NSRange)arg2 encoderRef:(unsigned int)arg3 allocator:(id)arg4;
-- (void)argumentEncoderSetTextures:(const id )arg1 withRange:(_NSRange)arg2 encoderRef:(unsigned int)arg3 allocator:(id)arg4;
+- (void)argumentEncoderSetSamplerStates:(const id )arg1 withRange:(NSRange)arg2 encoderRef:(unsigned int)arg3 allocator:(id)arg4;
+- (void)argumentEncoderSetTextures:(const id )arg1 withRange:(NSRange)arg2 encoderRef:(unsigned int)arg3 allocator:(id)arg4;
 - (void)setSignaledValue:(NSUInteger)arg1 eventRef:(unsigned int)arg2 allocator:(id)arg3;
 - (unsigned int)notifyListenerForEventRef:(unsigned int)arg1 atValue:(NSUInteger)arg2 allocator:(id)arg3;
-- (void)argumentEncoderSetBuffers:(const id )arg1 offsets:(const NSUInteger )arg2 withRange:(_NSRange)arg3 encoderRef:(unsigned int)arg4 allocator:(id)arg5;
+- (void)argumentEncoderSetBuffers:(const id )arg1 offsets:(const NSUInteger )arg2 withRange:(NSRange)arg3 encoderRef:(unsigned int)arg4 allocator:(id)arg5;
 - (void)argumentEncoderSetArgumentBuffer:(id)arg1 offset:(NSUInteger)arg2 encoderRef:(unsigned int)arg3 allocator:(id)arg4;
 - (void)maxAvailableSizeWithAlignment:(NSUInteger)arg1 heap:(id)arg2 allocator:(id)arg3;
 - (void)getComputeInfoWithAllocator:(id)arg1;
@@ -70,8 +70,8 @@ __attribute__((visibility("hidden")))
 - (unsigned int)newArgumentBufferLayoutWithStructType:(id)arg1 allocator:(id)arg2;
 - (unsigned int)newSharedEventWithAllocator:(id)arg1;
 - (unsigned int)newFenceWithAllocator:(id)arg1;
-- (unsigned int)newTextureViewWithPixelFormat:(NSUInteger)arg1 textureType:(NSUInteger)arg2 levels:(_NSRange)arg3 slices:(_NSRange)arg4 swizzle:(CDStruct_a06f635e)arg5 baseTexture:(id)arg6 allocator:(id)arg7;
-- (unsigned int)newTextureViewWithPixelFormat:(NSUInteger)arg1 textureType:(NSUInteger)arg2 levels:(_NSRange)arg3 slices:(_NSRange)arg4 baseTexture:(id)arg5 allocator:(id)arg6;
+- (unsigned int)newTextureViewWithPixelFormat:(NSUInteger)arg1 textureType:(NSUInteger)arg2 levels:(NSRange)arg3 slices:(NSRange)arg4 swizzle:(CDStruct_a06f635e)arg5 baseTexture:(id)arg6 allocator:(id)arg7;
+- (unsigned int)newTextureViewWithPixelFormat:(NSUInteger)arg1 textureType:(NSUInteger)arg2 levels:(NSRange)arg3 slices:(NSRange)arg4 baseTexture:(id)arg5 allocator:(id)arg6;
 - (unsigned int)newBufferWithLength:(NSUInteger)arg1 options:(NSUInteger)arg2 heap:(id)arg3 offset:(NSUInteger)arg4 useOffset:(BOOL)arg5 allocator:(id)arg6;
 - (unsigned int)newTextureWithDescriptor:(id)arg1 heap:(id)arg2 offset:(NSUInteger)arg3 useOffset:(BOOL)arg4 allocator:(id)arg5;
 - (unsigned int)newTextureViewWithPixelFormat:(NSUInteger)arg1 baseTexture:(id)arg2 allocator:(id)arg3;

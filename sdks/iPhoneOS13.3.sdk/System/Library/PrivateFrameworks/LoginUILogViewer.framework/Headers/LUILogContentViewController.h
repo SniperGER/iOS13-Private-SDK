@@ -48,7 +48,7 @@
 - (void)screenshotButtonTapped:(id)arg1;
 - (void)logOptionButtonTapped:(id)arg1;
 - (void)_applyScreenShotAnimation;
-- (_NSRange)_visibleRangeOfTextView:(id)arg1;
+- (NSRange)_visibleRangeOfTextView:(id)arg1;
 - (id)_generateScreenshotItem;
 - (void)clearScreenshots;
 - (id)_dateWithPercentage:(double)arg1;

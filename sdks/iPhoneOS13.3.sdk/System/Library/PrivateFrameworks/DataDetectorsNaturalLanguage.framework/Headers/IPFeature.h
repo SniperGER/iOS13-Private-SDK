@@ -13,11 +13,11 @@
     double _confidence;
     double _weight;
     NSString *_textUnit;
-    _NSRange _matchRange;
+    NSRange _matchRange;
 }
 
 @property(copy) NSString *textUnit; // @synthesize textUnit=_textUnit;
-@property _NSRange matchRange; // @synthesize matchRange=_matchRange;
+@property NSRange matchRange; // @synthesize matchRange=_matchRange;
 @property double weight; // @synthesize weight=_weight;
 @property double confidence; // @synthesize confidence=_confidence;
 // - (void).cxx_destruct;

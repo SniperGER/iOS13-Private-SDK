@@ -17,14 +17,14 @@ __attribute__((visibility("hidden")))
 }
 
 // - (void).cxx_destruct;
-- (id)p_footnoteReferenceStoragesInFootnoteIndexRange:(_NSRange)arg1;
+- (id)p_footnoteReferenceStoragesInFootnoteIndexRange:(NSRange)arg1;
 - (id)p_layoutForFootnoteReferenceStorage:(id)arg1;
-- (NSUInteger)p_layoutFootnotesInRange:(_NSRange)arg1 intoFootnoteContainer:(id)arg2 maxBlockHeight:(double)arg3 measure:(BOOL)arg4 inflating:(BOOL)arg5;
+- (NSUInteger)p_layoutFootnotesInRange:(NSRange)arg1 intoFootnoteContainer:(id)arg2 maxBlockHeight:(double)arg3 measure:(BOOL)arg4 inflating:(BOOL)arg5;
 - (void)removeDeletedFootnoteInContainer:(id)arg1;
-- (_NSRange)footnoteLayoutRangeForPageCharRange:(_NSRange)arg1;
-- (_NSRange)endnoteRangeForSectionCharRange:(_NSRange)arg1 isLastSection:(BOOL)arg2 sectionHint:(id)arg3;
-- (void)inflateFootnotesInRange:(_NSRange)arg1 intoFootnoteContainer:(id)arg2;
-- (_NSRange)layOutFootnotesFromIndex:(NSUInteger)arg1 intoFootnoteContainer:(id)arg2 maxBlockHeight:(double)arg3 pageCharRange:(_NSRange)arg4 sectionCharRange:(_NSRange)arg5 isLastSection:(BOOL)arg6 sectionHint:(id)arg7 pageHintIndex:(NSUInteger)arg8;
+- (NSRange)footnoteLayoutRangeForPageCharRange:(NSRange)arg1;
+- (NSRange)endnoteRangeForSectionCharRange:(NSRange)arg1 isLastSection:(BOOL)arg2 sectionHint:(id)arg3;
+- (void)inflateFootnotesInRange:(NSRange)arg1 intoFootnoteContainer:(id)arg2;
+- (NSRange)layOutFootnotesFromIndex:(NSUInteger)arg1 intoFootnoteContainer:(id)arg2 maxBlockHeight:(double)arg3 pageCharRange:(NSRange)arg4 sectionCharRange:(NSRange)arg5 isLastSection:(BOOL)arg6 sectionHint:(id)arg7 pageHintIndex:(NSUInteger)arg8;
 @property(readonly, nonatomic) __weak id <TSWPFootnoteMarkProvider> footnoteMarkProvider;
 - (id)initWithDocumentRoot:(id)arg1;
 

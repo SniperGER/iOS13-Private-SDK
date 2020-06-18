@@ -18,7 +18,7 @@
 // - (void).cxx_destruct;
 - (void)_updateTextColor;
 - (void)tintColorDidChange;
-- (BOOL)textView:(id)arg1 shouldInteractWithURL:(id)arg2 inRange:(_NSRange)arg3 interaction:(long long)arg4;
+- (BOOL)textView:(id)arg1 shouldInteractWithURL:(id)arg2 inRange:(NSRange)arg3 interaction:(long long)arg4;
 - (void)_dynamicUserInterfaceTraitDidChange;
 @property(readonly, nonatomic) NSAttributedString *footerTextViewString;
 - (void)setupConstraints;

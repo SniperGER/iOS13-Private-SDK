@@ -121,9 +121,9 @@
 - (BOOL)isDeletedOrInTrash;
 - (id)contentInfoText;
 - (void)regenerateTitle:(BOOL)arg1 snippet:(BOOL)arg2;
-- (_NSRange)rangeForTitle:(BOOL )arg1;
-- (_NSRange)rangeForSnippet;
-- (void)regenerateTitleAndSnippetIfNecessaryForEdit:(NSUInteger)arg1 range:(_NSRange)arg2 changeInLength:(long long)arg3;
+- (NSRange)rangeForTitle:(BOOL )arg1;
+- (NSRange)rangeForSnippet;
+- (void)regenerateTitleAndSnippetIfNecessaryForEdit:(NSUInteger)arg1 range:(NSRange)arg2 changeInLength:(long long)arg3;
 - (void)recoverMissingCryptoWrappedKeyIfNecessaryWithMasterKey:(id)arg1;
 - (void)mergeUnappliedEncryptedRecordsIncludingAttachmentsInBackground;
 - (void)mergeUnappliedEncryptedRecordsIncludingAttachments;
@@ -144,7 +144,7 @@
 - (NSUInteger)mergeWithNoteDocument:(id)arg1;
 - (NSUInteger)mergeWithNoteData:(id)arg1;
 - (void)refreshNoteTextFromDataStore;
-- (_NSRange)rangeForAttachment:(id)arg1;
+- (NSRange)rangeForAttachment:(id)arg1;
 - (BOOL)hasThumbnailImage;
 - (void)enumerateAttachmentsInOrderUsingBlock:(id /* CDUnknownBlockType */)arg1;
 - (id)attachmentsInOrder;
@@ -171,7 +171,7 @@
 - (BOOL)wantsUndoCommands;
 - (void)addUndoCommand:(id)arg1;
 - (void)endEditing;
-- (void)edited:(NSUInteger)arg1 range:(_NSRange)arg2 changeInLength:(long long)arg3;
+- (void)edited:(NSUInteger)arg1 range:(NSRange)arg2 changeInLength:(long long)arg3;
 - (void)beginEditing;
 - (BOOL)updateLastViewedTimestampWithCurrentTimestamp;
 - (void)updateTimestampWithUnserializedChanges;
@@ -195,7 +195,7 @@
 - (void)awakeFromFetch;
 - (void)prepareForDeletion;
 - (void)mergeNotePrimitiveData;
-- (_NSRange)textRangeForSearchRange:(_NSRange)arg1 inSearchableString:(id)arg2;
+- (NSRange)textRangeForSearchRange:(NSRange)arg1 inSearchableString:(id)arg2;
 - (void)didAcceptShare:(id)arg1;
 - (BOOL)needsToDeleteShare;
 - (id)shareType;

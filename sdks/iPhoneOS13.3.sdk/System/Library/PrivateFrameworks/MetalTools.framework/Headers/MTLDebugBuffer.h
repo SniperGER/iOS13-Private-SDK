@@ -40,10 +40,10 @@
 - (void)accessedByGPU;
 @property(readonly, nonatomic) BOOL resourceTrackingEnabled; // @dynamic resourceTrackingEnabled;
 - (void)removeAllDebugMarkers;
-- (void)addDebugMarker:(id)arg1 range:(_NSRange)arg2;
+- (void)addDebugMarker:(id)arg1 range:(NSRange)arg2;
 - (id)copyDebugMarkers;
 - (void )contents;
-- (void)didModifyRange:(_NSRange)arg1;
+- (void)didModifyRange:(NSRange)arg1;
 - (id)newLinearTextureWithDescriptor:(id)arg1 offset:(NSUInteger)arg2 bytesPerRow:(NSUInteger)arg3 bytesPerImage:(NSUInteger)arg4;
 - (id)newTextureWithDescriptor:(id)arg1 offset:(NSUInteger)arg2 bytesPerRow:(NSUInteger)arg3;
 - (id)description;

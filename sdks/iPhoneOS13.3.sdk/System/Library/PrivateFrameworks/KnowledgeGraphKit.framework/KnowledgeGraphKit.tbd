@@ -8,7 +8,6 @@ compatibility-version: 1
 objc-constraint:       retain_release
 exports:
   - archs:              [ armv7, armv7s, arm64, arm64e ]
-    allowable-clients:  [ PhotoAnalysis, PhotosGraph, contextd ]
     symbols:            [ _$s17KnowledgeGraphKit003xfhoiySdAA8MAMatrixV_ADtF,
                           _$s17KnowledgeGraphKit12MAFetchSliceC12contentNodesShySo6MANodeCGyF,
                           _$s17KnowledgeGraphKit12MAFetchSliceC30$__lazy_storage_$_abstractNode33_BD65772813464A71C5CFFA096E03B6E9LLSo010MAAbstractI0CSgvpfi,

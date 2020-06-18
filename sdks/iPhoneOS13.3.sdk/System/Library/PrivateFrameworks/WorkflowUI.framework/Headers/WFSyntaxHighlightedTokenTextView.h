@@ -17,7 +17,7 @@
 
 @property(retain, nonatomic) WFSyntaxHighlightingPluginManager *pluginManager; // @synthesize pluginManager=_pluginManager;
 // - (void).cxx_destruct;
-- (_NSRange)lineRangeForCharacterRange:(_NSRange)arg1;
+- (NSRange)lineRangeForCharacterRange:(NSRange)arg1;
 - (void)updateLineIndicesForTextStorage:(id)arg1;
 - (void)synchronizeTokenManagerWithTextStorage:(id)arg1;
 - (void)traitCollectionDidChange:(id)arg1;

@@ -23,7 +23,7 @@
 @property(copy, nonatomic) PXLayoutMetrics *metrics; // @synthesize metrics=_metrics;
 // - (void).cxx_destruct;
 @property(readonly, nonatomic) NSString *diagnosticDescription;
-- (void)getGeometries:(struct _PXLayoutGeometry )arg1 inRange:(_NSRange)arg2 withKind:(long long)arg3;
+- (void)getGeometries:(struct _PXLayoutGeometry )arg1 inRange:(NSRange)arg2 withKind:(long long)arg3;
 - (NSUInteger)numberOfGeometriesWithKind:(long long)arg1;
 @property(readonly, nonatomic) NSIndexSet *geometryKinds;
 @property(readonly, nonatomic) CGSize size;

@@ -14,11 +14,11 @@
     NSString *_textToInsert;
     NSString *_prefix;
     double _probability;
-    _NSRange _rangeToReplace;
+    NSRange _rangeToReplace;
 }
 
 @property(nonatomic) double probability; // @synthesize probability=_probability;
-@property(nonatomic) _NSRange rangeToReplace; // @synthesize rangeToReplace=_rangeToReplace;
+@property(nonatomic) NSRange rangeToReplace; // @synthesize rangeToReplace=_rangeToReplace;
 @property(copy, nonatomic) NSString *prefix; // @synthesize prefix=_prefix;
 @property(copy, nonatomic) NSString *textToInsert; // @synthesize textToInsert=_textToInsert;
 @property(copy, nonatomic) NSString *fullWord; // @synthesize fullWord=_fullWord;

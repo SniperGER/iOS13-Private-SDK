@@ -7,6 +7,9 @@
 
 @class NSAttributedString, NSString, UIColor, UIFont;
 
+#ifndef CLKUILabel_Protocol
+#define CLKUILabel_Protocol
+
 @protocol CLKUILabel <NSObject>
 @property(readonly, nonatomic) UIEdgeInsets opticalInsets;
 @property(copy, nonatomic) NSAttributedString *attributedText;
@@ -16,4 +19,6 @@
 @property(retain, nonatomic) UIColor *textColor;
 @property(retain, nonatomic) UIFont *font;
 @end
+
+#endif
 

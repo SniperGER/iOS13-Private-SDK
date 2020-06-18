@@ -27,7 +27,7 @@
 - (id)predicateFormat;
 - (BOOL)evaluateWithObject:(id)arg1 substitutionVariables:(id)arg2;
 - (BOOL)evaluateWithObject:(id)arg1;
-- (BOOL)getRanges:(vector_7053a16b )arg1 inDescription:(id)arg2 options:(NSUInteger)arg3 limit:(NSUInteger)arg4 searchedInRange:(_NSRange )arg5;
+- (BOOL)getRanges:(vector_7053a16b )arg1 inDescription:(id)arg2 options:(NSUInteger)arg3 limit:(NSUInteger)arg4 searchedInRange:(NSRange )arg5;
 - (BOOL)evaluateNumerically:(id)arg1;
 - (id)initWithSearchString:(id)arg1 forTitle:(id)arg2 operator:(NSUInteger)arg3 error:(id )arg4;
 - (id)initWithSearchString:(id)arg1 operator:(NSUInteger)arg2 error:(id )arg3;

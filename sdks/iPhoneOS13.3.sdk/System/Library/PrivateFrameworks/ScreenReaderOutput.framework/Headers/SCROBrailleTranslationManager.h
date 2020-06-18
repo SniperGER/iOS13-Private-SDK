@@ -28,7 +28,7 @@
 // - (void).cxx_destruct;
 - (BOOL)primaryTableSupportsRoundTripping;
 - (id)textForPrintBraille:(id)arg1 language:(id)arg2 mode:(NSUInteger)arg3 locations:(id )arg4;
-- (id)printBrailleForText:(id)arg1 language:(id)arg2 mode:(NSUInteger)arg3 textPositionsRange:(_NSRange)arg4 locations:(id )arg5;
+- (id)printBrailleForText:(id)arg1 language:(id)arg2 mode:(NSUInteger)arg3 textPositionsRange:(NSRange)arg4 locations:(id )arg5;
 @property(copy, nonatomic) NSString *defaultLanguage; // @synthesize defaultLanguage=_queue_defaultLanguage;
 - (void)loadTranslatorWithServiceIdentifier:(id)arg1 forUnitTesting:(BOOL)arg2;
 - (void)loadTranslatorWithServiceIdentifier:(id)arg1;

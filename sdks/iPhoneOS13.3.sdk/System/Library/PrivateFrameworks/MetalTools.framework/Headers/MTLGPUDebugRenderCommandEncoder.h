@@ -21,7 +21,7 @@
 - (void)endEncoding;
 - (void)setRenderPipelineState:(id)arg1;
 - (void)executeCommandsInBuffer:(id)arg1 indirectBuffer:(id)arg2 indirectBufferOffset:(NSUInteger)arg3;
-- (void)executeCommandsInBuffer:(id)arg1 withRange:(_NSRange)arg2;
+- (void)executeCommandsInBuffer:(id)arg1 withRange:(NSRange)arg2;
 - (void)dispatchThreadsPerTile:(CDStruct_14f26992)arg1;
 - (void)drawIndexedPatches:(NSUInteger)arg1 patchStart:(NSUInteger)arg2 patchCount:(NSUInteger)arg3 patchIndexBuffer:(id)arg4 patchIndexBufferOffset:(NSUInteger)arg5 controlPointIndexBuffer:(id)arg6 controlPointIndexBufferOffset:(NSUInteger)arg7 instanceCount:(NSUInteger)arg8 baseInstance:(NSUInteger)arg9;
 - (void)drawIndexedPatches:(NSUInteger)arg1 patchIndexBuffer:(id)arg2 patchIndexBufferOffset:(NSUInteger)arg3 controlPointIndexBuffer:(id)arg4 controlPointIndexBufferOffset:(NSUInteger)arg5 indirectBuffer:(id)arg6 indirectBufferOffset:(NSUInteger)arg7;
@@ -36,15 +36,15 @@
 - (void)drawPrimitives:(NSUInteger)arg1 indirectBuffer:(id)arg2 indirectBufferOffset:(NSUInteger)arg3;
 - (void)drawPrimitives:(NSUInteger)arg1 vertexStart:(NSUInteger)arg2 vertexCount:(NSUInteger)arg3;
 - (void)setTileBytes:(const void )arg1 length:(NSUInteger)arg2 atIndex:(NSUInteger)arg3;
-- (void)setTileBuffers:(const id )arg1 offsets:(const NSUInteger )arg2 withRange:(_NSRange)arg3;
+- (void)setTileBuffers:(const id )arg1 offsets:(const NSUInteger )arg2 withRange:(NSRange)arg3;
 - (void)setTileBufferOffset:(NSUInteger)arg1 atIndex:(NSUInteger)arg2;
 - (void)setTileBuffer:(id)arg1 offset:(NSUInteger)arg2 atIndex:(NSUInteger)arg3;
 - (void)setFragmentBytes:(const void )arg1 length:(NSUInteger)arg2 atIndex:(NSUInteger)arg3;
-- (void)setFragmentBuffers:(const id )arg1 offsets:(const NSUInteger )arg2 withRange:(_NSRange)arg3;
+- (void)setFragmentBuffers:(const id )arg1 offsets:(const NSUInteger )arg2 withRange:(NSRange)arg3;
 - (void)setFragmentBufferOffset:(NSUInteger)arg1 atIndex:(NSUInteger)arg2;
 - (void)setFragmentBuffer:(id)arg1 offset:(NSUInteger)arg2 atIndex:(NSUInteger)arg3;
 - (void)setVertexBytes:(const void )arg1 length:(NSUInteger)arg2 atIndex:(NSUInteger)arg3;
-- (void)setVertexBuffers:(const id )arg1 offsets:(const NSUInteger )arg2 withRange:(_NSRange)arg3;
+- (void)setVertexBuffers:(const id )arg1 offsets:(const NSUInteger )arg2 withRange:(NSRange)arg3;
 - (void)setVertexBufferOffset:(NSUInteger)arg1 atIndex:(NSUInteger)arg2;
 - (void)setVertexBuffer:(id)arg1 offset:(NSUInteger)arg2 atIndex:(NSUInteger)arg3;
 - (void)onDraw;

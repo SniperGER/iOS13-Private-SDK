@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
     NSUInteger _numberOfLines;
     CGRect _boundingRect;
     CGRect _usedBoundingRect;
-    _NSRange _fitRange;
+    NSRange _fitRange;
     double _firstLineBaseline;
     double _lastLineBaseline;
     _UIVectorTextLayoutInfo *_layoutInfo;
@@ -30,7 +30,7 @@ __attribute__((visibility("hidden")))
 - (void)enumerateRunsUsingBlock:(id /* CDUnknownBlockType */)arg1;
 @property(readonly, nonatomic) double lastLineBaseline;
 @property(readonly, nonatomic) double firstLineBaseline;
-@property(readonly, nonatomic) _NSRange textRange;
+@property(readonly, nonatomic) NSRange textRange;
 @property(readonly, nonatomic) CGSize size;
 @property(readonly, nonatomic) NSUInteger numberOfRuns;
 @property(readonly, nonatomic) NSUInteger numberOfLines;

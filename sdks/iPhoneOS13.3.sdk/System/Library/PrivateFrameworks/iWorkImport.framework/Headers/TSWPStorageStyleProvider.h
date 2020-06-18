@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id)styleProviderForStorage:(id)arg1;
-- (id)paragraphStyleAtParIndex:(NSUInteger)arg1 effectiveRange:(_NSRange )arg2;
+- (id)paragraphStyleAtParIndex:(NSUInteger)arg1 effectiveRange:(NSRange )arg2;
 
 @end
 

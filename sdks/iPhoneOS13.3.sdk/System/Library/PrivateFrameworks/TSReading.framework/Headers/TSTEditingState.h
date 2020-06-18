@@ -50,7 +50,7 @@
 - (void)adoptStylesheet:(id)arg1 withMapper:(id)arg2;
 - (void)p_unregisterStorageObserver;
 - (void)p_registerStorageObserver;
-- (void)storage:(id)arg1 didChangeRange:(_NSRange)arg2 delta:(long long)arg3 broadcastKind:(int)arg4;
+- (void)storage:(id)arg1 didChangeRange:(NSRange)arg2 delta:(long long)arg3 broadcastKind:(int)arg4;
 - (void)changeEditingMode:(int)arg1;
 @property(readonly, nonatomic) int editingMode;
 - (void)reloadValueFromFocusedCell;

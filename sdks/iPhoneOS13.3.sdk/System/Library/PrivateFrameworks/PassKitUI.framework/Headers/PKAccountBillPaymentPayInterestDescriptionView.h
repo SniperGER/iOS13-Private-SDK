@@ -36,7 +36,7 @@
 - (id)_learnMoreAttributedStringWithText:(id)arg1;
 - (void)_updateLabels;
 - (BOOL)_showInterest;
-- (BOOL)textView:(id)arg1 shouldInteractWithURL:(id)arg2 inRange:(_NSRange)arg3 interaction:(long long)arg4;
+- (BOOL)textView:(id)arg1 shouldInteractWithURL:(id)arg2 inRange:(NSRange)arg3 interaction:(long long)arg4;
 - (CGSize)sizeThatFits:(CGSize)arg1;
 - (void)layoutSubviews;
 - (id)initWithAccount:(id)arg1;

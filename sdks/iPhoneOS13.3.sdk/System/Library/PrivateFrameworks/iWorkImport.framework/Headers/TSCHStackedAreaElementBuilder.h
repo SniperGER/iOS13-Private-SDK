@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (BOOL)p_addBottomStroke:(CDStruct_e0d92598 )arg1 toPath:(CGPath )arg2 seriesIndex:(NSUInteger)arg3 valuesStart:(NSUInteger)arg4 valuesEnd:(NSUInteger)arg5 withPointsArray:(CDStruct_460b8ffe )arg6 withCount:(NSUInteger)arg7;
-- (CDStruct_40a92360 )p_centerPointsForSeries:(id)arg1 forGroupIndexes:(_NSRange)arg2 xAxis:(id)arg3 yAxis:(id)arg4 plotAreaFrame:(CGRect)arg5;
+- (CDStruct_40a92360 )p_centerPointsForSeries:(id)arg1 forGroupIndexes:(NSRange)arg2 xAxis:(id)arg3 yAxis:(id)arg4 plotAreaFrame:(CGRect)arg5;
 - (CDStruct_460b8ffe )p_createPointArrayForSeries:(id)arg1 inAreaFrame:(CGRect)arg2 valueStart:(long long)arg3 valueEnd:(long long)arg4 outCount:(NSUInteger )arg5;
 
 @end

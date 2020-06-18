@@ -17,13 +17,13 @@
     NSString *_extraDisambiguationText;
     NSString *_extraDisambiguationSubText;
     UIImageView *_imageView;
-    _NSRange _titleBoldedRange;
+    NSRange _titleBoldedRange;
 }
 
 + (id)disambiguationItem;
 @property(nonatomic) BOOL showsFavoriteStar; // @synthesize showsFavoriteStar=_showsFavoriteStar;
 @property(retain, nonatomic) UIImageView *imageView; // @synthesize imageView=_imageView;
-@property(nonatomic) _NSRange titleBoldedRange; // @synthesize titleBoldedRange=_titleBoldedRange;
+@property(nonatomic) NSRange titleBoldedRange; // @synthesize titleBoldedRange=_titleBoldedRange;
 @property(copy, nonatomic) NSString *extraDisambiguationSubText; // @synthesize extraDisambiguationSubText=_extraDisambiguationSubText;
 @property(copy, nonatomic) NSString *extraDisambiguationText; // @synthesize extraDisambiguationText=_extraDisambiguationText;
 @property(copy, nonatomic) NSString *headingText; // @synthesize headingText=_headingText;

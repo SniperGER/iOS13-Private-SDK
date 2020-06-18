@@ -14,7 +14,7 @@
 @property(nonatomic) double horizontalCompressionResistance;
 @property(nonatomic) double horizontalHuggingPriority;
 @property(nonatomic) NSUInteger row;
-@property(nonatomic) _NSRange columnRange;
+@property(nonatomic) NSRange columnRange;
 @property(nonatomic) CGRect frame;
 - (CGSize)sizeForTargetSize:(CGSize)arg1;
 @end

@@ -321,13 +321,13 @@
 - (void)_presentModalGroupViewPostAnimationActions;
 - (void)_presentModalGroupView:(id)arg1 withState:(long long)arg2 animated:(BOOL)arg3 context:(id)arg4 completion:(id /* CDUnknownBlockType */)arg5;
 - (void)_presentOffscreenAnimated:(BOOL)arg1 split:(BOOL)arg2 withCompletionHandler:(id /* CDUnknownBlockType */)arg3;
-- (void)_generateModalGroupPileWithVisibleIndexes:(_NSRange)arg1 reservePlaceForModalGroup:(BOOL)arg2;
+- (void)_generateModalGroupPileWithVisibleIndexes:(NSRange)arg1 reservePlaceForModalGroup:(BOOL)arg2;
 - (NSUInteger)_edgeStylesObscuredByTopCornersOfPassStyle:(long long)arg1;
 - (NSUInteger)_edgeStylesObscuredByTopMiddleOfPassStyle:(long long)arg1;
-- (_NSRange)_rangeOfEagerLoadedIndexes;
+- (NSRange)_rangeOfEagerLoadedIndexes;
 - (id)_stackedIndices;
-- (_NSRange)_rangeOfVisibleIndexesIgnoringBottomInset:(BOOL)arg1;
-- (_NSRange)_rangeOfVisibleIndexes;
+- (NSRange)_rangeOfVisibleIndexesIgnoringBottomInset:(BOOL)arg1;
+- (NSRange)_rangeOfVisibleIndexes;
 - (NSUInteger)_startVisibleIndex;
 - (void)_removeGroupViewAsSubviewWithGroupID:(id)arg1;
 - (void)_addGroupViewAsSubview:(id)arg1 forIndex:(NSUInteger)arg2;

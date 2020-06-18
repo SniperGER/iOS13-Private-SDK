@@ -50,7 +50,7 @@
 - (id)_classificationAttributedTextForElectrocardiogram:(id)arg1;
 - (void)_recomputeState;
 - (void)stackedButtonView:(id)arg1 didTapButtonAtIndex:(long long)arg2;
-- (void)linkTextView:(id)arg1 didTapOnLinkInRange:(_NSRange)arg2;
+- (void)linkTextView:(id)arg1 didTapOnLinkInRange:(NSRange)arg2;
 - (void)_electrocardiogramCardViewTapped:(id)arg1;
 - (void)_updateUIForElectrocardiogram:(id)arg1;
 - (void)_setUpConstraints;

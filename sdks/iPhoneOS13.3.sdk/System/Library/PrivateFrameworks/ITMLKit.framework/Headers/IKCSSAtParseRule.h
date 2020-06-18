@@ -16,7 +16,7 @@
 @property(retain, nonatomic) NSString *name; // @synthesize name=_name;
 // - (void).cxx_destruct;
 - (id)description;
-- (_NSRange)range;
+- (NSRange)range;
 - (id)init;
 
 @end

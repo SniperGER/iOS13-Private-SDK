@@ -121,7 +121,7 @@
 - (short)attachmentType;
 - (BOOL)supportsSavingAttachmentToExternalFile;
 - (BOOL)isInNoteTitleOrSnippet;
-- (_NSRange)rangeInNote;
+- (NSRange)rangeInNote;
 - (BOOL)needsToBeRequested;
 - (BOOL)isVisible;
 - (CGSize)intrinsicContentSize;

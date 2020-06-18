@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 @interface _UIRTree : NSObject
 {
     struct shared_ptr<_UIRTreeContainerNode> _root;
-    _NSRange _allIndexesRange;
+    NSRange _allIndexesRange;
     NSMutableIndexSet *_allIndexes;
 }
 

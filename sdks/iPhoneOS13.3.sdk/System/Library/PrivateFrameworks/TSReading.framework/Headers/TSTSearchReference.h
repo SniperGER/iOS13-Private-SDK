@@ -15,7 +15,7 @@
 {
     TSTTableInfo *_tableInfo;
     CDStruct_0441cfb5 _cellID;
-    _NSRange _range;
+    NSRange _range;
     BOOL _autohideHighlight;
     BOOL _pulseHighlight;
     NSArray *_findHighlights;
@@ -23,7 +23,7 @@
     CGPoint searchReferencePoint;
 }
 
-+ (id)searchReferenceWithTableInfo:(id)arg1 cellID:(CDStruct_0441cfb5)arg2 range:(_NSRange)arg3;
++ (id)searchReferenceWithTableInfo:(id)arg1 cellID:(CDStruct_0441cfb5)arg2 range:(NSRange)arg3;
 @property(retain, nonatomic) id <TSKAnnotation> annotation; // @synthesize annotation;
 @property(nonatomic) CGPoint searchReferencePoint; // @synthesize searchReferencePoint;
 @property(nonatomic) BOOL pulseHighlight; // @synthesize pulseHighlight=_pulseHighlight;
@@ -41,11 +41,11 @@
 @property(readonly, copy) NSString *description;
 - (CDStruct_0441cfb5)cellID;
 - (void)setCellID:(CDStruct_0441cfb5)arg1;
-- (_NSRange)range;
-- (void)setRange:(_NSRange)arg1;
+- (NSRange)range;
+- (void)setRange:(NSRange)arg1;
 - (BOOL)isEqual:(id)arg1;
 - (void)dealloc;
-- (id)initWithTableInfo:(id)arg1 cellID:(CDStruct_0441cfb5)arg2 range:(_NSRange)arg3;
+- (id)initWithTableInfo:(id)arg1 cellID:(CDStruct_0441cfb5)arg2 range:(NSRange)arg3;
 
 @end
 

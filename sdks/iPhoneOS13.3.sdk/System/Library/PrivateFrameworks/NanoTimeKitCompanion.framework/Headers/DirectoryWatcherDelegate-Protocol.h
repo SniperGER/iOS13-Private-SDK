@@ -7,7 +7,12 @@
 
 @class DirectoryWatcher;
 
+#ifndef DirectoryWatcherDelegate_Protocol
+#define DirectoryWatcherDelegate_Protocol
+
 @protocol DirectoryWatcherDelegate <NSObject>
 - (void)directoryDidChange:(DirectoryWatcher *)arg1;
 @end
+
+#endif
 

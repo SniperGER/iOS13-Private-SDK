@@ -13,7 +13,7 @@
 
 - (id).cxx_construct;
 // - (void).cxx_destruct;
-- (void)broadcastStorage:(id)arg1 didChangeRange:(_NSRange)arg2 delta:(long long)arg3 broadcastKind:(int)arg4;
+- (void)broadcastStorage:(id)arg1 didChangeRange:(NSRange)arg2 delta:(long long)arg3 broadcastKind:(int)arg4;
 - (void)removeAllObservers;
 - (void)removeObserver:(id)arg1;
 - (void)addObserver:(id)arg1;

@@ -25,11 +25,11 @@
 - (id)viewForHeaderInSection:(long long)arg1;
 - (id)headerFooterViewWithClass:(Class)arg1;
 - (void)removeItemsAtIndexes:(id)arg1 inSection:(long long)arg2;
-- (void)removeItemsInRange:(_NSRange)arg1 inSection:(long long)arg2;
+- (void)removeItemsInRange:(NSRange)arg1 inSection:(long long)arg2;
 - (void)removeItemAtIndexPath:(id)arg1;
 - (void)removeSectionWithIdentifier:(id)arg1;
 - (void)removeSectionsAtIndexes:(id)arg1;
-- (void)removeSectionsInRange:(_NSRange)arg1;
+- (void)removeSectionsInRange:(NSRange)arg1;
 - (void)removeSectionAtIndex:(long long)arg1;
 - (void)removeAllSections;
 - (void)clearSections;

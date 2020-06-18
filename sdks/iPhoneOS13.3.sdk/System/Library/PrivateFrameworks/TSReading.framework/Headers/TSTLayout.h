@@ -60,7 +60,7 @@
 @property(nonatomic) BOOL newCanvasRevealedHorizontally; // @synthesize newCanvasRevealedHorizontally=mNewCanvasRevealedHorizontally;
 - (BOOL)p_getLayoutDirectionLeftToRight;
 - (unsigned int)p_defaultAlignmentForTableWritingDirection;
-- (void)storage:(id)arg1 didChangeRange:(_NSRange)arg2 delta:(long long)arg3 broadcastKind:(int)arg4;
+- (void)storage:(id)arg1 didChangeRange:(NSRange)arg2 delta:(long long)arg3 broadcastKind:(int)arg4;
 - (int)reapCoordinatesChangedMaskForChrome;
 - (void)processChanges:(id)arg1;
 - (void)p_processChangeActions:(id)arg1;

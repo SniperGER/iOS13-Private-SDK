@@ -17,8 +17,8 @@
 @property(nonatomic) __weak UITextView *textView; // @synthesize textView=_textView;
 // - (void).cxx_destruct;
 - (double)bulletYOffsetForCharacterAtIndex:(NSUInteger)arg1;
-- (void)drawBulletsForListRange:(_NSRange)arg1 paragraphStyle:(id)arg2 atPoint:(CGPoint)arg3;
-- (void)drawListStylesForCharacterRange:(_NSRange)arg1 atPoint:(CGPoint)arg2;
+- (void)drawBulletsForListRange:(NSRange)arg1 paragraphStyle:(id)arg2 atPoint:(CGPoint)arg3;
+- (void)drawListStylesForCharacterRange:(NSRange)arg1 atPoint:(CGPoint)arg2;
 - (id)textContainer;
 - (id)textController;
 

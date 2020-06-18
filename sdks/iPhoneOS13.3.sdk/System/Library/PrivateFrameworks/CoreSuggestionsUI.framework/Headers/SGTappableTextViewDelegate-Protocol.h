@@ -8,6 +8,6 @@
 @class SGTappableTextView;
 
 @protocol SGTappableTextViewDelegate <NSObject>
-- (void)tappableTextView:(SGTappableTextView *)arg1 didTapRange:(_NSRange)arg2;
+- (void)tappableTextView:(SGTappableTextView *)arg1 didTapRange:(NSRange)arg2;
 @end
 

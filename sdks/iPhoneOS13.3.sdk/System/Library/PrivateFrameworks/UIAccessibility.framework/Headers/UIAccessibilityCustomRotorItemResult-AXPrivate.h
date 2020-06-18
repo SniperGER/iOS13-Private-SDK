@@ -11,6 +11,6 @@
 @interface UIAccessibilityCustomRotorItemResult (AXPrivate)
 - (id)initWithTargetElement:(id)arg1 targetRange:(id)arg2 targetTextMarkerRange:(id)arg3;
 @property(retain, nonatomic) NSArray *targetTextMarkerRange;
-@property(nonatomic) _NSRange targetNSRange;
+@property(nonatomic) NSRange targetNSRange;
 @end
 

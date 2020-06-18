@@ -8,6 +8,6 @@
 
 @interface NSAttributedString (DataDetectorsSupport)
 - (id)dd_attributedStringByAppendingAttributedString:(id)arg1;
-- (id)dd_attributedSubstringFromRange:(_NSRange)arg1;
+- (id)dd_attributedSubstringFromRange:(NSRange)arg1;
 @end
 

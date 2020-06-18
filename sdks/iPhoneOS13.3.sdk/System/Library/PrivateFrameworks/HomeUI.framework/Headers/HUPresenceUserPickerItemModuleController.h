@@ -16,7 +16,7 @@
 
 @property(nonatomic) __weak id <HUPresenceUserPickerItemModuleControllerDelegate> delegate; // @synthesize delegate=_delegate;
 // - (void).cxx_destruct;
-- (BOOL)textView:(id)arg1 shouldInteractWithURL:(id)arg2 inRange:(_NSRange)arg3 interaction:(long long)arg4;
+- (BOOL)textView:(id)arg1 shouldInteractWithURL:(id)arg2 inRange:(NSRange)arg3 interaction:(long long)arg4;
 - (id)_showAlertForConfirmationPrompt:(id)arg1;
 - (void)accessoryButtonTappedForItem:(id)arg1;
 - (NSUInteger)didSelectItem:(id)arg1;

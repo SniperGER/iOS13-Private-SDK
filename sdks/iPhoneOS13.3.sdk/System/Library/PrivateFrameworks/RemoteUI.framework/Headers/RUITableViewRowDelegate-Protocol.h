@@ -8,7 +8,7 @@
 
 @protocol RUITableViewRowDelegate
 - (Class)tableCellClassForTableViewRow:(RUITableViewRow *)arg1;
-- (id)textFieldRow:(RUITableViewRow *)arg1 changeCharactersInRange:(_NSRange)arg2 replacementString:(NSString *)arg3;
+- (id)textFieldRow:(RUITableViewRow *)arg1 changeCharactersInRange:(NSRange)arg2 replacementString:(NSString *)arg3;
 - (void)rowIsFirstResponder:(RUITableViewRow *)arg1;
 - (void)rowDidChange:(RUITableViewRow *)arg1 action:(int)arg2;
 - (void)rowDidEndEditing:(RUITableViewRow *)arg1;

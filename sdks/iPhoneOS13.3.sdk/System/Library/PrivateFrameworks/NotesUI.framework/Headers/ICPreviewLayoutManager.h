@@ -11,10 +11,10 @@
 }
 
 - (id)linkAttributesForLink:(id)arg1 forCharacterAtIndex:(NSUInteger)arg2;
-- (void)drawTodoItemForListRange:(_NSRange)arg1 paragraphStyle:(id)arg2 atOrigin:(CGPoint)arg3;
+- (void)drawTodoItemForListRange:(NSRange)arg1 paragraphStyle:(id)arg2 atOrigin:(CGPoint)arg3;
 - (UIImage )todoImageForParagraphStyle:(id)arg1;
-- (void)drawTodosForCharacterRange:(_NSRange)arg1 atOrigin:(CGPoint)arg2;
-- (void)drawGlyphsForGlyphRange:(_NSRange)arg1 atPoint:(CGPoint)arg2;
+- (void)drawTodosForCharacterRange:(NSRange)arg1 atOrigin:(CGPoint)arg2;
+- (void)drawGlyphsForGlyphRange:(NSRange)arg1 atPoint:(CGPoint)arg2;
 
 @end
 

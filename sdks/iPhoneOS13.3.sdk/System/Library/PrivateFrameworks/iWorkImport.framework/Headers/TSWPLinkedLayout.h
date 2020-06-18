@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (id)nextTargetTopicNumbers;
 - (id)previousTargetTopicNumbers;
 - (id)nextTargetFirstColumn;
-- (BOOL)discardLayoutsForDrawableAttachmentsInRange:(_NSRange)arg1;
+- (BOOL)discardLayoutsForDrawableAttachmentsInRange:(NSRange)arg1;
 - (void)validate;
 - (BOOL)repShouldPreventCaret;
 - (void)willBeRemovedFromLayoutController:(id)arg1;

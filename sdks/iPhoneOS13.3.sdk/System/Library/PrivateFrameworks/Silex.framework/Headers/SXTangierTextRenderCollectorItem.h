@@ -19,7 +19,7 @@
     UIView<TSDRepDirectLayerHosting> *_directLayerHost;
     SXTextTangierTextLayout *_layout;
     SXTextTangierFlowLayout *_flowLayout;
-    _NSRange _flowRange;
+    NSRange _flowRange;
 }
 
 @property(retain, nonatomic) SXTextTangierFlowLayout *flowLayout; // @synthesize flowLayout=_flowLayout;
@@ -27,7 +27,7 @@
 @property(readonly, nonatomic) UIView<TSDRepDirectLayerHosting> *directLayerHost; // @synthesize directLayerHost=_directLayerHost;
 @property(readonly, nonatomic) BOOL selectable; // @synthesize selectable=_selectable;
 @property(readonly, nonatomic) NSString *componentIdentifier; // @synthesize componentIdentifier=_componentIdentifier;
-@property(readonly, nonatomic) _NSRange flowRange; // @synthesize flowRange=_flowRange;
+@property(readonly, nonatomic) NSRange flowRange; // @synthesize flowRange=_flowRange;
 @property(readonly, nonatomic) SXTextTangierFlowStorage *flowStorage; // @synthesize flowStorage=_flowStorage;
 @property(retain, nonatomic) SXTextTangierStorage *storage; // @synthesize storage=_storage;
 // - (void).cxx_destruct;

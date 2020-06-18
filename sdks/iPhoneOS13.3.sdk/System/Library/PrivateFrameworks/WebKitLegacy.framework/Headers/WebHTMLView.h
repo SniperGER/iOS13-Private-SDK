@@ -240,13 +240,13 @@
 - (void)_selectionChanged;
 - (void)insertText:(id)arg1;
 - (void)doCommandBySelector:(SEL)arg1;
-- (void)setMarkedText:(id)arg1 selectedRange:(_NSRange)arg2;
+- (void)setMarkedText:(id)arg1 selectedRange:(NSRange)arg2;
 - (void)unmarkText;
 - (BOOL)hasMarkedText;
 - (long long)conversationIdentifier;
-- (_NSRange)markedRange;
-- (_NSRange)selectedRange;
-- (CGRect)firstRectForCharacterRange:(_NSRange)arg1;
+- (NSRange)markedRange;
+- (NSRange)selectedRange;
+- (CGRect)firstRectForCharacterRange:(NSRange)arg1;
 - (NSUInteger)characterIndexForPoint:(CGPoint)arg1;
 - (BOOL)searchFor:(id)arg1 direction:(BOOL)arg2 caseSensitive:(BOOL)arg3 wrap:(BOOL)arg4 startInSelection:(BOOL)arg5;
 - (BOOL)supportsTextEncoding;

@@ -7,6 +7,6 @@
 @class TSWPStorage;
 
 @protocol TSWPStorageObserver
-- (void)storage:(TSWPStorage *)arg1 didChangeRange:(_NSRange)arg2 delta:(long long)arg3 broadcastKind:(int)arg4;
+- (void)storage:(TSWPStorage *)arg1 didChangeRange:(NSRange)arg2 delta:(long long)arg3 broadcastKind:(int)arg4;
 @end
 

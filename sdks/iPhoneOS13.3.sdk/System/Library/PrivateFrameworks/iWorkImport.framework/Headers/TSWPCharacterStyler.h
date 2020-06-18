@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)performStylingInRange:(_NSRange)arg1 undoTransaction:(struct TSWPStorageTransaction )arg2;
-- (void)applyStyle:(id)arg1 range:(_NSRange)arg2 undoTransaction:(struct TSWPStorageTransaction )arg3;
+- (void)performStylingInRange:(NSRange)arg1 undoTransaction:(struct TSWPStorageTransaction )arg2;
+- (void)applyStyle:(id)arg1 range:(NSRange)arg2 undoTransaction:(struct TSWPStorageTransaction )arg3;
 - (id)initWithStorage:(id)arg1;
 
 @end

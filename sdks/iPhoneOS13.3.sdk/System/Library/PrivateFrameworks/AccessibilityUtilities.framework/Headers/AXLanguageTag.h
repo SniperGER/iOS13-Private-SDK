@@ -17,17 +17,17 @@
     NSMutableOrderedSet *_unambiguousDialects;
     NSMutableOrderedSet *_ambiguousDialects;
     NSMutableOrderedSet *_predictedSecondaryDialects;
-    _NSRange _range;
+    NSRange _range;
 }
 
-+ (id)tagWithDialects:(id)arg1 range:(_NSRange)arg2 content:(id)arg3 predictedByTagger:(BOOL)arg4;
++ (id)tagWithDialects:(id)arg1 range:(NSRange)arg2 content:(id)arg3 predictedByTagger:(BOOL)arg4;
 @property(nonatomic) BOOL createdFromNewline; // @synthesize createdFromNewline=_createdFromNewline;
 @property(retain, nonatomic) NSMutableOrderedSet *predictedSecondaryDialects; // @synthesize predictedSecondaryDialects=_predictedSecondaryDialects;
 @property(nonatomic) BOOL wasPredicted; // @synthesize wasPredicted=_wasPredicted;
 @property(retain, nonatomic) NSMutableOrderedSet *ambiguousDialects; // @synthesize ambiguousDialects=_ambiguousDialects;
 @property(retain, nonatomic) NSMutableOrderedSet *unambiguousDialects; // @synthesize unambiguousDialects=_unambiguousDialects;
 @property(nonatomic) __weak NSString *content; // @synthesize content=_content;
-@property(nonatomic) _NSRange range; // @synthesize range=_range;
+@property(nonatomic) NSRange range; // @synthesize range=_range;
 // - (void).cxx_destruct;
 // - (id)copyWithZone:(_NSZone )arg1;
 - (BOOL)canBeSpokenByLanguage:(id)arg1;

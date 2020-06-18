@@ -28,7 +28,7 @@ __attribute__((visibility("hidden")))
 - (id)attributedStringContent;
 - (id)defaultValueForAttribute:(id)arg1;
 - (BOOL)isAttribute:(id)arg1 uniformlyEqualToValue:(id)arg2;
-- (id)contentByApplyingAttribute:(id)arg1 value:(id)arg2 toRange:(_NSRange)arg3;
+- (id)contentByApplyingAttribute:(id)arg1 value:(id)arg2 toRange:(NSRange)arg3;
 - (id)contentByApplyingAttributeToEntireRange:(id)arg1 value:(id)arg2;
 - (id)contentWithString:(id)arg1;
 - (id)initWithAttributedString:(id)arg1 defaultAttributesProvider:(id)arg2;

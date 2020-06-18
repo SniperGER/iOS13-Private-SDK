@@ -15,11 +15,11 @@
     BOOL _useTechnicalTableIfPossible;
     NSString *_language;
     NSUInteger _mode;
-    _NSRange _textPositionsRange;
+    NSRange _textPositionsRange;
 }
 
 + (BOOL)supportsSecureCoding;
-@property(readonly, nonatomic) _NSRange textPositionsRange; // @synthesize textPositionsRange=_textPositionsRange;
+@property(readonly, nonatomic) NSRange textPositionsRange; // @synthesize textPositionsRange=_textPositionsRange;
 @property(readonly, nonatomic) BOOL useTechnicalTableIfPossible; // @synthesize useTechnicalTableIfPossible=_useTechnicalTableIfPossible;
 @property(readonly, nonatomic, getter=isPartial) BOOL partial; // @synthesize partial=_partial;
 @property(readonly, nonatomic) NSUInteger mode; // @synthesize mode=_mode;
@@ -28,7 +28,7 @@
 - (void)encodeWithCoder:(id)arg1;
 - (id)initWithCoder:(id)arg1;
 - (id)description;
-- (id)initWithLanguage:(id)arg1 mode:(NSUInteger)arg2 partial:(BOOL)arg3 useTechnicalTable:(BOOL)arg4 textPositionsRange:(_NSRange)arg5;
+- (id)initWithLanguage:(id)arg1 mode:(NSUInteger)arg2 partial:(BOOL)arg3 useTechnicalTable:(BOOL)arg4 textPositionsRange:(NSRange)arg5;
 
 @end
 

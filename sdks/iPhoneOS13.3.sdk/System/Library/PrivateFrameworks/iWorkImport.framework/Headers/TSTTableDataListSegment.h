@@ -17,11 +17,11 @@ __attribute__((visibility("hidden")))
     int _listType;
     NSUInteger _estimatedByteSize;
     NSMutableIndexSet *_keys;
-    _NSRange _keyRange;
+    NSRange _keyRange;
 }
 
 @property(retain, nonatomic) NSMutableIndexSet *keys; // @synthesize keys=_keys;
-@property(nonatomic) _NSRange keyRange; // @synthesize keyRange=_keyRange;
+@property(nonatomic) NSRange keyRange; // @synthesize keyRange=_keyRange;
 @property(readonly, nonatomic) NSUInteger estimatedByteSize; // @synthesize estimatedByteSize=_estimatedByteSize;
 @property(readonly, nonatomic) int listType; // @synthesize listType=_listType;
 - (id).cxx_construct;
@@ -38,7 +38,7 @@ __attribute__((visibility("hidden")))
 @property(readonly, nonatomic) BOOL shouldSplit;
 @property(readonly, nonatomic) NSUInteger count;
 - (id)copyWithContext:(id)arg1;
-- (id)initWithType:(int)arg1 keyRange:(_NSRange)arg2 context:(id)arg3;
+- (id)initWithType:(int)arg1 keyRange:(NSRange)arg2 context:(id)arg3;
 
 @end
 

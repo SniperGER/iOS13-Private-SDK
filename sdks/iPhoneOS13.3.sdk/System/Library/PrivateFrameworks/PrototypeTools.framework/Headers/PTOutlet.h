@@ -17,8 +17,8 @@
 // - (void).cxx_destruct;
 - (void)_invokeActions;
 - (id)_init;
-- (void)removeActionForToken:(NSNumber )arg1;
-- (NSNumber )addAction:(id /* CDUnknownBlockType */)arg1;
+- (void)removeActionForToken:(NSNumber *)arg1;
+- (NSNumber *)addAction:(id /* CDUnknownBlockType */)arg1;
 
 @end
 

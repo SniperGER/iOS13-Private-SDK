@@ -22,9 +22,9 @@ __attribute__((visibility("hidden")))
 - (void)updateFence:(id)arg1;
 - (void)synchronizeTexture:(id)arg1 slice:(NSUInteger)arg2 level:(NSUInteger)arg3;
 - (void)synchronizeResource:(id)arg1;
-- (void)resetCommandsInBuffer:(id)arg1 withRange:(_NSRange)arg2;
-- (void)optimizeIndirectCommandBuffer:(id)arg1 withRange:(_NSRange)arg2;
-- (void)optimizeReset:(id)arg1 withRange:(_NSRange)arg2 withCommand:(unsigned int)arg3;
+- (void)resetCommandsInBuffer:(id)arg1 withRange:(NSRange)arg2;
+- (void)optimizeIndirectCommandBuffer:(id)arg1 withRange:(NSRange)arg2;
+- (void)optimizeReset:(id)arg1 withRange:(NSRange)arg2 withCommand:(unsigned int)arg3;
 - (void)optimizeContentsForGPUAccess:(id)arg1 slice:(NSUInteger)arg2 level:(NSUInteger)arg3;
 - (void)optimizeContentsForGPUAccess:(id)arg1;
 - (void)optimizeContentsForCPUAccess:(id)arg1 slice:(NSUInteger)arg2 level:(NSUInteger)arg3;
@@ -32,8 +32,8 @@ __attribute__((visibility("hidden")))
 - (void)optimize:(id)arg1 slice:(NSUInteger)arg2 level:(NSUInteger)arg3 withCommand:(unsigned int)arg4;
 - (void)optimize:(id)arg1 withCommand:(unsigned int)arg2;
 - (void)generateMipmapsForTexture:(id)arg1;
-- (void)fillBuffer:(id)arg1 range:(_NSRange)arg2 value:(unsigned char)arg3;
-- (void)copyIndirectCommandBuffer:(id)arg1 sourceRange:(_NSRange)arg2 destination:(id)arg3 destinationIndex:(NSUInteger)arg4;
+- (void)fillBuffer:(id)arg1 range:(NSRange)arg2 value:(unsigned char)arg3;
+- (void)copyIndirectCommandBuffer:(id)arg1 sourceRange:(NSRange)arg2 destination:(id)arg3 destinationIndex:(NSUInteger)arg4;
 - (void)copyFromTexture:(id)arg1 sourceSlice:(NSUInteger)arg2 sourceLevel:(NSUInteger)arg3 sourceOrigin:(CDStruct_da2e99ad)arg4 sourceSize:(CDStruct_da2e99ad)arg5 toTexture:(id)arg6 destinationSlice:(NSUInteger)arg7 destinationLevel:(NSUInteger)arg8 destinationOrigin:(CDStruct_da2e99ad)arg9 options:(NSUInteger)arg10;
 - (void)copyFromTexture:(id)arg1 sourceSlice:(NSUInteger)arg2 sourceLevel:(NSUInteger)arg3 sourceOrigin:(CDStruct_da2e99ad)arg4 sourceSize:(CDStruct_da2e99ad)arg5 toTexture:(id)arg6 destinationSlice:(NSUInteger)arg7 destinationLevel:(NSUInteger)arg8 destinationOrigin:(CDStruct_da2e99ad)arg9;
 - (void)copyFromTexture:(id)arg1 sourceSlice:(NSUInteger)arg2 sourceLevel:(NSUInteger)arg3 sourceOrigin:(CDStruct_da2e99ad)arg4 sourceSize:(CDStruct_da2e99ad)arg5 toBuffer:(id)arg6 destinationOffset:(NSUInteger)arg7 destinationBytesPerRow:(NSUInteger)arg8 destinationBytesPerImage:(NSUInteger)arg9 options:(NSUInteger)arg10;

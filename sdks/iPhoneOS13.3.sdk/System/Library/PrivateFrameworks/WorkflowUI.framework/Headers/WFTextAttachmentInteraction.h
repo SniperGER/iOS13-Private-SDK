@@ -28,7 +28,7 @@
 - (BOOL)gestureRecognizer:(id)arg1 shouldBeRequiredToFailByGestureRecognizer:(id)arg2;
 - (BOOL)gestureRecognizer:(id)arg1 shouldReceiveTouch:(id)arg2;
 - (void)handleTextTap:(id)arg1;
-- (id)attachmentAtPoint:(CGPoint)arg1 characterRange:(out _NSRange )arg2;
+- (id)attachmentAtPoint:(CGPoint)arg1 characterRange:(out NSRange )arg2;
 - (id)textStorage;
 - (id)layoutManager;
 - (void)dealloc;

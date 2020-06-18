@@ -27,7 +27,7 @@
 - (id)pageNearestPoint:(CGPoint)arg1 currentPage:(id)arg2;
 - (CGRect)boundsForPage:(id)arg1;
 - (id)visiblePagesInBounds:(CGRect)arg1 currentPage:(id)arg2;
-- (_NSRange)visiblePageRangeInBounds:(CGRect)arg1 currentPage:(id)arg2;
+- (NSRange)visiblePageRangeInBounds:(CGRect)arg1 currentPage:(id)arg2;
 - (CGSize)contentSizeWithCurrentPage:(id)arg1;
 @property(nonatomic) __weak PDFDocument *document;
 @property(nonatomic) __weak id delegate;

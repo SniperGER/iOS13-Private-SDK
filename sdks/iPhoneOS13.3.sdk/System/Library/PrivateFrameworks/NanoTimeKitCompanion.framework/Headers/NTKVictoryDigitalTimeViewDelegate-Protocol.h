@@ -7,7 +7,12 @@
 
 @class NTKVictoryDigitalTimeView;
 
+#ifndef NTKVictoryDigitalTimeViewDelegate_Protocol
+#define NTKVictoryDigitalTimeViewDelegate_Protocol
+
 @protocol NTKVictoryDigitalTimeViewDelegate <NSObject>
 - (void)victoryDigitalTimeViewDidChangeTime:(NTKVictoryDigitalTimeView *)arg1;
 @end
+
+#endif
 

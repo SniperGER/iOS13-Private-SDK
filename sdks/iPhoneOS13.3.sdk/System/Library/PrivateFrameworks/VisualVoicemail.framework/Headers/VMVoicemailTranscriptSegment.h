@@ -16,7 +16,7 @@
     double _duration;
     double _timestamp;
     NSUInteger _confidenceRating;
-    _NSRange _substringRange;
+    NSRange _substringRange;
 }
 
 + (BOOL)supportsSecureCoding;
@@ -24,7 +24,7 @@
 @property(readonly, nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
 @property(readonly, nonatomic) float confidence; // @synthesize confidence=_confidence;
 @property(readonly, nonatomic) double duration; // @synthesize duration=_duration;
-@property(readonly, nonatomic) _NSRange substringRange; // @synthesize substringRange=_substringRange;
+@property(readonly, nonatomic) NSRange substringRange; // @synthesize substringRange=_substringRange;
 @property(readonly, copy, nonatomic) NSString *substring; // @synthesize substring=_substring;
 // - (void).cxx_destruct;
 - (id)initWithCoder:(id)arg1;

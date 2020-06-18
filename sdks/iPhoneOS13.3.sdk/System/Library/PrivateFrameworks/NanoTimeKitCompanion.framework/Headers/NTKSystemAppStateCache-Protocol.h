@@ -7,8 +7,13 @@
 
 @class NSString;
 
+#ifndef NTKSystemAppStateCache_Protocol
+#define NTKSystemAppStateCache_Protocol
+
 @protocol NTKSystemAppStateCache <NSObject>
 - (BOOL)isRemovedSystemApp:(NSString *)arg1;
 - (BOOL)isRestrictedSystemApp:(NSString *)arg1;
 @end
+
+#endif
 

@@ -19,7 +19,7 @@ __attribute__((visibility("hidden")))
 }
 
 // - (void).cxx_destruct;
-- (id)stringWithElement:(id)arg1 conversationID:(id)arg2 range:(_NSRange )arg3;
+- (id)stringWithElement:(id)arg1 conversationID:(id)arg2 range:(NSRange )arg3;
 - (void)removeConversation:(id)arg1;
 - (void)_pruneIgnoringFirst:(BOOL)arg1;
 - (id)init;

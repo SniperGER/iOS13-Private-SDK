@@ -12,14 +12,14 @@
 {
     BOOL _important;
     NSString *_name;
-    _NSRange _nameRange;
-    _NSRange _valueRange;
+    NSRange _nameRange;
+    NSRange _valueRange;
 }
 
 @property(nonatomic) BOOL important; // @synthesize important=_important;
 @property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) _NSRange valueRange; // @synthesize valueRange=_valueRange;
-@property(nonatomic) _NSRange nameRange; // @synthesize nameRange=_nameRange;
+@property(nonatomic) NSRange valueRange; // @synthesize valueRange=_valueRange;
+@property(nonatomic) NSRange nameRange; // @synthesize nameRange=_nameRange;
 // - (void).cxx_destruct;
 - (id)description;
 - (id)init;

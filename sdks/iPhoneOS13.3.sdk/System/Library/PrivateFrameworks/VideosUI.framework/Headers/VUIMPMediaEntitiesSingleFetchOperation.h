@@ -45,7 +45,7 @@ __attribute__((visibility("hidden")))
 - (id)_fetchResponseWithMediaEntities:(id)arg1 mediaQuerySections:(id)arg2;
 - (id)_collectionsFetchResponseWithMediaQuery:(id)arg1;
 - (id)_itemsFetchResponseWithMediaQuery:(id)arg1;
-- (id)_mediaEntities:(id)arg1 subarrayWithRange:(_NSRange)arg2;
+- (id)_mediaEntities:(id)arg1 subarrayWithRange:(NSRange)arg2;
 - (id)_processFetchedMediaEntities:(id)arg1;
 - (void)_addPrefetchPropertiesToMediaQuery:(id)arg1;
 - (void)_addSortingPropertiesToMediaQuery:(id)arg1;

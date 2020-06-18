@@ -47,10 +47,10 @@
 - (Class)publisherPluginClass;
 - (Class)pluginClass;
 - (id)pathMediaStreamDir;
-- (void)logFile:(const char )arg1 func:(const char )arg2 line:(int)arg3 facility:(int)arg4 level:(int)arg5 format:(id)arg6 args:(struct __va_list_tag [1])arg7;
+// - (void)logFile:(const char )arg1 func:(const char )arg2 line:(int)arg3 facility:(int)arg4 level:(int)arg5 format:(id)arg6 args:(struct __va_list_tag [1])arg7;
 - (void)_rereadDefaults;
 - (BOOL)isPerformanceLoggingEnabled;
-- (void)logFacility:(int)arg1 level:(int)arg2 format:(id)arg3 args:(struct __va_list_tag [1])arg4;
+// - (void)logFacility:(int)arg1 level:(int)arg2 format:(id)arg3 args:(struct __va_list_tag [1])arg4;
 - (struct __CFString )_facilityStringForFacility:(int)arg1;
 - (BOOL)shouldLogAtLevel:(int)arg1;
 - (id)init;

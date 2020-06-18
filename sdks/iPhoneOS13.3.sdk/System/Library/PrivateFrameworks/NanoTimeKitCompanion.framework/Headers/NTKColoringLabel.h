@@ -18,7 +18,7 @@
     CLKDevice *_device;
     NSUInteger _options;
     _NTKColorManager *_colorManager;
-    NSNumber _updateToken;
+    NSNumber *_updateToken;
     BOOL _updatedAfterTimeTravelStateChange;
     CLKFont *_preTimeTravelFont;
     BOOL _monochromeSnapshot;

@@ -54,7 +54,7 @@
 - (void)_updateDescriptionAlpha;
 @property(nonatomic) BOOL showAmount;
 - (id)_sugestedAmountDescriptionAttributedString;
-- (BOOL)textView:(id)arg1 shouldInteractWithURL:(id)arg2 inRange:(_NSRange)arg3 interaction:(long long)arg4;
+- (BOOL)textView:(id)arg1 shouldInteractWithURL:(id)arg2 inRange:(NSRange)arg3 interaction:(long long)arg4;
 - (void)numberPadSuggestionsView:(id)arg1 didSelectSuggestion:(id)arg2;
 - (CGSize)sizeThatFits:(CGSize)arg1;
 - (void)layoutSubviews;

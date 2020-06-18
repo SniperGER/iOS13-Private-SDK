@@ -16,7 +16,7 @@
 @property(readonly, nonatomic) NSArray *columnStack; // @synthesize columnStack=_columnStack;
 // - (void).cxx_destruct;
 - (id)description;
-- (NSUInteger)rangeInBounds:(_NSRange)arg1;
+- (NSUInteger)rangeInBounds:(NSRange)arg1;
 - (id)componentsAfterComponent:(id)arg1;
 - (id)allComponentsAfterComponent:(id)arg1;
 - (id)componentsBeforeComponent:(id)arg1;

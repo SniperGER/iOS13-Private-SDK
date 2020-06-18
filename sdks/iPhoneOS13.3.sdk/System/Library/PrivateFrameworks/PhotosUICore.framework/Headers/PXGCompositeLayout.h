@@ -36,7 +36,7 @@
 - (void)sublayoutNeedsUpdate:(id)arg1;
 - (void)willRemoveSublayout:(id)arg1;
 - (void)didAddSublayout:(id)arg1;
-- (void)insertSublayoutProvider:(id)arg1 inRange:(_NSRange)arg2;
+- (void)insertSublayoutProvider:(id)arg1 inRange:(NSRange)arg2;
 - (void)update;
 - (id)initWithComposition:(id)arg1;
 

@@ -16,14 +16,14 @@
 - (void)setStencilReferenceValue:(unsigned int)arg1;
 - (void)setDepthStencilState:(id <MTLDepthStencilState>)arg1;
 - (void)setBlendColorRed:(float)arg1 green:(float)arg2 blue:(float)arg3 alpha:(float)arg4;
-- (void)setFragmentSamplerStates:(const id )arg1 lodMinClamps:(const float )arg2 lodMaxClamps:(const float )arg3 withRange:(_NSRange)arg4;
+- (void)setFragmentSamplerStates:(const id )arg1 lodMinClamps:(const float )arg2 lodMaxClamps:(const float )arg3 withRange:(NSRange)arg4;
 - (void)setFragmentSamplerState:(id <MTLSamplerState>)arg1 lodMinClamp:(float)arg2 lodMaxClamp:(float)arg3 atIndex:(NSUInteger)arg4;
-- (void)setFragmentSamplerStates:(const id )arg1 withRange:(_NSRange)arg2;
+- (void)setFragmentSamplerStates:(const id )arg1 withRange:(NSRange)arg2;
 - (void)setFragmentSamplerState:(id <MTLSamplerState>)arg1 atIndex:(NSUInteger)arg2;
 - (void)setFragmentTexture:(id <MTLTexture>)arg1 atTextureIndex:(NSUInteger)arg2 samplerState:(id <MTLSamplerState>)arg3 atSamplerIndex:(NSUInteger)arg4;
-- (void)setFragmentTextures:(const id )arg1 withRange:(_NSRange)arg2;
+- (void)setFragmentTextures:(const id )arg1 withRange:(NSRange)arg2;
 - (void)setFragmentTexture:(id <MTLTexture>)arg1 atIndex:(NSUInteger)arg2;
-- (void)setFragmentBuffers:(const id )arg1 offsets:(const NSUInteger )arg2 withRange:(_NSRange)arg3;
+- (void)setFragmentBuffers:(const id )arg1 offsets:(const NSUInteger )arg2 withRange:(NSRange)arg3;
 - (void)setFragmentBufferOffset:(NSUInteger)arg1 atIndex:(NSUInteger)arg2;
 - (void)setFragmentBuffer:(id <MTLBuffer>)arg1 offset:(NSUInteger)arg2 atIndex:(NSUInteger)arg3;
 - (void)setFragmentBytes:(const void )arg1 length:(NSUInteger)arg2 atIndex:(NSUInteger)arg3;

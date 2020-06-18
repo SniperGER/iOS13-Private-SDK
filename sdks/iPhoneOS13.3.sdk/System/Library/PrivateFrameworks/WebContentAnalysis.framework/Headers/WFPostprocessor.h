@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 + (id)lightweightStripHTMLTags:(id)arg1;
 + (id)lightweightStripHTMLTagsForLine:(id)arg1;
 + (id)postprocessPlainTextWebPage:(id)arg1;
-+ (_NSRange)rangeOfFirstHTMLTag:(id)arg1 searchRange:(_NSRange)arg2;
++ (NSRange)rangeOfFirstHTMLTag:(id)arg1 searchRange:(NSRange)arg2;
 
 @end
 

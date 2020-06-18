@@ -94,7 +94,7 @@ __attribute__((visibility("hidden")))
 - (void)addVertexConclusion:(id)arg1 statement:(id)arg2;
 - (void)addConclusion:(id)arg1 space:(id)arg2 statement:(id)arg3;
 - (void)addConclusion:(id)arg1 statement:(id)arg2;
-- (void)addConclusion:(id)arg1 space:(id)arg2 type:(struct TSCH3DShaderType)arg3 format:(id)arg4 arguments:(struct __va_list_tag [1])arg5;
+// - (void)addConclusion:(id)arg1 space:(id)arg2 type:(struct TSCH3DShaderType)arg3 format:(id)arg4 arguments:(struct __va_list_tag [1])arg5;
 - (void)addFragmentOutcomeWithFormat:(id)arg1;
 - (void)addVertexOutcomeWithFormat:(id)arg1;
 - (void)addOutcomeWithSpace:(id)arg1 statement:(id)arg2;
@@ -109,7 +109,7 @@ __attribute__((visibility("hidden")))
 - (void)addVertexOutcome:(id)arg1 statement:(id)arg2;
 - (void)addOutcome:(id)arg1 space:(id)arg2 statement:(id)arg3;
 - (void)addOutcome:(id)arg1 statement:(id)arg2;
-- (void)addOutcome:(id)arg1 space:(id)arg2 type:(struct TSCH3DShaderType)arg3 format:(id)arg4 arguments:(struct __va_list_tag [1])arg5;
+// - (void)addOutcome:(id)arg1 space:(id)arg2 type:(struct TSCH3DShaderType)arg3 format:(id)arg4 arguments:(struct __va_list_tag [1])arg5;
 - (void)addFragmentResolutionWithFormat:(id)arg1;
 - (void)addVertexResolutionWithFormat:(id)arg1;
 - (void)addResolutionWithSpace:(id)arg1 statement:(id)arg2;
@@ -124,7 +124,7 @@ __attribute__((visibility("hidden")))
 - (void)addVertexResolution:(id)arg1 statement:(id)arg2;
 - (void)addResolution:(id)arg1 space:(id)arg2 statement:(id)arg3;
 - (void)addResolution:(id)arg1 statement:(id)arg2;
-- (void)addResolution:(id)arg1 space:(id)arg2 type:(struct TSCH3DShaderType)arg3 format:(id)arg4 arguments:(struct __va_list_tag [1])arg5;
+// - (void)addResolution:(id)arg1 space:(id)arg2 type:(struct TSCH3DShaderType)arg3 format:(id)arg4 arguments:(struct __va_list_tag [1])arg5;
 - (void)addFragmentStatementWithFormat:(id)arg1;
 - (void)addVertexStatementWithFormat:(id)arg1;
 - (void)addStatementWithSpace:(id)arg1 statement:(id)arg2;
@@ -139,7 +139,7 @@ __attribute__((visibility("hidden")))
 - (void)addVertexStatement:(id)arg1 statement:(id)arg2;
 - (void)addStatement:(id)arg1 space:(id)arg2 statement:(id)arg3;
 - (void)addStatement:(id)arg1 statement:(id)arg2;
-- (void)addStatement:(id)arg1 space:(id)arg2 type:(struct TSCH3DShaderType)arg3 format:(id)arg4 arguments:(struct __va_list_tag [1])arg5;
+// - (void)addStatement:(id)arg1 space:(id)arg2 type:(struct TSCH3DShaderType)arg3 format:(id)arg4 arguments:(struct __va_list_tag [1])arg5;
 - (void)addFragmentTemporaryWithFormat:(id)arg1;
 - (void)addVertexTemporaryWithFormat:(id)arg1;
 - (void)addTemporaryWithSpace:(id)arg1 statement:(id)arg2;
@@ -154,7 +154,7 @@ __attribute__((visibility("hidden")))
 - (void)addVertexTemporary:(id)arg1 statement:(id)arg2;
 - (void)addTemporary:(id)arg1 space:(id)arg2 statement:(id)arg3;
 - (void)addTemporary:(id)arg1 statement:(id)arg2;
-- (void)addTemporary:(id)arg1 space:(id)arg2 type:(struct TSCH3DShaderType)arg3 format:(id)arg4 arguments:(struct __va_list_tag [1])arg5;
+// - (void)addTemporary:(id)arg1 space:(id)arg2 type:(struct TSCH3DShaderType)arg3 format:(id)arg4 arguments:(struct __va_list_tag [1])arg5;
 - (void)addFragmentDeclarationWithFormat:(id)arg1;
 - (void)addVertexDeclarationWithFormat:(id)arg1;
 - (void)addDeclarationWithSpace:(id)arg1 statement:(id)arg2;
@@ -169,10 +169,10 @@ __attribute__((visibility("hidden")))
 - (void)addVertexDeclaration:(id)arg1 statement:(id)arg2;
 - (void)addDeclaration:(id)arg1 space:(id)arg2 statement:(id)arg3;
 - (void)addDeclaration:(id)arg1 statement:(id)arg2;
-- (void)addDeclaration:(id)arg1 space:(id)arg2 type:(struct TSCH3DShaderType)arg3 format:(id)arg4 arguments:(struct __va_list_tag [1])arg5;
+// - (void)addDeclaration:(id)arg1 space:(id)arg2 type:(struct TSCH3DShaderType)arg3 format:(id)arg4 arguments:(struct __va_list_tag [1])arg5;
 - (void)assignVariable:(id)arg1 statement:(id)arg2 substitutes:(id)arg3 type:(struct TSCH3DShaderType)arg4 toSection:(int)arg5;
 - (void)addToSection:(id)arg1 statement:(id)arg2 type:(struct TSCH3DShaderType)arg3;
-- (void)addToSection:(id)arg1 variable:(id)arg2 space:(id)arg3 type:(struct TSCH3DShaderType)arg4 format:(id)arg5 arguments:(struct __va_list_tag [1])arg6;
+// - (void)addToSection:(id)arg1 variable:(id)arg2 space:(id)arg3 type:(struct TSCH3DShaderType)arg4 format:(id)arg5 arguments:(struct __va_list_tag [1])arg6;
 - (void)p_addToSection:(id)arg1 variable:(id)arg2 space:(id)arg3 type:(struct TSCH3DShaderType)arg4 format:(id)arg5 substitutes:(id)arg6;
 - (void)addAttributeVariable:(id)arg1;
 - (void)addUniformVariable:(id)arg1;

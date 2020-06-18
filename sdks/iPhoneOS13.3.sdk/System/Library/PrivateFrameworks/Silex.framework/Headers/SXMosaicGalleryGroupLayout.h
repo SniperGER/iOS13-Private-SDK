@@ -23,7 +23,7 @@
 @property(readonly, nonatomic) NSUInteger numberOfColumns; // @synthesize numberOfColumns=_numberOfColumns;
 // - (void).cxx_destruct;
 @property(readonly, nonatomic) NSMutableArray *columnRanges; // @synthesize columnRanges=_columnRanges;
-- (_NSRange)columnRangeForItem:(id)arg1;
+- (NSRange)columnRangeForItem:(id)arg1;
 - (double)desiredHeightForItem:(id)arg1;
 - (id)calculateFrames;
 - (double)calculateHeight;

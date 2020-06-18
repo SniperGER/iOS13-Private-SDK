@@ -23,8 +23,8 @@
 - (void)setDataForAttribute:(TSDGLDataBufferAttribute *)arg1 atIndex:(NSUInteger)arg2 fromAttribute:(TSDGLDataBufferAttribute *)arg3 dataBuffer:(id <TSDGLDataBuffer>)arg4 index:(NSUInteger)arg5;
 - (void)setGLushort:(unsigned short)arg1 forIndexElement:(NSUInteger)arg2;
 - (unsigned short)GLushortForIndexElement:(NSUInteger)arg1;
-- (void)drawWithShader:(TSDGLShader *)arg1 range:(_NSRange)arg2 deactivateShaderWhenDone:(BOOL)arg3 advanceDynamicBuffer:(BOOL)arg4;
-- (void)drawWithShader:(TSDGLShader *)arg1 range:(_NSRange)arg2 deactivateShaderWhenDone:(BOOL)arg3;
+- (void)drawWithShader:(TSDGLShader *)arg1 range:(NSRange)arg2 deactivateShaderWhenDone:(BOOL)arg3 advanceDynamicBuffer:(BOOL)arg4;
+- (void)drawWithShader:(TSDGLShader *)arg1 range:(NSRange)arg2 deactivateShaderWhenDone:(BOOL)arg3;
 - (void)drawWithShader:(TSDGLShader *)arg1 deactivateShaderWhenDone:(BOOL)arg2 advanceDynamicBuffer:(BOOL)arg3;
 - (void)drawWithShader:(TSDGLShader *)arg1 deactivateShaderWhenDone:(BOOL)arg2;
 - (void)drawWithShader:(TSDGLShader *)arg1 advanceDynamicBuffer:(BOOL)arg2;

@@ -22,7 +22,7 @@
 - (void)dispatchThreadsWithIndirectBuffer:(id)arg1 indirectBufferOffset:(NSUInteger)arg2;
 - (void)dispatchThreads:(CDStruct_14f26992)arg1 threadsPerThreadgroup:(CDStruct_14f26992)arg2;
 - (void)setBytes:(const void )arg1 length:(NSUInteger)arg2 atIndex:(NSUInteger)arg3;
-- (void)setBuffers:(const id )arg1 offsets:(const NSUInteger )arg2 withRange:(_NSRange)arg3;
+- (void)setBuffers:(const id )arg1 offsets:(const NSUInteger )arg2 withRange:(NSRange)arg3;
 - (void)setBufferOffset:(NSUInteger)arg1 atIndex:(NSUInteger)arg2;
 - (void)setBuffer:(id)arg1 offset:(NSUInteger)arg2 atIndex:(NSUInteger)arg3;
 - (void)onDispatch;

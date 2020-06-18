@@ -44,7 +44,7 @@
 - (void)_encodeReportBuffer:(id)arg1 type:(NSUInteger)arg2;
 - (struct ReportBufferEntry)_allocReportEntryStorageForType:(NSUInteger)arg1;
 - (id)_newReportBuffer;
-- (id)encodeBuffers:(const id )arg1 offsets:(const NSUInteger )arg2 withRange:(_NSRange)arg3 resultOffset:(NSUInteger )arg4;
+- (id)encodeBuffers:(const id )arg1 offsets:(const NSUInteger )arg2 withRange:(NSRange)arg3 resultOffset:(NSUInteger )arg4;
 - (void)onEncoderEnd:(id)arg1 type:(NSUInteger)arg2;
 - (void)onEncoderBegin:(id)arg1 type:(NSUInteger)arg2;
 - (void)_checkReportBuffers;

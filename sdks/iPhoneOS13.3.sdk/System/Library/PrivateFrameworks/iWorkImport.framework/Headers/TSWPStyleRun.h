@@ -29,7 +29,7 @@ __attribute__((visibility("hidden")))
 @property(nonatomic) NSUInteger runLength; // @synthesize runLength=_runLength;
 @property(nonatomic) NSUInteger charIndex; // @synthesize charIndex=_charIndex;
 // - (void).cxx_destruct;
-- (_NSRange)range;
+- (NSRange)range;
 - (BOOL)coalesceWith:(id)arg1;
 // - (id)copyWithZone:(_NSZone )arg1;
 - (id)init;

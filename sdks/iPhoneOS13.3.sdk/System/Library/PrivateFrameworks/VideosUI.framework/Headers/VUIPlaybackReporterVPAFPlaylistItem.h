@@ -16,11 +16,11 @@ __attribute__((visibility("hidden")))
     NSUInteger _overallPosition;
     NSArray *_eventData;
     NSUInteger _duration;
-    _NSRange _timeRange;
+    NSRange _timeRange;
 }
 
 @property(nonatomic) NSUInteger duration; // @synthesize duration=_duration;
-@property(nonatomic) _NSRange timeRange; // @synthesize timeRange=_timeRange;
+@property(nonatomic) NSRange timeRange; // @synthesize timeRange=_timeRange;
 @property(retain, nonatomic) NSArray *eventData; // @synthesize eventData=_eventData;
 @property(nonatomic) NSUInteger overallPosition; // @synthesize overallPosition=_overallPosition;
 // - (void).cxx_destruct;

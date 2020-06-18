@@ -8,10 +8,6 @@ compatibility-version: 0
 objc-constraint:       retain_release
 exports:
   - archs:              [ armv7, armv7s, arm64, arm64e ]
-    allowable-clients:  [ AutoFillUnitTests, CloudKitBookmarksTests, SafariBookmarksSyncAgent, SafariCloudHistoryPushAgent,
-                          SafariQuickLookPreview, SafariSandboxBroker, SafariSharedUnitTests, SafariViewService, SearchHelper, SocialHelper,
-                          WebBookmarks, WebFeedParser, WebUI, ckbookmarks, com.apple.Safari.History, safaricyclerctl, safaricyclerd,
-                          safarihistory, safaripasswords ]
     re-exports:         [ /System/Library/PrivateFrameworks/SafariCore.framework/SafariCore ]
     symbols:            [ _WBHistoryVisitWeightForAttributesAndOrigin, _WBSAddressBookMatchIdentifierKey, _WBSAddressBookMatchKeyKey,
                           _WBSAddressBookMatchLabelKey, _WBSAddressBookMatchPropertyKey, _WBSAddressBookMatchUniqueIDKey,

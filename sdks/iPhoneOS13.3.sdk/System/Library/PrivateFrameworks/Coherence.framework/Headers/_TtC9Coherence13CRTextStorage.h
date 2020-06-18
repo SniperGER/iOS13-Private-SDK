@@ -22,9 +22,9 @@
 - (id)initWithString:(id)arg1 attributes:(id)arg2;
 - (id)initWithString:(id)arg1;
 - (id)init;
-- (void)setAttributes:(id)arg1 range:(_NSRange)arg2;
-- (void)replaceCharactersInRange:(_NSRange)arg1 withString:(id)arg2;
-- (id)attributesAtIndex:(long long)arg1 effectiveRange:(_NSRange )arg2;
+- (void)setAttributes:(id)arg1 range:(NSRange)arg2;
+- (void)replaceCharactersInRange:(NSRange)arg1 withString:(id)arg2;
+- (id)attributesAtIndex:(long long)arg1 effectiveRange:(NSRange )arg2;
 @property(nonatomic, readonly) NSString *string;
 - (id)initWithCoder:(id)arg1;
 

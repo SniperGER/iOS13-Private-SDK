@@ -46,7 +46,7 @@
 - (void)_nextTapped:(id)arg1;
 - (BOOL)textFieldShouldReturn:(id)arg1;
 - (BOOL)textFieldShouldClear:(id)arg1;
-- (BOOL)textField:(id)arg1 shouldChangeCharactersInRange:(_NSRange)arg2 replacementString:(id)arg3;
+- (BOOL)textField:(id)arg1 shouldChangeCharactersInRange:(NSRange)arg2 replacementString:(id)arg3;
 - (void)clearSelectedProduct;
 - (void)clearSearchField;
 - (BOOL)_searchUIEnabled;

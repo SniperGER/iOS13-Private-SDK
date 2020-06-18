@@ -15,14 +15,14 @@
 }
 
 - (BOOL)containsCharIndex:(NSUInteger)arg1;
-- (id)inverseRangesInStorageRange:(_NSRange)arg1;
+- (id)inverseRangesInStorageRange:(NSRange)arg1;
 - (void)adjustByDelta:(long long)arg1;
-- (_NSRange)unmappedCharRange:(_NSRange)arg1;
-- (_NSRange)mappedCharRange:(_NSRange)arg1;
+- (NSRange)unmappedCharRange:(NSRange)arg1;
+- (NSRange)mappedCharRange:(NSRange)arg1;
 - (NSUInteger)unmappedCharIndex:(NSUInteger)arg1;
 - (NSUInteger)mappedCharIndex:(NSUInteger)arg1;
 - (void)dealloc;
-- (id)initWithSubRange:(_NSRange)arg1 removeRanges:(id)arg2;
+- (id)initWithSubRange:(NSRange)arg1 removeRanges:(id)arg2;
 
 @end
 

@@ -14,6 +14,6 @@
 - (UIView<_UIDrawsTextInRect> *)_targetForDrawTextInRect;
 - (double)_passcodeStyleAlpha;
 - (BOOL)_isPasscodeStyle;
-- (_NSRange)_unobscuredSecureRange;
+- (NSRange)_unobscuredSecureRange;
 @end
 

@@ -36,7 +36,7 @@
 - (void)textEntryDidCopyWithOriginalBlock:(id /* CDUnknownBlockType */)arg1;
 - (void)textEntryDidCutWithOriginalBlock:(id /* CDUnknownBlockType */)arg1;
 - (void)copyVariableString;
-- (_NSRange)selectedRange;
+- (NSRange)selectedRange;
 - (void)textEntryTextDidChange:(id)arg1;
 - (void)insertVariable:(id)arg1;
 - (void)textEntryWillBegin:(id)arg1 allowMultipleLines:(BOOL )arg2;

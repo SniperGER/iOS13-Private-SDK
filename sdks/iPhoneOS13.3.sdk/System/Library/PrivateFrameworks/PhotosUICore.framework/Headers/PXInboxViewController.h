@@ -31,7 +31,7 @@
     double _currentRowHeight;
     PXPhotoKitUIMediaProvider *_mediaProvider;
     id <PXInboxModel> _lastSelectedModel;
-    _NSRange _dataSourceIndexRange;
+    NSRange _dataSourceIndexRange;
     CGRect _visibleContentRect;
 }
 
@@ -45,7 +45,7 @@
 @property(retain, nonatomic) PXInboxAggregateDataSourceManager *dataSourceManager; // @synthesize dataSourceManager=_dataSourceManager;
 @property(retain, nonatomic) PXInboxAggregateDataSource *dataSource; // @synthesize dataSource=_dataSource;
 @property(retain, nonatomic) NSDate *lastSeenDate; // @synthesize lastSeenDate=_lastSeenDate;
-@property(nonatomic) _NSRange dataSourceIndexRange; // @synthesize dataSourceIndexRange=_dataSourceIndexRange;
+@property(nonatomic) NSRange dataSourceIndexRange; // @synthesize dataSourceIndexRange=_dataSourceIndexRange;
 @property(nonatomic) __weak id <PXNavigableForYouViewController> forYouNavigationDelegate; // @synthesize forYouNavigationDelegate=_forYouNavigationDelegate;
 @property(nonatomic) CGRect visibleContentRect; // @synthesize visibleContentRect=_visibleContentRect;
 @property(retain, nonatomic) PXGadgetSpec *gadgetSpec; // @synthesize gadgetSpec=_gadgetSpec;

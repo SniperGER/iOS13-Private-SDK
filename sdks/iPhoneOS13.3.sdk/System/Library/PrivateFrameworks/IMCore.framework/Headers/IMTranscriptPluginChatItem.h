@@ -33,7 +33,7 @@
 @property(readonly, nonatomic) NSUInteger playbackType;
 @property(readonly, nonatomic) NSString *pluginSessionGUID;
 @property(readonly, nonatomic) BOOL isDataSourceInitialized;
-- (id)_initWithItem:(id)arg1 initialPayload:(id)arg2 messagePartRange:(_NSRange)arg3 parentChatHasKnownParticipants:(BOOL)arg4;
+- (id)_initWithItem:(id)arg1 initialPayload:(id)arg2 messagePartRange:(NSRange)arg3 parentChatHasKnownParticipants:(BOOL)arg4;
 // - (id)copyWithZone:(_NSZone )arg1;
 @property(readonly, copy) NSString *description;
 @property(readonly, retain, nonatomic) NSString *type;

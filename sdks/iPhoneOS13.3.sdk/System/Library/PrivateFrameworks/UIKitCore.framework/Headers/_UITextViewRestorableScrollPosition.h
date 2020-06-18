@@ -10,12 +10,12 @@
 __attribute__((visibility("hidden")))
 @interface _UITextViewRestorableScrollPosition : NSObject <NSCoding>
 {
-    _NSRange _range;
+    NSRange _range;
     double _offsetInLine;
 }
 
 + (id)restorableScrollPositionWithDictionary:(id)arg1;
-+ (id)restorableScrollPositionWithRange:(_NSRange)arg1;
++ (id)restorableScrollPositionWithRange:(NSRange)arg1;
 + (id)restorableScrollPositionForStateRestoration:(id)arg1;
 + (id)restorableScrollPositionForTextView:(id)arg1;
 - (id)debugDescription;
@@ -24,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (id)initWithTextViewForStateRestoration:(id)arg1;
 - (id)initWithTextView:(id)arg1;
 - (double)offsetWithinLine;
-- (_NSRange)range;
+- (NSRange)range;
 - (id)dictionaryRepresentation;
 
 @end

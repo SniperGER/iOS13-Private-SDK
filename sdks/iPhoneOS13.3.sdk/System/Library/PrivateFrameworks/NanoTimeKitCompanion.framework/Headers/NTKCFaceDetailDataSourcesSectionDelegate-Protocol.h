@@ -7,8 +7,13 @@
 
 @class NTKCFaceDetailDataSourcesSectionController, NTKUpNextDisabledDataSourcesEditOption;
 
+#ifndef NTKCFaceDetailDataSourcesSectionDelegate_Protocol
+#define NTKCFaceDetailDataSourcesSectionDelegate_Protocol
+
 @protocol NTKCFaceDetailDataSourcesSectionDelegate <NSObject>
 - (void)dataSourcesSectionDidFinishLoading:(NTKCFaceDetailDataSourcesSectionController *)arg1;
 - (void)dataSourcesSection:(NTKCFaceDetailDataSourcesSectionController *)arg1 didChangeDataSources:(NTKUpNextDisabledDataSourcesEditOption *)arg2 forMode:(long long)arg3;
 @end
+
+#endif
 

@@ -42,7 +42,7 @@
 - (id)localizedAbbrevStandaloneMonth;
 - (id)localizedAbbrevMonthWithDayRangeToDate:(id)arg1;
 - (id)localizedAbbrevWeekdayWithDayOfMonthPreferWeekdayFirstForEnglish;
-- (_NSRange)rangeOfDayInLocalizedDateString:(id)arg1;
+- (NSRange)rangeOfDayInLocalizedDateString:(id)arg1;
 - (id)localizedAbbrevWeekdayWithDayOfMonth;
 - (id)localizedFullWeekdayWithDayOfMonth;
 - (id)localizedShortStandaloneWeekday;

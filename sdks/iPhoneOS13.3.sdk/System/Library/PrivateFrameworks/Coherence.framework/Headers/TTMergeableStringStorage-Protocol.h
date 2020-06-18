@@ -8,11 +8,11 @@
 
 @protocol TTMergeableStringStorage
 - (id)emptyCopy;
-- (id)storageFromRange:(_NSRange)arg1;
-- (void)replaceStorageInRange:(_NSRange)arg1 withStorage:(id <TTMergeableStringStorage>)arg2 fromRange:(_NSRange)arg3;
-- (void)appendStorage:(id <TTMergeableStringStorage>)arg1 fromRange:(_NSRange)arg2;
+- (id)storageFromRange:(NSRange)arg1;
+- (void)replaceStorageInRange:(NSRange)arg1 withStorage:(id <TTMergeableStringStorage>)arg2 fromRange:(NSRange)arg3;
+- (void)appendStorage:(id <TTMergeableStringStorage>)arg1 fromRange:(NSRange)arg2;
 - (void)insertStorage:(id <TTMergeableStringStorage>)arg1 atIndex:(NSUInteger)arg2;
-- (void)removeObjectsInRange:(_NSRange)arg1;
+- (void)removeObjectsInRange:(NSRange)arg1;
 @property(nonatomic, readonly) long long length;
 - (id)mutableCopy;
 @end

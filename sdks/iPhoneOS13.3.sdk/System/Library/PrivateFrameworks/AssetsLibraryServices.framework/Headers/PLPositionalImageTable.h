@@ -42,7 +42,7 @@
 - (void)deleteEntryWithIdentifier:(id)arg1 orIndex:(NSUInteger)arg2 uuid:(id)arg3;
 - (BOOL)validateData:(id)arg1 withToken:(id)arg2;
 - (BOOL)usesThumbIdentifiers;
-- (void)touchEntriesInRange:(_NSRange)arg1;
+- (void)touchEntriesInRange:(NSRange)arg1;
 - (BOOL)writeEntryData:(id)arg1 toIndex:(NSUInteger)arg2;
 - (void)preheatDataForThumbnailIndexes:(id)arg1;
 - (id)imageDataWithIdentifier:(id)arg1 orIndex:(NSUInteger)arg2 width:(int )arg3 height:(int )arg4 bytesPerRow:(int )arg5 dataWidth:(int )arg6 dataHeight:(int )arg7 dataOffset:(int )arg8;

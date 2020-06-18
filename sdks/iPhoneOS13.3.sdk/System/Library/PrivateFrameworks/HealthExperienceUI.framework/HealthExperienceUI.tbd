@@ -8,16 +8,6 @@ compatibility-version: 1
 objc-constraint:       retain_release
 exports:
   - archs:              [ armv7, armv7s, arm64, arm64e ]
-    allowable-clients:  [ AppRecommendations, AppRecommendationsTests, Articles, ArticlesTests, Categories, CategoriesTests, CloudSync,
-                          CloudSyncTests, Education, EducationTests, FeatureTagSandboxPlugin, Health, HealthAppControlPlugin, HealthAppTests,
-                          HealthEducationUI, HealthEducationUITests, HealthExperience, HealthExperienceTesting, HealthExperienceTests,
-                          HealthExperienceUI, HealthExperienceUITests, HealthMenstrualCyclesContentExtension, HealthMenstrualCyclesUI,
-                          HealthMenstrualCyclesUITests, HealthPluginHost, HealthPluginHostTests, HealthProfile, HealthProfileExtensions,
-                          HealthProfileExtensionsTests, HealthProfileTests, HealthRecords, "HealthRecordsAppPlugin-Tests", HealthRecordsUI,
-                          HealthToolboxPlugin, HealthToolboxPluginTests, HealthVisualization, HealthVisualizationTests, Heart, HeartTests,
-                          HighlightAlerts, HighlightAlertsTests, Highlights, HighlightsHeavy, HighlightsTests, MedicalID, MedicalIDTests,
-                          MenstrualCyclesAppPlugin, MenstrualCyclesAppPluginTests, NotificationExtension, OrganDonation,
-                          OrganDonationTests, ResearchApp, ResearchAppTests, Snippets, SnippetsTests, hatool, healthappd ]
     symbols:            [ _HealthExperienceUIVersionNumber, _HealthExperienceUIVersionString ]
     objc-classes:       [ __TtC18HealthExperienceUI10ShadowView, __TtC18HealthExperienceUI11PlatterView,
                           __TtC18HealthExperienceUI11SnippetView, __TtC18HealthExperienceUI12ChartContext,

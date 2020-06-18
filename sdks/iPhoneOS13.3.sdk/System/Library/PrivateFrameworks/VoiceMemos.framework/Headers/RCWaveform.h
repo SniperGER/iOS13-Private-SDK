@@ -16,10 +16,10 @@
 }
 
 + (void)_mergeBoundarySegmentsInArray:(id)arg1;
-+ (id)_mutableSegmentsIntersectingTimeRange:(CDStruct_73a5d3ca)arg1 intersectionRange:(_NSRange )arg2 withSegments:(id)arg3;
++ (id)_mutableSegmentsIntersectingTimeRange:(CDStruct_73a5d3ca)arg1 intersectionRange:(NSRange )arg2 withSegments:(id)arg3;
 + (id)_mutableSegmentsByClippingToTimeRange:(CDStruct_73a5d3ca)arg1 withSegments:(id)arg2;
 + (BOOL)supportsSecureCoding;
-+ (_NSRange)rangeOfSegmentsIntersectingTimeRange:(CDStruct_73a5d3ca)arg1 withSegments:(id)arg2;
++ (NSRange)rangeOfSegmentsIntersectingTimeRange:(CDStruct_73a5d3ca)arg1 withSegments:(id)arg2;
 + (id)waveformWithContentsOfURL:(id)arg1 minimumRequiredVersion:(NSUInteger)arg2;
 + (id)waveformURLForAVURL:(id)arg1;
 + (void)initialize;

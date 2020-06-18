@@ -9,11 +9,11 @@
 @class NSString;
 
 @interface NSIndexSet (PhotosUICore)
-@property(readonly, nonatomic) _NSRange px_coveringRange;
+@property(readonly, nonatomic) NSRange px_coveringRange;
 - (id)px_indexSetAdjustedForInsertions:(id)arg1;
 - (id)px_indexSetAdjustedForDeletions:(id)arg1;
 - (id)px_intersectionWithIndexSet:(id)arg1;
 @property(readonly, nonatomic) NSString *px_shortDescription;
-- (id)px_indexesInRange:(_NSRange)arg1;
+- (id)px_indexesInRange:(NSRange)arg1;
 @end
 

@@ -18,8 +18,8 @@
 - (void)apply:(id)arg1;
 - (void)shallowMerge:(id)arg1;
 - (void)subtract:(id)arg1;
-- (void)subtractWithRange:(_NSRange)arg1 replica:(id)arg2;
-- (void)insertWithRange:(_NSRange)arg1 replica:(id)arg2;
+- (void)subtractWithRange:(NSRange)arg1 replica:(id)arg2;
+- (void)insertWithRange:(NSRange)arg1 replica:(id)arg2;
 - (BOOL)contains:(id)arg1;
 - (id)copy;
 - (BOOL)isEqual:(id)arg1;

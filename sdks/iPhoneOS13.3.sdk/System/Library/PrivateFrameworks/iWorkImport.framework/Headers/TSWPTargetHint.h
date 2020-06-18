@@ -21,8 +21,8 @@ __attribute__((visibility("hidden")))
     NSUInteger _nextWidowPullsDownFromCharIndex;
     NSUInteger _columnCount;
     NSUInteger _lineFragmentCount;
-    _NSRange _range;
-    _NSRange _anchoredRange;
+    NSRange _range;
+    NSRange _anchoredRange;
     CGRect _frameBounds;
 }
 
@@ -33,9 +33,9 @@ __attribute__((visibility("hidden")))
 @property(nonatomic) BOOL usedParagraphHeights; // @synthesize usedParagraphHeights=_usedParagraphHeights;
 @property(nonatomic) NSUInteger lineFragmentCount; // @synthesize lineFragmentCount=_lineFragmentCount;
 @property(nonatomic) NSUInteger columnCount; // @synthesize columnCount=_columnCount;
-@property(nonatomic) _NSRange anchoredRange; // @synthesize anchoredRange=_anchoredRange;
+@property(nonatomic) NSRange anchoredRange; // @synthesize anchoredRange=_anchoredRange;
 @property(nonatomic) NSUInteger nextWidowPullsDownFromCharIndex; // @synthesize nextWidowPullsDownFromCharIndex=_nextWidowPullsDownFromCharIndex;
-@property(nonatomic) _NSRange range; // @synthesize range=_range;
+@property(nonatomic) NSRange range; // @synthesize range=_range;
 @property(nonatomic) CGRect frameBounds; // @synthesize frameBounds=_frameBounds;
 @property(readonly) NSUInteger hash;
 - (BOOL)isEqual:(id)arg1;

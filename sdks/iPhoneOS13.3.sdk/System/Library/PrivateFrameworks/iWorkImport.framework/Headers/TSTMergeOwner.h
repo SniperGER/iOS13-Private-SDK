@@ -43,8 +43,8 @@ __attribute__((visibility("hidden")))
 - (unsigned short)ownerKind;
 - (void)unregisterFromCalcEngine;
 - (int)registerWithCalcEngine:(id)arg1 baseOwnerUID:(const UUIDData_5fbc143e )arg2;
-- (void)rewriteMergesForInsertedRange:(_NSRange)arg1 uids:(const vector_4dc5f307 )arg2 isRows:(BOOL)arg3;
-- (void)rewriteMergesForRemovedRange:(_NSRange)arg1 uids:(const vector_4dc5f307 )arg2 isRows:(BOOL)arg3;
+- (void)rewriteMergesForInsertedRange:(NSRange)arg1 uids:(const vector_4dc5f307 )arg2 isRows:(BOOL)arg3;
+- (void)rewriteMergesForRemovedRange:(NSRange)arg1 uids:(const vector_4dc5f307 )arg2 isRows:(BOOL)arg3;
 - (struct TSUModelCellRect)rewroteFormula:(struct TSCEFormula)arg1 atCoordinate:(struct TSUModelCellCoord)arg2 withRewriteSpec:(id)arg3 isUndo:(BOOL)arg4;
 - (void)commitRewritingTransaction;
 - (void)openRewritingTransaction;

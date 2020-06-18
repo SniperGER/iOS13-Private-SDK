@@ -7,6 +7,9 @@
 
 @class NSArray, NSDate, NSString, NTKComplication, NTKEditOption, NTKFaceView, UIViewController;
 
+#ifndef NTKFaceViewDelegate_Protocol
+#define NTKFaceViewDelegate_Protocol
+
 @protocol NTKFaceViewDelegate <NSObject>
 - (NSArray *)faceViewAllVisibleComplicationsForCurrentConfiguration;
 - (NSArray *)faceViewComplicationSlotsHiddenByEditOption:(NTKEditOption *)arg1;
@@ -33,4 +36,6 @@
 - (void)faceViewWantsCustomKeylineFramesReloadedForEditMode:(long long)arg1;
 - (void)faceViewWantsComplicationKeylineFramesReloaded;
 @end
+
+#endif
 

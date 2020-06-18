@@ -15,7 +15,7 @@
     NSString *_priorityDomainForSorting;
     NSUInteger _searchType;
     CNAutocompleteFetchContext *_fetchContext;
-    NSNumber _shouldIncludeGroupResultsImpl;
+    NSNumber *_shouldIncludeGroupResultsImpl;
     BOOL _includeContacts;
     BOOL _includeRecents;
     BOOL _includeSuggestions;

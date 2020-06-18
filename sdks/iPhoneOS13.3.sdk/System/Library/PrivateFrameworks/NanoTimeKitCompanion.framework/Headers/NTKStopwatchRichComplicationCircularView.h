@@ -16,7 +16,7 @@
     NTKColoringLabel *_timeLabel;
     NTKRichComplicationDialView *_frontDial;
     NTKRichComplicationDialView *_backDial;
-    NSNumber _updateToken;
+    NSNumber *_updateToken;
     struct {
         double timeLabelFontSize;
         double timeLabelMaxWidth;

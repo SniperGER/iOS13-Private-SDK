@@ -19,7 +19,7 @@
     NSArray *_frames;
     NSIndexSet *_visibleIndices;
     NSMutableDictionary *_visibleViewsByIndex;
-    _NSRange _visibleRange;
+    NSRange _visibleRange;
     CGSize _framesAreValidForSize;
 }
 
@@ -30,12 +30,12 @@
 @property(retain, nonatomic) NSArray *frames; // @synthesize frames=_frames;
 @property(nonatomic) CGSize framesAreValidForSize; // @synthesize framesAreValidForSize=_framesAreValidForSize;
 @property(readonly, nonatomic) NSUInteger activeViewIndex; // @synthesize activeViewIndex=_activeViewIndex;
-@property(readonly, nonatomic) _NSRange visibleRange; // @synthesize visibleRange=_visibleRange;
+@property(readonly, nonatomic) NSRange visibleRange; // @synthesize visibleRange=_visibleRange;
 @property(nonatomic) __weak id <SXItemizedScrollViewDataSource> dataSource; // @synthesize dataSource=_dataSource;
 // - (void).cxx_destruct;
 - (void)scrollToPrevious;
 - (void)scrollToNext;
-- (void)viewManagementForRange:(_NSRange)arg1;
+- (void)viewManagementForRange:(NSRange)arg1;
 - (void)rebuildFramesArray;
 - (void)determineNewVisibilityRange;
 - (CGRect)frameForViewAtIndex:(NSUInteger)arg1;

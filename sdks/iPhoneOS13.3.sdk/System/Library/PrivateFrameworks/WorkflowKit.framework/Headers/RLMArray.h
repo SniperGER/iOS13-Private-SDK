@@ -45,7 +45,7 @@
 - (id)valueForKeyPath:(id)arg1;
 - (id)aggregateProperty:(id)arg1 operation:(id)arg2 method:(SEL)arg3;
 - (int)typeForProperty:(id)arg1;
-- (id)objectsWhere:(id)arg1 args:(struct __va_list_tag [1])arg2;
+// - (id)objectsWhere:(id)arg1 args:(struct __va_list_tag [1])arg2;
 - (id)objectsWhere:(id)arg1;
 - (void)removeAllObjects;
 - (NSUInteger)indexOfObject:(id)arg1;
@@ -64,7 +64,7 @@
 - (id)lastObject;
 - (id)firstObject;
 @property(readonly, nonatomic) RLMRealm *realm;
-- (NSUInteger)indexOfObjectWhere:(id)arg1 args:(struct __va_list_tag [1])arg2;
+// - (NSUInteger)indexOfObjectWhere:(id)arg1 args:(struct __va_list_tag [1])arg2;
 - (NSUInteger)indexOfObjectWhere:(id)arg1;
 - (id)sortedResultsUsingKeyPath:(id)arg1 ascending:(BOOL)arg2;
 - (void)setObject:(id)arg1 atIndexedSubscript:(NSUInteger)arg2;

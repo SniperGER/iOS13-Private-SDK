@@ -13,13 +13,13 @@ __attribute__((visibility("hidden")))
 {
     NSMutableArray *_candidates;
     NSUInteger _maxCount;
-    _NSRange _defaultReplacementRange;
+    NSRange _defaultReplacementRange;
     PRErrorModel *_errorModel;
     NSArray *_capitalizationDictionaryArray;
 }
 
 - (id)candidateWithString:(id)arg1;
-- (_NSRange)defaultReplacementRange;
+- (NSRange)defaultReplacementRange;
 - (BOOL)isFull;
 - (NSUInteger)maxCount;
 - (NSUInteger)count;
@@ -30,12 +30,12 @@ __attribute__((visibility("hidden")))
 - (void)addCandidateWithBuffer:(char )arg1 encoding:(unsigned int)arg2 transform:(NSUInteger)arg3 errorType:(NSUInteger)arg4;
 - (void)addCandidateWithBuffer:(char )arg1 encoding:(unsigned int)arg2 errorType:(NSUInteger)arg3;
 - (void)addCandidateWithString:(id)arg1 errorType:(NSUInteger)arg2;
-- (void)addCandidateWithString:(id)arg1 replacementRange:(_NSRange)arg2 errorType:(NSUInteger)arg3;
-- (void)addCandidateWithWords:(id)arg1 replacementRange:(_NSRange)arg2 errorType:(NSUInteger)arg3;
+- (void)addCandidateWithString:(id)arg1 replacementRange:(NSRange)arg2 errorType:(NSUInteger)arg3;
+- (void)addCandidateWithWords:(id)arg1 replacementRange:(NSRange)arg2 errorType:(NSUInteger)arg3;
 - (void)addCandidate:(id)arg1;
 - (void)dealloc;
 - (id)description;
-- (id)initWithMaxCount:(NSUInteger)arg1 defaultReplacementRange:(_NSRange)arg2 customErrorModel:(id)arg3 capitalizationDictionaryArray:(id)arg4;
+- (id)initWithMaxCount:(NSUInteger)arg1 defaultReplacementRange:(NSRange)arg2 customErrorModel:(id)arg3 capitalizationDictionaryArray:(id)arg4;
 
 @end
 

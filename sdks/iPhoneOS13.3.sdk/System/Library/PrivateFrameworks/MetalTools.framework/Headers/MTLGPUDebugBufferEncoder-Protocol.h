@@ -7,6 +7,6 @@
 @protocol MTLBuffer;
 
 @protocol MTLGPUDebugBufferEncoder
-- (id <MTLBuffer>)encodeBuffers:(const id )arg1 offsets:(const NSUInteger )arg2 withRange:(_NSRange)arg3 resultOffset:(NSUInteger )arg4;
+- (id <MTLBuffer>)encodeBuffers:(const id )arg1 offsets:(const NSUInteger )arg2 withRange:(NSRange)arg3 resultOffset:(NSUInteger )arg4;
 @end
 

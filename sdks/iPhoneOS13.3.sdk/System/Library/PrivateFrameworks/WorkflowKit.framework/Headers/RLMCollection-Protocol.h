@@ -25,10 +25,10 @@
 - (RLMResults *)sortedResultsUsingDescriptors:(NSArray *)arg1;
 - (RLMResults *)sortedResultsUsingKeyPath:(NSString *)arg1 ascending:(BOOL)arg2;
 - (RLMResults *)objectsWithPredicate:(NSPredicate *)arg1;
-- (RLMResults *)objectsWhere:(NSString *)arg1 args:(struct __va_list_tag [1])arg2;
+// - (RLMResults *)objectsWhere:(NSString *)arg1 args:(struct __va_list_tag [1])arg2;
 - (RLMResults *)objectsWhere:(NSString *)arg1;
 - (NSUInteger)indexOfObjectWithPredicate:(NSPredicate *)arg1;
-- (NSUInteger)indexOfObjectWhere:(NSString *)arg1 args:(struct __va_list_tag [1])arg2;
+// - (NSUInteger)indexOfObjectWhere:(NSString *)arg1 args:(struct __va_list_tag [1])arg2;
 - (NSUInteger)indexOfObjectWhere:(NSString *)arg1;
 - (NSUInteger)indexOfObject:(id)arg1;
 - (id)lastObject;

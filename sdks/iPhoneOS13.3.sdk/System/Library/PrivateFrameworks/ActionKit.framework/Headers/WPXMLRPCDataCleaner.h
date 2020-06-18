@@ -18,7 +18,7 @@
 - (id)initWithData:(id)arg1;
 - (id)appendClosingTags:(id)arg1 toResponseString:(id)arg2;
 - (id)repairTruncatedClosingTags:(id)arg1 inResponseString:(id)arg2;
-- (_NSRange)rangeOfLastValidClosingTagInString:(id)arg1;
+- (NSRange)rangeOfLastValidClosingTagInString:(id)arg1;
 - (id)cloingTagsForString:(id)arg1;
 - (id)cleanClosingTagIfNeeded:(id)arg1 lengthOfCharactersPrecedingPreamble:(long long)arg2;
 - (id)cleanWithTidyIfPresent:(id)arg1;

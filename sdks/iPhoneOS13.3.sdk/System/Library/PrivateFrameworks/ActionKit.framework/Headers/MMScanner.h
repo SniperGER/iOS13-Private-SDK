@@ -15,20 +15,20 @@
     NSUInteger _startLocation;
     NSUInteger _rangeIndex;
     NSMutableArray *_transactions;
-    _NSRange _currentRange;
+    NSRange _currentRange;
 }
 
 + (id)scannerWithString:(id)arg1 lineRanges:(id)arg2;
 + (id)scannerWithString:(id)arg1;
 @property(readonly, nonatomic) NSMutableArray *transactions; // @synthesize transactions=_transactions;
 @property(nonatomic) NSUInteger rangeIndex; // @synthesize rangeIndex=_rangeIndex;
-@property(nonatomic) _NSRange currentRange; // @synthesize currentRange=_currentRange;
+@property(nonatomic) NSRange currentRange; // @synthesize currentRange=_currentRange;
 @property(nonatomic) NSUInteger startLocation; // @synthesize startLocation=_startLocation;
 @property(readonly, copy, nonatomic) NSArray *lineRanges; // @synthesize lineRanges=_lineRanges;
 @property(readonly, nonatomic) NSString *string; // @synthesize string=_string;
 // - (void).cxx_destruct;
-@property(readonly, nonatomic) _NSRange currentLineRange;
-- (NSUInteger)_locationOfCharacter:(unsigned short)arg1 inRange:(_NSRange)arg2;
+@property(readonly, nonatomic) NSRange currentLineRange;
+- (NSUInteger)_locationOfCharacter:(unsigned short)arg1 inRange:(NSRange)arg2;
 - (id)_lineRangesForString:(id)arg1;
 @property(nonatomic) NSUInteger location;
 - (NSUInteger)skipWhitespaceAndNewlines;

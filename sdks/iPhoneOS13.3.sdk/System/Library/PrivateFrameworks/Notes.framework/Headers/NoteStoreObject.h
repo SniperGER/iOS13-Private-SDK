@@ -15,9 +15,9 @@
 - (id)predicateForNotes;
 - (NSUInteger)minimumSequenceNumberForServerIntIds:(id)arg1;
 - (unsigned int)maximumServerIntId;
-- (id)notesForServerIntIdsInRange:(_NSRange)arg1;
+- (id)notesForServerIntIdsInRange:(NSRange)arg1;
 - (id)notesForServerIntIds:(id)arg1;
-- (id)notesForServerIntIdsInRange:(_NSRange)arg1 ascending:(BOOL)arg2 limit:(NSUInteger)arg3;
+- (id)notesForServerIntIdsInRange:(NSRange)arg1 ascending:(BOOL)arg2 limit:(NSUInteger)arg3;
 - (id)notesForServerIntIds:(id)arg1 ascending:(BOOL)arg2 limit:(NSUInteger)arg3;
 - (id)notesForGUIDs:(id)arg1;
 - (id)notesForIntegerIds:(id)arg1;

@@ -28,7 +28,7 @@
     NSUInteger _currentStyle;
     NSUInteger _currentDial;
     NSUInteger _currentColor;
-    NSNumber _clockTimerToken;
+    NSNumber *_clockTimerToken;
 }
 
 + (id)_swatchImageForColorOption:(id)arg1 forDevice:(id)arg2;

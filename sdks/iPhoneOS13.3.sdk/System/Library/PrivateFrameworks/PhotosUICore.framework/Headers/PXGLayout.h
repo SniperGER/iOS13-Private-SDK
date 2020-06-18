@@ -172,7 +172,7 @@
 - (void)sublayoutNeedsUpdate:(id)arg1;
 - (id)sublayoutAtIndex:(long long)arg1 loadIfNeeded:(BOOL)arg2;
 - (void)insertSublayoutProvider:(id)arg1 atIndexes:(id)arg2;
-- (void)insertSublayoutProvider:(id)arg1 inRange:(_NSRange)arg2;
+- (void)insertSublayoutProvider:(id)arg1 inRange:(NSRange)arg2;
 - (void)willRemoveSublayout:(id)arg1;
 - (void)didAddSublayout:(id)arg1;
 - (void)_willAddSublayout:(id)arg1;
@@ -181,7 +181,7 @@
 - (void)applySublayoutChangeDetails:(id)arg1 countAfterChanges:(long long)arg2 sublayoutProvider:(id)arg3;
 - (void)replaceSublayoutAtIndex:(long long)arg1 withSublayout:(id)arg2;
 - (void)removeSublayoutsAtIndexes:(id)arg1;
-- (void)removeSublayoutsInRange:(_NSRange)arg1;
+- (void)removeSublayoutsInRange:(NSRange)arg1;
 - (void)insertSublayout:(id)arg1 atIndex:(long long)arg2;
 - (void)addSublayout:(id)arg1;
 @property(readonly, nonatomic) long long numberOfSublayouts;

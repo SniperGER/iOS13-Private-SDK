@@ -17,7 +17,7 @@
 - (void)_updateChangedIndexesWithChangeDetails:(id)arg1;
 - (void)_updateMovesWithChangesDetails:(id)arg1;
 - (void)_addInsertedIndexes:(id)arg1;
-- (void)_addInsertedRange:(_NSRange)arg1;
+- (void)_addInsertedRange:(NSRange)arg1;
 - (void)_addRemovedIndexes:(id)arg1;
 - (void)_addRemovedIndex:(NSUInteger)arg1;
 - (void)_addAdditionalRemovedIndexSet:(id)arg1 afterChangesIndex:(id)arg2;

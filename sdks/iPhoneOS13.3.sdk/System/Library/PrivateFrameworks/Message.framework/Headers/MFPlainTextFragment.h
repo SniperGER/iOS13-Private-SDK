@@ -8,7 +8,7 @@
 
 @interface MFPlainTextFragment : NSObject
 {
-    _NSRange _range;
+    NSRange _range;
     unsigned int _quoteLevel;
 }
 

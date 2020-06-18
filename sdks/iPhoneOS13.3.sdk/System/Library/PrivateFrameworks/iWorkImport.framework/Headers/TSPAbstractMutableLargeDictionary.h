@@ -43,12 +43,12 @@ __attribute__((visibility("hidden")))
 @property(readonly, nonatomic) NSUInteger segmentCount;
 - (id)segmentRanges;
 - (void)removeLastRange;
-- (void)addRange:(_NSRange)arg1;
-- (void)insertRange:(_NSRange)arg1 atSegmentIndex:(NSUInteger)arg2;
+- (void)addRange:(NSRange)arg1;
+- (void)insertRange:(NSRange)arg1 atSegmentIndex:(NSUInteger)arg2;
 - (void)removeRangeAtSegmentIndex:(NSUInteger)arg1;
-- (void)setRange:(_NSRange)arg1 forSegmentIndex:(NSUInteger)arg2;
-- (_NSRange)lastRange;
-- (_NSRange)rangeOfSegmentIndex:(NSUInteger)arg1;
+- (void)setRange:(NSRange)arg1 forSegmentIndex:(NSUInteger)arg2;
+- (NSRange)lastRange;
+- (NSRange)rangeOfSegmentIndex:(NSUInteger)arg1;
 - (NSUInteger)segmentIndexForKeyHash:(NSUInteger)arg1;
 - (NSUInteger)segmentIndexForKeyHash:(NSUInteger)arg1 firstSegmentIndex:(NSUInteger)arg2 lastSegmentIndex:(NSUInteger)arg3 segmentIndexGuess:(NSUInteger)arg4;
 - (void)setObject:(id)arg1 forKeyedSubscript:(id)arg2;

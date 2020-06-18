@@ -7,9 +7,14 @@
 
 @class NSDate;
 
+#ifndef NTKTimeView_Protocol
+#define NTKTimeView_Protocol
+
 @protocol NTKTimeView <NSObject>
 @property(nonatomic, getter=isFrozen) BOOL frozen;
 - (void)setTimeOffset:(double)arg1;
 - (void)setOverrideDate:(NSDate *)arg1 duration:(double)arg2;
 @end
+
+#endif
 

@@ -7,7 +7,7 @@
 #import <Foundation/NSString.h>
 
 @interface NSString (BRLTTableIdentifier)
-- (_NSRange)_brl_rangeOfLastDot;
+- (NSRange)_brl_rangeOfLastDot;
 @property(readonly, copy, nonatomic) NSString *brl_tableIdentifier;
 @property(readonly, copy, nonatomic) NSString *brl_variant;
 @property(readonly, copy, nonatomic) NSString *brl_language;

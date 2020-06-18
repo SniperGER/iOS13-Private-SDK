@@ -7,7 +7,12 @@
 
 @class NSString;
 
+#ifndef NTKFaceSnapshotClient_Protocol
+#define NTKFaceSnapshotClient_Protocol
+
 @protocol NTKFaceSnapshotClient <NSObject>
 - (void)faceSnapshotChangedForKey:(NSString *)arg1;
 @end
+
+#endif
 

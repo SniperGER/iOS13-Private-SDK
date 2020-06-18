@@ -37,7 +37,7 @@
 - (void)_keyboardWillShow:(id)arg1;
 - (BOOL)textFieldShouldReturn:(id)arg1;
 - (BOOL)textFieldShouldClear:(id)arg1;
-- (BOOL)textField:(id)arg1 shouldChangeCharactersInRange:(_NSRange)arg2 replacementString:(id)arg3;
+- (BOOL)textField:(id)arg1 shouldChangeCharactersInRange:(NSRange)arg2 replacementString:(id)arg3;
 - (BOOL)textFieldShouldBeginEditing:(id)arg1;
 - (void)_undoTextFieldEdit:(id)arg1;
 - (void)_loadReportBugButtonTemplateImageInBackgroundWithCompletion:(id /* CDUnknownBlockType */)arg1;

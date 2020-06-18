@@ -13,7 +13,7 @@
     struct vector<unsigned int, std::__1::allocator<unsigned int>> _tokenString;
     struct vector<unsigned int, std::__1::allocator<unsigned int>> _histWordTokenIDs;
     NSUInteger _beginningCurrentWord;
-    struct vector<_NSRange, std::__1::allocator<_NSRange>> _whitespaceRanges;
+    struct vector<NSRange, std::__1::allocator<NSRange>> _whitespaceRanges;
     NSUInteger _numCustomWords;
     NSString *_string;
     double _probBlank;

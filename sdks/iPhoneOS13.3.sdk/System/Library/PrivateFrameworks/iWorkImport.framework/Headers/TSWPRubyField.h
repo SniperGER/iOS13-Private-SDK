@@ -21,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (void)loadFromArchive:(const struct RubyFieldArchive )arg1 unarchiver:(id)arg2;
 - (void)saveToArchiver:(id)arg1;
 - (void)saveToArchive:(struct RubyFieldArchive )arg1 archiver:(id)arg2;
-- (BOOL)canCopy:(_NSRange)arg1;
+- (BOOL)canCopy:(NSRange)arg1;
 - (BOOL)allowsEditing;
 - (int)styleAttributeArrayKind;
 - (NSUInteger)attributeArrayKind;

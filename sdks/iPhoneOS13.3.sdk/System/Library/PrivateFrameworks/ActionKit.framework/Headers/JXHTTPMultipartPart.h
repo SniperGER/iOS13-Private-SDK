@@ -24,7 +24,7 @@
 @property(retain, nonatomic) NSString *key; // @synthesize key=_key;
 @property(nonatomic) int multipartType; // @synthesize multipartType=_multipartType;
 // - (void).cxx_destruct;
-- (NSUInteger)loadMutableData:(id)arg1 withDataInRange:(_NSRange)arg2;
+- (NSUInteger)loadMutableData:(id)arg1 withDataInRange:(NSRange)arg2;
 - (long long)contentLength;
 - (long long)dataLength;
 - (id)filePath;

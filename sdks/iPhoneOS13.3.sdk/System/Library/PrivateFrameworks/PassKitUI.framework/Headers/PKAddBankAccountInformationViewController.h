@@ -74,7 +74,7 @@
 - (id)_cellHasPastedContent;
 - (void)next:(id)arg1;
 - (void)cancel:(id)arg1;
-- (BOOL)textField:(id)arg1 shouldChangeCharactersInRange:(_NSRange)arg2 replacementString:(id)arg3;
+- (BOOL)textField:(id)arg1 shouldChangeCharactersInRange:(NSRange)arg2 replacementString:(id)arg3;
 - (void)textFieldDidChange:(id)arg1;
 - (void)textFieldDidBeginEditing:(id)arg1;
 - (void)tableView:(id)arg1 willDisplayCell:(id)arg2 forRowAtIndexPath:(id)arg3;

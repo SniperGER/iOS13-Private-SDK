@@ -36,7 +36,7 @@
 @property(copy, nonatomic) NSString *detailTitle; // @synthesize detailTitle=_detailTitle;
 @property(nonatomic) id <PKPaymentMoreInformationViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
 // - (void).cxx_destruct;
-- (BOOL)textView:(id)arg1 shouldInteractWithURL:(id)arg2 inRange:(_NSRange)arg3 interaction:(long long)arg4;
+- (BOOL)textView:(id)arg1 shouldInteractWithURL:(id)arg2 inRange:(NSRange)arg3 interaction:(long long)arg4;
 - (BOOL)_shouldShowBusinessChatButton;
 - (void)_businessChatButtonTapped;
 - (void)doneButtonTapped;

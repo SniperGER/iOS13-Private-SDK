@@ -134,7 +134,7 @@ __attribute__((visibility("hidden")))
 - (id)columnDisplayNameForCategoryLevel:(unsigned char)arg1;
 - (id)regionSubtractingCategoryColumnsAndRows:(id)arg1;
 - (id)indexesForBodyRowsInGroupWithRowAtIndex:(unsigned int)arg1;
-- (_NSRange)rowRangeUnderSummaryOrLabelRow:(unsigned int)arg1;
+- (NSRange)rowRangeUnderSummaryOrLabelRow:(unsigned int)arg1;
 - (id)indexesForGroupingColumnsInRegion:(id)arg1;
 - (id)indexesForGroupingColumns;
 - (id)indexesForCategoryColumnsInRegion:(id)arg1;
@@ -211,8 +211,8 @@ __attribute__((visibility("hidden")))
 - (id)cellRegionFromCellUIDList:(id)arg1;
 - (id)cellUIDListFromCellRegion:(id)arg1 useCategoriesWildcards:(BOOL)arg2;
 - (id)cellUIDListFromCellRegion:(id)arg1;
-- (_NSRange)columnRangeForUIDs:(const vector_4dc5f307 )arg1;
-- (_NSRange)rowRangeForUIDs:(const vector_4dc5f307 )arg1;
+- (NSRange)columnRangeForUIDs:(const vector_4dc5f307 )arg1;
+- (NSRange)rowRangeForUIDs:(const vector_4dc5f307 )arg1;
 - (vector_4dc5f307)columnUIDs;
 - (vector_4dc5f307)rowUIDs;
 - (id)mutableIndexesForUIDSet:(id)arg1 isRows:(BOOL)arg2 notFoundUIDs:(id)arg3;
@@ -220,13 +220,13 @@ __attribute__((visibility("hidden")))
 - (id)UIDSetForIndexes:(id)arg1 isRows:(BOOL)arg2;
 - (vector_4dc5f307)prunedRowUIDsFromRowUIDs:(const vector_4dc5f307 )arg1;
 - (vector_4dc5f307)prunedColumnUIDsFromColumnUIDs:(const vector_4dc5f307 )arg1;
-- (vector_4dc5f307)columnUIDsForColumnRange:(_NSRange)arg1;
+- (vector_4dc5f307)columnUIDsForColumnRange:(NSRange)arg1;
 - (id)mutableColumnIndexesForUIDs:(const vector_4dc5f307 )arg1;
 - (id)columnIndexesForUIDs:(const vector_4dc5f307 )arg1;
 - (vector_4dc5f307)columnUIDsForColumnIndexes:(id)arg1;
 - (unsigned short)columnIndexForColumnUID:(const UUIDData_5fbc143e )arg1;
 - (UUIDData_5fbc143e)columnUIDForColumnIndex:(unsigned short)arg1;
-- (vector_4dc5f307)rowUIDsForRowRange:(_NSRange)arg1;
+- (vector_4dc5f307)rowUIDsForRowRange:(NSRange)arg1;
 - (id)mutableRowIndexesForUIDs:(const vector_4dc5f307 )arg1;
 - (id)rowIndexesForUIDs:(const vector_4dc5f307 )arg1;
 - (vector_4dc5f307)rowUIDsForRowIndexes:(id)arg1;
@@ -394,8 +394,8 @@ __attribute__((visibility("hidden")))
 - (BOOL)hideColumnAtIndex:(unsigned short)arg1 forAction:(unsigned char)arg2;
 - (BOOL)hideRowAtIndex:(unsigned int)arg1 forAction:(unsigned char)arg2;
 - (void)swapRowAtIndex:(unsigned int)arg1 withRowAtIndex:(unsigned int)arg2;
-- (void)moveColumnRange:(_NSRange)arg1 toColumnIndex:(unsigned short)arg2;
-- (void)moveRowRange:(_NSRange)arg1 toRowIndex:(unsigned int)arg2;
+- (void)moveColumnRange:(NSRange)arg1 toColumnIndex:(unsigned short)arg2;
+- (void)moveRowRange:(NSRange)arg1 toRowIndex:(unsigned int)arg2;
 - (void)removeColumnsAtIndexes:(id)arg1;
 - (BOOL)hasDeferredImportActions;
 - (void)processDeferredImportActions;

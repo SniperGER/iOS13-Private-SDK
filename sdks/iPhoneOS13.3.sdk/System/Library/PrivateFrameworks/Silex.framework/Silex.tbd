@@ -8,9 +8,6 @@ compatibility-version: 1
 objc-constraint:       retain_release
 exports:
   - archs:              [ armv7, armv7s, arm64, arm64e ]
-    allowable-clients:  [ ArticleNotificationExtension, "Feldspar Tests", NVCDemo, News, NewsAnalytics, NewsArticles, NewsFeed,
-                          NewsInternalExtras, NewsSubscription, NewsToday, NewsUI, NewsUI2, SilexDebugger, SilexTests, SilexVideoDebugger,
-                          SilexVideoWidget, TeaUI ]
     symbols:            [ _CGSizeAspectFill, _CalculateColumnWidth, _CalculateMargin, _CalculateMinimumColumnWidth,
                           _NSStringFromDependencyAttribute, _NSStringFromSXAdType, _SXActionTypeBookmark, _SXActionTypeCalendarEvent,
                           _SXActionTypeClose, _SXActionTypeEmail, _SXActionTypeLink, _SXActionTypePhoneNumber, _SXActionTypeSubscribe,

@@ -17,7 +17,7 @@
     TSWPChangeSession *_changeSession;
 }
 
-- (_NSRange)insertedRange;
+- (NSRange)insertedRange;
 - (long long)delta;
 - (NSUInteger)targetCharIndex;
 - (void)performWithStorage:(id)arg1 delta:(long long)arg2 undoTransaction:(struct TSWPStorageTransaction )arg3 replaceBlock:(id /* CDUnknownBlockType */)arg4;

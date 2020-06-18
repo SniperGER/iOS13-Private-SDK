@@ -130,12 +130,12 @@
 - (BOOL)hasAllTraits:(NSUInteger)arg1;
 - (id)previousElementsWithCount:(NSUInteger)arg1;
 - (id)nextElementsWithCount:(NSUInteger)arg1;
-- (CGRect)boundsForTextRange:(_NSRange)arg1;
-- (id)_objectForRange:(_NSRange)arg1 withParameterizedAttribute:(long long)arg2;
-@property(nonatomic) _NSRange selectedTextRange;
+- (CGRect)boundsForTextRange:(NSRange)arg1;
+- (id)_objectForRange:(NSRange)arg1 withParameterizedAttribute:(long long)arg2;
+@property(nonatomic) NSRange selectedTextRange;
 @property(readonly, nonatomic) BOOL required;
 @property(readonly, nonatomic) NSString *textualContext;
-@property(readonly, nonatomic) _NSRange rowRange;
+@property(readonly, nonatomic) NSRange rowRange;
 @property(readonly, nonatomic) NSString *roleDescription;
 @property(readonly, nonatomic) NSArray *drops;
 @property(readonly, nonatomic) NSArray *drags;

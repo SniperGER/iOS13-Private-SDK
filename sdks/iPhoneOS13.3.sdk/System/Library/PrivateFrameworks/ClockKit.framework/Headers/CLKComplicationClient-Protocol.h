@@ -8,7 +8,12 @@
 
 @class NSSet;
 
+#ifndef CLKComplicationClient_Protocol
+#define CLKComplicationClient_Protocol
+
 @protocol CLKComplicationClient <CLKComplicationDataSource>
 - (void)setActiveComplications:(NSSet *)arg1;
 @end
+
+#endif
 

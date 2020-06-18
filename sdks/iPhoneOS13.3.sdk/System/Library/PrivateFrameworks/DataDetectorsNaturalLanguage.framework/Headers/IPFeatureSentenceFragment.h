@@ -13,16 +13,16 @@
     double _probability_Rejection;
     double _probability_Proposal;
     double _probability_Confirmation;
-    _NSRange _range;
+    NSRange _range;
 }
 
-+ (id)fragmentWithRange:(_NSRange)arg1 clusterType:(NSUInteger)arg2;
++ (id)fragmentWithRange:(NSRange)arg1 clusterType:(NSUInteger)arg2;
 @property double probability_Confirmation; // @synthesize probability_Confirmation=_probability_Confirmation;
 @property double probability_Proposal; // @synthesize probability_Proposal=_probability_Proposal;
 @property double probability_Rejection; // @synthesize probability_Rejection=_probability_Rejection;
 @property double probability_None; // @synthesize probability_None=_probability_None;
 @property NSUInteger clusterType; // @synthesize clusterType=_clusterType;
-@property _NSRange range; // @synthesize range=_range;
+@property NSRange range; // @synthesize range=_range;
 - (id)description;
 @property(readonly, nonatomic) NSUInteger mainPolarity;
 

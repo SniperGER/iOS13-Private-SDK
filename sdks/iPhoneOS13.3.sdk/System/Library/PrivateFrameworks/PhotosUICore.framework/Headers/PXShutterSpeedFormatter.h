@@ -11,7 +11,7 @@
 }
 
 + (id)stringForObjectValue:(id)arg1;
-- (BOOL)getObjectValue:(out id )arg1 forString:(id)arg2 range:(inout _NSRange )arg3 error:(out id )arg4;
+- (BOOL)getObjectValue:(out id )arg1 forString:(id)arg2 range:(inout NSRange )arg3 error:(out id )arg4;
 - (id)stringForObjectValue:(id)arg1;
 
 @end

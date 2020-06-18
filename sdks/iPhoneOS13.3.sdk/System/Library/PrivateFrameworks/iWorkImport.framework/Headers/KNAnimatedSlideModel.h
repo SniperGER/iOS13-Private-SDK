@@ -69,7 +69,7 @@ __attribute__((visibility("hidden")))
 - (id)firstAnimatedBuildForInfo:(id)arg1;
 - (double)initialDelayForEventIndex:(NSUInteger)arg1;
 - (double)durationForEventIndexes:(id)arg1;
-- (id)buildChunksForEventRange:(_NSRange)arg1;
+- (id)buildChunksForEventRange:(NSRange)arg1;
 - (long long)outEventForInfo:(id)arg1;
 - (long long)inEventForInfo:(id)arg1;
 - (long long)p_eventNumberForInfo:(id)arg1 animationType:(long long)arg2 defaultResult:(long long)arg3;

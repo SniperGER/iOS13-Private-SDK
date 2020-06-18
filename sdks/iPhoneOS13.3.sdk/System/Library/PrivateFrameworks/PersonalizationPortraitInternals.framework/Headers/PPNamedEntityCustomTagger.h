@@ -17,7 +17,7 @@
 + (id)sharedInstance;
 // - (void).cxx_destruct;
 - (void)dealloc;
-- (void)enumerateNamedEntitiesInText:(id)arg1 range:(_NSRange)arg2 addNamedEntity:(id /* CDUnknownBlockType */)arg3;
+- (void)enumerateNamedEntitiesInText:(id)arg1 range:(NSRange)arg2 addNamedEntity:(id /* CDUnknownBlockType */)arg3;
 - (void)enumerateNamedEntitiesInText:(id)arg1 addNamedEntity:(id /* CDUnknownBlockType */)arg2;
 - (id)init;
 

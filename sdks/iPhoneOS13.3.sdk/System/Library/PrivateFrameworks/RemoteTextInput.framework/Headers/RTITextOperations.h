@@ -19,19 +19,19 @@
     NSString *_textToAssert;
     SEL _editingActionSelector;
     NSString *_textCheckingAnnotationToRemove;
-    _NSRange _selectionRangeToAssert;
-    _NSRange _textCheckingAnnotationRange;
-    _NSRange _textCheckingReplacementRange;
-    _NSRange _textCheckingAnnotationRemovalRange;
+    NSRange _selectionRangeToAssert;
+    NSRange _textCheckingAnnotationRange;
+    NSRange _textCheckingReplacementRange;
+    NSRange _textCheckingAnnotationRemovalRange;
 }
 
 + (BOOL)supportsSecureCoding;
 @property(copy, nonatomic) NSString *textCheckingAnnotationToRemove; // @synthesize textCheckingAnnotationToRemove=_textCheckingAnnotationToRemove;
-@property(nonatomic) _NSRange textCheckingAnnotationRemovalRange; // @synthesize textCheckingAnnotationRemovalRange=_textCheckingAnnotationRemovalRange;
-@property(nonatomic) _NSRange textCheckingReplacementRange; // @synthesize textCheckingReplacementRange=_textCheckingReplacementRange;
-@property(nonatomic) _NSRange textCheckingAnnotationRange; // @synthesize textCheckingAnnotationRange=_textCheckingAnnotationRange;
+@property(nonatomic) NSRange textCheckingAnnotationRemovalRange; // @synthesize textCheckingAnnotationRemovalRange=_textCheckingAnnotationRemovalRange;
+@property(nonatomic) NSRange textCheckingReplacementRange; // @synthesize textCheckingReplacementRange=_textCheckingReplacementRange;
+@property(nonatomic) NSRange textCheckingAnnotationRange; // @synthesize textCheckingAnnotationRange=_textCheckingAnnotationRange;
 @property(nonatomic) SEL editingActionSelector; // @synthesize editingActionSelector=_editingActionSelector;
-@property(nonatomic) _NSRange selectionRangeToAssert; // @synthesize selectionRangeToAssert=_selectionRangeToAssert;
+@property(nonatomic) NSRange selectionRangeToAssert; // @synthesize selectionRangeToAssert=_selectionRangeToAssert;
 @property(copy, nonatomic) NSString *textToAssert; // @synthesize textToAssert=_textToAssert;
 @property(copy, nonatomic) NSAttributedString *textCheckingAnnotatedString; // @synthesize textCheckingAnnotatedString=_textCheckingAnnotatedString;
 @property(retain, nonatomic) NSDictionary *attributedPlaceholders; // @synthesize attributedPlaceholders=_attributedPlaceholders;
@@ -39,11 +39,11 @@
 @property(retain, nonatomic) TIKeyboardIntermediateText *intermediateText; // @synthesize intermediateText=_intermediateText;
 // - (void).cxx_destruct;
 @property(readonly, nonatomic) NSAttributedString *attributedInsertionText;
-- (void)insertAttributedText:(id)arg1 replacementRange:(_NSRange)arg2;
+- (void)insertAttributedText:(id)arg1 replacementRange:(NSRange)arg2;
 - (void)insertAttributedText:(id)arg1;
 @property(readonly, nonatomic) NSMutableDictionary *mutableAttributedPlaceholders;
 - (void)_createAttributedPlaceholdersIfNecessary;
-- (void)insertText:(id)arg1 replacementRange:(_NSRange)arg2;
+- (void)insertText:(id)arg1 replacementRange:(NSRange)arg2;
 @property(readonly, nonatomic) TIKeyboardOutput *keyboardOutput; // @synthesize keyboardOutput=_keyboardOutput;
 - (BOOL)isEqual:(id)arg1;
 - (id)description;

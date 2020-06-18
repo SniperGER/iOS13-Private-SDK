@@ -42,7 +42,7 @@
 - (void)copy:(id)arg1;
 - (void)convertNonbreakingSpacesInClipboardIfNecessary;
 - (id)textWithRegularSpaces;
-- (BOOL)shouldChangeCharactersWithNonbreakingSpacesIfNecessaryInRange:(_NSRange)arg1 replacementString:(id)arg2;
+- (BOOL)shouldChangeCharactersWithNonbreakingSpacesIfNecessaryInRange:(NSRange)arg1 replacementString:(id)arg2;
 - (BOOL)usesNonbreakingSpaces;
 - (void)paste:(id)arg1;
 @property(nonatomic, getter=isEditable) BOOL editable;

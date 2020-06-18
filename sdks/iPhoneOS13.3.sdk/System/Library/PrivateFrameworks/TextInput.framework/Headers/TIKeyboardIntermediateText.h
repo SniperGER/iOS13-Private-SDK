@@ -26,7 +26,7 @@
 @property(readonly, nonatomic) NSString *inputString; // @synthesize inputString=_inputString;
 // - (void).cxx_destruct;
 - (id)description;
-@property(readonly, nonatomic) _NSRange selectedRange;
+@property(readonly, nonatomic) NSRange selectedRange;
 - (NSUInteger)hash;
 - (BOOL)isEqual:(id)arg1;
 - (void)encodeWithCoder:(id)arg1;

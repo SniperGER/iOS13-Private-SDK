@@ -8,7 +8,7 @@
 @protocol TTMergeableStringDelegate <NSObject>
 - (BOOL)wantsUndoCommands;
 - (void)addUndoCommand:(id)arg1;
-- (void)edited:(NSUInteger)arg1 range:(_NSRange)arg2 changeInLength:(long long)arg3;
+- (void)edited:(NSUInteger)arg1 range:(NSRange)arg2 changeInLength:(long long)arg3;
 - (void)endEditing;
 - (void)beginEditing;
 @end

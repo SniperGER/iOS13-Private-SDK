@@ -30,9 +30,9 @@
 - (CGSize)contentLayoutSizeFittingSize:(CGSize)arg1 forArrangedSubview:(id)arg2;
 - (void)populateGridArrangementDimension:(vector_b8a5df6e )arg1 withCells:(const vector_f8404f95 )arg2 axis:(long long)arg3;
 - (void)populateGridArrangementCells:(vector_f8404f95 )arg1;
-- (CGRect)frameForColumns:(_NSRange)arg1 rows:(_NSRange)arg2 inBounds:(CGRect)arg3;
-- (CGRect)unionFrameForItemsInColumns:(_NSRange)arg1 rows:(_NSRange)arg2 inBounds:(CGRect)arg3;
-- (void)positionItemsInColumns:(_NSRange)arg1 rows:(_NSRange)arg2 inBounds:(CGRect)arg3 block:(id /* CDUnknownBlockType */)arg4;
+- (CGRect)frameForColumns:(NSRange)arg1 rows:(NSRange)arg2 inBounds:(CGRect)arg3;
+- (CGRect)unionFrameForItemsInColumns:(NSRange)arg1 rows:(NSRange)arg2 inBounds:(CGRect)arg3;
+- (void)positionItemsInColumns:(NSRange)arg1 rows:(NSRange)arg2 inBounds:(CGRect)arg3 block:(id /* CDUnknownBlockType */)arg4;
 - (void)positionItemsInBounds:(CGRect)arg1 block:(id /* CDUnknownBlockType */)arg2;
 - (void)_cacheDisplayScaleIfNeeded;
 - (CGSize)layoutSizeFittingSize:(CGSize)arg1;

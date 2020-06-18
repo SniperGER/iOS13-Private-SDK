@@ -16,8 +16,8 @@
     long long _addressBookPreflightStatus;
     long long _contactsFullPreflightStatus;
     long long _contactsLimitedPreflightStatus;
-    NSNumber _isClientLegacyImpl;
-    NSNumber _isNotesAccessGrantedCachedValue;
+    NSNumber *_isClientLegacyImpl;
+    NSNumber *_isNotesAccessGrantedCachedValue;
 }
 
 + (id)sharedInstance;
@@ -35,14 +35,14 @@
 @property(readonly, nonatomic) BOOL isClientLegacy;
 @property(readonly, nonatomic) BOOL isClientWhitelisted;
 - (BOOL)doesClientHaveNotesEntitlement;
-- (NSNumber )resolveFuture:(id)arg1;
+- (NSNumber *)resolveFuture:(id)arg1;
 - (BOOL)isAccessGrantedRequestingAccessIfNeeded;
 - (void)updatePreflightStatus:(long long)arg1 forService:(long long)arg2;
 - (id)accessGrantedFutureForService:(long long)arg1;
 - (id)sharedAccessGrantedFutureForRequest:(long long)arg1;
 - (BOOL)isAccessGrantedWithError:(id )arg1;
 - (void)requestAuthorizationWithCompletionHandler:(id /* CDUnknownBlockType */)arg1;
-- (NSNumber )_checkIfNotesAccessGranted;
+- (NSNumber *)_checkIfNotesAccessGranted;
 @property(readonly, nonatomic) BOOL isNotesAccessGranted;
 - (BOOL)isAddressBookAccessGranted;
 @property(readonly, nonatomic) BOOL isFullAccessGranted;

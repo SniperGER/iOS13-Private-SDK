@@ -7,7 +7,7 @@
 #import <Foundation/NSString.h>
 
 @interface NSString (EMFEmojiExtras)
-- (void)_enumerateEmojiTokensInRange:(_NSRange)arg1 block:(id /* CDUnknownBlockType */)arg2;
+- (void)_enumerateEmojiTokensInRange:(NSRange)arg1 block:(id /* CDUnknownBlockType */)arg2;
 - (BOOL)_containsEmoji;
 - (BOOL)_isSingleEmoji;
 @end

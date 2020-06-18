@@ -17,12 +17,12 @@
 }
 
 - (struct _PXLayoutGeometry)_geometryForItemAtIndex:(NSUInteger)arg1 atPosition:(CGPoint)arg2 withHorizontalGap:(double)arg3;
-- (double)_rowHeightForItemsInRange:(_NSRange)arg1;
+- (double)_rowHeightForItemsInRange:(NSRange)arg1;
 - (void)_fillRowFromIndex:(long long )arg1 withCount:(long long)arg2;
 - (void)_computeGeometriesIfNeeded;
 - (struct _PXLayoutGeometry)_lastGeometry;
 - (void)_prepareGeometriesForCount:(NSUInteger)arg1;
-- (void)getGeometries:(struct _PXLayoutGeometry )arg1 inRange:(_NSRange)arg2 withKind:(long long)arg3;
+- (void)getGeometries:(struct _PXLayoutGeometry )arg1 inRange:(NSRange)arg2 withKind:(long long)arg3;
 - (CGSize)size;
 - (CGSize)estimatedSize;
 - (void)invalidate;

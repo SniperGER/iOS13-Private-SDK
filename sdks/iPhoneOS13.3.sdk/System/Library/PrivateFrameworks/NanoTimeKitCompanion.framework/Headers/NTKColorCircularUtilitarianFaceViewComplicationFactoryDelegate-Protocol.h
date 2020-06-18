@@ -7,7 +7,12 @@
 
 @class NSString;
 
+#ifndef NTKColorCircularUtilitarianFaceViewComplicationFactoryDelegate_Protocol
+#define NTKColorCircularUtilitarianFaceViewComplicationFactoryDelegate_Protocol
+
 @protocol NTKColorCircularUtilitarianFaceViewComplicationFactoryDelegate <NSObject>
 - (BOOL)slotUsesCurvedText:(NSString *)arg1;
 @end
+
+#endif
 

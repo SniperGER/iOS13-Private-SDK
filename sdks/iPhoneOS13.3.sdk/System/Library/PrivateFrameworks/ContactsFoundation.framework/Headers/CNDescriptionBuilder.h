@@ -23,7 +23,7 @@
 - (void)tryAppendKey:(id)arg1;
 - (id)appendKeys:(id)arg1;
 - (id)appendKey:(id)arg1;
-- (id)appendNamesAndObjects:(id)arg1 args:(struct __va_list_tag [1])arg2;
+// - (id)appendNamesAndObjects:(id)arg1 args:(struct __va_list_tag [1])arg2;
 - (id)appendNamesAndObjects:(id)arg1;
 - (id)appendName:(id)arg1 selector:(SEL)arg2;
 - (id)appendName:(id)arg1 pointerValue:(void )arg2;

@@ -19,12 +19,12 @@
 @property(readonly, nonatomic) BOOL valid; // @synthesize valid=mValid;
 @property(readonly, nonatomic) NSUInteger hintsCount; // @synthesize hintsCount=mHintsCount;
 - (id)descriptionWithStorage:(id)arg1;
-- (_NSRange)hintRangeForLineStartingAtHintIndex:(NSUInteger)arg1;
-- (_NSRange)hintRangeForColumnIndex:(NSUInteger)arg1 frameBounds:(CGRect)arg2 charIndex:(NSUInteger)arg3;
+- (NSRange)hintRangeForLineStartingAtHintIndex:(NSUInteger)arg1;
+- (NSRange)hintRangeForColumnIndex:(NSUInteger)arg1 frameBounds:(CGRect)arg2 charIndex:(NSUInteger)arg3;
 - (NSUInteger)p_columnIndexForHintIndex:(NSUInteger)arg1;
-- (id)newSubCollectionWithRange:(_NSRange)arg1;
-- (BOOL)checkSubCollectionRange:(_NSRange)arg1;
-- (id)initWithContainingCollection:(id)arg1 range:(_NSRange)arg2 context:(id)arg3;
+- (id)newSubCollectionWithRange:(NSRange)arg1;
+- (BOOL)checkSubCollectionRange:(NSRange)arg1;
+- (id)initWithContainingCollection:(id)arg1 range:(NSRange)arg2 context:(id)arg3;
 @property(readonly, nonatomic) const CDStruct_cd85e889 hints;
 - (void)dealloc;
 

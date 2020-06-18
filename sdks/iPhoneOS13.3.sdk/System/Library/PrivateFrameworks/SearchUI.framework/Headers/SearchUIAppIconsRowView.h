@@ -36,7 +36,7 @@
 - (void)layoutSubviews;
 - (CGRect)layoutFrameForArrangedSubview:(id)arg1 withProposedContentFrame:(CGRect)arg2;
 - (CGSize)contentLayoutSizeFittingSize:(CGSize)arg1 forArrangedSubview:(id)arg2;
-- (id)gridArrangement:(id)arg1 itemAtIndex:(long long)arg2 columns:(_NSRange )arg3 rows:(_NSRange )arg4 horizontalAlignment:(long long )arg5 verticalAlignment:(long long )arg6;
+- (id)gridArrangement:(id)arg1 itemAtIndex:(long long)arg2 columns:(NSRange )arg3 rows:(NSRange )arg4 horizontalAlignment:(long long )arg5 verticalAlignment:(long long )arg6;
 - (long long)numberOfItemsInGridArrangement:(id)arg1;
 - (CGSize)sizeThatFits:(CGSize)arg1;
 - (CGSize)systemLayoutSizeFittingSize:(CGSize)arg1;

@@ -14,7 +14,7 @@
     NSUInteger _branchedTokenIndex;
     NSUInteger _mergedTokenIndex;
     NSMutableArray *_branchTokens;
-    _NSRange _originalSelectedTokenRange;
+    NSRange _originalSelectedTokenRange;
     struct _TIRevisionHistoryTokenIterator _originalIterator;
 }
 
@@ -23,7 +23,7 @@
 @property(nonatomic) NSUInteger branchedTokenIndex; // @synthesize branchedTokenIndex=_branchedTokenIndex;
 @property(nonatomic) NSUInteger revisedDocumentLocation; // @synthesize revisedDocumentLocation=_revisedDocumentLocation;
 @property(nonatomic) struct _TIRevisionHistoryTokenIterator originalIterator; // @synthesize originalIterator=_originalIterator;
-@property(nonatomic) _NSRange originalSelectedTokenRange; // @synthesize originalSelectedTokenRange=_originalSelectedTokenRange;
+@property(nonatomic) NSRange originalSelectedTokenRange; // @synthesize originalSelectedTokenRange=_originalSelectedTokenRange;
 // - (void).cxx_destruct;
 - (id)initWithTokenIterator:(struct _TIRevisionHistoryTokenIterator)arg1;
 - (id)init;

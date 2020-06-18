@@ -24,8 +24,8 @@
     long long _masterStatusCellIndex;
     long long _iBeamLocation;
     long long _focusLocation;
-    _NSRange _focusRange;
-    _NSRange _selectionRange;
+    NSRange _focusRange;
+    NSRange _selectionRange;
     int _displayMode;
     int _lineFocus;
     BOOL _displayEnabled;
@@ -75,11 +75,11 @@
 - (void)brailleDisplayDeletedCharacter:(id)arg1;
 - (void)brailleDisplayInsertedCharacter:(id)arg1;
 - (void)didInsertScriptString:(id)arg1;
-- (void)scriptSelectionDidChange:(_NSRange)arg1;
-- (void)replaceScriptStringRange:(_NSRange)arg1 withScriptString:(id)arg2 cursorLocation:(NSUInteger)arg3;
-- (void)brailleDisplayStringDidChange:(id)arg1 brailleSelection:(_NSRange)arg2;
+- (void)scriptSelectionDidChange:(NSRange)arg1;
+- (void)replaceScriptStringRange:(NSRange)arg1 withScriptString:(id)arg2 cursorLocation:(NSUInteger)arg3;
+- (void)brailleDisplayStringDidChange:(id)arg1 brailleSelection:(NSRange)arg2;
 - (id)textForPrintBraille:(id)arg1 language:(id)arg2 mode:(NSUInteger)arg3 locations:(id )arg4;
-- (id)printBrailleForText:(id)arg1 language:(id)arg2 mode:(NSUInteger)arg3 textPositionsRange:(_NSRange)arg4 locations:(id )arg5;
+- (id)printBrailleForText:(id)arg1 language:(id)arg2 mode:(NSUInteger)arg3 textPositionsRange:(NSRange)arg4 locations:(id )arg5;
 - (id)translatedBrailleForTableIdentifier:(id)arg1;
 - (id)spokenStringForDeletedBrailleString:(id)arg1 speakLiterally:(out BOOL )arg2;
 - (id)spokenStringForInsertedBrailleString:(id)arg1 speakLiterally:(out BOOL )arg2;
@@ -112,7 +112,7 @@
 - (BOOL)_setMainCells:(const char )arg1 length:(long long)arg2;
 - (BOOL)_blink:(BOOL)arg1;
 - (void)blinker;
-- (_NSRange)textRangeForBrailleRange:(_NSRange)arg1;
+- (NSRange)textRangeForBrailleRange:(NSRange)arg1;
 - (long long)_indexOfWhitespaceAfterIBeam:(long long)arg1 inLine:(id)arg2;
 - (long long)_indexOfWhitespaceBeforeIBeam:(long long)arg1 inLine:(id)arg2;
 - (int)displayMode;
@@ -123,7 +123,7 @@
 - (void)setShowDotsSevenAndEight:(BOOL)arg1;
 - (id)newLineDescriptorWithoutPadding;
 - (id)newLineDescriptor;
-- (void)enumerateWordsBetweenCharacters:(id)arg1 text:(id)arg2 inRange:(_NSRange)arg3 usingBlock:(id /* CDUnknownBlockType */)arg4;
+- (void)enumerateWordsBetweenCharacters:(id)arg1 text:(id)arg2 inRange:(NSRange)arg3 usingBlock:(id /* CDUnknownBlockType */)arg4;
 - (long long)tokenForRouterIndex:(long long )arg1 location:(long long )arg2 appToken:(id )arg3;
 - (BOOL)getStatusRouterIndex:(long long )arg1 forRawIndex:(long long)arg2;
 - (long long)lastToken;

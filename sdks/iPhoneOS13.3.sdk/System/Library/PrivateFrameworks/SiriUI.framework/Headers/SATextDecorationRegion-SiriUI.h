@@ -7,6 +7,6 @@
 #import <SAObjects/SATextDecorationRegion.h>
 
 @interface SATextDecorationRegion (SiriUI)
-- (_NSRange)siriui_range;
+- (NSRange)siriui_range;
 @end
 

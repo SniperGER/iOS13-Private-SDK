@@ -45,7 +45,7 @@
 - (void)tryAppendKey:(id)arg1;
 - (id)appendKeys:(id)arg1;
 - (id)appendKey:(id)arg1;
-- (id)appendObjectsAndNames:(id)arg1 args:(struct __va_list_tag [1])arg2;
+// - (id)appendObjectsAndNames:(id)arg1 args:(struct __va_list_tag [1])arg2;
 - (id)appendObjectsAndNames:(id)arg1;
 - (id)appendClass:(Class)arg1 withName:(id)arg2;
 - (id)appendRect:(CGRect)arg1 withName:(id)arg2;

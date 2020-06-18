@@ -17,16 +17,16 @@
     id <PXGItemsLayoutDelegate> _delegate;
     id <PXGItemsGeometry> _itemsGeometry;
     long long __numberOfItems;
-    _NSRange _loadedItems;
+    NSRange _loadedItems;
 }
 
 @property(nonatomic, getter=isLazy) BOOL lazy; // @synthesize lazy=_lazy;
 @property(nonatomic) long long _numberOfItems; // @synthesize _numberOfItems=__numberOfItems;
 @property(readonly, nonatomic) id <PXGItemsGeometry> itemsGeometry; // @synthesize itemsGeometry=_itemsGeometry;
-@property(nonatomic) _NSRange loadedItems; // @synthesize loadedItems=_loadedItems;
+@property(nonatomic) NSRange loadedItems; // @synthesize loadedItems=_loadedItems;
 @property(nonatomic) __weak id <PXGItemsLayoutDelegate> delegate; // @synthesize delegate=_delegate;
 // - (void).cxx_destruct;
-- (_NSRange)itemsToLoad;
+- (NSRange)itemsToLoad;
 - (long long)itemForObjectReference:(id)arg1;
 - (BOOL)delegateRespondsTo:(NSUInteger)arg1;
 - (void)endApplyingItemChanges;

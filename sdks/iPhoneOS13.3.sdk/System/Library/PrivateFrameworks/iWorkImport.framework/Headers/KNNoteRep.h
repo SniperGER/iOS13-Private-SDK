@@ -20,7 +20,7 @@ __attribute__((visibility("hidden")))
 
 @property(readonly, nonatomic) TSWPRep *containedRep; // @synthesize containedRep=_containedRep;
 // - (void).cxx_destruct;
-- (void)storage:(id)arg1 didChangeRange:(_NSRange)arg2 delta:(long long)arg3 broadcastKind:(NSUInteger)arg4;
+- (void)storage:(id)arg1 didChangeRange:(NSRange)arg2 delta:(long long)arg3 broadcastKind:(NSUInteger)arg4;
 - (void)willEndEditingContainedRep;
 - (void)willBeginEditingContainedRep;
 @property(readonly, nonatomic) NSObject<TSDContainerInfo> *containerInfo;

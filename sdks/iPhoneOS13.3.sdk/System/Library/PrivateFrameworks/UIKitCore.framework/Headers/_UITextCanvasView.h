@@ -28,10 +28,10 @@ __attribute__((visibility("hidden")))
 - (void)drawRect:(CGRect)arg1;
 - (void)drawTextInRect:(CGRect)arg1;
 - (void)setNeedsLayout;
-- (void)removeInvisibleRange:(_NSRange)arg1;
-- (void)addInvisibleRange:(_NSRange)arg1;
+- (void)removeInvisibleRange:(NSRange)arg1;
+- (void)addInvisibleRange:(NSRange)arg1;
 - (void)removeAllGhostedRanges;
-- (void)addGhostedRange:(_NSRange)arg1;
+- (void)addGhostedRange:(NSRange)arg1;
 - (id)_textTiledLayer:(id)arg1 maskedRectsInVisibleRect:(CGRect)arg2;
 @property(nonatomic, setter=_setDrawsDebugBaselines:) BOOL _drawsDebugBaselines;
 - (void)resumeTiling;

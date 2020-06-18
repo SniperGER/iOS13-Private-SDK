@@ -14,12 +14,12 @@
     NSString *_matchedSubstring;
     double _guessesRequired;
     NSDictionary *_userInfo;
-    _NSRange _range;
+    NSRange _range;
 }
 
 @property(readonly, copy, nonatomic) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 @property(readonly, nonatomic) double guessesRequired; // @synthesize guessesRequired=_guessesRequired;
-@property(readonly, nonatomic) _NSRange range; // @synthesize range=_range;
+@property(readonly, nonatomic) NSRange range; // @synthesize range=_range;
 @property(readonly, copy, nonatomic) NSString *matchedSubstring; // @synthesize matchedSubstring=_matchedSubstring;
 @property(readonly, nonatomic) NSUInteger type; // @synthesize type=_type;
 // - (void).cxx_destruct;
@@ -28,8 +28,8 @@
 - (NSUInteger)hash;
 - (BOOL)isEqual:(id)arg1;
 @property(readonly, nonatomic) NSUInteger endIndex;
-- (id)initExhaustiveSearchPatternWithMatchedSubstring:(id)arg1 range:(_NSRange)arg2;
-- (id)initWithType:(NSUInteger)arg1 matchedSubstring:(id)arg2 range:(_NSRange)arg3 guessesRequired:(double)arg4 userInfo:(id)arg5;
+- (id)initExhaustiveSearchPatternWithMatchedSubstring:(id)arg1 range:(NSRange)arg2;
+- (id)initWithType:(NSUInteger)arg1 matchedSubstring:(id)arg2 range:(NSRange)arg3 guessesRequired:(double)arg4 userInfo:(id)arg5;
 
 @end
 

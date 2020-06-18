@@ -43,7 +43,7 @@
 @property(nonatomic) __weak id <ICQBannerViewDelegate> delegate; // @synthesize delegate=_delegate;
 // - (void).cxx_destruct;
 - (void)textViewDidChangeSelection:(id)arg1;
-- (BOOL)textView:(id)arg1 shouldInteractWithURL:(id)arg2 inRange:(_NSRange)arg3;
+- (BOOL)textView:(id)arg1 shouldInteractWithURL:(id)arg2 inRange:(NSRange)arg3;
 - (void)upgradeFlowManagerDidComplete:(id)arg1;
 - (void)upgradeFlowManagerDidCancel:(id)arg1;
 - (long long)_delegateActionForAction:(long long)arg1;

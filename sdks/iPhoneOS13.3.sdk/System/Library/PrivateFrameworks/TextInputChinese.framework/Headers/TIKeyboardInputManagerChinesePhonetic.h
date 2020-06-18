@@ -33,7 +33,7 @@
     TIKeyboardCandidateResultSet *_mostRecentCandidateResultSetPendingDisplay;
 }
 
-+ (id)stringFallBackForTenKeyInput:(id)arg1 range:(_NSRange)arg2;
++ (id)stringFallBackForTenKeyInput:(id)arg1 range:(NSRange)arg2;
 + (id)directlyCommittedCharacterSetForEmptyInline;
 + (id)stringByRemovingSyllableSeparatorsFromString:(id)arg1;
 + (id)ambiguousDefaults;
@@ -70,7 +70,7 @@
 @property(readonly, nonatomic) NSString *convertedInput;
 @property(readonly, nonatomic) NSString *unconvertedInput;
 - (id)inputStringForSearch;
-- (_NSRange)analysisStringRange;
+- (NSRange)analysisStringRange;
 - (BOOL)updateCandidatesByWaitingForResults:(BOOL)arg1;
 - (BOOL)shouldLookForCompletionCandidates;
 - (void)clearDynamicDictionary;

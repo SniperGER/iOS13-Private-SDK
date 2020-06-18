@@ -7,7 +7,12 @@
 
 @class NTKCFaceDetailEditOptionCell;
 
+#ifndef NTKCFaceDetailEditOptionCellDelegate_Protocol
+#define NTKCFaceDetailEditOptionCellDelegate_Protocol
+
 @protocol NTKCFaceDetailEditOptionCellDelegate <NSObject>
 - (void)editOptionCell:(NTKCFaceDetailEditOptionCell *)arg1 didSelectOptionAtIndex:(long long)arg2;
 @end
+
+#endif
 

@@ -18,9 +18,9 @@ __attribute__((visibility("hidden")))
 @property(nonatomic) NSUInteger attributeArrayKind; // @synthesize attributeArrayKind=_attributeArrayKind;
 @property(retain, nonatomic) TSWPStorage *storage; // @synthesize storage=_storage;
 // - (void).cxx_destruct;
-- (void)performStylingInRange:(_NSRange)arg1 undoTransaction:(struct TSWPStorageTransaction )arg2;
-- (void)applyStyle:(id)arg1 range:(_NSRange)arg2 undoTransaction:(struct TSWPStorageTransaction )arg3;
-- (id)replacementStyleForStyle:(id)arg1 range:(_NSRange)arg2;
+- (void)performStylingInRange:(NSRange)arg1 undoTransaction:(struct TSWPStorageTransaction )arg2;
+- (void)applyStyle:(id)arg1 range:(NSRange)arg2 undoTransaction:(struct TSWPStorageTransaction )arg3;
+- (id)replacementStyleForStyle:(id)arg1 range:(NSRange)arg2;
 - (id)initWithStorage:(id)arg1 attributeArrayKind:(NSUInteger)arg2;
 
 @end

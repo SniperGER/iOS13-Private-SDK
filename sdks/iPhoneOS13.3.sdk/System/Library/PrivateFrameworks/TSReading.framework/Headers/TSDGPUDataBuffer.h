@@ -75,12 +75,12 @@
 - (float)GLfloatForAttribute:(id)arg1 atIndex:(NSUInteger)arg2;
 - (void)drawWithEncoder:(id)arg1 atIndex:(NSUInteger)arg2 advanceDynamicBuffer:(BOOL)arg3;
 - (void)drawWithEncoder:(id)arg1 atIndex:(NSUInteger)arg2;
-- (void)drawWithEncoder:(id)arg1 atIndex:(NSUInteger)arg2 range:(_NSRange)arg3 advanceDynamicBuffer:(BOOL)arg4;
-- (void)drawWithEncoder:(id)arg1 atIndex:(NSUInteger)arg2 range:(_NSRange)arg3;
+- (void)drawWithEncoder:(id)arg1 atIndex:(NSUInteger)arg2 range:(NSRange)arg3 advanceDynamicBuffer:(BOOL)arg4;
+- (void)drawWithEncoder:(id)arg1 atIndex:(NSUInteger)arg2 range:(NSRange)arg3;
 - (void)encodeWithEncoder:(id)arg1 atIndex:(NSUInteger)arg2;
 - (void)disableWithDevice:(id)arg1;
-- (void)drawWithShader:(id)arg1 range:(_NSRange)arg2 deactivateShaderWhenDone:(BOOL)arg3 advanceDynamicBuffer:(BOOL)arg4;
-- (void)drawWithShader:(id)arg1 range:(_NSRange)arg2 deactivateShaderWhenDone:(BOOL)arg3;
+- (void)drawWithShader:(id)arg1 range:(NSRange)arg2 deactivateShaderWhenDone:(BOOL)arg3 advanceDynamicBuffer:(BOOL)arg4;
+- (void)drawWithShader:(id)arg1 range:(NSRange)arg2 deactivateShaderWhenDone:(BOOL)arg3;
 - (void)drawWithShader:(id)arg1 deactivateShaderWhenDone:(BOOL)arg2 advanceDynamicBuffer:(BOOL)arg3;
 - (void)drawWithShader:(id)arg1 deactivateShaderWhenDone:(BOOL)arg2;
 - (void)drawWithShader:(id)arg1 advanceDynamicBuffer:(BOOL)arg2;

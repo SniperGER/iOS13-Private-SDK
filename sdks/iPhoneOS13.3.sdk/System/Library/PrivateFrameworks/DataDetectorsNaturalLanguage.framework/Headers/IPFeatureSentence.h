@@ -47,8 +47,8 @@
 @property(readonly, copy) NSString *eventVocabularyIgnoreDateKeyword;
 @property(readonly, copy) NSString *eventVocabularyRejectionKeyword;
 @property(readonly) NSUInteger polarity;
-- (NSUInteger)polarityForRange:(_NSRange)arg1 confidence:(double )arg2;
-- (NSUInteger)polarityForRange:(_NSRange)arg1;
+- (NSUInteger)polarityForRange:(NSRange)arg1 confidence:(double )arg2;
+- (NSUInteger)polarityForRange:(NSRange)arg1;
 @property(readonly) NSUInteger clusterType;
 - (void)addFragment:(id)arg1;
 - (id)description;

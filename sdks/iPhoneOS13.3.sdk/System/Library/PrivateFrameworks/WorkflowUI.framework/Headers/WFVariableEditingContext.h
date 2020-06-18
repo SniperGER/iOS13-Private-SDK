@@ -12,12 +12,12 @@
 {
     BOOL _editingVariable;
     WFVariable *_variable;
-    _NSRange _range;
+    NSRange _range;
 }
 
-+ (id)newWithVariable:(id)arg1 range:(_NSRange)arg2 editingVariable:(BOOL)arg3;
++ (id)newWithVariable:(id)arg1 range:(NSRange)arg2 editingVariable:(BOOL)arg3;
 @property(readonly, nonatomic) BOOL editingVariable; // @synthesize editingVariable=_editingVariable;
-@property(readonly, nonatomic) _NSRange range; // @synthesize range=_range;
+@property(readonly, nonatomic) NSRange range; // @synthesize range=_range;
 @property(readonly, nonatomic) WFVariable *variable; // @synthesize variable=_variable;
 // - (void).cxx_destruct;
 

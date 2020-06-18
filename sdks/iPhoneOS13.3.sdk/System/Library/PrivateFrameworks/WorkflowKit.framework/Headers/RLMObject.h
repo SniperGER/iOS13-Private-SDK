@@ -23,9 +23,9 @@
 + (id)objectForPrimaryKey:(id)arg1;
 + (id)objectsInRealm:(id)arg1 withPredicate:(id)arg2;
 + (id)objectsWithPredicate:(id)arg1;
-+ (id)objectsInRealm:(id)arg1 where:(id)arg2 args:(struct __va_list_tag [1])arg3;
+// + (id)objectsInRealm:(id)arg1 where:(id)arg2 args:(struct __va_list_tag [1])arg3;
 + (id)objectsInRealm:(id)arg1 where:(id)arg2;
-+ (id)objectsWhere:(id)arg1 args:(struct __va_list_tag [1])arg2;
+// + (id)objectsWhere:(id)arg1 args:(struct __va_list_tag [1])arg2;
 + (id)objectsWhere:(id)arg1;
 + (id)allObjectsInRealm:(id)arg1;
 + (id)allObjects;

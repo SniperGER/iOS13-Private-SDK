@@ -13,8 +13,8 @@
     unsigned int _flags;
     unsigned int _actionFlags[4];
     unsigned int _lastFlag;
-    _NSRange _srcLeadRange;
-    _NSRange _srcTrailRange;
+    NSRange _srcLeadRange;
+    NSRange _srcTrailRange;
     BOOL _mapDestTrailCS;
     TSWPStorage *_destStorage;
     NSUInteger _sourceColumnStyleCount;
@@ -30,11 +30,11 @@
     } _paragraphs[4];
 }
 
-- (void)didPasteWithIOTransaction:(struct TSWPStorageTransaction )arg1 atDestRange:(_NSRange)arg2;
-- (void)willPasteStorage:(id)arg1 intoDestStorage:(id)arg2 atDestRange:(_NSRange)arg3;
-- (void)setupFlagsForPastingSrcStorage:(id)arg1 intoDestStorage:(id)arg2 atDestRange:(_NSRange)arg3;
-- (void)mapCharacterStyles:(int)arg1 toRange:(_NSRange)arg2 ioTransaction:(struct TSWPStorageTransaction )arg3;
-- (void)mapCharacterStyleProperties:(id)arg1 toRange:(_NSRange)arg2 ioTransaction:(struct TSWPStorageTransaction )arg3;
+- (void)didPasteWithIOTransaction:(struct TSWPStorageTransaction )arg1 atDestRange:(NSRange)arg2;
+- (void)willPasteStorage:(id)arg1 intoDestStorage:(id)arg2 atDestRange:(NSRange)arg3;
+- (void)setupFlagsForPastingSrcStorage:(id)arg1 intoDestStorage:(id)arg2 atDestRange:(NSRange)arg3;
+- (void)mapCharacterStyles:(int)arg1 toRange:(NSRange)arg2 ioTransaction:(struct TSWPStorageTransaction )arg3;
+- (void)mapCharacterStyleProperties:(id)arg1 toRange:(NSRange)arg2 ioTransaction:(struct TSWPStorageTransaction )arg3;
 - (void)applyParagraph:(int)arg1 toCharIndex:(NSUInteger)arg2 ioTransaction:(struct TSWPStorageTransaction )arg3;
 - (void)addActionFlag:(int)arg1;
 - (void)dealloc;

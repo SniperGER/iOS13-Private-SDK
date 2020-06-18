@@ -63,7 +63,7 @@
 @property(readonly, nonatomic) long long numberOfRemainingItems;
 - (void)_prepareIfNeeded;
 - (CGRect)presentedRectForItemAtIndex:(long long)arg1;
-- (void)getGeometries:(struct _PXLayoutGeometry )arg1 inRange:(_NSRange)arg2 withKind:(long long)arg3;
+- (void)getGeometries:(struct _PXLayoutGeometry )arg1 inRange:(NSRange)arg2 withKind:(long long)arg3;
 @property(readonly, nonatomic) CGSize buildingBlockSize; // @synthesize buildingBlockSize=_buildingBlockSize;
 @property(readonly, nonatomic) CGSize minimumItemSize; // @synthesize minimumItemSize=_minimumItemSize;
 @property(readonly, nonatomic) CGSize minHeroItemsSize;

@@ -24,12 +24,12 @@
 @property(nonatomic) CGContext pdfContext; // @synthesize pdfContext=_pdfContext;
 @property(readonly, nonatomic) __weak id <HRElectrocardiogramReportDataSource> dataSource; // @synthesize dataSource=_dataSource;
 // - (void).cxx_destruct;
-- (BOOL)_didMultilineBulletFlowIntoSectionThree:(id)arg1 remainingRange:(_NSRange)arg2;
+- (BOOL)_didMultilineBulletFlowIntoSectionThree:(id)arg1 remainingRange:(NSRange)arg2;
 - (id)_bulletedDescriptionTextAttributes;
 - (void)_drawRect:(CGRect)arg1;
 - (void)_drawUIKitContentAtDocumentOrigin:(CGPoint)arg1 drawingBlock:(id /* CDUnknownBlockType */)arg2;
 - (void)_drawElectrocardiogramChartWithWaveformPathIndex:(long long)arg1 gridRect:(CGRect)arg2 axisRect:(CGRect)arg3 axisStartingIndex:(long long)arg4 displayControlSignal:(BOOL)arg5;
-- (_NSRange)_drawAttributedText:(id)arg1 inRect:(CGRect)arg2 distanceToFirstBaseline:(double)arg3 drawHeartGlyph:(BOOL)arg4 mustFitInRect:(BOOL)arg5;
+- (NSRange)_drawAttributedText:(id)arg1 inRect:(CGRect)arg2 distanceToFirstBaseline:(double)arg3 drawHeartGlyph:(BOOL)arg4 mustFitInRect:(BOOL)arg5;
 - (void)_drawAttributedText:(id)arg1 atOrigin:(CGPoint)arg2 leftAligned:(BOOL)arg3;
 - (void)_drawHorizontalSeparatorAt:(double)arg1;
 - (id)_informationalText;

@@ -7,6 +7,6 @@
 #import <Foundation/NSString.h>
 
 @interface NSString (SiriUIUtilities)
-- (id)siriUIAttributedStringWithSubscriptAtRange:(_NSRange)arg1 font:(id)arg2;
+- (id)siriUIAttributedStringWithSubscriptAtRange:(NSRange)arg1 font:(id)arg2;
 @end
 

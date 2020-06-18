@@ -13,10 +13,10 @@
     NSString *_titleFontName;
     double _titleFontSize;
     double _titleLineHeight;
-    _NSRange _titleNextToImageRange;
+    NSRange _titleNextToImageRange;
 }
 
-@property(nonatomic) _NSRange titleNextToImageRange; // @synthesize titleNextToImageRange=_titleNextToImageRange;
+@property(nonatomic) NSRange titleNextToImageRange; // @synthesize titleNextToImageRange=_titleNextToImageRange;
 - (void)setExcerptLineHeight:(double)arg1;
 - (double)excerptLineHeight;
 - (void)setExcerptFontSize:(double)arg1;

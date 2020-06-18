@@ -5,7 +5,12 @@
 //
 
 
+#ifndef NTKInstalledSystemApplicationsChangeObserver_Protocol
+#define NTKInstalledSystemApplicationsChangeObserver_Protocol
+
 @protocol NTKInstalledSystemApplicationsChangeObserver <NSObject>
 - (void)installedSystemApplicationsDidChange;
 @end
+
+#endif
 

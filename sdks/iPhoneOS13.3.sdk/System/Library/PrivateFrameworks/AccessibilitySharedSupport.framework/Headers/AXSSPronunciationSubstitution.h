@@ -20,13 +20,13 @@
     NSSet *_languages;
     NSSet *_voiceIds;
     NSSet *_bundleIdentifiers;
-    _NSRange _replacementRange;
+    NSRange _replacementRange;
 }
 
 @property(nonatomic) BOOL isUserSubstitution; // @synthesize isUserSubstitution=_isUserSubstitution;
 @property(copy, nonatomic) NSSet *bundleIdentifiers; // @synthesize bundleIdentifiers=_bundleIdentifiers;
 @property(nonatomic) BOOL appliesToAllApps; // @synthesize appliesToAllApps=_appliesToAllApps;
-@property(nonatomic) _NSRange replacementRange; // @synthesize replacementRange=_replacementRange;
+@property(nonatomic) NSRange replacementRange; // @synthesize replacementRange=_replacementRange;
 @property(nonatomic) BOOL ignoreCase; // @synthesize ignoreCase=_ignoreCase;
 @property(nonatomic) BOOL active; // @synthesize active=_active;
 @property(copy, nonatomic) NSSet *voiceIds; // @synthesize voiceIds=_voiceIds;

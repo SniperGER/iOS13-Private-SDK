@@ -9,6 +9,6 @@
 
 @protocol BRLTBrailleTranslationDelegateProtocol <NSObject>
 - (NSString *)textForPrintBraille:(NSString *)arg1 language:(NSString *)arg2 mode:(NSUInteger)arg3 locations:(id )arg4;
-- (NSString *)printBrailleForText:(NSString *)arg1 language:(NSString *)arg2 mode:(NSUInteger)arg3 textPositionsRange:(_NSRange)arg4 locations:(id )arg5;
+- (NSString *)printBrailleForText:(NSString *)arg1 language:(NSString *)arg2 mode:(NSUInteger)arg3 textPositionsRange:(NSRange)arg4 locations:(id )arg5;
 @end
 

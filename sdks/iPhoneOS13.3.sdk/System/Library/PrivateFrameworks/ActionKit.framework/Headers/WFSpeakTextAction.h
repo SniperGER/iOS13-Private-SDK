@@ -22,7 +22,7 @@
 - (void)cleanupSpeechSynthesizer;
 - (void)speechSynthesizer:(id)arg1 didCancelSpeechUtterance:(id)arg2;
 - (void)speechSynthesizer:(id)arg1 didFinishSpeechUtterance:(id)arg2;
-- (void)speechSynthesizer:(id)arg1 willSpeakRangeOfSpeechString:(_NSRange)arg2 utterance:(id)arg3;
+- (void)speechSynthesizer:(id)arg1 willSpeakRangeOfSpeechString:(NSRange)arg2 utterance:(id)arg3;
 - (void)speakTextUsingSynthesizer:(id)arg1 voice:(id)arg2 rate:(float)arg3 pitch:(float)arg4 waitUntilFinished:(BOOL)arg5;
 - (void)speakTextUsingVoiceOver:(id)arg1 languageCode:(id)arg2 pitch:(float)arg3 waitUntilFinished:(BOOL)arg4;
 - (void)initializeParameters;

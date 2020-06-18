@@ -24,12 +24,12 @@ __attribute__((visibility("hidden")))
 // - (id)copyWithZone:(_NSZone )arg1;
 - (long long)offsetForElementKind:(id)arg1;
 - (id)indexesForElementKind:(id)arg1;
-- (_NSRange)rangeForElementKind:(id)arg1;
+- (NSRange)rangeForElementKind:(id)arg1;
 - (void)incrementCountForElementKind:(id)arg1;
 - (void)incrementCountsFromOffsets:(id)arg1;
 - (void)addIndexes:(id)arg1 forElementKind:(id)arg2;
 - (void)setIndexes:(id)arg1 forElementKind:(id)arg2;
-- (void)setRange:(_NSRange)arg1 forElementKind:(id)arg2;
+- (void)setRange:(NSRange)arg1 forElementKind:(id)arg2;
 - (id)offsetsByRebasingOnOffsets:(id)arg1;
 - (id)offsetsByApplyingOffsets:(id)arg1;
 @property(readonly, nonatomic) NSSet *elementKinds;

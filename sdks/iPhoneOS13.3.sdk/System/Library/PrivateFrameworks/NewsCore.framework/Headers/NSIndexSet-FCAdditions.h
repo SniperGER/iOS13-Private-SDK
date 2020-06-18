@@ -7,10 +7,10 @@
 #import <Foundation/NSIndexSet.h>
 
 @interface NSIndexSet (FCAdditions)
-- (void)fc_enumerateGapsInRange:(_NSRange)arg1 usingBlock:(id /* CDUnknownBlockType */)arg2;
-- (id)fc_indexSetWithGapsInRange:(_NSRange)arg1;
+- (void)fc_enumerateGapsInRange:(NSRange)arg1 usingBlock:(id /* CDUnknownBlockType */)arg2;
+- (id)fc_indexSetWithGapsInRange:(NSRange)arg1;
 - (BOOL)fc_isContiguous;
-- (_NSRange)fc_enclosingRange;
+- (NSRange)fc_enclosingRange;
 - (NSUInteger)fc_countOfContiguousIndexesLessThanIndex:(NSUInteger)arg1;
 - (NSUInteger)fc_countOfContiguousIndexesGreaterThanOrEqualToIndex:(NSUInteger)arg1;
 @end

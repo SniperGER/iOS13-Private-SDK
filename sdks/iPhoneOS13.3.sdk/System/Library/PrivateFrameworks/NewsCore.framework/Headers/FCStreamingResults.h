@@ -31,10 +31,10 @@
 - (void)fetchObjectsUpToCount:(NSUInteger)arg1 qualityOfService:(long long)arg2;
 - (void)fetchObjectsUpToCount:(NSUInteger)arg1;
 - (id)array;
-- (id)objectsInRange:(_NSRange)arg1;
+- (id)objectsInRange:(NSRange)arg1;
 - (id)objectAtIndexedSubscript:(NSUInteger)arg1;
 - (id)objectAtIndex:(NSUInteger)arg1;
-@property(readonly, nonatomic) _NSRange range;
+@property(readonly, nonatomic) NSRange range;
 @property(readonly, nonatomic) NSUInteger count;
 @property(readonly, nonatomic, getter=isFinished) BOOL finished;
 - (id)initWithResults:(id)arg1 followedByStream:(id)arg2;

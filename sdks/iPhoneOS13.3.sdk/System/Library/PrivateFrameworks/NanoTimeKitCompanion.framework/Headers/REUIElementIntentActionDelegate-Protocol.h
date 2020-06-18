@@ -6,6 +6,11 @@
 
 #import <NanoTimeKitCompanion/REUIElementDonatedActionActionDelegate-Protocol.h>
 
+#ifndef REUIElementIntentActionDelegate_Protocol
+#define REUIElementIntentActionDelegate_Protocol
+
 @protocol REUIElementIntentActionDelegate <REUIElementDonatedActionActionDelegate>
 @end
+
+#endif
 

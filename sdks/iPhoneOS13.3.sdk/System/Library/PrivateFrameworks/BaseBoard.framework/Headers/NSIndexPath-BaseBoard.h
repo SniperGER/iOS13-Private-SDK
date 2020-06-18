@@ -13,6 +13,6 @@
 - (id)bs_indexPathByAddingPrefix:(id)arg1;
 - (id)bs_indexPathByRemovingFirstIndex;
 - (id)bs_subpathFromPosition:(NSUInteger)arg1;
-- (id)bs_subpathWithRange:(_NSRange)arg1;
+- (id)bs_subpathWithRange:(NSRange)arg1;
 @end
 

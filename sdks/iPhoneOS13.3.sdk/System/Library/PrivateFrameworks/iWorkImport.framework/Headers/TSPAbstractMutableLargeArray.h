@@ -51,7 +51,7 @@ __attribute__((visibility("hidden")))
 - (id)objectAtIndexedSubscript:(NSUInteger)arg1;
 - (id)lastObject;
 - (id)firstObject;
-- (void)removeObjectsInRange:(_NSRange)arg1;
+- (void)removeObjectsInRange:(NSRange)arg1;
 - (void)removeAllObjects;
 - (NSUInteger)countByEnumeratingWithState:(CDStruct_70511ce9 )arg1 objects:(id )arg2 count:(NSUInteger)arg3;
 - (void)replaceObjectAtIndex:(NSUInteger)arg1 withObject:(id)arg2;
@@ -63,12 +63,12 @@ __attribute__((visibility("hidden")))
 @property(readonly) NSUInteger count;
 - (id)segmentRanges;
 - (void)removeLastRange;
-- (void)addRange:(_NSRange)arg1;
-- (void)insertRange:(_NSRange)arg1 atSegmentIndex:(NSUInteger)arg2;
+- (void)addRange:(NSRange)arg1;
+- (void)insertRange:(NSRange)arg1 atSegmentIndex:(NSUInteger)arg2;
 - (void)removeRangeAtSegmentIndex:(NSUInteger)arg1;
-- (void)setRange:(_NSRange)arg1 forSegmentIndex:(NSUInteger)arg2;
-- (_NSRange)lastRange;
-- (_NSRange)rangeOfSegmentIndex:(NSUInteger)arg1;
+- (void)setRange:(NSRange)arg1 forSegmentIndex:(NSUInteger)arg2;
+- (NSRange)lastRange;
+- (NSRange)rangeOfSegmentIndex:(NSUInteger)arg1;
 - (NSUInteger)segmentIndexForElementIndex:(NSUInteger)arg1 segmentIndexGuess:(NSUInteger)arg2;
 - (NSUInteger)segmentIndexForElementIndex:(NSUInteger)arg1 firstSegmentIndex:(NSUInteger)arg2 lastSegmentIndex:(NSUInteger)arg3 segmentIndexGuess:(NSUInteger)arg4;
 @property(readonly, nonatomic) NSUInteger segmentCount;

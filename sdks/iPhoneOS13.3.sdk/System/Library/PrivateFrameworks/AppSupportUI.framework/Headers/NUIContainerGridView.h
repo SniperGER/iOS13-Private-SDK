@@ -15,7 +15,7 @@
     NSMutableArray *_viewRows;
     struct _NUIGridArrangement _arrangement;
     CDStruct_0d6b4eb6 _visibleCount;
-    struct map<UIView *, const std::__1::pair<_NSRange, _NSRange>, std::__1::less<UIView *>, std::__1::allocator<std::__1::pair<UIView *const, const std::__1::pair<_NSRange, _NSRange>>>> _viewRanges;
+    struct map<UIView *, const std::__1::pair<NSRange, NSRange>, std::__1::less<UIView *>, std::__1::allocator<std::__1::pair<UIView *const, const std::__1::pair<NSRange, NSRange>>>> _viewRanges;
     CGSize _spacing;
     NSMutableArray *_rows;
     NSMutableArray *_columns;
@@ -77,7 +77,7 @@
 - (id)rowAtIndex:(long long)arg1;
 - (long long)columnIndexForArrangedSubview:(id)arg1;
 - (long long)rowIndexForArrangedSubview:(id)arg1;
-- (void)getColumnRange:(_NSRange )arg1 rowRange:(_NSRange )arg2 forArrangedSubview:(id)arg3;
+- (void)getColumnRange:(NSRange )arg1 rowRange:(NSRange )arg2 forArrangedSubview:(id)arg3;
 - (id)arrangedSubviewInColumnAtIndex:(long long)arg1 rowAtIndex:(long long)arg2;
 @property(readonly, nonatomic) long long numberOfColumns;
 @property(readonly, nonatomic) long long numberOfRows;

@@ -13,18 +13,18 @@
     BOOL _requestedRangeIsAvailable;
     BOOL _cancelled;
     NSObject<OS_dispatch_semaphore> *_semaphore;
-    _NSRange _requestedRange;
+    NSRange _requestedRange;
 }
 
-+ (id)waitingCallerWithRequestedRange:(_NSRange)arg1;
++ (id)waitingCallerWithRequestedRange:(NSRange)arg1;
 @property BOOL cancelled; // @synthesize cancelled=_cancelled;
 @property BOOL requestedRangeIsAvailable; // @synthesize requestedRangeIsAvailable=_requestedRangeIsAvailable;
-@property _NSRange requestedRange; // @synthesize requestedRange=_requestedRange;
+@property NSRange requestedRange; // @synthesize requestedRange=_requestedRange;
 @property(retain) NSObject<OS_dispatch_semaphore> *semaphore; // @synthesize semaphore=_semaphore;
 // - (void).cxx_destruct;
 - (void)resume;
 - (void)waitWithTimeout:(NSUInteger)arg1;
-- (BOOL)canResumeForRange:(_NSRange)arg1;
+- (BOOL)canResumeForRange:(NSRange)arg1;
 - (id)init;
 
 @end

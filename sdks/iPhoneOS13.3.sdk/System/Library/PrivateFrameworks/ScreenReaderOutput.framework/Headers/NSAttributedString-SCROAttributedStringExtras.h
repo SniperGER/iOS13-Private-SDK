@@ -9,7 +9,7 @@
 @interface NSAttributedString (SCROAttributedStringExtras)
 - (id)scrAttributedStringByTrimmingTrailingNewlines;
 - (id)deepCopyWithZone:(_NSZone )arg1;
-- (BOOL)getRange:(_NSRange )arg1 ofAttribute:(id)arg2 withValue:(id)arg3;
-- (BOOL)getRange:(_NSRange )arg1 ofAttribute:(id)arg2;
+- (BOOL)getRange:(NSRange )arg1 ofAttribute:(id)arg2 withValue:(id)arg3;
+- (BOOL)getRange:(NSRange )arg1 ofAttribute:(id)arg2;
 @end
 

@@ -14,7 +14,7 @@
 __attribute__((visibility("hidden")))
 @interface _UITextDataDetectedLinkInteractionHandler : NSObject <_UITextItemInteractionHandler>
 {
-    _NSRange _range;
+    NSRange _range;
     CGRect _rect;
     UIView<_UITextContent> *_view;
     UIAction *_defaultAction;
@@ -27,7 +27,7 @@ __attribute__((visibility("hidden")))
 - (id)_defaultDDAction;
 - (id)_defaultAction;
 - (id)defaultAction;
-- (id)initWithRange:(_NSRange)arg1 rect:(CGRect)arg2 inTextContentView:(id)arg3;
+- (id)initWithRange:(NSRange)arg1 rect:(CGRect)arg2 inTextContentView:(id)arg3;
 
 @end
 

@@ -18,7 +18,7 @@
 @property(retain) NSArray *backends; // @synthesize backends=_backends;
 // - (void).cxx_destruct;
 - (void)flushWithCompletionHandler:(id /* CDUnknownBlockType */)arg1;
-- (void)logFromCodeLocation:(CDStruct_98c8119d)arg1 facility:(id)arg2 subsystem:(id)arg3 level:(int)arg4 message:(id)arg5 format:(id)arg6 args:(struct __va_list_tag [1])arg7;
+// - (void)logFromCodeLocation:(CDStruct_98c8119d)arg1 facility:(id)arg2 subsystem:(id)arg3 level:(int)arg4 message:(id)arg5 format:(id)arg6 args:(struct __va_list_tag [1])arg7;
 - (BOOL)allowsConcurrentAccess;
 - (id)initWithBackends:(id)arg1;
 

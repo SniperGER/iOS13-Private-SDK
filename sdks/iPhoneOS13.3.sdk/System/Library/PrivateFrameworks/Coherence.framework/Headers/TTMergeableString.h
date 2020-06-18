@@ -78,8 +78,8 @@
 - (void)getCharacterRanges:(vector_7053a16b )arg1 forSubstrings:(vector_c5c053b6 )arg2;
 - (void)getSubstrings:(vector_c5c053b6 )arg1 forTopoIDRange:(struct TopoIDRange)arg2;
 - (struct TopoSubstring )getSubstringBeforeTopoID:(struct TopoID)arg1;
-- (void)getSubstrings:(vector_c5c053b6 )arg1 inOrderedSubstrings:(vector_c5c053b6 )arg2 forCharacterRange:(_NSRange)arg3;
-- (void)getSubstrings:(vector_c5c053b6 )arg1 forCharacterRange:(_NSRange)arg2;
+- (void)getSubstrings:(vector_c5c053b6 )arg1 inOrderedSubstrings:(vector_c5c053b6 )arg2 forCharacterRange:(NSRange)arg3;
+- (void)getSubstrings:(vector_c5c053b6 )arg1 forCharacterRange:(NSRange)arg2;
 - (void)insertStorage:(id)arg1 after:(struct TopoSubstring )arg2 before:(struct TopoSubstring )arg3;
 - (void)deleteSubstrings:(vector_c5c053b6 )arg1 withCharacterRanges:(vector_7053a16b )arg2;
 - (void)addNewAddedByFor:(struct TopoSubstring )arg1;
@@ -94,8 +94,8 @@
 - (void)endEditing;
 - (void)beginEditing;
 - (void)insertStorage:(id)arg1 atIndex:(NSUInteger)arg2;
-- (void)removeObjectsInRange:(_NSRange)arg1;
-- (void)replaceStorageInRange:(_NSRange)arg1 withStorage:(id)arg2;
+- (void)removeObjectsInRange:(NSRange)arg1;
+- (void)replaceStorageInRange:(NSRange)arg1 withStorage:(id)arg2;
 - (NSUInteger)length;
 - (id)copyRenamedIfAvailable:(BOOL)arg1;
 // - (id)copyWithZone:(_NSZone )arg1;

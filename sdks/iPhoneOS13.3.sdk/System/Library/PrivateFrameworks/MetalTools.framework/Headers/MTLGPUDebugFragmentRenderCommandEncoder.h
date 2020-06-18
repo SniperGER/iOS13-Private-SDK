@@ -23,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (void)drawTrianglesWithPositions:(const float )arg1 vertexCount:(NSUInteger)arg2 vertexVaryings:(const float )arg3 varyingCountPerVertex:(NSUInteger)arg4;
 - (void)drawTrianglesWithPositions:(const float )arg1 vertexCount:(NSUInteger)arg2 triangleIndices:(const char )arg3 triangleCount:(NSUInteger)arg4;
 - (void)setFragmentBytes:(const void )arg1 length:(NSUInteger)arg2 atIndex:(NSUInteger)arg3;
-- (void)setFragmentBuffers:(const id )arg1 offsets:(const NSUInteger )arg2 withRange:(_NSRange)arg3;
+- (void)setFragmentBuffers:(const id )arg1 offsets:(const NSUInteger )arg2 withRange:(NSRange)arg3;
 - (void)setFragmentBufferOffset:(NSUInteger)arg1 atIndex:(NSUInteger)arg2;
 - (void)setFragmentBuffer:(id)arg1 offset:(NSUInteger)arg2 atIndex:(NSUInteger)arg3;
 - (void)onDraw;

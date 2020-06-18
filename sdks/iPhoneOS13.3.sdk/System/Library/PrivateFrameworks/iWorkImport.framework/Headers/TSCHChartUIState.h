@@ -32,9 +32,9 @@ __attribute__((visibility("hidden")))
 - (id)description;
 - (NSUInteger)hash;
 - (BOOL)isEqual:(id)arg1;
-- (id)initWithRowRange:(_NSRange)arg1 colRange:(_NSRange)arg2 useFullKeyboard:(BOOL)arg3 multiDataSetIndex:(NSUInteger)arg4 validIndex:(BOOL)arg5;
-- (id)initWithRowRange:(_NSRange)arg1 colRange:(_NSRange)arg2 useFullKeyboard:(BOOL)arg3 multiDataSetIndex:(NSUInteger)arg4;
-- (id)initWithRowRange:(_NSRange)arg1 colRange:(_NSRange)arg2 useFullKeyboard:(BOOL)arg3;
+- (id)initWithRowRange:(NSRange)arg1 colRange:(NSRange)arg2 useFullKeyboard:(BOOL)arg3 multiDataSetIndex:(NSUInteger)arg4 validIndex:(BOOL)arg5;
+- (id)initWithRowRange:(NSRange)arg1 colRange:(NSRange)arg2 useFullKeyboard:(BOOL)arg3 multiDataSetIndex:(NSUInteger)arg4;
+- (id)initWithRowRange:(NSRange)arg1 colRange:(NSRange)arg2 useFullKeyboard:(BOOL)arg3;
 - (id)init;
 
 @end

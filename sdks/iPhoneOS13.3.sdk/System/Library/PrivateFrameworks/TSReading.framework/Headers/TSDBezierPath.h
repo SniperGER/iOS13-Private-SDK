@@ -158,7 +158,7 @@
 - (void)dealloc;
 - (id)init;
 - (id)chisel;
-- (void)recursiveSubdivideOntoPath:(id)arg1 withScaling:(CDStruct_c3b9c2ee)arg2 inElementRange:(_NSRange)arg3 into:(id)arg4;
+- (void)recursiveSubdivideOntoPath:(id)arg1 withScaling:(CDStruct_c3b9c2ee)arg2 inElementRange:(NSRange)arg3 into:(id)arg4;
 - (void)recursiveSubdivideOntoPath:(id)arg1 withScaling:(CDStruct_c3b9c2ee)arg2 into:(id)arg3;
 - (void)recursiveSubdivideOntoPath:(id)arg1 into:(id)arg2;
 - (double)curvatureAt:(double)arg1 fromElement:(int)arg2;

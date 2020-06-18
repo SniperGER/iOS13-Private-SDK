@@ -7,7 +7,12 @@
 
 @class NTKCFaceDetailComplicationPickerCell, NTKComplication;
 
+#ifndef NTKCFaceDetailComplicationPickerCellDelegate_Protocol
+#define NTKCFaceDetailComplicationPickerCellDelegate_Protocol
+
 @protocol NTKCFaceDetailComplicationPickerCellDelegate <NSObject>
 - (void)complicationPickerCell:(NTKCFaceDetailComplicationPickerCell *)arg1 didSelectComplication:(NTKComplication *)arg2;
 @end
+
+#endif
 

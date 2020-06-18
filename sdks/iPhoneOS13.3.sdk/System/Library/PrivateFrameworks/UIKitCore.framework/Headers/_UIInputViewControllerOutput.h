@@ -26,7 +26,7 @@ __attribute__((visibility("hidden")))
     NSString *_markedText;
     long long _inputModeListTouchPhase;
     double _inputModeListTouchBegan;
-    _NSRange _selectedRange;
+    NSRange _selectedRange;
     CGPoint _inputModeListFromLocation;
     CGPoint _inputModeListUpdatePoint;
 }
@@ -40,7 +40,7 @@ __attribute__((visibility("hidden")))
 @property(nonatomic) double inputModeListTouchBegan; // @synthesize inputModeListTouchBegan=_inputModeListTouchBegan;
 @property(nonatomic) long long inputModeListTouchPhase; // @synthesize inputModeListTouchPhase=_inputModeListTouchPhase;
 @property(nonatomic) BOOL unmarkText; // @synthesize unmarkText=_unmarkText;
-@property(nonatomic) _NSRange selectedRange; // @synthesize selectedRange=_selectedRange;
+@property(nonatomic) NSRange selectedRange; // @synthesize selectedRange=_selectedRange;
 @property(copy, nonatomic) NSString *markedText; // @synthesize markedText=_markedText;
 @property(nonatomic) BOOL setMarkedText; // @synthesize setMarkedText=_setMarkedText;
 @property(nonatomic) BOOL hasDictation; // @synthesize hasDictation=_hasDictation;

@@ -16,7 +16,7 @@
     NSUInteger _type;
 }
 
-+ (id)featureKeywordWithType:(NSUInteger)arg1 string:(id)arg2 matchRange:(_NSRange)arg3;
++ (id)featureKeywordWithType:(NSUInteger)arg1 string:(id)arg2 matchRange:(NSRange)arg3;
 @property NSUInteger type; // @synthesize type=_type;
 @property(retain, nonatomic) NSArray *eventTypes; // @synthesize eventTypes=_eventTypes;
 @property(retain) NSString *keywordString; // @synthesize keywordString=_keywordString;

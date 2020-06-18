@@ -44,7 +44,7 @@
 - (id)deterministicallyOrderedFaceIdentifiersWithLocalIdentifiers:(id)arg1 faceprintVersion:(unsigned int)arg2;
 - (id)facesForClusteringWithLocalIdentifiers:(id)arg1 faceprintVersion:(unsigned int)arg2 excludeClustered:(BOOL)arg3 groupingIdentifiers:(id)arg4;
 - (id)unclusteredClusteringEligibleFaceLocalIdentifiers:(id )arg1;
-- (NSUInteger)countOfClusteredFacesWithClusterSequenceNumbersInRange:(_NSRange)arg1;
+- (NSUInteger)countOfClusteredFacesWithClusterSequenceNumbersInRange:(NSRange)arg1;
 - (NSUInteger)countOfClusteredFaces;
 - (NSUInteger)countOfClusteringEligibleFaces;
 - (NSUInteger)countOfFaces;

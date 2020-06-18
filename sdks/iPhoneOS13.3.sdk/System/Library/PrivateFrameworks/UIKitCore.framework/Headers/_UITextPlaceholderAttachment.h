@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
 @interface _UITextPlaceholderAttachment : NSTextAttachment
 {
     NSDictionary *_typingAttributesBeforeInsertion;
-    _NSRange _attachmentRange;
+    NSRange _attachmentRange;
 }
 
 @property(copy, nonatomic) NSDictionary *typingAttributesBeforeInsertion; // @synthesize typingAttributesBeforeInsertion=_typingAttributesBeforeInsertion;
-@property(nonatomic) _NSRange attachmentRange; // @synthesize attachmentRange=_attachmentRange;
+@property(nonatomic) NSRange attachmentRange; // @synthesize attachmentRange=_attachmentRange;
 // - (void).cxx_destruct;
 - (id)imageForBounds:(CGRect)arg1 textContainer:(id)arg2 characterIndex:(NSUInteger)arg3;
 

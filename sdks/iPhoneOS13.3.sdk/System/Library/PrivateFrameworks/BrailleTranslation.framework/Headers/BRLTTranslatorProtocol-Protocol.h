@@ -9,7 +9,7 @@
 
 @protocol BRLTTranslatorProtocol <NSObject>
 - (NSString *)textForPrintBraille:(NSString *)arg1 mode:(NSUInteger)arg2 locations:(id )arg3;
-- (NSString *)printBrailleForText:(NSString *)arg1 mode:(NSUInteger)arg2 locations:(id )arg3 textPositionsRange:(_NSRange)arg4;
+- (NSString *)printBrailleForText:(NSString *)arg1 mode:(NSUInteger)arg2 locations:(id )arg3 textPositionsRange:(NSRange)arg4;
 - (BOOL)activeTableSupportsIPA;
 - (BOOL)activeTableSupportsTechnicalBraille;
 - (BOOL)activeTableSupportsEightDotBraille;

@@ -12,16 +12,16 @@
 
 @interface TSWPTrackedDeletion : NSObject <TSWPReplaceAction>
 {
-    _NSRange _range;
+    NSRange _range;
     TSWPChangeSession *_changeSession;
 }
 
-- (_NSRange)insertedRange;
+- (NSRange)insertedRange;
 - (long long)delta;
 - (NSUInteger)targetCharIndex;
 - (void)performWithStorage:(id)arg1 delta:(long long)arg2 undoTransaction:(struct TSWPStorageTransaction )arg3 replaceBlock:(id /* CDUnknownBlockType */)arg4;
 - (void)dealloc;
-- (id)initWithRange:(_NSRange)arg1 changeSession:(id)arg2;
+- (id)initWithRange:(NSRange)arg1 changeSession:(id)arg2;
 
 @end
 

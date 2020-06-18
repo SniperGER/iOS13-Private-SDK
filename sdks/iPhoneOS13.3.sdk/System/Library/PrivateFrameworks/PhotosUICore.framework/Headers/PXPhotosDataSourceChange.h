@@ -35,7 +35,7 @@
 // - (void).cxx_destruct;
 - (id)indexPathAfterRevertingIncrementalChangeDetailsFromIndexPath:(id)arg1;
 - (id)indexPathAfterApplyingIncrementalChangesToIndexPath:(id)arg1;
-- (BOOL)affectsSectionsInRange:(_NSRange)arg1;
+- (BOOL)affectsSectionsInRange:(NSRange)arg1;
 - (BOOL)_shouldPerformFullReloadForCollectionListChangeNotifications:(id)arg1 collectionChangeNotifications:(id)arg2;
 - (void)_prepareIncrementalDetails;
 - (void)prepareIfNeeded;

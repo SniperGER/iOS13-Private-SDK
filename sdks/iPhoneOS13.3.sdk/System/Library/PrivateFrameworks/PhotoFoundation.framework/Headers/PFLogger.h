@@ -26,7 +26,7 @@
 
 + (BOOL)traceEnabledForSubsystem:(id)arg1;
 + (void)logCrashReporterMessageFromCodeLocation:(CDStruct_98c8119d)arg1 format:(id)arg2;
-+ (void)logFromCodeLocation:(CDStruct_98c8119d)arg1 subsystem:(id)arg2 level:(int)arg3 format:(id)arg4 arguments:(struct __va_list_tag [1])arg5;
+// + (void)logFromCodeLocation:(CDStruct_98c8119d)arg1 subsystem:(id)arg2 level:(int)arg3 format:(id)arg4 arguments:(struct __va_list_tag [1])arg5;
 + (void)logFromCodeLocation:(CDStruct_98c8119d)arg1 subsystem:(id)arg2 level:(int)arg3 format:(id)arg4;
 + (void)setupCrashReporter;
 + (void)logCrashReporterMessage:(id)arg1 fromCodeLocation:(CDStruct_98c8119d)arg2;
@@ -56,7 +56,7 @@
 - (id)description;
 - (void)flush;
 - (BOOL)enabledForSubsystem:(id)arg1 subsystems:(id)arg2;
-- (void)logFromCodeLocation:(CDStruct_98c8119d)arg1 subsystem:(id)arg2 level:(int)arg3 format:(id)arg4 arguments:(struct __va_list_tag [1])arg5;
+// - (void)logFromCodeLocation:(CDStruct_98c8119d)arg1 subsystem:(id)arg2 level:(int)arg3 format:(id)arg4 arguments:(struct __va_list_tag [1])arg5;
 - (void)logFromCodeLocation:(CDStruct_98c8119d)arg1 subsystem:(id)arg2 level:(int)arg3 format:(id)arg4;
 - (void)processOptions;
 - (id)initWithBackend:(id)arg1 logLevel:(int)arg2 options:(id)arg3;

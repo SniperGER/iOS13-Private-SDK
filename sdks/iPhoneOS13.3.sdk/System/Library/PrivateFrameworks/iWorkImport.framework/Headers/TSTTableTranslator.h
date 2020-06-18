@@ -138,8 +138,8 @@ __attribute__((visibility("hidden")))
 - (int)removeCommentStorageAtCellUID:(const struct TSTCellUID )arg1;
 - (int)setCommentStorage:(id)arg1 atCellUID:(const struct TSTCellUID )arg2;
 - (void)swapRowAtIndex:(struct TSUViewRowIndex)arg1 withRowAtIndex:(struct TSUViewRowIndex)arg2;
-- (void)moveColumnRange:(_NSRange)arg1 toColumnIndex:(struct TSUViewColumnIndex)arg2;
-- (void)moveRowRange:(_NSRange)arg1 toRowIndex:(struct TSUViewRowIndex)arg2;
+- (void)moveColumnRange:(NSRange)arg1 toColumnIndex:(struct TSUViewColumnIndex)arg2;
+- (void)moveRowRange:(NSRange)arg1 toRowIndex:(struct TSUViewRowIndex)arg2;
 - (void)removeAnnotationsFromColumnsAtIndexes:(id)arg1;
 - (void)removeAnnotationsFromRowsAtIndexes:(id)arg1;
 - (void)removeColumnsAtIndexes:(id)arg1;

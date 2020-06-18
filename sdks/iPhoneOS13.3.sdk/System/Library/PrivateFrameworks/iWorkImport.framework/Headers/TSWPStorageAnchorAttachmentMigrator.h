@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
 @property(retain, nonatomic) NSMutableArray *charIndexPlacementIndexArray; // @synthesize charIndexPlacementIndexArray=_charIndexPlacementIndexArray;
 // - (void).cxx_destruct;
 - (id)commandsForDidInsertIntoDestinationWPStorage:(id)arg1 insertionLocation:(NSUInteger)arg2 dolcContext:(id)arg3;
-- (id)didCopyFromSourceWPStorage:(id)arg1 toTemporaryStorage:(id)arg2 copiedRange:(_NSRange)arg3;
+- (id)didCopyFromSourceWPStorage:(id)arg1 toTemporaryStorage:(id)arg2 copiedRange:(NSRange)arg3;
 
 @end
 

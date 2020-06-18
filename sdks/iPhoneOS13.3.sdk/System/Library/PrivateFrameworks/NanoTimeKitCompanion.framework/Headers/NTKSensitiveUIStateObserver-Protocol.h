@@ -5,7 +5,12 @@
 //
 
 
+#ifndef NTKSensitiveUIStateObserver_Protocol
+#define NTKSensitiveUIStateObserver_Protocol
+
 @protocol NTKSensitiveUIStateObserver <NSObject>
 - (void)sensitiveUIStateChanged;
 @end
+
+#endif
 

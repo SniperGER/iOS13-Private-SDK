@@ -15,18 +15,18 @@
     int _state;
     IKJSDataSource *_dataSource;
     id /* CDUnknownBlockType */ _completion;
-    _NSRange _range;
+    NSRange _range;
 }
 
 @property(copy, nonatomic) id /* CDUnknownBlockType */ completion; // @synthesize completion=_completion;
-@property(readonly, nonatomic) _NSRange range; // @synthesize range=_range;
+@property(readonly, nonatomic) NSRange range; // @synthesize range=_range;
 // - (void).cxx_destruct;
 - (void)close:(BOOL)arg1;
 @property(readonly, nonatomic) BOOL isClosed;
 - (void)cancel;
 @property(readonly, nonatomic) __weak JSValue *dataSource;
 - (void)dealloc;
-- (id)initWithDataSource:(id)arg1 range:(_NSRange)arg2;
+- (id)initWithDataSource:(id)arg1 range:(NSRange)arg2;
 
 @end
 

@@ -23,10 +23,10 @@
 + (id)predicateForContactsMatchingMultivalueProperty:(int)arg1 values:(id)arg2 groupIdentifiers:(id)arg3 containerIdentifiers:(id)arg4 limitToOneResult:(BOOL)arg5 map:(id)arg6;
 + (id)predicateForContactsMatchingPhoneNumbers:(id)arg1 containerIdentifiers:(id)arg2 map:(id)arg3;
 + (id)predicateForContactsMatchingPhoneNumber:(id)arg1 country:(id)arg2 homeCountryCode:(id)arg3 prefixHint:(id)arg4 groupIdentifiers:(id)arg5 limitToOneResult:(BOOL)arg6;
-+ (id)predicateForContactsInRange:(_NSRange)arg1 allowedStoreIdentifiers:(id)arg2 sortOrder:(int)arg3;
++ (id)predicateForContactsInRange:(NSRange)arg1 allowedStoreIdentifiers:(id)arg2 sortOrder:(int)arg3;
 + (id)_sqlValuesTableOfLength:(NSUInteger)arg1 columnCount:(NSUInteger)arg2;
 + (id)_sqlListOfLength:(NSUInteger)arg1;
-+ (id)predicateForContactsInRange:(_NSRange)arg1 sortOrder:(int)arg2;
++ (id)predicateForContactsInRange:(NSRange)arg1 sortOrder:(int)arg2;
 + (id)predicateForContactsMatchingOrganizationName:(id)arg1;
 + (id)predicateForSingleContactMatchingMultivalueProperty:(int)arg1 value:(id)arg2;
 + (id)predicateForContactsMatchingMultivalueProperty:(int)arg1 value:(id)arg2;

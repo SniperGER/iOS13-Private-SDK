@@ -16,8 +16,8 @@ __attribute__((visibility("hidden")))
 @property(nonatomic) NSUInteger activeTokenCharIndex; // @synthesize activeTokenCharIndex=mActiveTokenCharIndex;
 - (long long)compare:(id)arg1;
 - (BOOL)isEqual:(id)arg1;
-- (id)initWithType:(int)arg1 range:(_NSRange)arg2 styleInsertionBehavior:(int)arg3 caretAffinity:(int)arg4 smartFieldRange:(_NSRange)arg5 leadingEdge:(BOOL)arg6 leadingCharIndex:(NSUInteger)arg7 activeTokenCharIndex:(NSUInteger)arg8;
-- (id)initWithType:(int)arg1 range:(_NSRange)arg2 styleInsertionBehavior:(int)arg3 caretAffinity:(int)arg4 smartFieldRange:(_NSRange)arg5 leadingEdge:(BOOL)arg6 leadingCharIndex:(NSUInteger)arg7;
+- (id)initWithType:(int)arg1 range:(NSRange)arg2 styleInsertionBehavior:(int)arg3 caretAffinity:(int)arg4 smartFieldRange:(NSRange)arg5 leadingEdge:(BOOL)arg6 leadingCharIndex:(NSUInteger)arg7 activeTokenCharIndex:(NSUInteger)arg8;
+- (id)initWithType:(int)arg1 range:(NSRange)arg2 styleInsertionBehavior:(int)arg3 caretAffinity:(int)arg4 smartFieldRange:(NSRange)arg5 leadingEdge:(BOOL)arg6 leadingCharIndex:(NSUInteger)arg7;
 
 @end
 

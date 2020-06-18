@@ -17,7 +17,7 @@
     NTKBigNumeralsTimeComponentLabel *_topLabel;
     NTKBigNumeralsTimeComponentLabel *_bottomLabel;
     NSDate *_overrideDate;
-    NSNumber _timerToken;
+    NSNumber *_timerToken;
     BOOL _frozen;
     BOOL _showingStatus;
     NSUInteger _style;

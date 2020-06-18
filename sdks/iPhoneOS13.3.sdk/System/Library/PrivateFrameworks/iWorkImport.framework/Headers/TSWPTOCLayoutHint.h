@@ -11,11 +11,11 @@
 __attribute__((visibility("hidden")))
 @interface TSWPTOCLayoutHint : NSObject <TSDHint>
 {
-    _NSRange _charRange;
+    NSRange _charRange;
 }
 
 + (Class)archivedHintClass;
-@property(readonly, nonatomic) _NSRange charRange; // @synthesize charRange=_charRange;
+@property(readonly, nonatomic) NSRange charRange; // @synthesize charRange=_charRange;
 - (void)saveToArchive:(struct TOCLayoutHintArchive )arg1 archiver:(id)arg2;
 - (id)initWithArchive:(const struct TOCLayoutHintArchive )arg1 unarchiver:(id)arg2;
 - (BOOL)isFirstHint;
@@ -25,7 +25,7 @@ __attribute__((visibility("hidden")))
 - (BOOL)overlapsWithSelectionPath:(id)arg1;
 - (id)copyForArchiving;
 - (id)init;
-- (id)initWithRange:(_NSRange)arg1;
+- (id)initWithRange:(NSRange)arg1;
 
 @end
 

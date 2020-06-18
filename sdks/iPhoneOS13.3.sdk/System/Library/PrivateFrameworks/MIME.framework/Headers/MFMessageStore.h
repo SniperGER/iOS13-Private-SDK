@@ -39,9 +39,9 @@
 - (id)bestAlternativeForPart:(id)arg1;
 - (id)defaultAlternativeForPart:(id)arg1;
 - (id)decryptedTopLevelPartForPart:(id)arg1;
-- (BOOL)dataForMimePart:(id)arg1 inRange:(_NSRange)arg2 withConsumer:(id)arg3 downloadIfNecessary:(BOOL)arg4;
-- (BOOL)dataForMimePart:(id)arg1 inRange:(_NSRange)arg2 isComplete:(BOOL )arg3 withConsumer:(id)arg4 downloadIfNecessary:(BOOL)arg5 didDownload:(BOOL )arg6;
-- (id)dataForMimePart:(id)arg1 inRange:(_NSRange)arg2 isComplete:(BOOL )arg3 downloadIfNecessary:(BOOL)arg4 didDownload:(BOOL )arg5;
+- (BOOL)dataForMimePart:(id)arg1 inRange:(NSRange)arg2 withConsumer:(id)arg3 downloadIfNecessary:(BOOL)arg4;
+- (BOOL)dataForMimePart:(id)arg1 inRange:(NSRange)arg2 isComplete:(BOOL )arg3 withConsumer:(id)arg4 downloadIfNecessary:(BOOL)arg5 didDownload:(BOOL )arg6;
+- (id)dataForMimePart:(id)arg1 inRange:(NSRange)arg2 isComplete:(BOOL )arg3 downloadIfNecessary:(BOOL)arg4 didDownload:(BOOL )arg5;
 - (id)uniquedString:(id)arg1;
 - (id)fullBodyDataForMessage:(id)arg1 andHeaderDataIfReadilyAvailable:(id )arg2 isComplete:(BOOL )arg3 downloadIfNecessary:(BOOL)arg4 didDownload:(BOOL )arg5;
 - (id)bodyForMessage:(id)arg1 fetchIfNotAvailable:(BOOL)arg2 updateFlags:(BOOL)arg3;

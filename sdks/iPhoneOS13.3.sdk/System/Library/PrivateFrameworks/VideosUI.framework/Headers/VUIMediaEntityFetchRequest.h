@@ -19,7 +19,7 @@
     id /* CDUnknownBlockType */ _groupingSortComparator;
     NSDictionary *_options;
     NSString *_identifier;
-    _NSRange _range;
+    NSRange _range;
 }
 
 + (id)_finalizedSortDescriptorFromSortDescriptor:(id)arg1 mediaEntityKind:(id)arg2;
@@ -66,7 +66,7 @@
 @property(copy, nonatomic) NSDictionary *options; // @synthesize options=_options;
 @property(copy, nonatomic) id /* CDUnknownBlockType */ groupingSortComparator; // @synthesize groupingSortComparator=_groupingSortComparator;
 @property(copy, nonatomic) NSString *groupingKeyPath; // @synthesize groupingKeyPath=_groupingKeyPath;
-@property(nonatomic) _NSRange range; // @synthesize range=_range;
+@property(nonatomic) NSRange range; // @synthesize range=_range;
 @property(copy, nonatomic) NSSet *properties; // @synthesize properties=_properties;
 @property(copy, nonatomic) NSArray *sortDescriptors; // @synthesize sortDescriptors=_sortDescriptors;
 @property(copy, nonatomic) NSPredicate *predicate; // @synthesize predicate=_predicate;

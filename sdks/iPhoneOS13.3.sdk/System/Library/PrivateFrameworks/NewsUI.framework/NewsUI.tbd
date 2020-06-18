@@ -8,8 +8,6 @@ compatibility-version: 1
 objc-constraint:       retain_release
 exports:
   - archs:              [ armv7, armv7s, arm64, arm64e ]
-    allowable-clients:  [ "Feldspar Tests", NVCDemo, News, NewsAnalytics, NewsArticleQuickLook, NewsArticleViewer, NewsArticles, NewsFeed,
-                          NewsSubscription, NewsToday, NewsUI2, NewsUITests, StocksUI, TeaUI ]
     symbols:            [ _NSStringFromNULayoutContextSizerOrientation, _NSStringFromNUSizeCompare, _NSStringFromUIUserInterfaceIdiom,
                           _NSStringFromUIUserInterfaceSizeClass, _NUActivityAddToSafariReadingList,
                           _NUAdContextContentEnvironmentDemo1, _NUAdContextContentEnvironmentDemo2,

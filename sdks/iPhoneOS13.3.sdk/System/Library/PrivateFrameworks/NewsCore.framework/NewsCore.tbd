@@ -8,12 +8,6 @@ compatibility-version: 1
 objc-constraint:       retain_release
 exports:
   - archs:              [ armv7, armv7s, arm64, arm64e ]
-    allowable-clients:  [ ArticleNotificationExtension, ArticleNotificationServiceExtension, "Feldspar Tests", "FeldsparCore iOS Tests",
-                          NVCDemo, News, "News Diagnostic Extension", NewsAnalytics, NewsAnalyticsTests, NewsAnalyticsUpload,
-                          NewsArticleQuickLook, NewsArticleViewer, NewsArticles, NewsDES, NewsDESTests, NewsDaemon, NewsFeed, NewsFeedLayout,
-                          NewsFeedLayoutTests, NewsInternalExtras, NewsInternalSettings, NewsServices, NewsServicesInternal, NewsSettings,
-                          NewsSubscription, NewsToday, NewsTodayTests, NewsUI, NewsUI2, NewsUITests, OpenInNews, StocksCore, StocksUI, TeaUI,
-                          com.apple.news, newsd ]
     symbols:            [ _AppBundleID, _ArticleContentTypeFromString, _ArticleStoryTypeFromString, _CKAllowedSystemFieldNames,
                           _CKNSPredicateOperatorTypeForFCCKPQueryFilterType, _CKServerFieldNameForUserFieldName,
                           _CKValidateRecordArrayValue, _CKVerifyFilters, _FCALaCarteSubscriptionMeteredCountMaximumLimit,

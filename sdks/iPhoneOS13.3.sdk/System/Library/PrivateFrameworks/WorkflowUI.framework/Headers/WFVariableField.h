@@ -15,7 +15,7 @@
 }
 
 // - (void).cxx_destruct;
-- (BOOL)textField:(id)arg1 shouldChangeCharactersInRange:(_NSRange)arg2 replacementString:(id)arg3;
+- (BOOL)textField:(id)arg1 shouldChangeCharactersInRange:(NSRange)arg2 replacementString:(id)arg3;
 - (BOOL)textFieldShouldReturn:(id)arg1;
 - (void)layoutSubviews;
 - (void)setText:(id)arg1;

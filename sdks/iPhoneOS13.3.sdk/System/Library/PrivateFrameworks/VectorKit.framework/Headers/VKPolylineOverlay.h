@@ -46,7 +46,7 @@
 - (id)getPathsForRenderRegion:(id)arg1 shouldSnapToRoads:(BOOL)arg2 verifySnapping:(BOOL)arg3 observer:(id)arg4;
 - (void)clearSnappedPathsForObserver:(id)arg1;
 - (void)updateTraffic:(id)arg1;
-- (_NSRange)sectionRangeForBounds:(Box_3d7e3c2c)arg1;
+- (NSRange)sectionRangeForBounds:(Box_3d7e3c2c)arg1;
 @property(readonly, nonatomic) GEOMapRegion *boundingMapRegion;
 @property(readonly, nonatomic) CDStruct_c3b9c2ee coordinate;
 @property(readonly, nonatomic) BOOL containsTransit;

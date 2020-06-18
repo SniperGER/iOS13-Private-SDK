@@ -7,7 +7,7 @@
 #import <Foundation/NSString.h>
 
 @interface NSString (CLKFormatter)
-- (_NSRange)_clkBlinkerRangeByBackwardsSearch;
-- (_NSRange)_clkBlinkerRange;
+- (NSRange)_clkBlinkerRangeByBackwardsSearch;
+- (NSRange)_clkBlinkerRange;
 @end
 

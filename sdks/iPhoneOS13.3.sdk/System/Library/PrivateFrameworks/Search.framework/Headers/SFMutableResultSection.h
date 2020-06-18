@@ -39,7 +39,7 @@
 - (void)replaceResultsAtIndex:(NSUInteger)arg1 withResults:(id)arg2;
 - (void)removeResultsInArray:(id)arg1;
 - (void)removeResults:(id)arg1;
-- (void)removeResultsInRange:(_NSRange)arg1;
+- (void)removeResultsInRange:(NSRange)arg1;
 - (void)removeResultsAtIndex:(NSUInteger)arg1;
 - (id)resultsAtIndex:(NSUInteger)arg1;
 - (NSUInteger)indexOfResult:(id)arg1;

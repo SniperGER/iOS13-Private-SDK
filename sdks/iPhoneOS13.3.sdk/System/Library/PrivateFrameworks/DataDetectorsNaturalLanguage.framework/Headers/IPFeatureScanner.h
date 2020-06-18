@@ -84,7 +84,7 @@
 - (id)_featureDataInFeatures:(id)arg1 atIndex:(NSUInteger)arg2;
 - (id)featuresForTextString:(id)arg1 inMessageUnit:(id)arg2 extractors:(id)arg3 context:(id)arg4;
 - (id)_featureWithClass:(Class)arg1 inFeatures:(id)arg2 atIndex:(NSUInteger)arg3;
-- (id)_sortedFeaturesByDistance:(id)arg1 aroundRange:(_NSRange)arg2;
+- (id)_sortedFeaturesByDistance:(id)arg1 aroundRange:(NSRange)arg2;
 - (NSUInteger)_distanceBetweenFeature:(id)arg1 andFeature:(id)arg2;
 - (id)_sortedFeaturesByRange:(id)arg1;
 - (void)resetScanState;

@@ -26,7 +26,7 @@ __attribute__((visibility("hidden")))
 - (void)_keyboardWillHide:(id)arg1;
 - (void)_keyboardWillShow:(id)arg1;
 - (void)_textWidgetDone;
-- (BOOL)textView:(id)arg1 shouldChangeTextInRange:(_NSRange)arg2 replacementText:(id)arg3;
+- (BOOL)textView:(id)arg1 shouldChangeTextInRange:(NSRange)arg2 replacementText:(id)arg3;
 - (void)textViewDidChange:(id)arg1;
 - (BOOL)becomeFirstResponder;
 - (void)removeFromSuperview;

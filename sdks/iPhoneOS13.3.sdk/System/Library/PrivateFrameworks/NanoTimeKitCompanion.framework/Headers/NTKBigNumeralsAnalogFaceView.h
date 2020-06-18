@@ -12,7 +12,7 @@
 {
     UIView *_hourLabelContainerView;
     NTKBigNumeralsTimeComponentLabel *_hourLabel;
-    NSNumber _timerToken;
+    NSNumber *_timerToken;
     BOOL _showingStatusBar;
 }
 

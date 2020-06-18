@@ -12,6 +12,6 @@
 @property(readonly) NSUInteger size;
 - (id <MTLIndirectComputeCommand>)indirectComputeCommandAtIndex:(NSUInteger)arg1;
 - (id <MTLIndirectRenderCommand>)indirectRenderCommandAtIndex:(NSUInteger)arg1;
-- (void)resetWithRange:(_NSRange)arg1;
+- (void)resetWithRange:(NSRange)arg1;
 @end
 

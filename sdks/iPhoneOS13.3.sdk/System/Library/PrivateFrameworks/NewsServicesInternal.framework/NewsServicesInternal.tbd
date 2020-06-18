@@ -8,10 +8,6 @@ compatibility-version: 1
 objc-constraint:       retain_release
 exports:
   - archs:              [ armv7, armv7s, arm64, arm64e ]
-    allowable-clients:  [ ArticleNotificationExtension, ArticleNotificationServiceExtension, "Feldspar Tests",
-                          MarketingNotificationExtension, NVCDemo, News, NewsAnalytics, NewsAnalyticsTests, NewsAnalyticsUpload, NewsArticles,
-                          NewsDES, NewsFeed, NewsInternalSettings, NewsServices, NewsSettings, NewsSubscription, NewsToday, NewsUI, NewsUI2,
-                          OpenInNews, Rancho, Stocks, StocksAnalytics, TeaUI, com.apple.news, newsd ]
     symbols:            [ _NSSBundleInternal, _NSSCampaignIdentifierPathComponent, _NSSDestroyDataContainersWithItems,
                           _NSSDestroyUserDefaultsDataWithItems, _NSSExternalEventURLQueryParameterANFArticle,
                           _NSSExternalEventURLQueryParameterArticleID, _NSSExternalEventURLQueryParameterArticleType,

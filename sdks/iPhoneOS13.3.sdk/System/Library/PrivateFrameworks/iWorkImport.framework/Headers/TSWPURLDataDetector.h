@@ -13,14 +13,14 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (BOOL)detectedDataInString:(id)arg1 scanRange:(_NSRange)arg2;
-+ (id)p_rangesSplitByNewLineOfString:(id)arg1 scanRange:(_NSRange)arg2;
++ (BOOL)detectedDataInString:(id)arg1 scanRange:(NSRange)arg2;
++ (id)p_rangesSplitByNewLineOfString:(id)arg1 scanRange:(NSRange)arg2;
 + (id)newURLFromString:(id)arg1;
-+ (id)p_newArrayByScanningString:(id)arg1 scanRange:(_NSRange)arg2 returnAllResults:(BOOL)arg3;
-+ (id)newArrayByScanningString:(id)arg1 scanRange:(_NSRange)arg2;
-+ (id)scanString:(id)arg1 scanRange:(_NSRange)arg2;
-+ (_NSRange)calculateScanRangeForString:(id)arg1 changedRange:(_NSRange)arg2;
-+ (_NSRange)expandValidRange:(_NSRange)arg1 inString:(id)arg2;
++ (id)p_newArrayByScanningString:(id)arg1 scanRange:(NSRange)arg2 returnAllResults:(BOOL)arg3;
++ (id)newArrayByScanningString:(id)arg1 scanRange:(NSRange)arg2;
++ (id)scanString:(id)arg1 scanRange:(NSRange)arg2;
++ (NSRange)calculateScanRangeForString:(id)arg1 changedRange:(NSRange)arg2;
++ (NSRange)expandValidRange:(NSRange)arg1 inString:(id)arg2;
 + (void)setInvalidURLSchemes:(id)arg1;
 + (id)detectorIdentifier;
 

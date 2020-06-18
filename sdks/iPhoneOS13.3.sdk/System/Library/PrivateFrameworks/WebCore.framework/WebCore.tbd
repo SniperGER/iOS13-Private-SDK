@@ -8,8 +8,6 @@ compatibility-version: 1
 objc-constraint:       retain_release
 exports:
   - archs:              [ armv7, armv7s, arm64, arm64e ]
-    allowable-clients:  [ Casablanca, DumpRenderTree, Remote, TVBooks, TestWebKitAPI, WebCoreTestSupport, WebKit, WebKitLegacy, WebKitTestRunner,
-                          iTunesU ]
     symbols:            [ _InitWebCoreThreadSystemInterface, _WAKViewDidScrollNotification, _WAKViewFrameSizeDidChangeNotification,
                           _WAKWindowScreenScaleDidChangeNotification, _WAKWindowVisibilityDidChangeNotification,
                           _WKGetCurrentGraphicsContext, _WKRectFill, _WKSetCurrentGraphicsContext, _WKViewAcceptsFirstResponder,

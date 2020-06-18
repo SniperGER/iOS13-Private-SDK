@@ -43,7 +43,7 @@
 - (void)encodeWithCoder:(id)arg1;
 // - (id)copyWithZone:(_NSZone )arg1;
 - (CGPoint)_rotatePointIfNeccessary:(CGPoint)arg1 anchor:(CGPoint)arg2 angle:(double)arg3;
-- (id)cornersForCharacterRange:(_NSRange)arg1 error:(id )arg2;
+- (id)cornersForCharacterRange:(NSRange)arg1 error:(id )arg2;
 - (id)initWithType:(id)arg1 textFeature:(id)arg2 withCandidates:(BOOL)arg3 options:(id)arg4;
 - (id)initWithType:(id)arg1 textFeature:(id)arg2 options:(id)arg3;
 

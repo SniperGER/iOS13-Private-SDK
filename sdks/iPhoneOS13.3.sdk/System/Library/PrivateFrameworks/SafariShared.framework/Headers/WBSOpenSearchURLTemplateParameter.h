@@ -13,11 +13,11 @@
     BOOL _optional;
     NSString *_name;
     NSString *_prefix;
-    _NSRange _range;
+    NSRange _range;
 }
 
 @property(nonatomic, getter=isOptional) BOOL optional; // @synthesize optional=_optional;
-@property(nonatomic) _NSRange range; // @synthesize range=_range;
+@property(nonatomic) NSRange range; // @synthesize range=_range;
 @property(copy, nonatomic) NSString *prefix; // @synthesize prefix=_prefix;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
 // - (void).cxx_destruct;

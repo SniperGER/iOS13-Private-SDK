@@ -18,8 +18,8 @@ __attribute__((visibility("hidden")))
 }
 
 // - (void).cxx_destruct;
-- (NSUInteger)_numberOfPreviousBackSlashesFromIndex:(NSUInteger)arg1 withinRange:(_NSRange)arg2;
-- (NSUInteger)_indexOfDelimiter:(id)arg1 range:(_NSRange)arg2;
+- (NSUInteger)_numberOfPreviousBackSlashesFromIndex:(NSUInteger)arg1 withinRange:(NSRange)arg2;
+- (NSUInteger)_indexOfDelimiter:(id)arg1 range:(NSRange)arg2;
 - (BOOL)_parseNextKeyValuePair;
 @property(readonly, copy, nonatomic) NSDictionary *keyValuePairs;
 - (id)initWithString:(id)arg1 startIndex:(NSUInteger)arg2;

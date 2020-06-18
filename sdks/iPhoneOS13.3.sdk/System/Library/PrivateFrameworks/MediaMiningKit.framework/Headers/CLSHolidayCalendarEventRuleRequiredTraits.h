@@ -12,13 +12,13 @@
     BOOL _allowSceneClassificationBasedEvaluation;
     NSUInteger _type;
     NSUInteger _category;
-    _NSRange _peopleRange;
+    NSRange _peopleRange;
 }
 
 + (id)_peopleTraitDebugStringForTrait:(NSUInteger)arg1;
 + (id)_locationTraitDebugStringForTrait:(NSUInteger)arg1;
 @property(nonatomic) BOOL allowSceneClassificationBasedEvaluation; // @synthesize allowSceneClassificationBasedEvaluation=_allowSceneClassificationBasedEvaluation;
-@property(nonatomic) _NSRange peopleRange; // @synthesize peopleRange=_peopleRange;
+@property(nonatomic) NSRange peopleRange; // @synthesize peopleRange=_peopleRange;
 @property(nonatomic) BOOL mustContainMePerson; // @synthesize mustContainMePerson=_mustContainMePerson;
 @property(nonatomic) NSUInteger category; // @synthesize category=_category;
 @property(nonatomic) NSUInteger type; // @synthesize type=_type;

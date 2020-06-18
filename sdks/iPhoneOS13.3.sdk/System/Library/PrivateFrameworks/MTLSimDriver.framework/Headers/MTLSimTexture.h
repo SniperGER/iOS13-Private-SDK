@@ -80,11 +80,11 @@ __attribute__((visibility("hidden")))
 @property(readonly) NSUInteger pixelFormat;
 @property(readonly) unsigned int swizzleKey; // @synthesize swizzleKey=_swizzle;
 @property(readonly, nonatomic) CDStruct_a06f635e swizzle; // @dynamic swizzle;
-- (id)newTextureViewWithPixelFormat:(NSUInteger)arg1 textureType:(NSUInteger)arg2 levels:(_NSRange)arg3 slices:(_NSRange)arg4 swizzle:(CDStruct_a06f635e)arg5;
+- (id)newTextureViewWithPixelFormat:(NSUInteger)arg1 textureType:(NSUInteger)arg2 levels:(NSRange)arg3 slices:(NSRange)arg4 swizzle:(CDStruct_a06f635e)arg5;
 - (void)didModifyData;
 - (void)replaceRegion:(CDStruct_caaed6bc)arg1 mipmapLevel:(NSUInteger)arg2 withBytes:(const void )arg3 bytesPerRow:(NSUInteger)arg4;
 - (void)replaceRegion:(CDStruct_caaed6bc)arg1 mipmapLevel:(NSUInteger)arg2 slice:(NSUInteger)arg3 withBytes:(const void )arg4 bytesPerRow:(NSUInteger)arg5 bytesPerImage:(NSUInteger)arg6;
-- (id)newTextureViewWithPixelFormat:(NSUInteger)arg1 textureType:(NSUInteger)arg2 levels:(_NSRange)arg3 slices:(_NSRange)arg4;
+- (id)newTextureViewWithPixelFormat:(NSUInteger)arg1 textureType:(NSUInteger)arg2 levels:(NSRange)arg3 slices:(NSRange)arg4;
 - (id)newTextureViewWithPixelFormat:(NSUInteger)arg1;
 - (id)newTextureViewWithPixelFormatInternal:(NSUInteger)arg1 isInternalTextureView:(BOOL)arg2;
 - (id)newRemoteTextureViewForDevice:(id)arg1;
@@ -104,8 +104,8 @@ __attribute__((visibility("hidden")))
 - (id)initWithDescriptor:(id)arg1 decompressedPixelFormat:(NSUInteger)arg2 iosurface:(struct __IOSurface )arg3 plane:(NSUInteger)arg4 textureRef:(unsigned int)arg5 heap:(id)arg6 device:(id)arg7;
 - (id)initWithBuffer:(id)arg1 offset:(NSUInteger)arg2 bytesPerRow:(NSUInteger)arg3 descriptor:(id)arg4 textureRef:(unsigned int)arg5;
 - (id)initWithTexture:(id)arg1 pixelFormat:(NSUInteger)arg2 decompressedPixelFormat:(NSUInteger)arg3 textureRef:(unsigned int)arg4 isInternalTextureView:(BOOL)arg5;
-- (id)initWithTexture:(id)arg1 pixelFormat:(NSUInteger)arg2 decompressedPixelFormat:(NSUInteger)arg3 textureType:(NSUInteger)arg4 levels:(_NSRange)arg5 slices:(_NSRange)arg6 swizzle:(CDStruct_a06f635e)arg7 textureRef:(unsigned int)arg8 isInternalTextureView:(BOOL)arg9;
-- (id)initWithTextureInternal:(id)arg1 pixelFormat:(NSUInteger)arg2 decompressedPixelFormat:(NSUInteger)arg3 textureType:(NSUInteger)arg4 levels:(_NSRange)arg5 slices:(_NSRange)arg6 swizzle:(CDStruct_a06f635e)arg7 compressedView:(BOOL)arg8 textureRef:(unsigned int)arg9 isInternalTextureView:(BOOL)arg10;
+- (id)initWithTexture:(id)arg1 pixelFormat:(NSUInteger)arg2 decompressedPixelFormat:(NSUInteger)arg3 textureType:(NSUInteger)arg4 levels:(NSRange)arg5 slices:(NSRange)arg6 swizzle:(CDStruct_a06f635e)arg7 textureRef:(unsigned int)arg8 isInternalTextureView:(BOOL)arg9;
+- (id)initWithTextureInternal:(id)arg1 pixelFormat:(NSUInteger)arg2 decompressedPixelFormat:(NSUInteger)arg3 textureType:(NSUInteger)arg4 levels:(NSRange)arg5 slices:(NSRange)arg6 swizzle:(CDStruct_a06f635e)arg7 compressedView:(BOOL)arg8 textureRef:(unsigned int)arg9 isInternalTextureView:(BOOL)arg10;
 - (NSUInteger)calculateOffsetToRegion:(CDStruct_caaed6bc)arg1 level:(NSUInteger)arg2 slice:(NSUInteger)arg3;
 - (void)decompressPlaceholder:(const char )arg1 expandedTex:(char )arg2 srcFormat:(NSUInteger)arg3 destFormat:(NSUInteger)arg4 width:(NSUInteger)arg5 height:(NSUInteger)arg6 destRowBytes:(NSUInteger)arg7 srcRowBytes:(NSUInteger)arg8;
 @property(readonly) BOOL isSparse;

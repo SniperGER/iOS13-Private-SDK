@@ -59,8 +59,8 @@
 @property(readonly, retain, nonatomic) NSString *tagName;
 - (void)setAttributeValue:(id)arg1 withName:(id)arg2;
 - (id)asPrivateIKJSDOMElement;
-- (_NSRange)domib_visibleIndexRange;
-- (void)domib_setVisibleIndexRange:(_NSRange)arg1;
+- (NSRange)domib_visibleIndexRange;
+- (void)domib_setVisibleIndexRange:(NSRange)arg1;
 - (id)domib_itemsChangeSet;
 - (void)domib_setItemsChangeSet:(id)arg1;
 - (id)domib_appDataSet;

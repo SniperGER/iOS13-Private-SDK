@@ -14,7 +14,7 @@
 + (id)tsu_listSeparator;
 + (id)tsu_stringByIndentingString:(id)arg1;
 + (id)tsu_stringByIndentingString:(id)arg1 times:(NSUInteger)arg2;
-+ (id)tsu_stringWithFormat:(id)arg1 arguments:(struct __va_list_tag [1])arg2;
+// + (id)tsu_stringWithFormat:(id)arg1 arguments:(struct __va_list_tag [1])arg2;
 + (id)tsu_stringWithUUID;
 + (id)stringWithSqlStatement:(struct sqlite3_stmt )arg1 columnIndex:(int)arg2;
 + (id)customNumberFormatDecimalFormatStringWithDigits:(unsigned int)arg1 digitString:(id)arg2 includeDecimalSeparator:(BOOL)arg3;
@@ -70,8 +70,8 @@
 - (id)tsu_stringWithPathRelativeTo:(id)arg1;
 - (BOOL)tsu_containsSubstring:(id)arg1;
 - (void)tsu_enumerateRangesOfCharactersInSet:(id)arg1 usingBlock:(id /* CDUnknownBlockType */)arg2;
-- (_NSRange)tsu_range;
-- (_NSRange)tsu_rangeOfString:(id)arg1 options:(NSUInteger)arg2 updatingSearchRange:(_NSRange )arg3;
+- (NSRange)tsu_range;
+- (NSRange)tsu_rangeOfString:(id)arg1 options:(NSUInteger)arg2 updatingSearchRange:(NSRange )arg3;
 - (NSUInteger)tsu_numberOfKeysInKeyPath;
 - (id)tsu_lastKey;
 - (id)tsu_firstKey;

@@ -22,7 +22,7 @@
     EDMessagePersistence *_messagePersistence;
     EDMailboxPersistence *_mailboxPersistence;
     NSObject<OS_dispatch_queue> *_processingQueue;
-    _NSRange _messageListVisibleRows;
+    NSRange _messageListVisibleRows;
 }
 
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *processingQueue; // @synthesize processingQueue=_processingQueue;
@@ -30,7 +30,7 @@
 @property(retain, nonatomic) EDMessagePersistence *messagePersistence; // @synthesize messagePersistence=_messagePersistence;
 @property(retain, nonatomic) id <EDInteractionEventLog> _eventLog; // @synthesize _eventLog;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *_stateTrackingQueue; // @synthesize _stateTrackingQueue;
-@property(nonatomic) _NSRange _messageListVisibleRows; // @synthesize _messageListVisibleRows;
+@property(nonatomic) NSRange _messageListVisibleRows; // @synthesize _messageListVisibleRows;
 @property(retain, nonatomic) NSMutableDictionary *_messageListMessages; // @synthesize _messageListMessages;
 @property(retain, nonatomic) NSMutableDictionary *_viewedMessages; // @synthesize _viewedMessages;
 // - (void).cxx_destruct;
@@ -54,8 +54,8 @@
 - (void)messageListDisplayEndedForAllMessages;
 - (void)messageListDisplayEndedForMessage:(id)arg1 cellStyle:(id)arg2;
 - (void)messageListDisplayStartedForMessage:(id)arg1 messageListType:(id)arg2 row:(long long)arg3 cellStyle:(id)arg4;
-- (void)messageListDisplayVisibleRowsChanged:(_NSRange)arg1;
-- (id)_range:(_NSRange)arg1 minusRange:(_NSRange)arg2;
+- (void)messageListDisplayVisibleRowsChanged:(NSRange)arg1;
+- (id)_range:(NSRange)arg1 minusRange:(NSRange)arg2;
 - (void)_logMessageListDisplayEndedForState:(id)arg1 now:(id)arg2;
 - (void)_logMessageListDisplayStartedMessage:(id)arg1 now:(id)arg2 type:(id)arg3 row:(long long)arg4 cellStyle:(id)arg5;
 - (void)viewingEndedForMessage:(id)arg1;

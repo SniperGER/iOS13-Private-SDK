@@ -12,13 +12,13 @@
 {
     TTParagraphStyle *_paragraphStyle;
     NSMutableArray *_children;
-    _NSRange _characterRange;
-    _NSRange _rangeIncludingChildren;
+    NSRange _characterRange;
+    NSRange _rangeIncludingChildren;
 }
 
 @property(retain, nonatomic) NSMutableArray *children; // @synthesize children=_children;
-@property(nonatomic) _NSRange rangeIncludingChildren; // @synthesize rangeIncludingChildren=_rangeIncludingChildren;
-@property(nonatomic) _NSRange characterRange; // @synthesize characterRange=_characterRange;
+@property(nonatomic) NSRange rangeIncludingChildren; // @synthesize rangeIncludingChildren=_rangeIncludingChildren;
+@property(nonatomic) NSRange characterRange; // @synthesize characterRange=_characterRange;
 @property(retain, nonatomic) TTParagraphStyle *paragraphStyle; // @synthesize paragraphStyle=_paragraphStyle;
 // - (void).cxx_destruct;
 @property(readonly, nonatomic) NSUInteger indent;

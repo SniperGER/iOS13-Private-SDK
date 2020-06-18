@@ -22,10 +22,10 @@
 + (long long)writingDirectionForAttribute:(int)arg1;
 - (void)setAttributes:(id)arg1 substring:(struct TopoSubstring )arg2;
 - (BOOL)attributesEqual:(id)arg1 to:(id)arg2 modelEqual:(BOOL )arg3;
-- (BOOL)attributesEqual:(id)arg1 toRange:(_NSRange)arg2 modelEqual:(BOOL )arg3;
-- (void)setAttributes:(id)arg1 range:(_NSRange)arg2;
-- (id)attributesAtIndex:(NSUInteger)arg1 effectiveRange:(_NSRange )arg2;
-- (void)replaceCharactersInRange:(_NSRange)arg1 withString:(id)arg2;
+- (BOOL)attributesEqual:(id)arg1 toRange:(NSRange)arg2 modelEqual:(BOOL )arg3;
+- (void)setAttributes:(id)arg1 range:(NSRange)arg2;
+- (id)attributesAtIndex:(NSUInteger)arg1 effectiveRange:(NSRange )arg2;
+- (void)replaceCharactersInRange:(NSRange)arg1 withString:(id)arg2;
 - (void)insertString:(id)arg1 atIndex:(NSUInteger)arg2;
 - (void)saveDeltaSinceTimestamp:(id)arg1 toArchive:(struct String )arg2;
 - (id)serialize;

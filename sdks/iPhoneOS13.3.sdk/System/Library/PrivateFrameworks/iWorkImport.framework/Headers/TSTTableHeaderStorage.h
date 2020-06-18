@@ -33,7 +33,7 @@ __attribute__((visibility("hidden")))
 - (unsigned char)hidingStateAtIndex:(unsigned int)arg1;
 - (void)setSize:(double)arg1 atIndex:(unsigned int)arg2;
 - (double)sizeAtIndex:(unsigned int)arg1;
-- (void)moveIndexRange:(_NSRange)arg1 toIndex:(unsigned int)arg2;
+- (void)moveIndexRange:(NSRange)arg1 toIndex:(unsigned int)arg2;
 - (void)swapIndex:(unsigned int)arg1 withIndex:(unsigned int)arg2;
 - (void)shiftIndexesAtIndex:(unsigned int)arg1 amount:(int)arg2;
 - (void)removeIndexesAtIndex:(unsigned int)arg1 count:(unsigned int)arg2;

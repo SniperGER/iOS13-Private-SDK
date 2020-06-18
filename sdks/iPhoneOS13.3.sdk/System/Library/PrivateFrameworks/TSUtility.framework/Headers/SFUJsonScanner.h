@@ -27,7 +27,7 @@
 - (id)parseArrayWithMaxDepth:(int)arg1;
 - (id)parseDictionaryWithMaxDepth:(int)arg1;
 - (id)parseString;
-- (void)appendCharactersInRange:(_NSRange)arg1 toString:(id)arg2;
+- (void)appendCharactersInRange:(NSRange)arg1 toString:(id)arg2;
 - (id)parseHexCharacter;
 - (void)skipWhitespace;
 - (unsigned short)nextCharacter;

@@ -34,12 +34,12 @@ __attribute__((visibility("hidden")))
 - (id)strokeLayerForRightSideOfColumn:(unsigned short)arg1;
 - (id)strokeLayerForLeftSideOfColumn:(unsigned short)arg1;
 - (void)swapRowAtIndex:(unsigned int)arg1 withRowAtIndex:(unsigned int)arg2;
-- (void)moveRowIndexRange:(_NSRange)arg1 toIndex:(unsigned int)arg2;
-- (void)moveColumnIndexRange:(_NSRange)arg1 toIndex:(unsigned short)arg2;
-- (void)removeRows:(_NSRange)arg1;
-- (void)insertRows:(_NSRange)arg1;
-- (void)removeColumns:(_NSRange)arg1;
-- (void)insertColumns:(_NSRange)arg1;
+- (void)moveRowIndexRange:(NSRange)arg1 toIndex:(unsigned int)arg2;
+- (void)moveColumnIndexRange:(NSRange)arg1 toIndex:(unsigned short)arg2;
+- (void)removeRows:(NSRange)arg1;
+- (void)insertRows:(NSRange)arg1;
+- (void)removeColumns:(NSRange)arg1;
+- (void)insertColumns:(NSRange)arg1;
 - (void)enumerateStrokesInRegion:(id)arg1 usingTopStrokeBlock:(id /* CDUnknownBlockType */)arg2 usingBottomStrokeBlock:(id /* CDUnknownBlockType */)arg3 usingLeftStrokeBlock:(id /* CDUnknownBlockType */)arg4 usingRightStrokeBlock:(id /* CDUnknownBlockType */)arg5;
 - (struct TSUCellRect)p_strokeRect;
 - (void)updateForTableSize:(CDStruct_c0454aff)arg1;

@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 @property(nonatomic) NSUInteger indexFactor; // @synthesize indexFactor=mIndexFactor;
 @property(nonatomic) BOOL countFromOne; // @synthesize countFromOne=mCountFromOne;
 - (void)setValue:(id)arg1 atIndex:(NSUInteger)arg2;
-- (id )valuesAtIndexes:(_NSRange)arg1;
+- (id )valuesAtIndexes:(NSRange)arg1;
 - (id)valueAtIndex:(NSUInteger)arg1;
 - (NSUInteger)count;
 - (id)initWithCount:(NSUInteger)arg1;

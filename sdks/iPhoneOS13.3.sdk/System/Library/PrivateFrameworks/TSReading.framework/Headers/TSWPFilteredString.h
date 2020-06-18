@@ -20,14 +20,14 @@
 @property(retain, nonatomic) TSWPDeletionRangeMap *rangeMap; // @synthesize rangeMap=_rangeMap;
 @property(retain, nonatomic) NSString *sourceString; // @synthesize sourceString=_sourceString;
 @property(readonly, nonatomic) NSUInteger length; // @synthesize length=_length;
-- (_NSRange)charRangeMappedFromStorage:(_NSRange)arg1;
-- (_NSRange)charRangeMappedToStorage:(_NSRange)arg1;
+- (NSRange)charRangeMappedFromStorage:(NSRange)arg1;
+- (NSRange)charRangeMappedToStorage:(NSRange)arg1;
 - (NSUInteger)charIndexMappedFromStorage:(NSUInteger)arg1;
 - (NSUInteger)charIndexMappedToStorage:(NSUInteger)arg1;
-- (void)getCharacters:(unsigned short )arg1 range:(_NSRange)arg2;
+- (void)getCharacters:(unsigned short )arg1 range:(NSRange)arg2;
 - (unsigned short)characterAtIndex:(NSUInteger)arg1;
 - (void)dealloc;
-- (id)initWithString:(id)arg1 subrange:(_NSRange)arg2 removeRanges:(id)arg3;
+- (id)initWithString:(id)arg1 subrange:(NSRange)arg2 removeRanges:(id)arg3;
 
 @end
 

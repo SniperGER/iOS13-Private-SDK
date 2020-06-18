@@ -16,10 +16,10 @@
 
 @property(readonly, nonatomic) NSArray *references; // @synthesize references=_references;
 // - (void).cxx_destruct;
-- (void)replaceObjectsInRange:(_NSRange)arg1 withObjectsFromArray:(id)arg2 range:(_NSRange)arg3;
-- (void)replaceObjectsInRange:(_NSRange)arg1 withObjectsFromArray:(id)arg2;
+- (void)replaceObjectsInRange:(NSRange)arg1 withObjectsFromArray:(id)arg2 range:(NSRange)arg3;
+- (void)replaceObjectsInRange:(NSRange)arg1 withObjectsFromArray:(id)arg2;
 - (void)replaceObjectAtIndex:(NSUInteger)arg1 withObject:(id)arg2;
-- (void)removeObjectsInRange:(_NSRange)arg1;
+- (void)removeObjectsInRange:(NSRange)arg1;
 - (void)removeObjectAtIndex:(NSUInteger)arg1;
 - (void)removeLastObject;
 - (void)insertObject:(id)arg1 atIndex:(NSUInteger)arg2;
@@ -27,7 +27,7 @@
 - (void)addReference:(id)arg1;
 - (void)addObject:(id)arg1;
 - (NSUInteger)countByEnumeratingWithState:(CDStruct_70511ce9 )arg1 objects:(id )arg2 count:(NSUInteger)arg3;
-- (id)subarrayWithRange:(_NSRange)arg1;
+- (id)subarrayWithRange:(NSRange)arg1;
 - (id)objectsAtIndexes:(id)arg1;
 - (id)referenceAtIndex:(NSUInteger)arg1;
 - (id)objectAtIndex:(NSUInteger)arg1;

@@ -16,7 +16,7 @@
     NTKColoringLabel *_timerLabel;
     NSDate *_timerDate;
     double _timerDuration;
-    NSNumber _updateToken;
+    NSNumber *_updateToken;
     struct {
         long long numberTicks;
         CGSize tickSize;

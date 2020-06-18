@@ -73,7 +73,7 @@
 @property(readonly, nonatomic) const struct TSWPTopicNumberHints nextTargetTopicNumbers;
 @property(readonly, nonatomic) const struct TSWPTopicNumberHints previousTargetTopicNumbers;
 @property(readonly, retain, nonatomic) id <TSWPOffscreenColumn> previousTargetLastColumn;
-- (id)columnMetricsForCharIndex:(NSUInteger)arg1 outRange:(_NSRange )arg2;
+- (id)columnMetricsForCharIndex:(NSUInteger)arg1 outRange:(NSRange )arg2;
 - (void)layoutSearchForAnnotationWithHitBlock:(id /* CDUnknownBlockType */)arg1;
 - (void)layoutSearchForString:(id)arg1 options:(NSUInteger)arg2 hitBlock:(id /* CDUnknownBlockType */)arg3;
 - (CGPoint)calculatePointFromSearchReference:(id)arg1;

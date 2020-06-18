@@ -9,7 +9,7 @@
 @class NSString;
 
 @protocol NTKDateComplicationDisplay <NTKComplicationDisplay>
-- (void)setDateComplicationText:(NSString *)arg1 withDayRange:(_NSRange)arg2 forDateStyle:(NSUInteger)arg3;
+- (void)setDateComplicationText:(NSString *)arg1 withDayRange:(NSRange)arg2 forDateStyle:(NSUInteger)arg3;
 
 @optional
 - (NSUInteger)overrideDateStyle;

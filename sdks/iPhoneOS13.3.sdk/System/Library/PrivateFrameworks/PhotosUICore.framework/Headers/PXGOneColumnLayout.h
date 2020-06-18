@@ -58,12 +58,12 @@
 - (void)referenceSizeDidChange;
 - (void)setVisibleRect:(CGRect)arg1;
 - (unsigned int)spriteIndexForObjectReference:(id)arg1 options:(NSUInteger)arg2 updatedObjectReference:(out id )arg3;
-- (_NSRange)itemRangeForSpriteIndexRange:(struct _PXGSpriteIndexRange)arg1;
-- (_NSRange)itemRangeInRect:(CGRect)arg1;
+- (NSRange)itemRangeForSpriteIndexRange:(struct _PXGSpriteIndexRange)arg1;
+- (NSRange)itemRangeInRect:(CGRect)arg1;
 - (long long)itemClosestTo:(CGPoint)arg1;
 - (CGRect)frameForItem:(long long)arg1;
-- (_NSRange)_itemsToLoadForAnchorItem:(long long)arg1 visibleRect:(CGRect)arg2;
-- (_NSRange)itemsToLoad;
+- (NSRange)_itemsToLoadForAnchorItem:(long long)arg1 visibleRect:(CGRect)arg2;
+- (NSRange)itemsToLoad;
 - (struct _PXGSpriteIndexRange)spriteIndexRangeCoveringRect:(CGRect)arg1;
 - (void)_updateSpriteStyles;
 - (void)_updateVisibleRect;

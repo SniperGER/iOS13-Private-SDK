@@ -19,7 +19,7 @@
 + (id)sharedLogging;
 // - (void).cxx_destruct;
 - (void)_logOldMessageForAccountInfoProvider:(id)arg1 level:(unsigned char)arg2 format:(const char )arg3;
-- (void)logDiagnosticForProvider:(id)arg1 withLevel:(long long)arg2 format:(id)arg3 args:(struct __va_list_tag [1])arg4;
+// - (void)logDiagnosticForProvider:(id)arg1 withLevel:(long long)arg2 format:(id)arg3 args:(struct __va_list_tag [1])arg4;
 - (id)logHandleForAccountInfoProvider:(id)arg1;
 - (id)delegatesToLogTransmittedDataForAccountInfoProvider:(id)arg1;
 - (BOOL)_shouldOutputAtLevel:(long long)arg1 forAccountInfoProvider:(id)arg2;

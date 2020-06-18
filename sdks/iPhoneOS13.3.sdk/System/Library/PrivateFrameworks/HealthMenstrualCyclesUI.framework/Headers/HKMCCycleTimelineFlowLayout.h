@@ -18,7 +18,7 @@
     CGSize _cellSize;
     double _totalZoomWidth;
     NSIndexPath *_centerIndexPath;
-    _NSRange _zoomRange;
+    NSRange _zoomRange;
     double _offsetFactor;
     double _zoomAreaOffset;
 }

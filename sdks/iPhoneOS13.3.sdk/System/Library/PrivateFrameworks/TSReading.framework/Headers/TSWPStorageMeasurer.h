@@ -75,7 +75,7 @@
 @property(readonly, nonatomic) const struct TSWPTopicNumberHints nextTargetTopicNumbers;
 @property(readonly, nonatomic) const struct TSWPTopicNumberHints previousTargetTopicNumbers;
 @property(readonly, retain, nonatomic) id <TSWPOffscreenColumn> previousTargetLastColumn;
-- (id)columnMetricsForCharIndex:(NSUInteger)arg1 outRange:(_NSRange )arg2;
+- (id)columnMetricsForCharIndex:(NSUInteger)arg1 outRange:(NSRange )arg2;
 - (CGSize)measuredSizeWithFlags:(unsigned int)arg1 maxSize:(CGSize)arg2 layoutParent:(id)arg3 styleProvider:(id)arg4;
 - (CGSize)measuredSizeWithFlags:(unsigned int)arg1;
 - (id)pLayoutWithMinSize:(CGSize)arg1 maxSize:(CGSize)arg2 anchor:(CGPoint)arg3 flags:(unsigned int)arg4;

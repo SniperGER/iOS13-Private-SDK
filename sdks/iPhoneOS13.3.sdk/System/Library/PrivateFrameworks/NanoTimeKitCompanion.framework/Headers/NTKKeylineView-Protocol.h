@@ -8,7 +8,12 @@
 
 @class NTKKeylineTouchable;
 
+#ifndef NTKKeylineView_Protocol
+#define NTKKeylineView_Protocol
+
 @protocol NTKKeylineView <NTKColoringView>
 @property(retain, nonatomic) NTKKeylineTouchable *touchable;
 @end
+
+#endif
 

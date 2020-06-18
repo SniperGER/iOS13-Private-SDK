@@ -25,7 +25,7 @@
 - (BOOL)isEqualToModelComparable:(id)arg1;
 - (id)printableTextContentForAppearanceType:(NSUInteger)arg1;
 - (id)attachmentAttributesForAttributedString;
-- (void)fixAttachmentForAttributedString:(id)arg1 range:(_NSRange)arg2 forPlainText:(BOOL)arg3 forStandardizedText:(BOOL)arg4;
+- (void)fixAttachmentForAttributedString:(id)arg1 range:(NSRange)arg2 forPlainText:(BOOL)arg3 forStandardizedText:(BOOL)arg4;
 - (double)viewCornerRadius;
 - (BOOL)usesTextAttachmentView;
 - (BOOL)allowsTextAttachmentView;

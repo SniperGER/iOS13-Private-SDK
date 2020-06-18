@@ -7,7 +7,12 @@
 
 @protocol NTKComplicationDisplay;
 
+#ifndef NTKComplicationDisplayObserver_Protocol
+#define NTKComplicationDisplayObserver_Protocol
+
 @protocol NTKComplicationDisplayObserver <NSObject>
 - (void)complicationDisplayNeedsResize:(id <NTKComplicationDisplay>)arg1;
 @end
+
+#endif
 

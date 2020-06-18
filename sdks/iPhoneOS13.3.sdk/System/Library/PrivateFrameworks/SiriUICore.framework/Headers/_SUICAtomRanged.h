@@ -11,17 +11,17 @@
 @interface _SUICAtomRanged : NSObject
 {
     NSString *_replacementText;
-    _NSRange _editRange;
+    NSRange _editRange;
 }
 
-+ (id)atomWithEditRange:(_NSRange)arg1 replacementText:(id)arg2;
++ (id)atomWithEditRange:(NSRange)arg1 replacementText:(id)arg2;
 @property(retain, nonatomic) NSString *replacementText; // @synthesize replacementText=_replacementText;
-@property(nonatomic) _NSRange editRange; // @synthesize editRange=_editRange;
+@property(nonatomic) NSRange editRange; // @synthesize editRange=_editRange;
 // - (void).cxx_destruct;
 - (BOOL)isEqualToEditScriptAtomRanged:(id)arg1;
 - (BOOL)isEqual:(id)arg1;
 - (id)description;
-- (id)initWithEditRange:(_NSRange)arg1 replacementText:(id)arg2;
+- (id)initWithEditRange:(NSRange)arg1 replacementText:(id)arg2;
 
 @end
 

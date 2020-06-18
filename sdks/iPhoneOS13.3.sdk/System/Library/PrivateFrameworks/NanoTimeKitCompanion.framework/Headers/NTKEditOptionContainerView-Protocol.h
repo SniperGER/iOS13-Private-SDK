@@ -7,6 +7,9 @@
 
 @class UIView;
 
+#ifndef NTKEditOptionContainerView_Protocol
+#define NTKEditOptionContainerView_Protocol
+
 @protocol NTKEditOptionContainerView <NSObject>
 @property(readonly, nonatomic) NSUInteger numberOfVisibleSides;
 @property(readonly, nonatomic) NSUInteger numberOfSides;
@@ -16,4 +19,6 @@
 - (UIView *)viewForSideAtIndex:(NSUInteger)arg1;
 - (void)setView:(UIView *)arg1 forSideAtIndex:(NSUInteger)arg2;
 @end
+
+#endif
 

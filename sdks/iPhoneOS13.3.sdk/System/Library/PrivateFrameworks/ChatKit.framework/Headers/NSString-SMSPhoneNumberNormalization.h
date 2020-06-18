@@ -9,7 +9,7 @@
 @interface NSString (SMSPhoneNumberNormalization)
 - (id)unformattedPhoneNumber;
 - (BOOL)ck_isSiriRecognizableWithLanguageCode:(id)arg1;
-- (_NSRange)__ck_rangeOfSequenceOfCharactersFromSet:(id)arg1 options:(NSUInteger)arg2 range:(_NSRange)arg3;
+- (NSRange)__ck_rangeOfSequenceOfCharactersFromSet:(id)arg1 options:(NSUInteger)arg2 range:(NSRange)arg3;
 - (BOOL)__ck_containsOnlyCharactersFromSet:(id)arg1;
 - (BOOL)__ck_shouldUseBigEmoji;
 - (id)__ck_stringByExpandingTildeInPath;

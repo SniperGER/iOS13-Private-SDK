@@ -11,7 +11,7 @@
 @interface TSWPTextKnobTracker : TSDKnobTracker
 {
     TSWPEditingController *_editingController;
-    _NSRange _rangeAtStart;
+    NSRange _rangeAtStart;
     int _selectionType;
     NSUInteger _headCharAtStart;
     NSUInteger _tailCharAtStart;
@@ -33,7 +33,7 @@
 - (void)updateAfterAutoscroll:(id)arg1;
 - (id)icc;
 - (void)updateAfterAutoscroll:(id)arg1 atPoint:(CGPoint)arg2;
-- (_NSRange)adjustSelectionRange:(_NSRange)arg1 forStorage:(id)arg2;
+- (NSRange)adjustSelectionRange:(NSRange)arg1 forStorage:(id)arg2;
 - (BOOL)fixupWordSelection;
 - (BOOL)shouldHideOtherKnobs;
 - (NSUInteger)p_charIndexForKnob:(NSUInteger)arg1 selection:(id)arg2;

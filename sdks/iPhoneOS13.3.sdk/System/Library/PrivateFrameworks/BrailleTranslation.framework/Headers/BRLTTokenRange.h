@@ -9,12 +9,12 @@
 @interface BRLTTokenRange : NSObject
 {
     long long _token;
-    _NSRange _range;
+    NSRange _range;
 }
 
 @property(nonatomic) long long token; // @synthesize token=_token;
-@property(nonatomic) _NSRange range; // @synthesize range=_range;
-- (id)initWithRange:(_NSRange)arg1 token:(long long)arg2;
+@property(nonatomic) NSRange range; // @synthesize range=_range;
+- (id)initWithRange:(NSRange)arg1 token:(long long)arg2;
 
 @end
 

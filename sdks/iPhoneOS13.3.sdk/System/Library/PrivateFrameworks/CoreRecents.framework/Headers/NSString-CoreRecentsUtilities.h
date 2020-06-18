@@ -11,8 +11,8 @@
 - (id)cr_uniqueFilenameWithRespectToFilenames:(id)arg1;
 - (id)cr_copyIDNAEncodedEmailAddress;
 - (id)cr_copyIDNADecodedEmailAddress;
-- (id)cr_copyStringByEncodingIDNAInRange:(_NSRange)arg1;
-- (id)cr_copyStringByDecodingIDNAInRange:(_NSRange)arg1;
-- (_NSRange)cr_rangeOfAddressDomain;
+- (id)cr_copyStringByEncodingIDNAInRange:(NSRange)arg1;
+- (id)cr_copyStringByDecodingIDNAInRange:(NSRange)arg1;
+- (NSRange)cr_rangeOfAddressDomain;
 @end
 

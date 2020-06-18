@@ -48,7 +48,7 @@ __attribute__((visibility("hidden")))
     NSIndexSet *_populatedColumnsForGroupLevel5;
     NSIndexSet *_viewColumnIndexesInCurrentRow;
     UUIDData_5fbc143e _uuid;
-    _NSRange _baseTileRange;
+    NSRange _baseTileRange;
 }
 
 @property(retain, nonatomic) NSIndexSet *viewColumnIndexesInCurrentRow; // @synthesize viewColumnIndexesInCurrentRow=_viewColumnIndexesInCurrentRow;
@@ -61,7 +61,7 @@ __attribute__((visibility("hidden")))
 @property(nonatomic) BOOL rightToLeft; // @synthesize rightToLeft=_rightToLeft;
 @property(readonly, nonatomic) TSTCell *cell; // @synthesize cell=_cell;
 @property(retain, nonatomic) TSTTableTileRowInfo *baseRow; // @synthesize baseRow=_baseRow;
-@property(nonatomic) _NSRange baseTileRange; // @synthesize baseTileRange=_baseTileRange;
+@property(nonatomic) NSRange baseTileRange; // @synthesize baseTileRange=_baseTileRange;
 @property(retain, nonatomic) TSTTableTile *baseTile; // @synthesize baseTile=_baseTile;
 @property(nonatomic) unsigned int baseRowIndex; // @synthesize baseRowIndex=_baseRowIndex;
 @property(nonatomic) UUIDData_5fbc143e uuid; // @synthesize uuid=_uuid;

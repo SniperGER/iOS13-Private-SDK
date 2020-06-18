@@ -24,7 +24,7 @@
 @property(retain) NSData *lineTerminator; // @synthesize lineTerminator=_lineTerminator;
 @property(retain) NSFileHandle *fileHandle; // @synthesize fileHandle=_fileHandle;
 // - (void).cxx_destruct;
-- (void)logFromCodeLocation:(CDStruct_98c8119d)arg1 facility:(id)arg2 subsystem:(id)arg3 level:(int)arg4 message:(id)arg5 format:(id)arg6 args:(struct __va_list_tag [1])arg7;
+// - (void)logFromCodeLocation:(CDStruct_98c8119d)arg1 facility:(id)arg2 subsystem:(id)arg3 level:(int)arg4 message:(id)arg5 format:(id)arg6 args:(struct __va_list_tag [1])arg7;
 - (id)writeOpenFileAtURL:(id)arg1;
 - (BOOL)outputsToDebuggerConsole;
 - (id)initWithFileHandle:(id)arg1;

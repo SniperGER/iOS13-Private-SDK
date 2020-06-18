@@ -19,7 +19,7 @@ __attribute__((visibility("hidden")))
 }
 
 // - (void).cxx_destruct;
-- (_NSRange)insertedRange;
+- (NSRange)insertedRange;
 - (long long)delta;
 - (NSUInteger)targetCharIndex;
 - (void)performWithStorage:(id)arg1 delta:(long long)arg2 actionBuilder:(struct TSWPStorageActionBuilder )arg3 withFlags:(unsigned int)arg4 replaceBlock:(id /* CDUnknownBlockType */)arg5;

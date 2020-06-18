@@ -11,8 +11,8 @@
 @property(readonly, nonatomic) BOOL terminatedByBreak;
 @property(readonly, nonatomic) BOOL lastLineIsEmptyAndHasListLabel;
 @property(readonly, nonatomic) NSUInteger nextWidowPullsDownFromCharIndex;
-@property(readonly, nonatomic) _NSRange anchoredRange;
-@property(readonly, nonatomic) _NSRange range;
+@property(readonly, nonatomic) NSRange anchoredRange;
+@property(readonly, nonatomic) NSRange range;
 - (void)trimToCharIndex:(NSUInteger)arg1 inTarget:(id <TSWPLayoutTarget>)arg2 removeFootnoteReferenceCount:(NSUInteger)arg3 removeAutoNumberFootnoteCount:(NSUInteger)arg4;
 @end
 

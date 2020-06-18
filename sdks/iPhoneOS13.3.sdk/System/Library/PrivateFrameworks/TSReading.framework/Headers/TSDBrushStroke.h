@@ -24,12 +24,12 @@
 + (id)cacheDirectory;
 + (Class)mutableClass;
 - (void)brushPath:(CGPath )arg1 inContext:(CGContext )arg2;
-- (void)brushPath:(id)arg1 withScaling:(CDStruct_c3b9c2ee)arg2 inElementRange:(_NSRange)arg3 into:(void )arg4 sectionIndex:(NSUInteger )arg5 viewScale:(double)arg6;
-- (void)brushSection:(id)arg1 sectionIndex:(NSUInteger)arg2 ontoPath:(id)arg3 withScaling:(CDStruct_c3b9c2ee)arg4 inElementRange:(_NSRange)arg5 into:(void )arg6 viewScale:(double)arg7;
+- (void)brushPath:(id)arg1 withScaling:(CDStruct_c3b9c2ee)arg2 inElementRange:(NSRange)arg3 into:(void )arg4 sectionIndex:(NSUInteger )arg5 viewScale:(double)arg6;
+- (void)brushSection:(id)arg1 sectionIndex:(NSUInteger)arg2 ontoPath:(id)arg3 withScaling:(CDStruct_c3b9c2ee)arg4 inElementRange:(NSRange)arg5 into:(void )arg6 viewScale:(double)arg7;
 - (void)paintPath:(CGPath )arg1 wantsInteriorStroke:(BOOL)arg2 inContext:(CGContext )arg3 useFastDrawing:(BOOL)arg4;
 - (void)glBrushPath:(CGPath )arg1 inContext:(CGContext )arg2;
 - (void)finishOpenGLRenderInContext:(CGContext )arg1 pathVertexData:(vector_b5dead7b )arg2;
-- (void)renderOpenGLSection:(id)arg1 sectionIndex:(NSUInteger)arg2 ontoPath:(id)arg3 withScaling:(CDStruct_c3b9c2ee)arg4 inElementRange:(_NSRange)arg5 into:(vector_b5dead7b )arg6 viewScale:(double)arg7;
+- (void)renderOpenGLSection:(id)arg1 sectionIndex:(NSUInteger)arg2 ontoPath:(id)arg3 withScaling:(CDStruct_c3b9c2ee)arg4 inElementRange:(NSRange)arg5 into:(vector_b5dead7b )arg6 viewScale:(double)arg7;
 - (id)brushTextureForId:(id)arg1;
 - (BOOL)needsToExtendJoinsForBoundsCalculation;
 - (int)cap;

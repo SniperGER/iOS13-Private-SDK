@@ -51,10 +51,10 @@ __attribute__((visibility("hidden")))
 - (void)insertColumnsAt:(NSUInteger)arg1 names:(id)arg2 data:(id)arg3 withIds:(id)arg4;
 - (void)insertRowsAt:(NSUInteger)arg1 names:(id)arg2 data:(id)arg3 withIds:(id)arg4;
 - (id)extractGridValuesReturningRowNames:(id )arg1 rowIds:(id )arg2 columnNames:(id )arg3 columnIds:(id )arg4;
-- (id)extractColumnNames:(_NSRange)arg1 returningColumnIds:(id )arg2 valueColumns:(id )arg3;
-- (id)extractRowNames:(_NSRange)arg1 returningRowIds:(id )arg2 valueRows:(id )arg3;
-- (void)moveColumns:(_NSRange)arg1 afterColumn:(long long)arg2;
-- (void)moveRows:(_NSRange)arg1 afterRow:(long long)arg2;
+- (id)extractColumnNames:(NSRange)arg1 returningColumnIds:(id )arg2 valueColumns:(id )arg3;
+- (id)extractRowNames:(NSRange)arg1 returningRowIds:(id )arg2 valueRows:(id )arg3;
+- (void)moveColumns:(NSRange)arg1 afterColumn:(long long)arg2;
+- (void)moveRows:(NSRange)arg1 afterRow:(long long)arg2;
 - (void)setValue:(id)arg1 forRow:(NSUInteger)arg2 column:(NSUInteger)arg3;
 - (void)removeColumn:(NSUInteger)arg1;
 - (void)removeRow:(NSUInteger)arg1;
@@ -62,8 +62,8 @@ __attribute__((visibility("hidden")))
 - (void)setNameForRow:(NSUInteger)arg1 toName:(id)arg2;
 - (void)insertColumn:(NSUInteger)arg1 withName:(id)arg2 withId:(id)arg3;
 - (void)insertRow:(NSUInteger)arg1 withName:(id)arg2 withId:(id)arg3;
-- (id)p_uuidsForColumns:(_NSRange)arg1;
-- (id)p_uuidsForRows:(_NSRange)arg1;
+- (id)p_uuidsForColumns:(NSRange)arg1;
+- (id)p_uuidsForRows:(NSRange)arg1;
 - (id)createUUIDArrayWithCount:(NSUInteger)arg1;
 - (id)createUUID;
 - (void)validateRowColumnIdMapsAndFix:(BOOL)arg1;
@@ -80,8 +80,8 @@ __attribute__((visibility("hidden")))
 - (NSUInteger)rowIndexForRowId:(id)arg1;
 - (id)columnIdForColumn:(NSUInteger)arg1;
 - (id)rowIdForRow:(NSUInteger)arg1;
-- (id )valuesForRows:(_NSRange)arg1 column:(NSUInteger)arg2;
-- (id )valuesForRow:(NSUInteger)arg1 columns:(_NSRange)arg2;
+- (id )valuesForRows:(NSRange)arg1 column:(NSUInteger)arg2;
+- (id )valuesForRow:(NSUInteger)arg1 columns:(NSRange)arg2;
 - (id)valueForRow:(NSUInteger)arg1 column:(NSUInteger)arg2;
 - (id)nameForColumn:(NSUInteger)arg1;
 - (id)nameForRow:(NSUInteger)arg1;

@@ -59,9 +59,9 @@
 - (void)calculateAttachmentInfoFromBody:(id)arg1;
 - (void)deleteBodyData;
 - (id)dataPathForMimePart:(id)arg1;
-- (BOOL)fetchDataForMimePart:(id)arg1 inRange:(_NSRange)arg2 withConsumer:(id)arg3 isComplete:(BOOL )arg4 downloadIfNecessary:(BOOL)arg5;
-- (id)dataForMimePart:(id)arg1 inRange:(_NSRange)arg2 isComplete:(BOOL )arg3 downloadIfNecessary:(BOOL)arg4 didDownload:(BOOL )arg5;
-- (id)dataForMimePart:(id)arg1 inRange:(_NSRange)arg2 isComplete:(BOOL )arg3;
+- (BOOL)fetchDataForMimePart:(id)arg1 inRange:(NSRange)arg2 withConsumer:(id)arg3 isComplete:(BOOL )arg4 downloadIfNecessary:(BOOL)arg5;
+- (id)dataForMimePart:(id)arg1 inRange:(NSRange)arg2 isComplete:(BOOL )arg3 downloadIfNecessary:(BOOL)arg4 didDownload:(BOOL )arg5;
+- (id)dataForMimePart:(id)arg1 inRange:(NSRange)arg2 isComplete:(BOOL )arg3;
 - (id)dataForMimePart:(id)arg1;
 - (id)headerDataDownloadIfNecessary:(BOOL)arg1;
 - (id)headerData;

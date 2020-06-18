@@ -12,9 +12,9 @@
 {
 }
 
-+ (id)_stringByEncodingIDNAString:(id)arg1 inRange:(_NSRange)arg2;
-+ (id)_stringByDecodingIDNAString:(id)arg1 inRange:(_NSRange)arg2;
-+ (_NSRange)rangeOfAddressDomainFromAddress:(id)arg1;
++ (id)_stringByEncodingIDNAString:(id)arg1 inRange:(NSRange)arg2;
++ (id)_stringByDecodingIDNAString:(id)arg1 inRange:(NSRange)arg2;
++ (NSRange)rangeOfAddressDomainFromAddress:(id)arg1;
 + (id)idnaEncodedAddressForAddress:(id)arg1;
 + (id)idnaDecodedAddressForAddress:(id)arg1;
 + (void)insertPreviousRoute:(unsigned short )arg1 ofLength:(NSUInteger)arg2 toBuffer:(unsigned short )arg3 ofLength:(NSUInteger)arg4 atPosition:(unsigned short )arg5 addSpace:(BOOL)arg6;

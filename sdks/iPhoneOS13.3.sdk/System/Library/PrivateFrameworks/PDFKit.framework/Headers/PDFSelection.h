@@ -17,7 +17,7 @@
 + (id)defaultInactiveColor;
 + (id)defaultActiveColor;
 // - (void).cxx_destruct;
-- (_NSRange)previewRangeAtIndex:(NSUInteger)arg1 onPage:(id)arg2;
+- (NSRange)previewRangeAtIndex:(NSUInteger)arg1 onPage:(id)arg2;
 - (id)description;
 - (BOOL)isStandaloneGraphic;
 - (void)normalize;
@@ -38,7 +38,7 @@
 - (CGPoint)rightMostCharCenter;
 - (CGPoint)leftMostCharCenter;
 - (CGPoint)firstCharCenter;
-- (void)addSelectionRange:(_NSRange)arg1 page:(id)arg2 normalize:(BOOL)arg3;
+- (void)addSelectionRange:(NSRange)arg1 page:(id)arg2 normalize:(BOOL)arg3;
 - (void)addSelectionCore:(id)arg1 normalize:(BOOL)arg2;
 - (void)addSelectionNoNormalize:(id)arg1;
 - (CGPDFSelection )cgSelectionForPage:(id)arg1;
@@ -59,7 +59,7 @@
 - (void)addSelections:(id)arg1;
 - (void)addSelection:(id)arg1;
 - (id)selectionsByLine;
-- (_NSRange)rangeAtIndex:(NSUInteger)arg1 onPage:(id)arg2;
+- (NSRange)rangeAtIndex:(NSUInteger)arg1 onPage:(id)arg2;
 - (NSUInteger)numberOfTextRangesOnPage:(id)arg1;
 - (id)pdfSelectionUUID;
 - (CGRect)lastSpanBoundsForPage:(id)arg1;

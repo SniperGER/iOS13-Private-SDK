@@ -16,7 +16,7 @@
 - (id)_repetitionMatchesForPasscode:(id)arg1;
 - (id)_commonPasscodeCharacterRepetitionPatterns;
 - (id)_characterRepetitionPatternForPasscode:(id)arg1;
-- (id)_patternWithFewestGuessesRequiredWithRange:(_NSRange)arg1 patternMatches:(id)arg2;
+- (id)_patternWithFewestGuessesRequiredWithRange:(NSRange)arg1 patternMatches:(id)arg2;
 - (id)_repetitionMatchesForPassword:(id)arg1 withMatches:(id)arg2;
 - (void)_enumerateGraphemeClusterSubrangesOfString:(id)arg1 withMinimumLength:(NSUInteger)arg2 usingBlock:(id /* CDUnknownBlockType */)arg3;
 - (id)_passwordVariationsWithoutCommonCharacterSubstitutions:(id)arg1;
@@ -26,7 +26,7 @@
 - (id)_obviousSequenceStartCharacterSet;
 - (id)_sequencePatternMatchWithPassword:(id)arg1 startIndex:(NSUInteger)arg2 endIndex:(NSUInteger)arg3 delta:(long long)arg4;
 - (id)_sequencePatternMatchesForPassword:(id)arg1;
-- (id)_keyboardMatchWithPassword:(id)arg1 range:(_NSRange)arg2 shiftedCharacterCount:(NSUInteger)arg3 keyboardIdentifier:(id)arg4 keyboard:(id)arg5;
+- (id)_keyboardMatchWithPassword:(id)arg1 range:(NSRange)arg2 shiftedCharacterCount:(NSUInteger)arg3 keyboardIdentifier:(id)arg4 keyboard:(id)arg5;
 - (id)_keyboardLayoutPatternMatchesForPassword:(id)arg1;
 - (id)_passwordWithoutShiftedCharacters:(id)arg1 shiftMap:(id)arg2 outShiftedCharacterIndexSet:(id )arg3;
 - (NSUInteger)_directionFromHexCoordinate:(id)arg1 to:(id)arg2;

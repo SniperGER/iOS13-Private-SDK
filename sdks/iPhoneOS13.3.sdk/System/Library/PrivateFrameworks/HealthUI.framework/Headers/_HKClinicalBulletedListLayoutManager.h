@@ -16,7 +16,7 @@
 
 @property(copy, nonatomic) NSAttributedString *bullet; // @synthesize bullet=_bullet;
 // - (void).cxx_destruct;
-- (void)drawGlyphsForGlyphRange:(_NSRange)arg1 atPoint:(CGPoint)arg2;
+- (void)drawGlyphsForGlyphRange:(NSRange)arg1 atPoint:(CGPoint)arg2;
 
 @end
 

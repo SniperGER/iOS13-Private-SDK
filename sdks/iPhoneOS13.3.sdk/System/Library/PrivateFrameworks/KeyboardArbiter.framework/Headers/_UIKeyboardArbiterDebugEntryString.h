@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
     NSString *_type;
 }
 
-+ (id)entryWithFormat:(id)arg1 arguments:(struct __va_list_tag [1])arg2 withType:(id)arg3;
+// + (id)entryWithFormat:(id)arg1 arguments:(struct __va_list_tag [1])arg2 withType:(id)arg3;
 // - (void).cxx_destruct;
 - (int)importance;
 - (void)enumerateContents:(id /* CDUnknownBlockType */)arg1;

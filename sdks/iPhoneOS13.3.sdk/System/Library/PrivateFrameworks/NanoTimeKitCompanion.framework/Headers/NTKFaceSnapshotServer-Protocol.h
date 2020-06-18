@@ -7,6 +7,9 @@
 
 @class NSDictionary, NSUUID, NTKFace;
 
+#ifndef NTKFaceSnapshotServer_Protocol
+#define NTKFaceSnapshotServer_Protocol
+
 @protocol NTKFaceSnapshotServer <NSObject>
 - (void)performAfterCompletingCurrentlyPendingSnapshots:(void (^)(void))arg1;
 - (void)snapshotLibrarySelectedFaceForDeviceUUID:(NSUUID *)arg1 options:(NSDictionary *)arg2 completion:(void (^)(UIImage *))arg3;
@@ -16,4 +19,6 @@
 - (void)updateAllSnapshots;
 - (void)registerForUpdates;
 @end
+
+#endif
 

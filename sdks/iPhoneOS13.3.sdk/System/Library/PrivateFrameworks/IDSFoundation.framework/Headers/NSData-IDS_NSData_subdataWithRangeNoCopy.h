@@ -7,7 +7,7 @@
 #import <Foundation/NSData.h>
 
 @interface NSData (IDS_NSData_subdataWithRangeNoCopy)
-- (id)subdataWithRangeNoCopy:(_NSRange)arg1;
+- (id)subdataWithRangeNoCopy:(NSRange)arg1;
 - (id)truncatedDescription;
 @end
 

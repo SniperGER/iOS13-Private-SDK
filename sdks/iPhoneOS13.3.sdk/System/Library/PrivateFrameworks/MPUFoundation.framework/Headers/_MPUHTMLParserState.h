@@ -37,7 +37,7 @@
 - (id)initWithParser:(id)arg1 data:(id)arg2;
 - (id)currentTagAttributes;
 - (void)_appendString:(id)arg1;
-- (void)_error:(long long)arg1 msg:(const char )arg2 args:(struct __va_list_tag [1])arg3;
+// - (void)_error:(long long)arg1 msg:(const char )arg2 args:(struct __va_list_tag [1])arg3;
 - (void)_characters:(const char )arg1 length:(int)arg2;
 - (void)_endElement:(const char )arg1;
 - (void)_startElement:(const char )arg1 attrs:(const char )arg2;

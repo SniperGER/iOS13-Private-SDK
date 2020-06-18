@@ -7,7 +7,12 @@
 
 @class NTKCFaceDetailDescriptionSectionController;
 
+#ifndef NTKCFaceDetailDescriptionSectionDelegate_Protocol
+#define NTKCFaceDetailDescriptionSectionDelegate_Protocol
+
 @protocol NTKCFaceDetailDescriptionSectionDelegate <NSObject>
 - (void)descriptionSection:(NTKCFaceDetailDescriptionSectionController *)arg1 didExpand:(BOOL)arg2;
 @end
+
+#endif
 

@@ -8,7 +8,6 @@ compatibility-version: 1
 objc-constraint:       retain_release
 exports:
   - archs:              [ armv7, armv7s, arm64, arm64e ]
-    allowable-clients:  [ SpringBoard, "SpringBoardFramework-Tests" ]
     symbols:            [ _CCUICAPackageDescriptionForSBAudioRouteType, _CSCoverSheetTransitionSettingsForTransitionType, _D22Size,
                           _D33Size, _J171Size, _J207Size, _J317Size, _J99Size, _N41Size, _N56Size, _N61Size,
                           _NSLocalizedPluralStringFromSBAudioRouteType, _NSLocalizedStringFromSBAudioRouteType,

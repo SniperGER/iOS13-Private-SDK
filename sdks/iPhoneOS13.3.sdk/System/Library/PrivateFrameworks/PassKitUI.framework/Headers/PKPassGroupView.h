@@ -115,8 +115,8 @@
 - (void)_applyContentMode:(long long)arg1 toPassView:(id)arg2 animated:(BOOL)arg3;
 - (void)_enumeratePassViewsInStackOrderWithHandler:(id /* CDUnknownBlockType */)arg1;
 - (void)_enumerateIndicesInStackOrderWithHandler:(id /* CDUnknownBlockType */)arg1;
-- (_NSRange)_rangeOfVisibleIndices;
-- (_NSRange)_rangeOfPagingIndices;
+- (NSRange)_rangeOfVisibleIndices;
+- (NSRange)_rangeOfPagingIndices;
 - (CGSize)_contentSize;
 - (void)_endTrackingAnimation;
 - (void)_beginTrackingAnimation;

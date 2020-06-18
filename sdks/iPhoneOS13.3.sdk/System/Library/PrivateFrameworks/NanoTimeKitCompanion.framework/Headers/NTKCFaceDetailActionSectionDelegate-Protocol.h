@@ -7,8 +7,13 @@
 
 @class NTKCFaceDetailActionSectionController;
 
+#ifndef NTKCFaceDetailActionSectionDelegate_Protocol
+#define NTKCFaceDetailActionSectionDelegate_Protocol
+
 @protocol NTKCFaceDetailActionSectionDelegate <NSObject>
 - (void)actionSectionDidDelete:(NTKCFaceDetailActionSectionController *)arg1;
 - (void)actionSectionDidSelect:(NTKCFaceDetailActionSectionController *)arg1;
 @end
+
+#endif
 

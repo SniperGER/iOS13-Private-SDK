@@ -10,13 +10,13 @@ __attribute__((visibility("hidden")))
 @interface PDAnimationTextTarget : PDAnimationShapeTarget
 {
     int mType;
-    _NSRange mRange;
+    NSRange mRange;
 }
 
 - (BOOL)isEqual:(id)arg1;
 - (NSUInteger)hash;
-- (void)setRange:(_NSRange)arg1;
-- (_NSRange)range;
+- (void)setRange:(NSRange)arg1;
+- (NSRange)range;
 - (void)setType:(int)arg1;
 - (int)type;
 - (id)init;

@@ -35,8 +35,8 @@
 // - (id)copyWithZone:(_NSZone )arg1;
 - (NSUInteger)hash;
 - (BOOL)isEqual:(id)arg1;
-- (void)stopUpdatesForToken:(NSNumber )arg1;
-- (NSNumber )startUpdatesWithHandler:(id /* CDUnknownBlockType */)arg1;
+- (void)stopUpdatesForToken:(NSNumber *)arg1;
+- (NSNumber *)startUpdatesWithHandler:(id /* CDUnknownBlockType */)arg1;
 - (double)progressFractionForNow:(id)arg1;
 - (BOOL)needsTimerUpdates;
 - (id)initWithCoder:(id)arg1;

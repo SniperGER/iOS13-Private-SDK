@@ -10,16 +10,16 @@
 
 @interface DDURLMatch : NSObject
 {
-    _NSRange _range;
+    NSRange _range;
     NSString *_url;
 }
 
 - (id)description;
 - (long long)compare:(id)arg1;
 - (id)url;
-- (_NSRange)range;
+- (NSRange)range;
 - (void)dealloc;
-- (id)initWithRange:(_NSRange)arg1 url:(id)arg2;
+- (id)initWithRange:(NSRange)arg1 url:(id)arg2;
 
 @end
 

@@ -7,8 +7,13 @@
 
 @class CALayer, NTKUpNextCollectionViewFlowLayoutAttributes;
 
+#ifndef NTKUpNextBaseCellContentsLayerProvider_Protocol
+#define NTKUpNextBaseCellContentsLayerProvider_Protocol
+
 @protocol NTKUpNextBaseCellContentsLayerProvider <NSObject>
 - (CGRect)contentsLayerBoundsForLayout:(NTKUpNextCollectionViewFlowLayoutAttributes *)arg1;
 - (CALayer *)contentsLayer;
 @end
+
+#endif
 

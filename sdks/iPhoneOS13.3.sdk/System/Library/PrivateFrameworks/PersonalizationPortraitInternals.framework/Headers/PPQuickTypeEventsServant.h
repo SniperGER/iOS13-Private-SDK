@@ -16,7 +16,7 @@
 }
 
 // - (void).cxx_destruct;
-- (_NSRange)_dateRangeForQuery:(id)arg1;
+- (NSRange)_dateRangeForQuery:(id)arg1;
 - (id)_lastFreeEventsFromEvents:(id)arg1 explanationSet:(id)arg2;
 - (id)_nextFreeEventsFromEvents:(id)arg1 explanationSet:(id)arg2;
 - (id)_freeEventsAndGapsFromEvents:(id)arg1 explanationSet:(id)arg2;

@@ -8,7 +8,7 @@
 @class TSWPParagraphStyle;
 
 @protocol TSWPStyleProvider <NSObject>
-- (TSWPParagraphStyle *)paragraphStyleAtParIndex:(NSUInteger)arg1 effectiveRange:(_NSRange )arg2;
+- (TSWPParagraphStyle *)paragraphStyleAtParIndex:(NSUInteger)arg1 effectiveRange:(NSRange )arg2;
 
 @optional
 @property(readonly, nonatomic) BOOL supportsBoldItalicUnderlineShortcuts;

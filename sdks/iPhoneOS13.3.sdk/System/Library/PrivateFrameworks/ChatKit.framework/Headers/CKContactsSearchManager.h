@@ -45,7 +45,7 @@
 - (void)endedNetworkActivity;
 - (void)beganNetworkActivity;
 - (void)finishedTaskWithID:(id)arg1;
-- (_NSRange)_rangeForSearchTerm:(id)arg1 inTarget:(id)arg2 tokenizedByCharacterSet:(id)arg3;
+- (NSRange)_rangeForSearchTerm:(id)arg1 inTarget:(id)arg2 tokenizedByCharacterSet:(id)arg3;
 - (void)finishedSearchingForAutocompleteResults;
 - (void)consumeAutocompleteSearchResults:(id)arg1 taskID:(id)arg2;
 - (id)_filterGroupResults:(id)arg1;

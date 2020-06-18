@@ -32,7 +32,7 @@
 @property(readonly, nonatomic) BOOL isSentenceTerminator;
 @property(readonly, nonatomic) BOOL isWhitespace;
 @property(readonly, nonatomic) BOOL isPunctuation;
-@property(readonly, nonatomic) _NSRange range;
+@property(readonly, nonatomic) NSRange range;
 @property(readonly, nonatomic) NSString *speakableText;
 @property(readonly, nonatomic) NSString *originalText;
 - (id)_debugType;

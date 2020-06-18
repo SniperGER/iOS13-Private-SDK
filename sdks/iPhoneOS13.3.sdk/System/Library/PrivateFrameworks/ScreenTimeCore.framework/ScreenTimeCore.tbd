@@ -8,12 +8,6 @@ compatibility-version: 1
 objc-constraint:       retain_release
 exports:
   - archs:              [ armv7, armv7s, arm64, arm64e ]
-    allowable-clients:  [ ActivitySharingPlugin, ActivitySharingTests, ChatKit, ChatKitTests, DeviceDataResetXPCServiceWorker,
-                          DeviceDataResetXPCServiceWorkerTest, FamilyCircleUI, IMCore, IMDPersistenceAgent, LockoutUI,
-                          MessagesNotificationExtension, MobileSMS, MobileSafari, NanoContactsBridgeSettingsOther,
-                          NanoContactsBridgeSetup, RemoteManagement, SafariShared, ScreenTimeAgent,
-                          ScreenTimeNotificationContentExtension, ScreenTimeSettings, ScreenTimeUI, ScreenTimeWidget, SpringBoard, Tests,
-                          Tips, WebContentAnalysisUI, WebUI, callservicesd, callservicesdTests, dmd, screentimetool, tipsd ]
     symbols:            [ _RMCategoryLimitUsageChangeReadFrom, _RMRemoteManagementScreenTimeAskForMoreRequestReadFrom,
                           _RMRemoteManagementScreenTimeDisabledReadFrom, _RMRemoteManagementScreenTimeDowntimeEnabledReadFrom,
                           _RMRemoteManagementScreenTimeEnabledReadFrom, _RMRemoteManagementScreenTimeFamilySetupReadFrom,

@@ -7,9 +7,14 @@
 
 @protocol CLKMonochromeFilterProvider;
 
+#ifndef CLKMonochromeComplicationView_Protocol
+#define CLKMonochromeComplicationView_Protocol
+
 @protocol CLKMonochromeComplicationView <NSObject>
 @property(nonatomic) __weak id <CLKMonochromeFilterProvider> filterProvider;
 - (void)updateMonochromeColor;
 - (void)transitionToMonochromeWithFraction:(double)arg1;
 @end
+
+#endif
 

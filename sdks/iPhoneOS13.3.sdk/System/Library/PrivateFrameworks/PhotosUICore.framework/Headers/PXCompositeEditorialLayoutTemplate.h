@@ -21,7 +21,7 @@
 @property(readonly, nonatomic) long long numberOfColumns; // @synthesize numberOfColumns=_numberOfColumns;
 @property(readonly, nonatomic) long long numberOfRects; // @synthesize numberOfRects=_numberOfRects;
 @property(readonly, nonatomic) long long identifier; // @synthesize identifier=_identifier;
-- (double)costForFittingLayoutItemInputs:(id)arg1 inRange:(_NSRange)arg2 ofTotalItemCount:(long long)arg3 normalizedWeights:(in double )arg4 useSaliency:(BOOL)arg5;
+- (double)costForFittingLayoutItemInputs:(id)arg1 inRange:(NSRange)arg2 ofTotalItemCount:(long long)arg3 normalizedWeights:(in double )arg4 useSaliency:(BOOL)arg5;
 - (void)getComputedRects:(out CGRect )arg1 contentSize:(out CGSize )arg2 forReferenceSize:(CGSize)arg3 interTileSpacing:(double)arg4;
 - (void)_enumerateRectsUsingBlock:(id /* CDUnknownBlockType */)arg1;
 - (void)dealloc;

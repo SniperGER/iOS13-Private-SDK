@@ -8,12 +8,12 @@
 @class NSArray, NSAttributedString, NSString;
 
 @protocol ICAttachmentFindable <NSObject>
-- (_NSRange)selectedRangeWithinRange:(_NSRange)arg1 inFindableString:(NSAttributedString *)arg2;
-- (void)setSelectedRange:(_NSRange)arg1 inFindableString:(NSAttributedString *)arg2;
-- (void)replaceCharactersInRange:(_NSRange)arg1 withString:(NSString *)arg2 inFindableString:(NSAttributedString *)arg3;
-- (void)drawCharactersInRange:(_NSRange)arg1 inFindableString:(NSAttributedString *)arg2 forContentView:(UIView )arg3;
-- (void)scrollToRange:(_NSRange)arg1 inFindableString:(NSAttributedString *)arg2;
-- (NSArray *)rectsForRange:(_NSRange)arg1 inFindableString:(NSAttributedString *)arg2;
-- (UIView )viewForRange:(_NSRange)arg1 inFindableString:(NSAttributedString *)arg2;
+- (NSRange)selectedRangeWithinRange:(NSRange)arg1 inFindableString:(NSAttributedString *)arg2;
+- (void)setSelectedRange:(NSRange)arg1 inFindableString:(NSAttributedString *)arg2;
+- (void)replaceCharactersInRange:(NSRange)arg1 withString:(NSString *)arg2 inFindableString:(NSAttributedString *)arg3;
+- (void)drawCharactersInRange:(NSRange)arg1 inFindableString:(NSAttributedString *)arg2 forContentView:(UIView )arg3;
+- (void)scrollToRange:(NSRange)arg1 inFindableString:(NSAttributedString *)arg2;
+- (NSArray *)rectsForRange:(NSRange)arg1 inFindableString:(NSAttributedString *)arg2;
+- (UIView )viewForRange:(NSRange)arg1 inFindableString:(NSAttributedString *)arg2;
 @end
 

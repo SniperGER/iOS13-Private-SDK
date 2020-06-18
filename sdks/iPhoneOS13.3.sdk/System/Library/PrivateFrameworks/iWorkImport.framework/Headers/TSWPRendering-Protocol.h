@@ -10,8 +10,8 @@
 @protocol TSWPRendering <NSObject>
 @property(nonatomic) double viewScale;
 @property(readonly, nonatomic) CGContext context;
-- (void)drawCharacterStrokeAdornmentRects:(NSArray *)arg1 forColumn:(TSWPColumn *)arg2 limitSelection:(TSWPSelection *)arg3 rubyGlyphRange:(_NSRange)arg4;
-- (void)drawCharacterFillAdornmentRects:(NSArray *)arg1 forColumn:(TSWPColumn *)arg2 limitSelection:(TSWPSelection *)arg3 rubyGlyphRange:(_NSRange)arg4;
+- (void)drawCharacterStrokeAdornmentRects:(NSArray *)arg1 forColumn:(TSWPColumn *)arg2 limitSelection:(TSWPSelection *)arg3 rubyGlyphRange:(NSRange)arg4;
+- (void)drawCharacterFillAdornmentRects:(NSArray *)arg1 forColumn:(TSWPColumn *)arg2 limitSelection:(TSWPSelection *)arg3 rubyGlyphRange:(NSRange)arg4;
 - (void)drawAdornmentRects:(NSArray *)arg1 forColumn:(TSWPColumn *)arg2 foreground:(BOOL)arg3;
 - (CGRect)getClipBoundingBox;
 - (BOOL)shouldClipFragment:(const struct TSWPLineFragment )arg1 drawingState:(const struct TSWPDrawingState )arg2 lineDrawFlags:(unsigned int)arg3 updateRect:(CGRect)arg4 outClipRect:(CGRect )arg5;

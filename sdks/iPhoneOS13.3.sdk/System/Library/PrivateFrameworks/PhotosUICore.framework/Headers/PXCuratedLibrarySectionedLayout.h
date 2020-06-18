@@ -63,7 +63,7 @@
 - (void)enumerateSectionBoundariesWithOptions:(NSUInteger)arg1 usingBlock:(id /* CDUnknownBlockType */)arg2;
 - (void)enumerateAssetsSectionSublayoutsInRect:(CGRect)arg1 usingBlock:(id /* CDUnknownBlockType */)arg2;
 - (void)enumerateAssetsSectionSublayoutsUsingBlock:(id /* CDUnknownBlockType */)arg1;
-- (void)layout:(id)arg1 collectIndexesOfChapterHeaderSublayouts:(id)arg2 heroSublayouts:(id)arg3 inRange:(_NSRange)arg4;
+- (void)layout:(id)arg1 collectIndexesOfChapterHeaderSublayouts:(id)arg2 heroSublayouts:(id)arg3 inRange:(NSRange)arg4;
 - (BOOL)layout:(id)arg1 shouldPreventFaultOutOfSublayout:(id)arg2;
 - (void)_configureSectionLayout:(id)arg1 atIndex:(long long)arg2;
 - (id)layout:(id)arg1 createSublayoutAtIndex:(long long)arg2;

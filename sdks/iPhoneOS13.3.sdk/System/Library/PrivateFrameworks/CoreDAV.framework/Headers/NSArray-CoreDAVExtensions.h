@@ -8,6 +8,6 @@
 
 @interface NSArray (CoreDAVExtensions)
 + (id)cdvArrayWithIntegers:(int)arg1;
-+ (id)_arrayWithIntArg:(int)arg1 additionalArgs:(struct __va_list_tag [1])arg2;
+// + (id)_arrayWithIntArg:(int)arg1 additionalArgs:(struct __va_list_tag [1])arg2;
 @end
 

@@ -23,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (void)calculateClosings;
 - (id)calculateHobbyPath;
 - (void)morphPointsTo:(id)arg1;
-- (double)distanceForSegment:(NSUInteger)arg1 overRange:(_NSRange)arg2 furthestNode:(NSUInteger )arg3 inSubpath:(id)arg4;
+- (double)distanceForSegment:(NSUInteger)arg1 overRange:(NSRange)arg2 furthestNode:(NSUInteger )arg3 inSubpath:(id)arg4;
 - (id)hobbyPathFrom:(id)arg1 morphedPath:(id )arg2;
 - (BOOL)pathWillClose:(id)arg1;
 - (void)dealloc;

@@ -36,7 +36,7 @@
 - (id)_recordForEvent:(id)arg1;
 - (id)_recordForEKEvent:(id)arg1;
 - (id)eventWithExternalID:(id)arg1;
-- (id)eventsInRange:(_NSRange)arg1;
+- (id)eventsInRange:(NSRange)arg1;
 - (id)resolveEventNameRecordChanges:(id)arg1 client:(id)arg2 error:(id )arg3;
 - (id)eventNameRecordsForClient:(id)arg1 error:(id )arg2;
 - (BOOL)iterEventNameRecordsForClient:(id)arg1 error:(id )arg2 block:(id /* CDUnknownBlockType */)arg3;

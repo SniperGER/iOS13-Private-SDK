@@ -20,9 +20,9 @@
 
 @property(readonly, nonatomic) NSIndexSet *visibleIndices; // @synthesize visibleIndices=mCachedVisible;
 - (id)description;
-- (void)insertRange:(_NSRange)arg1;
-- (void)deleteRange:(_NSRange)arg1;
-- (void)moveRangeFrom:(_NSRange)arg1 toIndex:(NSUInteger)arg2;
+- (void)insertRange:(NSRange)arg1;
+- (void)deleteRange:(NSRange)arg1;
+- (void)moveRangeFrom:(NSRange)arg1 toIndex:(NSUInteger)arg2;
 - (void)setAllInvalidValuesUsingBlock:(id /* CDUnknownBlockType */)arg1;
 - (void)setAllValuesToZero;
 - (unsigned short)numberOfVisibleIndicesToMarkIndexFrom:(NSUInteger)arg1;
@@ -31,13 +31,13 @@
 - (NSUInteger)findNthPreviousVisibleIndex:(NSUInteger)arg1 fromIndex:(NSUInteger)arg2;
 - (NSUInteger)findNextVisibleIndex:(NSUInteger)arg1;
 - (NSUInteger)findPreviousVisibleIndex:(NSUInteger)arg1;
-- (BOOL)anyUserHiddenIndicesInRange:(_NSRange)arg1;
-- (BOOL)anyHiddenIndicesInRange:(_NSRange)arg1;
-- (NSUInteger)numberUserHiddenIndicesInRange:(_NSRange)arg1;
-- (NSUInteger)numberHiddenIndicesInRange:(_NSRange)arg1;
+- (BOOL)anyUserHiddenIndicesInRange:(NSRange)arg1;
+- (BOOL)anyHiddenIndicesInRange:(NSRange)arg1;
+- (NSUInteger)numberUserHiddenIndicesInRange:(NSRange)arg1;
+- (NSUInteger)numberHiddenIndicesInRange:(NSRange)arg1;
 - (BOOL)isIndexUserHidden:(NSUInteger)arg1;
 - (BOOL)isIndexHidden:(NSUInteger)arg1;
-- (void)invalidate:(_NSRange)arg1;
+- (void)invalidate:(NSRange)arg1;
 - (void)setCount:(NSUInteger)arg1;
 // - (id)copyWithZone:(_NSZone )arg1;
 - (void)dealloc;

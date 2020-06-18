@@ -22,7 +22,7 @@
 
 + (BOOL)supportsSecureCoding;
 + (id)requestForPlayerInternals:(id)arg1;
-+ (id)requestForRankRange:(_NSRange)arg1;
++ (id)requestForRankRange:(NSRange)arg1;
 @property(nonatomic, getter=isPrefetch) BOOL prefetch; // @synthesize prefetch=_prefetch;
 @property(nonatomic) long long timeScope; // @synthesize timeScope=_timeScope;
 @property(nonatomic) BOOL friendsOnly; // @synthesize friendsOnly=_friendsOnly;

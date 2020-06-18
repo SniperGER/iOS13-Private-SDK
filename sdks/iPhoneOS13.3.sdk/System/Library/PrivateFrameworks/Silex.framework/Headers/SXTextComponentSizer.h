@@ -31,7 +31,7 @@
 - (id)textResizerForTextSource:(id)arg1;
 - (id)existingExclusionPathForComponentWithIdentifier:(id)arg1;
 @property(readonly, nonatomic) NSUInteger stringLength;
-- (double)verticalPositionForRange:(_NSRange)arg1;
+- (double)verticalPositionForRange:(NSRange)arg1;
 - (id)snapLines;
 - (double)calculateHeightForWidth:(double)arg1 layoutContext:(id)arg2;
 - (void)removeAllExclusionPaths;

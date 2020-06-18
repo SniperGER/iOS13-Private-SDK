@@ -12,31 +12,31 @@
 @protocol TSDTextInput <TSDEditor, UIResponderStandardEditActions>
 @property(readonly, retain) UIView *inputAccessoryView;
 @property(readonly, retain) UIView *inputView;
-@property(readonly, nonatomic) _NSRange markedRange;
+@property(readonly, nonatomic) NSRange markedRange;
 @property(readonly, retain, nonatomic) TSKSelection<TSDTextSelection> *textInputSelection;
-- (_NSRange)rangeOfWordEnclosingCharIndex:(NSUInteger)arg1 backward:(BOOL)arg2;
+- (NSRange)rangeOfWordEnclosingCharIndex:(NSUInteger)arg1 backward:(BOOL)arg2;
 - (BOOL)isCharIndex:(NSUInteger)arg1 withinTextUnit:(long long)arg2 inDirection:(long long)arg3;
 - (NSUInteger)charIndexByMovingPosition:(TSDTextPosition *)arg1 toBoundary:(long long)arg2 inDirection:(long long)arg3 preferPosition:(double )arg4;
 - (BOOL)isCharIndex:(NSUInteger)arg1 withEolAffinity:(BOOL)arg2 atBoundary:(long long)arg3 inDirection:(long long)arg4;
 - (void)clearMarkedRange;
-- (void)setSelectionWithRange:(_NSRange)arg1 endOfLine:(BOOL)arg2;
-- (TSKSelection<TSDTextSelection> *)selectionWithRange:(_NSRange)arg1;
+- (void)setSelectionWithRange:(NSRange)arg1 endOfLine:(BOOL)arg2;
+- (TSKSelection<TSDTextSelection> *)selectionWithRange:(NSRange)arg1;
 - (UIFont *)textFontAtCharIndex:(NSUInteger)arg1;
 - (UIColor *)textColorAtCharIndex:(NSUInteger)arg1;
-- (void)replaceRange:(_NSRange)arg1 withText:(NSString *)arg2;
+- (void)replaceRange:(NSRange)arg1 withText:(NSString *)arg2;
 - (void)extendSelectionRight;
 - (void)extendSelectionLeft;
-- (void)setMarkedText:(NSString *)arg1 selectedRange:(_NSRange)arg2;
-- (NSArray *)selectionRectsForRange:(_NSRange)arg1;
-- (CGRect)firstRectForRange:(_NSRange)arg1;
+- (void)setMarkedText:(NSString *)arg1 selectedRange:(NSRange)arg2;
+- (NSArray *)selectionRectsForRange:(NSRange)arg1;
+- (CGRect)firstRectForRange:(NSRange)arg1;
 - (void)insertText:(NSString *)arg1;
-- (NSString *)textInRange:(_NSRange)arg1;
+- (NSString *)textInRange:(NSRange)arg1;
 - (NSUInteger)textLength;
 - (long long)returnKeyType;
 - (BOOL)textIsVerticalAtCharIndex:(NSUInteger)arg1;
 - (void)endEditing;
 - (BOOL)wantsKeyboard;
-- (_NSRange)editRange;
+- (NSRange)editRange;
 
 @optional
 @property(retain, nonatomic) TSKSelection<TSDTextSelection> *selectionForArrowKeys;
@@ -66,6 +66,6 @@
 - (BOOL)acceptsHyperlink;
 - (void)endEditingAndSelectParent:(id)arg1;
 - (long long)writingDirectionForCharIndex:(NSUInteger)arg1;
-- (void)setBaseWritingDirection:(long long)arg1 forParagraphsWithRange:(_NSRange)arg2;
+- (void)setBaseWritingDirection:(long long)arg1 forParagraphsWithRange:(NSRange)arg2;
 @end
 

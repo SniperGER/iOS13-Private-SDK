@@ -20,7 +20,7 @@
 @property(readonly, nonatomic) BOOL isCorrupt;
 @property(readonly, nonatomic) BOOL hasStickers;
 @property(readonly, nonatomic) BOOL hasMessageAcknowledgment;
-@property(readonly, nonatomic) _NSRange messagePartRange;
+@property(readonly, nonatomic) NSRange messagePartRange;
 @property(readonly, nonatomic) BOOL canSendMessageAcknowledgment;
 - (id)initWithIMChatItem:(id)arg1 maxWidth:(double)arg2;
 @property(readonly, copy, nonatomic) NSArray *pasteboardItems;

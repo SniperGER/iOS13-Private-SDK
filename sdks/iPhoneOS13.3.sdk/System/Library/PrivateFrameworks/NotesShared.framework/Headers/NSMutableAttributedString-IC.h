@@ -7,8 +7,8 @@
 #import <Foundation/NSMutableAttributedString.h>
 
 @interface NSMutableAttributedString (IC)
-- (void)appendAttributedSubstring:(id)arg1 fromRange:(_NSRange)arg2;
-- (void)replaceCharactersInRange:(_NSRange)arg1 withAttributedSubstring:(id)arg2 fromRange:(_NSRange)arg3;
+- (void)appendAttributedSubstring:(id)arg1 fromRange:(NSRange)arg2;
+- (void)replaceCharactersInRange:(NSRange)arg1 withAttributedSubstring:(id)arg2 fromRange:(NSRange)arg3;
 - (void)appendString:(id)arg1;
 @end
 

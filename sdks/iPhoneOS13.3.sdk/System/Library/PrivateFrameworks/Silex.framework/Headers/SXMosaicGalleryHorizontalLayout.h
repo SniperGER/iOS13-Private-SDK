@@ -10,7 +10,7 @@
 {
 }
 
-- (_NSRange)columnRangeForItem:(id)arg1;
+- (NSRange)columnRangeForItem:(id)arg1;
 - (id)calculateFrames;
 
 @end

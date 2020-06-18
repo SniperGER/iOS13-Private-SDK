@@ -8,10 +8,15 @@
 @class CLKVideo, UIImage;
 @protocol NTKAVListing;
 
+#ifndef NTKAVListing_Protocol
+#define NTKAVListing_Protocol
+
 @protocol NTKAVListing <NSObject>
 @property(readonly, nonatomic) UIImage *image;
 @property(readonly, nonatomic) CLKVideo *video;
 - (void)discardAssets;
 - (BOOL)snapshotDiffers:(id <NTKAVListing>)arg1;
 @end
+
+#endif
 

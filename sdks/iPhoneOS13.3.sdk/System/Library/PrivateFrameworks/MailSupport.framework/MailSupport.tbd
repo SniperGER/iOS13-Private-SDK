@@ -8,10 +8,6 @@ compatibility-version: 1
 objc-constraint:       retain_release
 exports:
   - archs:              [ armv7, armv7s, arm64, arm64e ]
-    allowable-clients:  [ EmailTests, IMAP, MIME, Mail, MailCompositionService, MailIntentsExtension, MailNotificationContentExtension,
-                          MailQuickLookExtension, MailUI, MailUnitTests, MailWebProcessBundle, MailWebProcessSupport, Message, MessageUI,
-                          MessageUITests, MobileMail, MobileMailInternalSettings, MobileMailUI, NLPLearner, NLPLearnerTests,
-                          NanoMailBridgeSettings, NanoMailKitClient, PFLTests, POP, QuickTypeDESPlugin, maild ]
     symbols:            [ _AWDMailAutoFetchReportReadFrom, _AWDMailCannotGetMailErrorReportReadFrom,
                           _AWDMailComposeAttachmentReportReadFrom, _AWDMailErrorReadFrom, _AWDMailFeatureEngagementReportReadFrom,
                           _AWDMailMessageBodyReadFrom, _AWDMailMessageDisplayErrorReportReadFrom,

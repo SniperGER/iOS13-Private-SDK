@@ -7,8 +7,13 @@
 
 @class NTKEditOption, UIImage;
 
+#ifndef NTKEditOptionTransitioningViewDelegate_Protocol
+#define NTKEditOptionTransitioningViewDelegate_Protocol
+
 @protocol NTKEditOptionTransitioningViewDelegate <NSObject>
 - (UIImage *)imageForEditOption:(NTKEditOption *)arg1;
 - (BOOL)shouldFadeIncomingView;
 @end
+
+#endif
 

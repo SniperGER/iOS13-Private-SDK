@@ -7,6 +7,9 @@
 
 @class NSArray, NSNumber, NSString, NSUUID, NTKFace, NTKFaceConfiguration;
 
+#ifndef NTKCollectionServer_Protocol
+#define NTKCollectionServer_Protocol
+
 @protocol NTKCollectionServer <NSObject>
 - (void)flushUpdatesWithIdentifier:(NSString *)arg1;
 - (void)resetCollection;
@@ -19,4 +22,6 @@
 - (void)setSelectedFaceUUID:(NSUUID *)arg1;
 - (void)registerForCollectionIdentifier:(NSString *)arg1 deviceUUID:(NSUUID *)arg2 withSeqId:(NSNumber *)arg3;
 @end
+
+#endif
 

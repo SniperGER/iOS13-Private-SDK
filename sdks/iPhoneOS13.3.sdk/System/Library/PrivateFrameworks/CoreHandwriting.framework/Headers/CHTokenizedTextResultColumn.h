@@ -20,7 +20,7 @@
 - (BOOL)isEqual:(id)arg1;
 - (BOOL)isEqualToTokenizedTextResultColumn:(id)arg1;
 @property(readonly, nonatomic) NSIndexSet *strokeIndexes;
-- (long long)indexOfEquivalentTokenRow:(id)arg1 tokenRange:(_NSRange)arg2;
+- (long long)indexOfEquivalentTokenRow:(id)arg1 tokenRange:(NSRange)arg2;
 - (id)description;
 - (void)dealloc;
 - (id)mutableCopyWithZone:(_NSZone )arg1;

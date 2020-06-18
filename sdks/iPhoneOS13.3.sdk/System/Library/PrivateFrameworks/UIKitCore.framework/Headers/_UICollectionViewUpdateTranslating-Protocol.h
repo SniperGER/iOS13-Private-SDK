@@ -10,8 +10,8 @@
 @protocol _UICollectionViewUpdateTranslating <NSObject>
 - (long long)finalSectionCount;
 - (long long)initialSectionCount;
-- (_NSRange)finalSectionGlobalItemRangeForSection:(long long)arg1;
-- (_NSRange)initalSectionGlobalItemRangeForSection:(long long)arg1;
+- (NSRange)finalSectionGlobalItemRangeForSection:(long long)arg1;
+- (NSRange)initalSectionGlobalItemRangeForSection:(long long)arg1;
 - (NSIndexPath *)initialIndexPathForSupplementaryElementOfKind:(NSString *)arg1 forFinalIndexPath:(NSIndexPath *)arg2;
 - (NSIndexPath *)finalIndexPathForSupplementaryElementOfKind:(NSString *)arg1 forInitialIndexPath:(NSIndexPath *)arg2;
 - (long long)initialSectionIndexForFinalSectionIndex:(long long)arg1;

@@ -35,7 +35,7 @@ __attribute__((visibility("hidden")))
 - (oneway void)speechRequestSuccessWithInstrumentMetrics:(id)arg1;
 - (oneway void)synthesisRequest:(id)arg1 didReceiveTimingInfo:(id)arg2;
 - (oneway void)speechRequestDidReceiveTimingInfo:(id)arg1;
-- (oneway void)speechRequestMark:(long long)arg1 didStartForRange:(_NSRange)arg2;
+- (oneway void)speechRequestMark:(long long)arg1 didStartForRange:(NSRange)arg2;
 - (oneway void)speechRequestDidContinue;
 - (oneway void)speechRequestDidPause;
 - (oneway void)speechRequestDidStart;

@@ -173,7 +173,7 @@
 - (void)_removeFromAllWebViewsSet;
 - (BOOL)shouldRequestCandidates;
 - (void)forceRequestCandidatesForTesting;
-- (void)showCandidates:(id)arg1 forString:(id)arg2 inRect:(CGRect)arg3 forSelectedRange:(_NSRange)arg4 view:(id)arg5 completionHandler:(id /* CDUnknownBlockType */)arg6;
+- (void)showCandidates:(id)arg1 forString:(id)arg2 inRect:(CGRect)arg3 forSelectedRange:(NSRange)arg4 view:(id)arg5 completionHandler:(id /* CDUnknownBlockType */)arg6;
 - (void)_setFontFallbackPrefersPictographs:(BOOL)arg1;
 @property(copy, nonatomic, getter=_sourceApplicationAuditData, setter=_setSourceApplicationAuditData:) NSData *sourceApplicationAuditData;
 @property(nonatomic, setter=_setUseSystemAppearance:) BOOL _useSystemAppearance;

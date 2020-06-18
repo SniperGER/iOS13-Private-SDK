@@ -12,10 +12,10 @@
 @interface IKCSSAtMediaRule : IKCSSRule <NSCopying>
 {
     IKCSSMediaQuery *_mediaQuery;
-    _NSRange _queryRange;
+    NSRange _queryRange;
 }
 
-@property(nonatomic) _NSRange queryRange; // @synthesize queryRange=_queryRange;
+@property(nonatomic) NSRange queryRange; // @synthesize queryRange=_queryRange;
 // - (void).cxx_destruct;
 - (id)description;
 - (id)mediaQuery;

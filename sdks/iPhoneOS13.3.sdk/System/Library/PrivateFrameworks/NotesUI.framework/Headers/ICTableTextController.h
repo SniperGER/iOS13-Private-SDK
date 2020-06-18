@@ -11,7 +11,7 @@
 }
 
 - (id)defaultTypingAttributesForEmptyDocument;
-- (void)styleText:(id)arg1 inRange:(_NSRange)arg2 fixModelAttributes:(BOOL)arg3;
+- (void)styleText:(id)arg1 inRange:(NSRange)arg2 fixModelAttributes:(BOOL)arg3;
 - (id)init;
 
 @end

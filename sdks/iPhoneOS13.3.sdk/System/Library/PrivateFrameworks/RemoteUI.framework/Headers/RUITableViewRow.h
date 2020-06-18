@@ -70,7 +70,7 @@
 - (void)webContainerView:(id)arg1 didClickLinkWithURL:(id)arg2;
 - (void)detailLabelActivatedLinkFromCell:(id)arg1 completion:(id /* CDUnknownBlockType */)arg2;
 - (id)sourceURL;
-- (BOOL)textField:(id)arg1 shouldChangeCharactersInRange:(_NSRange)arg2 replacementString:(id)arg3;
+- (BOOL)textField:(id)arg1 shouldChangeCharactersInRange:(NSRange)arg2 replacementString:(id)arg3;
 - (void)setEditableTextFieldValue:(id)arg1;
 - (BOOL)textFieldShouldReturn:(id)arg1;
 - (long long)numberOfComponentsInPickerView:(id)arg1;

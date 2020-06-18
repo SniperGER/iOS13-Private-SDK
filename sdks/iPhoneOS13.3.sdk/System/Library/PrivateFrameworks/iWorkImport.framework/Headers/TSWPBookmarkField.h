@@ -32,8 +32,8 @@ __attribute__((visibility("hidden")))
 @property(readonly, nonatomic) NSString *key;
 @property(readonly, nonatomic) NSURL *url;
 @property(readonly, nonatomic) NSString *displayName;
-@property(readonly, nonatomic) _NSRange effectiveRange;
-@property(readonly, nonatomic) _NSRange range;
+@property(readonly, nonatomic) NSRange effectiveRange;
+@property(readonly, nonatomic) NSRange range;
 - (BOOL)isEquivalentToObject:(id)arg1;
 - (BOOL)allowsEditing;
 - (int)styleAttributeArrayKind;

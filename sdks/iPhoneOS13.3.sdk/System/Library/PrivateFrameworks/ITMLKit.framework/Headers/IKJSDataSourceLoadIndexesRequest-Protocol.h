@@ -10,7 +10,7 @@
 @class JSValue;
 
 @protocol IKJSDataSourceLoadIndexesRequest <IKJSEventListenerObject, JSExport>
-@property(readonly, nonatomic) _NSRange range;
+@property(readonly, nonatomic) NSRange range;
 @property(readonly, nonatomic) __weak JSValue *dataSource;
 - (void)close:(BOOL)arg1;
 @end

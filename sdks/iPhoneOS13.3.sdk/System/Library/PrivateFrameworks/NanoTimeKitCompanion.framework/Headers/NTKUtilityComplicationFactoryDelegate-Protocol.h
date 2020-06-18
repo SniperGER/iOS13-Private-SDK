@@ -7,8 +7,13 @@
 
 @class CLKFont;
 
+#ifndef NTKUtilityComplicationFactoryDelegate_Protocol
+#define NTKUtilityComplicationFactoryDelegate_Protocol
+
 @protocol NTKUtilityComplicationFactoryDelegate <NSObject>
 - (BOOL)slotUsesCurvedText:(long long)arg1;
 - (CLKFont *)utilityDateComplicationFontForDateStyle:(NSUInteger)arg1;
 @end
+
+#endif
 

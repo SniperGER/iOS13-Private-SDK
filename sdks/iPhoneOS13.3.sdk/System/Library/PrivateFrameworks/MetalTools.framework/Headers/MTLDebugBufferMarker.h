@@ -11,10 +11,10 @@
 @interface MTLDebugBufferMarker : NSObject
 {
     NSString *_label;
-    _NSRange _range;
+    NSRange _range;
 }
 
-@property(nonatomic) _NSRange range; // @synthesize range=_range;
+@property(nonatomic) NSRange range; // @synthesize range=_range;
 @property(copy, nonatomic) NSString *label; // @synthesize label=_label;
 - (void)dealloc;
 

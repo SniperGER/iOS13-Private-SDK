@@ -63,7 +63,7 @@
 - (NSSet *)unclusteredClusteringEligibleFaceLocalIdentifiers:(id )arg1;
 - (NSSet *)faceLocalIdentifiersInFaceGroupWithLocalIdentifier:(NSString *)arg1 error:(id )arg2;
 - (NSSet *)facesForFaceLocalIdentifiers:(NSArray *)arg1 error:(id )arg2;
-- (NSUInteger)countOfClusteredFacesWithClusterSequenceNumbersInRange:(_NSRange)arg1;
+- (NSUInteger)countOfClusteredFacesWithClusterSequenceNumbersInRange:(NSRange)arg1;
 - (NSUInteger)countOfClusteredFaces;
 - (NSUInteger)countOfUnclusteredClusteringEligibleFaces;
 - (NSUInteger)countOfClusteringEligibleFaces;

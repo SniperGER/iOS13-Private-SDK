@@ -32,7 +32,7 @@
 - (id).cxx_construct;
 // - (void).cxx_destruct;
 - (void)executeCommandsInBuffer:(id)arg1 indirectBuffer:(id)arg2 indirectBufferOffset:(NSUInteger)arg3;
-- (void)executeCommandsInBuffer:(id)arg1 withRange:(_NSRange)arg2;
+- (void)executeCommandsInBuffer:(id)arg1 withRange:(NSRange)arg2;
 - (void)memoryBarrierWithResources:(const id )arg1 count:(NSUInteger)arg2;
 - (void)memoryBarrierWithScope:(NSUInteger)arg1;
 - (void)useHeaps:(const id )arg1 count:(NSUInteger)arg2;
@@ -59,13 +59,13 @@
 - (void)validateStageInRegion:(CDStruct_14f26992)arg1;
 - (void)setImageblockWidth:(NSUInteger)arg1 height:(NSUInteger)arg2;
 - (void)setThreadgroupMemoryLength:(NSUInteger)arg1 atIndex:(NSUInteger)arg2;
-- (void)setSamplerStates:(const id )arg1 lodMinClamps:(const float )arg2 lodMaxClamps:(const float )arg3 withRange:(_NSRange)arg4;
+- (void)setSamplerStates:(const id )arg1 lodMinClamps:(const float )arg2 lodMaxClamps:(const float )arg3 withRange:(NSRange)arg4;
 - (void)setSamplerState:(id)arg1 lodMinClamp:(float)arg2 lodMaxClamp:(float)arg3 atIndex:(NSUInteger)arg4;
-- (void)setSamplerStates:(const id )arg1 withRange:(_NSRange)arg2;
+- (void)setSamplerStates:(const id )arg1 withRange:(NSRange)arg2;
 - (void)setSamplerState:(id)arg1 atIndex:(NSUInteger)arg2;
-- (void)setTextures:(const id )arg1 withRange:(_NSRange)arg2;
+- (void)setTextures:(const id )arg1 withRange:(NSRange)arg2;
 - (void)setTexture:(id)arg1 atIndex:(NSUInteger)arg2;
-- (void)setBuffers:(const id )arg1 offsets:(const NSUInteger )arg2 withRange:(_NSRange)arg3;
+- (void)setBuffers:(const id )arg1 offsets:(const NSUInteger )arg2 withRange:(NSRange)arg3;
 - (void)setBufferOffset:(NSUInteger)arg1 atIndex:(NSUInteger)arg2;
 - (void)setBuffer:(id)arg1 offset:(NSUInteger)arg2 atIndex:(NSUInteger)arg3;
 - (void)setBytes:(const void )arg1 length:(NSUInteger)arg2 atIndex:(NSUInteger)arg3;

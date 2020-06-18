@@ -7,7 +7,12 @@
 
 @class NTKContainerView;
 
+#ifndef NTKContainerViewLayoutDelegate_Protocol
+#define NTKContainerViewLayoutDelegate_Protocol
+
 @protocol NTKContainerViewLayoutDelegate <NSObject>
 - (void)layoutContainerView:(NTKContainerView *)arg1;
 @end
+
+#endif
 

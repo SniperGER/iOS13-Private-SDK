@@ -41,7 +41,7 @@ __attribute__((visibility("hidden")))
 @property(readonly, nonatomic) NSString *documentContextAfterInput;
 @property(readonly, nonatomic) NSString *documentContextBeforeInput;
 - (void)unmarkText;
-- (void)setMarkedText:(id)arg1 selectedRange:(_NSRange)arg2;
+- (void)setMarkedText:(id)arg1 selectedRange:(NSRange)arg2;
 - (void)deleteBackward;
 - (void)insertText:(id)arg1;
 @property(readonly, nonatomic) BOOL hasText;

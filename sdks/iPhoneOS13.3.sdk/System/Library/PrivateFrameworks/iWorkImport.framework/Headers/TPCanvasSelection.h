@@ -47,11 +47,11 @@ __attribute__((visibility("hidden")))
 - (id)copyWithVisualRanges:(id)arg1 headCharIndex:(NSUInteger)arg2 tailCharIndex:(NSUInteger)arg3 rightToLeft:(BOOL)arg4 sameLine:(BOOL)arg5;
 - (id)copyWithNewVisualRanges:(id)arg1;
 - (id)copyWithNewStyleInsertionBehavior:(int)arg1 newCaretAffinity:(int)arg2;
-- (id)copyWithNewRange:(_NSRange)arg1;
+- (id)copyWithNewRange:(NSRange)arg1;
 - (id)copyWithNewType:(int)arg1;
-- (id)copyWithNewVisualTypeRange:(_NSRange)arg1 head:(NSUInteger)arg2 tail:(NSUInteger)arg3;
-- (id)copyWithNewType:(int)arg1 range:(_NSRange)arg2;
-- (id)copyWithNewType:(int)arg1 smartFieldRange:(_NSRange)arg2;
+- (id)copyWithNewVisualTypeRange:(NSRange)arg1 head:(NSUInteger)arg2 tail:(NSUInteger)arg3;
+- (id)copyWithNewType:(int)arg1 range:(NSRange)arg2;
+- (id)copyWithNewType:(int)arg1 smartFieldRange:(NSRange)arg2;
 - (id)initWithTextSelection:(id)arg1 infos:(id)arg2 excludedInfos:(id)arg3 additionalInfos:(id)arg4;
 - (id)initWithInfos:(id)arg1;
 - (id)p_UUIDDescriptionsForInfosSet:(id)arg1;
@@ -59,7 +59,7 @@ __attribute__((visibility("hidden")))
 @property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) BOOL isEmpty;
 @property(readonly, nonatomic) int canvasSelectionKind;
-- (id)initWithType:(int)arg1 range:(_NSRange)arg2 styleInsertionBehavior:(int)arg3 caretAffinity:(int)arg4 smartFieldRange:(_NSRange)arg5 leadingEdge:(BOOL)arg6 leadingCharIndex:(NSUInteger)arg7 infos:(id)arg8 excludedInfos:(id)arg9 additionalInfos:(id)arg10;
+- (id)initWithType:(int)arg1 range:(NSRange)arg2 styleInsertionBehavior:(int)arg3 caretAffinity:(int)arg4 smartFieldRange:(NSRange)arg5 leadingEdge:(BOOL)arg6 leadingCharIndex:(NSUInteger)arg7 infos:(id)arg8 excludedInfos:(id)arg9 additionalInfos:(id)arg10;
 
 @end
 

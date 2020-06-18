@@ -20,7 +20,7 @@
 // - (void).cxx_destruct;
 - (id)_networkImage;
 - (BOOL)textFieldShouldClear:(id)arg1;
-- (BOOL)textField:(id)arg1 shouldChangeCharactersInRange:(_NSRange)arg2 replacementString:(id)arg3;
+- (BOOL)textField:(id)arg1 shouldChangeCharactersInRange:(NSRange)arg2 replacementString:(id)arg3;
 - (BOOL)textFieldShouldBeginEditing:(id)arg1;
 - (void)_updateNetworkImage;
 - (void)setPaymentSetupField:(id)arg1;

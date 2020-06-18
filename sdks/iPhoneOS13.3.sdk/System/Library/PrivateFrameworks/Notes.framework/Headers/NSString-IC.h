@@ -12,19 +12,19 @@
 - (id)ic_truncatedStringWithMaxLength:(NSUInteger)arg1 truncated:(BOOL )arg2;
 - (id)ic_stringByTrimmingLeadingCharactersInSet:(id)arg1;
 - (NSUInteger)ic_countOfCharactersInSet:(id)arg1;
-- (_NSRange)ic_safeCharacterRangeForRange:(_NSRange)arg1;
-- (BOOL)ic_isLastCharacterInRangeANewlineForRange:(_NSRange)arg1;
+- (NSRange)ic_safeCharacterRangeForRange:(NSRange)arg1;
+- (BOOL)ic_isLastCharacterInRangeANewlineForRange:(NSRange)arg1;
 - (NSUInteger)lengthOfLongestLine;
-- (_NSRange)paragraphRangeForRange:(_NSRange)arg1 contentEnd:(NSUInteger )arg2;
+- (NSRange)paragraphRangeForRange:(NSRange)arg1 contentEnd:(NSUInteger )arg2;
 - (id)ic_stringByReplacingCharactersInStringMap:(id)arg1;
 - (id)ic_stringByReplacingCharactersInSet:(id)arg1 withString:(id)arg2;
 - (id)ic_stringByReplacingNewlineCharactersWithWhiteSpace;
-- (id)ic_checkedSubstringWithRange:(_NSRange)arg1;
-- (id)ic_substringWithRange:(_NSRange)arg1;
+- (id)ic_checkedSubstringWithRange:(NSRange)arg1;
+- (id)ic_substringWithRange:(NSRange)arg1;
 - (id)ic_substringToIndex:(NSUInteger)arg1;
 - (id)ic_substringFromIndex:(NSUInteger)arg1;
-- (void)enumerateContentLineRangesInRange:(_NSRange)arg1 usingBlock:(id /* CDUnknownBlockType */)arg2;
-- (void)enumerateParagraphsInRange:(_NSRange)arg1 usingBlock:(id /* CDUnknownBlockType */)arg2;
+- (void)enumerateContentLineRangesInRange:(NSRange)arg1 usingBlock:(id /* CDUnknownBlockType */)arg2;
+- (void)enumerateParagraphsInRange:(NSRange)arg1 usingBlock:(id /* CDUnknownBlockType */)arg2;
 - (BOOL)ic_containsAlphanumericCharacters;
 - (BOOL)ic_containsNonWhitespaceAndAttachmentCharacters;
 - (BOOL)ic_containsNonWhitespaceCharacters;
@@ -34,8 +34,8 @@
 @property(readonly, nonatomic) NSString *ic_stringByRemovingAttachmentCharacters;
 @property(readonly, nonatomic) NSString *ic_stringReplacingUnsafeXMLCharacters;
 @property(readonly, nonatomic) NSString *ic_stringReplacingUnsafeHTMLCharacters;
-- (_NSRange)ic_lineRangeIgnoringLineBreakCharactersForIndex:(NSUInteger)arg1;
-- (BOOL)ic_rangeIsValid:(_NSRange)arg1;
+- (NSRange)ic_lineRangeIgnoringLineBreakCharactersForIndex:(NSUInteger)arg1;
+- (BOOL)ic_rangeIsValid:(NSRange)arg1;
 @property(readonly, nonatomic) NSString *ic_sanitizedFilenameString;
 @property(readonly, nonatomic) NSString *ic_whitespaceAndNewlineCoalescedString;
 @property(readonly, nonatomic) NSString *ic_leadingTrimmedString;
@@ -43,9 +43,9 @@
 @property(readonly, nonatomic) NSString *ic_trimmedString;
 @property(readonly, nonatomic) NSString *ic_htmlStringEscapingQuotesAndLineBreaks;
 - (id)ic_md5;
-@property(readonly, nonatomic) _NSRange ic_range;
+@property(readonly, nonatomic) NSRange ic_range;
 - (id)_HTMLTagNameClosing:(BOOL )arg1;
-- (_NSRange)_HTMLRangeOfLastTagBeforeIndex:(NSUInteger)arg1;
+- (NSRange)_HTMLRangeOfLastTagBeforeIndex:(NSUInteger)arg1;
 - (NSUInteger)ic_HTMLInsertionPoint;
 @end
 

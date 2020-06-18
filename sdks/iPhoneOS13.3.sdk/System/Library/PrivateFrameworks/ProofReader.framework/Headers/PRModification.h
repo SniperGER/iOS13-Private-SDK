@@ -11,11 +11,11 @@
 }
 
 - (double)modificationScore;
-- (_NSRange)additionalSyllableRange;
-- (_NSRange)syllableRange;
+- (NSRange)additionalSyllableRange;
+- (NSRange)syllableRange;
 - (NSUInteger)modificationType;
 - (id)replacementString;
-- (_NSRange)range;
+- (NSRange)range;
 
 @end
 

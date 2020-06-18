@@ -51,7 +51,7 @@
 - (void)setHandlerWithTarget:(id)arg1 selector:(SEL)arg2 forKey:(int)arg3 possibleRequiredEntitlements:(id)arg4;
 - (void)setHandlerWithTarget:(id)arg1 selector:(SEL)arg2 async:(BOOL)arg3 forKey:(int)arg4;
 - (void)setHandlerWithTarget:(id)arg1 selector:(SEL)arg2 forKey:(int)arg3;
-- (void)_addPossibleRequiredEntitlementsToMessageWithKey:(int)arg1 first:(id)arg2 vothers:(struct __va_list_tag [1])arg3;
+// - (void)_addPossibleRequiredEntitlementsToMessageWithKey:(int)arg1 first:(id)arg2 vothers:(struct __va_list_tag [1])arg3;
 - (void)_registerContext:(id)arg1 forKey:(int)arg2;
 - (void)removeHandlerForKey:(int)arg1;
 - (void)setHandler:(id /* CDUnknownBlockType */)arg1 forKey:(int)arg2;

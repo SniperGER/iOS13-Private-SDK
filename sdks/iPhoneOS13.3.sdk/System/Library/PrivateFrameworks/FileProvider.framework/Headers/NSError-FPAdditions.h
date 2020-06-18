@@ -10,7 +10,7 @@
 
 @interface NSError (FPAdditions)
 + (id)fp_invalidArgumentError:(id)arg1;
-+ (id)_fp_errorWithPOSIXCode:(int)arg1 itemURL:(id)arg2 debugDescription:(id)arg3 format:(id)arg4 arguments:(struct __va_list_tag [1])arg5;
+// + (id)_fp_errorWithPOSIXCode:(int)arg1 itemURL:(id)arg2 debugDescription:(id)arg3 format:(id)arg4 arguments:(struct __va_list_tag [1])arg5;
 + (id)fp_errorWithPOSIXCode:(int)arg1 itemURL:(id)arg2 debugDescription:(id)arg3;
 + (id)fp_errorWithPOSIXCode:(int)arg1 description:(id)arg2;
 + (id)fp_errorWithPOSIXCode:(int)arg1;

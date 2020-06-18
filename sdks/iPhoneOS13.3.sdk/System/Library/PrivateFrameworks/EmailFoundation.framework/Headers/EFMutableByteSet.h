@@ -11,8 +11,8 @@
 }
 
 - (void)invert;
-- (void)removeBytesInRange:(_NSRange)arg1;
-- (void)addBytesInRange:(_NSRange)arg1;
+- (void)removeBytesInRange:(NSRange)arg1;
+- (void)addBytesInRange:(NSRange)arg1;
 // - (id)copyWithZone:(_NSZone )arg1;
 
 @end

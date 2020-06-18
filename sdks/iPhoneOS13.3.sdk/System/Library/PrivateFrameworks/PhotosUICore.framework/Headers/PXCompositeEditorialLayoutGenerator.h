@@ -24,15 +24,15 @@
 
 // - (void).cxx_destruct;
 - (struct _PXLayoutGeometry)_geometryFromFrame:(CGRect)arg1 index:(NSUInteger)arg2;
-- (id)_layoutInputsInRange:(_NSRange)arg1;
+- (id)_layoutInputsInRange:(NSRange)arg1;
 - (void)_prepareGeometriesBufferForCount:(NSUInteger)arg1;
 - (void)_prepareLayoutItemWeightsBufferForCount:(NSUInteger)arg1;
 - (void)_normalizeWeightsForInputItems:(id)arg1;
-- (id)_minCostingTemplateAmongTemplates:(id)arg1 forFittingInputItems:(id)arg2 inRange:(_NSRange)arg3 minCost:(out double )arg4;
+- (id)_minCostingTemplateAmongTemplates:(id)arg1 forFittingInputItems:(id)arg2 inRange:(NSRange)arg3 minCost:(out double )arg4;
 - (void)_enumerateTemplatesWithBlock:(id /* CDUnknownBlockType */)arg1;
 - (void)_computeTemplatesByTileCountIfNeeded;
 - (void)_prepareIfNeeded;
-- (void)getGeometries:(struct _PXLayoutGeometry )arg1 inRange:(_NSRange)arg2 withKind:(long long)arg3;
+- (void)getGeometries:(struct _PXLayoutGeometry )arg1 inRange:(NSRange)arg2 withKind:(long long)arg3;
 - (CGSize)size;
 - (CGSize)estimatedSize;
 - (void)invalidate;

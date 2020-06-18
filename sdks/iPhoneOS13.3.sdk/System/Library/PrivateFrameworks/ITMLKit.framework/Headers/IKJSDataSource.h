@@ -51,7 +51,7 @@
 - (id)item:(long long)arg1;
 @property(readonly, nonatomic) long long length;
 - (id)initConstructor:(id)arg1:(id)arg2:(long long)arg3;
-- (id)valuesForSubscripts:(_NSRange)arg1 boxed:(BOOL)arg2;
+- (id)valuesForSubscripts:(NSRange)arg1 boxed:(BOOL)arg2;
 - (id)initWithItems:(id)arg1 indexTitles:(id)arg2 segmentSize:(long long)arg3;
 - (id)initWithItems:(id)arg1 indexTitles:(id)arg2;
 - (id)initWithItems:(id)arg1;

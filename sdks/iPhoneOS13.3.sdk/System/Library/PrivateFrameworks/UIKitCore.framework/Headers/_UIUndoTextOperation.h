@@ -12,15 +12,15 @@ __attribute__((visibility("hidden")))
 @interface _UIUndoTextOperation : NSObject
 {
     UITextInputController *_inputController;
-    _NSRange _affectedRange;
+    NSRange _affectedRange;
 }
 
 @property(nonatomic) __weak UITextInputController *inputController; // @synthesize inputController=_inputController;
-@property(nonatomic) _NSRange affectedRange; // @synthesize affectedRange=_affectedRange;
+@property(nonatomic) NSRange affectedRange; // @synthesize affectedRange=_affectedRange;
 // - (void).cxx_destruct;
 - (BOOL)supportsCoalescing;
 - (void)undoRedo;
-- (id)initWithAffectedRange:(_NSRange)arg1 inputController:(id)arg2;
+- (id)initWithAffectedRange:(NSRange)arg1 inputController:(id)arg2;
 
 @end
 

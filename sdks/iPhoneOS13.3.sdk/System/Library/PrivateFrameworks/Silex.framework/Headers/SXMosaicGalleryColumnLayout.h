@@ -16,8 +16,8 @@
 @property(readonly, nonatomic) double width; // @synthesize width=_width;
 - (double)widthOfColumn:(NSUInteger)arg1 inNumberOfColumns:(NSUInteger)arg2;
 - (double)positionOfColumn:(NSUInteger)arg1 inNumberOfColumns:(NSUInteger)arg2;
-- (double)widthForColumnRange:(_NSRange)arg1 numberOfColumns:(NSUInteger)arg2;
-- (double)positionForColumnRange:(_NSRange)arg1 numberOfColumns:(NSUInteger)arg2;
+- (double)widthForColumnRange:(NSRange)arg1 numberOfColumns:(NSUInteger)arg2;
+- (double)positionForColumnRange:(NSRange)arg1 numberOfColumns:(NSUInteger)arg2;
 - (id)initWithWidth:(double)arg1 gutter:(double)arg2;
 
 @end

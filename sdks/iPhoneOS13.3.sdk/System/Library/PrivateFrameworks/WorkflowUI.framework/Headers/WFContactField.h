@@ -25,12 +25,12 @@
     WFTextScrollView *_scrollView;
     UIButton *_plusButton;
     WFContactPickerCoordinator *_contactPicker;
-    _NSRange _selectedRange;
+    NSRange _selectedRange;
 }
 
 @property(retain, nonatomic) WFContactPickerCoordinator *contactPicker; // @synthesize contactPicker=_contactPicker;
 @property(nonatomic) BOOL shouldEndEditing; // @synthesize shouldEndEditing=_shouldEndEditing;
-@property(nonatomic) _NSRange selectedRange; // @synthesize selectedRange=_selectedRange;
+@property(nonatomic) NSRange selectedRange; // @synthesize selectedRange=_selectedRange;
 @property(nonatomic) __weak UIButton *plusButton; // @synthesize plusButton=_plusButton;
 @property(nonatomic) __weak WFTextScrollView *scrollView; // @synthesize scrollView=_scrollView;
 @property(nonatomic) __weak WFContactTextView *textView; // @synthesize textView=_textView;
@@ -46,17 +46,17 @@
 - (void)tintColorDidChange;
 - (id)typingAttributes;
 - (void)textViewDidChange:(id)arg1;
-- (BOOL)textView:(id)arg1 shouldChangeTextInRange:(_NSRange)arg2 replacementText:(id)arg3;
+- (BOOL)textView:(id)arg1 shouldChangeTextInRange:(NSRange)arg2 replacementText:(id)arg3;
 - (void)textViewDidChangeSelection:(id)arg1;
 - (void)textViewDidEndEditing:(id)arg1;
 - (NSUInteger)numberOfValuesForProperties:(id)arg1 inContact:(id)arg2;
 - (BOOL)text:(id)arg1 containsMatchesForProperties:(id)arg2;
 - (BOOL)text:(id)arg1 containsMatchesForProperty:(int)arg2;
 - (void)chooseMultivalueIndexIfNecessaryForContact:(id)arg1 sender:(id)arg2;
-- (void)presentContactSelectionActionSheetForText:(id)arg1 attributedText:(id)arg2 replacementRange:(_NSRange)arg3;
-- (void)tokenizeFreeText:(id)arg1 replacementRange:(_NSRange)arg2 newValue:(id)arg3;
-- (void)deleteFreeText:(id)arg1 replacementRange:(_NSRange)arg2 newValue:(id)arg3;
-- (long long)tokenizeFreeTextFromRange:(_NSRange)arg1 freeTextModificationBlock:(id /* CDUnknownBlockType */ )arg2;
+- (void)presentContactSelectionActionSheetForText:(id)arg1 attributedText:(id)arg2 replacementRange:(NSRange)arg3;
+- (void)tokenizeFreeText:(id)arg1 replacementRange:(NSRange)arg2 newValue:(id)arg3;
+- (void)deleteFreeText:(id)arg1 replacementRange:(NSRange)arg2 newValue:(id)arg3;
+- (long long)tokenizeFreeTextFromRange:(NSRange)arg1 freeTextModificationBlock:(id /* CDUnknownBlockType */ )arg2;
 - (void)insertContact:(id)arg1;
 - (void)showContactPicker;
 - (void)selectContact;

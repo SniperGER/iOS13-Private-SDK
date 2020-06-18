@@ -27,7 +27,7 @@ __attribute__((visibility("hidden")))
 - (BOOL)hasPageHintOfKind:(long long)arg1 atPageIndex:(NSUInteger)arg2;
 - (void)trimPageHintsFromPageIndex:(NSUInteger)arg1;
 - (id)pageHintForPageIndex:(NSUInteger)arg1;
-@property(readonly, nonatomic) _NSRange documentPageRange;
+@property(readonly, nonatomic) NSRange documentPageRange;
 @property(readonly, nonatomic) NSUInteger lastPageIndex;
 @property(readonly, nonatomic) NSUInteger pageCountWithoutFillerPage;
 @property(readonly, nonatomic) NSUInteger pageCount;

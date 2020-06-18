@@ -43,7 +43,7 @@
 - (CGRect)targetRectForCanvasRect:(CGRect)arg1;
 - (void)setNeedsDisplayInTargetRect:(CGRect)arg1;
 - (BOOL)isLastTarget;
-- (NSObject<TSWPColumnMetrics> *)columnMetricsForCharIndex:(NSUInteger)arg1 outRange:(_NSRange )arg2;
+- (NSObject<TSWPColumnMetrics> *)columnMetricsForCharIndex:(NSUInteger)arg1 outRange:(NSRange )arg2;
 
 @optional
 @property(readonly, nonatomic) BOOL alwaysAllowWordSplit;
@@ -62,7 +62,7 @@
 - (void)d_dumpAnchoredAttachmentsForRelayout;
 - (BOOL)adjustColumnOriginForAlignment;
 - (BOOL)siblingTargetIsManipulatingDrawable:(TSDDrawableInfo *)arg1;
-- (_NSRange)expandedRangeForLayoutRange:(_NSRange)arg1 styleProvider:(id <TSWPStyleProvider>)arg2;
+- (NSRange)expandedRangeForLayoutRange:(NSRange)arg1 styleProvider:(id <TSWPStyleProvider>)arg2;
 - (TSDBezierPath *)interiorClippingPath;
 - (BOOL)invalidateForPageCountChange;
 - (unsigned int)pageIndex;

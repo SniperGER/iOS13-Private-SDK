@@ -30,7 +30,7 @@
 - (void)_reportEventForPassIfNecessary:(id)arg1;
 - (void)scrollViewDidScroll:(id)arg1;
 - (id)_customerAgreementAttributedString;
-- (BOOL)textView:(id)arg1 shouldInteractWithURL:(id)arg2 inRange:(_NSRange)arg3 interaction:(long long)arg4;
+- (BOOL)textView:(id)arg1 shouldInteractWithURL:(id)arg2 inRange:(NSRange)arg3 interaction:(long long)arg4;
 - (void)doneButtonTapped;
 - (void)viewDidLayoutSubviews;
 - (void)viewDidDisappear:(BOOL)arg1;

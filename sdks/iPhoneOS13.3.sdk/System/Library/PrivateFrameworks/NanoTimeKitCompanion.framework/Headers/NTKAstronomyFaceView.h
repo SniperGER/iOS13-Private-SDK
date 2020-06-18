@@ -37,7 +37,7 @@
     NTKAstronomyLocationDot *_locationDot;
     NSDate *_overrideDate;
     NSDate *_crownDate;
-    NSNumber _clockTimerToken;
+    NSNumber *_clockTimerToken;
     NSDateFormatter *_scrubDateFormatter[3];
     CGRect _phaseLabelDefaultFrame;
     float _supplementalFontLineHeightPlusDescender;

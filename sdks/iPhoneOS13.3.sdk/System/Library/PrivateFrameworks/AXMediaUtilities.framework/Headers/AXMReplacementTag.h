@@ -11,12 +11,12 @@
 @interface AXMReplacementTag : AXMTag
 {
     NSString *_overrideSpeakableText;
-    _NSRange _overrideRange;
+    NSRange _overrideRange;
 }
 
-+ (id)replacementTagWithSpeakableText:(id)arg1 range:(_NSRange)arg2;
++ (id)replacementTagWithSpeakableText:(id)arg1 range:(NSRange)arg2;
 // - (void).cxx_destruct;
-- (_NSRange)range;
+- (NSRange)range;
 - (id)originalText;
 - (id)speakableText;
 

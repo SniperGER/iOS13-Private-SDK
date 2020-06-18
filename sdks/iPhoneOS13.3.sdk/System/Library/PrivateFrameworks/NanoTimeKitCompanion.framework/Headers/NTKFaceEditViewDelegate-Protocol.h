@@ -7,6 +7,9 @@
 
 @class NSString, NTKFaceEditView;
 
+#ifndef NTKFaceEditViewDelegate_Protocol
+#define NTKFaceEditViewDelegate_Protocol
+
 @protocol NTKFaceEditViewDelegate <NSObject>
 - (BOOL)editViewShouldShowPageDotsOnBottom:(NTKFaceEditView *)arg1;
 - (void)editView:(NTKFaceEditView *)arg1 didTapKeylineForKey:(NSString *)arg2 editMode:(long long)arg3;
@@ -16,4 +19,6 @@
 - (void)editView:(NTKFaceEditView *)arg1 didStopAtEditMode:(long long)arg2;
 - (void)editViewWillBeginScrolling:(NTKFaceEditView *)arg1;
 @end
+
+#endif
 

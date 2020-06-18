@@ -25,7 +25,7 @@
 - (void)swapIndex:(unsigned short)arg1 withIndex:(unsigned short)arg2;
 - (void)remove:(unsigned short)arg1 indicesAtIndex:(unsigned short)arg2;
 - (void)insert:(unsigned short)arg1 indicesAtIndex:(unsigned short)arg2 insertingBefore:(BOOL)arg3;
-- (void)enumerateMappingRange:(_NSRange)arg1 usingBlock:(id /* CDUnknownBlockType */)arg2;
+- (void)enumerateMappingRange:(NSRange)arg1 usingBlock:(id /* CDUnknownBlockType */)arg2;
 - (BOOL)isMove;
 - (BOOL)isVertical;
 - (unsigned short)reverseMapIndex:(unsigned short)arg1;

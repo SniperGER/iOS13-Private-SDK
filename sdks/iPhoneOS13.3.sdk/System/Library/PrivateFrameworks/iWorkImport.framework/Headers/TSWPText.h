@@ -56,7 +56,7 @@ __attribute__((visibility("hidden")))
 - (BOOL)caresAboutStorageChanges;
 - (id)interiorClippingPath;
 @property(readonly, nonatomic) BOOL shouldWrapAroundExternalDrawables;
-- (BOOL)containsStartOfRange:(_NSRange)arg1;
+- (BOOL)containsStartOfRange:(NSRange)arg1;
 @property(readonly, nonatomic) BOOL layoutIsValid;
 - (void)markHiddenInlineDrawableLayout:(id)arg1;
 - (void)clearHiddenInlineDrawableLayoutMarks;
@@ -90,7 +90,7 @@ __attribute__((visibility("hidden")))
 @property(readonly, nonatomic) NSObject<TSWPTopicNumberHints> *nextTargetTopicNumbers;
 @property(readonly, nonatomic) NSObject<TSWPTopicNumberHints> *previousTargetTopicNumbers;
 @property(readonly, nonatomic) id <TSWPOffscreenColumn> previousTargetLastColumn;
-- (id)columnMetricsForCharIndex:(NSUInteger)arg1 outRange:(_NSRange )arg2;
+- (id)columnMetricsForCharIndex:(NSUInteger)arg1 outRange:(NSRange )arg2;
 @property(readonly, nonatomic) BOOL columnsAreLeftToRight;
 @property(readonly, nonatomic) BOOL shrinkTextToFit;
 @property(readonly, nonatomic) BOOL alwaysStartsNewTarget;

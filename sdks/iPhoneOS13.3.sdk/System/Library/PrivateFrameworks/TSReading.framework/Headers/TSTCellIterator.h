@@ -18,7 +18,7 @@
     TSTTableTileRowInfo *mCurRow;
     TSTTableTile *mCurTile;
     unsigned short mCurRowID;
-    _NSRange mCurTileRange;
+    NSRange mCurTileRange;
     TSTCell *mCell;
     BOOL mSkipStyleOnlyCells;
     BOOL mSkipCommentStorageOnlyCells;

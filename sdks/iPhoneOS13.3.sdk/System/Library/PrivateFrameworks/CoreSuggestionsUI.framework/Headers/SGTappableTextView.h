@@ -15,7 +15,7 @@
     UIColor *_activeRangeHighlightedColor;
     NSAttributedString *_clientText;
     NSMutableIndexSet *_activeRanges;
-    _NSRange _trackingRange;
+    NSRange _trackingRange;
     BOOL _trackingRangeHighlighted;
     BOOL _needsLabelUpdate;
     long long _currentStyle;
@@ -31,7 +31,7 @@
 - (void)touchesMoved:(id)arg1 withEvent:(id)arg2;
 - (void)touchesBegan:(id)arg1 withEvent:(id)arg2;
 - (id)hitTest:(CGPoint)arg1 withEvent:(id)arg2;
-- (_NSRange)_rangeAtPoint:(CGPoint)arg1;
+- (NSRange)_rangeAtPoint:(CGPoint)arg1;
 - (NSUInteger)_characterIndexAtPoint:(CGPoint)arg1;
 - (void)_updateLabelIfNeeded;
 - (void)_setNeedUpdateLabel;
@@ -45,11 +45,11 @@
 - (void)setText:(id)arg1;
 - (void)_highlightTrackingRange:(BOOL)arg1;
 - (BOOL)isTracking;
-- (_NSRange)trackingRange;
-- (void)setTrackingRange:(_NSRange)arg1;
+- (NSRange)trackingRange;
+- (void)setTrackingRange:(NSRange)arg1;
 - (void)removeAllActiveRanges;
-- (void)removeActiveRange:(_NSRange)arg1;
-- (void)addActiveRange:(_NSRange)arg1;
+- (void)removeActiveRange:(NSRange)arg1;
+- (void)addActiveRange:(NSRange)arg1;
 @property(readonly, nonatomic) CGRect activeRangesRect;
 @property(readonly, nonatomic) BOOL hasActiveRanges;
 - (void)_commonInit;

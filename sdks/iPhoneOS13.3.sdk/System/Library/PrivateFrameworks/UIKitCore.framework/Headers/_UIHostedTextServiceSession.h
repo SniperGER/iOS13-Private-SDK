@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     id <_UIHostedTextServiceSessionDelegate> _delegate;
 }
 
-+ (id)showServiceForText:(id)arg1 selectedTextRange:(_NSRange)arg2 type:(long long)arg3 fromRect:(CGRect)arg4 inView:(id)arg5;
++ (id)showServiceForText:(id)arg1 selectedTextRange:(NSRange)arg2 type:(long long)arg3 fromRect:(CGRect)arg4 inView:(id)arg5;
 + (id)showServiceForText:(id)arg1 type:(long long)arg2 fromRect:(CGRect)arg3 inView:(id)arg4;
 + (id)showServiceForType:(long long)arg1 withContext:(id)arg2;
 @property(nonatomic) id <_UIHostedTextServiceSessionDelegate> delegate; // @synthesize delegate=_delegate;

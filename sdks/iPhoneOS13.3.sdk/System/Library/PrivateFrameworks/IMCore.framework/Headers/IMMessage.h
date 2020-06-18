@@ -41,7 +41,7 @@
     NSData *_customTypingIndicatorIcon;
     NSString *_notificationIDSTokenURI;
     NSUInteger _sortID;
-    _NSRange _associatedMessageRange;
+    NSRange _associatedMessageRange;
 }
 
 + (id)determineRichLinksInMessage:(id)arg1 additionalSupportedSchemes:(id)arg2;
@@ -64,7 +64,7 @@
 + (id)_vCardDataWithCLLocation:(id)arg1;
 + (id)breadcrumbMessageWithText:(id)arg1 associatedMessageGUID:(id)arg2 balloonBundleID:(id)arg3 fileTransferGUIDs:(id)arg4 payloadData:(id)arg5;
 + (id)editedMessageWithOriginalMessage:(id)arg1 originalPrefixedGUID:(id)arg2 newBody:(id)arg3;
-+ (id)instantMessageWithAssociatedMessageContent:(id)arg1 flags:(NSUInteger)arg2 associatedMessageGUID:(id)arg3 associatedMessageType:(long long)arg4 associatedMessageRange:(_NSRange)arg5 messageSummaryInfo:(id)arg6;
++ (id)instantMessageWithAssociatedMessageContent:(id)arg1 flags:(NSUInteger)arg2 associatedMessageGUID:(id)arg3 associatedMessageType:(long long)arg4 associatedMessageRange:(NSRange)arg5 messageSummaryInfo:(id)arg6;
 @property(nonatomic) NSUInteger sortID; // @synthesize sortID=_sortID;
 @property(nonatomic) BOOL isSOS; // @synthesize isSOS=_isSOS;
 @property(retain, nonatomic) NSString *notificationIDSTokenURI; // @synthesize notificationIDSTokenURI=_notificationIDSTokenURI;
@@ -78,7 +78,7 @@
 @property(retain, nonatomic, setter=_updateLocale:) NSString *locale; // @synthesize locale=_locale;
 @property(retain, nonatomic, setter=_updateBizIntent:) NSDictionary *bizIntent; // @synthesize bizIntent=_bizIntent;
 @property(copy, nonatomic, setter=_messageSummaryInfo:) NSDictionary *messageSummaryInfo; // @synthesize messageSummaryInfo=_messageSummaryInfo;
-@property(nonatomic, setter=_associatedMessageRange:) _NSRange associatedMessageRange; // @synthesize associatedMessageRange=_associatedMessageRange;
+@property(nonatomic, setter=_associatedMessageRange:) NSRange associatedMessageRange; // @synthesize associatedMessageRange=_associatedMessageRange;
 @property(nonatomic, setter=_associatedMessageType:) long long associatedMessageType; // @synthesize associatedMessageType=_associatedMessageType;
 @property(copy, nonatomic, setter=_associatedMessageGUID:) NSString *associatedMessageGUID; // @synthesize associatedMessageGUID=_associatedMessageGUID;
 @property(retain, nonatomic, setter=_updateTimePlayed:) NSDate *timePlayed; // @synthesize timePlayed=_timePlayed;
@@ -128,18 +128,18 @@
 @property(readonly, nonatomic) NSString *senderName;
 @property(readonly, nonatomic) NSString *plainBody;
 - (id)initWithSender:(id)arg1 fileTransfer:(id)arg2;
-- (id)initWithSender:(id)arg1 time:(id)arg2 text:(id)arg3 messageSubject:(id)arg4 fileTransferGUIDs:(id)arg5 flags:(NSUInteger)arg6 error:(id)arg7 guid:(id)arg8 subject:(id)arg9 associatedMessageGUID:(id)arg10 associatedMessageType:(long long)arg11 associatedMessageRange:(_NSRange)arg12 messageSummaryInfo:(id)arg13;
+- (id)initWithSender:(id)arg1 time:(id)arg2 text:(id)arg3 messageSubject:(id)arg4 fileTransferGUIDs:(id)arg5 flags:(NSUInteger)arg6 error:(id)arg7 guid:(id)arg8 subject:(id)arg9 associatedMessageGUID:(id)arg10 associatedMessageType:(long long)arg11 associatedMessageRange:(NSRange)arg12 messageSummaryInfo:(id)arg13;
 - (id)initWithSender:(id)arg1 time:(id)arg2 text:(id)arg3 messageSubject:(id)arg4 fileTransferGUIDs:(id)arg5 flags:(NSUInteger)arg6 error:(id)arg7 guid:(id)arg8 subject:(id)arg9 balloonBundleID:(id)arg10 payloadData:(id)arg11 expressiveSendStyleID:(id)arg12;
 - (id)initWithSender:(id)arg1 time:(id)arg2 text:(id)arg3 fileTransferGUIDs:(id)arg4 flags:(NSUInteger)arg5 error:(id)arg6 guid:(id)arg7 subject:(id)arg8;
 - (id)initWithSender:(id)arg1 time:(id)arg2 text:(id)arg3 messageSubject:(id)arg4 fileTransferGUIDs:(id)arg5 flags:(NSUInteger)arg6 error:(id)arg7 guid:(id)arg8 subject:(id)arg9;
-- (id)_initWithSender:(id)arg1 time:(id)arg2 timeRead:(id)arg3 timeDelivered:(id)arg4 timePlayed:(id)arg5 plainText:(id)arg6 text:(id)arg7 messageSubject:(id)arg8 fileTransferGUIDs:(id)arg9 flags:(NSUInteger)arg10 error:(id)arg11 guid:(id)arg12 messageID:(long long)arg13 subject:(id)arg14 balloonBundleID:(id)arg15 payloadData:(id)arg16 expressiveSendStyleID:(id)arg17 timeExpressiveSendPlayed:(id)arg18 associatedMessageGUID:(id)arg19 associatedMessageType:(long long)arg20 associatedMessageRange:(_NSRange)arg21 messageSummaryInfo:(id)arg22;
+- (id)_initWithSender:(id)arg1 time:(id)arg2 timeRead:(id)arg3 timeDelivered:(id)arg4 timePlayed:(id)arg5 plainText:(id)arg6 text:(id)arg7 messageSubject:(id)arg8 fileTransferGUIDs:(id)arg9 flags:(NSUInteger)arg10 error:(id)arg11 guid:(id)arg12 messageID:(long long)arg13 subject:(id)arg14 balloonBundleID:(id)arg15 payloadData:(id)arg16 expressiveSendStyleID:(id)arg17 timeExpressiveSendPlayed:(id)arg18 associatedMessageGUID:(id)arg19 associatedMessageType:(long long)arg20 associatedMessageRange:(NSRange)arg21 messageSummaryInfo:(id)arg22;
 - (id)_copyWithFlags:(NSUInteger)arg1;
 // - (id)copyWithZone:(_NSZone )arg1;
 - (id)descriptionForPurpose:(long long)arg1 inChat:(id)arg2 senderDisplayName:(id)arg3;
 - (id)descriptionForPurpose:(long long)arg1 inChat:(id)arg2;
 - (id)descriptionForPurpose:(long long)arg1;
 @property(readonly, nonatomic) BOOL isAssociatedMessage;
-- (id)initWithSender:(id)arg1 time:(id)arg2 text:(id)arg3 messageSubject:(id)arg4 fileTransferGUIDs:(id)arg5 flags:(NSUInteger)arg6 error:(id)arg7 guid:(id)arg8 subject:(id)arg9 associatedMessageGUID:(id)arg10 associatedMessageType:(long long)arg11 associatedMessageRange:(_NSRange)arg12 associatedMessageInfo:(id)arg13;
+- (id)initWithSender:(id)arg1 time:(id)arg2 text:(id)arg3 messageSubject:(id)arg4 fileTransferGUIDs:(id)arg5 flags:(NSUInteger)arg6 error:(id)arg7 guid:(id)arg8 subject:(id)arg9 associatedMessageGUID:(id)arg10 associatedMessageType:(long long)arg11 associatedMessageRange:(NSRange)arg12 associatedMessageInfo:(id)arg13;
 
 @end
 

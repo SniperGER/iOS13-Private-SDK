@@ -23,7 +23,7 @@
 - (void)handleBrailleDeletedUntranslatedText:(NSString *)arg1 speakLiterally:(BOOL)arg2;
 - (void)handleBrailleInsertedUntranslatedText:(NSString *)arg1 speakLiterally:(BOOL)arg2;
 - (void)handleStartEditing;
-- (void)handleBrailleReplaceTextRange:(_NSRange)arg1 withString:(NSString *)arg2 cursor:(NSUInteger)arg3;
+- (void)handleBrailleReplaceTextRange:(NSRange)arg1 withString:(NSString *)arg2 cursor:(NSUInteger)arg3;
 - (void)handleBrailleKeypress:(NSArray *)arg1;
 - (void)handleFailedToLoadBluetoothDevice:(NSString *)arg1;
 - (void)configurationDidChange;

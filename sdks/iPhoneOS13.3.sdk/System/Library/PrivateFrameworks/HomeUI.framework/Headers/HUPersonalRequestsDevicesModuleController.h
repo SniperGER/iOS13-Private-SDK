@@ -24,7 +24,7 @@
 - (id)_preflightEnablingPersonalRequests;
 - (BOOL)_isCurrentDeviceCandidateForLocationDevice;
 - (void)switchCell:(id)arg1 didTurnOn:(BOOL)arg2;
-- (BOOL)textView:(id)arg1 shouldInteractWithURL:(id)arg2 inRange:(_NSRange)arg3 interaction:(long long)arg4;
+- (BOOL)textView:(id)arg1 shouldInteractWithURL:(id)arg2 inRange:(NSRange)arg3 interaction:(long long)arg4;
 - (void)updateCell:(id)arg1 forItem:(id)arg2 animated:(BOOL)arg3;
 - (void)setupCell:(id)arg1 forItem:(id)arg2;
 - (Class)cellClassForItem:(id)arg1;

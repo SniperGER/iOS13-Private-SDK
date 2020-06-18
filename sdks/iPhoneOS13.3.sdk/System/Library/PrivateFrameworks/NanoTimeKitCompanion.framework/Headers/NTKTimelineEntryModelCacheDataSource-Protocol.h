@@ -7,7 +7,12 @@
 
 @class NSArray, NSDate;
 
+#ifndef NTKTimelineEntryModelCacheDataSource_Protocol
+#define NTKTimelineEntryModelCacheDataSource_Protocol
+
 @protocol NTKTimelineEntryModelCacheDataSource <NSObject>
 - (NSArray *)loadEntryModelsForDay:(NSDate *)arg1;
 @end
+
+#endif
 

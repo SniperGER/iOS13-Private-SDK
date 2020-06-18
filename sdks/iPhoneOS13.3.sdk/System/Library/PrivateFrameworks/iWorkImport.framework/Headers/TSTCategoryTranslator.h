@@ -65,7 +65,7 @@ __attribute__((visibility("hidden")))
 - (BOOL)unmergeCellRange:(struct TSUViewCellRect)arg1;
 - (BOOL)mergeCellRange:(struct TSUViewCellRect)arg1;
 - (struct TSUViewCellCoord)cellIDForCellContainingRichTextStorage:(id)arg1;
-- (void)moveColumnRange:(_NSRange)arg1 toColumnIndex:(struct TSUViewColumnIndex)arg2;
+- (void)moveColumnRange:(NSRange)arg1 toColumnIndex:(struct TSUViewColumnIndex)arg2;
 - (void)removeAnnotationsFromColumnsAtIndexes:(id)arg1;
 - (void)removeAnnotationsFromRowsAtIndexes:(id)arg1;
 - (void)removeColumnsAtIndexes:(id)arg1;

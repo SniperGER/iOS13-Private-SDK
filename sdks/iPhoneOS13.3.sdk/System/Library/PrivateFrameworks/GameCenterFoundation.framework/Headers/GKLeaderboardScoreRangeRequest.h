@@ -8,11 +8,11 @@
 
 @interface GKLeaderboardScoreRangeRequest : GKLeaderboardScoreRequest
 {
-    _NSRange _range;
+    NSRange _range;
 }
 
 + (BOOL)supportsSecureCoding;
-@property(nonatomic) _NSRange range; // @synthesize range=_range;
+@property(nonatomic) NSRange range; // @synthesize range=_range;
 - (BOOL)isEqual:(id)arg1;
 - (void)encodeWithCoder:(id)arg1;
 - (id)initWithCoder:(id)arg1;

@@ -10,19 +10,19 @@ __attribute__((visibility("hidden")))
 @interface CoreUtilsNSSubrangeData : NSData
 {
     NSData *_data;
-    _NSRange _range;
+    NSRange _range;
 }
 
 // - (void).cxx_destruct;
 - (BOOL)_isCompact;
-- (void)getBytes:(void )arg1 range:(_NSRange)arg2;
+- (void)getBytes:(void )arg1 range:(NSRange)arg2;
 - (void)getBytes:(void )arg1 length:(NSUInteger)arg2;
 - (void)getBytes:(void )arg1;
 - (NSUInteger)length;
 - (const void )bytes;
 // - (id)copyWithZone:(_NSZone )arg1;
 - (void)dealloc;
-- (id)initWithData:(id)arg1 range:(_NSRange)arg2;
+- (id)initWithData:(id)arg1 range:(NSRange)arg2;
 - (id)init;
 
 @end

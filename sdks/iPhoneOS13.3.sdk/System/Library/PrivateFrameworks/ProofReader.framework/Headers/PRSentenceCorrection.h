@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 @interface PRSentenceCorrection : NSObject
 {
     int _category;
-    _NSRange _range;
+    NSRange _range;
     NSString *_word;
     NSArray *_corrections;
 }
@@ -22,11 +22,11 @@ __attribute__((visibility("hidden")))
 - (BOOL)presentAsSpellingError;
 - (id)corrections;
 - (id)word;
-- (_NSRange)range;
+- (NSRange)range;
 - (int)category;
 - (id)description;
 - (void)dealloc;
-- (id)initWithCategory:(int)arg1 range:(_NSRange)arg2 word:(id)arg3 corrections:(id)arg4;
+- (id)initWithCategory:(int)arg1 range:(NSRange)arg2 word:(id)arg3 corrections:(id)arg4;
 
 @end
 

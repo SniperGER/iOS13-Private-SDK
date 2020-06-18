@@ -36,7 +36,7 @@
 - (NSUInteger)hash;
 - (BOOL)isEqual:(id)arg1;
 - (BOOL)isEqualToDrawing:(id)arg1;
-- (_NSRange)matchingStrokePrefixRangeForDrawing:(id)arg1;
+- (NSRange)matchingStrokePrefixRangeForDrawing:(id)arg1;
 - (BOOL)isPrefixForDrawing:(id)arg1;
 - (void)clear;
 - (void)endStroke;

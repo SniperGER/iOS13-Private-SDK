@@ -12,7 +12,7 @@
 - (id)copyWithoutInsignificantCharacters;
 - (id)copyWithoutInsignificantPrefixAndCharacters;
 - (id)_copyWithoutInsignificantPrefix:(BOOL)arg1 andCharacters:(BOOL)arg2;
-- (_NSRange)_rangeWithoutInsignificantPrefix:(BOOL)arg1 andCharacters:(BOOL)arg2;
+- (NSRange)_rangeWithoutInsignificantPrefix:(BOOL)arg1 andCharacters:(BOOL)arg2;
 - (id)sanitizedString;
 - (BOOL)ml_matchesValue:(id)arg1 usingComparison:(int)arg2;
 - (id)ml_stringValueForSQL;

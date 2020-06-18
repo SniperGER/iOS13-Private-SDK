@@ -36,12 +36,12 @@ __attribute__((visibility("hidden")))
 - (void)backUpToPageIndexPath:(id)arg1 documentPageIndex:(NSUInteger)arg2;
 - (void)restartPaginationFromFirstPage;
 - (void)restartPaginationFromPageIndexPath:(id)arg1 documentPageIndex:(NSUInteger)arg2;
-- (_NSRange)footnoteRangeInBodyTextRange:(_NSRange)arg1;
+- (NSRange)footnoteRangeInBodyTextRange:(NSRange)arg1;
 - (BOOL)isPaginationCompleteUpToDocumentPageIndex:(NSUInteger)arg1;
 - (BOOL)isPaginationCompleteThroughDocumentPageIndex:(NSUInteger)arg1;
 @property(readonly, nonatomic) BOOL isPaginationComplete;
 @property(readonly, nonatomic) BOOL onLastSection;
-@property(readonly, nonatomic) _NSRange sectionCharRange;
+@property(readonly, nonatomic) NSRange sectionCharRange;
 @property(readonly, nonatomic) __weak TPSection *section;
 @property(readonly, nonatomic) NSUInteger lastLaidOutDocumentPageIndex;
 @property(readonly, nonatomic) NSUInteger pageIndex;

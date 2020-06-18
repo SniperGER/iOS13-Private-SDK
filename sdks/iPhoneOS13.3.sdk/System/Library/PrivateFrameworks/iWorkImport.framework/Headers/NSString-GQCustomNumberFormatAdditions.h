@@ -24,13 +24,13 @@
 + (id)tsu_stringWithHexFromBytes:(const char )arg1 length:(NSUInteger)arg2;
 + (id)tsu_stringByIndentingString:(id)arg1;
 + (id)tsu_stringByIndentingString:(id)arg1 times:(NSUInteger)arg2;
-+ (id)tsu_stringWithFormat:(id)arg1 arguments:(struct __va_list_tag [1])arg2;
+// + (id)tsu_stringWithFormat:(id)arg1 arguments:(struct __va_list_tag [1])arg2;
 + (id)tsu_stringWithUUID;
 + (id)tsu_localizedDisplayNameWithPersonNameComponents:(id)arg1;
 + (id)tsu_fogFilenameFromShareToken:(id)arg1;
 + (id)tsu_fogShareTokenFromFileURL:(id)arg1;
-+ (id)tsu_unRedactedStringWithFormat:(id)arg1 arguments:(struct __va_list_tag [1])arg2;
-+ (id)tsu_redactedStringWithFormat:(id)arg1 arguments:(struct __va_list_tag [1])arg2;
+// + (id)tsu_unRedactedStringWithFormat:(id)arg1 arguments:(struct __va_list_tag [1])arg2;
+// + (id)tsu_redactedStringWithFormat:(id)arg1 arguments:(struct __va_list_tag [1])arg2;
 + (id)tsu_stringWithSqlStatement:(struct sqlite3_stmt )arg1 columnIndex:(int)arg2;
 + (id)tsu_customNumberFormatDecimalFormatStringWithDigits:(NSUInteger)arg1 digitString:(id)arg2 includeDecimalSeparator:(BOOL)arg3;
 + (id)tsu_customNumberFormatDecimalTokenRepresentedStringWithDigits:(NSUInteger)arg1 digitString:(id)arg2;
@@ -118,8 +118,8 @@
 - (id)tsu_setOfContainedWordsIncludingPunctuationAndSymbols:(BOOL)arg1;
 - (BOOL)tsu_containsSubstring:(id)arg1;
 - (void)tsu_enumerateRangesOfCharactersInSet:(id)arg1 usingBlock:(id /* CDUnknownBlockType */)arg2;
-- (_NSRange)tsu_range;
-- (_NSRange)tsu_rangeOfString:(id)arg1 options:(NSUInteger)arg2 updatingSearchRange:(_NSRange )arg3;
+- (NSRange)tsu_range;
+- (NSRange)tsu_rangeOfString:(id)arg1 options:(NSUInteger)arg2 updatingSearchRange:(NSRange )arg3;
 - (id)tsu_tolerantStringByAppendingPathExtension:(id)arg1;
 - (id)tsu_stringByDeletingPathExtensionIfEqualTo:(id)arg1;
 - (BOOL)tsu_containsOnlyCharactersFromSet:(id)arg1;
@@ -167,8 +167,8 @@
 - (id)tsu_keyPathByRemovingLastKey;
 - (id)tsu_initUnRedactedWithFormat:(id)arg1;
 - (id)tsu_initRedactedWithFormat:(id)arg1;
-- (id)tsu_initUnRedactedWithFormat:(id)arg1 arguments:(struct __va_list_tag [1])arg2;
-- (id)tsu_initRedactedWithFormat:(id)arg1 arguments:(struct __va_list_tag [1])arg2;
+// - (id)tsu_initUnRedactedWithFormat:(id)arg1 arguments:(struct __va_list_tag [1])arg2;
+// - (id)tsu_initRedactedWithFormat:(id)arg1 arguments:(struct __va_list_tag [1])arg2;
 - (BOOL)tsu_bindToSqlStatement:(struct sqlite3_stmt )arg1 index:(int)arg2 error:(id )arg3;
 - (id)tsu_initWithSqlStatement:(struct sqlite3_stmt )arg1 columnIndex:(int)arg2;
 - (unsigned short)tsu_spaceCharacterInCustomNumberFormatSpaceToken;
@@ -203,9 +203,9 @@
 - (id)tsa_filenameFromDisplayNameWithExtension:(id)arg1 characterLimit:(NSUInteger)arg2;
 - (id)tsa_filenameFromDisplayNameWithExtension:(id)arg1;
 - (void)tsch_saveToProtobufString:(basic_string_23d93216 )arg1;
-- (id)tsk_stringByReplacingOccurrencesOfString:(id)arg1 withString:(id)arg2 searchOptions:(NSUInteger)arg3 range:(_NSRange)arg4 replacementCount:(NSUInteger )arg5;
-- (id)tsk_stringByCapitalizingToMatchString:(id)arg1 range:(_NSRange)arg2 searchOptions:(NSUInteger)arg3;
-- (_NSRange)tsk_rangeOfString:(id)arg1 searchOptions:(NSUInteger)arg2 updatingSearchRange:(_NSRange )arg3;
+- (id)tsk_stringByReplacingOccurrencesOfString:(id)arg1 withString:(id)arg2 searchOptions:(NSUInteger)arg3 range:(NSRange)arg4 replacementCount:(NSUInteger )arg5;
+- (id)tsk_stringByCapitalizingToMatchString:(id)arg1 range:(NSRange)arg2 searchOptions:(NSUInteger)arg3;
+- (NSRange)tsk_rangeOfString:(id)arg1 searchOptions:(NSUInteger)arg2 updatingSearchRange:(NSRange )arg3;
 - (id)tsk_URLByPercentEncoding;
 - (id)tst_cleanForFormulaEditor;
 - (BOOL)tst_hasLeadingCharacterInSet:(id)arg1;
@@ -220,15 +220,15 @@
 - (BOOL)tswp_containsIdeographs;
 - (unsigned int)tswp_utf32CharacterAtIndex:(NSUInteger)arg1 planeClassification:(long long )arg2;
 - (unsigned int)tswp_utf32CharacterAtIndex:(NSUInteger)arg1;
-- (int)tswp_contentsScriptInRange:(_NSRange)arg1;
+- (int)tswp_contentsScriptInRange:(NSRange)arg1;
 - (int)tswp_contentsScript;
 - (id)tswp_replaceOccurrencesOfCharactersInSet:(id)arg1 minimumConsecutiveLength:(NSUInteger)arg2 replaceString:(id)arg3;
-- (BOOL)tswp_isAllWhitespaceInRange:(_NSRange)arg1;
+- (BOOL)tswp_isAllWhitespaceInRange:(NSRange)arg1;
 - (BOOL)tswp_isHyphenationAtCharacterIndex:(NSUInteger)arg1;
-- (_NSRange)tswp_rangeOfWordAtCharacterIndex:(NSUInteger)arg1 range:(_NSRange)arg2 includePreviousWord:(BOOL)arg3 includeHyphenation:(BOOL)arg4;
-- (_NSRange)tswp_rangeOfWordAtCharacterIndex:(NSUInteger)arg1 range:(_NSRange)arg2 includePreviousWord:(BOOL)arg3;
-- (_NSRange)tswp_rangeOfCharactersFromSet:(id)arg1 index:(NSUInteger)arg2;
-- (NSUInteger)tswp_findIndexOfCharacter:(unsigned short)arg1 range:(_NSRange)arg2;
+- (NSRange)tswp_rangeOfWordAtCharacterIndex:(NSUInteger)arg1 range:(NSRange)arg2 includePreviousWord:(BOOL)arg3 includeHyphenation:(BOOL)arg4;
+- (NSRange)tswp_rangeOfWordAtCharacterIndex:(NSUInteger)arg1 range:(NSRange)arg2 includePreviousWord:(BOOL)arg3;
+- (NSRange)tswp_rangeOfCharactersFromSet:(id)arg1 index:(NSUInteger)arg2;
+- (NSUInteger)tswp_findIndexOfCharacter:(unsigned short)arg1 range:(NSRange)arg2;
 - (id)tswp_stringByNormalizingParagraphBreaks;
 @end
 

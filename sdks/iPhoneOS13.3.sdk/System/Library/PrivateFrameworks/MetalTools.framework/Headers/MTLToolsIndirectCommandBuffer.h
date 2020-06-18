@@ -19,7 +19,7 @@
 @property(readonly, nonatomic) MTLToolsPointerArray *indirectRenderCommand; // @synthesize indirectRenderCommand=_indirectRenderCommand;
 @property(readonly, nonatomic) MTLToolsPointerArray *indirectComputeCommand; // @synthesize indirectComputeCommand=_indirectComputeCommand;
 @property(readonly) NSUInteger uniqueIdentifier;
-- (void)resetWithRange:(_NSRange)arg1;
+- (void)resetWithRange:(NSRange)arg1;
 - (void)getHeader:(void )arg1 headerSize:(NSUInteger )arg2;
 @property(readonly) NSUInteger storageMode;
 @property(readonly) NSUInteger size;

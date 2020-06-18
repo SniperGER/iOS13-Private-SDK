@@ -21,7 +21,7 @@ __attribute__((visibility("hidden")))
     BOOL _needsVisibleRangeRendering;
     BOOL _isCompactView;
     CDStruct_73a5d3ca _waveformAmpSlicesForRenderingTimeRange;
-    _NSRange _waveformAmpSlicesForRenderingIndexRange;
+    NSRange _waveformAmpSlicesForRenderingIndexRange;
     BOOL _waveformAmpSlicesForRenderingRecordStateChanged;
     NSObject<OS_dispatch_queue> *_renderingQueue;
     CDStruct_73a5d3ca _lastVisibleTimeRange;

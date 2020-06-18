@@ -9,9 +9,9 @@
 @protocol MTLBuffer, MTLFence, MTLIndirectCommandBuffer, MTLResource, MTLTexture;
 
 @protocol MTLBlitCommandEncoder <MTLCommandEncoder>
-- (void)optimizeIndirectCommandBuffer:(id <MTLIndirectCommandBuffer>)arg1 withRange:(_NSRange)arg2;
-- (void)copyIndirectCommandBuffer:(id <MTLIndirectCommandBuffer>)arg1 sourceRange:(_NSRange)arg2 destination:(id <MTLIndirectCommandBuffer>)arg3 destinationIndex:(NSUInteger)arg4;
-- (void)resetCommandsInBuffer:(id <MTLIndirectCommandBuffer>)arg1 withRange:(_NSRange)arg2;
+- (void)optimizeIndirectCommandBuffer:(id <MTLIndirectCommandBuffer>)arg1 withRange:(NSRange)arg2;
+- (void)copyIndirectCommandBuffer:(id <MTLIndirectCommandBuffer>)arg1 sourceRange:(NSRange)arg2 destination:(id <MTLIndirectCommandBuffer>)arg3 destinationIndex:(NSUInteger)arg4;
+- (void)resetCommandsInBuffer:(id <MTLIndirectCommandBuffer>)arg1 withRange:(NSRange)arg2;
 - (void)optimizeContentsForCPUAccess:(id <MTLTexture>)arg1 slice:(NSUInteger)arg2 level:(NSUInteger)arg3;
 - (void)optimizeContentsForCPUAccess:(id <MTLTexture>)arg1;
 - (void)optimizeContentsForGPUAccess:(id <MTLTexture>)arg1 slice:(NSUInteger)arg2 level:(NSUInteger)arg3;
@@ -23,7 +23,7 @@
 - (void)copyFromBuffer:(id <MTLBuffer>)arg1 sourceOffset:(NSUInteger)arg2 toBuffer:(id <MTLBuffer>)arg3 destinationOffset:(NSUInteger)arg4 size:(NSUInteger)arg5;
 - (void)copyFromTexture:(id <MTLTexture>)arg1 toTexture:(id <MTLTexture>)arg2;
 - (void)copyFromTexture:(id <MTLTexture>)arg1 sourceSlice:(NSUInteger)arg2 sourceLevel:(NSUInteger)arg3 toTexture:(id <MTLTexture>)arg4 destinationSlice:(NSUInteger)arg5 destinationLevel:(NSUInteger)arg6 sliceCount:(NSUInteger)arg7 levelCount:(NSUInteger)arg8;
-- (void)fillBuffer:(id <MTLBuffer>)arg1 range:(_NSRange)arg2 value:(unsigned char)arg3;
+- (void)fillBuffer:(id <MTLBuffer>)arg1 range:(NSRange)arg2 value:(unsigned char)arg3;
 - (void)generateMipmapsForTexture:(id <MTLTexture>)arg1;
 - (void)copyFromTexture:(id <MTLTexture>)arg1 sourceSlice:(NSUInteger)arg2 sourceLevel:(NSUInteger)arg3 sourceOrigin:(CDStruct_14f26992)arg4 sourceSize:(CDStruct_14f26992)arg5 toBuffer:(id <MTLBuffer>)arg6 destinationOffset:(NSUInteger)arg7 destinationBytesPerRow:(NSUInteger)arg8 destinationBytesPerImage:(NSUInteger)arg9 options:(NSUInteger)arg10;
 - (void)copyFromTexture:(id <MTLTexture>)arg1 sourceSlice:(NSUInteger)arg2 sourceLevel:(NSUInteger)arg3 sourceOrigin:(CDStruct_14f26992)arg4 sourceSize:(CDStruct_14f26992)arg5 toBuffer:(id <MTLBuffer>)arg6 destinationOffset:(NSUInteger)arg7 destinationBytesPerRow:(NSUInteger)arg8 destinationBytesPerImage:(NSUInteger)arg9;

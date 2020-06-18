@@ -17,19 +17,19 @@
 // - (void).cxx_destruct;
 - (void)compact;
 - (void)appendString:(id)arg1;
-- (void)deleteCharactersInRange:(_NSRange)arg1;
+- (void)deleteCharactersInRange:(NSRange)arg1;
 - (void)insertString:(id)arg1 atIndex:(NSUInteger)arg2;
-- (void)replaceCharactersInRange:(_NSRange)arg1 withString:(id)arg2;
-- (void)getCharacters:(unsigned short )arg1 range:(_NSRange)arg2;
+- (void)replaceCharactersInRange:(NSRange)arg1 withString:(id)arg2;
+- (void)getCharacters:(unsigned short )arg1 range:(NSRange)arg2;
 - (unsigned short)characterAtIndex:(NSUInteger)arg1;
 - (NSUInteger)length;
 - (void)dealloc;
 - (id)init;
 - (id)initWithChunkLength:(NSUInteger)arg1;
-- (void)p_compactChunksInRange:(_NSRange)arg1;
-- (void)p_deleteCharactersInRange:(_NSRange)arg1 chunkIndex:(NSUInteger)arg2;
-- (void)p_insertCharactersInRange:(_NSRange)arg1 fromString:(id)arg2 atIndex:(NSUInteger)arg3 chunkIndex:(NSUInteger)arg4;
-- (void)p_appendRange:(_NSRange)arg1 fromString:(id)arg2;
+- (void)p_compactChunksInRange:(NSRange)arg1;
+- (void)p_deleteCharactersInRange:(NSRange)arg1 chunkIndex:(NSUInteger)arg2;
+- (void)p_insertCharactersInRange:(NSRange)arg1 fromString:(id)arg2 atIndex:(NSUInteger)arg3 chunkIndex:(NSUInteger)arg4;
+- (void)p_appendRange:(NSRange)arg1 fromString:(id)arg2;
 
 @end
 

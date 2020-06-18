@@ -39,7 +39,7 @@
 @property(readonly, nonatomic) double currentHeight; // @synthesize currentHeight=_currentHeight;
 // - (void).cxx_destruct;
 - (void)textViewDidChangeSelection:(id)arg1;
-- (BOOL)textView:(id)arg1 shouldInteractWithURL:(id)arg2 inRange:(_NSRange)arg3;
+- (BOOL)textView:(id)arg1 shouldInteractWithURL:(id)arg2 inRange:(NSRange)arg3;
 - (void)_contentSizeCategoryDidChangeNotification:(id)arg1;
 - (void)layoutSubviews;
 - (CGSize)sizeThatFits:(CGSize)arg1;

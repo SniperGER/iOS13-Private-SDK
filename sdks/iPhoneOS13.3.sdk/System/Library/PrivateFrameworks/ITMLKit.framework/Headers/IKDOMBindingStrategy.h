@@ -30,7 +30,7 @@ __attribute__((visibility("hidden")))
 // - (void).cxx_destruct;
 - (id)_adjustedIndexTitlesFromDataSource:(id)arg1 filteredItems:(id)arg2 filteredChangeSet:(id)arg3;
 - (void)_applyItemsValueWithDataSource:(id)arg1;
-- (_NSRange)visibleItemsRange;
+- (NSRange)visibleItemsRange;
 - (void)didResolveKeys:(id)arg1;
 - (BOOL)applyValue:(id)arg1 forKey:(id)arg2;
 - (void)valueDidChangeForKey:(id)arg1 propertyPath:(id)arg2 extraInfo:(id)arg3;

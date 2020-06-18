@@ -7,7 +7,12 @@
 
 @class NTKWellnessEntryModel;
 
+#ifndef NTKWellnessTimelineModelSubscriber_Protocol
+#define NTKWellnessTimelineModelSubscriber_Protocol
+
 @protocol NTKWellnessTimelineModelSubscriber <NSObject>
 - (void)wellnessTimeLineModelCurrentEntryModelUpdated:(NTKWellnessEntryModel *)arg1;
 @end
+
+#endif
 

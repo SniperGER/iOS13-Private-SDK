@@ -18,10 +18,10 @@
 - (struct TSUCellRect)range;
 - (vector_4dc5f307)rowUIDs;
 - (vector_4dc5f307)columnUIDs;
-- (_NSRange)rowRangeForUIDs:(const vector_4dc5f307 )arg1;
-- (_NSRange)columnRangeForUIDs:(const vector_4dc5f307 )arg1;
-- (vector_4dc5f307)rowUIDsForRowRange:(_NSRange)arg1;
-- (vector_4dc5f307)columnUIDsForColumnRange:(_NSRange)arg1;
+- (NSRange)rowRangeForUIDs:(const vector_4dc5f307 )arg1;
+- (NSRange)columnRangeForUIDs:(const vector_4dc5f307 )arg1;
+- (vector_4dc5f307)rowUIDsForRowRange:(NSRange)arg1;
+- (vector_4dc5f307)columnUIDsForColumnRange:(NSRange)arg1;
 - (NSIndexSet *)rowIndexesForUIDs:(const vector_4dc5f307 )arg1;
 - (NSIndexSet *)columnIndexesForUIDs:(const vector_4dc5f307 )arg1;
 - (NSMutableIndexSet *)mutableRowIndexesForUIDs:(const vector_4dc5f307 )arg1;

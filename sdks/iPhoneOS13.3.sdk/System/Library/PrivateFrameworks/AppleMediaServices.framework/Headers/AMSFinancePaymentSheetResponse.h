@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
     AMSFinanceAuthenticateResponse *_authenticateResponse;
 }
 
-+ (id)_greyAttributedStringForAttributedString:(id)arg1 range:(_NSRange)arg2;
++ (id)_greyAttributedStringForAttributedString:(id)arg1 range:(NSRange)arg2;
 + (id)_attributedStringForStringArray:(id)arg1 useGrey:(BOOL)arg2 account:(id)arg3 shouldUppercase:(BOOL)arg4;
 + (id)_attributedStringForSalableInfoStringArray:(id)arg1 account:(id)arg2 shouldUppercase:(BOOL)arg3;
 + (long long)_confirmationTitleForString:(id)arg1;

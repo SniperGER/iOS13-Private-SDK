@@ -22,7 +22,7 @@
 @property(readonly, nonatomic) BOOL failed;
 - (void)_setParentMessageIsFromMe:(BOOL)arg1;
 @property(readonly, nonatomic) BOOL parentMessageIsFromMe;
-@property(readonly, nonatomic) _NSRange associatedMessageRange;
+@property(readonly, nonatomic) NSRange associatedMessageRange;
 @property(readonly, nonatomic) long long associatedMessageType;
 @property(readonly, nonatomic) NSString *associatedMessageGUID;
 @property(readonly, nonatomic) BOOL isFromMe;

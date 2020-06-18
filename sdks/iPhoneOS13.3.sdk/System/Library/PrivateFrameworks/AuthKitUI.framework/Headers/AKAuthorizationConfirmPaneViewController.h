@@ -129,7 +129,7 @@
 @property(nonatomic, getter=isEditingName) BOOL editingName;
 - (void)setEmailExpanded:(BOOL)arg1 animated:(BOOL)arg2;
 @property(nonatomic, getter=isEmailExpanded) BOOL emailExpanded;
-- (BOOL)textField:(id)arg1 shouldChangeCharactersInRange:(_NSRange)arg2 replacementString:(id)arg3;
+- (BOOL)textField:(id)arg1 shouldChangeCharactersInRange:(NSRange)arg2 replacementString:(id)arg3;
 - (BOOL)textFieldShouldReturn:(id)arg1;
 - (void)_setupFamilyNameCell:(id)arg1;
 - (void)_setupGivenNameCell:(id)arg1;

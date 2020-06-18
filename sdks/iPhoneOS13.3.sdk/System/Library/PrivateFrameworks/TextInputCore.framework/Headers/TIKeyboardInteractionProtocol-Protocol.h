@@ -9,7 +9,7 @@
 
 @protocol TIKeyboardInteractionProtocol <NSObject>
 - (void)setClientID:(NSString *)arg1 keyboardState:(TIKeyboardState *)arg2;
-- (void)contextDidChange:(TIDocumentState *)arg1 wordDelete:(BOOL)arg2 cursorMoved:(BOOL)arg3 extendsPriorWord:(BOOL)arg4 inWord:(NSString *)arg5 range:(_NSRange)arg6 selectionLocation:(NSUInteger)arg7 keyboardState:(TIKeyboardState *)arg8;
+- (void)contextDidChange:(TIDocumentState *)arg1 wordDelete:(BOOL)arg2 cursorMoved:(BOOL)arg3 extendsPriorWord:(BOOL)arg4 inWord:(NSString *)arg5 range:(NSRange)arg6 selectionLocation:(NSUInteger)arg7 keyboardState:(TIKeyboardState *)arg8;
 - (void)candidateAccepted:(TIKeyboardCandidate *)arg1 withInput:(TIKeyboardInput *)arg2 documentState:(TIDocumentState *)arg3 inputContext:(NSString *)arg4 inputStem:(NSString *)arg5 predictionBarHit:(BOOL)arg6 useCandidateSelection:(BOOL)arg7 candidateIndex:(long long)arg8 keyboardState:(TIKeyboardState *)arg9;
 - (void)candidatesOffered:(TIAutocorrectionList *)arg1 keyboardState:(TIKeyboardState *)arg2;
 - (void)layoutDidChange:(TIKeyboardLayout *)arg1 keyboardState:(TIKeyboardState *)arg2;

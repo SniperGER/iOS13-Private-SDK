@@ -21,7 +21,7 @@ __attribute__((visibility("hidden")))
 + (NSUInteger)p_pointsCountOfStroke:(id)arg1;
 + (CGPoint)p_locationAtIndex:(NSUInteger)arg1 ofStroke:(id)arg2;
 + (id)p_copyOfPKStroke:(id)arg1;
-+ (id)substrokeOfStroke:(id)arg1 withRange:(_NSRange)arg2;
++ (id)substrokeOfStroke:(id)arg1 withRange:(NSRange)arg2;
 + (id)strokesForPKStrokes:(id)arg1 withPencilAnnotationDrawingScale:(double)arg2;
 @property(retain, nonatomic) NSArray *locations; // @synthesize locations=_locations;
 @property(retain, nonatomic) PKStroke *internalPencilKitStroke; // @synthesize internalPencilKitStroke=_internalPencilKitStroke;
@@ -36,7 +36,7 @@ __attribute__((visibility("hidden")))
 - (void)enumerateUnscaledPointsWithDistanceStep:(double)arg1 usingBlock:(id /* CDUnknownBlockType */)arg2;
 - (id)subStrokeFromStartIndex:(NSUInteger)arg1 toEndIndex:(NSUInteger)arg2 adjustingStart:(BOOL)arg3 andAdjustingEnd:(BOOL)arg4 toEdgesOfRect:(CGRect)arg5;
 @property(readonly, nonatomic) NSUInteger pointsCount;
-- (id)substrokeWithRange:(_NSRange)arg1;
+- (id)substrokeWithRange:(NSRange)arg1;
 - (double)timestampAtIndex:(NSUInteger)arg1;
 - (CGPoint)unscaledLocationAtIndex:(NSUInteger)arg1;
 - (CGPoint)locationAtIndex:(NSUInteger)arg1;

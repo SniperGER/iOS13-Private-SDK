@@ -10,8 +10,8 @@
 @protocol CAMLParserDelegate <NSObject>
 
 @optional
-- (void)CAMLParser:(CAMLParser *)arg1 formatErrorString:(const char )arg2 arguments:(struct __va_list_tag [1])arg3 lineNumber:(NSUInteger)arg4;
-- (void)CAMLParser:(CAMLParser *)arg1 formatWarningString:(const char )arg2 arguments:(struct __va_list_tag [1])arg3 lineNumber:(NSUInteger)arg4;
+// - (void)CAMLParser:(CAMLParser *)arg1 formatErrorString:(const char )arg2 arguments:(struct __va_list_tag [1])arg3 lineNumber:(NSUInteger)arg4;
+// - (void)CAMLParser:(CAMLParser *)arg1 formatWarningString:(const char )arg2 arguments:(struct __va_list_tag [1])arg3 lineNumber:(NSUInteger)arg4;
 - (id)CAMLParser:(CAMLParser *)arg1 evaluateScriptValue:(NSString *)arg2 sourceURL:(NSURL *)arg3 lineNumber:(unsigned int)arg4;
 - (void)CAMLParser:(CAMLParser *)arg1 evaluateScriptElement:(NSString *)arg2 sourceURL:(NSURL *)arg3 lineNumber:(unsigned int)arg4;
 - (Class)CAMLParser:(CAMLParser *)arg1 didFailToFindClassWithName:(NSString *)arg2;

@@ -7,7 +7,12 @@
 
 @class NTKCFaceDetailToggleCell;
 
+#ifndef NTKCFaceDetailToggleCellDelegate_Protocol
+#define NTKCFaceDetailToggleCellDelegate_Protocol
+
 @protocol NTKCFaceDetailToggleCellDelegate <NSObject>
 - (void)toggleCell:(NTKCFaceDetailToggleCell *)arg1 didToggle:(BOOL)arg2;
 @end
+
+#endif
 

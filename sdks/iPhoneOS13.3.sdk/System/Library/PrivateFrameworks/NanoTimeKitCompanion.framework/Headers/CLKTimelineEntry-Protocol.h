@@ -7,8 +7,13 @@
 
 @class NSDate;
 
+#ifndef CLKTimelineEntry_Protocol
+#define CLKTimelineEntry_Protocol
+
 @protocol CLKTimelineEntry <NSObject>
 - (void)setDate:(NSDate *)arg1;
 - (NSDate *)date;
 @end
+
+#endif
 

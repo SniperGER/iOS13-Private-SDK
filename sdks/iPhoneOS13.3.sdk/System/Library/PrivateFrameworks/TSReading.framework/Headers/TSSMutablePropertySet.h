@@ -17,7 +17,7 @@
 - (void)addProperty:(int)arg1;
 // - (id)copyWithZone:(_NSZone )arg1;
 - (id)initWithPropertySet:(id)arg1;
-- (id)initWithFirstProperty:(int)arg1 argumentList:(struct __va_list_tag [1])arg2;
+// - (id)initWithFirstProperty:(int)arg1 argumentList:(struct __va_list_tag [1])arg2;
 - (id)init;
 
 @end

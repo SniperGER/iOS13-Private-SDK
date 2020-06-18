@@ -26,7 +26,7 @@
 // - (void).cxx_destruct;
 - (void)textFieldDidResignFirstResponder:(id)arg1;
 - (BOOL)textFieldShouldReturn:(id)arg1;
-- (BOOL)textField:(id)arg1 shouldChangeCharactersInRange:(_NSRange)arg2 replacementString:(id)arg3;
+- (BOOL)textField:(id)arg1 shouldChangeCharactersInRange:(NSRange)arg2 replacementString:(id)arg3;
 - (BOOL)textFieldShouldBeginEditing:(id)arg1;
 - (void)notePasscodeFieldDidAcceptEntry;
 - (void)notePasscodeFieldTextDidChange;

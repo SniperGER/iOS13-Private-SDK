@@ -25,7 +25,7 @@
 @property(nonatomic) double contentBottomMargin; // @synthesize contentBottomMargin=_contentBottomMargin;
 @property(retain, nonatomic) HFItem *item; // @synthesize item=_item;
 // - (void).cxx_destruct;
-- (BOOL)textView:(id)arg1 shouldInteractWithURL:(id)arg2 inRange:(_NSRange)arg3 interaction:(long long)arg4;
+- (BOOL)textView:(id)arg1 shouldInteractWithURL:(id)arg2 inRange:(NSRange)arg3 interaction:(long long)arg4;
 - (void)updateConstraints;
 - (void)updateUIWithAnimation:(BOOL)arg1;
 - (void)layoutSubviews;

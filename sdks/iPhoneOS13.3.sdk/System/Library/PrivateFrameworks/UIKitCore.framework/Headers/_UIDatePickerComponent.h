@@ -15,13 +15,13 @@ __attribute__((visibility("hidden")))
     NSString *_formatString;
     NSUInteger _calendarUnit;
     double _width;
-    _NSRange _unitRange;
+    NSRange _unitRange;
 }
 
 + (id)componentsFromDateFormatString:(id)arg1 locale:(id)arg2 desiredUnits:(long long)arg3;
 + (id)componentsFromDateFormatString:(id)arg1 locale:(id)arg2;
 @property(nonatomic) double width; // @synthesize width=_width;
-@property(nonatomic) _NSRange unitRange; // @synthesize unitRange=_unitRange;
+@property(nonatomic) NSRange unitRange; // @synthesize unitRange=_unitRange;
 @property(readonly, nonatomic) NSUInteger calendarUnit; // @synthesize calendarUnit=_calendarUnit;
 @property(readonly, nonatomic) NSString *formatString; // @synthesize formatString=_formatString;
 // - (void).cxx_destruct;

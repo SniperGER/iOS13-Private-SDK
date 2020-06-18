@@ -17,7 +17,7 @@
     id <DASearchQueryConsumer> _consumer;
     NSString *_searchID;
     NSUInteger _state;
-    _NSRange _range;
+    NSRange _range;
 }
 
 + (id)searchQueryWithSearchString:(id)arg1 consumer:(id)arg2;
@@ -25,7 +25,7 @@
 @property(copy, nonatomic) NSString *searchID; // @synthesize searchID=_searchID;
 @property(nonatomic) __weak id <DASearchQueryConsumer> consumer; // @synthesize consumer=_consumer;
 @property(nonatomic) int timeLimit; // @synthesize timeLimit=_timeLimit;
-@property(nonatomic) _NSRange range; // @synthesize range=_range;
+@property(nonatomic) NSRange range; // @synthesize range=_range;
 @property(copy, nonatomic) NSPredicate *searchPredicate; // @synthesize searchPredicate=_searchPredicate;
 @property(copy, nonatomic) NSString *searchString; // @synthesize searchString=_searchString;
 // - (void).cxx_destruct;

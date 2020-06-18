@@ -12,7 +12,7 @@
 @protocol MTLBufferSPI <MTLBuffer>
 @property(readonly) struct __IOSurface iosurface;
 - (id <MTLTexture>)newLinearTextureWithDescriptor:(MTLTextureDescriptor *)arg1 offset:(NSUInteger)arg2 bytesPerRow:(NSUInteger)arg3 bytesPerImage:(NSUInteger)arg4;
-- (void)didModifyRange:(_NSRange)arg1;
+- (void)didModifyRange:(NSRange)arg1;
 
 @optional
 @property(nonatomic) NSUInteger resourceIndex;

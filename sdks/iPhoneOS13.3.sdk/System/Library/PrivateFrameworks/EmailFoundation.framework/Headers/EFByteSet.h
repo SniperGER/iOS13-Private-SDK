@@ -20,7 +20,7 @@
 - (id)initWithCString:(const char )arg1;
 - (id)init;
 - (id)initWithBytes:(const void )arg1 length:(NSUInteger)arg2;
-- (id)initWithRange:(_NSRange)arg1;
+- (id)initWithRange:(NSRange)arg1;
 
 @end
 

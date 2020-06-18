@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 
 // - (void).cxx_destruct;
 - (void)undoRedo;
-- (id)initWithAffectedRange:(_NSRange)arg1 inputController:(id)arg2;
+- (id)initWithAffectedRange:(NSRange)arg1 inputController:(id)arg2;
 
 @end
 

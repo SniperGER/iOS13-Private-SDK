@@ -27,7 +27,7 @@ __attribute__((visibility("hidden")))
 @property(readonly, nonatomic) NSMutableArray *columns; // @synthesize columns=_columns;
 @property(readonly, nonatomic) TSWPStorage *storage; // @synthesize storage=_storage;
 // - (void).cxx_destruct;
-- (BOOL)containsStartOfRange:(_NSRange)arg1;
+- (BOOL)containsStartOfRange:(NSRange)arg1;
 @property(readonly, nonatomic) BOOL columnsAreLeftToRight;
 @property(readonly, nonatomic) BOOL shrinkTextToFit;
 @property(readonly, nonatomic) BOOL alwaysStartsNewTarget;
@@ -79,7 +79,7 @@ __attribute__((visibility("hidden")))
 @property(readonly, nonatomic) NSObject<TSWPTopicNumberHints> *nextTargetTopicNumbers;
 @property(readonly, nonatomic) NSObject<TSWPTopicNumberHints> *previousTargetTopicNumbers;
 @property(readonly, nonatomic) id <TSWPOffscreenColumn> previousTargetLastColumn;
-- (id)columnMetricsForCharIndex:(NSUInteger)arg1 outRange:(_NSRange )arg2;
+- (id)columnMetricsForCharIndex:(NSUInteger)arg1 outRange:(NSRange )arg2;
 - (double)textScaleForChild:(id)arg1;
 - (CGSize)measuredSizeWithFlags:(unsigned int)arg1 minSize:(CGSize)arg2 maxSize:(CGSize)arg3;
 - (CGSize)measuredSizeWithFlags:(unsigned int)arg1;

@@ -11,7 +11,7 @@
 __attribute__((visibility("hidden")))
 @interface _UIDataSourceSnapshotter : NSObject <NSCopying, _UIDataSourceSnapshot>
 {
-    struct vector<_NSRange, std::__1::allocator<_NSRange>> _sectionRanges;
+    struct vector<NSRange, std::__1::allocator<NSRange>> _sectionRanges;
 }
 
 + (id)snapshotWithSectionCountsProvider:(id /* CDUnknownBlockType */)arg1;
@@ -32,7 +32,7 @@ __attribute__((visibility("hidden")))
 - (BOOL)indexPathIsSectionAppendingInsert:(id)arg1;
 - (BOOL)isEqual:(id)arg1;
 - (long long)sectionForGlobalIndex:(long long)arg1;
-- (_NSRange)rangeForSection:(long long)arg1;
+- (NSRange)rangeForSection:(long long)arg1;
 - (long long)globalIndexForIndexPath:(id)arg1;
 - (id)indexPathForGlobalIndex:(long long)arg1;
 - (long long)numberOfItemsBeforeSection:(long long)arg1;

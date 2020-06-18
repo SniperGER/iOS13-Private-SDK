@@ -33,7 +33,7 @@
 + (id)_loadEnglishStringsByKey;
 + (id)_englishDescriptionFormatWithKey:(id)arg1;
 + (id)_localizedDescriptionFormatWithKey:(id)arg1;
-+ (id)_populateDescriptionInUserInfo:(id)arg1 descriptionKey:(id)arg2 arguments:(struct __va_list_tag [1])arg3;
+// + (id)_populateDescriptionInUserInfo:(id)arg1 descriptionKey:(id)arg2 arguments:(struct __va_list_tag [1])arg3;
 + (id)_populateDescriptionInUserInfo:(id)arg1 descriptionKey:(id)arg2;
 + (id)createErrorWithCode:(long long)arg1 userInfo:(id)arg2 descriptionKey:(id)arg3;
 

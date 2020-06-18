@@ -13,13 +13,13 @@
     NSString *_featuresModelId;
     NSString *_featuresVersion;
     NSUInteger _vectorLength;
-    _NSRange _characterNGramRange;
-    _NSRange _tokenNGramRange;
+    NSRange _characterNGramRange;
+    NSRange _tokenNGramRange;
 }
 
 @property(readonly, nonatomic) NSUInteger vectorLength; // @synthesize vectorLength=_vectorLength;
-@property(readonly, nonatomic) _NSRange tokenNGramRange; // @synthesize tokenNGramRange=_tokenNGramRange;
-@property(readonly, nonatomic) _NSRange characterNGramRange; // @synthesize characterNGramRange=_characterNGramRange;
+@property(readonly, nonatomic) NSRange tokenNGramRange; // @synthesize tokenNGramRange=_tokenNGramRange;
+@property(readonly, nonatomic) NSRange characterNGramRange; // @synthesize characterNGramRange=_characterNGramRange;
 @property(readonly, copy, nonatomic) NSString *featuresVersion; // @synthesize featuresVersion=_featuresVersion;
 @property(readonly, copy, nonatomic) NSString *featuresModelId; // @synthesize featuresModelId=_featuresModelId;
 // - (void).cxx_destruct;

@@ -18,13 +18,13 @@
     BOOL _isObservingStorage;
     BOOL _useLigatures;
     long long _delta;
-    _NSRange _dirtyRange;
+    NSRange _dirtyRange;
     TSWPCTTypesetterCache *_typesetterCache;
     struct TSWPTopicNumberHints _cachedTopicNumbers;
 }
 
 + (void)fixColumnBoundsForTarget:(id)arg1 storage:(id)arg2 charIndex:(NSUInteger)arg3 firstColumnIndex:(NSUInteger)arg4 precedingHeight:(double)arg5 height:(double)arg6 alreadyHasMargins:(BOOL)arg7 styleProvider:(id)arg8 vertical:(BOOL)arg9;
-@property(readonly, nonatomic) _NSRange dirtyRange; // @synthesize dirtyRange=_dirtyRange;
+@property(readonly, nonatomic) NSRange dirtyRange; // @synthesize dirtyRange=_dirtyRange;
 @property(readonly, retain, nonatomic) TSWPStorage *storage; // @synthesize storage=_storage;
 @property(readonly, nonatomic) id <TSWPLayoutOwner> owner; // @synthesize owner=_owner;
 - (id).cxx_construct;
@@ -35,11 +35,11 @@
 - (void)inflateTarget:(id)arg1 fromHints:(const vector_2f7f6b92 )arg2 childHint:(id)arg3 anchoredAttachmentPositions:(id)arg4 topicNumbers:(const struct TSWPTopicNumberHints )arg5;
 - (void)deflateTarget:(id)arg1 intoHints:(vector_2f7f6b92 )arg2 childHints:(id [2])arg3 anchoredAttachmentPositions:(id )arg4 topicNumbers:(struct TSWPTopicNumberHints )arg5 layoutState:(void )arg6;
 - (void )layoutStateForLayoutTarget:(id)arg1 afterHint:(const CDStruct_6026ced1 )arg2 childHint:(id)arg3 topicNumbers:(const struct TSWPTopicNumberHints )arg4 textIsVertical:(BOOL)arg5;
-- (double)layoutIntoTarget:(id)arg1 withRange:(_NSRange)arg2;
+- (double)layoutIntoTarget:(id)arg1 withRange:(NSRange)arg2;
 - (void )layoutIntoTarget:(id)arg1 withLayoutState:(void )arg2 outSync:(BOOL )arg3;
 - (BOOL)needsLayoutInColumn:(id)arg1;
 - (void)willRemoveAttachmentLayout:(id)arg1;
-- (void)storage:(id)arg1 didChangeRange:(_NSRange)arg2 delta:(long long)arg3 broadcastKind:(int)arg4;
+- (void)storage:(id)arg1 didChangeRange:(NSRange)arg2 delta:(long long)arg3 broadcastKind:(int)arg4;
 - (void)clearTypesetterCache;
 - (void)clearOwner;
 - (void)resetTopicNumbers;

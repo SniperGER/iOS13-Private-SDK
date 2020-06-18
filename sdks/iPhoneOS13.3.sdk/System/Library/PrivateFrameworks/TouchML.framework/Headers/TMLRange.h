@@ -10,7 +10,7 @@
 
 @interface TMLRange : NSObject <TMLRangeJSExports, NSCopying>
 {
-    _NSRange _range;
+    NSRange _range;
 }
 
 + (void)initializeJSContext:(id)arg1;
@@ -19,7 +19,7 @@
 - (id)description;
 - (id)NSRangeValue;
 // - (id)copyWithZone:(_NSZone )arg1;
-- (id)initWithRange:(_NSRange)arg1;
+- (id)initWithRange:(NSRange)arg1;
 
 @end
 

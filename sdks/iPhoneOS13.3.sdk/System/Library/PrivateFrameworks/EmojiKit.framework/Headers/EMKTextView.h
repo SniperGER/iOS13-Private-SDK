@@ -12,7 +12,7 @@
 {
     EMKOverlayView *_overlayView;
     NSUInteger _tappedGlyphIndex;
-    _NSRange _tappedGlyphRange;
+    NSRange _tappedGlyphRange;
     EMKGestureRecognizerDelegate *_gestureRecognizerDelegate;
     EMFEmojiPreferences *_emojiPreferences;
     NSTimer *_timer;
@@ -31,7 +31,7 @@
 - (void)textTapGestureRecognized:(id)arg1;
 - (id)personalizedEmojiTokenListForList:(id)arg1;
 - (CGRect)anchorRect;
-- (void)replaceRange:(_NSRange)arg1 withEmojiToken:(id)arg2 language:(id)arg3;
+- (void)replaceRange:(NSRange)arg1 withEmojiToken:(id)arg2 language:(id)arg3;
 - (void)dealloc;
 - (id)initWithFrame:(CGRect)arg1 textContainer:(id)arg2;
 - (void)deleteBackward;

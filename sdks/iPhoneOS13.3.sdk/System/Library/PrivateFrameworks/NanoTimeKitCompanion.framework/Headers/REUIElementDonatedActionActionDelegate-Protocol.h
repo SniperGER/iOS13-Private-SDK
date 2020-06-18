@@ -8,8 +8,13 @@
 
 @class REUIElementDonatedActionAction, UIImage, UIView;
 
+#ifndef REUIElementDonatedActionActionDelegate_Protocol
+#define REUIElementDonatedActionActionDelegate_Protocol
+
 @protocol REUIElementDonatedActionActionDelegate <REElementActionDelegate>
 - (UIView *)intentActionWantsBackgroundToBlurForAlert:(REUIElementDonatedActionAction *)arg1;
 - (UIImage *)intentActionWantsBackgroundImageForAlert:(REUIElementDonatedActionAction *)arg1;
 @end
+
+#endif
 

@@ -9,7 +9,7 @@
 #import <Home/HFStringGenerator-Protocol.h>
 
 @interface NSAttributedString (HFStringGeneratoreAdditions) <HFStringGenerator>
-- (id)_synthesizeAttributedSubstringFromRange:(_NSRange)arg1 usingDefaultAttributes:(id)arg2;
+- (id)_synthesizeAttributedSubstringFromRange:(NSRange)arg1 usingDefaultAttributes:(id)arg2;
 - (BOOL)prefersDynamicString;
 - (id)stringWithAttributes:(id)arg1;
 - (id)dynamicStringForSize:(CGSize)arg1 attributes:(id)arg2;

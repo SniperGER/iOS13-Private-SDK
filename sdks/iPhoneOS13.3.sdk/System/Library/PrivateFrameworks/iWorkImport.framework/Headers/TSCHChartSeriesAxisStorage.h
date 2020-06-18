@@ -19,7 +19,7 @@ __attribute__((visibility("hidden")))
 @property(retain, nonatomic) TSCHChartGridAdapter *adapter; // @synthesize adapter;
 // - (void).cxx_destruct;
 - (void)setValue:(id)arg1 atIndex:(NSUInteger)arg2 multiDataSetIndex:(NSUInteger)arg3;
-- (id )valuesAtIndexes:(_NSRange)arg1 multiDataSetIndex:(NSUInteger)arg2;
+- (id )valuesAtIndexes:(NSRange)arg1 multiDataSetIndex:(NSUInteger)arg2;
 - (id)valueAtIndex:(NSUInteger)arg1 multiDataSetIndex:(NSUInteger)arg2;
 - (NSUInteger)numberOfValues;
 

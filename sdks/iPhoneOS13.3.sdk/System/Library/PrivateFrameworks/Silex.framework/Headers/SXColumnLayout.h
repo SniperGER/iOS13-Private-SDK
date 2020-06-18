@@ -55,9 +55,9 @@
 - (id)description;
 // - (id)copyWithZone:(_NSZone )arg1;
 - (BOOL)isEqual:(id)arg1;
-- (double)widthForColumnRange:(_NSRange)arg1 ignoreMargin:(NSUInteger)arg2 ignoreGutter:(NSUInteger)arg3 ignoreViewportPadding:(NSUInteger)arg4;
+- (double)widthForColumnRange:(NSRange)arg1 ignoreMargin:(NSUInteger)arg2 ignoreGutter:(NSUInteger)arg3 ignoreViewportPadding:(NSUInteger)arg4;
 - (double)xPositionForColumnIndex:(long long)arg1 ignoreMargin:(NSUInteger)arg2 ignoreGutter:(NSUInteger)arg3 ignoreViewportPadding:(NSUInteger)arg4;
-- (_NSRange)convertColumnRange:(_NSRange)arg1 minimumColumnLength:(long long)arg2;
+- (NSRange)convertColumnRange:(NSRange)arg1 minimumColumnLength:(long long)arg2;
 - (id)columnLayoutForComponentBlueprint:(id)arg1 unitConverter:(id)arg2;
 - (id)initWithConstrainedViewportSize:(CGSize)arg1 viewportSize:(CGSize)arg2 layoutWidth:(double)arg3 documentLayout:(id)arg4 numberOfLayoutColumns:(NSUInteger)arg5 leftMargin:(double)arg6 rightMargin:(double)arg7 numberOfColumns:(NSUInteger)arg8 columnWidth:(double)arg9 leftScreenMargin:(double)arg10 rightScreenMargin:(double)arg11 contentScaleFactor:(double)arg12;
 

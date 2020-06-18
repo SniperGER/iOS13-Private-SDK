@@ -20,7 +20,7 @@
 @property(readonly, nonatomic) NSArray *moduleControllers; // @synthesize moduleControllers=_moduleControllers;
 // - (void).cxx_destruct;
 - (void)dismissTextViewController;
-- (BOOL)textView:(id)arg1 shouldInteractWithURL:(id)arg2 inRange:(_NSRange)arg3 interaction:(long long)arg4;
+- (BOOL)textView:(id)arg1 shouldInteractWithURL:(id)arg2 inRange:(NSRange)arg3 interaction:(long long)arg4;
 - (id)tableView:(id)arg1 viewForFooterInSection:(long long)arg2;
 - (id)tableView:(id)arg1 cellForRowAtIndexPath:(id)arg2;
 - (void)viewDidLayoutSubviews;

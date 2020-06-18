@@ -14,7 +14,7 @@
     UIView<NTKComplicationImageView> *_imageView;
     float _level;
     CLKProgressProvider *_progressProvider;
-    NSNumber _progressUpdateToken;
+    NSNumber *_progressUpdateToken;
     NTKColoringImageView *_stateRing;
     NTKColoringLabel *_label;
 }

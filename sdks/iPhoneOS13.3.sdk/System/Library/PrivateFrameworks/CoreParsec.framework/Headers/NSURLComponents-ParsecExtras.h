@@ -10,8 +10,8 @@
 + (id)parsec_componentsWithString:(id)arg1;
 + (id)parsec_componentsWithURL:(id)arg1 resolvingAgainstBaseURL:(BOOL)arg2;
 - (id)parsec_componentsAfterRemovingSubdomains;
-- (id)parsec_componentsForEmbeddedAMPURLFromRange:(_NSRange)arg1;
-- (_NSRange)embeddedAMPURLRange;
+- (id)parsec_componentsForEmbeddedAMPURLFromRange:(NSRange)arg1;
+- (NSRange)embeddedAMPURLRange;
 - (id)parsec_normalizedURLStringForDeepLinkWhitelist;
 - (id)parsec_normalizedURLStringForDeepLinkIngest;
 - (id)parsec_normalizedURLStringForLDAModel;

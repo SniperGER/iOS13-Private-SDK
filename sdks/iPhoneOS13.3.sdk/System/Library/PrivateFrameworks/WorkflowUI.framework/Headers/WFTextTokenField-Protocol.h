@@ -9,7 +9,7 @@
 @class WFVariableEditingContext, WFVariableString;
 
 @protocol WFTextTokenField <WFTextField>
-@property(nonatomic) _NSRange selectedRange;
+@property(nonatomic) NSRange selectedRange;
 @property(copy, nonatomic) WFVariableString *variableString;
 - (void)beginEditingWithContext:(WFVariableEditingContext *)arg1;
 - (void)defaultPaste:(id)arg1;

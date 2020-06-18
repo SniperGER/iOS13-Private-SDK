@@ -14,7 +14,7 @@
 
 @property(readonly, nonatomic) double smallItemHeight; // @synthesize smallItemHeight=_smallItemHeight;
 @property(readonly, nonatomic) double largeItemHeight; // @synthesize largeItemHeight=_largeItemHeight;
-- (_NSRange)columnRangeForItem:(id)arg1;
+- (NSRange)columnRangeForItem:(id)arg1;
 - (id)calculateFrames;
 - (double)calculateHeight;
 - (id)initWithCluster:(id)arg1 numberOfColumns:(NSUInteger)arg2 columnLayout:(id)arg3;

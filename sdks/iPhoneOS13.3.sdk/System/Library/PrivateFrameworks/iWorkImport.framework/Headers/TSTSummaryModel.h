@@ -92,7 +92,7 @@ __attribute__((visibility("hidden")))
 - (BOOL)cellExistsAtCellCoord:(struct TSUModelCellCoord)arg1;
 - (id)stringAtCellCoord:(struct TSUModelCellCoord)arg1 optionalCell:(id)arg2;
 - (void)setAggregateType:(unsigned char)arg1 forColumnUID:(const UUIDData_5fbc143e )arg2 atGroupLevel:(unsigned char)arg3;
-- (void)removeRows:(_NSRange)arg1;
+- (void)removeRows:(NSRange)arg1;
 - (void)removeColumnsAtSummaryIndexes:(id)arg1;
 - (int)insertColumnsAtIndex:(struct TSUModelColumnIndex)arg1 metadatas:(id)arg2;
 - (int)setFormulaResultCellsWithCellMap:(id)arg1;

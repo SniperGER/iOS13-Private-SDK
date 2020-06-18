@@ -17,7 +17,7 @@
 // - (void).cxx_destruct;
 - (void)_requestTextureForViewClass:(Class)arg1 userData:(id)arg2 requestID:(int)arg3;
 - (void)_requestTextureWithDecorationOptions:(NSUInteger)arg1 viewClass:(Class)arg2 userData:(id)arg3 requestID:(int)arg4;
-- (_NSRange)requestTexturesForSpritesInRange:(struct _PXGSpriteIndexRange)arg1 geometries:(CDStruct_3ab912e1 )arg2 styles:(CDStruct_506f5052 )arg3 infos:(CDStruct_9d1ebe49 )arg4 inLayout:(id)arg5;
+- (NSRange)requestTexturesForSpritesInRange:(struct _PXGSpriteIndexRange)arg1 geometries:(CDStruct_3ab912e1 )arg2 styles:(CDStruct_506f5052 )arg3 infos:(CDStruct_9d1ebe49 )arg4 inLayout:(id)arg5;
 
 @end
 

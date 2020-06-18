@@ -9,6 +9,6 @@
 @class NSMutableIndexSet, PXGLayout;
 
 @protocol PXMonthsSublayoutProvider <PXGSublayoutProvider>
-- (void)layout:(PXGLayout *)arg1 collectIndexesOfChapterHeaderSublayouts:(NSMutableIndexSet *)arg2 heroSublayouts:(NSMutableIndexSet *)arg3 inRange:(_NSRange)arg4;
+- (void)layout:(PXGLayout *)arg1 collectIndexesOfChapterHeaderSublayouts:(NSMutableIndexSet *)arg2 heroSublayouts:(NSMutableIndexSet *)arg3 inRange:(NSRange)arg4;
 @end
 

@@ -42,7 +42,7 @@
 @property(readonly) NSString *primaryButtonTitle; // @synthesize primaryButtonTitle=_primaryButtonTitle;
 @property BOOL wantsAuthenticationProgress; // @synthesize wantsAuthenticationProgress=_wantsAuthenticationProgress;
 // - (void).cxx_destruct;
-- (BOOL)textField:(id)arg1 shouldChangeCharactersInRange:(_NSRange)arg2 replacementString:(id)arg3;
+- (BOOL)textField:(id)arg1 shouldChangeCharactersInRange:(NSRange)arg2 replacementString:(id)arg3;
 - (BOOL)textFieldShouldReturn:(id)arg1;
 - (void)context:(id)arg1 needsPasswordWithCompletion:(id /* CDUnknownBlockType */)arg2;
 @property(nonatomic) long long blurEffectStyle;

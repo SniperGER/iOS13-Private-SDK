@@ -33,7 +33,7 @@ __attribute__((visibility("hidden")))
 - (void)_mergeDefaultAttributes:(id)arg1;
 - (id)_defaultAttributesForString:(id)arg1;
 - (id)attributedStringContent;
-- (id)contentByApplyingAttribute:(id)arg1 value:(id)arg2 toRange:(_NSRange)arg3;
+- (id)contentByApplyingAttribute:(id)arg1 value:(id)arg2 toRange:(NSRange)arg3;
 - (id)contentByApplyingAttributeToEntireRange:(id)arg1 value:(id)arg2;
 - (id)widthVariantContentForView:(id)arg1;
 - (id)contentWithAttributedString:(id)arg1;

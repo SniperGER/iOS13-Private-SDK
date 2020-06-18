@@ -19,7 +19,7 @@
 + (id)sharedInstance;
 // - (void).cxx_destruct;
 - (void)setDelegate:(id)arg1;
-- (void)logAtLevel:(long long)arg1 forTokenizer:(id)arg2 format:(id)arg3 args:(struct __va_list_tag [1])arg4;
+// - (void)logAtLevel:(long long)arg1 forTokenizer:(id)arg2 format:(id)arg3 args:(struct __va_list_tag [1])arg4;
 
 @end
 

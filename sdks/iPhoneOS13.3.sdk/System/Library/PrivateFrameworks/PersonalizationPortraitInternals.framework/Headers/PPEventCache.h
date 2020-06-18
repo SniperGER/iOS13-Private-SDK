@@ -22,12 +22,12 @@
 - (id)cachedEventHighlightForEvent:(id)arg1 rankingOptions:(int)arg2;
 - (void)setEventHighlight:(id)arg1;
 - (void)evictAllEventsNotInRanges:(id)arg1;
-- (void)evictAllEventsNotInRange:(_NSRange)arg1;
+- (void)evictAllEventsNotInRange:(NSRange)arg1;
 - (void)removeAllObjects;
 - (void)_refreshCachedEvent:(id)arg1;
 - (id)refreshCacheWithChanges:(id)arg1 changesContainDeletion:(BOOL )arg2;
 - (id)evictEventWithIdentifier:(id)arg1;
-- (id)objectForRange:(_NSRange)arg1;
+- (id)objectForRange:(NSRange)arg1;
 - (void)_handleMemoryPressureStatus;
 - (void)setExtraSecondsToBackfill:(NSUInteger)arg1;
 - (id)initWithEventStorage:(id)arg1;

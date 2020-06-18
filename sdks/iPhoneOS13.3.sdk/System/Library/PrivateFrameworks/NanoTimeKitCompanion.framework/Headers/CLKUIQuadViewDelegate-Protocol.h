@@ -7,7 +7,12 @@
 
 @class CLKUIQuadView;
 
+#ifndef CLKUIQuadViewDelegate_Protocol
+#define CLKUIQuadViewDelegate_Protocol
+
 @protocol CLKUIQuadViewDelegate <NSObject>
 - (void)quadViewWillDisplay:(CLKUIQuadView *)arg1 forTime:(double)arg2;
 @end
+
+#endif
 

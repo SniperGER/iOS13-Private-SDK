@@ -15,10 +15,10 @@
     NSString *_targetComponentIdentifier;
     long long _targetAnchorPosition;
     long long _originAnchorPosition;
-    _NSRange _range;
+    NSRange _range;
 }
 
-@property(nonatomic) _NSRange range; // @synthesize range=_range;
+@property(nonatomic) NSRange range; // @synthesize range=_range;
 @property(nonatomic) long long originAnchorPosition; // @synthesize originAnchorPosition=_originAnchorPosition;
 @property(nonatomic) long long targetAnchorPosition; // @synthesize targetAnchorPosition=_targetAnchorPosition;
 @property(readonly, nonatomic) NSString *targetComponentIdentifier; // @synthesize targetComponentIdentifier=_targetComponentIdentifier;

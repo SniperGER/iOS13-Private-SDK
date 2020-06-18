@@ -24,7 +24,7 @@
 // - (id)copyWithZone:(_NSZone )arg1;
 - (void)_prepareLayoutIfNeeded;
 - (void)invalidate;
-- (void)getGeometries:(struct _PXLayoutGeometry )arg1 inRange:(_NSRange)arg2 withKind:(long long)arg3;
+- (void)getGeometries:(struct _PXLayoutGeometry )arg1 inRange:(NSRange)arg2 withKind:(long long)arg3;
 - (NSUInteger)numberOfGeometriesWithKind:(long long)arg1;
 - (id)geometryKinds;
 - (CGSize)size;

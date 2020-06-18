@@ -14,7 +14,7 @@
 {
     NSDate *_overrideDate;
     NSCalendar *_calendar;
-    NSNumber _clockTimerToken;
+    NSNumber *_clockTimerToken;
     CAReplicatorLayer *_hourTickReplicatorLayer;
     CAReplicatorLayer *_minuteTickReplicatorLayer;
     UIView *_digitalContainerView;

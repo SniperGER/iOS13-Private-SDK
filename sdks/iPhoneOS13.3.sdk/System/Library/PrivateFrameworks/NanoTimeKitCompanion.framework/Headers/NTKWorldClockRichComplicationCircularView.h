@@ -22,7 +22,7 @@
     UILabel *_cityNameLabel;
     NTKWorldClockRichComplicationHandsView *_handsView;
     WorldClockCity *_city;
-    NSNumber _clockTimerToken;
+    NSNumber *_clockTimerToken;
     BOOL _positionLabelNorthSide;
     UIColor *_daytimeBackgroundColor;
     UIColor *_daytimeHandsColor;

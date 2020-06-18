@@ -9,16 +9,16 @@
 
 @protocol TSCEReferenceResolving <NSObject>
 - (TSUMutableUUIDSet *)UIDSetForIndexes:(NSIndexSet *)arg1 isRows:(BOOL)arg2;
-- (vector_4dc5f307)UIDsForRange:(_NSRange)arg1 isRows:(BOOL)arg2;
+- (vector_4dc5f307)UIDsForRange:(NSRange)arg1 isRows:(BOOL)arg2;
 - (NSMutableIndexSet *)mutableIndexesForUIDs:(const vector_4dc5f307 )arg1 isRows:(BOOL)arg2;
 - (vector_4dc5f307)UIDsForIndexes:(NSIndexSet *)arg1 isRows:(BOOL)arg2;
 - (UUIDData_5fbc143e)UIDForIndex:(unsigned int)arg1 isRows:(BOOL)arg2;
-- (vector_4dc5f307)columnUIDsForColumnRange:(_NSRange)arg1;
+- (vector_4dc5f307)columnUIDsForColumnRange:(NSRange)arg1;
 - (NSMutableIndexSet *)mutableColumnIndexesForUIDs:(const vector_4dc5f307 )arg1;
 - (vector_4dc5f307)columnUIDsForColumnIndexes:(NSIndexSet *)arg1;
 - (unsigned short)columnIndexForColumnUID:(const UUIDData_5fbc143e )arg1;
 - (UUIDData_5fbc143e)columnUIDForColumnIndex:(unsigned short)arg1;
-- (vector_4dc5f307)rowUIDsForRowRange:(_NSRange)arg1;
+- (vector_4dc5f307)rowUIDsForRowRange:(NSRange)arg1;
 - (NSMutableIndexSet *)mutableRowIndexesForUIDs:(const vector_4dc5f307 )arg1;
 - (vector_4dc5f307)rowUIDsForRowIndexes:(NSIndexSet *)arg1;
 - (unsigned int)rowIndexForRowUID:(const UUIDData_5fbc143e )arg1;

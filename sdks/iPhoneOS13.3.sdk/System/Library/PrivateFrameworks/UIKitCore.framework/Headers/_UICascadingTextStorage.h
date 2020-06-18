@@ -20,10 +20,10 @@ __attribute__((visibility("hidden")))
 - (BOOL)_shouldSetOriginalFontAttribute;
 - (id)_defaultAttributes;
 @property(copy, nonatomic) NSDictionary *defaultAttributes;
-- (id)attribute:(id)arg1 atIndex:(NSUInteger)arg2 longestEffectiveRange:(_NSRange )arg3 inRange:(_NSRange)arg4;
-- (id)attribute:(id)arg1 atIndex:(NSUInteger)arg2 effectiveRange:(_NSRange )arg3;
-- (id)attributesAtIndex:(NSUInteger)arg1 longestEffectiveRange:(_NSRange )arg2 inRange:(_NSRange)arg3;
-- (id)attributesAtIndex:(NSUInteger)arg1 effectiveRange:(_NSRange )arg2;
+- (id)attribute:(id)arg1 atIndex:(NSUInteger)arg2 longestEffectiveRange:(NSRange )arg3 inRange:(NSRange)arg4;
+- (id)attribute:(id)arg1 atIndex:(NSUInteger)arg2 effectiveRange:(NSRange )arg3;
+- (id)attributesAtIndex:(NSUInteger)arg1 longestEffectiveRange:(NSRange )arg2 inRange:(NSRange)arg3;
+- (id)attributesAtIndex:(NSUInteger)arg1 effectiveRange:(NSRange )arg2;
 - (long long)_ui_resolvedTextAlignment;
 @property(nonatomic) long long lineBreakMode;
 @property(nonatomic) long long textAlignment;

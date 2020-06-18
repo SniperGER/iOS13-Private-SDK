@@ -12,7 +12,7 @@
 }
 
 - (BOOL)shouldWaitForLayoutAndStyleUpdatesForTransactionCompletion;
-- (_NSRange)fullSizeSnapshotsRange;
+- (NSRange)fullSizeSnapshotsRange;
 - (NSUInteger)numberOfAppLayoutsToCacheSnapshots;
 - (BOOL)isSwitcherWindowUserInteractionEnabled;
 - (BOOL)isSwitcherWindowVisible;

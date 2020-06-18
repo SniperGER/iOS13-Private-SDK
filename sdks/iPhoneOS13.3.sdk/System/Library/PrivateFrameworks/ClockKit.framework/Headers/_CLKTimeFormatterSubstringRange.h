@@ -8,13 +8,13 @@
 
 @interface _CLKTimeFormatterSubstringRange : NSObject
 {
-    _NSRange _range;
+    NSRange _range;
 }
 
-+ (id)rangeWithRange:(_NSRange)arg1;
-@property(nonatomic) _NSRange range; // @synthesize range=_range;
++ (id)rangeWithRange:(NSRange)arg1;
+@property(nonatomic) NSRange range; // @synthesize range=_range;
 - (id)substringFromString:(id)arg1;
-- (id)initWithRange:(_NSRange)arg1;
+- (id)initWithRange:(NSRange)arg1;
 
 @end
 

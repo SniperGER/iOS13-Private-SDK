@@ -30,7 +30,7 @@
 - (const char )_findNextByteThatNeedsQEncodingBetweenStartByte:(const char )arg1 endByte:(const char )arg2;
 - (void)_writeQEncodedTextAndEndSequenceToHeaderBytes:(char )arg1 fromDecodedBytes:(const char )arg2 length:(NSUInteger)arg3;
 - (NSUInteger)_lengthOfQEncodedTextForBytes:(const char )arg1 length:(NSUInteger)arg2;
-- (BOOL)_getBytesWithoutSplittingComposedCharacters:(void )arg1 targetQEncodedTextLength:(NSUInteger)arg2 usedLength:(NSUInteger )arg3 splitComposedCharacterSequence:(BOOL )arg4 usedQEncodedTextLength:(NSUInteger )arg5 extraLength:(NSUInteger )arg6 extraQEncodedTextLength:(NSUInteger )arg7 fromString:(id)arg8 stringEncoding:(NSUInteger)arg9 range:(_NSRange)arg10 remainingRange:(_NSRange )arg11;
+- (BOOL)_getBytesWithoutSplittingComposedCharacters:(void )arg1 targetQEncodedTextLength:(NSUInteger)arg2 usedLength:(NSUInteger )arg3 splitComposedCharacterSequence:(BOOL )arg4 usedQEncodedTextLength:(NSUInteger )arg5 extraLength:(NSUInteger )arg6 extraQEncodedTextLength:(NSUInteger )arg7 fromString:(id)arg8 stringEncoding:(NSUInteger)arg9 range:(NSRange)arg10 remainingRange:(NSRange )arg11;
 - (NSUInteger)_qEncodeToHeaderData:(id)arg1 currentLineLength:(NSUInteger)arg2;
 - (NSUInteger)_bEncodeToHeaderData:(id)arg1 currentLineLength:(NSUInteger)arg2;
 - (NSUInteger)_writeEncodedWordPreambleToBuffer:(char )arg1 length:(NSUInteger)arg2;

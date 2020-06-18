@@ -8,8 +8,6 @@ compatibility-version: 1
 objc-constraint:       retain_release
 exports:
   - archs:              [ armv7, armv7s, arm64, arm64e ]
-    allowable-clients:  [ NewsArticles, NewsArticlesTests, NewsFeed, NewsFeedTests, NewsSubscription, Stocks, StocksAnalytics,
-                          StocksAnalyticsTests, StocksCore, StocksCoreTests, StocksTests, StocksToday, StocksUI, StocksUITests ]
     symbols:            [ _StocksAnalyticsVersionNumber, _StocksAnalyticsVersionString ]
     objc-classes:       [ _SAAdDemographic, _SAAdDemographicDataService, __TtC15StocksAnalytics13DebugAssembly,
                           __TtC15StocksAnalytics15SessionObserver, __TtC15StocksAnalytics15TrackerAssembly,

@@ -111,7 +111,7 @@
 - (CGRect)generatedLayout:(id)arg1 bestCropRectForInputItemAtIndex:(unsigned int)arg2 withAspectRatio:(double)arg3;
 - (id)generatedLayout:(id)arg1 inputItemAtIndex:(unsigned int)arg2;
 - (id)generatedLayout:(id)arg1 objectReferenceAtIndex:(unsigned int)arg2;
-- (void)itemsLayout:(id)arg1 updateTagsInSpriteInfos:(CDStruct_9d1ebe49 )arg2 forItemsInRange:(_NSRange)arg3;
+- (void)itemsLayout:(id)arg1 updateTagsInSpriteInfos:(CDStruct_9d1ebe49 )arg2 forItemsInRange:(NSRange)arg3;
 - (CGRect)itemsLayout:(id)arg1 bestCropRectForItem:(long long)arg2 withAspectRatio:(double)arg3;
 - (double)itemsLayout:(id)arg1 aspectRatioForItem:(long long)arg2;
 - (id)viewUserDataForSpriteAtIndex:(unsigned int)arg1 inLayout:(id)arg2;

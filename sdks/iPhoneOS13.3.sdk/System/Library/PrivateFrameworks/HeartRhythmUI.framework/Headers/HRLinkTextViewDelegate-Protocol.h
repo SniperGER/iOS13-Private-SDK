@@ -7,6 +7,6 @@
 @class HRLinkTextView;
 
 @protocol HRLinkTextViewDelegate
-- (void)linkTextView:(HRLinkTextView *)arg1 didTapOnLinkInRange:(_NSRange)arg2;
+- (void)linkTextView:(HRLinkTextView *)arg1 didTapOnLinkInRange:(NSRange)arg2;
 @end
 

@@ -9,7 +9,7 @@
 #import <Home/HFPropertyListConvertible-Protocol.h>
 
 @interface NSArray (HFUtilities) <HFPropertyListConvertible>
-+ (id)hf_arrayWithNumbersInRange:(_NSRange)arg1 stride:(NSUInteger)arg2;
++ (id)hf_arrayWithNumbersInRange:(NSRange)arg1 stride:(NSUInteger)arg2;
 - (id)hf_prettyDescription;
 @end
 

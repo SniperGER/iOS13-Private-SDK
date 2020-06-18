@@ -14,17 +14,17 @@
     BOOL _cancelled;
     NSMutableArray *_waitingCallers;
     NSObject<OS_dispatch_queue> *_stateQueue;
-    _NSRange _availableRange;
+    NSRange _availableRange;
 }
 
 @property BOOL cancelled; // @synthesize cancelled=_cancelled;
 @property(retain) NSObject<OS_dispatch_queue> *stateQueue; // @synthesize stateQueue=_stateQueue;
 @property(retain) NSMutableArray *waitingCallers; // @synthesize waitingCallers=_waitingCallers;
-@property _NSRange availableRange; // @synthesize availableRange=_availableRange;
+@property NSRange availableRange; // @synthesize availableRange=_availableRange;
 // - (void).cxx_destruct;
 - (void)cancel;
-- (BOOL)waitForAvailabilityOfRange:(_NSRange)arg1 timeout:(NSUInteger)arg2 error:(id )arg3;
-- (void)updateAvailableRange:(_NSRange)arg1;
+- (BOOL)waitForAvailabilityOfRange:(NSRange)arg1 timeout:(NSUInteger)arg2 error:(id )arg3;
+- (void)updateAvailableRange:(NSRange)arg1;
 - (id)init;
 
 @end

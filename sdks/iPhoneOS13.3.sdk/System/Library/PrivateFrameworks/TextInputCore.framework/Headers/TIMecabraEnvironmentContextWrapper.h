@@ -48,7 +48,7 @@
 - (void)syncEnvironmentAndContextCandidates;
 - (void)revertLearningForCandidate:(void )arg1;
 - (void)revertInlineCandidate;
-- (void)removeCandidatesInRange:(_NSRange)arg1;
+- (void)removeCandidatesInRange:(NSRange)arg1;
 - (void)acceptInlineCandidates;
 @property(readonly, nonatomic) NSArray *inlineCandidates;
 @property(readonly, nonatomic) NSArray *environmentCandidateStrings;

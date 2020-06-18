@@ -19,7 +19,7 @@ __attribute__((visibility("hidden")))
 + (id)_singletonAlloc;
 // - (void).cxx_destruct;
 - (id)transcriberWithIdentifier:(id)arg1;
-- (id)transcriberForBaseText:(id)arg1 range:(_NSRange)arg2 gettingLocale:(id )arg3 inputLanguage:(id )arg4;
+- (id)transcriberForBaseText:(id)arg1 range:(NSRange)arg2 gettingLocale:(id )arg3 inputLanguage:(id )arg4;
 - (id)pronunciationForBaseText:(id)arg1 locale:(id)arg2 inputLanguage:(id)arg3;
 - (id)init;
 // - (id)copyWithZone:(_NSZone )arg1;

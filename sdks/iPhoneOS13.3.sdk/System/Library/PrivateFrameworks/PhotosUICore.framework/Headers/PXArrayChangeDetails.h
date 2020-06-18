@@ -22,11 +22,11 @@
 + (NSUInteger)indexAfterRevertingChanges:(id)arg1 fromIndex:(NSUInteger)arg2 objectChanged:(out BOOL )arg3;
 + (NSUInteger)indexAfterApplyingChanges:(id)arg1 toIndex:(NSUInteger)arg2 objectChanged:(out BOOL )arg3;
 + (id)changeDetailsWithOldKeyItemIndex:(long long)arg1 oldCount:(long long)arg2 newKeyItemIndex:(long long)arg3 newCount:(long long)arg4;
-+ (id)changeDetailsWithMovedFromIndexRange:(_NSRange)arg1 toIndexRange:(_NSRange)arg2;
++ (id)changeDetailsWithMovedFromIndexRange:(NSRange)arg1 toIndexRange:(NSRange)arg2;
 + (id)changeDetailsWithChangedIndexes:(id)arg1;
-+ (id)changeDetailsWithChangedIndexRange:(_NSRange)arg1;
-+ (id)changeDetailsWithRemovedIndexRange:(_NSRange)arg1;
-+ (id)changeDetailsWithInsertedIndexRange:(_NSRange)arg1;
++ (id)changeDetailsWithChangedIndexRange:(NSRange)arg1;
++ (id)changeDetailsWithRemovedIndexRange:(NSRange)arg1;
++ (id)changeDetailsWithInsertedIndexRange:(NSRange)arg1;
 + (id)changeDetailsWithNoIncrementalChanges;
 + (id)changeDetailsWithNoChanges;
 + (id)changeDetailsFromFetchResultChangeDetails:(id)arg1;

@@ -63,9 +63,9 @@
 - (void)clearMetadataForFrame:(id)arg1;
 - (BOOL)isFrameOrChildAnnotated:(id)arg1;
 - (BOOL)isFrameAnnotated:(id)arg1;
-- (void)replaceRange:(_NSRange)arg1 inField:(id)arg2 inFrame:(id)arg3 withString:(id)arg4 andSelectTailStartingAt:(NSUInteger)arg5;
-- (void)selectRange:(_NSRange)arg1 inField:(id)arg2 inFrame:(id)arg3;
-- (_NSRange)selectionRangeInField:(id)arg1 inFrame:(id)arg2;
+- (void)replaceRange:(NSRange)arg1 inField:(id)arg2 inFrame:(id)arg3 withString:(id)arg4 andSelectTailStartingAt:(NSUInteger)arg5;
+- (void)selectRange:(NSRange)arg1 inField:(id)arg2 inFrame:(id)arg3;
+- (NSRange)selectionRangeInField:(id)arg1 inFrame:(id)arg2;
 - (void)disableSpellCheckInField:(id)arg1 inFrame:(id)arg2;
 - (void)focusField:(id)arg1 inFrame:(id)arg2;
 - (void)clearField:(id)arg1 inFrame:(id)arg2;

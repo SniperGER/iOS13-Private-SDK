@@ -23,7 +23,7 @@
 - (void)displayPrivacyInformationWithIdentifier:(id)arg1;
 - (void)displayUnifiedPrivacyInformationWithIdentifiers:(id)arg1;
 - (void)dismissTextViewController;
-- (BOOL)textView:(id)arg1 shouldInteractWithURL:(id)arg2 inRange:(_NSRange)arg3 interaction:(long long)arg4;
+- (BOOL)textView:(id)arg1 shouldInteractWithURL:(id)arg2 inRange:(NSRange)arg3 interaction:(long long)arg4;
 
 @end
 

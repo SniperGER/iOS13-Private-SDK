@@ -32,7 +32,7 @@
 - (void)mf_makeImmutable;
 - (void)setMappingThreshold:(unsigned int)arg1;
 - (void)setLength:(NSUInteger)arg1;
-- (id)subdataWithRange:(_NSRange)arg1;
+- (id)subdataWithRange:(NSRange)arg1;
 - (void)appendData:(id)arg1;
 - (void)appendBytes:(const void )arg1 length:(NSUInteger)arg2;
 - (void )mutableBytes;

@@ -27,7 +27,7 @@ __attribute__((visibility("hidden")))
 @property(readonly) NSUInteger highestIndex;
 @property(readonly) NSUInteger lowestIndex;
 @property(readonly) NSUInteger count;
-- (id)initWithIndexesInRange:(_NSRange)arg1;
+- (id)initWithIndexesInRange:(NSRange)arg1;
 - (id)init;
 
 @end

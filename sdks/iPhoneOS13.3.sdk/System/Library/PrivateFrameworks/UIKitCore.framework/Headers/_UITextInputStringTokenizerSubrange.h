@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
     NSString *_substring;
     UITextPosition *_basePosition;
     long long _indexOfBase;
-    _NSRange _relevantRange;
+    NSRange _relevantRange;
 }
 
 + (id)subrangeWithSubstring:(id)arg1 basePosition:(id)arg2;
-@property(nonatomic) _NSRange relevantRange; // @synthesize relevantRange=_relevantRange;
+@property(nonatomic) NSRange relevantRange; // @synthesize relevantRange=_relevantRange;
 @property(nonatomic) long long indexOfBase; // @synthesize indexOfBase=_indexOfBase;
 @property(readonly, nonatomic) UITextPosition *basePosition; // @synthesize basePosition=_basePosition;
 @property(readonly, nonatomic) NSString *substring; // @synthesize substring=_substring;

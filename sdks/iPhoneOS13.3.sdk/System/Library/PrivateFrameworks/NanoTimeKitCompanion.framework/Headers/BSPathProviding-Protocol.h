@@ -7,9 +7,14 @@
 
 @class NSURL;
 
+#ifndef BSPathProviding_Protocol
+#define BSPathProviding_Protocol
+
 @protocol BSPathProviding <NSObject>
 @property(readonly, nonatomic) NSURL *cachesPath;
 @property(readonly, nonatomic) NSURL *libraryPath;
 @property(readonly, nonatomic) NSURL *defaultPath;
 @end
+
+#endif
 

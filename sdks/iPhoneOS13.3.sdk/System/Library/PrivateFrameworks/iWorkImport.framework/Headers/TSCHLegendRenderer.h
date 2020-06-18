@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void)renderIntoContext:(CGContext )arg1 selection:(id)arg2;
 - (BOOL)canRenderSelectionPath:(id)arg1;
 - (void)p_renderIntoContext:(CGContext )arg1 visible:(CGRect)arg2;
-- (void)p_drawLabelForCell:(id)arg1 intoContext:(CGContext )arg2 rangePtr:(_NSRange )arg3;
+- (void)p_drawLabelForCell:(id)arg1 intoContext:(CGContext )arg2 rangePtr:(NSRange )arg3;
 - (void)p_drawBadgeForCell:(id)arg1 intoContext:(CGContext )arg2;
 - (void)p_draw3DLineBadgeIntoContext:(CGContext )arg1 forCell:(id)arg2;
 - (void)p_drawDonutBadgeIntoContext:(CGContext )arg1 forCell:(id)arg2;

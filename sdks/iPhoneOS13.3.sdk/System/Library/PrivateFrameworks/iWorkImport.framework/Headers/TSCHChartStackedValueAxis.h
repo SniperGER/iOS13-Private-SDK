@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (double)doubleAxisToModelValue:(double)arg1;
 - (double)doubleModelToAxisValue:(double)arg1 forSeries:(id)arg2;
 - (void)updateGridValueTypeInterceptInAnalysis:(id)arg1;
-- (double )unitSpaceValuesForSeries:(id)arg1 indexes:(_NSRange)arg2 min:(double)arg3 max:(double)arg4;
+- (double )unitSpaceValuesForSeries:(id)arg1 indexes:(NSRange)arg2 min:(double)arg3 max:(double)arg4;
 - (double)unitSpaceValueForSeries:(id)arg1 index:(NSUInteger)arg2 min:(double)arg3 max:(double)arg4;
 - (void)updateMultiDataModelAxisAnalysis:(id)arg1;
 - (void)updateModelAxisAnalysis:(id)arg1;

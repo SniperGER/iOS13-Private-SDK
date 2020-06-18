@@ -14,7 +14,7 @@
 - (void)_applyPrototypeSettings;
 - (long long)finalActionForGestureEvent:(id)arg1;
 - (id)handleGestureEvent:(id)arg1;
-- (_NSRange)fullSizeSnapshotsRange;
+- (NSRange)fullSizeSnapshotsRange;
 - (NSUInteger)numberOfAppLayoutsToCacheSnapshots;
 - (BOOL)isSwitcherWindowUserInteractionEnabled;
 - (BOOL)isSwitcherWindowVisible;

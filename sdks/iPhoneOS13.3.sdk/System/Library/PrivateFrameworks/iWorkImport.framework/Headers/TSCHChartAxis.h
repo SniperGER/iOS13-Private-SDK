@@ -80,7 +80,7 @@ __attribute__((visibility("hidden")))
 - (id)p_axisDataFormatterFromCurrentModel;
 - (id)p_fixupNegativeStyleForDataFormatter:(id)arg1;
 - (BOOL)editableFormatForValueStrings;
-- (double )unitSpaceCenterValuesForSeries:(id)arg1 indexes:(_NSRange)arg2;
+- (double )unitSpaceCenterValuesForSeries:(id)arg1 indexes:(NSRange)arg2;
 - (double)unitSpaceCenterValueForSeries:(id)arg1 index:(NSUInteger)arg2;
 - (double)unitSpaceCenterValueForValue:(double)arg1;
 - (double)unitSpaceCenterValueHalfOffset;
@@ -89,9 +89,9 @@ __attribute__((visibility("hidden")))
 - (double)unitSpaceValueForCountSpaceValue:(double)arg1 min:(double)arg2 count:(double)arg3;
 - (double)unitSpaceValueForDataSpaceValue:(double)arg1;
 - (double)unitSpaceValueForDataSpaceValue:(double)arg1 min:(double)arg2 max:(double)arg3;
-- (double )unitSpaceValuesForSeries:(id)arg1 indexes:(_NSRange)arg2;
+- (double )unitSpaceValuesForSeries:(id)arg1 indexes:(NSRange)arg2;
 - (double)unitSpaceValueForSeries:(id)arg1 index:(NSUInteger)arg2;
-- (double )unitSpaceValuesForSeries:(id)arg1 indexes:(_NSRange)arg2 min:(double)arg3 max:(double)arg4;
+- (double )unitSpaceValuesForSeries:(id)arg1 indexes:(NSRange)arg2 min:(double)arg3 max:(double)arg4;
 - (double)unitSpaceValueForSeries:(id)arg1 index:(NSUInteger)arg2 min:(double)arg3 max:(double)arg4;
 - (double)unitSpaceValueForDataSpaceValue:(double)arg1 series:(id)arg2 index:(NSUInteger)arg3;
 - (id)computeMinorGridlinesFromMajorGridlinesInAnalysis:(id)arg1;

@@ -5,7 +5,12 @@
 //
 
 
+#ifndef NTKEditModeMapping_Protocol
+#define NTKEditModeMapping_Protocol
+
 @protocol NTKEditModeMapping <NSObject>
 - (Class)editOptionClassFromEditMode:(long long)arg1 resourceDirectoryExists:(BOOL)arg2;
 @end
+
+#endif
 

@@ -39,9 +39,9 @@
 - (id)viewForItem:(id)arg1;
 @property(readonly, nonatomic) NSUInteger numberOfItems; // @synthesize numberOfItems=_numberOfItems;
 - (id)itemAtIndex:(NSUInteger)arg1;
-- (id)itemsForRange:(_NSRange)arg1;
+- (id)itemsForRange:(NSRange)arg1;
 - (id)layoutForCluster:(id)arg1 previousLayouts:(id)arg2;
-- (id)clusterForItemsInRange:(_NSRange)arg1;
+- (id)clusterForItemsInRange:(NSRange)arg1;
 @property(readonly, nonatomic) NSArray *supportedTileTypeClusters; // @synthesize supportedTileTypeClusters=_supportedTileTypeClusters;
 - (void)reset;
 - (id)viewForItemAtIndex:(NSUInteger)arg1;

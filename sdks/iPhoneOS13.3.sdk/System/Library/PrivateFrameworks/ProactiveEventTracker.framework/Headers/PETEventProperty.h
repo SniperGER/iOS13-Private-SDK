@@ -15,15 +15,15 @@
 
 + (id)freeValuedPropertyWithName:(id)arg1;
 + (id)propertyWithName:(id)arg1 rangeMin:(NSUInteger)arg2 rangeMax:(NSUInteger)arg3;
-+ (id)propertyWithName:(id)arg1 range:(_NSRange)arg2;
-+ (id)propertyWithName:(id)arg1 range:(_NSRange)arg2 clampValues:(BOOL)arg3;
++ (id)propertyWithName:(id)arg1 range:(NSRange)arg2;
++ (id)propertyWithName:(id)arg1 range:(NSRange)arg2 clampValues:(BOOL)arg3;
 + (id)propertyWithName:(id)arg1 enumMapping:(id)arg2 autoSanitizeValues:(BOOL)arg3;
 + (id)propertyWithName:(id)arg1 enumMapping:(id)arg2;
 + (id)propertyWithName:(id)arg1 possibleValues:(id)arg2 autoSanitizeValues:(BOOL)arg3;
 + (id)propertyWithName:(id)arg1 possibleValues:(id)arg2;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 // - (void).cxx_destruct;
-- (_NSRange)validRange;
+- (NSRange)validRange;
 - (id)possibleValues;
 @property(readonly, nonatomic) NSString *longestValueString;
 @property(readonly, nonatomic) NSUInteger cardinality;

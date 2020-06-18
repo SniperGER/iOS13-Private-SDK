@@ -23,7 +23,7 @@
 - (void)_removeAllRequests;
 - (void)cancelTextureRequests:(id)arg1;
 - (void)performRequestsWithAllowedIDs:(id)arg1;
-- (void)enqueueRequestsWithSpriteIndexRange:(struct _PXGSpriteIndexRange)arg1 textureRequestIDs:(_NSRange)arg2 displayAssetFetchResult:(id)arg3 observer:(id)arg4 presentationStyles:(NSUInteger)arg5 targetSize:(CGSize)arg6 screenScale:(double)arg7;
+- (void)enqueueRequestsWithSpriteIndexRange:(struct _PXGSpriteIndexRange)arg1 textureRequestIDs:(NSRange)arg2 displayAssetFetchResult:(id)arg3 observer:(id)arg4 presentationStyles:(NSUInteger)arg5 targetSize:(CGSize)arg6 screenScale:(double)arg7;
 - (void)dealloc;
 
 @end

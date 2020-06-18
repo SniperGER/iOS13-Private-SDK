@@ -21,7 +21,7 @@
 @property(readonly, nonatomic) UIButton *editPhotoButton; // @synthesize editPhotoButton=_editPhotoButton;
 // - (void).cxx_destruct;
 - (CGRect)_separatorFrame;
-- (BOOL)textView:(id)arg1 shouldChangeTextInRange:(_NSRange)arg2 replacementText:(id)arg3;
+- (BOOL)textView:(id)arg1 shouldChangeTextInRange:(NSRange)arg2 replacementText:(id)arg3;
 - (void)_adjustEditPhotoButtonFontSizeIfNecessary;
 - (void)textFieldDidEndEditing:(id)arg1;
 - (BOOL)textFieldShouldReturn:(id)arg1;

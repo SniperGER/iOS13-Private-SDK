@@ -86,7 +86,7 @@
 @property(readonly, nonatomic) const struct TSWPTopicNumberHints nextTargetTopicNumbers;
 @property(readonly, nonatomic) const struct TSWPTopicNumberHints previousTargetTopicNumbers;
 @property(readonly, retain, nonatomic) id <TSWPOffscreenColumn> previousTargetLastColumn;
-- (id)columnMetricsForCharIndex:(NSUInteger)arg1 outRange:(_NSRange )arg2;
+- (id)columnMetricsForCharIndex:(NSUInteger)arg1 outRange:(NSRange )arg2;
 @property(readonly, nonatomic) BOOL columnsAreLeftToRight;
 @property(readonly, nonatomic) BOOL shrinkTextToFit;
 @property(readonly, nonatomic) BOOL alwaysStartsNewTarget;

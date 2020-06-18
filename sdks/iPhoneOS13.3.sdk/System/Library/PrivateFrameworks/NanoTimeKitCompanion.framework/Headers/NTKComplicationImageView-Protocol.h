@@ -8,7 +8,12 @@
 
 @class CLKImageProvider;
 
+#ifndef NTKComplicationImageView_Protocol
+#define NTKComplicationImageView_Protocol
+
 @protocol NTKComplicationImageView <NTKColoringView>
 @property(retain, nonatomic) CLKImageProvider *imageProvider;
 @end
+
+#endif
 

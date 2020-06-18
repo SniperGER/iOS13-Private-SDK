@@ -25,13 +25,13 @@
 - (void)setStencilFrontReferenceValue:(unsigned int)arg1 backReferenceValue:(unsigned int)arg2;
 - (void)setStencilReferenceValue:(unsigned int)arg1;
 - (void)setDepthStencilState:(id)arg1;
-- (void)setFragmentSamplerStates:(const id )arg1 lodMinClamps:(const float )arg2 lodMaxClamps:(const float )arg3 withRange:(_NSRange)arg4;
+- (void)setFragmentSamplerStates:(const id )arg1 lodMinClamps:(const float )arg2 lodMaxClamps:(const float )arg3 withRange:(NSRange)arg4;
 - (void)setFragmentSamplerState:(id)arg1 lodMinClamp:(float)arg2 lodMaxClamp:(float)arg3 atIndex:(NSUInteger)arg4;
-- (void)setFragmentSamplerStates:(const id )arg1 withRange:(_NSRange)arg2;
+- (void)setFragmentSamplerStates:(const id )arg1 withRange:(NSRange)arg2;
 - (void)setFragmentSamplerState:(id)arg1 atIndex:(NSUInteger)arg2;
-- (void)setFragmentTextures:(const id )arg1 withRange:(_NSRange)arg2;
+- (void)setFragmentTextures:(const id )arg1 withRange:(NSRange)arg2;
 - (void)setFragmentTexture:(id)arg1 atIndex:(NSUInteger)arg2;
-- (void)setFragmentBuffers:(const id )arg1 offsets:(const NSUInteger )arg2 withRange:(_NSRange)arg3;
+- (void)setFragmentBuffers:(const id )arg1 offsets:(const NSUInteger )arg2 withRange:(NSRange)arg3;
 - (void)setFragmentBuffer:(id)arg1 offset:(NSUInteger)arg2 atIndex:(NSUInteger)arg3;
 - (void)setFragmentBufferOffset:(NSUInteger)arg1 atIndex:(NSUInteger)arg2;
 - (void)setFragmentBytes:(const void )arg1 length:(NSUInteger)arg2 atIndex:(NSUInteger)arg3;

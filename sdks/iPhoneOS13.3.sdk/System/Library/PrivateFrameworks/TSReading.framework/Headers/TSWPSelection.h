@@ -11,7 +11,7 @@
 @interface TSWPSelection : TSKSelection <NSCopying, TSDTextSelection>
 {
     int _type;
-    _NSRange _range;
+    NSRange _range;
     NSUInteger _headChar;
     NSUInteger _tailChar;
     BOOL _leadingEdge;
@@ -19,12 +19,12 @@
     BOOL _validVisualRanges;
     int _styleInsertionBehavior;
     int _caretAffinity;
-    _NSRange _smartFieldRange;
+    NSRange _smartFieldRange;
     struct TSWPRangeVector _visualRanges;
 }
 
-+ (id)selectionWithRange:(_NSRange)arg1 type:(int)arg2 leadingEdge:(BOOL)arg3 storage:(id)arg4;
-+ (id)selectionWithRange:(_NSRange)arg1;
++ (id)selectionWithRange:(NSRange)arg1 type:(int)arg2 leadingEdge:(BOOL)arg3 storage:(id)arg4;
++ (id)selectionWithRange:(NSRange)arg1;
 + (Class)archivedSelectionClass;
 @property(readonly, nonatomic) BOOL validVisualRanges; // @synthesize validVisualRanges=_validVisualRanges;
 @property(readonly, nonatomic) int caretAffinity; // @synthesize caretAffinity=_caretAffinity;
@@ -33,13 +33,13 @@
 @property(readonly, nonatomic) BOOL leadingEdge; // @synthesize leadingEdge=_leadingEdge;
 @property(nonatomic) NSUInteger tailChar; // @synthesize tailChar=_tailChar;
 @property(nonatomic) NSUInteger headChar; // @synthesize headChar=_headChar;
-@property(readonly, nonatomic) _NSRange smartFieldRange; // @synthesize smartFieldRange=_smartFieldRange;
-@property(readonly, nonatomic) _NSRange rawRange; // @synthesize rawRange=_range;
+@property(readonly, nonatomic) NSRange smartFieldRange; // @synthesize smartFieldRange=_smartFieldRange;
+@property(readonly, nonatomic) NSRange rawRange; // @synthesize rawRange=_range;
 @property(readonly, nonatomic) int type; // @synthesize type=_type;
 - (id).cxx_construct;
 // - (void).cxx_destruct;
 @property(readonly, nonatomic) BOOL isAtEndOfLine;
-- (BOOL)intersectsRange:(_NSRange)arg1;
+- (BOOL)intersectsRange:(NSRange)arg1;
 - (BOOL)containsCharacterAtIndex:(NSUInteger)arg1 allowRightEdge:(BOOL)arg2;
 - (BOOL)containsCharacterAtIndex:(NSUInteger)arg1;
 - (NSUInteger)rightEdge;
@@ -50,16 +50,16 @@
 - (struct TSWPRangeVector )i_visualRanges;
 - (const struct TSWPRangeVector )visualRanges;
 - (void)i_setVisualRanges:(const struct TSWPRangeVector )arg1;
-- (_NSRange)superRange;
+- (NSRange)superRange;
 - (NSUInteger)end;
 - (NSUInteger)start;
 - (id)copyWithVisualRanges:(const struct TSWPRangeVector )arg1 startChar:(NSUInteger)arg2 endChar:(NSUInteger)arg3 rightToLeft:(BOOL)arg4 sameLine:(BOOL)arg5;
 - (id)copyWithNewVisualRanges:(const struct TSWPRangeVector )arg1;
-- (id)copyWithNewRange:(_NSRange)arg1;
+- (id)copyWithNewRange:(NSRange)arg1;
 - (id)copyWithNewType:(int)arg1;
-- (id)copyWithNewVisualTypeRange:(_NSRange)arg1 head:(NSUInteger)arg2 tail:(NSUInteger)arg3;
-- (id)copyWithNewType:(int)arg1 range:(_NSRange)arg2;
-- (id)copyWithNewType:(int)arg1 smartFieldRange:(_NSRange)arg2;
+- (id)copyWithNewVisualTypeRange:(NSRange)arg1 head:(NSUInteger)arg2 tail:(NSUInteger)arg3;
+- (id)copyWithNewType:(int)arg1 range:(NSRange)arg2;
+- (id)copyWithNewType:(int)arg1 smartFieldRange:(NSRange)arg2;
 - (BOOL)isEquivalentForInsertionStyle:(id)arg1;
 @property(readonly, nonatomic) BOOL isEmpty;
 @property(readonly, nonatomic) BOOL isValid;
@@ -70,11 +70,11 @@
 - (BOOL)isEqual:(id)arg1;
 - (void)dealloc;
 // - (id)copyWithZone:(_NSZone )arg1;
-- (id)initWithRange:(_NSRange)arg1;
-- (id)initWithType:(int)arg1 range:(_NSRange)arg2 styleInsertionBehavior:(int)arg3 caretAffinity:(int)arg4;
-- (id)initWithType:(int)arg1 range:(_NSRange)arg2 styleInsertionBehavior:(int)arg3 caretAffinity:(int)arg4 smartFieldRange:(_NSRange)arg5 leadingEdge:(BOOL)arg6 storage:(id)arg7;
-- (id)initWithType:(int)arg1 range:(_NSRange)arg2 styleInsertionBehavior:(int)arg3 caretAffinity:(int)arg4 smartFieldRange:(_NSRange)arg5 leadingEdge:(BOOL)arg6 leadingCharIndex:(NSUInteger)arg7;
-@property(readonly, nonatomic) _NSRange range;
+- (id)initWithRange:(NSRange)arg1;
+- (id)initWithType:(int)arg1 range:(NSRange)arg2 styleInsertionBehavior:(int)arg3 caretAffinity:(int)arg4;
+- (id)initWithType:(int)arg1 range:(NSRange)arg2 styleInsertionBehavior:(int)arg3 caretAffinity:(int)arg4 smartFieldRange:(NSRange)arg5 leadingEdge:(BOOL)arg6 storage:(id)arg7;
+- (id)initWithType:(int)arg1 range:(NSRange)arg2 styleInsertionBehavior:(int)arg3 caretAffinity:(int)arg4 smartFieldRange:(NSRange)arg5 leadingEdge:(BOOL)arg6 leadingCharIndex:(NSUInteger)arg7;
+@property(readonly, nonatomic) NSRange range;
 - (NSUInteger)insertionChar;
 
 @end

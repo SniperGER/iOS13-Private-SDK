@@ -46,9 +46,9 @@
 - (BOOL)typeIs:(struct __CFString )arg1;
 - (long long)score;
 - (CDStruct_912cb5d2)cfRange;
-@property _NSRange range;
+@property NSRange range;
 @property(readonly, nonatomic) int category;
-@property(readonly, nonatomic) _NSRange urlificationRange;
+@property(readonly, nonatomic) NSRange urlificationRange;
 - (struct __DDResult )coreResult;
 // - (id)copyWithZone:(_NSZone )arg1;
 - (void)dealloc;

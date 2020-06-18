@@ -22,7 +22,7 @@ __attribute__((visibility("hidden")))
 
 + (void)enumerateSuffixMatchesForWord:(id)arg1 options:(NSUInteger)arg2 usingBlock:(id /* CDUnknownBlockType */)arg3;
 + (void)enumerateSuffixMatchesForBuffer:(char )arg1 length:(NSUInteger)arg2 options:(NSUInteger)arg3 usingBlock:(id /* CDUnknownBlockType */)arg4;
-+ (void)_enumerateSuffixMatchesForBuffer:(char )arg1 length:(NSUInteger)arg2 followedByLetter:(unsigned char)arg3 options:(NSUInteger)arg4 depth:(NSUInteger)arg5 matchState:(int)arg6 suffixStack:(id )arg7 suffixRangeStack:(_NSRange )arg8 usingBlock:(id /* CDUnknownBlockType */)arg9;
++ (void)_enumerateSuffixMatchesForBuffer:(char )arg1 length:(NSUInteger)arg2 followedByLetter:(unsigned char)arg3 options:(NSUInteger)arg4 depth:(NSUInteger)arg5 matchState:(int)arg6 suffixStack:(id )arg7 suffixRangeStack:(NSRange )arg8 usingBlock:(id /* CDUnknownBlockType */)arg9;
 + (id)standardTurkishSuffixes;
 + (id)standardTurkishVerbSuffixes;
 + (id)standardTurkishNounSuffixes;

@@ -9,9 +9,9 @@
 
 @protocol BRLTBrailleStateManagerDelegate <NSObject>
 - (void)didInsertScriptString:(NSString *)arg1;
-- (void)scriptSelectionDidChange:(_NSRange)arg1;
-- (void)replaceScriptStringRange:(_NSRange)arg1 withScriptString:(BRLTScriptString *)arg2 cursorLocation:(NSUInteger)arg3;
-- (void)brailleDisplayStringDidChange:(BRLTBrailleString *)arg1 brailleSelection:(_NSRange)arg2;
+- (void)scriptSelectionDidChange:(NSRange)arg1;
+- (void)replaceScriptStringRange:(NSRange)arg1 withScriptString:(BRLTScriptString *)arg2 cursorLocation:(NSUInteger)arg3;
+- (void)brailleDisplayStringDidChange:(BRLTBrailleString *)arg1 brailleSelection:(NSRange)arg2;
 - (void)brailleDisplayDeletedCharacter:(BRLTBrailleChar *)arg1;
 - (void)brailleDisplayInsertedCharacter:(BRLTBrailleChar *)arg1;
 @end

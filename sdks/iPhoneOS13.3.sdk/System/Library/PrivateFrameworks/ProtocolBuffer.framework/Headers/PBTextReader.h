@@ -26,7 +26,7 @@
 - (id)_readObject:(Class)arg1;
 - (id)_readValue;
 - (void)_readTag:(id )arg1 andType:(NSUInteger )arg2;
-- (_NSRange)_rangeOfCharactersInSetAtCurrentPosition:(id)arg1;
+- (NSRange)_rangeOfCharactersInSetAtCurrentPosition:(id)arg1;
 - (id)_stringAtCurrentPositionWithPadding:(NSUInteger)arg1;
 - (id)readMessageType:(Class)arg1 fromString:(id)arg2;
 - (BOOL)_hasMore;

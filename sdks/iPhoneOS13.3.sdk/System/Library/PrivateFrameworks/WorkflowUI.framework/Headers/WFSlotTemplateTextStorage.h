@@ -36,18 +36,18 @@
 @property(copy, nonatomic) NSArray *contents; // @synthesize contents=_contents;
 @property(nonatomic, getter=isEnabled) BOOL enabled; // @synthesize enabled=_enabled;
 // - (void).cxx_destruct;
-- (void)enumerateContentInRange:(_NSRange)arg1 usingBlock:(id /* CDUnknownBlockType */)arg2;
-- (id)slotAtCharacterIndex:(NSUInteger)arg1 effectiveRange:(_NSRange )arg2 effectiveContentRange:(_NSRange )arg3;
-- (_NSRange)characterRangeForSlot:(id)arg1 includingInsideSpacingOpportunities:(BOOL)arg2;
+- (void)enumerateContentInRange:(NSRange)arg1 usingBlock:(id /* CDUnknownBlockType */)arg2;
+- (id)slotAtCharacterIndex:(NSUInteger)arg1 effectiveRange:(NSRange )arg2 effectiveContentRange:(NSRange )arg3;
+- (NSRange)characterRangeForSlot:(id)arg1 includingInsideSpacingOpportunities:(BOOL)arg2;
 - (NSUInteger)slotSpacingOpportunityAtCharacterIndex:(NSUInteger)arg1;
 - (id)stringForSlotSpacingOpportunity:(NSUInteger)arg1;
-- (void)_updateColorsForSlot:(id)arg1 inRange:(_NSRange)arg2;
+- (void)_updateColorsForSlot:(id)arg1 inRange:(NSRange)arg2;
 - (void)updateColorsForAllSlots;
 - (void)updateColorsForSlot:(id)arg1;
 - (void)getColorsForSlot:(id)arg1 titleColor:(out id )arg2 backgroundColor:(out id )arg3;
 - (id)attributedStringForSlot:(id)arg1;
 - (void)replaceAttributeInInanimateText:(id)arg1 value:(id)arg2;
-- (void)replaceAttribute:(id)arg1 value:(id)arg2 range:(_NSRange)arg3;
+- (void)replaceAttribute:(id)arg1 value:(id)arg2 range:(NSRange)arg3;
 - (void)regenerateEntireAttributedString;
 - (void)didEndTypingInSlot:(id)arg1;
 - (void)didBeginTypingInSlot:(id)arg1;
@@ -68,9 +68,9 @@
 @property(retain, nonatomic) UIFont *font; // @synthesize font=_font;
 - (void)endEditing;
 - (void)beginEditing;
-- (void)setAttributes:(id)arg1 range:(_NSRange)arg2;
-- (void)replaceCharactersInRange:(_NSRange)arg1 withString:(id)arg2;
-- (id)attributesAtIndex:(NSUInteger)arg1 effectiveRange:(_NSRange )arg2;
+- (void)setAttributes:(id)arg1 range:(NSRange)arg2;
+- (void)replaceCharactersInRange:(NSRange)arg1 withString:(id)arg2;
+- (id)attributesAtIndex:(NSUInteger)arg1 effectiveRange:(NSRange )arg2;
 - (id)string;
 - (id)init;
 

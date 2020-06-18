@@ -9,19 +9,19 @@
 __attribute__((visibility("hidden")))
 @interface TSCEFormulaRewriteInfo_RangeEntry : NSObject
 {
-    _NSRange _range;
+    NSRange _range;
     vector_4dc5f307 _orderedUuids;
     unsigned int _offset;
 }
 
 @property unsigned int offset; // @synthesize offset=_offset;
 @property(readonly) const vector_4dc5f307 orderedUuids; // @synthesize orderedUuids=_orderedUuids;
-@property(readonly) _NSRange range; // @synthesize range=_range;
+@property(readonly) NSRange range; // @synthesize range=_range;
 - (id).cxx_construct;
 // - (void).cxx_destruct;
 - (void)saveToMessage:(struct RewriteRangeEntryArchive )arg1;
 - (id)initFromMessage:(const struct RewriteRangeEntryArchive )arg1;
-- (id)initWithRange:(_NSRange)arg1 orderedUuids:(const vector_4dc5f307 )arg2 offset:(unsigned int)arg3;
+- (id)initWithRange:(NSRange)arg1 orderedUuids:(const vector_4dc5f307 )arg2 offset:(unsigned int)arg3;
 
 @end
 

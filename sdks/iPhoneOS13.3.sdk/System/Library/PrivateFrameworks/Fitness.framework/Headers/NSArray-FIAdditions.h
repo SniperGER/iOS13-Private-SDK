@@ -7,7 +7,7 @@
 #import <Foundation/NSArray.h>
 
 @interface NSArray (FIAdditions)
-+ (id)fi_arrayByEnumeratingRange:(_NSRange)arg1 usingBlock:(id /* CDUnknownBlockType */)arg2;
++ (id)fi_arrayByEnumeratingRange:(NSRange)arg1 usingBlock:(id /* CDUnknownBlockType */)arg2;
 - (id)fi_reduceWithReduction:(id)arg1 block:(id /* CDUnknownBlockType */)arg2;
 - (id)fi_filteredArrayUsingBlock:(id /* CDUnknownBlockType */)arg1;
 - (id)fi_flatMapUsingBlock:(id /* CDUnknownBlockType */)arg1;

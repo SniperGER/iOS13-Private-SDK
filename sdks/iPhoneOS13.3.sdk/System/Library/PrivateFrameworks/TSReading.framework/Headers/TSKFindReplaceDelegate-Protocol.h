@@ -9,7 +9,7 @@
 @protocol TSKSearchReference;
 
 @protocol TSKFindReplaceDelegate <NSObject>
-- (_NSRange)visibleRootIndexRange;
+- (NSRange)visibleRootIndexRange;
 - (void)setSelection:(TSKSelection *)arg1 onModel:(NSObject *)arg2 withFlags:(NSUInteger)arg3;
 
 @optional

@@ -7,6 +7,9 @@
 
 @class NSArray, NSDictionary, NSNumber, NSString, NSUUID, NTKFace, NTKFaceConfiguration;
 
+#ifndef NTKCollectionClient_Protocol
+#define NTKCollectionClient_Protocol
+
 @protocol NTKCollectionClient <NSObject>
 - (void)flushCompleteForIdentifier:(NSString *)arg1;
 - (void)resetClientCollection;
@@ -19,4 +22,6 @@
 - (void)updateSelectedFaceUUID:(NSUUID *)arg1 seqId:(NSNumber *)arg2;
 - (void)loadFullCollectionWithOrderedUUIDs:(NSArray *)arg1 selectedUUID:(NSUUID *)arg2 facesByUUID:(NSDictionary *)arg3 seqId:(NSNumber *)arg4 completion:(void (^)(void))arg5;
 @end
+
+#endif
 

@@ -17,17 +17,17 @@
     TSTCellRegion *mCellRegion;
     TSTCellRegion *mBaseRegion;
     CDStruct_0441cfb5 mCursorCellID;
-    _NSRange mSearchReferenceRange;
+    NSRange mSearchReferenceRange;
 }
 
-@property(nonatomic) _NSRange searchReferenceRange; // @synthesize searchReferenceRange=mSearchReferenceRange;
+@property(nonatomic) NSRange searchReferenceRange; // @synthesize searchReferenceRange=mSearchReferenceRange;
 @property(readonly, nonatomic) CDStruct_0441cfb5 cursorCellID; // @synthesize cursorCellID=mCursorCellID;
 @property(readonly, nonatomic) TSTCellRegion *baseRegion; // @synthesize baseRegion=mBaseRegion;
 @property(readonly, nonatomic) CDStruct_0441cfb5 anchorCellID; // @synthesize anchorCellID=mAnchorCellID;
 @property(readonly, nonatomic) int selectionType; // @synthesize selectionType=mSelectionType;
 @property(readonly, nonatomic) TSTCellRegion *cellRegion; // @synthesize cellRegion=mCellRegion;
 @property(readonly, nonatomic) BOOL isAtEndOfLine;
-@property(readonly, nonatomic) _NSRange range;
+@property(readonly, nonatomic) NSRange range;
 - (BOOL)intersectsPartialMergeRangeInTable:(id)arg1;
 @property(readonly, copy) NSString *description;
 - (BOOL)containsCell:(CDStruct_0441cfb5)arg1;

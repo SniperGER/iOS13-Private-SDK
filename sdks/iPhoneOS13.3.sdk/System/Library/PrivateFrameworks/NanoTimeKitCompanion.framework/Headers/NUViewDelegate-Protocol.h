@@ -7,7 +7,12 @@
 
 @class NUView;
 
+#ifndef NUViewDelegate_Protocol
+#define NUViewDelegate_Protocol
+
 @protocol NUViewDelegate <NSObject>
 - (void)viewWillDisplay:(NUView *)arg1 forTime:(double)arg2;
 @end
+
+#endif
 

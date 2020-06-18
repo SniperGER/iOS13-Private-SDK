@@ -30,10 +30,10 @@
 @property NSUInteger options; // @synthesize options=_options;
 - (id).cxx_construct;
 // - (void).cxx_destruct;
-- (_NSRange)selectionRangeForTextInDocument:(id)arg1 inRange:(_NSRange)arg2 language:(id)arg3 options:(NSUInteger)arg4;
+- (NSRange)selectionRangeForTextInDocument:(id)arg1 inRange:(NSRange)arg2 language:(id)arg3 options:(NSUInteger)arg4;
 - (void)loadStaticPhraseDictionary;
-- (_NSRange)longestRangeEncapsulatingSubstringInDocument:(id)arg1 containingRange:(_NSRange)arg2 tokenizedRanges:(id)arg3 meetingCondition:(id /* CDUnknownBlockType */)arg4;
-- (_NSRange)selectionRangeForTextInDocument:(id)arg1 inRange:(_NSRange)arg2 language:(id)arg3 tokenizedRanges:(id)arg4 options:(NSUInteger)arg5;
+- (NSRange)longestRangeEncapsulatingSubstringInDocument:(id)arg1 containingRange:(NSRange)arg2 tokenizedRanges:(id)arg3 meetingCondition:(id /* CDUnknownBlockType */)arg4;
+- (NSRange)selectionRangeForTextInDocument:(id)arg1 inRange:(NSRange)arg2 language:(id)arg3 tokenizedRanges:(id)arg4 options:(NSUInteger)arg5;
 @property(retain) NSString *language;
 - (void)dealloc;
 - (id)initWithOptions:(NSUInteger)arg1 language:(id)arg2 dataChangedHandler:(id /* CDUnknownBlockType */)arg3;

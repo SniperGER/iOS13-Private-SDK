@@ -13,7 +13,7 @@
 {
     NSUInteger _nextUpdateToken;
     NSMutableDictionary *_updateHandlersByToken;
-    NSNumber _timerToken;
+    NSNumber *_timerToken;
     BOOL _finalized;
     BOOL _paused;
     UIColor *_tintColor;
@@ -39,8 +39,8 @@
 - (long long)timeTravelUpdateFrequency;
 - (void)finalize;
 - (void)validate;
-- (void)stopUpdatesForToken:(NSNumber )arg1;
-- (NSNumber )startUpdatesWithHandler:(id /* CDUnknownBlockType */)arg1;
+- (void)stopUpdatesForToken:(NSNumber *)arg1;
+- (NSNumber *)startUpdatesWithHandler:(id /* CDUnknownBlockType */)arg1;
 - (double)progressFractionForNow:(id)arg1;
 - (void)dealloc;
 - (void)_commonInit;

@@ -36,7 +36,7 @@
 - (void)processPendingTextureRequestIDsWithHandler:(id /* CDUnknownBlockType */)arg1;
 - (void)enumerateSpriteIndexes:(id /* CDUnknownBlockType */)arg1;
 - (void)getSpriteIndexes:(unsigned int )arg1 maxSpriteCount:(unsigned int)arg2;
-- (void)addSpriteIndexRange:(_NSRange)arg1;
+- (void)addSpriteIndexRange:(NSRange)arg1;
 - (void)_addSpriteIndex:(unsigned int)arg1;
 - (void)removeSpriteIndex:(unsigned int)arg1;
 - (void)addSpriteWithTextureRequestID:(int)arg1 deliveryOrder:(unsigned int)arg2;

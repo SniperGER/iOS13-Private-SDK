@@ -7,8 +7,13 @@
 
 @class UIEvent;
 
+#ifndef NTKClockHardwareInput_Protocol
+#define NTKClockHardwareInput_Protocol
+
 @protocol NTKClockHardwareInput <NSObject>
 - (BOOL)_handlePhysicalButton:(NSUInteger)arg1 event:(NSUInteger)arg2;
 - (BOOL)_wheelChangedWithEvent:(UIEvent *)arg1;
 @end
+
+#endif
 

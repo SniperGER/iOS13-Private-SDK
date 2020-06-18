@@ -25,15 +25,15 @@
 - (void)setOriginalInput:(id)arg1;
 - (void)adjustPhraseBoundaryInForwardDirection:(BOOL)arg1 granularity:(int)arg2;
 - (void)adjustPhraseBoundaryInForwardDirection:(BOOL)arg1;
-- (_NSRange)smartSelectionRangeForTextInDocument:(id)arg1 inRange:(_NSRange)arg2 language:(id)arg3 tokenizedRanges:(id)arg4 options:(NSUInteger)arg5;
+- (NSRange)smartSelectionRangeForTextInDocument:(id)arg1 inRange:(NSRange)arg2 language:(id)arg3 tokenizedRanges:(id)arg4 options:(NSUInteger)arg5;
 - (void)skipHitTestForTouchEvent:(id)arg1 keyboardState:(id)arg2;
 - (long long)performHitTestForTouchEvent:(id)arg1 keyboardState:(id)arg2;
 - (id)generateRefinementsForCandidate:(id)arg1;
 - (id)generateReplacementsForString:(id)arg1 keyLayout:(id)arg2;
 - (id)handleAcceptedCandidate:(id)arg1 keyboardState:(id)arg2;
 - (void)candidatesOfferedFeedback:(id)arg1 keyboardState:(id)arg2;
-- (void)generateCandidatesWithKeyboardState:(id)arg1 candidateRange:(_NSRange)arg2 completionHandler:(id /* CDUnknownBlockType */)arg3;
-- (void)generateAutocorrectionsWithKeyboardState:(id)arg1 candidateRange:(_NSRange)arg2 candidateHandler:(id)arg3;
+- (void)generateCandidatesWithKeyboardState:(id)arg1 candidateRange:(NSRange)arg2 completionHandler:(id /* CDUnknownBlockType */)arg3;
+- (void)generateAutocorrectionsWithKeyboardState:(id)arg1 candidateRange:(NSRange)arg2 candidateHandler:(id)arg3;
 - (id)handleKeyboardInput:(id)arg1;
 - (id)keyboardConfiguration;
 - (void)syncToKeyboardState:(id)arg1;

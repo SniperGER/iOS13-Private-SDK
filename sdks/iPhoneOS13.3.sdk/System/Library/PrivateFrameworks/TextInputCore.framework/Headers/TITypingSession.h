@@ -55,7 +55,7 @@
 @property(copy, nonatomic) NSString *layoutName; // @synthesize layoutName=_layoutName;
 // - (void).cxx_destruct;
 - (void)setClientID:(id)arg1 keyboardState:(id)arg2;
-- (void)contextDidChange:(id)arg1 wordDelete:(BOOL)arg2 cursorMoved:(BOOL)arg3 extendsPriorWord:(BOOL)arg4 inWord:(id)arg5 range:(_NSRange)arg6 selectionLocation:(NSUInteger)arg7 keyboardState:(id)arg8;
+- (void)contextDidChange:(id)arg1 wordDelete:(BOOL)arg2 cursorMoved:(BOOL)arg3 extendsPriorWord:(BOOL)arg4 inWord:(id)arg5 range:(NSRange)arg6 selectionLocation:(NSUInteger)arg7 keyboardState:(id)arg8;
 - (void)candidateAccepted:(id)arg1 withInput:(id)arg2 documentState:(id)arg3 inputContext:(id)arg4 inputStem:(id)arg5 predictionBarHit:(BOOL)arg6 useCandidateSelection:(BOOL)arg7 candidateIndex:(long long)arg8 keyboardState:(id)arg9;
 - (void)candidatesOffered:(id)arg1 keyboardState:(id)arg2;
 - (void)layoutDidChange:(id)arg1 keyboardState:(id)arg2;

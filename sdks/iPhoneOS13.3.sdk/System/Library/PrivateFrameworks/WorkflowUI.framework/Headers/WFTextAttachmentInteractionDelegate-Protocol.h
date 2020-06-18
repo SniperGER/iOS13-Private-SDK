@@ -8,9 +8,9 @@
 @class NSTextAttachment, WFTextAttachmentInteraction;
 
 @protocol WFTextAttachmentInteractionDelegate <NSObject>
-- (void)textAttachmentInteraction:(WFTextAttachmentInteraction *)arg1 didTapTextAttachment:(NSTextAttachment *)arg2 inCharacterRange:(_NSRange)arg3;
+- (void)textAttachmentInteraction:(WFTextAttachmentInteraction *)arg1 didTapTextAttachment:(NSTextAttachment *)arg2 inCharacterRange:(NSRange)arg3;
 
 @optional
-- (BOOL)textAttachmentInteraction:(WFTextAttachmentInteraction *)arg1 shouldRecognizeTapOnTextAttachment:(NSTextAttachment *)arg2 inCharacterRange:(_NSRange)arg3;
+- (BOOL)textAttachmentInteraction:(WFTextAttachmentInteraction *)arg1 shouldRecognizeTapOnTextAttachment:(NSTextAttachment *)arg2 inCharacterRange:(NSRange)arg3;
 @end
 

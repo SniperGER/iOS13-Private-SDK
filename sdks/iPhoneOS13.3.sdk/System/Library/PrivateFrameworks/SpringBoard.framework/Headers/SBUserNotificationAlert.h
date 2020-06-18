@@ -121,7 +121,7 @@
 - (id)_parseTextFieldDefinitions:(id)arg1 locBundle:(id)arg2;
 - (id)_parseLegacyTextFieldDefinitions:(id)arg1 locBundle:(id)arg2;
 - (void)_cleanupCustomContentViewControllers;
-- (BOOL)textField:(id)arg1 shouldChangeCharactersInRange:(_NSRange)arg2 replacementString:(id)arg3;
+- (BOOL)textField:(id)arg1 shouldChangeCharactersInRange:(NSRange)arg2 replacementString:(id)arg3;
 - (void)presentationStateDidChangeFromState:(NSUInteger)arg1 toState:(NSUInteger)arg2;
 - (void)didFailToActivate;
 - (void)didDeactivateForReason:(int)arg1;

@@ -48,7 +48,7 @@
 - (void)setCGFloat:(double)arg1 forAttribute:(id)arg2 atIndex:(NSUInteger)arg3;
 - (void)setGLfloat:(float)arg1 forAttribute:(id)arg2 atIndex:(NSUInteger)arg3;
 - (float)GLfloatForAttribute:(id)arg1 atIndex:(NSUInteger)arg2;
-- (void)drawWithShader:(id)arg1 range:(_NSRange)arg2;
+- (void)drawWithShader:(id)arg1 range:(NSRange)arg2;
 - (void)drawWithShader:(id)arg1;
 - (void)disableElementArrayBuffer;
 - (void)enableElementArrayBuffer;

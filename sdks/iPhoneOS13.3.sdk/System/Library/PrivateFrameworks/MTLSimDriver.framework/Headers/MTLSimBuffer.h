@@ -26,9 +26,9 @@ __attribute__((visibility("hidden")))
 @property(readonly) struct __IOSurface iosurface; // @synthesize iosurface=_iosurface;
 - (id)newLinearTextureWithDescriptor:(id)arg1 offset:(NSUInteger)arg2 bytesPerRow:(NSUInteger)arg3 bytesPerImage:(NSUInteger)arg4;
 - (void)removeAllDebugMarkers;
-- (void)didModifyRange:(_NSRange)arg1;
+- (void)didModifyRange:(NSRange)arg1;
 - (void )contents;
-- (void)addDebugMarker:(id)arg1 range:(_NSRange)arg2;
+- (void)addDebugMarker:(id)arg1 range:(NSRange)arg2;
 - (id)newTextureWithDescriptor:(id)arg1 offset:(NSUInteger)arg2 bytesPerRow:(NSUInteger)arg3;
 - (id)newRemoteBufferViewForDevice:(id)arg1;
 @property(readonly, copy) NSString *description;

@@ -10,11 +10,11 @@
 
 @interface PRZhuyinModification : PRModification
 {
-    _NSRange _range;
+    NSRange _range;
     NSString *_replacementString;
     NSUInteger _modificationType;
-    _NSRange _syllableRange;
-    _NSRange _additionalSyllableRange;
+    NSRange _syllableRange;
+    NSRange _additionalSyllableRange;
     double _modificationScore;
     NSUInteger _syllableCountScore;
     unsigned char _letters[5];
@@ -25,18 +25,18 @@
 - (BOOL)producesPartialSyllable;
 - (NSUInteger)syllableCountScore;
 - (double)modificationScore;
-- (_NSRange)combinedSyllableRange;
-- (_NSRange)additionalSyllableRange;
-- (_NSRange)syllableRange;
+- (NSRange)combinedSyllableRange;
+- (NSRange)additionalSyllableRange;
+- (NSRange)syllableRange;
 - (NSUInteger)modificationType;
 - (id)replacementString;
-- (_NSRange)range;
+- (NSRange)range;
 - (id)description;
 - (NSUInteger)hash;
 - (BOOL)isEqual:(id)arg1;
 - (void)dealloc;
-- (id)initWithRange:(_NSRange)arg1 replacementString:(id)arg2 modificationType:(NSUInteger)arg3 syllableRange:(_NSRange)arg4 modificationScore:(double)arg5 syllableCountScore:(NSUInteger)arg6 syllableLetters:(const char )arg7 producesPartialSyllable:(BOOL)arg8;
-- (id)initWithRange:(_NSRange)arg1 replacementString:(id)arg2 modificationType:(NSUInteger)arg3 syllableRange:(_NSRange)arg4 additionalSyllableRange:(_NSRange)arg5 modificationScore:(double)arg6 syllableCountScore:(NSUInteger)arg7 syllableLetters:(const char )arg8 producesPartialSyllable:(BOOL)arg9;
+- (id)initWithRange:(NSRange)arg1 replacementString:(id)arg2 modificationType:(NSUInteger)arg3 syllableRange:(NSRange)arg4 modificationScore:(double)arg5 syllableCountScore:(NSUInteger)arg6 syllableLetters:(const char )arg7 producesPartialSyllable:(BOOL)arg8;
+- (id)initWithRange:(NSRange)arg1 replacementString:(id)arg2 modificationType:(NSUInteger)arg3 syllableRange:(NSRange)arg4 additionalSyllableRange:(NSRange)arg5 modificationScore:(double)arg6 syllableCountScore:(NSUInteger)arg7 syllableLetters:(const char )arg8 producesPartialSyllable:(BOOL)arg9;
 
 @end
 

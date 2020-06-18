@@ -15,7 +15,7 @@
 @property(nonatomic) CGSize lastAttachmentSize; // @synthesize lastAttachmentSize=_lastAttachmentSize;
 @property(nonatomic) double lastAvailableWidth; // @synthesize lastAvailableWidth=_lastAvailableWidth;
 - (id)printableTextContentForAppearanceType:(NSUInteger)arg1;
-- (void)fixAttachmentForAttributedString:(id)arg1 range:(_NSRange)arg2 forPlainText:(BOOL)arg3 forStandardizedText:(BOOL)arg4;
+- (void)fixAttachmentForAttributedString:(id)arg1 range:(NSRange)arg2 forPlainText:(BOOL)arg3 forStandardizedText:(BOOL)arg4;
 - (CDStruct_d2b197d1)attachmentBoundsMargins;
 - (BOOL)canDragWithoutSelecting;
 

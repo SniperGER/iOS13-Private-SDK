@@ -20,7 +20,7 @@
 - (id)_web_possibleURLPrefixesForUserTypedString;
 - (id)_web_possibleURLsForForUserTypedString:(BOOL)arg1;
 - (BOOL)_webkit_looksLikeAbsoluteURL;
-- (_NSRange)_webkit_rangeOfURLScheme;
+- (NSRange)_webkit_rangeOfURLScheme;
 - (id)_webkit_encodeHostName;
 - (id)_webkit_decodeHostName;
 - (id)_web_encodeHostName;

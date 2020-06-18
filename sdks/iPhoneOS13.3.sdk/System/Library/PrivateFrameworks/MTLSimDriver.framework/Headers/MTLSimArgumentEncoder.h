@@ -22,18 +22,18 @@ __attribute__((visibility("hidden")))
     NSUInteger _offset;
 }
 
-- (void)setIndirectCommandBuffers:(const id )arg1 withRange:(_NSRange)arg2;
+- (void)setIndirectCommandBuffers:(const id )arg1 withRange:(NSRange)arg2;
 - (void)setIndirectCommandBuffer:(id)arg1 atIndex:(NSUInteger)arg2;
-- (void)setComputePipelineStates:(const id )arg1 withRange:(_NSRange)arg2;
+- (void)setComputePipelineStates:(const id )arg1 withRange:(NSRange)arg2;
 - (void)setComputePipelineState:(id)arg1 atIndex:(NSUInteger)arg2;
-- (void)setRenderPipelineStates:(const id )arg1 withRange:(_NSRange)arg2;
+- (void)setRenderPipelineStates:(const id )arg1 withRange:(NSRange)arg2;
 - (void)setRenderPipelineState:(id)arg1 atIndex:(NSUInteger)arg2;
 - (void )constantDataAtIndex:(NSUInteger)arg1;
-- (void)setSamplerStates:(const id )arg1 withRange:(_NSRange)arg2;
+- (void)setSamplerStates:(const id )arg1 withRange:(NSRange)arg2;
 - (void)setSamplerState:(id)arg1 atIndex:(NSUInteger)arg2;
-- (void)setTextures:(const id )arg1 withRange:(_NSRange)arg2;
+- (void)setTextures:(const id )arg1 withRange:(NSRange)arg2;
 - (void)setTexture:(id)arg1 atIndex:(NSUInteger)arg2;
-- (void)setBuffers:(const id )arg1 offsets:(const NSUInteger )arg2 withRange:(_NSRange)arg3;
+- (void)setBuffers:(const id )arg1 offsets:(const NSUInteger )arg2 withRange:(NSRange)arg3;
 - (void)setBuffer:(id)arg1 offset:(NSUInteger)arg2 atIndex:(NSUInteger)arg3;
 - (void)setArgumentBuffer:(id)arg1 offset:(NSUInteger)arg2;
 @property(readonly) NSUInteger alignment;

@@ -7,6 +7,6 @@
 
 @protocol TSDTextSelection <NSObject>
 @property(readonly, nonatomic) BOOL isAtEndOfLine;
-@property(readonly, nonatomic) _NSRange range;
+@property(readonly, nonatomic) NSRange range;
 @end
 

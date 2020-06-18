@@ -63,7 +63,7 @@
 - (id)interiorWrapPolygon;
 - (void)updateChildrenFromInfo;
 - (void)createContainedLayoutForEditing;
-- (void)storage:(id)arg1 didChangeRange:(_NSRange)arg2 delta:(long long)arg3 broadcastKind:(int)arg4;
+- (void)storage:(id)arg1 didChangeRange:(NSRange)arg2 delta:(long long)arg3 broadcastKind:(int)arg4;
 - (id)childSearchTargets;
 - (BOOL)isInvisibleAutosizingShape;
 - (id)instructionalStorageForContainedStorage:(id)arg1 storageKind:(int)arg2;

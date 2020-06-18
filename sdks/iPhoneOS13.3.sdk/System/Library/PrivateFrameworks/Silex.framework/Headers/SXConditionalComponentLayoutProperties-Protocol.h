@@ -20,6 +20,6 @@
 @property(readonly, nonatomic) NSUInteger ignoreViewportPadding;
 @property(readonly, nonatomic) NSUInteger ignoreDocumentGutter;
 @property(readonly, nonatomic) NSUInteger ignoreDocumentMargin;
-@property(readonly, nonatomic) _NSRange columnRange;
+@property(readonly, nonatomic) NSRange columnRange;
 @end
 

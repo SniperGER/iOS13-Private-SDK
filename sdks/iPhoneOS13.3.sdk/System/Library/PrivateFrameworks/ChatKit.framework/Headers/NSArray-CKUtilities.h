@@ -11,8 +11,8 @@
 - (id)__ck_indexSetForIndexPathItemsInSection:(long long)arg1;
 - (id)__ck_indexSetForIndexPathRowsInSection:(long long)arg1;
 - (id)__ck_commaJoinedValueForKey:(id)arg1;
-- (id)__ck_parentChatItemWithMesssageGUID:(id)arg1 associatedMessageRange:(_NSRange)arg2;
-- (NSUInteger)__ck_indexOfParentChatItemWithMesssageGUID:(id)arg1 associatedMessageRange:(_NSRange)arg2;
+- (id)__ck_parentChatItemWithMesssageGUID:(id)arg1 associatedMessageRange:(NSRange)arg2;
+- (NSUInteger)__ck_indexOfParentChatItemWithMesssageGUID:(id)arg1 associatedMessageRange:(NSRange)arg2;
 - (id)__ck_chatItemWithGUID:(id)arg1;
 - (NSUInteger)__ck_indexOfChatItemWithGUID:(id)arg1;
 - (id)__ck_indexesOfPartsOfMessages:(id)arg1;

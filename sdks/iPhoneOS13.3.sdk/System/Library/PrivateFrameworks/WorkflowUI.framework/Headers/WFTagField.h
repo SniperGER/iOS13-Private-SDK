@@ -26,10 +26,10 @@
     WFTagTextView *_textView;
     WFTextScrollView *_scrollView;
     UIButton *_plusButton;
-    _NSRange _selectedRange;
+    NSRange _selectedRange;
 }
 
-@property(nonatomic) _NSRange selectedRange; // @synthesize selectedRange=_selectedRange;
+@property(nonatomic) NSRange selectedRange; // @synthesize selectedRange=_selectedRange;
 @property(nonatomic) __weak UIButton *plusButton; // @synthesize plusButton=_plusButton;
 @property(nonatomic) __weak WFTextScrollView *scrollView; // @synthesize scrollView=_scrollView;
 @property(nonatomic) __weak WFTagTextView *textView; // @synthesize textView=_textView;
@@ -51,10 +51,10 @@
 - (void)selectTag;
 - (id)containingViewController;
 - (void)textViewDidChange:(id)arg1;
-- (BOOL)textView:(id)arg1 shouldChangeTextInRange:(_NSRange)arg2 replacementText:(id)arg3;
+- (BOOL)textView:(id)arg1 shouldChangeTextInRange:(NSRange)arg2 replacementText:(id)arg3;
 - (void)textViewDidChangeSelection:(id)arg1;
 - (void)textViewDidEndEditing:(id)arg1;
-- (BOOL)tokenizeFreeTextFromRange:(_NSRange)arg1;
+- (BOOL)tokenizeFreeTextFromRange:(NSRange)arg1;
 - (void)updateEditableState;
 @property(nonatomic) __weak id <WFVariableUIDelegate> variableUIDelegate;
 @property(nonatomic) __weak id <WFVariableProvider> variableProvider;

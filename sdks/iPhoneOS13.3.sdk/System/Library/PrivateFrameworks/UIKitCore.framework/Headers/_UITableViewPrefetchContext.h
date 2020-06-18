@@ -20,7 +20,7 @@ __attribute__((visibility("hidden")))
     long long _prefetchItemCount;
     long long _refreshPrefetchThresholdCount;
     long long _cancelThresholdCount;
-    _NSRange _lastVisibleIndexRange;
+    NSRange _lastVisibleIndexRange;
 }
 
 @property(nonatomic) BOOL prefetchScheduled; // @synthesize prefetchScheduled=_prefetchScheduled;
@@ -28,21 +28,21 @@ __attribute__((visibility("hidden")))
 @property(nonatomic) long long refreshPrefetchThresholdCount; // @synthesize refreshPrefetchThresholdCount=_refreshPrefetchThresholdCount;
 @property(nonatomic) long long prefetchItemCount; // @synthesize prefetchItemCount=_prefetchItemCount;
 @property(nonatomic) double lastContentOffset; // @synthesize lastContentOffset=_lastContentOffset;
-@property(nonatomic) _NSRange lastVisibleIndexRange; // @synthesize lastVisibleIndexRange=_lastVisibleIndexRange;
+@property(nonatomic) NSRange lastVisibleIndexRange; // @synthesize lastVisibleIndexRange=_lastVisibleIndexRange;
 @property(nonatomic) long long maxIndex; // @synthesize maxIndex=_maxIndex;
 @property(retain, nonatomic) NSMutableIndexSet *outstandingRequests; // @synthesize outstandingRequests=_outstandingRequests;
 @property(copy, nonatomic) id /* CDUnknownBlockType */ cancelHandler; // @synthesize cancelHandler=_cancelHandler;
 @property(copy, nonatomic) id /* CDUnknownBlockType */ requestHandler; // @synthesize requestHandler=_requestHandler;
 // - (void).cxx_destruct;
 - (id)computedPrefetchIndexSet;
-- (_NSRange)_validatedRangeWithLocation:(long long)arg1 length:(long long)arg2;
-- (_NSRange)_offsetAndValidateRange:(_NSRange)arg1 firstIndexOffset:(long long)arg2 lastIndexOffset:(long long)arg3;
-- (int)_effectiveRefreshDirectionForProposedVisibleIndexRange:(_NSRange)arg1 withContentOffset:(double)arg2;
+- (NSRange)_validatedRangeWithLocation:(long long)arg1 length:(long long)arg2;
+- (NSRange)_offsetAndValidateRange:(NSRange)arg1 firstIndexOffset:(long long)arg2 lastIndexOffset:(long long)arg3;
+- (int)_effectiveRefreshDirectionForProposedVisibleIndexRange:(NSRange)arg1 withContentOffset:(double)arg2;
 - (id)description;
 - (void)cancelWithNewMaxIndex:(long long)arg1;
 - (void)cancel;
 - (void)schedulePrefetchRequestAfterNextCACommit:(id)arg1;
-- (void)updateVisibleIndexRange:(_NSRange)arg1 withContentOffset:(double)arg2;
+- (void)updateVisibleIndexRange:(NSRange)arg1 withContentOffset:(double)arg2;
 - (id)initWithMaxIndex:(long long)arg1 prefetchItemCount:(long long)arg2 refreshPrefetchThresholdCount:(long long)arg3 cancelThresholdCount:(long long)arg4;
 
 @end

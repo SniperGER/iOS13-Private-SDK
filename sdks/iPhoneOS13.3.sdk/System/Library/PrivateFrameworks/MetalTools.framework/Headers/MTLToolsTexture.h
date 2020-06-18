@@ -30,8 +30,8 @@
 - (void)generateMipmapLevel:(NSUInteger)arg1 slice:(NSUInteger)arg2;
 - (BOOL)canGenerateMipmapLevels;
 - (id)newCompressedTextureViewWithPixelFormat:(NSUInteger)arg1 textureType:(NSUInteger)arg2 level:(NSUInteger)arg3 slice:(NSUInteger)arg4;
-- (id)newTextureViewWithPixelFormat:(NSUInteger)arg1 textureType:(NSUInteger)arg2 levels:(_NSRange)arg3 slices:(_NSRange)arg4 swizzle:(CDStruct_a06f635e)arg5;
-- (id)newTextureViewWithPixelFormat:(NSUInteger)arg1 textureType:(NSUInteger)arg2 levels:(_NSRange)arg3 slices:(_NSRange)arg4;
+- (id)newTextureViewWithPixelFormat:(NSUInteger)arg1 textureType:(NSUInteger)arg2 levels:(NSRange)arg3 slices:(NSRange)arg4 swizzle:(CDStruct_a06f635e)arg5;
+- (id)newTextureViewWithPixelFormat:(NSUInteger)arg1 textureType:(NSUInteger)arg2 levels:(NSRange)arg3 slices:(NSRange)arg4;
 - (id)newTextureViewWithPixelFormat:(NSUInteger)arg1;
 - (void)getBytes:(void )arg1 bytesPerRow:(NSUInteger)arg2 bytesPerImage:(NSUInteger)arg3 fromRegion:(CDStruct_1e3be3a8)arg4 mipmapLevel:(NSUInteger)arg5 slice:(NSUInteger)arg6 options:(NSUInteger)arg7;
 - (void)replaceRegion:(CDStruct_1e3be3a8)arg1 mipmapLevel:(NSUInteger)arg2 slice:(NSUInteger)arg3 withBytes:(const void )arg4 bytesPerRow:(NSUInteger)arg5 bytesPerImage:(NSUInteger)arg6 options:(NSUInteger)arg7;

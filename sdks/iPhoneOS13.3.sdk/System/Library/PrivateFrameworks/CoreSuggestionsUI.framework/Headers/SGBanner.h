@@ -48,7 +48,7 @@
 @property(nonatomic) long long accessoryType; // @synthesize accessoryType=_accessoryType;
 @property(copy, nonatomic) NSArray *images; // @synthesize images=_images;
 // - (void).cxx_destruct;
-- (void)tappableTextView:(id)arg1 didTapRange:(_NSRange)arg2;
+- (void)tappableTextView:(id)arg1 didTapRange:(NSRange)arg2;
 - (void)_onDismiss:(id)arg1;
 - (void)_onAction:(id)arg1;
 @property(readonly, nonatomic) CGRect popoverSourceRect;

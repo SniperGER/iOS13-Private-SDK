@@ -7,9 +7,14 @@
 
 @class NTKClockIconView;
 
+#ifndef NTKClockIconZoomAnimator_Protocol
+#define NTKClockIconZoomAnimator_Protocol
+
 @protocol NTKClockIconZoomAnimator <NSObject>
 - (void)cleanupAfterZoom;
 - (void)setZoomFraction:(double)arg1 iconDiameter:(double)arg2;
 - (void)prepareToZoomWithIconView:(NTKClockIconView *)arg1 minDiameter:(double)arg2 maxDiameter:(double)arg3;
 @end
+
+#endif
 

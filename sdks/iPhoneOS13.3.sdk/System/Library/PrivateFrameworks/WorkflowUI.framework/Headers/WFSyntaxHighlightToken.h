@@ -25,7 +25,7 @@
 @property BOOL overflows; // @synthesize overflows=_overflows;
 // - (void).cxx_destruct;
 - (id)description;
-- (_NSRange)range;
+- (NSRange)range;
 
 @end
 

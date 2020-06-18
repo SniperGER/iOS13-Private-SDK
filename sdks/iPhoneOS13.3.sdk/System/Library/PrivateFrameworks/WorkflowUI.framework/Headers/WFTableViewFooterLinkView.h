@@ -16,19 +16,19 @@
     NSString *_text;
     NSURL *_URL;
     UITextView *_textView;
-    _NSRange _linkRange;
+    NSRange _linkRange;
 }
 
 @property(readonly, nonatomic) UITextView *textView; // @synthesize textView=_textView;
-@property(readonly, nonatomic) _NSRange linkRange; // @synthesize linkRange=_linkRange;
+@property(readonly, nonatomic) NSRange linkRange; // @synthesize linkRange=_linkRange;
 @property(readonly, nonatomic) NSURL *URL; // @synthesize URL=_URL;
 @property(readonly, copy, nonatomic) NSString *text; // @synthesize text=_text;
 @property(nonatomic) __weak id <WFTableViewFooterLinkViewDelegate> delegate; // @synthesize delegate=_delegate;
 // - (void).cxx_destruct;
-- (BOOL)textView:(id)arg1 shouldInteractWithURL:(id)arg2 inRange:(_NSRange)arg3 interaction:(long long)arg4;
+- (BOOL)textView:(id)arg1 shouldInteractWithURL:(id)arg2 inRange:(NSRange)arg3 interaction:(long long)arg4;
 - (void)tintColorDidChange;
 - (void)updateLinkColor;
-- (void)setText:(id)arg1 URL:(id)arg2 linkRange:(_NSRange)arg3;
+- (void)setText:(id)arg1 URL:(id)arg2 linkRange:(NSRange)arg3;
 - (void)setText:(id)arg1 URL:(id)arg2;
 - (id)initWithReuseIdentifier:(id)arg1;
 

@@ -53,7 +53,7 @@
 - (id)_copyHeaderValueForKey:(id)arg1;
 - (id)_headerValueForKey:(id)arg1 offset:(NSUInteger )arg2;
 - (id)_copyHeaderValueForKey:(id)arg1 offset:(NSUInteger )arg2 decoded:(BOOL)arg3;
-- (id)copyDecodedStringFromHeaderData:(id)arg1 withRange:(_NSRange)arg2;
+- (id)copyDecodedStringFromHeaderData:(id)arg1 withRange:(NSRange)arg2;
 - (unsigned int)_contentTypeEncoding;
 - (id)_capitalizedKeyForKey:(id)arg1;
 - (void)_setCapitalizedKey:(id)arg1 forKey:(id)arg2;

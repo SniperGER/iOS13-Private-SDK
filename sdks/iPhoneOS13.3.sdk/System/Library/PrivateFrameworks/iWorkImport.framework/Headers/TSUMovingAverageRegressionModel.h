@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 
 - (double)estimateForX:(double )arg1;
 - (id)equationString;
-- (_NSRange)superscriptRangeAtIndex:(int)arg1;
+- (NSRange)superscriptRangeAtIndex:(int)arg1;
 - (int)numSuperscriptRanges;
 - (id)getEquationStringAndBuildSuperscriptRangesArray:(id)arg1;
 - (double)rSquared;

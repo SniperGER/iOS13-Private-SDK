@@ -15,7 +15,7 @@
 {
     TSWPStorage *_storage;
     TSWPSelection *_selection;
-    _NSRange _smartFieldRange;
+    NSRange _smartFieldRange;
     BOOL _refersToSmartField;
     TSWPSmartField *_smartField;
     BOOL _autohideHighlight;
@@ -26,7 +26,7 @@
 }
 
 + (id)searchReferenceWithStorage:(id)arg1 selection:(id)arg2;
-+ (id)searchReferenceWithStorage:(id)arg1 range:(_NSRange)arg2;
++ (id)searchReferenceWithStorage:(id)arg1 range:(NSRange)arg2;
 @property(retain, nonatomic) id <TSKAnnotation> annotation; // @synthesize annotation;
 @property(nonatomic) CGPoint searchReferencePoint; // @synthesize searchReferencePoint;
 @property(nonatomic) BOOL pulseHighlight; // @synthesize pulseHighlight=_pulseHighlight;
@@ -44,16 +44,16 @@
 - (id)storage;
 @property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) BOOL isInsertionPoint;
-@property(nonatomic) _NSRange range;
+@property(nonatomic) NSRange range;
 - (long long)compare:(id)arg1;
 - (BOOL)isEqual:(id)arg1;
 @property(retain, nonatomic) TSWPSmartField *smartField;
 @property(nonatomic) BOOL refersToSmartField;
-@property(nonatomic) _NSRange smartFieldRange;
+@property(nonatomic) NSRange smartFieldRange;
 - (void)pUpdateSelection;
 - (void)dealloc;
 - (id)initWithStorage:(id)arg1 selection:(id)arg2;
-- (id)initWithStorage:(id)arg1 range:(_NSRange)arg2;
+- (id)initWithStorage:(id)arg1 range:(NSRange)arg2;
 
 @end
 

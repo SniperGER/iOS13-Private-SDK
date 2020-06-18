@@ -5,7 +5,12 @@
 //
 
 
+#ifndef NTKTimeModuleViewTapClient_Protocol
+#define NTKTimeModuleViewTapClient_Protocol
+
 @protocol NTKTimeModuleViewTapClient <NSObject>
 - (void)performTapAction;
 @end
+
+#endif
 

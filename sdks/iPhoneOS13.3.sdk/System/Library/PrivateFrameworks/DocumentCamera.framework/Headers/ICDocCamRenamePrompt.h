@@ -25,7 +25,7 @@
 - (id)stringByScrubbingStringForCollectionName:(id)arg1;
 - (void)showSingleButtonAlertFromViewController:(id)arg1 withTitle:(id)arg2 message:(id)arg3;
 - (BOOL)isTitleValid:(id)arg1 error:(out id )arg2;
-- (BOOL)textField:(id)arg1 shouldChangeCharactersInRange:(_NSRange)arg2 replacementString:(id)arg3;
+- (BOOL)textField:(id)arg1 shouldChangeCharactersInRange:(NSRange)arg2 replacementString:(id)arg3;
 - (void)showFromViewController:(id)arg1 completion:(id /* CDUnknownBlockType */)arg2;
 - (id)initWithExistingTitle:(id)arg1;
 

@@ -12,15 +12,15 @@
 {
     IKArray *_prelude;
     IKCSSParseBlock *_block;
-    _NSRange __endRange;
+    NSRange __endRange;
 }
 
-@property(nonatomic, setter=_setEndRange:) _NSRange _endRange; // @synthesize _endRange=__endRange;
+@property(nonatomic, setter=_setEndRange:) NSRange _endRange; // @synthesize _endRange=__endRange;
 @property(retain, nonatomic) IKCSSParseBlock *block; // @synthesize block=_block;
 @property(retain, nonatomic) IKArray *prelude; // @synthesize prelude=_prelude;
 // - (void).cxx_destruct;
 - (id)description;
-- (_NSRange)range;
+- (NSRange)range;
 - (id)init;
 
 @end

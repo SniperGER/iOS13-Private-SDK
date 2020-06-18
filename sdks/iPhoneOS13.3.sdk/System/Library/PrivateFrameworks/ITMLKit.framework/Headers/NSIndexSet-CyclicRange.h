@@ -7,9 +7,9 @@
 #import <Foundation/NSIndexSet.h>
 
 @interface NSIndexSet (CyclicRange)
-+ (id)indexSetWithIndexesInCyclicRange:(_NSRange)arg1 itemCount:(NSUInteger)arg2;
-- (_NSRange)_allInclusiveCyclicRangeForItemCount:(NSUInteger)arg1;
-- (_NSRange)_filteredCyclicRangeForItemCount:(NSUInteger)arg1;
-- (_NSRange)cyclicRangeForItemCount:(NSUInteger)arg1 includeAllIndexes:(BOOL)arg2;
++ (id)indexSetWithIndexesInCyclicRange:(NSRange)arg1 itemCount:(NSUInteger)arg2;
+- (NSRange)_allInclusiveCyclicRangeForItemCount:(NSUInteger)arg1;
+- (NSRange)_filteredCyclicRangeForItemCount:(NSUInteger)arg1;
+- (NSRange)cyclicRangeForItemCount:(NSUInteger)arg1 includeAllIndexes:(BOOL)arg2;
 @end
 

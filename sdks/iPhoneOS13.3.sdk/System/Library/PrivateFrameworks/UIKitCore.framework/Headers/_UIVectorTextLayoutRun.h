@@ -37,7 +37,7 @@ __attribute__((visibility("hidden")))
 - (BOOL)shouldRender;
 - (id)font;
 - (id)string;
-- (_NSRange)stringRange;
+- (NSRange)stringRange;
 - (long long)glyphCount;
 - (void)dealloc;
 - (id)initWithCTRun:(struct __CTRun )arg1 lineIndex:(NSUInteger)arg2 layoutInfo:(id)arg3;

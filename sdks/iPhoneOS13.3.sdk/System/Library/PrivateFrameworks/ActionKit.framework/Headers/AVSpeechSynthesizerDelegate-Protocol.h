@@ -10,7 +10,7 @@
 @protocol AVSpeechSynthesizerDelegate <NSObject>
 
 @optional
-- (void)speechSynthesizer:(AVSpeechSynthesizer *)arg1 willSpeakRangeOfSpeechString:(_NSRange)arg2 utterance:(AVSpeechUtterance *)arg3;
+- (void)speechSynthesizer:(AVSpeechSynthesizer *)arg1 willSpeakRangeOfSpeechString:(NSRange)arg2 utterance:(AVSpeechUtterance *)arg3;
 - (void)speechSynthesizer:(AVSpeechSynthesizer *)arg1 didCancelSpeechUtterance:(AVSpeechUtterance *)arg2;
 - (void)speechSynthesizer:(AVSpeechSynthesizer *)arg1 didContinueSpeechUtterance:(AVSpeechUtterance *)arg2;
 - (void)speechSynthesizer:(AVSpeechSynthesizer *)arg1 didPauseSpeechUtterance:(AVSpeechUtterance *)arg2;

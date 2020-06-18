@@ -25,9 +25,9 @@
 - (void)_prepareBuffersForCount:(NSUInteger)arg1;
 - (CGSize)size;
 - (CGSize)estimatedSize;
-- (void)_getHeaderGeometries:(struct _PXLayoutGeometry )arg1 inRange:(_NSRange)arg2;
-- (void)_getContentGeometries:(struct _PXLayoutGeometry )arg1 inRange:(_NSRange)arg2;
-- (void)getGeometries:(struct _PXLayoutGeometry )arg1 inRange:(_NSRange)arg2 withKind:(long long)arg3;
+- (void)_getHeaderGeometries:(struct _PXLayoutGeometry )arg1 inRange:(NSRange)arg2;
+- (void)_getContentGeometries:(struct _PXLayoutGeometry )arg1 inRange:(NSRange)arg2;
+- (void)getGeometries:(struct _PXLayoutGeometry )arg1 inRange:(NSRange)arg2 withKind:(long long)arg3;
 - (void)invalidate;
 - (NSUInteger)numberOfGeometriesWithKind:(long long)arg1;
 - (id)geometryKinds;

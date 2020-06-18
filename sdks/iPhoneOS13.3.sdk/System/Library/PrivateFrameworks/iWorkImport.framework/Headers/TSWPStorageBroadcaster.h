@@ -16,11 +16,11 @@ __attribute__((visibility("hidden")))
 }
 
 // - (void).cxx_destruct;
-- (void)broadcastStorage:(id)arg1 didChangeParagraphsInIndexRange:(_NSRange)arg2;
-- (void)broadcastStorage:(id)arg1 didDeleteParagraphsInIndexRange:(_NSRange)arg2;
-- (void)broadcastStorage:(id)arg1 didInsertParagraphsInIndexRange:(_NSRange)arg2;
-- (void)broadcastStorage:(id)arg1 didChangeRange:(_NSRange)arg2 delta:(long long)arg3 broadcastKind:(NSUInteger)arg4 attributeKindChanges:(id)arg5;
-- (void)broadcastStorage:(id)arg1 didChangeRange:(_NSRange)arg2 delta:(long long)arg3 broadcastKind:(NSUInteger)arg4;
+- (void)broadcastStorage:(id)arg1 didChangeParagraphsInIndexRange:(NSRange)arg2;
+- (void)broadcastStorage:(id)arg1 didDeleteParagraphsInIndexRange:(NSRange)arg2;
+- (void)broadcastStorage:(id)arg1 didInsertParagraphsInIndexRange:(NSRange)arg2;
+- (void)broadcastStorage:(id)arg1 didChangeRange:(NSRange)arg2 delta:(long long)arg3 broadcastKind:(NSUInteger)arg4 attributeKindChanges:(id)arg5;
+- (void)broadcastStorage:(id)arg1 didChangeRange:(NSRange)arg2 delta:(long long)arg3 broadcastKind:(NSUInteger)arg4;
 - (void)removeAllObservers;
 - (void)removeParagraphObserver:(id)arg1;
 - (void)addParagraphObserver:(id)arg1;

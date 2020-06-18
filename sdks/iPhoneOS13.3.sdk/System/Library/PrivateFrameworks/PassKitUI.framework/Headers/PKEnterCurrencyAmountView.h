@@ -63,12 +63,12 @@
 - (void)_updateContent;
 - (id)_decimalNumberFromString:(id)arg1;
 - (id)_formatAmount:(id)arg1 minimumFractionDigits:(NSUInteger)arg2;
-- (void)_addSuperscriptToAttributedString:(id)arg1 inRange:(_NSRange)arg2;
+- (void)_addSuperscriptToAttributedString:(id)arg1 inRange:(NSRange)arg2;
 - (void)_addSuperscriptToAttributedString:(id)arg1 formattedCurrencyAmount:(id)arg2 currencyAmountWithoutSymbols:(id)arg3;
 - (id)_formatAmountForDisplay:(id)arg1 alwaysShowDecimalSeparator:(BOOL)arg2 minimumFractionDigits:(NSUInteger)arg3 useGroupingSeparator:(BOOL)arg4;
 - (void)_createAmountFormatter;
 - (NSUInteger)_numberOfDecimalPlacesInString:(id)arg1 decimalSeperator:(id)arg2;
-- (BOOL)textField:(id)arg1 shouldChangeCharactersInRange:(_NSRange)arg2 replacementString:(id)arg3;
+- (BOOL)textField:(id)arg1 shouldChangeCharactersInRange:(NSRange)arg2 replacementString:(id)arg3;
 - (id)viewForLastBaselineLayout;
 - (id)viewForFirstBaselineLayout;
 - (CGSize)sizeThatFits:(CGSize)arg1;

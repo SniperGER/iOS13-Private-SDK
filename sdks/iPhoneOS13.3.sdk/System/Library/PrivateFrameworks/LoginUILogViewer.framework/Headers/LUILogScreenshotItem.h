@@ -12,11 +12,11 @@
 {
     UIImage *_screenshotImage;
     NSDate *_screenshotDate;
-    _NSRange _visibleRange;
+    NSRange _visibleRange;
 }
 
 @property(retain, nonatomic) NSDate *screenshotDate; // @synthesize screenshotDate=_screenshotDate;
-@property(nonatomic) _NSRange visibleRange; // @synthesize visibleRange=_visibleRange;
+@property(nonatomic) NSRange visibleRange; // @synthesize visibleRange=_visibleRange;
 @property(retain, nonatomic) UIImage *screenshotImage; // @synthesize screenshotImage=_screenshotImage;
 // - (void).cxx_destruct;
 

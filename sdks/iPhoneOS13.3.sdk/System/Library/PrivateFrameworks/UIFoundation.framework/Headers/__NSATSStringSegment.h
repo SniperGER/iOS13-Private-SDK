@@ -17,12 +17,12 @@
 
 + (id)allocWithZone:(_NSZone )arg1;
 - (const unsigned short )_fastCharacterContents;
-- (void)getCharacters:(unsigned short )arg1 range:(_NSRange)arg2;
+- (void)getCharacters:(unsigned short )arg1 range:(NSRange)arg2;
 - (unsigned short)characterAtIndex:(NSUInteger)arg1;
 - (NSUInteger)length;
 - (void)dealloc;
-- (id)initWithOriginalString:(id)arg1 range:(_NSRange)arg2;
-- (void)_setOriginalString:(id)arg1 range:(_NSRange)arg2;
+- (id)initWithOriginalString:(id)arg1 range:(NSRange)arg2;
+- (void)_setOriginalString:(id)arg1 range:(NSRange)arg2;
 - (oneway void)release;
 - (BOOL)_isDeallocating;
 - (BOOL)_tryRetain;

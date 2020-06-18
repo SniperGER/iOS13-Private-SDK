@@ -39,10 +39,10 @@ __attribute__((visibility("hidden")))
 + (void)reportWarning:(id)arg1;
 + (void)reportObject:(id)arg1 withWarning:(id)arg2;
 + (id)currentObjectOrPlaceholder;
-+ (void)reportObjectOrPlaceholder:(id)arg1 withWarning:(id)arg2 parameters:(struct __va_list_tag [1])arg3;
+// + (void)reportObjectOrPlaceholder:(id)arg1 withWarning:(id)arg2 parameters:(struct __va_list_tag [1])arg3;
 + (void)initialize;
 // - (void).cxx_destruct;
-- (void)reportWarningForObject:(id)arg1 warning:(id)arg2 parameterList:(struct __va_list_tag [1])arg3;
+// - (void)reportWarningForObject:(id)arg1 warning:(id)arg2 parameterList:(struct __va_list_tag [1])arg3;
 - (void)dealloc;
 - (id)init;
 - (void)reportWarningsToDelegate;

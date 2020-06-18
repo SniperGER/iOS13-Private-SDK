@@ -8,7 +8,12 @@
 
 @class NSString;
 
+#ifndef NTKMonogramComplicationDisplay_Protocol
+#define NTKMonogramComplicationDisplay_Protocol
+
 @protocol NTKMonogramComplicationDisplay <NTKComplicationDisplay>
 - (void)setMonogramText:(NSString *)arg1;
 @end
+
+#endif
 

@@ -18,7 +18,7 @@
 // - (void).cxx_destruct;
 - (void)_layout;
 - (BOOL)textFieldShouldReturn:(id)arg1;
-- (BOOL)textField:(id)arg1 shouldChangeCharactersInRange:(_NSRange)arg2 replacementString:(id)arg3;
+- (BOOL)textField:(id)arg1 shouldChangeCharactersInRange:(NSRange)arg2 replacementString:(id)arg3;
 - (void)traitCollectionDidChange:(id)arg1;
 - (id)passcode;
 - (void)setPasscode:(id)arg1;

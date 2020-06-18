@@ -11,12 +11,12 @@
 @interface SXTextComponentLayoutAttributeDescriptor : SXComponentLayoutAttributeDescriptor
 {
     SXTextExclusionPath *_resultingExclusionPath;
-    _NSRange _range;
+    NSRange _range;
 }
 
-+ (id)descriptorWithFromLayoutAttribute:(int)arg1 toLayoutAttribute:(int)arg2 ignoreMargin:(BOOL)arg3 withRange:(_NSRange)arg4;
++ (id)descriptorWithFromLayoutAttribute:(int)arg1 toLayoutAttribute:(int)arg2 ignoreMargin:(BOOL)arg3 withRange:(NSRange)arg4;
 @property(retain, nonatomic) SXTextExclusionPath *resultingExclusionPath; // @synthesize resultingExclusionPath=_resultingExclusionPath;
-@property(nonatomic) _NSRange range; // @synthesize range=_range;
+@property(nonatomic) NSRange range; // @synthesize range=_range;
 // - (void).cxx_destruct;
 
 @end

@@ -7,6 +7,6 @@
 #import <Foundation/NSMutableAttributedString.h>
 
 @interface NSMutableAttributedString (SXAXAdditions)
-- (void)sxaxApplyLowerPitchTokenToRange:(_NSRange)arg1;
+- (void)sxaxApplyLowerPitchTokenToRange:(NSRange)arg1;
 @end
 

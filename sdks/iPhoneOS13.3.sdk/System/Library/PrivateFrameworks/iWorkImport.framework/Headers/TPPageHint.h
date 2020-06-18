@@ -19,8 +19,8 @@ __attribute__((visibility("hidden")))
     NSUInteger _pageColumn;
     NSArray *_hints;
     TSUNoCopyDictionary *_flowHints;
-    _NSRange _footnoteAutoNumberRange;
-    _NSRange _footnoteLayoutRange;
+    NSRange _footnoteAutoNumberRange;
+    NSRange _footnoteLayoutRange;
     NSArray *_childHints;
     TSUNoCopyDictionary *_anchoredDrawablePositions;
     NSSet *_startingPartitionedAttachments;
@@ -33,8 +33,8 @@ __attribute__((visibility("hidden")))
 @property(nonatomic) BOOL hasForcedFootnotes; // @synthesize hasForcedFootnotes=_hasForcedFootnotes;
 @property(retain, nonatomic) NSArray *childHints; // @synthesize childHints=_childHints;
 @property(retain, nonatomic) TSUNoCopyDictionary *anchoredDrawablePositions; // @synthesize anchoredDrawablePositions=_anchoredDrawablePositions;
-@property(nonatomic) _NSRange footnoteLayoutRange; // @synthesize footnoteLayoutRange=_footnoteLayoutRange;
-@property(nonatomic) _NSRange footnoteAutoNumberRange; // @synthesize footnoteAutoNumberRange=_footnoteAutoNumberRange;
+@property(nonatomic) NSRange footnoteLayoutRange; // @synthesize footnoteLayoutRange=_footnoteLayoutRange;
+@property(nonatomic) NSRange footnoteAutoNumberRange; // @synthesize footnoteAutoNumberRange=_footnoteAutoNumberRange;
 @property(nonatomic) NSUInteger pageRow; // @synthesize pageRow=_pageRow;
 @property(nonatomic) NSUInteger pageColumn; // @synthesize pageColumn=_pageColumn;
 @property(nonatomic) long long pageKind; // @synthesize pageKind=_pageKind;
@@ -50,10 +50,10 @@ __attribute__((visibility("hidden")))
 @property(readonly, nonatomic) BOOL terminatedByBreak;
 @property(readonly, nonatomic) BOOL lastLineIsEmptyAndHasListLabel;
 @property(readonly, nonatomic) NSUInteger nextWidowPullsDownFromCharIndex;
-@property(readonly, nonatomic) _NSRange anchoredRange;
-- (_NSRange)rangeAndChildHints:(out id )arg1;
-- (_NSRange)p_range;
-@property(readonly, nonatomic) _NSRange range;
+@property(readonly, nonatomic) NSRange anchoredRange;
+- (NSRange)rangeAndChildHints:(out id )arg1;
+- (NSRange)p_range;
+@property(readonly, nonatomic) NSRange range;
 @property(readonly, nonatomic) NSObject<TSWPTopicNumberHints> *topicNumbers;
 @property(readonly, nonatomic) id <TSDHint> lastChildHint;
 @property(readonly, nonatomic) id <TSDHint> firstChildHint;

@@ -32,7 +32,7 @@
 - (BOOL)_hasParameter:(id)arg1 forKeyword:(id)arg2;
 - (int)_doHandshakeUsingAccount:(id)arg1;
 - (BOOL)_connectUsingAccount:(id)arg1;
-- (int)_readResponseRange:(_NSRange )arg1 isContinuation:(BOOL )arg2;
+- (int)_readResponseRange:(NSRange )arg1 isContinuation:(BOOL )arg2;
 - (int)_getReply;
 - (int)_sendCommand:(const char )arg1 length:(NSUInteger)arg2 argument:(id)arg3 trailer:(const char )arg4;
 - (id)_dataForCommand:(const char )arg1 length:(NSUInteger)arg2 argument:(id)arg3 trailer:(const char )arg4;

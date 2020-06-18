@@ -13,7 +13,7 @@
 
 @interface PXWrappingDisplayAssetFetchResult : NSObject <PXDisplayAssetFetchResult>
 {
-    _NSRange _range;
+    NSRange _range;
     id <PXDisplayAssetFetchResult> _displayFetchResult;
 }
 
@@ -26,7 +26,7 @@
 - (id)objectsAtIndexes:(id)arg1;
 - (id)objectAtIndex:(NSUInteger)arg1;
 @property(readonly, copy) NSString *description;
-- (id)initWithFetchResult:(id)arg1 range:(_NSRange)arg2;
+- (id)initWithFetchResult:(id)arg1 range:(NSRange)arg2;
 
 @end
 

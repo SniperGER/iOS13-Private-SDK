@@ -59,7 +59,7 @@
 - (void)handleBrailleDeletedUntranslatedText:(id)arg1 speakLiterally:(BOOL)arg2;
 - (void)handleBrailleInsertedUntranslatedText:(id)arg1 speakLiterally:(BOOL)arg2;
 - (void)handleStartEditing;
-- (void)handleBrailleReplaceTextRange:(_NSRange)arg1 withString:(id)arg2 cursor:(NSUInteger)arg3;
+- (void)handleBrailleReplaceTextRange:(NSRange)arg1 withString:(id)arg2 cursor:(NSUInteger)arg3;
 - (void)handleBrailleKeypress:(id)arg1;
 - (int)handlePerformActionForKey:(int)arg1 trusted:(BOOL)arg2;
 - (int)handleGetValue:(id )arg1 forKey:(int)arg2 withObject:(id)arg3 trusted:(BOOL)arg4;

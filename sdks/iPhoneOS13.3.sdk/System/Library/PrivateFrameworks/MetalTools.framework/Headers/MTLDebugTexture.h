@@ -45,8 +45,8 @@
 - (void)getBytes:(void )arg1 bytesPerRow:(NSUInteger)arg2 bytesPerImage:(NSUInteger)arg3 fromRegion:(CDStruct_1e3be3a8)arg4 mipmapLevel:(NSUInteger)arg5 slice:(NSUInteger)arg6 options:(NSUInteger)arg7;
 - (void)replaceRegion:(CDStruct_1e3be3a8)arg1 mipmapLevel:(NSUInteger)arg2 slice:(NSUInteger)arg3 withBytes:(const void )arg4 bytesPerRow:(NSUInteger)arg5 bytesPerImage:(NSUInteger)arg6 options:(NSUInteger)arg7;
 - (id)newCompressedTextureViewWithPixelFormat:(NSUInteger)arg1 textureType:(NSUInteger)arg2 level:(NSUInteger)arg3 slice:(NSUInteger)arg4;
-- (id)newTextureViewWithPixelFormat:(NSUInteger)arg1 textureType:(NSUInteger)arg2 levels:(_NSRange)arg3 slices:(_NSRange)arg4 swizzle:(CDStruct_a06f635e)arg5;
-- (id)newTextureViewWithPixelFormat:(NSUInteger)arg1 textureType:(NSUInteger)arg2 levels:(_NSRange)arg3 slices:(_NSRange)arg4;
+- (id)newTextureViewWithPixelFormat:(NSUInteger)arg1 textureType:(NSUInteger)arg2 levels:(NSRange)arg3 slices:(NSRange)arg4 swizzle:(CDStruct_a06f635e)arg5;
+- (id)newTextureViewWithPixelFormat:(NSUInteger)arg1 textureType:(NSUInteger)arg2 levels:(NSRange)arg3 slices:(NSRange)arg4;
 - (id)newTextureViewWithPixelFormat:(NSUInteger)arg1;
 - (id)description;
 - (void)getBytes:(void )arg1 bytesPerRow:(NSUInteger)arg2 fromRegion:(CDStruct_1e3be3a8)arg3 mipmapLevel:(NSUInteger)arg4;
@@ -62,7 +62,7 @@
 - (id)heap;
 - (void)dealloc;
 - (void)_initResourceTrackingWithDevice:(id)arg1;
-- (id)initWithBaseTexture:(id)arg1 device:(id)arg2 texture:(id)arg3 pixelFormat:(NSUInteger)arg4 textureType:(NSUInteger)arg5 levels:(_NSRange)arg6 slices:(_NSRange)arg7;
+- (id)initWithBaseTexture:(id)arg1 device:(id)arg2 texture:(id)arg3 pixelFormat:(NSUInteger)arg4 textureType:(NSUInteger)arg5 levels:(NSRange)arg6 slices:(NSRange)arg7;
 - (id)initWithBaseTexture:(id)arg1 device:(id)arg2 texture:(id)arg3 pixelFormat:(NSUInteger)arg4;
 - (id)initWithBaseTexture:(id)arg1 device:(id)arg2 texture:(id)arg3 descriptor:(id)arg4;
 - (id)initWithBaseTexture:(id)arg1 heap:(id)arg2 device:(id)arg3 descriptor:(id)arg4;

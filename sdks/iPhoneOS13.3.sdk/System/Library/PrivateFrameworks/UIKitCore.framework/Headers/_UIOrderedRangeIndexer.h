@@ -16,12 +16,12 @@ __attribute__((visibility("hidden")))
 
 - (id).cxx_construct;
 // - (void).cxx_destruct;
-@property(readonly, nonatomic) _NSRange containingRange;
+@property(readonly, nonatomic) NSRange containingRange;
 @property(readonly, nonatomic) long long numberOfRanges;
-- (_NSRange)rangeAtIndex:(long long)arg1;
+- (NSRange)rangeAtIndex:(long long)arg1;
 - (long long)indexOfRangeContainingLocation:(long long)arg1;
-- (_NSRange)rangeContainingLocation:(long long)arg1;
-- (void)appendRange:(_NSRange)arg1;
+- (NSRange)rangeContainingLocation:(long long)arg1;
+- (void)appendRange:(NSRange)arg1;
 @property(readonly, nonatomic) NSArray *orderedRanges;
 - (id)description;
 - (id)init;

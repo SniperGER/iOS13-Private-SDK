@@ -7,10 +7,10 @@
 #import <Foundation/NSString.h>
 
 @interface NSString (SCROBrailleAdditions)
-- (_NSRange)rangeOfWordAfterWordAtIndex:(long long)arg1;
-- (_NSRange)rangeOfWordBeforeWordAtIndex:(long long)arg1;
-- (_NSRange)rangeOfWordContainingIndex:(long long)arg1;
-- (_NSRange)_rangeIsolatingIllegalCharacters:(_NSRange)arg1 forwards:(BOOL)arg2;
+- (NSRange)rangeOfWordAfterWordAtIndex:(long long)arg1;
+- (NSRange)rangeOfWordBeforeWordAtIndex:(long long)arg1;
+- (NSRange)rangeOfWordContainingIndex:(long long)arg1;
+- (NSRange)_rangeIsolatingIllegalCharacters:(NSRange)arg1 forwards:(BOOL)arg2;
 - (id)_legalWhiteSpaceSet;
 - (id)_illegalCharacterSet;
 @end

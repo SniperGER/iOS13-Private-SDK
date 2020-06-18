@@ -28,7 +28,7 @@
 - (BOOL)_accessorySupportsMultiUser;
 - (id)_appleMusicFooterMessage;
 - (id)_appleMusicFooterView;
-- (BOOL)textView:(id)arg1 shouldInteractWithURL:(id)arg2 inRange:(_NSRange)arg3 interaction:(long long)arg4;
+- (BOOL)textView:(id)arg1 shouldInteractWithURL:(id)arg2 inRange:(NSRange)arg3 interaction:(long long)arg4;
 - (void)appleMusicModuleControllerPresentSignInFlow:(id)arg1;
 - (void)appleMusicModuleControllerDidUpdateAuthenticationState:(id)arg1;
 - (void)appleMusicModuleController:(id)arg1 willPresentContext:(id)arg2 account:(id)arg3;

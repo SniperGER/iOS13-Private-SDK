@@ -14,13 +14,13 @@ __attribute__((visibility("hidden")))
     NSString *_string;
     NSUInteger _stringLength;
     TIWordTokenizer *_wordTokenizer;
-    _NSRange _rangeOfNextToken;
+    NSRange _rangeOfNextToken;
     NSUInteger _startOfUnclassifiedRangeBeforeNextToken;
 }
 
 + (void)initialize;
 // - (void).cxx_destruct;
-- (_NSRange)advanceToNextToken;
+- (NSRange)advanceToNextToken;
 - (void)setString:(id)arg1;
 - (id)init;
 

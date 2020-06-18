@@ -7,8 +7,8 @@
 #import <Foundation/NSMutableIndexSet.h>
 
 @interface NSMutableIndexSet (PhotosUICore)
-- (void)px_adjustIndexesForInsertedRange:(_NSRange)arg1;
-- (void)px_adjustIndexesForDeletedRange:(_NSRange)arg1;
+- (void)px_adjustIndexesForInsertedRange:(NSRange)arg1;
+- (void)px_adjustIndexesForDeletedRange:(NSRange)arg1;
 - (void)px_adjustIndexesForInsertions:(id)arg1;
 - (void)px_adjustIndexesForDeletions:(id)arg1;
 @end

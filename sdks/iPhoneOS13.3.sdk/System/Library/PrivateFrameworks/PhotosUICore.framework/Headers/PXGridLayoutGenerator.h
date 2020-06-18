@@ -16,10 +16,10 @@
 
 // - (void).cxx_destruct;
 - (void)getGeometry:(struct _PXLayoutGeometry )arg1 forItemAtIndex:(NSUInteger)arg2;
-- (void)_getAdditionalGeometries:(struct _PXLayoutGeometry )arg1 inRange:(_NSRange)arg2;
-- (void)_getHeaderGeometries:(struct _PXLayoutGeometry )arg1 inRange:(_NSRange)arg2;
-- (void)_getContentGeometries:(struct _PXLayoutGeometry )arg1 inRange:(_NSRange)arg2;
-- (void)getGeometries:(struct _PXLayoutGeometry )arg1 inRange:(_NSRange)arg2 withKind:(long long)arg3;
+- (void)_getAdditionalGeometries:(struct _PXLayoutGeometry )arg1 inRange:(NSRange)arg2;
+- (void)_getHeaderGeometries:(struct _PXLayoutGeometry )arg1 inRange:(NSRange)arg2;
+- (void)_getContentGeometries:(struct _PXLayoutGeometry )arg1 inRange:(NSRange)arg2;
+- (void)getGeometries:(struct _PXLayoutGeometry )arg1 inRange:(NSRange)arg2 withKind:(long long)arg3;
 - (CGSize)size;
 - (CGSize)estimatedSize;
 - (NSUInteger)numberOfGeometriesWithKind:(long long)arg1;

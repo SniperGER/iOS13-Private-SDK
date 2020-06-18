@@ -36,10 +36,10 @@ __attribute__((visibility("hidden")))
 - (void)willBeAddedToDocumentRoot:(id)arg1 dolcContext:(id)arg2;
 - (void)adoptStylesheet:(id)arg1 withMapper:(id)arg2;
 - (id)text;
-- (BOOL)canCopy:(_NSRange)arg1;
+- (BOOL)canCopy:(NSRange)arg1;
 - (BOOL)allowsPasteAsSmartField;
 - (BOOL)allowsEditing;
-@property(readonly, nonatomic) _NSRange range;
+@property(readonly, nonatomic) NSRange range;
 @property(readonly, nonatomic) int styleAttributeArrayKind;
 @property(readonly, nonatomic) NSUInteger attributeArrayKind;
 - (int)smartFieldKind;

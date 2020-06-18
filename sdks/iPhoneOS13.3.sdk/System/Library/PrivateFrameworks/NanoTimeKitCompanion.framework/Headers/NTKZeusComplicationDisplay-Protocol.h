@@ -7,6 +7,9 @@
 
 @class NTKZeusColorPalette;
 
+#ifndef NTKZeusComplicationDisplay_Protocol
+#define NTKZeusComplicationDisplay_Protocol
+
 @protocol NTKZeusComplicationDisplay <NSObject>
 @property(nonatomic) BOOL legibilityEnabled;
 @property(readonly, nonatomic) NTKZeusColorPalette *palette;
@@ -14,4 +17,6 @@
 - (void)applyTransitionFraction:(double)arg1 fromPalette:(NTKZeusColorPalette *)arg2 toPalette:(NTKZeusColorPalette *)arg3;
 - (void)applyPalette:(NTKZeusColorPalette *)arg1;
 @end
+
+#endif
 

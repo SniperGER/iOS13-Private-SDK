@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 }
 
 // - (void).cxx_destruct;
-- (void)enumerateEmojiSignifiersInString:(id)arg1 touchingRange:(_NSRange)arg2 language:(id)arg3 usingBlock:(id /* CDUnknownBlockType */)arg4;
+- (void)enumerateEmojiSignifiersInString:(id)arg1 touchingRange:(NSRange)arg2 language:(id)arg3 usingBlock:(id /* CDUnknownBlockType */)arg4;
 - (id)emojiDataForLanguage:(id)arg1;
 - (id)init;
 

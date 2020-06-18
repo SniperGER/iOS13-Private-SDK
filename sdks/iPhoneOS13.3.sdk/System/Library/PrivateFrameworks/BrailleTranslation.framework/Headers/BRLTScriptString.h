@@ -13,29 +13,29 @@
 {
     NSString *_string;
     NSMutableArray *_tokenRanges;
-    _NSRange _selection;
-    _NSRange _focus;
+    NSRange _selection;
+    NSRange _focus;
 }
 
 @property(retain, nonatomic) NSMutableArray *tokenRanges; // @synthesize tokenRanges=_tokenRanges;
-@property(readonly, nonatomic) _NSRange focus; // @synthesize focus=_focus;
-@property(readonly, nonatomic) _NSRange selection; // @synthesize selection=_selection;
+@property(readonly, nonatomic) NSRange focus; // @synthesize focus=_focus;
+@property(readonly, nonatomic) NSRange selection; // @synthesize selection=_selection;
 @property(readonly, nonatomic) NSString *string; // @synthesize string=_string;
 // - (void).cxx_destruct;
-- (_NSRange)forwardEditingAtomForCursorLocation:(NSUInteger)arg1;
-- (_NSRange)forwardEditingAtom;
-- (_NSRange)backwardEditingAtom;
-- (_NSRange)deleteMergeAtom;
-- (_NSRange)_backwardEditingAtomForCursorLocation:(NSUInteger)arg1 isBreak:(BOOL )arg2;
-- (_NSRange)_backwardEditingAtomForSelection:(_NSRange)arg1 isBreak:(BOOL )arg2;
+- (NSRange)forwardEditingAtomForCursorLocation:(NSUInteger)arg1;
+- (NSRange)forwardEditingAtom;
+- (NSRange)backwardEditingAtom;
+- (NSRange)deleteMergeAtom;
+- (NSRange)_backwardEditingAtomForCursorLocation:(NSUInteger)arg1 isBreak:(BOOL )arg2;
+- (NSRange)_backwardEditingAtomForSelection:(NSRange)arg1 isBreak:(BOOL )arg2;
 - (id)description;
 - (BOOL)isEqual:(id)arg1;
 - (BOOL)isEqualToScriptString:(id)arg1;
-- (void)_addSelectionRange:(_NSRange)arg1;
-- (void)addString:(id)arg1 selection:(_NSRange)arg2 focus:(_NSRange)arg3 token:(NSUInteger)arg4;
+- (void)_addSelectionRange:(NSRange)arg1;
+- (void)addString:(id)arg1 selection:(NSRange)arg2 focus:(NSRange)arg3 token:(NSUInteger)arg4;
 // - (id)copyWithZone:(_NSZone )arg1;
-- (id)initWithString:(id)arg1 selection:(_NSRange)arg2 focus:(_NSRange)arg3 token:(NSUInteger)arg4;
-- (id)initWithString:(id)arg1 selection:(_NSRange)arg2;
+- (id)initWithString:(id)arg1 selection:(NSRange)arg2 focus:(NSRange)arg3 token:(NSUInteger)arg4;
+- (id)initWithString:(id)arg1 selection:(NSRange)arg2;
 - (id)init;
 
 @end

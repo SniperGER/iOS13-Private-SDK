@@ -12,27 +12,27 @@
     NSUInteger _originalCheckedLength;
     NSUInteger _modificationCount;
     NSUInteger _modificationTypes;
-    _NSRange _originalRanges;
-    _NSRange _finalRanges;
-    _NSRange _originalSyllableRanges;
-    _NSRange _originalAdditionalSyllableRanges;
+    NSRange _originalRanges;
+    NSRange _finalRanges;
+    NSRange _originalSyllableRanges;
+    NSRange _originalAdditionalSyllableRanges;
 }
 
 + (id)correctionsForInputString:(id)arg1;
 + (id)prefixesForInputString:(id)arg1;
 + (id)alternativesForInputString:(id)arg1;
 - (id)nonPinyinIndexSet;
-- (_NSRange)nonPinyinRangeAtIndex:(NSUInteger)arg1;
+- (NSRange)nonPinyinRangeAtIndex:(NSUInteger)arg1;
 - (NSUInteger)numberOfDeletions;
 - (NSUInteger)numberOfInsertions;
 - (NSUInteger)numberOfTranspositions;
 - (NSUInteger)numberOfReplacements;
 - (NSUInteger)numberOfNonPinyinRanges;
 - (NSUInteger)indexOfFirstModification;
-- (_NSRange)originalAdditionalSyllableRangeForModificationAtIndex:(NSUInteger)arg1;
-- (_NSRange)originalSyllableRangeForModificationAtIndex:(NSUInteger)arg1;
-- (_NSRange)finalRangeForModificationAtIndex:(NSUInteger)arg1;
-- (_NSRange)originalRangeForModificationAtIndex:(NSUInteger)arg1;
+- (NSRange)originalAdditionalSyllableRangeForModificationAtIndex:(NSUInteger)arg1;
+- (NSRange)originalSyllableRangeForModificationAtIndex:(NSUInteger)arg1;
+- (NSRange)finalRangeForModificationAtIndex:(NSUInteger)arg1;
+- (NSRange)originalRangeForModificationAtIndex:(NSUInteger)arg1;
 - (NSUInteger)typeOfModificationAtIndex:(NSUInteger)arg1;
 - (NSUInteger)numberOfModifications;
 - (NSUInteger)finalCheckedLength;
@@ -47,11 +47,11 @@
 - (NSUInteger)hash;
 - (BOOL)isEqual:(id)arg1;
 - (void)dealloc;
-- (id)initWithString:(id)arg1 syllableCount:(NSUInteger)arg2 lastSyllableIsPartial:(BOOL)arg3 score:(NSUInteger)arg4 originalLength:(NSUInteger)arg5 originalCheckedLength:(NSUInteger)arg6 numberOfModifications:(NSUInteger)arg7 modificationTypes:(NSUInteger )arg8 originalModificationRanges:(_NSRange )arg9 finalModificationRanges:(_NSRange )arg10 originalSyllableRanges:(_NSRange )arg11 originalAdditionalSyllableRanges:(_NSRange )arg12;
+- (id)initWithString:(id)arg1 syllableCount:(NSUInteger)arg2 lastSyllableIsPartial:(BOOL)arg3 score:(NSUInteger)arg4 originalLength:(NSUInteger)arg5 originalCheckedLength:(NSUInteger)arg6 numberOfModifications:(NSUInteger)arg7 modificationTypes:(NSUInteger )arg8 originalModificationRanges:(NSRange )arg9 finalModificationRanges:(NSRange )arg10 originalSyllableRanges:(NSRange )arg11 originalAdditionalSyllableRanges:(NSRange )arg12;
 - (id)initWithUncheckedString:(id)arg1 score:(NSUInteger)arg2 originalLength:(NSUInteger)arg3;
-- (id)initWithString:(id)arg1 syllableCount:(NSUInteger)arg2 lastSyllableIsPartial:(BOOL)arg3 score:(NSUInteger)arg4 originalLength:(NSUInteger)arg5 modificationType:(NSUInteger)arg6 originalModificationRange:(_NSRange)arg7 finalModificationRange:(_NSRange)arg8 originalSyllableRange:(_NSRange)arg9 originalAdditionalSyllableRange:(_NSRange)arg10;
-- (id)initWithString:(id)arg1 syllableCount:(NSUInteger)arg2 lastSyllableIsPartial:(BOOL)arg3 score:(NSUInteger)arg4 originalLength:(NSUInteger)arg5 modificationType:(NSUInteger)arg6 originalModificationRange:(_NSRange)arg7 finalModificationRange:(_NSRange)arg8 originalSyllableRange:(_NSRange)arg9;
-- (id)initWithString:(id)arg1 syllableCount:(NSUInteger)arg2 lastSyllableIsPartial:(BOOL)arg3 score:(NSUInteger)arg4 originalLength:(NSUInteger)arg5 modificationType:(NSUInteger)arg6 originalModificationRange:(_NSRange)arg7 finalModificationRange:(_NSRange)arg8;
+- (id)initWithString:(id)arg1 syllableCount:(NSUInteger)arg2 lastSyllableIsPartial:(BOOL)arg3 score:(NSUInteger)arg4 originalLength:(NSUInteger)arg5 modificationType:(NSUInteger)arg6 originalModificationRange:(NSRange)arg7 finalModificationRange:(NSRange)arg8 originalSyllableRange:(NSRange)arg9 originalAdditionalSyllableRange:(NSRange)arg10;
+- (id)initWithString:(id)arg1 syllableCount:(NSUInteger)arg2 lastSyllableIsPartial:(BOOL)arg3 score:(NSUInteger)arg4 originalLength:(NSUInteger)arg5 modificationType:(NSUInteger)arg6 originalModificationRange:(NSRange)arg7 finalModificationRange:(NSRange)arg8 originalSyllableRange:(NSRange)arg9;
+- (id)initWithString:(id)arg1 syllableCount:(NSUInteger)arg2 lastSyllableIsPartial:(BOOL)arg3 score:(NSUInteger)arg4 originalLength:(NSUInteger)arg5 modificationType:(NSUInteger)arg6 originalModificationRange:(NSRange)arg7 finalModificationRange:(NSRange)arg8;
 - (unsigned short)characterAtIndex:(NSUInteger)arg1;
 - (NSUInteger)length;
 

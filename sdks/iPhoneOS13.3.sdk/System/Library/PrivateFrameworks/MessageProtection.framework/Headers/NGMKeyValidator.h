@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 + (id)keyValidatorWithReceiversIdentity:(id)arg1 sendersIdentity:(id)arg2;
 + (BOOL)isValidKeyValidator:(id)arg1 receiversIdentity:(id)arg2 sendersIdentity:(id)arg3 error:(id )arg4;
 + (id)versionByte;
-+ (_NSRange)rangeOnPublicKey;
++ (NSRange)rangeOnPublicKey;
 + (NSUInteger)validatorLength;
 
 @end

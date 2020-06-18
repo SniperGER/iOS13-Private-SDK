@@ -128,7 +128,7 @@ __attribute__((visibility("hidden")))
 - (id)buildChunksForActiveBuildChunkIndexes:(id)arg1;
 - (id)p_calculateActiveBuildChunks;
 @property(readonly, nonatomic) NSArray *activeBuildChunks;
-- (_NSRange)p_activeChunkRangeForBuild:(id)arg1 inActiveChunks:(id)arg2;
+- (NSRange)p_activeChunkRangeForBuild:(id)arg1 inActiveChunks:(id)arg2;
 - (BOOL)p_activeChunks:(id)arg1 interleaveChunksForComplementOfBuild:(id)arg2;
 - (BOOL)p_activeChunks:(id)arg1 areInOrderForBuild:(id)arg2;
 - (BOOL)p_areActiveBuildChunksInValidOrder:(id)arg1;

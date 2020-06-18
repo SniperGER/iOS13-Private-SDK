@@ -7,9 +7,14 @@
 
 @class NSString, NTKWellnessEntryModel;
 
+#ifndef NTKActivityFaceViewFactoryDelegate_Protocol
+#define NTKActivityFaceViewFactoryDelegate_Protocol
+
 @protocol NTKActivityFaceViewFactoryDelegate <NSObject>
 - (BOOL)slotUsesCurvedText:(NSString *)arg1;
 - (void)applyEntryModelWithUnfilledRings:(NTKWellnessEntryModel *)arg1;
 - (void)applyEntryModel:(NTKWellnessEntryModel *)arg1 animated:(BOOL)arg2;
 @end
+
+#endif
 

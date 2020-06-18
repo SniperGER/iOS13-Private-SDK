@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 + (id)propertySet;
 + (id)propertySetWithProperties:(int)arg1;
 + (id)propertySetWithProperty:(int)arg1;
-+ (id)p_mutableIndexSetWithFirstProperty:(int)arg1 argumentList:(struct __va_list_tag [1])arg2;
+// + (id)p_mutableIndexSetWithFirstProperty:(int)arg1 argumentList:(struct __va_list_tag [1])arg2;
 // - (void).cxx_destruct;
 - (id)description;
 - (BOOL)isEqual:(id)arg1;
@@ -40,7 +40,7 @@ __attribute__((visibility("hidden")))
 - (NSUInteger)count;
 - (id)initWithProperties:(int)arg1;
 - (id)initWithPropertySet:(id)arg1;
-- (id)initWithFirstProperty:(int)arg1 argumentList:(struct __va_list_tag [1])arg2;
+// - (id)initWithFirstProperty:(int)arg1 argumentList:(struct __va_list_tag [1])arg2;
 - (id)init;
 - (id)initWithIndexSet:(id)arg1;
 

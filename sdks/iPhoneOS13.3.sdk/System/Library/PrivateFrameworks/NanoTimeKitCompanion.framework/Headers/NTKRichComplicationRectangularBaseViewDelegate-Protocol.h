@@ -7,8 +7,13 @@
 
 @class NTKRichComplicationRectangularBaseView;
 
+#ifndef NTKRichComplicationRectangularBaseViewDelegate_Protocol
+#define NTKRichComplicationRectangularBaseViewDelegate_Protocol
+
 @protocol NTKRichComplicationRectangularBaseViewDelegate <NSObject>
 - (void)rectangularViewDidEndInteractive:(NTKRichComplicationRectangularBaseView *)arg1;
 - (void)rectangularViewDidBecomeInteractive:(NTKRichComplicationRectangularBaseView *)arg1;
 @end
+
+#endif
 

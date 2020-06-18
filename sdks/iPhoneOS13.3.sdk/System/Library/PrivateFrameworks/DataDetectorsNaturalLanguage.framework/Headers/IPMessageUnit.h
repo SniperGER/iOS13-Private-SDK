@@ -25,10 +25,10 @@
     IPMessageUnit *_previous;
     IPMessage *_originalMessage;
     long long _indexInOriginalMessage;
-    _NSRange _interactedDateRange;
+    NSRange _interactedDateRange;
 }
 
-@property _NSRange interactedDateRange; // @synthesize interactedDateRange=_interactedDateRange;
+@property NSRange interactedDateRange; // @synthesize interactedDateRange=_interactedDateRange;
 @property(readonly) long long indexInOriginalMessage; // @synthesize indexInOriginalMessage=_indexInOriginalMessage;
 @property(readonly) __weak IPMessage *originalMessage; // @synthesize originalMessage=_originalMessage;
 @property(readonly) NSArray *keywordFeatures; // @synthesize keywordFeatures=_keywordFeatures;

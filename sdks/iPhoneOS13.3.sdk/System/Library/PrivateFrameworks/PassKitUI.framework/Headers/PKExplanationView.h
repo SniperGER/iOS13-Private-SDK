@@ -85,7 +85,7 @@
 @property(nonatomic) __weak id <PKExplanationViewDelegate> delegate; // @synthesize delegate=_delegate;
 // - (void).cxx_destruct;
 - (long long)visibilityBackdropView:(id)arg1 preferredStyleForTraitCollection:(id)arg2;
-- (BOOL)textView:(id)arg1 shouldInteractWithURL:(id)arg2 inRange:(_NSRange)arg3 interaction:(long long)arg4;
+- (BOOL)textView:(id)arg1 shouldInteractWithURL:(id)arg2 inRange:(NSRange)arg3 interaction:(long long)arg4;
 - (id)_createBodyTextView;
 - (BOOL)_isBuddyiPad;
 - (BOOL)_showTitleLogoImageView;

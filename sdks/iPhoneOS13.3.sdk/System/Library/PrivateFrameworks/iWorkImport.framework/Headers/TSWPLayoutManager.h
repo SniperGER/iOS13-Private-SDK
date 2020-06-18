@@ -40,7 +40,7 @@ __attribute__((visibility("hidden")))
 - (NSUInteger)p_layoutConfigFlagsForTarget:(id)arg1;
 @property(readonly, nonatomic) TSWPCTTypesetterCache *typesetterCache;
 - (void)destroyLayoutState:(void )arg1;
-- (void)inflateTarget:(id)arg1 fromHints:(id)arg2 childHint:(id)arg3 anchoredDrawablePositions:(id)arg4 topicNumbers:(id)arg5 footnoteLayoutRange:(_NSRange)arg6;
+- (void)inflateTarget:(id)arg1 fromHints:(id)arg2 childHint:(id)arg3 anchoredDrawablePositions:(id)arg4 topicNumbers:(id)arg5 footnoteLayoutRange:(NSRange)arg6;
 - (void)deflateTarget:(id)arg1 intoHints:(inout id)arg2 childHints:(inout id)arg3 anchoredDrawablePositions:(id )arg4 startingPartitionedAttachments:(out id )arg5 topicNumbers:(out id )arg6 layoutState:(void )arg7;
 - (void )layoutStateForLayoutWithHint:(id)arg1 firstTarget:(id)arg2 topicNumbers:(id)arg3;
 - (void )layoutStateForLayoutAfterHint:(id)arg1 firstTarget:(id)arg2 childHint:(id)arg3 topicNumbers:(id)arg4;
@@ -48,8 +48,8 @@ __attribute__((visibility("hidden")))
 - (BOOL)needsLayoutInColumn:(id)arg1;
 - (id)layoutMetricsCache;
 - (void)willRemoveAttachmentLayout:(id)arg1;
-- (void)storage:(id)arg1 didChangeRange:(_NSRange)arg2 delta:(long long)arg3 broadcastKind:(NSUInteger)arg4;
-- (void)removeDirtyRange:(_NSRange)arg1;
+- (void)storage:(id)arg1 didChangeRange:(NSRange)arg2 delta:(long long)arg3 broadcastKind:(NSUInteger)arg4;
+- (void)removeDirtyRange:(NSRange)arg1;
 - (void)resetDirtyRange;
 - (void)clearTypesetterCache;
 - (void)clearOwner;

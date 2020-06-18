@@ -41,7 +41,7 @@
 @property(readonly, nonatomic) double effectiveHorizontalSpacing;
 @property(readonly, nonatomic) NSUInteger numberOfRows;
 - (NSUInteger)insertionStyleForInsertingAppLayout:(id)arg1;
-- (_NSRange)fullSizeSnapshotsRange;
+- (NSRange)fullSizeSnapshotsRange;
 - (BOOL)wantsDockBehaviorAssertion;
 - (long long)backdropBlurType;
 - (double)dimmingAlpha;

@@ -15,11 +15,11 @@
 + (id)unsafeResources:(id)arg1 withError:(id)arg2 resourceStorage:(id)arg3;
 + (id)sessionHasBeenDeferredError;
 + (id)missingError;
-+ (id)cplErrorWithCode:(long long)arg1 underlyingError:(id)arg2 userInfo:(id)arg3 description:(id)arg4 arguments:(struct __va_list_tag [1])arg5;
+// + (id)cplErrorWithCode:(long long)arg1 underlyingError:(id)arg2 userInfo:(id)arg3 description:(id)arg4 arguments:(struct __va_list_tag [1])arg5;
 + (id)cplErrorWithCode:(long long)arg1 underlyingError:(id)arg2 userInfo:(id)arg3 description:(id)arg4;
-+ (id)cplErrorWithCode:(long long)arg1 underlyingError:(id)arg2 description:(id)arg3 arguments:(struct __va_list_tag [1])arg4;
+// + (id)cplErrorWithCode:(long long)arg1 underlyingError:(id)arg2 description:(id)arg3 arguments:(struct __va_list_tag [1])arg4;
 + (id)cplErrorWithCode:(long long)arg1 underlyingError:(id)arg2 description:(id)arg3;
-+ (id)cplErrorWithCode:(long long)arg1 description:(id)arg2 arguments:(struct __va_list_tag [1])arg3;
+// + (id)cplErrorWithCode:(long long)arg1 description:(id)arg2 arguments:(struct __va_list_tag [1])arg3;
 + (id)cplErrorWithCode:(long long)arg1 description:(id)arg2;
 + (id)operationCancelledError;
 + (id)posixErrorForURL:(id)arg1;

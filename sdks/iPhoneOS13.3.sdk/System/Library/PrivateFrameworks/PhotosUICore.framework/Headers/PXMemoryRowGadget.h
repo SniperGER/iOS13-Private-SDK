@@ -30,7 +30,7 @@
 
 + (NSUInteger)numberOfColumnsForCurrentVisibility:(long long)arg1 rowType:(NSUInteger)arg2 numberOfMemories:(NSUInteger)arg3;
 + (long long)visibilityForGadgetSpec:(id)arg1 numberOfMemories:(NSUInteger)arg2;
-+ (_NSRange)dataSourceRangeForRowType:(NSUInteger)arg1 currentVisibility:(long long)arg2;
++ (NSRange)dataSourceRangeForRowType:(NSUInteger)arg1 currentVisibility:(long long)arg2;
 @property(nonatomic) BOOL hasAppeared; // @synthesize hasAppeared=_hasAppeared;
 @property(nonatomic) NSUInteger currentNumberOfColumns; // @synthesize currentNumberOfColumns=_currentNumberOfColumns;
 @property(retain, nonatomic) id <PXUIViewControllerZoomTransitionEndPoint> currentTransitionEndPoint; // @synthesize currentTransitionEndPoint=_currentTransitionEndPoint;
@@ -53,8 +53,8 @@
 - (id)px_endPointForTransition:(id)arg1;
 - (BOOL)px_canPerformZoomTransitionWithDetailViewController:(id)arg1;
 - (void)observable:(id)arg1 didChange:(NSUInteger)arg2 context:(void )arg3;
-- (void)_configureMetricsForMultiRow:(id)arg1 dataSourceRange:(_NSRange)arg2;
-- (void)_configureMetricsForSingleRow:(id)arg1 dataSourceRange:(_NSRange)arg2;
+- (void)_configureMetricsForMultiRow:(id)arg1 dataSourceRange:(NSRange)arg2;
+- (void)_configureMetricsForSingleRow:(id)arg1 dataSourceRange:(NSRange)arg2;
 - (void)forYouMemoriesViewController:(id)arg1 configureMetrics:(id)arg2;
 - (void)forYouMemoriesViewController:(id)arg1 transitionToViewController:(id)arg2 animated:(BOOL)arg3;
 - (id)showAllMemoriesFeedAnimated:(BOOL)arg1;

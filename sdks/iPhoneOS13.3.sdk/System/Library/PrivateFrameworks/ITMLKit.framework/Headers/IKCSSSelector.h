@@ -12,10 +12,10 @@
 {
     long long _type;
     NSString *_name;
-    _NSRange _range;
+    NSRange _range;
 }
 
-@property(nonatomic) _NSRange range; // @synthesize range=_range;
+@property(nonatomic) NSRange range; // @synthesize range=_range;
 @property(retain, nonatomic) NSString *name; // @synthesize name=_name;
 @property long long type; // @synthesize type=_type;
 // - (void).cxx_destruct;

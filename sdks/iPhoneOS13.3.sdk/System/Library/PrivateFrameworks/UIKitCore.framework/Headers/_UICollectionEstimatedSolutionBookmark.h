@@ -14,17 +14,17 @@ __attribute__((visibility("hidden")))
 {
     _UICollectionLayoutItemSolver *_solution;
     id <_UICollectionLayoutAuxillaryOffsets> _supplementaryOffsets;
-    _NSRange _itemRange;
+    NSRange _itemRange;
     CGRect _solutionFrame;
 }
 
 @property(readonly, nonatomic) id <_UICollectionLayoutAuxillaryOffsets> supplementaryOffsets; // @synthesize supplementaryOffsets=_supplementaryOffsets;
-@property(readonly, nonatomic) _NSRange itemRange; // @synthesize itemRange=_itemRange;
+@property(readonly, nonatomic) NSRange itemRange; // @synthesize itemRange=_itemRange;
 @property(readonly, nonatomic) CGRect solutionFrame; // @synthesize solutionFrame=_solutionFrame;
 @property(readonly, nonatomic) _UICollectionLayoutItemSolver *solution; // @synthesize solution=_solution;
 // - (void).cxx_destruct;
 - (id)description;
-- (id)_supplementaryOffsetsForItemRange:(_NSRange)arg1 solution:(id)arg2 supplementaryOffsets:(id)arg3;
+- (id)_supplementaryOffsetsForItemRange:(NSRange)arg1 solution:(id)arg2 supplementaryOffsets:(id)arg3;
 - (id)initWithSolution:(id)arg1 frame:(CGRect)arg2 itemIndexOffset:(long long)arg3 supplementaryOffsets:(id)arg4 maxItemFrameCount:(long long)arg5;
 
 @end

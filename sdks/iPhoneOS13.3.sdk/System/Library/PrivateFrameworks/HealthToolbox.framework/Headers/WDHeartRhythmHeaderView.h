@@ -32,7 +32,7 @@ __attribute__((visibility("hidden")))
 @property(retain, nonatomic) UITextView *bodyTextView; // @synthesize bodyTextView=_bodyTextView;
 @property(retain, nonatomic) UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
 // - (void).cxx_destruct;
-- (BOOL)textView:(id)arg1 shouldInteractWithURL:(id)arg2 inRange:(_NSRange)arg3 interaction:(long long)arg4;
+- (BOOL)textView:(id)arg1 shouldInteractWithURL:(id)arg2 inRange:(NSRange)arg3 interaction:(long long)arg4;
 @property(readonly, nonatomic) NSAttributedString *bodyURLAttributedString;
 @property(readonly, nonatomic) NSAttributedString *bodyTextAttributedString;
 - (void)setBodyText:(id)arg1 URLText:(id)arg2 URL:(id)arg3;

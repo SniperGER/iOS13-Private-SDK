@@ -7,9 +7,14 @@
 
 @class CLKComplication, NSString;
 
+#ifndef CLKComplicationServer_Protocol
+#define CLKComplicationServer_Protocol
+
 @protocol CLKComplicationServer <NSObject>
 - (void)extendTimelineForComplication:(CLKComplication *)arg1;
 - (void)reloadTimelineForComplication:(CLKComplication *)arg1;
 - (void)checkinWithClientIdentifier:(NSString *)arg1 bundlePath:(NSString *)arg2;
 @end
+
+#endif
 

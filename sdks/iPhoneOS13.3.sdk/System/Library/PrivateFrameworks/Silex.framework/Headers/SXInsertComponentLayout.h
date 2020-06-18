@@ -19,7 +19,7 @@
     NSUInteger _horizontalContentAlignment;
     id <SXEdgeSpacing> _padding;
     NSUInteger _ignoreViewportPadding;
-    _NSRange _columnRange;
+    NSRange _columnRange;
     struct _SXConvertibleValue _minimumHeight;
     struct _SXConvertibleValue _maximumContentWidth;
     struct _SXConvertibleValue _suggestedHeight;
@@ -34,10 +34,10 @@
 @property(readonly, nonatomic) struct _SXConvertibleValue minimumHeight; // @synthesize minimumHeight=_minimumHeight;
 @property(nonatomic) NSUInteger ignoreDocumentMargin; // @synthesize ignoreDocumentMargin=_ignoreDocumentMargin;
 @property(readonly, nonatomic) NSUInteger ignoreDocumentGutter; // @synthesize ignoreDocumentGutter=_ignoreDocumentGutter;
-@property(readonly, nonatomic) _NSRange columnRange; // @synthesize columnRange=_columnRange;
+@property(readonly, nonatomic) NSRange columnRange; // @synthesize columnRange=_columnRange;
 @property(readonly, nonatomic) struct _SXComponentContentInset contentInset; // @synthesize contentInset=_contentInset;
 // - (void).cxx_destruct;
-- (id)initWithColumnRange:(_NSRange)arg1;
+- (id)initWithColumnRange:(NSRange)arg1;
 
 @end
 

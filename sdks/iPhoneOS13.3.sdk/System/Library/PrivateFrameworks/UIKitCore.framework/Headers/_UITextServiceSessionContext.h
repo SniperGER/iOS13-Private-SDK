@@ -16,16 +16,16 @@ __attribute__((visibility("hidden")))
     UIResponder<UITextInput> *_textInput;
     UIView *_view;
     NSString *_textWithContext;
-    _NSRange _selectedRange;
+    NSRange _selectedRange;
     CGRect _presentationRect;
 }
 
 + (id)sessionContextForType:(long long)arg1 withTextInput:(id)arg2;
-+ (id)sessionContextWithText:(id)arg1 withRect:(CGRect)arg2 withRange:(_NSRange)arg3 withView:(id)arg4;
++ (id)sessionContextWithText:(id)arg1 withRect:(CGRect)arg2 withRange:(NSRange)arg3 withView:(id)arg4;
 + (id)sessionContextWithText:(id)arg1 withRect:(CGRect)arg2 withView:(id)arg3;
 + (BOOL)supportsSecureCoding;
 @property(readonly, nonatomic) CGRect presentationRect; // @synthesize presentationRect=_presentationRect;
-@property(readonly, nonatomic) _NSRange selectedRange; // @synthesize selectedRange=_selectedRange;
+@property(readonly, nonatomic) NSRange selectedRange; // @synthesize selectedRange=_selectedRange;
 @property(readonly, copy, nonatomic) NSString *textWithContext; // @synthesize textWithContext=_textWithContext;
 @property(retain, nonatomic) UIView *view; // @synthesize view=_view;
 @property(readonly, nonatomic) UIResponder<UITextInput> *textInput; // @synthesize textInput=_textInput;

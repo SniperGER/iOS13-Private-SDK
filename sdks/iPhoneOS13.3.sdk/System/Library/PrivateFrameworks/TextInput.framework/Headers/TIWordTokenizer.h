@@ -23,16 +23,16 @@
         long long bufferedRangeStart;
         long long bufferedRangeEnd;
     } m_inlineBuffer;
-    _NSRange m_tokenRange;
-    _NSRange m_searchRange;
+    NSRange m_tokenRange;
+    NSRange m_searchRange;
     NSUInteger m_bufferOffset;
 }
 
 // - (void).cxx_destruct;
 - (id)allTokensForString:(id)arg1;
-- (_NSRange)rangeOfCurrentToken;
-- (_NSRange)advanceToNextToken;
-- (void)setString:(id)arg1 withSearchRange:(_NSRange)arg2;
+- (NSRange)rangeOfCurrentToken;
+- (NSRange)advanceToNextToken;
+- (void)setString:(id)arg1 withSearchRange:(NSRange)arg2;
 - (id)init;
 
 @end

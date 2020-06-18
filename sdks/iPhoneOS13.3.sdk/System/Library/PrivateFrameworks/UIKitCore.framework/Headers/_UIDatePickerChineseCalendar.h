@@ -15,10 +15,10 @@ __attribute__((visibility("hidden")))
 + (id)cyclicalFromRelated:(id)arg1;
 + (id)relatedFromCyclical:(id)arg1;
 @property NSCalendar *realCalendar; // @synthesize realCalendar;
-- (_NSRange)rangeOfUnit:(NSUInteger)arg1 inUnit:(NSUInteger)arg2 forDate:(id)arg3;
+- (NSRange)rangeOfUnit:(NSUInteger)arg1 inUnit:(NSUInteger)arg2 forDate:(id)arg3;
 - (id)dateByAddingComponents:(id)arg1 toDate:(id)arg2 options:(NSUInteger)arg3;
 - (id)calendarIdentifier;
-- (_NSRange)maximumRangeOfUnit:(NSUInteger)arg1;
+- (NSRange)maximumRangeOfUnit:(NSUInteger)arg1;
 - (void)setTimeZone:(id)arg1;
 - (id)components:(NSUInteger)arg1 fromDate:(id)arg2;
 - (id)components:(NSUInteger)arg1 fromDate:(id)arg2 toDate:(id)arg3 options:(NSUInteger)arg4;

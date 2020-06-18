@@ -10,8 +10,8 @@
 {
 }
 
-+ (void)logMatchingForRange:(_NSRange)arg1 lowercaseRange:(_NSRange)arg2 text:(id)arg3 lowercaseText:(id)arg4;
-+ (_NSRange)tokenRangeForText:(id)arg1 maxTruncatedLength:(NSUInteger)arg2 tagger:(id)arg3 taggerOptions:(NSUInteger)arg4 prevTextTokenMaxRange:(NSUInteger)arg5 originalLengthShortfall:(NSUInteger)arg6 lowercaseText:(id)arg7 lowercaseRange:(_NSRange)arg8;
++ (void)logMatchingForRange:(NSRange)arg1 lowercaseRange:(NSRange)arg2 text:(id)arg3 lowercaseText:(id)arg4;
++ (NSRange)tokenRangeForText:(id)arg1 maxTruncatedLength:(NSUInteger)arg2 tagger:(id)arg3 taggerOptions:(NSUInteger)arg4 prevTextTokenMaxRange:(NSUInteger)arg5 originalLengthShortfall:(NSUInteger)arg6 lowercaseText:(id)arg7 lowercaseRange:(NSRange)arg8;
 + (id)languageTagsFromText:(id)arg1 withMaxLength:(NSUInteger)arg2 withMaxTags:(NSUInteger)arg3;
 + (id)dominantLanguageTagFromLanguageTags:(id)arg1 withMinimumCount:(NSUInteger)arg2 withMinimumAgreement:(double)arg3;
 + (id)dominantLanguageTagFromLanguageTags:(id)arg1;

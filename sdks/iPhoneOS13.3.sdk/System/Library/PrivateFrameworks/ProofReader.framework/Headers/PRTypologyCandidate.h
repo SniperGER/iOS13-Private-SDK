@@ -12,19 +12,19 @@ __attribute__((visibility("hidden")))
 @interface PRTypologyCandidate : NSObject
 {
     NSString *_candidateString;
-    _NSRange _selectedRange;
+    NSRange _selectedRange;
     NSTextCheckingResult *_result;
     double _openTime;
     double _closeTime;
     BOOL _isOpen;
 }
 
-+ (id)openTypologyCandidate:(id)arg1 selectedRange:(_NSRange)arg2 inString:(id)arg3;
++ (id)openTypologyCandidate:(id)arg1 selectedRange:(NSRange)arg2 inString:(id)arg3;
 - (void)closeTypologyCandidateWithResult:(id)arg1;
 - (id)dictionaryRepresentation;
 - (void)dealloc;
 - (id)description;
-- (id)initWithString:(id)arg1 range:(_NSRange)arg2;
+- (id)initWithString:(id)arg1 range:(NSRange)arg2;
 
 @end
 

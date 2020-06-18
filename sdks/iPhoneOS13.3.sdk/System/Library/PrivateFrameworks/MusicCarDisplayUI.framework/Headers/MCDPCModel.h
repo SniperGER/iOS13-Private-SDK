@@ -56,7 +56,7 @@
 - (id)_errorForNotification:(id)arg1;
 - (void)_finishPlaybackNotification:(id)arg1;
 - (void)initiatePlaybackAtIndexPath:(id)arg1 completion:(id /* CDUnknownBlockType */)arg2;
-- (void)getChildrenAtIndexPath:(id)arg1 inRange:(_NSRange)arg2 completion:(id /* CDUnknownBlockType */)arg3;
+- (void)getChildrenAtIndexPath:(id)arg1 inRange:(NSRange)arg2 completion:(id /* CDUnknownBlockType */)arg3;
 - (void)getCountOfChildrenAtIndexPath:(id)arg1 withCompletion:(id /* CDUnknownBlockType */)arg2;
 - (void)getNowPlayingIdentifiersWithCompletion:(id /* CDUnknownBlockType */)arg1;
 - (void)getChildrenSupportsPlaybackProgressForIndexPath:(id)arg1 withCompletion:(id /* CDUnknownBlockType */)arg2;

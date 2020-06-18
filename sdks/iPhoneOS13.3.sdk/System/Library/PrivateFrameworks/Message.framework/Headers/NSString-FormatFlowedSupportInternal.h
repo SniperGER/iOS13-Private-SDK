@@ -14,7 +14,7 @@
 + (id)mf_stringRepresentationForBytes:(long long)arg1;
 + (id)mf_messageIDStringWithDomainHint:(id)arg1;
 - (NSUInteger)mf_nextWordFromIndex:(NSUInteger)arg1 forward:(BOOL)arg2;
-- (NSUInteger)mf_lineBreakBeforeIndex:(NSUInteger)arg1 withinRange:(_NSRange)arg2;
+- (NSUInteger)mf_lineBreakBeforeIndex:(NSUInteger)arg1 withinRange:(NSRange)arg2;
 - (id)mf_convertFromFlowedText:(unsigned int)arg1 visuallyEmpty:(BOOL )arg2;
 - (id)mf_prefixToString:(id)arg1;
 - (id)mf_stringByTrimmingWhitespaceAndNewlineCharacters;

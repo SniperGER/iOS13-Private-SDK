@@ -9,15 +9,15 @@
 @interface ML3QuerySection : NSObject
 {
     NSUInteger _sectionIndex;
-    _NSRange _range;
+    NSRange _range;
 }
 
 @property(nonatomic) NSUInteger sectionIndex; // @synthesize sectionIndex=_sectionIndex;
-@property(nonatomic) _NSRange range; // @synthesize range=_range;
+@property(nonatomic) NSRange range; // @synthesize range=_range;
 - (BOOL)isEqual:(id)arg1;
 - (NSUInteger)hash;
 - (id)description;
-- (id)initWithRange:(_NSRange)arg1 sectionIndex:(NSUInteger)arg2;
+- (id)initWithRange:(NSRange)arg1 sectionIndex:(NSUInteger)arg2;
 
 @end
 

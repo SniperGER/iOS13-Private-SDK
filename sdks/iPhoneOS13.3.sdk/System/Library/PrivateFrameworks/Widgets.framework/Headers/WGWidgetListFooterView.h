@@ -32,8 +32,8 @@
 // - (void).cxx_destruct;
 @property(copy, nonatomic) NSString *materialGroupNameBase;
 - (void)traitCollectionDidChange:(id)arg1;
-- (BOOL)textView:(id)arg1 shouldInteractWithTextAttachment:(id)arg2 inRange:(_NSRange)arg3 interaction:(long long)arg4;
-- (BOOL)textView:(id)arg1 shouldInteractWithURL:(id)arg2 inRange:(_NSRange)arg3 interaction:(long long)arg4;
+- (BOOL)textView:(id)arg1 shouldInteractWithTextAttachment:(id)arg2 inRange:(NSRange)arg3 interaction:(long long)arg4;
+- (BOOL)textView:(id)arg1 shouldInteractWithURL:(id)arg2 inRange:(NSRange)arg3 interaction:(long long)arg4;
 - (id)_referenceFont;
 - (void)_availableWidgetsUpdated:(id)arg1;
 - (void)_updateForContentCategorySizeDidChange;

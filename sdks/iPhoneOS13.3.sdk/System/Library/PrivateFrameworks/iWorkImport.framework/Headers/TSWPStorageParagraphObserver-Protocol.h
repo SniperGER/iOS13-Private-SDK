@@ -9,8 +9,8 @@
 @class TSWPStorage;
 
 @protocol TSWPStorageParagraphObserver <TSWPStorageObserver>
-- (void)storage:(TSWPStorage *)arg1 didChangeParagraphsInIndexRange:(_NSRange)arg2;
-- (void)storage:(TSWPStorage *)arg1 didDeleteParagraphsInIndexRange:(_NSRange)arg2;
-- (void)storage:(TSWPStorage *)arg1 didInsertParagraphsInIndexRange:(_NSRange)arg2;
+- (void)storage:(TSWPStorage *)arg1 didChangeParagraphsInIndexRange:(NSRange)arg2;
+- (void)storage:(TSWPStorage *)arg1 didDeleteParagraphsInIndexRange:(NSRange)arg2;
+- (void)storage:(TSWPStorage *)arg1 didInsertParagraphsInIndexRange:(NSRange)arg2;
 @end
 

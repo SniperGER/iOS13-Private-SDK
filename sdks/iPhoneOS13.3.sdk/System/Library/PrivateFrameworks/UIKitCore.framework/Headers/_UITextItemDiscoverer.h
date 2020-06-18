@@ -20,7 +20,7 @@ __attribute__((visibility("hidden")))
 
 @property(readonly, nonatomic) __weak UIView<_UITextContent> *view; // @synthesize view=_view;
 // - (void).cxx_destruct;
-- (_NSRange)_nsrangeForTextRange:(id)arg1;
+- (NSRange)NSRangeForTextRange:(id)arg1;
 - (BOOL)hasTextItemsOfType:(long long)arg1 inTextRange:(id)arg2;
 - (id)textItemsOfType:(long long)arg1 inTextRange:(id)arg2;
 - (id)visibleTextRange;

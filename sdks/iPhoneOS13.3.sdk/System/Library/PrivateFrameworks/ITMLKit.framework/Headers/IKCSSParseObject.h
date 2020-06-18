@@ -12,11 +12,11 @@
 {
     IKArray *_cssValue;
     long long _type;
-    _NSRange _range;
+    NSRange _range;
 }
 
 + (id)stringifyList:(id)arg1;
-@property(nonatomic) _NSRange range; // @synthesize range=_range;
+@property(nonatomic) NSRange range; // @synthesize range=_range;
 @property(nonatomic) long long type; // @synthesize type=_type;
 @property(retain, nonatomic) IKArray *cssValue; // @synthesize cssValue=_cssValue;
 // - (void).cxx_destruct;

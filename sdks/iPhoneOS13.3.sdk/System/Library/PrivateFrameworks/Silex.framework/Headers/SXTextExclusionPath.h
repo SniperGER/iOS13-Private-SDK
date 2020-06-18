@@ -24,7 +24,7 @@
     CGPoint _actualPosition;
     CGPoint _position;
     CGPoint _anchorPoint;
-    _NSRange _range;
+    NSRange _range;
     UIEdgeInsets _insets;
     CGRect _exclusionRect;
 }
@@ -40,7 +40,7 @@
 @property(nonatomic) int lineVerticalAlignment; // @synthesize lineVerticalAlignment=_lineVerticalAlignment;
 @property(nonatomic) double verticalAlignmentFactor; // @synthesize verticalAlignmentFactor=_verticalAlignmentFactor;
 @property(nonatomic) double padding; // @synthesize padding=_padding;
-@property(nonatomic) _NSRange range; // @synthesize range=_range;
+@property(nonatomic) NSRange range; // @synthesize range=_range;
 @property(readonly, nonatomic) CGPoint anchorPoint; // @synthesize anchorPoint=_anchorPoint;
 @property(readonly, nonatomic) CGPoint position; // @synthesize position=_position;
 @property(readonly, nonatomic) int type; // @synthesize type=_type;
@@ -52,7 +52,7 @@
 - (void)callStartBlock;
 @property(readonly, nonatomic) id <TSDWrappable> wrappable;
 - (id)description;
-- (id)initWithTextRange:(_NSRange)arg1 position:(CGPoint)arg2 rect:(CGRect)arg3 withInsets:(UIEdgeInsets)arg4;
+- (id)initWithTextRange:(NSRange)arg1 position:(CGPoint)arg2 rect:(CGRect)arg3 withInsets:(UIEdgeInsets)arg4;
 
 @end
 

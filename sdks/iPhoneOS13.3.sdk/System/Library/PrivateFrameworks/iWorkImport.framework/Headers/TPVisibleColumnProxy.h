@@ -26,9 +26,9 @@ __attribute__((visibility("hidden")))
 @property(readonly, nonatomic) BOOL terminatedByBreak;
 @property(readonly, nonatomic) BOOL lastLineIsEmptyAndHasListLabel;
 @property(readonly, nonatomic) NSUInteger nextWidowPullsDownFromCharIndex;
-@property(readonly, nonatomic) _NSRange anchoredRange;
+@property(readonly, nonatomic) NSRange anchoredRange;
 - (NSUInteger)startAnchoredCharIndex;
-@property(readonly, nonatomic) _NSRange range;
+@property(readonly, nonatomic) NSRange range;
 - (NSUInteger)startCharIndex;
 - (id)initWithPageIndex:(NSUInteger)arg1 pageController:(id)arg2 flowInfo:(id)arg3;
 - (id)initWithPageIndex:(NSUInteger)arg1 pageController:(id)arg2;

@@ -63,7 +63,7 @@
 - (void)variableResponderDidEndEditing:(id)arg1;
 - (void)variableResponderWillEndEditing:(id)arg1;
 - (void)variableResponderDidBeginEditing:(id)arg1;
-- (void)textAttachmentInteraction:(id)arg1 didTapTextAttachment:(id)arg2 inCharacterRange:(_NSRange)arg3;
+- (void)textAttachmentInteraction:(id)arg1 didTapTextAttachment:(id)arg2 inCharacterRange:(NSRange)arg3;
 - (void)enumerateVariablesUsingBlock:(id /* CDUnknownBlockType */)arg1;
 - (void)variableDidChange:(id)arg1;
 - (void)beginEditingWithContext:(id)arg1;
@@ -81,7 +81,7 @@
 - (void)updateDoneButtonPresence;
 - (void)updateVariableBlock;
 @property(nonatomic) long long returnKeyType;
-@property(nonatomic) _NSRange selectedRange;
+@property(nonatomic) NSRange selectedRange;
 @property(copy) UITextRange *selectedTextRange;
 @property(nonatomic) long long keyboardType;
 - (void)updateAllowedVariableTypes;

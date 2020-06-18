@@ -9,13 +9,13 @@
 @interface TSWPURLDragItem : TSWPDragItem
 {
     CGPoint _canvasDragPoint;
-    _NSRange _range;
+    NSRange _range;
 }
 
-@property(readonly, nonatomic) _NSRange range; // @synthesize range=_range;
+@property(readonly, nonatomic) NSRange range; // @synthesize range=_range;
 @property(readonly, nonatomic) CGPoint canvasDragPoint; // @synthesize canvasDragPoint=_canvasDragPoint;
 - (id)retargetedDragPreviewForDefaultTargetedDragPreview:(id)arg1 icc:(id)arg2 canvasView:(id)arg3 boundsRect:(CGRect)arg4;
-- (id)initWithDragPreview:(id)arg1 canvasRect:(CGRect)arg2 canvasDragPoint:(CGPoint)arg3 range:(_NSRange)arg4;
+- (id)initWithDragPreview:(id)arg1 canvasRect:(CGRect)arg2 canvasDragPoint:(CGPoint)arg3 range:(NSRange)arg4;
 
 @end
 

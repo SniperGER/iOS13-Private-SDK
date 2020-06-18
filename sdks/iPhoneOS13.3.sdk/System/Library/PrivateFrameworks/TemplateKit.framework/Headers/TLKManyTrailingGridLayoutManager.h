@@ -9,11 +9,11 @@
 __attribute__((visibility("hidden")))
 @interface TLKManyTrailingGridLayoutManager : TLKGridLayoutManager
 {
-    _NSRange _ignoreRange;
+    NSRange _ignoreRange;
 }
 
 + (id)computeTruncationForAlignments:(id)arg1 indexForFirstTrailingColumn:(NSUInteger)arg2 totalEqualColumns:(NSUInteger)arg3;
-@property(nonatomic) _NSRange ignoreRange; // @synthesize ignoreRange=_ignoreRange;
+@property(nonatomic) NSRange ignoreRange; // @synthesize ignoreRange=_ignoreRange;
 - (double)gridArrangement:(id)arg1 widthOfColumnAtIndex:(long long)arg2 spacingAfter:(double )arg3;
 - (CGSize)sizeForFittingSize:(CGSize)arg1 forRow:(id)arg2;
 

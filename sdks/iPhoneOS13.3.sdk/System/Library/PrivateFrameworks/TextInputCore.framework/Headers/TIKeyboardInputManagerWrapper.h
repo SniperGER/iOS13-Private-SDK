@@ -28,7 +28,7 @@
 - (void)textAccepted:(id)arg1;
 - (void)setOriginalInput:(id)arg1;
 - (void)adjustPhraseBoundaryInForwardDirection:(BOOL)arg1 granularity:(int)arg2 keyboardState:(id)arg3 completionHandler:(id /* CDUnknownBlockType */)arg4;
-- (void)smartSelectionForTextInDocument:(id)arg1 inRange:(_NSRange)arg2 language:(id)arg3 tokenizedRanges:(id)arg4 options:(NSUInteger)arg5 completion:(id /* CDUnknownBlockType */)arg6;
+- (void)smartSelectionForTextInDocument:(id)arg1 inRange:(NSRange)arg2 language:(id)arg3 tokenizedRanges:(id)arg4 options:(NSUInteger)arg5 completion:(id /* CDUnknownBlockType */)arg6;
 - (void)adjustPhraseBoundaryInForwardDirection:(BOOL)arg1 keyboardState:(id)arg2 completionHandler:(id /* CDUnknownBlockType */)arg3;
 - (void)skipHitTestForTouchEvents:(id)arg1 keyboardState:(id)arg2;
 - (void)skipHitTestForTouchEvent:(id)arg1 keyboardState:(id)arg2;
@@ -38,9 +38,9 @@
 - (void)generateReplacementsForString:(id)arg1 keyLayout:(id)arg2 continuation:(id /* CDUnknownBlockType */)arg3;
 - (void)handleAcceptedCandidate:(id)arg1 acceptedSecureCandidate:(id)arg2 keyboardState:(id)arg3 completionHandler:(id /* CDUnknownBlockType */)arg4;
 - (void)handleAcceptedCandidate:(id)arg1 keyboardState:(id)arg2 completionHandler:(id /* CDUnknownBlockType */)arg3;
-- (void)generateCandidatesWithKeyboardState:(id)arg1 candidateRange:(_NSRange)arg2 completionHandler:(id /* CDUnknownBlockType */)arg3;
-- (void)generateAutocorrectionsWithKeyboardState:(id)arg1 candidateRange:(_NSRange)arg2 requestToken:(id)arg3 completionHandler:(id /* CDUnknownBlockType */)arg4;
-- (void)generateAutocorrectionsWithKeyboardState:(id)arg1 candidateRange:(_NSRange)arg2 completionHandler:(id /* CDUnknownBlockType */)arg3;
+- (void)generateCandidatesWithKeyboardState:(id)arg1 candidateRange:(NSRange)arg2 completionHandler:(id /* CDUnknownBlockType */)arg3;
+- (void)generateAutocorrectionsWithKeyboardState:(id)arg1 candidateRange:(NSRange)arg2 requestToken:(id)arg3 completionHandler:(id /* CDUnknownBlockType */)arg4;
+- (void)generateAutocorrectionsWithKeyboardState:(id)arg1 candidateRange:(NSRange)arg2 completionHandler:(id /* CDUnknownBlockType */)arg3;
 - (void)generateAutocorrectionsWithKeyboardState:(id)arg1 completionHandler:(id /* CDUnknownBlockType */)arg2;
 - (void)handleKeyboardInput:(id)arg1 acceptedSecureCandidate:(id)arg2 keyboardState:(id)arg3 completionHandler:(id /* CDUnknownBlockType */)arg4;
 - (void)handleKeyboardInput:(id)arg1 keyboardState:(id)arg2 completionHandler:(id /* CDUnknownBlockType */)arg3;

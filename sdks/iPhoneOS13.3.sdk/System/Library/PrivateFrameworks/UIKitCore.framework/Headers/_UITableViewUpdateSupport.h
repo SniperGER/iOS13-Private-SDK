@@ -16,12 +16,12 @@ __attribute__((visibility("hidden")))
     long long oldGlobalRow;
     long long newGlobalRow;
     UITableView *tableView;
-    _NSRange visibleRows;
+    NSRange visibleRows;
     NSArray *updateItems;
     UITableViewRowData *oldRowData;
     UITableViewRowData *newRowData;
-    _NSRange oldRowRange;
-    _NSRange newRowRange;
+    NSRange oldRowRange;
+    NSRange newRowRange;
     NSMutableIndexSet *rows;
     NSMutableIndexSet *movedRows;
     NSMutableIndexSet *movedSections;
@@ -51,7 +51,7 @@ __attribute__((visibility("hidden")))
 // - (void).cxx_destruct;
 - (void)dealloc;
 - (void)_setupAnimations;
-- (id)initWithTableView:(id)arg1 updateItems:(id)arg2 oldRowData:(id)arg3 newRowData:(id)arg4 oldRowRange:(_NSRange)arg5 newRowRange:(_NSRange)arg6 context:(id)arg7;
+- (id)initWithTableView:(id)arg1 updateItems:(id)arg2 oldRowData:(id)arg3 newRowData:(id)arg4 oldRowRange:(NSRange)arg5 newRowRange:(NSRange)arg6 context:(id)arg7;
 - (void)_setupAnimationForTableFooter;
 - (void)_setupAnimationForTableHeader;
 - (void)_setupAnimationsForExistingHeadersAndFooters;
@@ -78,7 +78,7 @@ __attribute__((visibility("hidden")))
 - (void)_computeRowUpdates;
 - (void)_computeSectionUpdates;
 - (void)_faultInRealHeightsOfNeededElements;
-- (_NSRange)_visibleRowRangePlusAdjoining;
+- (NSRange)_visibleRowRangePlusAdjoining;
 - (void)_computeVisibleBounds;
 - (BOOL)_isReloadSectionUpdate;
 - (void)_validateAnimatedCells;

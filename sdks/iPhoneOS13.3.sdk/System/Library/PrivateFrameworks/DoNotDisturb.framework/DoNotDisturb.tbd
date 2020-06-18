@@ -8,14 +8,6 @@ compatibility-version: 1
 objc-constraint:       retain_release
 exports:
   - archs:              [ armv7, armv7s, arm64, arm64e ]
-    allowable-clients:  [ AXTapToSpeakTime, ActionPredictionHeuristics, ActivityDataProvider, BTLEServer, CMASCarouselAlert, CarKitTests,
-                          Carousel, CarouselTests, CoreAutomationDevice, CoverSheet, DoNotDisturbAssistant, DoNotDisturbIntents,
-                          DoNotDisturbKit, DoNotDisturbKitTests, DoNotDisturbModule, DoNotDisturbServer, DoNotDisturbServerTests,
-                          DoNotDisturbSettings, DoNotDisturbTests, HealthDaemon, KnowledgeMonitor, MessageUI, MobilePhone, "MobilePhone Tests",
-                          MobileTimer, NanoHealthAlertBundle, NanoSettings, NanoSettingsGlance, PBBridgeSupport, PhoneCarouselAlert,
-                          PineBoard, SUICITests, SUIIPSWTests, SUIInternalTests, SUISWETests, SUISimulatorTests, Settings, SpringBoard,
-                          SpringBoardCore, VisualAlert, WorkoutAlertBundle, callservicesd, callservicesdTests, carkitd, dmd, dndtool,
-                          itunesstored ]
     symbols:            [ _DNDDefaultModeIdentifier, _DNDDefaultScheduleIdentifier, _DNDDeviceClassFromMGDeviceClass,
                           _DNDEnabledSettingToString, _DNDEventSourceTypeToString, _DNDInterruptionBehaviorToString,
                           _DNDInterruptionSuppressionToString, _DNDLogBehaviorResolution, _DNDLogModeAssertion, _DNDLogRemoteConnection,

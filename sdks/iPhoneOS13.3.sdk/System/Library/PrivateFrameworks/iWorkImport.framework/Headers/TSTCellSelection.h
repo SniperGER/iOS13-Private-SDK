@@ -22,7 +22,7 @@ __attribute__((visibility("hidden")))
     NSUInteger _cachedCellRegionVersionCounter;
     TSTCellRegion *_cachedBaseRegion;
     NSUInteger _cachedBaseRegionVersionCounter;
-    _NSRange _searchReferenceRange;
+    NSRange _searchReferenceRange;
     struct TSTCellUID _anchorCellUID;
     struct TSTCellUID _cursorCellUID;
 }
@@ -42,13 +42,13 @@ __attribute__((visibility("hidden")))
 @property(nonatomic) struct TSTCellUID anchorCellUID; // @synthesize anchorCellUID=_anchorCellUID;
 @property(retain, nonatomic) TSTCellUIDRegion *cellUIDRegion; // @synthesize cellUIDRegion=_cellUIDRegion;
 @property(nonatomic) __weak TSTTableInfo *tableInfo; // @synthesize tableInfo=_tableInfo;
-@property(nonatomic) _NSRange searchReferenceRange; // @synthesize searchReferenceRange=_searchReferenceRange;
+@property(nonatomic) NSRange searchReferenceRange; // @synthesize searchReferenceRange=_searchReferenceRange;
 @property(readonly, nonatomic) BOOL beginImplicitEditing; // @synthesize beginImplicitEditing=_beginImplicitEditing;
 @property(readonly, nonatomic) long long selectionType; // @synthesize selectionType=_selectionType;
 - (id).cxx_construct;
 // - (void).cxx_destruct;
 @property(readonly, nonatomic) BOOL isAtEndOfLine;
-@property(readonly, nonatomic) _NSRange range;
+@property(readonly, nonatomic) NSRange range;
 - (BOOL)getAggregateType:(out unsigned char )arg1;
 - (BOOL)intersectsPartialMergeRangeInTable:(id)arg1;
 @property(readonly, copy) NSString *description;
@@ -117,8 +117,8 @@ __attribute__((visibility("hidden")))
 - (id)initWithTableInfo:(id)arg1 cellRegion:(id)arg2 anchorCellID:(struct TSUCellCoord)arg3 cursorCellID:(struct TSUCellCoord)arg4 baseRegion:(id)arg5;
 - (id)initWithTableInfo:(id)arg1 cellRegion:(id)arg2 anchorCellID:(struct TSUCellCoord)arg3 cursorCellID:(struct TSUCellCoord)arg4 baseRegion:(id)arg5 selectionType:(long long)arg6;
 - (id)initForUpgradeWithTableInfo:(id)arg1 cellRegion:(id)arg2 anchorCellID:(struct TSUCellCoord)arg3 cursorCellID:(struct TSUCellCoord)arg4 baseRegion:(id)arg5 selectionType:(long long)arg6;
-- (id)initWithTableInfo:(id)arg1 cellRegion:(id)arg2 anchorCellID:(struct TSUCellCoord)arg3 cursorCellID:(struct TSUCellCoord)arg4 baseRegion:(id)arg5 selectionType:(long long)arg6 searchReferenceRange:(_NSRange)arg7 beginImplicitEditing:(BOOL)arg8;
-- (id)initWithTableInfo:(id)arg1 cellUIDRegion:(id)arg2 anchorCellUID:(struct TSTCellUID )arg3 cursorCellUID:(struct TSTCellUID )arg4 baseCellUIDRegion:(id)arg5 selectionType:(long long)arg6 searchReferenceRange:(_NSRange)arg7 beginImplicitEditing:(BOOL)arg8;
+- (id)initWithTableInfo:(id)arg1 cellRegion:(id)arg2 anchorCellID:(struct TSUCellCoord)arg3 cursorCellID:(struct TSUCellCoord)arg4 baseRegion:(id)arg5 selectionType:(long long)arg6 searchReferenceRange:(NSRange)arg7 beginImplicitEditing:(BOOL)arg8;
+- (id)initWithTableInfo:(id)arg1 cellUIDRegion:(id)arg2 anchorCellUID:(struct TSTCellUID )arg3 cursorCellUID:(struct TSTCellUID )arg4 baseCellUIDRegion:(id)arg5 selectionType:(long long)arg6 searchReferenceRange:(NSRange)arg7 beginImplicitEditing:(BOOL)arg8;
 
 @end
 

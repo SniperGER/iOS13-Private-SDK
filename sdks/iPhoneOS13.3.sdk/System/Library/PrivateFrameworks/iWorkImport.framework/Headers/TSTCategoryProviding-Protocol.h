@@ -37,7 +37,7 @@
 - (NSUInteger)groupingColumnLevelCountForColumn:(unsigned short)arg1;
 - (NSString *)columnDisplayNameForCategoryLevel:(unsigned char)arg1;
 - (TSTCellRegion *)regionSubtractingCategoryColumnsAndRows:(TSTCellRegion *)arg1;
-- (_NSRange)rowRangeUnderSummaryOrLabelRow:(unsigned int)arg1;
+- (NSRange)rowRangeUnderSummaryOrLabelRow:(unsigned int)arg1;
 - (NSIndexSet *)indexesForGroupingColumnsInRegion:(TSTCellRegion *)arg1;
 - (NSIndexSet *)indexesForGroupingColumns;
 - (NSIndexSet *)indexesForCategoryColumnsInRegion:(TSTCellRegion *)arg1;

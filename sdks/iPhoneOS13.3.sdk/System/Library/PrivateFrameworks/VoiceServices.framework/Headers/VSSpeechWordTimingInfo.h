@@ -10,14 +10,14 @@
 @interface VSSpeechWordTimingInfo : NSObject <NSSecureCoding>
 {
     double _startTime;
-    _NSRange _textRange;
+    NSRange _textRange;
 }
 
 + (id)utf16TimingInfoWithUTF8Range:(id)arg1 withText:(id)arg2;
 + (NSUInteger)extraBytesFromUTF8ToUTF16With:(const char )arg1 totalLength:(NSUInteger)arg2 begin:(NSUInteger)arg3 end:(NSUInteger)arg4;
 + (id)wordTimingInfoFrom:(id)arg1 timestamps:(id)arg2;
 + (BOOL)supportsSecureCoding;
-@property(nonatomic) _NSRange textRange; // @synthesize textRange=_textRange;
+@property(nonatomic) NSRange textRange; // @synthesize textRange=_textRange;
 @property(nonatomic) double startTime; // @synthesize startTime=_startTime;
 - (void)encodeWithCoder:(id)arg1;
 - (id)initWithCoder:(id)arg1;

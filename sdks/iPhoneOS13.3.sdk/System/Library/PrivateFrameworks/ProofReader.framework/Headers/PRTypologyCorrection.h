@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 @interface PRTypologyCorrection : NSObject
 {
     NSString *_misspelling;
-    _NSRange _misspelledRange;
+    NSRange _misspelledRange;
     NSTextCheckingResult *_correctionResult;
     NSMutableString *_logs;
     double _openTime;
@@ -20,13 +20,13 @@ __attribute__((visibility("hidden")))
     BOOL _isOpen;
 }
 
-+ (id)openTypologyCorrectionWithString:(id)arg1 range:(_NSRange)arg2 inString:(id)arg3;
++ (id)openTypologyCorrectionWithString:(id)arg1 range:(NSRange)arg2 inString:(id)arg3;
 - (void)closeTypologyCorrectionWithResult:(id)arg1;
 - (id)dictionaryRepresentation;
 - (void)addTypologyCorrectionLog:(id)arg1;
 - (void)dealloc;
 - (id)description;
-- (id)initWithString:(id)arg1 range:(_NSRange)arg2;
+- (id)initWithString:(id)arg1 range:(NSRange)arg2;
 
 @end
 

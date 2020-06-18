@@ -21,7 +21,7 @@ __attribute__((visibility("hidden")))
 }
 
 // - (void).cxx_destruct;
-- (_NSRange)superscriptRangeAtIndex:(int)arg1;
+- (NSRange)superscriptRangeAtIndex:(int)arg1;
 - (int)numSuperscriptRanges;
 - (id)getEquationStringAndBuildSuperscriptRangesArray:(id)arg1;
 - (double)estimateForX:(double )arg1;

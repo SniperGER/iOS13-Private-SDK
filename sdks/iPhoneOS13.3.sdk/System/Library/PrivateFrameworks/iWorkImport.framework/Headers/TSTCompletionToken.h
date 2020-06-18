@@ -17,14 +17,14 @@ __attribute__((visibility("hidden")))
     TSTReferenceNode *_editingReferenceNode;
     TSUColor *_referenceColor;
     id <TSTCanvasReferenceProvider> _canvasReferenceProvider;
-    _NSRange _prefixRange;
+    NSRange _prefixRange;
 }
 
 @property(nonatomic) __weak id <TSTCanvasReferenceProvider> canvasReferenceProvider; // @synthesize canvasReferenceProvider=_canvasReferenceProvider;
 @property(retain, nonatomic) TSUColor *referenceColor; // @synthesize referenceColor=_referenceColor;
 @property(retain, nonatomic) TSTReferenceNode *editingReferenceNode; // @synthesize editingReferenceNode=_editingReferenceNode;
 @property(readonly, nonatomic) int renderAsTokenType; // @synthesize renderAsTokenType=_renderAsTokenType;
-@property(nonatomic) _NSRange prefixRange; // @synthesize prefixRange=_prefixRange;
+@property(nonatomic) NSRange prefixRange; // @synthesize prefixRange=_prefixRange;
 @property(retain, nonatomic) NSString *completionText; // @synthesize completionText=_completionText;
 // - (void).cxx_destruct;
 - (id)description;

@@ -25,8 +25,8 @@
 - (NSUInteger)hash;
 - (BOOL)isEqual:(id)arg1;
 - (BOOL)isEqualToTokenizedTextResult:(id)arg1;
-- (void)enumerateTokensInTranscriptionPath:(id)arg1 columnRange:(_NSRange)arg2 tokenProcessingBlock:(id /* CDUnknownBlockType */)arg3;
-- (long long)_tokenCountInTranscriptionPath:(id)arg1 columnRange:(_NSRange)arg2;
+- (void)enumerateTokensInTranscriptionPath:(id)arg1 columnRange:(NSRange)arg2 tokenProcessingBlock:(id /* CDUnknownBlockType */)arg3;
+- (long long)_tokenCountInTranscriptionPath:(id)arg1 columnRange:(NSRange)arg2;
 - (id)_legacyTextRecognitionResultForTranscriptionIndex:(long long)arg1;
 - (id)legacyTextRecognitionResults;
 - (BOOL)_isGibberishToken:(id)arg1;
@@ -34,12 +34,12 @@
 - (double)languageFitnessForTranscriptionPath:(id)arg1 locale:(id)arg2 recognitionMode:(int)arg3;
 - (double)languageFitnessForLocale:(id)arg1 recognitionMode:(int)arg2;
 - (BOOL)isValid;
-- (id)strokeIndexesForColumnsInRange:(_NSRange)arg1;
+- (id)strokeIndexesForColumnsInRange:(NSRange)arg1;
 - (id)precedingSeparatorForToken:(id)arg1;
 - (id)precedingSeparatorForTopTranscriptionPath;
 - (BOOL)_shouldFilterOutStringForToken:(id)arg1 isGibberish:(BOOL )arg2;
-- (id)transcriptionWithPath:(id)arg1 columnRange:(_NSRange)arg2 filterLowConfidence:(BOOL)arg3 excludeGibberish:(BOOL)arg4 rejectionRate:(double )arg5 tokenProcessingBlock:(id /* CDUnknownBlockType */)arg6;
-- (id)transcriptionWithPath:(id)arg1 columnRange:(_NSRange)arg2 filterLowConfidence:(BOOL)arg3;
+- (id)transcriptionWithPath:(id)arg1 columnRange:(NSRange)arg2 filterLowConfidence:(BOOL)arg3 excludeGibberish:(BOOL)arg4 rejectionRate:(double )arg5 tokenProcessingBlock:(id /* CDUnknownBlockType */)arg6;
+- (id)transcriptionWithPath:(id)arg1 columnRange:(NSRange)arg2 filterLowConfidence:(BOOL)arg3;
 @property(readonly, copy, nonatomic) NSString *topTranscription;
 - (id)tokenAtLocation:(CDStruct_2ec95fd7)arg1;
 - (id)tokensInTranscriptionPath:(id)arg1 atColumnIndex:(long long)arg2;

@@ -20,7 +20,7 @@
     NSArray *_searchAccounts;
     int _contactSearchAccountChangedToken;
     BOOL _registeredForAddressBookChanges;
-    NSNumber _shouldIncludeGroupResultsImpl;
+    NSNumber *_shouldIncludeGroupResultsImpl;
     NSMutableArray *_corecipientSearchTaskIDs;
     NSString *_sendingAddress;
     BOOL _includeUpcomingEventMembers;

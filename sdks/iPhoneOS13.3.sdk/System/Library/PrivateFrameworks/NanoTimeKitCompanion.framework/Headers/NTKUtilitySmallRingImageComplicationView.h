@@ -13,7 +13,7 @@
 {
     UIView<NTKComplicationImageView> *_imageView;
     CLKProgressProvider *_progressProvider;
-    NSNumber _progressUpdateToken;
+    NSNumber *_progressUpdateToken;
 }
 
 + (BOOL)handlesComplicationTemplate:(id)arg1;

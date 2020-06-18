@@ -18,8 +18,8 @@
 - (id)init;
 @property(nonatomic, readonly) NSString *description;
 - (void)addAddedByVersion:(id)arg1;
-- (void)addAddedByReplica:(id)arg1 range:(_NSRange)arg2;
-- (void)addWithReplica:(id)arg1 range:(_NSRange)arg2;
+- (void)addAddedByReplica:(id)arg1 range:(NSRange)arg2;
+- (void)addWithReplica:(id)arg1 range:(NSRange)arg2;
 @property(nonatomic, readonly) BOOL isEmpty;
 
 @end

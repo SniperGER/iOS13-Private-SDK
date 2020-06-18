@@ -22,8 +22,8 @@
 
 @property(readonly, retain) NSArray *attachments; // @synthesize attachments=_attachments;
 @property(readonly, retain) NSAttributedString *sanitizedContent; // @synthesize sanitizedContent=_content;
-- (void)parser:(id)arg1 foundAttributes:(id)arg2 inRange:(_NSRange)arg3 fileTransferGUID:(id)arg4 filename:(id)arg5 bookmark:(id)arg6 width:(id)arg7 height:(id)arg8 emoji:(id)arg9;
-- (void)parser:(id)arg1 foundAttributes:(id)arg2 inRange:(_NSRange)arg3 characters:(id)arg4;
+- (void)parser:(id)arg1 foundAttributes:(id)arg2 inRange:(NSRange)arg3 fileTransferGUID:(id)arg4 filename:(id)arg5 bookmark:(id)arg6 width:(id)arg7 height:(id)arg8 emoji:(id)arg9;
+- (void)parser:(id)arg1 foundAttributes:(id)arg2 inRange:(NSRange)arg3 characters:(id)arg4;
 - (void)parserDidEnd:(id)arg1;
 - (void)parserDidStart:(id)arg1 bodyAttributes:(id)arg2;
 - (id)resultsForLogging;

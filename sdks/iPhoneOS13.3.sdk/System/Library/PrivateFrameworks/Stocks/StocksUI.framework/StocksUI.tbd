@@ -8,8 +8,6 @@ compatibility-version: 1
 objc-constraint:       retain_release
 exports:
   - archs:              [ armv7, armv7s, arm64, arm64e ]
-    allowable-clients:  [ NewsArticles, NewsArticlesTests, NewsFeed, NewsFeedTests, NewsSubscription, Stocks, StocksAnalytics,
-                          StocksAnalyticsTests, StocksCore, StocksCoreTests, StocksTests, StocksToday, StocksUI, StocksUITests ]
     symbols:            [ _StocksUIVersionNumber, _StocksUIVersionString ]
     objc-classes:       [ _SUArticleAssembly, _SUBootstrapAssembly, _SUCoordinator, _SUDebugAssembly, _SUEditStockListAssembly,
                           _SUEditStockListModule, _SUImages, _SULaunchPad, _SUMainAssembly, _SUMenuAssembly, _SUPPTAssembly,

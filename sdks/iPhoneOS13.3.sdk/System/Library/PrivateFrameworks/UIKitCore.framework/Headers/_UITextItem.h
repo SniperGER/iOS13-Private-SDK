@@ -18,13 +18,13 @@ __attribute__((visibility("hidden")))
     long long _type;
     NSURL *_link;
     NSTextAttachment *_attachment;
-    _NSRange _range;
+    NSRange _range;
 }
 
 @property(retain, nonatomic) NSTextAttachment *attachment; // @synthesize attachment=_attachment;
 @property(retain, nonatomic) NSURL *link; // @synthesize link=_link;
 @property(nonatomic) long long type; // @synthesize type=_type;
-@property(nonatomic) _NSRange range; // @synthesize range=_range;
+@property(nonatomic) NSRange range; // @synthesize range=_range;
 @property(retain, nonatomic) NSArray *rects; // @synthesize rects=_rects;
 @property(retain, nonatomic) id <UICoordinateSpace> coordinateSpace; // @synthesize coordinateSpace=_coordinateSpace;
 // - (void).cxx_destruct;

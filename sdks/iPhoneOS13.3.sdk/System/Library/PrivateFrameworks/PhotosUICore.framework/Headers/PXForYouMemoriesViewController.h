@@ -17,12 +17,12 @@
     BOOL _shouldHandleEntireDataSource;
     id <PXForYouMemoriesViewControllerDelegate> _delegate;
     NSUInteger _rowType;
-    _NSRange _dataSourceRange;
+    NSRange _dataSourceRange;
 }
 
 @property(readonly, nonatomic) BOOL shouldHandleEntireDataSource; // @synthesize shouldHandleEntireDataSource=_shouldHandleEntireDataSource;
 @property(nonatomic) NSUInteger rowType; // @synthesize rowType=_rowType;
-@property(nonatomic) _NSRange dataSourceRange; // @synthesize dataSourceRange=_dataSourceRange;
+@property(nonatomic) NSRange dataSourceRange; // @synthesize dataSourceRange=_dataSourceRange;
 @property(nonatomic) __weak id <PXForYouMemoriesViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
 // - (void).cxx_destruct;
 @property(readonly, nonatomic) long long userInterfaceFeature;

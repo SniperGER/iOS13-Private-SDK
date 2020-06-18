@@ -39,7 +39,7 @@ __attribute__((visibility("hidden")))
 - (void)p_drawHiddenDeletionsAdornments:(id)arg1 lineFragment:(const struct TSWPLineFragment )arg2 state:(const struct TSWPDrawingState )arg3;
 - (void)p_drawInvisiblesAdornments:(id)arg1 lineFragment:(const struct TSWPLineFragment )arg2 state:(const struct TSWPDrawingState )arg3;
 - (void)p_drawAttachmentGlyphAtPosition:(CDStruct_316206b0)arg1 fragment:(const struct TSWPLineFragment )arg2;
-- (void)p_drawTextInRunsForLine:(struct TSWPLineRef)arg1 fragment:(const struct TSWPLineFragment )arg2 state:(const struct TSWPDrawingState )arg3 tateChuYoko:(BOOL)arg4 baseRange:(_NSRange)arg5 isFirstLineRef:(BOOL)arg6;
+- (void)p_drawTextInRunsForLine:(struct TSWPLineRef)arg1 fragment:(const struct TSWPLineFragment )arg2 state:(const struct TSWPDrawingState )arg3 tateChuYoko:(BOOL)arg4 baseRange:(NSRange)arg5 isFirstLineRef:(BOOL)arg6;
 - (void)p_drawRun:(const struct __CTRun )arg1 range:(CDStruct_627e0f85)arg2 attributes:(id)arg3 canvasIsInteractive:(BOOL)arg4;
 - (void)p_strokeWavyLineFromPoint:(CGPoint)arg1 toPoint:(CGPoint)arg2 width:(double)arg3;
 - (void)p_strokeLineFromPoint:(CGPoint)arg1 toPoint:(CGPoint)arg2 width:(double)arg3;
@@ -47,11 +47,11 @@ __attribute__((visibility("hidden")))
 - (void)p_drawAdornmentLine:(id)arg1 drawingState:(const struct TSWPDrawingState )arg2 lineFragment:(const struct TSWPLineFragment )arg3 lineFragmentStart:(CGPoint)arg4 vertical:(BOOL)arg5;
 - (void)p_drawAutocorrectionMarkingsFragment:(const struct TSWPLineFragment )arg1 drawingState:(const struct TSWPDrawingState )arg2;
 - (void)p_drawDictationMarkingsFragment:(const struct TSWPLineFragment )arg1 drawingState:(const struct TSWPDrawingState )arg2;
-- (void)p_drawWordMarkingsForFragment:(const struct TSWPLineFragment )arg1 color:(id)arg2 ranges:(id)arg3 suppressRange:(_NSRange)arg4 drawingState:(const struct TSWPDrawingState )arg5;
+- (void)p_drawWordMarkingsForFragment:(const struct TSWPLineFragment )arg1 color:(id)arg2 ranges:(id)arg3 suppressRange:(NSRange)arg4 drawingState:(const struct TSWPDrawingState )arg5;
 - (BOOL)shouldClipFragment:(const struct TSWPLineFragment )arg1 drawingState:(const struct TSWPDrawingState )arg2 lineDrawFlags:(unsigned int)arg3 updateRect:(CGRect)arg4 outClipRect:(CGRect )arg5;
 - (void)drawAdornmentRects:(id)arg1 forColumn:(id)arg2 foreground:(BOOL)arg3;
-- (void)drawCharacterStrokeAdornmentRects:(id)arg1 forColumn:(id)arg2 limitSelection:(id)arg3 rubyGlyphRange:(_NSRange)arg4;
-- (void)drawCharacterFillAdornmentRects:(id)arg1 forColumn:(id)arg2 limitSelection:(id)arg3 rubyGlyphRange:(_NSRange)arg4;
+- (void)drawCharacterStrokeAdornmentRects:(id)arg1 forColumn:(id)arg2 limitSelection:(id)arg3 rubyGlyphRange:(NSRange)arg4;
+- (void)drawCharacterFillAdornmentRects:(id)arg1 forColumn:(id)arg2 limitSelection:(id)arg3 rubyGlyphRange:(NSRange)arg4;
 - (void)p_clipToInteriorClippingPath;
 - (void)drawAdornmentsForFragment:(const struct TSWPLineFragment )arg1 updateRect:(CGRect)arg2 drawingState:(const struct TSWPDrawingState )arg3 runState:(CDStruct_3b6efdb6 )arg4 lineDrawFlags:(unsigned int)arg5;
 - (void)drawFragment:(const struct TSWPLineFragment )arg1 updateRect:(CGRect)arg2 drawingState:(const struct TSWPDrawingState )arg3 runState:(CDStruct_3b6efdb6 )arg4 lineDrawFlags:(unsigned int)arg5;

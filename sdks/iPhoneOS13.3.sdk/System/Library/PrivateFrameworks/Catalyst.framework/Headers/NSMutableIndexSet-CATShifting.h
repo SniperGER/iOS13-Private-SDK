@@ -8,9 +8,9 @@
 
 @interface NSMutableIndexSet (CATShifting)
 - (void)cat_moveIndex:(NSUInteger)arg1 toIndex:(NSUInteger)arg2;
-- (void)cat_shiftAndRemoveIndexesInRange:(_NSRange)arg1;
+- (void)cat_shiftAndRemoveIndexesInRange:(NSRange)arg1;
 - (void)cat_shiftAndRemoveIndex:(NSUInteger)arg1;
-- (void)cat_shiftAndAddIndexesInRange:(_NSRange)arg1;
+- (void)cat_shiftAndAddIndexesInRange:(NSRange)arg1;
 - (void)cat_shiftAndAddIndex:(NSUInteger)arg1;
 @end
 

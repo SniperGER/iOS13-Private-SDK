@@ -14,8 +14,8 @@
 {
     int _buckets;
     BOOL _normalize;
-    _NSRange _characterNGramRange;
-    _NSRange _tokenNGramRange;
+    NSRange _characterNGramRange;
+    NSRange _tokenNGramRange;
     BOOL _shouldNormalizeTokens;
     BOOL _shouldNormalizeCharacters;
     NSLocale *_localeForNonwordTokens;
@@ -23,8 +23,8 @@
     BOOL _intercept;
 }
 
-+ (id)withBucketSize:(int)arg1 characterNGramRange:(_NSRange)arg2 tokenNGramRange:(_NSRange)arg3 shouldNormalizeTokens:(BOOL)arg4 shouldNormalizeCharacters:(BOOL)arg5 withIntercept:(BOOL)arg6;
-+ (id)withBucketSize:(int)arg1 characterNGramRange:(_NSRange)arg2 tokenNGramRange:(_NSRange)arg3 shouldNormalizeTokens:(BOOL)arg4 shouldNormalizeCharacters:(BOOL)arg5 localeForNonwordTokens:(id)arg6 tokenizeNewlines:(BOOL)arg7 withIntercept:(BOOL)arg8;
++ (id)withBucketSize:(int)arg1 characterNGramRange:(NSRange)arg2 tokenNGramRange:(NSRange)arg3 shouldNormalizeTokens:(BOOL)arg4 shouldNormalizeCharacters:(BOOL)arg5 withIntercept:(BOOL)arg6;
++ (id)withBucketSize:(int)arg1 characterNGramRange:(NSRange)arg2 tokenNGramRange:(NSRange)arg3 shouldNormalizeTokens:(BOOL)arg4 shouldNormalizeCharacters:(BOOL)arg5 localeForNonwordTokens:(id)arg6 tokenizeNewlines:(BOOL)arg7 withIntercept:(BOOL)arg8;
 + (id)withBucketSize:(int)arg1 ngrams:(int)arg2 localeForNonwordTokens:(id)arg3 tokenizeNewlines:(BOOL)arg4 andIntercept:(BOOL)arg5;
 + (id)withBucketSize:(int)arg1 andNgrams:(int)arg2;
 @property(nonatomic) BOOL normalize; // @synthesize normalize=_normalize;
@@ -36,7 +36,7 @@
 - (id)toPlistWithChunks:(id)arg1;
 - (id)transform:(id)arg1;
 - (id)init;
-- (id)initWithBucketSize:(int)arg1 characterNGramRange:(_NSRange)arg2 tokenNGramRange:(_NSRange)arg3 shouldNormalizeTokens:(BOOL)arg4 shouldNormalizeCharacters:(BOOL)arg5 localeForNonwordTokens:(id)arg6 tokenizeNewlines:(BOOL)arg7 withIntercept:(BOOL)arg8;
+- (id)initWithBucketSize:(int)arg1 characterNGramRange:(NSRange)arg2 tokenNGramRange:(NSRange)arg3 shouldNormalizeTokens:(BOOL)arg4 shouldNormalizeCharacters:(BOOL)arg5 localeForNonwordTokens:(id)arg6 tokenizeNewlines:(BOOL)arg7 withIntercept:(BOOL)arg8;
 - (id)initWithBucketSize:(int)arg1 ngrams:(int)arg2 localeForNonwordTokens:(id)arg3 tokenizeNewlines:(BOOL)arg4 andIntercept:(BOOL)arg5;
 
 @end

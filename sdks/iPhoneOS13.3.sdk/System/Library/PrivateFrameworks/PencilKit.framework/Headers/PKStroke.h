@@ -60,8 +60,8 @@
 - (void)enumeratePointsWithDistanceStep:(double)arg1 usingBlock:(id /* CDUnknownBlockType */)arg2;
 - (CGPoint)_locationAtIndex:(NSUInteger)arg1 applyStrokeTransform:(BOOL)arg2;
 - (CGPoint)_locationAtIndex:(NSUInteger)arg1;
-- (id)_substrokeWithRange:(_NSRange)arg1;
-- (id)substrokeWithRange:(_NSRange)arg1;
+- (id)_substrokeWithRange:(NSRange)arg1;
+- (id)substrokeWithRange:(NSRange)arg1;
 - (long long)compareToStroke:(id)arg1;
 - (id)debugQuickLookObject;
 - (BOOL )_newAsciiBitfieldWithWidth:(long long)arg1 height:(long long)arg2;

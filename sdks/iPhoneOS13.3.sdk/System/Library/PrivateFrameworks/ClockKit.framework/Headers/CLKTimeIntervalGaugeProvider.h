@@ -12,7 +12,7 @@
 {
     NSUInteger _nextUpdateToken;
     NSMutableDictionary *_updateHandlersByToken;
-    NSNumber _timerToken;
+    NSNumber *_timerToken;
     BOOL _paused;
     float _startFillFraction;
     float _endFillFraction;
@@ -36,8 +36,8 @@
 - (BOOL)isEqual:(id)arg1;
 - (void)_update;
 - (void)_maybeStartOrStopUpdates;
-- (void)stopUpdatesForToken:(NSNumber )arg1;
-- (NSNumber )startUpdatesWithHandler:(id /* CDUnknownBlockType */)arg1;
+- (void)stopUpdatesForToken:(NSNumber *)arg1;
+- (NSNumber *)startUpdatesWithHandler:(id /* CDUnknownBlockType */)arg1;
 - (double)progressFractionForNow:(id)arg1;
 - (BOOL)needsTimerUpdates;
 - (BOOL)paused;

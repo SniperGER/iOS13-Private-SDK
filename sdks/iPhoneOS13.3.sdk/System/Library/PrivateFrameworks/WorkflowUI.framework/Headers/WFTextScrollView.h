@@ -14,10 +14,10 @@
 {
     UITextView<WFTextField> *_textView;
     id <UITextViewDelegate> _textViewDelegate;
-    _NSRange _selectedRange;
+    NSRange _selectedRange;
 }
 
-@property(nonatomic) _NSRange selectedRange; // @synthesize selectedRange=_selectedRange;
+@property(nonatomic) NSRange selectedRange; // @synthesize selectedRange=_selectedRange;
 @property(nonatomic) __weak id <UITextViewDelegate> textViewDelegate; // @synthesize textViewDelegate=_textViewDelegate;
 @property(readonly, nonatomic) UITextView<WFTextField> *textView; // @synthesize textView=_textView;
 // - (void).cxx_destruct;
@@ -27,7 +27,7 @@
 - (BOOL)textViewShouldEndEditing:(id)arg1;
 - (BOOL)textViewShouldBeginEditing:(id)arg1;
 - (void)textViewDidChangeSelection:(id)arg1;
-- (BOOL)textView:(id)arg1 shouldChangeTextInRange:(_NSRange)arg2 replacementText:(id)arg3;
+- (BOOL)textView:(id)arg1 shouldChangeTextInRange:(NSRange)arg2 replacementText:(id)arg3;
 - (void)textUpdated;
 - (void)layoutSubviews;
 - (void)dealloc;

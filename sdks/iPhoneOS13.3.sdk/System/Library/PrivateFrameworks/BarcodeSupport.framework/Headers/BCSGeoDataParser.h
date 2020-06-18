@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)_validateLatitudeAndLongitudeInString:(id)arg1 range:(_NSRange)arg2;
++ (id)_validateLatitudeAndLongitudeInString:(id)arg1 range:(NSRange)arg2;
 + (id)parseString:(id)arg1;
 
 @end

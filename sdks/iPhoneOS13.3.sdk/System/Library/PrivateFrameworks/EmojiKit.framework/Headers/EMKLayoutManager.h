@@ -27,10 +27,10 @@
 - (void)setDelayFrames:(NSUInteger)arg1;
 - (void)setPostFrames:(NSUInteger)arg1;
 - (void)setPreFrames:(NSUInteger)arg1;
-- (void)processEditingForTextStorage:(id)arg1 edited:(NSUInteger)arg2 range:(_NSRange)arg3 changeInLength:(long long)arg4 invalidatedRange:(_NSRange)arg5;
+- (void)processEditingForTextStorage:(id)arg1 edited:(NSUInteger)arg2 range:(NSRange)arg3 changeInLength:(long long)arg4 invalidatedRange:(NSRange)arg5;
 - (void)showCGGlyphs:(const unsigned short )arg1 positions:(const CGPoint )arg2 count:(NSUInteger)arg3 font:(id)arg4 matrix:(CGAffineTransform)arg5 attributes:(id)arg6 inContext:(CGContext )arg7;
-- (void)drawGlyphsForGlyphRange:(_NSRange)arg1 atPoint:(CGPoint)arg2;
-- (void)drawAttributedGlyphsForGlyphRange:(_NSRange)arg1 atPoint:(CGPoint)arg2;
+- (void)drawGlyphsForGlyphRange:(NSRange)arg1 atPoint:(CGPoint)arg2;
+- (void)drawAttributedGlyphsForGlyphRange:(NSRange)arg1 atPoint:(CGPoint)arg2;
 - (id)attributes;
 - (void)setEmojiConversionLanguages:(id)arg1;
 - (id)emojiConversionLanguages;

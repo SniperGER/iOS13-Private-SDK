@@ -34,7 +34,7 @@
 - (id)firstColumn;
 - (id)textLayout;
 - (void)removeAllExclusionPaths;
-- (_NSRange)validAnchorRangeForRange:(_NSRange)arg1;
+- (NSRange)validAnchorRangeForRange:(NSRange)arg1;
 - (void)addExclusionPath:(id)arg1;
 - (void)assignExclusionPaths;
 - (void)invalidate;

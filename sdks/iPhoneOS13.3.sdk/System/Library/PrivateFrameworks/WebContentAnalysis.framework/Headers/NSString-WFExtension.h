@@ -18,7 +18,7 @@
 - (id)WF_stringByReplacingString:(id)arg1 withString:(id)arg2;
 - (id)WF_stringByEscapingPrintfArguments;
 - (id)WF_stringByRemovingWord:(id)arg1;
-- (_NSRange)WF_rangeOfWord:(id)arg1;
+- (NSRange)WF_rangeOfWord:(id)arg1;
 - (BOOL)WF_containsWord:(id)arg1;
 - (BOOL)WF_containsString:(id)arg1 options:(NSUInteger)arg2;
 - (BOOL)WF_containsString:(id)arg1;

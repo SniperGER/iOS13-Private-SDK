@@ -104,7 +104,7 @@
 @property(readonly, nonatomic) UITextPosition *beginningOfDocument;
 - (void)unmarkText;
 - (void)p_unmarkText;
-- (void)setMarkedText:(id)arg1 selectedRange:(_NSRange)arg2;
+- (void)setMarkedText:(id)arg1 selectedRange:(NSRange)arg2;
 @property(readonly, nonatomic) UITextRange *markedTextRange;
 @property(copy) UITextRange *selectedTextRange;
 - (void)p_setSelectedTextRange:(id)arg1;

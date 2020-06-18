@@ -29,7 +29,7 @@
     NSMutableArray *_layoutSearchResults;
     NSMutableDictionary *_layoutSearchCountForRootIndexMap;
     id /* CDUnknownBlockType */ _progressBlock;
-    _NSRange _currentRootSearchTargetRange;
+    NSRange _currentRootSearchTargetRange;
 }
 
 + (BOOL)searchReference:(id)arg1 isAfterSearchReference:(id)arg2 orEqual:(BOOL)arg3 inDirection:(NSUInteger)arg4 comparator:(id /* CDUnknownBlockType */)arg5;
@@ -41,7 +41,7 @@
 @property(copy, nonatomic) id /* CDUnknownBlockType */ progressBlock; // @synthesize progressBlock=_progressBlock;
 @property(retain, nonatomic) NSMutableDictionary *layoutSearchCountForRootIndexMap; // @synthesize layoutSearchCountForRootIndexMap=_layoutSearchCountForRootIndexMap;
 @property(retain, nonatomic) NSMutableArray *layoutSearchResults; // @synthesize layoutSearchResults=_layoutSearchResults;
-@property(nonatomic) _NSRange currentRootSearchTargetRange; // @synthesize currentRootSearchTargetRange=_currentRootSearchTargetRange;
+@property(nonatomic) NSRange currentRootSearchTargetRange; // @synthesize currentRootSearchTargetRange=_currentRootSearchTargetRange;
 @property(copy, nonatomic) id /* CDUnknownBlockType */ searchResultComparator; // @synthesize searchResultComparator=_searchResultComparator;
 @property(nonatomic) BOOL countSearchHits; // @synthesize countSearchHits=_countSearchHits;
 @property(nonatomic) NSUInteger searchOptions; // @synthesize searchOptions=_searchOptions;
@@ -52,7 +52,7 @@
 @property(nonatomic) BOOL commentsIncludedInAnnotationSearch; // @synthesize commentsIncludedInAnnotationSearch=_commentsIncludedInAnnotationSearch;
 @property(retain, nonatomic) NSMutableSet *annotationDisplayStringTypes; // @synthesize annotationDisplayStringTypes=_annotationDisplayStringTypes;
 - (id)searchReferenceAfterReference:(id)arg1 inDirection:(NSUInteger)arg2;
-- (NSUInteger)_resultCountInRootObjectRange:(_NSRange)arg1;
+- (NSUInteger)_resultCountInRootObjectRange:(NSRange)arg1;
 - (NSUInteger)indexOfVisibleSearchReference:(id)arg1;
 - (id)annotationSearchReferenceForAnnotation:(id)arg1;
 - (id)firstVisibleResultInRect:(CGRect)arg1;
@@ -62,10 +62,10 @@
 - (id)_firstResultInDirection:(NSUInteger)arg1;
 - (void)_nextSearchTargetWithMatchInDirection:(NSUInteger)arg1;
 - (NSUInteger)_nextRootSearchTargetFromIndex:(NSUInteger)arg1 inDirection:(NSUInteger)arg2 wrapped:(BOOL )arg3;
-- (void)_buildLayoutSearchResultsForRootSearchTargetsInRange:(_NSRange)arg1 resultsArray:(id)arg2;
+- (void)_buildLayoutSearchResultsForRootSearchTargetsInRange:(NSRange)arg1 resultsArray:(id)arg2;
 - (void)sortLayoutSearchResultsArray:(id)arg1;
 - (void)invalidateSearchResults;
-- (id)searchReferencesToHighlightInVisibleRootObjectRange:(_NSRange)arg1;
+- (id)searchReferencesToHighlightInVisibleRootObjectRange:(NSRange)arg1;
 - (void)p_startCountingHits;
 - (void)p_stopCountingHits;
 - (void)p_continueCountingHits;

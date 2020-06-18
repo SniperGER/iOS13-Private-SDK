@@ -32,11 +32,11 @@
     PXAssetsDataSource *_currentDataSource;
     PXCuratedLibraryAssetDecorationSource *_assetDecorationSource;
     PXPhotoKitUIMediaProvider *_preheatMediaProvider;
-    _NSRange _preheatedThumbsForItemsByColumnIndex[10];
+    NSRange _preheatedThumbsForItemsByColumnIndex[10];
     BOOL _isPreheatingByColumnIndex[10];
     BOOL _isPerformingUpdate;
-    _NSRange _prefetchedForLoadedItems;
-    _NSRange _cachedClampedItemRange;
+    NSRange _prefetchedForLoadedItems;
+    NSRange _cachedClampedItemRange;
     id <PXDisplayAssetFetchResult> _cachedClampedFetchResult;
     NSArray *_layers;
     NSArray *_itemLayouts;
@@ -53,7 +53,7 @@
     long long _visuallyStableAnchorItemDesiredColumn;
     BOOL _visuallyStableAnchorAllowedCloseToTop;
     NSUInteger _dataSourceIdentifierOfCachedRangeForSelectedItems;
-    _NSRange _cachedRangeForSelectedItems;
+    NSRange _cachedRangeForSelectedItems;
     BOOL _didChangeFiltering;
     BOOL _shouldAnimateTowardsAnchor;
     BOOL _wasTracking;
@@ -100,12 +100,12 @@
 - (id /* CDUnknownBlockType */)locationNamesFutureForContentInRect:(CGRect)arg1;
 - (id /* CDUnknownBlockType */)dateIntervalFutureForContentInRect:(CGRect)arg1;
 - (BOOL)_layoutWantsSingleDateTitle;
-- (_NSRange)_rangeOfItemsForContentInRect:(CGRect)arg1;
+- (NSRange)_rangeOfItemsForContentInRect:(CGRect)arg1;
 - (CGRect)boundsForLevel:(NSUInteger)arg1;
 - (CDStruct_3fe57b01)spriteTransformForLevel:(NSUInteger)arg1;
 - (CGRect)frameForItemAtIndexPath:(struct PXSimpleIndexPath)arg1 level:(NSUInteger)arg2;
 - (id)_displayAssetForItem:(long long)arg1;
-- (void)itemsLayout:(id)arg1 updateTagsInSpriteInfos:(CDStruct_9d1ebe49 )arg2 forItemsInRange:(_NSRange)arg3;
+- (void)itemsLayout:(id)arg1 updateTagsInSpriteInfos:(CDStruct_9d1ebe49 )arg2 forItemsInRange:(NSRange)arg3;
 - (CGRect)itemsLayout:(id)arg1 bestCropRectForItem:(long long)arg2 withAspectRatio:(double)arg3;
 - (double)itemsLayout:(id)arg1 aspectRatioForItem:(long long)arg2;
 - (long long)itemsLayout:(id)arg1 itemForObjectReference:(id)arg2;

@@ -21,7 +21,7 @@ __attribute__((visibility("hidden")))
     unsigned int mColorProg;
     unsigned int mAttributes;
     unsigned int mVbo;
-    _NSRange mVertexRange;
+    NSRange mVertexRange;
     vector_b8c3c0c5 mContiguousVertexStorage;
     struct vector<VertexGroup, std::__1::allocator<VertexGroup>> mVertexHistory;
     struct vector<std::__1::pair<float __attribute__((ext_vector_type(2))), float __attribute__((ext_vector_type(2)))>, std::__1::allocator<std::__1::pair<float __attribute__((ext_vector_type(2))), float __attribute__((ext_vector_type(2)))>>> mNonCollisionSegments;
@@ -76,8 +76,8 @@ __attribute__((visibility("hidden")))
 - (id).cxx_construct;
 // - (void).cxx_destruct;
 - (id)snapshot;
-- (void)updateVertexControllerWithData:(vector_b8c3c0c5)arg1 range:(_NSRange)arg2 allowWet:(BOOL)arg3;
-- (void)updateVertexControllerWithDataRange:(_NSRange)arg1 allowWet:(BOOL)arg2;
+- (void)updateVertexControllerWithData:(vector_b8c3c0c5)arg1 range:(NSRange)arg2 allowWet:(BOOL)arg3;
+- (void)updateVertexControllerWithDataRange:(NSRange)arg1 allowWet:(BOOL)arg2;
 - (void)didBeginNewStroke;
 - (void)didCompleteStroke;
 - (void)clearComposite;
@@ -94,7 +94,7 @@ __attribute__((visibility("hidden")))
 - (void)updateDryForcefully;
 - (void)renderToComposite:(BOOL)arg1;
 - (void)renderToDryPaintBuffer;
-- (void)renderToWetPaintBufferWithRange:(_NSRange)arg1;
+- (void)renderToWetPaintBufferWithRange:(NSRange)arg1;
 - (void)updateDryCycleIncludingComposite:(BOOL)arg1;
 - (void)updateWet;
 - (CGRect)getVertexBounds;

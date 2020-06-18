@@ -14,12 +14,12 @@
     BOOL _extendsPriorWord;
     NSString *_inWord;
     NSUInteger _selectionLocation;
-    _NSRange _inWordRange;
+    NSRange _inWordRange;
 }
 
 + (BOOL)supportsSecureCoding;
 @property(nonatomic) NSUInteger selectionLocation; // @synthesize selectionLocation=_selectionLocation;
-@property(nonatomic) _NSRange inWordRange; // @synthesize inWordRange=_inWordRange;
+@property(nonatomic) NSRange inWordRange; // @synthesize inWordRange=_inWordRange;
 @property(copy, nonatomic) NSString *inWord; // @synthesize inWord=_inWord;
 @property(nonatomic) BOOL extendsPriorWord; // @synthesize extendsPriorWord=_extendsPriorWord;
 @property(nonatomic) BOOL isSelection; // @synthesize isSelection=_isSelection;

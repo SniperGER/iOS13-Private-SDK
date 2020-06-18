@@ -13,13 +13,13 @@
     NSString *_localizedText;
     double _timeOffset;
     NSString *_wordID;
-    _NSRange _textRange;
+    NSRange _textRange;
 }
 
 + (id)timingInfoArrayWithSerializableArray:(id)arg1;
 + (id)serializableArrayWithTimingInfoArray:(id)arg1;
 @property(copy, nonatomic) NSString *wordID; // @synthesize wordID=_wordID;
-@property(nonatomic) _NSRange textRange; // @synthesize textRange=_textRange;
+@property(nonatomic) NSRange textRange; // @synthesize textRange=_textRange;
 @property(nonatomic) double timeOffset; // @synthesize timeOffset=_timeOffset;
 @property(copy, nonatomic) NSString *localizedText; // @synthesize localizedText=_localizedText;
 // - (void).cxx_destruct;

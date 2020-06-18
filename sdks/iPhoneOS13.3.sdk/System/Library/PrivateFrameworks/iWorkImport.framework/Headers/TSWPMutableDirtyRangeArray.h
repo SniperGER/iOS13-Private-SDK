@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (void)subtract:(id)arg1;
-- (void)addChangedRange:(_NSRange)arg1 delta:(long long)arg2;
-- (void)addChangedRange:(_NSRange)arg1 delta:(long long)arg2 allowEmpty:(BOOL)arg3;
-- (void)removeRange:(_NSRange)arg1;
+- (void)addChangedRange:(NSRange)arg1 delta:(long long)arg2;
+- (void)addChangedRange:(NSRange)arg1 delta:(long long)arg2 allowEmpty:(BOOL)arg3;
+- (void)removeRange:(NSRange)arg1;
 - (void)addRange:(CDStruct_9ae92562)arg1;
 - (void)addRange:(CDStruct_9ae92562)arg1 allowEmpty:(BOOL)arg2;
 - (void)clear;

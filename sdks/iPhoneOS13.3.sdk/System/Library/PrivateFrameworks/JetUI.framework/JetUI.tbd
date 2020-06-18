@@ -8,9 +8,6 @@ compatibility-version: 1
 objc-constraint:       retain_release
 exports:
   - archs:              [ armv7, armv7s, arm64, arm64e ]
-    allowable-clients:  [ ASMessagesProvider, AppInstallExtension, AppService, AppStore, AppStoreKit, AppStoreKitTests, AppStoreTests,
-                          AppStoreTopShelfExtension, Arcade, ArcadeTopShelfExtension, BridgeStoreExtension, JetPreflight, JetPreflightTests,
-                          NanoAppStoreTests, ProductPageExtension, SubscribePageExtension, TVAppStore, TVAppStoreTests ]
     symbols:            [ _JUMeasurementsEqual, _JUMeasurementsMake, _JUMeasurementsZero, _JUScreenClassDynamicScreenSize,
                           _JUScreenClassFromLandscapeSize, _JUScreenClassFromPortraitSize, _JUScreenClassGetCornerRadius,
                           _JUScreenClassGetLandscapeSize, _JUScreenClassGetLandscapeWidth, _JUScreenClassGetMain,

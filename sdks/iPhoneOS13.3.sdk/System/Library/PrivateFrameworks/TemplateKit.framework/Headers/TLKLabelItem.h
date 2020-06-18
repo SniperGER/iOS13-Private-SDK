@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
     double horizontalCompressionResistance;
     NUISizeCache *sizeCache;
     TLKRichText *_richText;
-    _NSRange columnRange;
+    NSRange columnRange;
     CGRect frame;
 }
 
@@ -31,7 +31,7 @@ __attribute__((visibility("hidden")))
 @property(nonatomic) double horizontalCompressionResistance; // @synthesize horizontalCompressionResistance;
 @property(nonatomic) double horizontalHuggingPriority; // @synthesize horizontalHuggingPriority;
 @property(nonatomic) NSUInteger row; // @synthesize row;
-@property(nonatomic) _NSRange columnRange; // @synthesize columnRange;
+@property(nonatomic) NSRange columnRange; // @synthesize columnRange;
 @property(nonatomic) CGRect frame;
 // - (void).cxx_destruct;
 @property(readonly, copy) NSString *description;

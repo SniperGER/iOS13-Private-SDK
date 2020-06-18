@@ -11,7 +11,7 @@
 }
 
 + (id)convertRect:(CGRect)arg1;
-+ (id)convertRange:(_NSRange)arg1;
++ (id)convertRange:(NSRange)arg1;
 + (id)convertPoint:(CGPoint)arg1;
 + (id)convertSize:(CGSize)arg1;
 + (BOOL)isNil:(id)arg1;

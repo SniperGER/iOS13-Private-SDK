@@ -84,7 +84,7 @@
 - (BOOL)_activeWatchNeedsLocationCheck;
 - (void)_trackElectrocardiogramOnboardingStepIfNeeded:(long long)arg1 countryCode:(id)arg2;
 - (void)stackedButtonView:(id)arg1 didTapButtonAtIndex:(long long)arg2;
-- (BOOL)textField:(id)arg1 shouldChangeCharactersInRange:(_NSRange)arg2 replacementString:(id)arg3;
+- (BOOL)textField:(id)arg1 shouldChangeCharactersInRange:(NSRange)arg2 replacementString:(id)arg3;
 - (void)_keyboardFrameChanged:(id)arg1;
 - (id)ageWithDate:(id)arg1;
 - (BOOL)_meetsAgeRequirement;

@@ -15,10 +15,10 @@ __attribute__((visibility("hidden")))
 
 - (id).cxx_construct;
 // - (void).cxx_destruct;
-- (id)dirtyRangesIntersecting:(_NSRange)arg1;
-- (NSUInteger)indexForRange:(_NSRange)arg1;
+- (id)dirtyRangesIntersecting:(NSRange)arg1;
+- (NSUInteger)indexForRange:(NSRange)arg1;
 - (long long)delta;
-- (_NSRange)superRange;
+- (NSRange)superRange;
 - (BOOL)isEqualToDirtyRangeArray:(id)arg1;
 - (CDStruct_9ae92562)dirtyRangeAtIndex:(NSUInteger)arg1;
 @property(readonly, nonatomic) NSUInteger count;

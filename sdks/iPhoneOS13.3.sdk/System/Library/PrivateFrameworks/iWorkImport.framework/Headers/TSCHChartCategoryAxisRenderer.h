@@ -21,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (NSUInteger)p_categoryIndexForSelectionPath:(id)arg1;
 - (BOOL)canRenderSelectionPath:(id)arg1;
 - (void)drawIntoLayer:(int)arg1 inContext:(CGContext )arg2 visible:(CGRect)arg3;
-- (void)p_drawIntoLayer:(int)arg1 inContext:(CGContext )arg2 visible:(CGRect)arg3 limitRenderLabels:(int)arg4 limitLabelIndex:(NSUInteger)arg5 rangePtr:(_NSRange )arg6;
+- (void)p_drawIntoLayer:(int)arg1 inContext:(CGContext )arg2 visible:(CGRect)arg3 limitRenderLabels:(int)arg4 limitLabelIndex:(NSUInteger)arg5 rangePtr:(NSRange )arg6;
 - (id)transparencyLayers;
 - (id)categoryAxisLayoutItem;
 

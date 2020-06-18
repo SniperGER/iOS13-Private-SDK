@@ -7,8 +7,13 @@
 
 @class NSArray, NSString, NTKCFaceDetailComplicationSectionController, NTKComplication;
 
+#ifndef NTKCFaceDetailComplicationSectionDelegate_Protocol
+#define NTKCFaceDetailComplicationSectionDelegate_Protocol
+
 @protocol NTKCFaceDetailComplicationSectionDelegate <NSObject>
 - (void)complicationSection:(NTKCFaceDetailComplicationSectionController *)arg1 didChangeToComplication:(NTKComplication *)arg2 forSlot:(NSString *)arg3;
 - (NSArray *)complicationSection:(NTKCFaceDetailComplicationSectionController *)arg1 allowedComplicationsForSlot:(NSString *)arg2;
 @end
+
+#endif
 

@@ -17,7 +17,7 @@
 // - (void).cxx_destruct;
 - (NSUInteger)shouldIgnoreViewportPaddingForColumnLayout:(id)arg1;
 - (NSUInteger)shouldIgnoreMarginsForColumnLayout:(id)arg1;
-- (_NSRange)overrideColumnLayoutForColumnRange:(_NSRange)arg1 inColumnLayout:(id)arg2;
+- (NSRange)overrideColumnLayoutForColumnRange:(NSRange)arg1 inColumnLayout:(id)arg2;
 - (double)calculateHeightForWidth:(double)arg1 layoutContext:(id)arg2;
 - (id)initWithComponent:(id)arg1 componentLayout:(id)arg2 componentStyle:(id)arg3 DOMObjectProvider:(id)arg4 layoutOptions:(id)arg5 adController:(id)arg6;
 

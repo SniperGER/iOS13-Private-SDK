@@ -42,7 +42,7 @@
 - (long long)keyboardSuppressionMode;
 - (long long)sceneDeactivationReason;
 - (BOOL)wantsResignActiveAssertion;
-- (_NSRange)fullSizeSnapshotsRange;
+- (NSRange)fullSizeSnapshotsRange;
 - (NSUInteger)numberOfAppLayoutsToCacheSnapshots;
 - (BOOL)isSwitcherWindowUserInteractionEnabled;
 - (BOOL)isSwitcherWindowVisible;

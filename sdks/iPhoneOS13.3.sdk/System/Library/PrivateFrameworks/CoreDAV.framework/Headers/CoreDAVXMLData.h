@@ -27,7 +27,7 @@
 - (void)endElement:(id)arg1 inNamespace:(id)arg2;
 - (void)startElement:(id)arg1 inNamespace:(id)arg2 withAttributes:(id)arg3;
 - (void)startElement:(id)arg1 inNamespace:(id)arg2 withAttributeNamesAndValues:(id)arg3;
-- (void)_startElement:(id)arg1 inNamespace:(id)arg2 withAttributeNamesAndValues:(id)arg3 attributes:(struct __va_list_tag [1])arg4;
+// - (void)_startElement:(id)arg1 inNamespace:(id)arg2 withAttributeNamesAndValues:(id)arg3 attributes:(struct __va_list_tag [1])arg4;
 - (void)_startElement:(id)arg1 inNamespace:(id)arg2;
 - (const char )_prefixForNameSpace:(const char )arg1;
 - (void)dealloc;

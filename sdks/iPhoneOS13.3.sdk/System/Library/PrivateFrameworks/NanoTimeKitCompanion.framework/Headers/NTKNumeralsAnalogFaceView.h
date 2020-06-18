@@ -18,7 +18,7 @@
     NTKEditOptionPickerView *_stylePickerView;
     NTKNumeralsHourViewsManager *_hourViewsManager;
     NSUInteger _selectedStyle;
-    NSNumber _clockTimerToken;
+    NSNumber *_clockTimerToken;
 }
 
 + (id)_swatchForEditModeDependsOnOptions:(long long)arg1 forDevice:(id)arg2;

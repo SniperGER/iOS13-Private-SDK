@@ -13,7 +13,7 @@
 + (BOOL)isSize:(CGSize)arg1 equalToOther:(CGSize)arg2;
 + (BOOL)isBool:(BOOL)arg1 equalToOther:(BOOL)arg2;
 + (BOOL)isObject:(id)arg1 equalToOther:(id)arg2;
-+ (BOOL)evaluateBuilderBlock:(id /* CDUnknownBlockType */)arg1 remainingBlocks:(struct __va_list_tag [1])arg2;
+// + (BOOL)evaluateBuilderBlock:(id /* CDUnknownBlockType */)arg1 remainingBlocks:(struct __va_list_tag [1])arg2;
 + (BOOL)isObject:(id)arg1 memberOfSameClassAndEqualTo:(id)arg2 withBlocks:(id /* CDUnknownBlockType */)arg3;
 + (BOOL)isObject:(id)arg1 memberOfClass:(Class)arg2 andEqualToObject:(id)arg3 withBlocks:(id /* CDUnknownBlockType */)arg4;
 + (BOOL)isObject:(id)arg1 kindOfClass:(Class)arg2 andEqualToObject:(id)arg3 withBlocks:(id /* CDUnknownBlockType */)arg4;

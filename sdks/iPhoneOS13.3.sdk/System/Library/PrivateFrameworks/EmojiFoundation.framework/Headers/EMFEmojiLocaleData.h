@@ -21,7 +21,7 @@
 // - (void).cxx_destruct;
 - (id)emojiTokensForOptions:(NSUInteger)arg1 presentationStyle:(int)arg2;
 - (id)emojiTokensForText:(id)arg1 phoneticReading:(id)arg2 options:(NSUInteger)arg3 searchType:(int)arg4 includePrefixMatches:(BOOL)arg5;
-- (void)enumerateSearchResultsInText:(id)arg1 range:(_NSRange)arg2 options:(NSUInteger)arg3 searchType:(int)arg4 usingBlock:(id /* CDUnknownBlockType */)arg5;
+- (void)enumerateSearchResultsInText:(id)arg1 range:(NSRange)arg2 options:(NSUInteger)arg3 searchType:(int)arg4 usingBlock:(id /* CDUnknownBlockType */)arg5;
 - (NSUInteger)cfCompareFlagsFromNSOptions:(NSUInteger)arg1;
 @property(readonly, copy, nonatomic) NSArray *emojiTokens;
 - (id)description;

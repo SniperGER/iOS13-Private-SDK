@@ -18,7 +18,7 @@
     id /* CDUnknownBlockType */ _weightDecayer;
     id /* CDUnknownBlockType */ _comparator;
     NSString *_uuid;
-    _NSRange _pageRange;
+    NSRange _pageRange;
 }
 
 + (id /* CDUnknownBlockType */)rankedFrecencyComparatorWithPreferredSources:(id)arg1;
@@ -29,7 +29,7 @@
 @property(readonly, copy, nonatomic) NSString *uuid; // @synthesize uuid=_uuid;
 @property(copy, nonatomic) id /* CDUnknownBlockType */ comparator; // @synthesize comparator=_comparator;
 @property(copy, nonatomic) id /* CDUnknownBlockType */ weightDecayer; // @synthesize weightDecayer=_weightDecayer;
-@property(nonatomic) _NSRange pageRange; // @synthesize pageRange=_pageRange;
+@property(nonatomic) NSRange pageRange; // @synthesize pageRange=_pageRange;
 @property(nonatomic) NSUInteger options; // @synthesize options=_options;
 @property(nonatomic) NSUInteger implicitGroupThreshold; // @synthesize implicitGroupThreshold=_implicitGroupThreshold;
 @property(copy, nonatomic) NSArray *domains; // @synthesize domains=_domains;

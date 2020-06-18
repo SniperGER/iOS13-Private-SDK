@@ -9,14 +9,14 @@
 @interface NSIndexSet (TSUAdditions)
 + (id)tsu_indexSetWithIndices:(NSUInteger )arg1 count:(NSUInteger)arg2;
 - (id)tsu_localizedDescription;
-- (_NSRange)tsu_trailingRangeInRange:(_NSRange)arg1;
-- (_NSRange)tsu_leadingRangeInRange:(_NSRange)arg1;
+- (NSRange)tsu_trailingRangeInRange:(NSRange)arg1;
+- (NSRange)tsu_leadingRangeInRange:(NSRange)arg1;
 - (NSUInteger)tsu_positionOfIndex:(NSUInteger)arg1;
 - (NSUInteger)tsu_indexAtPosition:(NSUInteger)arg1;
 - (id)tsu_indexSetByExcludingIndexes:(id)arg1;
 - (id)tsu_indexSetByIntersectingWithIndexes:(id)arg1;
-- (id)tsu_indexSetByIntersectingWithRange:(_NSRange)arg1;
-- (id)tsu_indexSetByInsertingIndexes:(id)arg1 inRange:(_NSRange)arg2;
+- (id)tsu_indexSetByIntersectingWithRange:(NSRange)arg1;
+- (id)tsu_indexSetByInsertingIndexes:(id)arg1 inRange:(NSRange)arg2;
 - (BOOL)tsu_intersectsIndexesInIndexSet:(id)arg1;
 @property(readonly, nonatomic) BOOL tsu_isSingleContiguousRange;
 - (id)tsu_indexSetByAddingIndexes:(id)arg1;

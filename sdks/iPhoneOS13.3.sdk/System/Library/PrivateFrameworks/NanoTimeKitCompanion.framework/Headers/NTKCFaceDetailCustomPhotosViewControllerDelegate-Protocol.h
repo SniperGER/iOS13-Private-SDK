@@ -7,7 +7,12 @@
 
 @class NTKCFaceDetailCustomPhotosViewController;
 
+#ifndef NTKCFaceDetailCustomPhotosViewControllerDelegate_Protocol
+#define NTKCFaceDetailCustomPhotosViewControllerDelegate_Protocol
+
 @protocol NTKCFaceDetailCustomPhotosViewControllerDelegate <UINavigationControllerDelegate>
 - (void)customPhotosControllerDidFinish:(NTKCFaceDetailCustomPhotosViewController *)arg1;
 @end
+
+#endif
 

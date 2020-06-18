@@ -7,7 +7,12 @@
 
 @class NTKCFaceDetailExpandableDescriptionCell;
 
+#ifndef NTKCFaceDetailExpandableDescriptionCellDelegate_Protocol
+#define NTKCFaceDetailExpandableDescriptionCellDelegate_Protocol
+
 @protocol NTKCFaceDetailExpandableDescriptionCellDelegate <NSObject>
 - (void)descriptionCellDidExpand:(NTKCFaceDetailExpandableDescriptionCell *)arg1;
 @end
+
+#endif
 

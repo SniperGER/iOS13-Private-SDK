@@ -34,8 +34,8 @@
 @property(nonatomic) double hyphenationFactor; // @synthesize hyphenationFactor=_hyphenationFactor;
 @property(retain, nonatomic) UIFont *font; // @synthesize font=_font;
 // - (void).cxx_destruct;
-- (id)_createGlyphImage:(CGRect)arg1 glyphRange:(_NSRange)arg2 layoutManager:(id)arg3;
-- (id)_glyphImageForWord:(id)arg1 frame:(CGRect)arg2 glyphRange:(_NSRange)arg3 textColor:(id)arg4;
+- (id)_createGlyphImage:(CGRect)arg1 glyphRange:(NSRange)arg2 layoutManager:(id)arg3;
+- (id)_glyphImageForWord:(id)arg1 frame:(CGRect)arg2 glyphRange:(NSRange)arg3 textColor:(id)arg4;
 - (void)_resetState;
 - (void)_animateWordOut:(id)arg1;
 - (void)_animateWordIn:(id)arg1;

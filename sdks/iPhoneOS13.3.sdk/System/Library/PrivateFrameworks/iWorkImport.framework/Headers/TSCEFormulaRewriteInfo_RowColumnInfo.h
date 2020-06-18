@@ -41,7 +41,7 @@ __attribute__((visibility("hidden")))
 // - (void).cxx_destruct;
 - (id)description;
 - (vector_4dc5f307)uuidsForIndexes:(id)arg1;
-- (vector_4dc5f307)uuidsInRange:(_NSRange)arg1;
+- (vector_4dc5f307)uuidsInRange:(NSRange)arg1;
 - (vector_f772ab4d)coordRangesForInsertRemove;
 - (struct TSCERangeCoordinate)affectedRangeForMoveRows;
 - (struct TSCERangeCoordinate)affectedRangeForInsertRows;
@@ -59,7 +59,7 @@ __attribute__((visibility("hidden")))
 - (void)unloadIndexes;
 - (void)createAuxRowColumnInfoForMove;
 - (void)loadIndexesForTable:(id)arg1 uidResolver:(id)arg2 forRemoveRows:(BOOL)arg3 shuffleMap:(id)arg4;
-- (vector_4dc5f307)orderedUuidsForRange:(_NSRange)arg1 inTable:(id)arg2 areRows:(BOOL)arg3 shuffleMap:(id)arg4;
+- (vector_4dc5f307)orderedUuidsForRange:(NSRange)arg1 inTable:(id)arg2 areRows:(BOOL)arg3 shuffleMap:(id)arg4;
 - (void)saveToMessage:(struct ColumnOrRowUuidsInfoArchive )arg1;
 - (id)initFromMessage:(const struct ColumnOrRowUuidsInfoArchive )arg1;
 @property(readonly, nonatomic) BOOL isColumns;

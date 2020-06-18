@@ -16,7 +16,7 @@
 }
 
 @property(readonly, nonatomic) NSMutableString *mutablePlainString; // @synthesize mutablePlainString=_mutablePlainString;
-- (void)parser:(id)arg1 foundAttributes:(id)arg2 inRange:(_NSRange)arg3 characters:(id)arg4;
+- (void)parser:(id)arg1 foundAttributes:(id)arg2 inRange:(NSRange)arg3 characters:(id)arg4;
 @property(readonly, nonatomic) NSString *plainString;
 - (id)resultsForLogging;
 - (id)name;

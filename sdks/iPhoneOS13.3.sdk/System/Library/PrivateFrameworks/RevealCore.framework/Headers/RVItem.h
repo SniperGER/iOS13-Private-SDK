@@ -16,7 +16,7 @@
     NSURL *_url;
     DDScannerResult *_ddResult;
     NSString *_text;
-    _NSRange _highlightRange;
+    NSRange _highlightRange;
     long long _contactPropertyType;
     NSString *_contactPropertyValue;
     BOOL _normalized;
@@ -35,30 +35,30 @@
 @property(readonly, nonatomic) NSString *clientIdentifier; // @synthesize clientIdentifier=_clientIdentifier;
 @property(readonly, nonatomic) long long contactPropertyType; // @synthesize contactPropertyType=_contactPropertyType;
 @property(readonly, nonatomic) NSString *contactPropertyValue; // @synthesize contactPropertyValue=_contactPropertyValue;
-@property(readonly, nonatomic) _NSRange highlightRange; // @synthesize highlightRange=_highlightRange;
+@property(readonly, nonatomic) NSRange highlightRange; // @synthesize highlightRange=_highlightRange;
 @property(readonly, nonatomic) NSString *text; // @synthesize text=_text;
 @property(readonly, nonatomic) DDScannerResult *ddResult; // @synthesize ddResult=_ddResult;
 @property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
 @property(readonly, nonatomic) long long normalizedType; // @synthesize normalizedType=_normalizedType;
 @property(readonly, nonatomic) long long type; // @synthesize type=_type;
 // - (void).cxx_destruct;
-- (id)constrainContextSubstring:(id)arg1 range:(_NSRange)arg2 leading:(BOOL)arg3;
+- (id)constrainContextSubstring:(id)arg1 range:(NSRange)arg2 leading:(BOOL)arg3;
 - (id)getClientHintKey:(id)arg1 ofType:(Class)arg2;
 @property(readonly, nonatomic) NSURL *normalizedURL;
 - (void)normalizeWithParser:(id /* CDUnknownBlockType */)arg1 lookupOnly:(BOOL)arg2;
 - (void)normalize;
 @property(readonly, nonatomic) NSString *textSearchContext;
-- (_NSRange)textSearchRange;
+- (NSRange)textSearchRange;
 - (void)encodeWithCoder:(id)arg1;
 - (id)initWithCoder:(id)arg1;
-- (id)initWithContactProperty:(long long)arg1 value:(id)arg2 rangeInContext:(_NSRange)arg3;
-- (id)initWithClientIdentifier:(id)arg1 rangeInContext:(_NSRange)arg2;
-- (void)commonInitWithText:(id)arg1 selectedRange:(_NSRange)arg2 customURLParser:(id /* CDUnknownBlockType */)arg3 lookup:(BOOL)arg4;
-- (id)initWithText:(id)arg1 selectedRange:(_NSRange)arg2 customURLParser:(id /* CDUnknownBlockType */)arg3;
-- (id)initWithText:(id)arg1 selectedRange:(_NSRange)arg2;
+- (id)initWithContactProperty:(long long)arg1 value:(id)arg2 rangeInContext:(NSRange)arg3;
+- (id)initWithClientIdentifier:(id)arg1 rangeInContext:(NSRange)arg2;
+- (void)commonInitWithText:(id)arg1 selectedRange:(NSRange)arg2 customURLParser:(id /* CDUnknownBlockType */)arg3 lookup:(BOOL)arg4;
+- (id)initWithText:(id)arg1 selectedRange:(NSRange)arg2 customURLParser:(id /* CDUnknownBlockType */)arg3;
+- (id)initWithText:(id)arg1 selectedRange:(NSRange)arg2;
 - (id)initWithText:(id)arg1 clickedIndex:(NSUInteger)arg2 selectionRanges:(id)arg3 shouldUpdateSelection:(BOOL )arg4;
 - (id)initWithDDResult:(id)arg1;
-- (id)initWithURL:(id)arg1 rangeInContext:(_NSRange)arg2;
+- (id)initWithURL:(id)arg1 rangeInContext:(NSRange)arg2;
 - (id)initEmpty;
 
 @end

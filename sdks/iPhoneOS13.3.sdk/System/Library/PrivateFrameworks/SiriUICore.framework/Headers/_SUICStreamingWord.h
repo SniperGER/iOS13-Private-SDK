@@ -16,14 +16,14 @@
     CALayer *_wordLayer;
     UIImage *_beginImage;
     UIImage *_endImage;
-    _NSRange _textRange;
+    NSRange _textRange;
 }
 
 @property(retain, nonatomic) UIImage *endImage; // @synthesize endImage=_endImage;
 @property(retain, nonatomic) UIImage *beginImage; // @synthesize beginImage=_beginImage;
 @property(retain, nonatomic) CALayer *wordLayer; // @synthesize wordLayer=_wordLayer;
 @property(nonatomic) double glyphLocationInWordX; // @synthesize glyphLocationInWordX=_glyphLocationInWordX;
-@property(nonatomic) _NSRange textRange; // @synthesize textRange=_textRange;
+@property(nonatomic) NSRange textRange; // @synthesize textRange=_textRange;
 @property(nonatomic) long long insertType; // @synthesize insertType=_insertType;
 @property(retain, nonatomic) _SUICStreamingWord *previous; // @synthesize previous=_previous;
 // - (void).cxx_destruct;

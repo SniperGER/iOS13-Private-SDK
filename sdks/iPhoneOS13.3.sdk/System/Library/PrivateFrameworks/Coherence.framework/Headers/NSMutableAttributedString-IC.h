@@ -7,11 +7,11 @@
 #import <Foundation/NSMutableAttributedString.h>
 
 @interface NSMutableAttributedString (IC)
-- (void)removeObjectsInRange:(_NSRange)arg1;
+- (void)removeObjectsInRange:(NSRange)arg1;
 - (id)emptyCopy;
-- (id)storageFromRange:(_NSRange)arg1;
-- (void)appendStorage:(id)arg1 fromRange:(_NSRange)arg2;
-- (void)replaceStorageInRange:(_NSRange)arg1 withStorage:(id)arg2 fromRange:(_NSRange)arg3;
+- (id)storageFromRange:(NSRange)arg1;
+- (void)appendStorage:(id)arg1 fromRange:(NSRange)arg2;
+- (void)replaceStorageInRange:(NSRange)arg1 withStorage:(id)arg2 fromRange:(NSRange)arg3;
 - (void)insertStorage:(id)arg1 atIndex:(NSUInteger)arg2;
 - (void)appendString:(id)arg1;
 @end

@@ -22,7 +22,7 @@ __attribute__((visibility("hidden")))
     KNAbstractSlide *_slide;
     TSDDrawableInfo *_drawable;
     NSArray *_cachedChunks;
-    _NSRange _cachedActiveChunkRange;
+    NSRange _cachedActiveChunkRange;
     BOOL _cachedActiveChunkRangeIsValid;
     NSMutableDictionary *_buildChunkIDMap;
 }
@@ -110,8 +110,8 @@ __attribute__((visibility("hidden")))
 @property(readonly, nonatomic) NSUInteger lastActiveChunkIndexInBuild;
 @property(readonly, nonatomic) NSUInteger firstActiveChunkIndexInBuild;
 - (NSUInteger)endChunkIndexFromEndOffset:(NSUInteger)arg1;
-- (_NSRange)p_calculateActiveChunkRange;
-@property(readonly, nonatomic) _NSRange activeChunkRange;
+- (NSRange)p_calculateActiveChunkRange;
+@property(readonly, nonatomic) NSRange activeChunkRange;
 @property(readonly, nonatomic) NSUInteger endOffset;
 @property(readonly, nonatomic) NSUInteger startOffset;
 @property(readonly, nonatomic) NSUInteger deliveryStyle;

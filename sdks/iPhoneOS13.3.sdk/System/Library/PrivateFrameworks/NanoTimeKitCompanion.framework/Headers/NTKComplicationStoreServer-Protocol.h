@@ -7,9 +7,14 @@
 
 @class CLKComplicationTemplate, NSNumber, NSString, NSUUID;
 
+#ifndef NTKComplicationStoreServer_Protocol
+#define NTKComplicationStoreServer_Protocol
+
 @protocol NTKComplicationStoreServer <NSObject>
 - (void)removeComplicationForClientIdentifier:(NSString *)arg1;
 - (void)updateLocalizableSampleDataTemplate:(CLKComplicationTemplate *)arg1 forClientIdentifier:(NSString *)arg2 family:(long long)arg3;
 - (void)registerForCollectionIdentifier:(NSString *)arg1 deviceUUID:(NSUUID *)arg2 withSeqId:(NSNumber *)arg3;
 @end
+
+#endif
 

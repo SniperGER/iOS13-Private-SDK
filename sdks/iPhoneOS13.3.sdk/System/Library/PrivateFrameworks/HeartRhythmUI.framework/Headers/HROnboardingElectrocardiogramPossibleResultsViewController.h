@@ -58,7 +58,7 @@
 - (void)_setUpTitleConstraints;
 - (void)_setUpTitle;
 - (void)stackedButtonView:(id)arg1 didTapButtonAtIndex:(long long)arg2;
-- (void)linkTextView:(id)arg1 didTapOnLinkInRange:(_NSRange)arg2;
+- (void)linkTextView:(id)arg1 didTapOnLinkInRange:(NSRange)arg2;
 - (void)_updateForCurrentSizeCategory;
 - (void)setUpConstraints;
 - (void)setUpUI;

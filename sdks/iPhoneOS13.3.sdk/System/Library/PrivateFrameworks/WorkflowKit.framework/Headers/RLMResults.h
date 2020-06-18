@@ -45,7 +45,7 @@
 - (id)sortedResultsUsingDescriptors:(id)arg1;
 - (id)sortedResultsUsingKeyPath:(id)arg1 ascending:(BOOL)arg2;
 - (id)objectsWithPredicate:(id)arg1;
-- (id)objectsWhere:(id)arg1 args:(struct __va_list_tag [1])arg2;
+// - (id)objectsWhere:(id)arg1 args:(struct __va_list_tag [1])arg2;
 - (id)objectsWhere:(id)arg1;
 - (id)_distinctUnionOfArraysForKeyPath:(id)arg1;
 - (id)_unionOfArraysForKeyPath:(id)arg1;
@@ -64,7 +64,7 @@
 - (id)firstObject;
 - (id)objectAtIndex:(NSUInteger)arg1;
 - (NSUInteger)indexOfObjectWithPredicate:(id)arg1;
-- (NSUInteger)indexOfObjectWhere:(id)arg1 args:(struct __va_list_tag [1])arg2;
+// - (NSUInteger)indexOfObjectWhere:(id)arg1 args:(struct __va_list_tag [1])arg2;
 - (NSUInteger)indexOfObjectWhere:(id)arg1;
 - (NSUInteger)countByEnumeratingWithState:(CDStruct_70511ce9 )arg1 objects:(id )arg2 count:(NSUInteger)arg3;
 @property(readonly, nonatomic) struct RLMClassInfo objectInfo;

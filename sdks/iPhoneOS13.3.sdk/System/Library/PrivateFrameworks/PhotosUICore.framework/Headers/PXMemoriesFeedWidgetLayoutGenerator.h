@@ -11,7 +11,7 @@
     struct _LayoutContext _context;
 }
 
-- (void)getGeometries:(struct _PXLayoutGeometry )arg1 inRange:(_NSRange)arg2 withKind:(long long)arg3;
+- (void)getGeometries:(struct _PXLayoutGeometry )arg1 inRange:(NSRange)arg2 withKind:(long long)arg3;
 - (id)geometryKinds;
 - (CGSize)size;
 - (CGSize)estimatedSize;

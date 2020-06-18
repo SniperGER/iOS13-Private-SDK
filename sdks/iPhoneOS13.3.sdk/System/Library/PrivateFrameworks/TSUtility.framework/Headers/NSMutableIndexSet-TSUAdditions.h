@@ -8,6 +8,6 @@
 
 @interface NSMutableIndexSet (TSUAdditions)
 - (void)tsu_intersectionWithIndexSet:(id)arg1;
-- (void)tsu_moveIndexesInRange:(_NSRange)arg1 toOffset:(NSUInteger)arg2;
+- (void)tsu_moveIndexesInRange:(NSRange)arg1 toOffset:(NSUInteger)arg2;
 @end
 

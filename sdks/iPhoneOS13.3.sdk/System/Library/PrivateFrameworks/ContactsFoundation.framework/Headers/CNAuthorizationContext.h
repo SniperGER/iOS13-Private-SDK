@@ -21,7 +21,7 @@
 @property(readonly, nonatomic) CDStruct_4c969caf auditToken; // @synthesize auditToken=_auditToken;
 // - (void).cxx_destruct;
 @property(readonly, nonatomic) BOOL isValidatingFirstPartyClient;
-- (NSNumber )_isFirstParty;
+- (NSNumber *)_isFirstParty;
 - (id)initWithEntitlementVerifier:(Class)arg1 isFirstParty:(BOOL)arg2;
 - (id)initWithAuditToken:(CDStruct_4c969caf)arg1;
 

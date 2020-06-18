@@ -27,7 +27,7 @@ __attribute__((visibility("hidden")))
 @property(retain, nonatomic) UIActivityIndicatorView *spinner; // @synthesize spinner=_spinner;
 // - (void).cxx_destruct;
 - (double)preferredHeightForWidth:(double)arg1 inTableView:(id)arg2;
-- (BOOL)textView:(id)arg1 shouldInteractWithURL:(id)arg2 inRange:(_NSRange)arg3 interaction:(long long)arg4;
+- (BOOL)textView:(id)arg1 shouldInteractWithURL:(id)arg2 inRange:(NSRange)arg3 interaction:(long long)arg4;
 - (void)setLinkText:(id)arg1 url:(id)arg2;
 - (id)initWithSpecifier:(id)arg1;
 

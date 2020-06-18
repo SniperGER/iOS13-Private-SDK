@@ -17,19 +17,19 @@ __attribute__((visibility("hidden")))
     id <_UITextItemInteractionHandler> _handler;
     UIView<_UITextItemInteracting> *_textItemInteractingView;
     id <_UITextContent> _textContent;
-    _NSRange _range;
+    NSRange _range;
     CGPoint _location;
 }
 
 + (void)_removeHighlight;
 + (id)_sharedHighlightView;
-+ (id)interactableLink:(id)arg1 range:(_NSRange)arg2 inTextItemInteractingView:(id)arg3 atLocation:(CGPoint)arg4;
-+ (id)interactableAttachment:(id)arg1 range:(_NSRange)arg2 inTextItemInteractingView:(id)arg3 atLocation:(CGPoint)arg4;
++ (id)interactableLink:(id)arg1 range:(NSRange)arg2 inTextItemInteractingView:(id)arg3 atLocation:(CGPoint)arg4;
++ (id)interactableAttachment:(id)arg1 range:(NSRange)arg2 inTextItemInteractingView:(id)arg3 atLocation:(CGPoint)arg4;
 @property(nonatomic) __weak id <_UITextContent> textContent; // @synthesize textContent=_textContent;
 @property(nonatomic) __weak UIView<_UITextItemInteracting> *textItemInteractingView; // @synthesize textItemInteractingView=_textItemInteractingView;
 @property(retain, nonatomic) id <_UITextItemInteractionHandler> handler; // @synthesize handler=_handler;
 @property(nonatomic) CGPoint location; // @synthesize location=_location;
-@property(nonatomic) _NSRange range; // @synthesize range=_range;
+@property(nonatomic) NSRange range; // @synthesize range=_range;
 // - (void).cxx_destruct;
 @property(readonly, nonatomic) CGRect bounds;
 - (void)unhighlight;

@@ -11,7 +11,7 @@
 }
 
 - (id)description;
-- (_NSRange)range;
+- (NSRange)range;
 - (id)init;
 
 @end

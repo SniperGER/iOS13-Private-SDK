@@ -43,7 +43,7 @@ __attribute__((visibility("hidden")))
 @property(readonly, nonatomic) TSWPPadding *padding;
 - (void)invalidatePadding;
 - (NSUInteger)initialCharIndex;
-- (id)columnMetricsForCharIndex:(NSUInteger)arg1 outRange:(_NSRange)arg2;
+- (id)columnMetricsForCharIndex:(NSUInteger)arg1 outRange:(NSRange)arg2;
 - (Class)repClassForTextLayout:(id)arg1;
 - (id)dependentsOfTextLayout:(id)arg1;
 - (CGRect)autosizedFrameForTextLayout:(id)arg1 textSize:(CGSize)arg2;
@@ -52,7 +52,7 @@ __attribute__((visibility("hidden")))
 - (int)verticalAlignmentForTextLayout:(id)arg1;
 - (NSUInteger)autosizeFlagsForTextLayout:(id)arg1;
 - (BOOL)descendersCannotClip;
-- (id)paragraphStyleAtParIndex:(NSUInteger)arg1 effectiveRange:(_NSRange )arg2;
+- (id)paragraphStyleAtParIndex:(NSUInteger)arg1 effectiveRange:(NSRange )arg2;
 - (id)styleProvider;
 - (BOOL)p_isForPrint;
 - (id)layoutGeometryFromInfo;

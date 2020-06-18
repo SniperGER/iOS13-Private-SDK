@@ -14,7 +14,7 @@
     int _number;
 }
 
-+ (id)validDCFNameForName:(id)arg1 requiredLength:(int)arg2 nameLength:(int)arg3 number:(int )arg4 numberRange:(_NSRange)arg5 suffix:(id)arg6;
++ (id)validDCFNameForName:(id)arg1 requiredLength:(int)arg2 nameLength:(int)arg3 number:(int )arg4 numberRange:(NSRange)arg5 suffix:(id)arg6;
 // - (void).cxx_destruct;
 - (void)setWriteIsPending:(BOOL)arg1;
 - (id)description;

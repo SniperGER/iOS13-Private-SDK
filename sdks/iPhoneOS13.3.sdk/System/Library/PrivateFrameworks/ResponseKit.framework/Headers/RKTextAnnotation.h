@@ -10,15 +10,15 @@
 {
     BOOL _machineGenerated;
     NSUInteger _type;
-    _NSRange _range;
+    NSRange _range;
 }
 
 @property BOOL machineGenerated; // @synthesize machineGenerated=_machineGenerated;
 @property NSUInteger type; // @synthesize type=_type;
-@property _NSRange range; // @synthesize range=_range;
+@property NSRange range; // @synthesize range=_range;
 - (NSUInteger)hash;
 - (BOOL)isEqual:(id)arg1;
-- (id)initWithRange:(_NSRange)arg1 andType:(NSUInteger)arg2 machineGenerated:(BOOL)arg3;
+- (id)initWithRange:(NSRange)arg1 andType:(NSUInteger)arg2 machineGenerated:(BOOL)arg3;
 - (id)init;
 
 @end

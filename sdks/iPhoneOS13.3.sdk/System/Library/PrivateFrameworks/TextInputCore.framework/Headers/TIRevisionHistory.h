@@ -20,7 +20,7 @@
     NSMutableArray *_tokenization;
     void _tokenizer;
     TIRevisionHistoryToken *_lastRejectedToken;
-    _NSRange _selectedRange;
+    NSRange _selectedRange;
     struct _TIRevisionHistoryTokenIterator _currentTokenIterator;
 }
 
@@ -32,7 +32,7 @@
 @property(readonly, nonatomic) void tokenizer; // @synthesize tokenizer=_tokenizer;
 @property(nonatomic) struct _TIRevisionHistoryTokenIterator currentTokenIterator; // @synthesize currentTokenIterator=_currentTokenIterator;
 @property(readonly, nonatomic) NSMutableArray *tokenization; // @synthesize tokenization=_tokenization;
-@property(nonatomic) _NSRange selectedRange; // @synthesize selectedRange=_selectedRange;
+@property(nonatomic) NSRange selectedRange; // @synthesize selectedRange=_selectedRange;
 @property(copy, nonatomic) NSString *documentText; // @synthesize documentText=_documentText;
 @property(retain, nonatomic) TILRUDictionary *recentAutocorrections; // @synthesize recentAutocorrections=_recentAutocorrections;
 @property(nonatomic) id <TIRevisionHistoryDelegate> delegate; // @synthesize delegate=_delegate;
@@ -47,11 +47,11 @@
 - (BOOL)matchesContextBeforeSelection:(id)arg1;
 - (void)acceptCurrentSentence;
 - (void)acceptText:(id)arg1 isAutoshifted:(BOOL)arg2;
-- (_NSRange)inputRangeForReplacement:(id)arg1;
+- (NSRange)inputRangeForReplacement:(id)arg1;
 - (void)rejectCandidate:(id)arg1 forInput:(id)arg2;
 - (void)deleteBackward;
 - (void)insertText:(id)arg1;
-- (_NSRange)deletionRangeToObtainDocumentState:(id)arg1;
+- (NSRange)deletionRangeToObtainDocumentState:(id)arg1;
 - (id)documentState;
 - (id)wordTokenContainingSelection;
 - (BOOL)isWordToken:(struct _TIRevisionHistoryTokenIterator)arg1;
@@ -64,24 +64,24 @@
 - (void)mergeTokenizationsForRevision:(id)arg1;
 - (void)pushSelectedTextToTokenizerForRevision:(id)arg1;
 - (void)handleRevisedTokenString:(id)arg1 withTokenID:(struct TITokenID)arg2 forRevision:(id)arg3;
-- (void)addRevisedTokenString:(id)arg1 withTokenID:(struct TITokenID)arg2 inDocumentRange:(_NSRange)arg3 toRevision:(id)arg4;
-- (BOOL)validateTokenizationForRevisedDocumentRange:(_NSRange)arg1 andTokenID:(struct TITokenID)arg2 forRevision:(id)arg3;
-- (struct _TIRevisionHistoryTokenIterator)resetTokenAtIterator:(struct _TIRevisionHistoryTokenIterator)arg1 withRange:(_NSRange)arg2 fromDocumentLocation:(NSUInteger)arg3;
-- (BOOL)shouldValidateOriginalIterator:(struct _TIRevisionHistoryTokenIterator)arg1 withRevisedDocumentRange:(_NSRange)arg2 forRevision:(id)arg3;
-- (BOOL)originalIterator:(struct _TIRevisionHistoryTokenIterator)arg1 matchesRevisedDocumentRange:(_NSRange)arg2 andTokenID:(struct TITokenID)arg3;
-- (void)adjustTokenOffsetAfterDeletedTokenRange:(_NSRange)arg1 withDeletedCharacterCount:(NSUInteger)arg2;
-- (NSUInteger)tokenizeDocumentTextInRange:(_NSRange)arg1 withTokenHandler:(id /* CDUnknownBlockType */)arg2;
+- (void)addRevisedTokenString:(id)arg1 withTokenID:(struct TITokenID)arg2 inDocumentRange:(NSRange)arg3 toRevision:(id)arg4;
+- (BOOL)validateTokenizationForRevisedDocumentRange:(NSRange)arg1 andTokenID:(struct TITokenID)arg2 forRevision:(id)arg3;
+- (struct _TIRevisionHistoryTokenIterator)resetTokenAtIterator:(struct _TIRevisionHistoryTokenIterator)arg1 withRange:(NSRange)arg2 fromDocumentLocation:(NSUInteger)arg3;
+- (BOOL)shouldValidateOriginalIterator:(struct _TIRevisionHistoryTokenIterator)arg1 withRevisedDocumentRange:(NSRange)arg2 forRevision:(id)arg3;
+- (BOOL)originalIterator:(struct _TIRevisionHistoryTokenIterator)arg1 matchesRevisedDocumentRange:(NSRange)arg2 andTokenID:(struct TITokenID)arg3;
+- (void)adjustTokenOffsetAfterDeletedTokenRange:(NSRange)arg1 withDeletedCharacterCount:(NSUInteger)arg2;
+- (NSUInteger)tokenizeDocumentTextInRange:(NSRange)arg1 withTokenHandler:(id /* CDUnknownBlockType */)arg2;
 - (struct _TIRevisionHistoryTokenIterator)popSelectedTextFromTokenizer;
-- (id)nonEmptyTokensInRange:(_NSRange)arg1;
-- (_NSRange)selectedTokenRangeWithIterator:(struct _TIRevisionHistoryTokenIterator)arg1;
+- (id)nonEmptyTokensInRange:(NSRange)arg1;
+- (NSRange)selectedTokenRangeWithIterator:(struct _TIRevisionHistoryTokenIterator)arg1;
 - (struct _TIRevisionHistoryTokenIterator)previousTokenIterator:(struct _TIRevisionHistoryTokenIterator)arg1;
 - (struct _TIRevisionHistoryTokenIterator)nextTokenIterator:(struct _TIRevisionHistoryTokenIterator)arg1;
-- (_NSRange)documentRangeOfTokenAtIterator:(struct _TIRevisionHistoryTokenIterator)arg1;
+- (NSRange)documentRangeOfTokenAtIterator:(struct _TIRevisionHistoryTokenIterator)arg1;
 - (id)tokenAtIterator:(struct _TIRevisionHistoryTokenIterator)arg1;
 - (void)collectPFLTelemetryForTokenAtIndex:(NSUInteger)arg1;
 - (void)migrateUserTypingFromDeletedTokens:(id)arg1 toInsertedTokens:(id)arg2 withUsageLearningMask:(unsigned int)arg3 usageTrackingMask:(unsigned int)arg4;
-- (void)rejectTokensInRange:(_NSRange)arg1 negativeLearningHint:(int)arg2 newRevision:(id)arg3;
-- (void)acceptTokensInRange:(_NSRange)arg1;
+- (void)rejectTokensInRange:(NSRange)arg1 negativeLearningHint:(int)arg2 newRevision:(id)arg3;
+- (void)acceptTokensInRange:(NSRange)arg1;
 - (NSUInteger)fillTokenBuffer:(struct TITokenID )arg1 withContextForTokenAtIndex:(NSUInteger)arg2;
 - (void)rejectToken:(id)arg1 withContext:(const struct TITokenID )arg2 contextLength:(NSUInteger)arg3 negativeLearningHint:(int)arg4 withRevisedToken:(id)arg5;
 - (void)acceptToken:(id)arg1 withContext:(const struct TITokenID )arg2 contextLength:(NSUInteger)arg3 saveToDifferentialPrivacy:(int)arg4;

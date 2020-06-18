@@ -34,7 +34,7 @@
 - (BOOL)canBeShownFromSuspendedState;
 - (void)addNewPlanWithUserInfo:(id)arg1;
 - (void)textFieldDidEndEditing:(id)arg1;
-- (BOOL)textField:(id)arg1 shouldChangeCharactersInRange:(_NSRange)arg2 replacementString:(id)arg3;
+- (BOOL)textField:(id)arg1 shouldChangeCharactersInRange:(NSRange)arg2 replacementString:(id)arg3;
 - (void)textFieldDidBeginEditing:(id)arg1;
 - (BOOL)textFieldShouldReturn:(id)arg1;
 - (double)tableView:(id)arg1 heightForRowAtIndexPath:(id)arg2;

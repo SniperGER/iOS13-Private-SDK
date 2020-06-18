@@ -5,7 +5,12 @@
 //
 
 
+#ifndef NTKEnumeratableFaceCollection_Protocol
+#define NTKEnumeratableFaceCollection_Protocol
+
 @protocol NTKEnumeratableFaceCollection <NSObject>
 - (void)enumerateFaceNamesUsingBlock:(void (^)(NSString *))arg1;
 @end
+
+#endif
 

@@ -20,9 +20,9 @@ __attribute__((visibility("hidden")))
 - (id)subselectionHaloPositionsForSelections:(id)arg1;
 - (id)subselectionKnobPositionsForSelection:(id)arg1;
 - (void)protected_iterateHitChartElements:(CGPoint)arg1 withBlock:(id /* CDUnknownBlockType */)arg2;
-- (CGAffineTransform)transformForRenderingRange:(_NSRange)arg1 outElementSize:(CGSize )arg2 outClipRect:(CGRect )arg3;
+- (CGAffineTransform)transformForRenderingRange:(NSRange)arg1 outElementSize:(CGSize )arg2 outClipRect:(CGRect )arg3;
 - (CGAffineTransform)transformForRenderingOutElementSize:(CGSize )arg1 outClipRect:(CGRect )arg2;
-- (CGAffineTransform)p_transformForRenderingRangePtr:(_NSRange )arg1 outElementSize:(CGSize )arg2 outClipRect:(CGRect )arg3;
+- (CGAffineTransform)p_transformForRenderingRangePtr:(NSRange )arg1 outElementSize:(CGSize )arg2 outClipRect:(CGRect )arg3;
 - (CGRect)calcDrawingRect;
 - (CGSize)calcMinSize;
 - (BOOL)isTitleOn;

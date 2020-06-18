@@ -37,7 +37,7 @@ __attribute__((visibility("hidden")))
 - (int)getMessageTag;
 - (NSUInteger)hash;
 - (BOOL)isEqual:(id)arg1;
-- (id)initWithTag:(int)arg1 affectedObject:(id)arg2 text:(id)arg3 parameters:(struct __va_list_tag [1])arg4;
+// - (id)initWithTag:(int)arg1 affectedObject:(id)arg2 text:(id)arg3 parameters:(struct __va_list_tag [1])arg4;
 
 @end
 

@@ -68,8 +68,8 @@
 - (void)enableThroughputMonitoring:(BOOL)arg1;
 - (void)setDesiredReadBufferLength:(NSUInteger)arg1;
 - (BOOL)writeData:(id)arg1;
-- (BOOL)writeData:(id)arg1 dontLogBytesInRange:(_NSRange)arg2;
-- (BOOL)writeBytes:(const char )arg1 length:(NSUInteger)arg2 dontLogBytesInRange:(_NSRange)arg3;
+- (BOOL)writeData:(id)arg1 dontLogBytesInRange:(NSRange)arg2;
+- (BOOL)writeBytes:(const char )arg1 length:(NSUInteger)arg2 dontLogBytesInRange:(NSRange)arg3;
 @property(readonly, nonatomic) BOOL usesOpportunisticSockets;
 @property(readonly, nonatomic) BOOL loginDisabled;
 @property(readonly, nonatomic) NSArray *authenticationMechanisms;

@@ -21,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (id)dateComponentsByRestrictingSelectedComponents:(id)arg1 withLastManipulatedColumn:(long long)arg2;
 - (BOOL)areValidDateComponents:(id)arg1 comparingUnits:(long long)arg2;
 - (double)widthForCalendarUnit:(NSUInteger)arg1 font:(id)arg2 maxWidth:(double)arg3;
-- (_NSRange)rangeForCalendarUnit:(NSUInteger)arg1;
+- (NSRange)rangeForCalendarUnit:(NSUInteger)arg1;
 - (long long)titleAlignmentForCalendarUnit:(NSUInteger)arg1;
 - (id)titleForRow:(long long)arg1 inComponent:(long long)arg2;
 - (long long)hourForRow:(long long)arg1;

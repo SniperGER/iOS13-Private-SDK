@@ -15,7 +15,7 @@
     NSString *_markedText;
     NSString *_selectedText;
     NSString *_contextAfterInput;
-    _NSRange _selectedRangeInMarkedText;
+    NSRange _selectedRangeInMarkedText;
 }
 
 + (id)_selectedTextByDeletingInteriorSentences:(id)arg1;
@@ -23,13 +23,13 @@
 + (id)_contextStringByTrimmingPrecedingLines:(id)arg1;
 + (id)_string:(id)arg1 byTrimmingWordsAfterIndex:(NSUInteger)arg2;
 + (id)_string:(id)arg1 byTrimmingWordsBeforeIndex:(NSUInteger)arg2;
-+ (id)documentStateWithContextBefore:(id)arg1 markedText:(id)arg2 selectedRange:(_NSRange)arg3 contextAfter:(id)arg4;
++ (id)documentStateWithContextBefore:(id)arg1 markedText:(id)arg2 selectedRange:(NSRange)arg3 contextAfter:(id)arg4;
 + (id)documentStateWithContextBefore:(id)arg1 selectedText:(id)arg2 contextAfter:(id)arg3;
 + (BOOL)supportsSecureCoding;
 + (id)unboundedDocumentStateForTestingWithContextBefore:(id)arg1 selectedText:(id)arg2 contextAfter:(id)arg3;
 + (id)documentStateForTestingWithContextBefore:(id)arg1 selectedText:(id)arg2 contextAfter:(id)arg3;
-+ (id)documentStateForTestingWithText:(id)arg1 selectedRange:(_NSRange)arg2;
-@property(readonly, nonatomic) _NSRange selectedRangeInMarkedText; // @synthesize selectedRangeInMarkedText=_selectedRangeInMarkedText;
++ (id)documentStateForTestingWithText:(id)arg1 selectedRange:(NSRange)arg2;
+@property(readonly, nonatomic) NSRange selectedRangeInMarkedText; // @synthesize selectedRangeInMarkedText=_selectedRangeInMarkedText;
 @property(readonly, nonatomic) NSString *contextAfterInput; // @synthesize contextAfterInput=_contextAfterInput;
 @property(readonly, nonatomic) NSString *selectedText; // @synthesize selectedText=_selectedText;
 @property(readonly, nonatomic) NSString *markedText; // @synthesize markedText=_markedText;
@@ -42,13 +42,13 @@
 - (BOOL)isEqual:(id)arg1;
 - (void)encodeWithCoder:(id)arg1;
 - (id)initWithCoder:(id)arg1;
-- (id)initWithUnboundedContextBefore:(id)arg1 markedText:(id)arg2 selectedText:(id)arg3 unboundedContextAfter:(id)arg4 selectedRangeInMarkedText:(_NSRange)arg5;
-- (id)initWithContextBefore:(id)arg1 markedText:(id)arg2 selectedText:(id)arg3 contextAfter:(id)arg4 selectedRangeInMarkedText:(_NSRange)arg5;
+- (id)initWithUnboundedContextBefore:(id)arg1 markedText:(id)arg2 selectedText:(id)arg3 unboundedContextAfter:(id)arg4 selectedRangeInMarkedText:(NSRange)arg5;
+- (id)initWithContextBefore:(id)arg1 markedText:(id)arg2 selectedText:(id)arg3 contextAfter:(id)arg4 selectedRangeInMarkedText:(NSRange)arg5;
 - (id)documentStateAfterCursorAdjustment:(long long)arg1;
 - (id)documentStateAfterReplacingText:(id)arg1 withText:(id)arg2;
 - (id)documentStateAfterCollapsingSelection;
 - (id)documentStateAfterUnmarkingText;
-- (id)documentStateAfterSettingMarkedText:(id)arg1 selectedRange:(_NSRange)arg2;
+- (id)documentStateAfterSettingMarkedText:(id)arg1 selectedRange:(NSRange)arg2;
 - (id)documentStateAfterDeletingForward;
 - (id)documentStateAfterDeletingBackward;
 - (id)documentStateAfterInsertingTextAfterSelection:(id)arg1;
@@ -58,7 +58,7 @@
 - (id)inputStemWithTerminatorPredicate:(id /* CDUnknownBlockType */)arg1;
 - (id)wordPrefixOfString:(id)arg1 withTerminatorPredicate:(id /* CDUnknownBlockType */)arg2 reverse:(BOOL)arg3;
 - (BOOL)deletingBackwardsWillRemoveText;
-- (id)initWithText:(id)arg1 selectedRange:(_NSRange)arg2;
+- (id)initWithText:(id)arg1 selectedRange:(NSRange)arg2;
 
 @end
 

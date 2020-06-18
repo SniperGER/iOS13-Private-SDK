@@ -13,16 +13,16 @@
 __attribute__((visibility("hidden")))
 @interface TSWPTrackedDeletion : NSObject <TSWPReplaceAction>
 {
-    _NSRange _range;
+    NSRange _range;
     TSWPChangeSession *_changeSession;
 }
 
 // - (void).cxx_destruct;
-- (_NSRange)insertedRange;
+- (NSRange)insertedRange;
 - (long long)delta;
 - (NSUInteger)targetCharIndex;
 - (void)performWithStorage:(id)arg1 delta:(long long)arg2 actionBuilder:(struct TSWPStorageActionBuilder )arg3 withFlags:(unsigned int)arg4 replaceBlock:(id /* CDUnknownBlockType */)arg5;
-- (id)initWithRange:(_NSRange)arg1 changeSession:(id)arg2;
+- (id)initWithRange:(NSRange)arg1 changeSession:(id)arg2;
 
 @end
 

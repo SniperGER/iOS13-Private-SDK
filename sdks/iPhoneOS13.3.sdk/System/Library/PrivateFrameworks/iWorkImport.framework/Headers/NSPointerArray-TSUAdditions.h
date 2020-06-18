@@ -8,7 +8,7 @@
 
 @interface NSPointerArray (TSUAdditions)
 - (NSUInteger)tsu_indexOfPointer:(void )arg1;
-- (void)tsu_insertRange:(_NSRange)arg1;
+- (void)tsu_insertRange:(NSRange)arg1;
 - (void)tsu_enumerateNonNullPointersUsingBlock:(id /* CDUnknownBlockType */)arg1;
 @end
 

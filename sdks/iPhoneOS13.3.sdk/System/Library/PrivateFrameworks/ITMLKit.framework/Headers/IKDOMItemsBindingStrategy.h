@@ -24,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (id)_appDataItemFromDataItem:(id)arg1 binding:(id)arg2 prototypeIdentifier:(id)arg3 autoHighlighted:(BOOL )arg4;
 - (void)_updateChildDOMElements;
 - (void)willUpdateWithItems:(id)arg1 indexTitles:(id)arg2 usedPrototypesByIdentifier:(id)arg3 changeSet:(id)arg4;
-- (_NSRange)visibleItemsRange;
+- (NSRange)visibleItemsRange;
 - (void)didResolveKeys:(id)arg1;
 - (id)initWithDOMBindingController:(id)arg1;
 

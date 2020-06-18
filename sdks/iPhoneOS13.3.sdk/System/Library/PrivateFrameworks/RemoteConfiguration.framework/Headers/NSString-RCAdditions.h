@@ -11,6 +11,6 @@
 + (id)stringWithValue:(id)arg1;
 + (id)rc_string:(id /* CDUnknownBlockType */)arg1;
 - (id)rc_numberFollowingString:(id)arg1;
-@property(readonly, nonatomic) _NSRange range;
+@property(readonly, nonatomic) NSRange range;
 @end
 

@@ -22,13 +22,13 @@
     NSIndexSet *_PINEntrySeparatorIndexes;
     NSUInteger _autofillMode;
     NSDictionary *_autofillContext;
-    _NSRange _validTextRange;
+    NSRange _validTextRange;
 }
 
 + (BOOL)supportsSecureCoding;
 @property(retain, nonatomic) NSDictionary *autofillContext; // @synthesize autofillContext=_autofillContext;
 @property(nonatomic) NSUInteger autofillMode; // @synthesize autofillMode=_autofillMode;
-@property(nonatomic) _NSRange validTextRange; // @synthesize validTextRange=_validTextRange;
+@property(nonatomic) NSRange validTextRange; // @synthesize validTextRange=_validTextRange;
 @property(retain, nonatomic) NSIndexSet *PINEntrySeparatorIndexes; // @synthesize PINEntrySeparatorIndexes=_PINEntrySeparatorIndexes;
 @property(retain, nonatomic) TITextInputTraits *textInputTraits; // @synthesize textInputTraits=_textInputTraits;
 @property(copy, nonatomic) NSString *prompt; // @synthesize prompt=_prompt;

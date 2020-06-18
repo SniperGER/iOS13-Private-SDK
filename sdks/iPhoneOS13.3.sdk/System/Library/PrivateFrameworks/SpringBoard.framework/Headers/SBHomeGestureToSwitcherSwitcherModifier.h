@@ -20,7 +20,7 @@
 // - (void).cxx_destruct;
 - (id)_appLayoutToScrollToDuringTransition;
 - (id)layoutSettings;
-- (_NSRange)fullSizeSnapshotsRange;
+- (NSRange)fullSizeSnapshotsRange;
 - (NSUInteger)numberOfAppLayoutsToCacheSnapshots;
 - (BOOL)isSwitcherWindowUserInteractionEnabled;
 - (BOOL)isSwitcherWindowVisible;

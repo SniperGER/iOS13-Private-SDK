@@ -15,7 +15,7 @@
 + (id)tsu_stringWithHexFromBytes:(const char )arg1 length:(NSUInteger)arg2;
 + (id)tsu_stringByIndentingString:(id)arg1;
 + (id)tsu_stringByIndentingString:(id)arg1 times:(NSUInteger)arg2;
-+ (id)tsu_stringWithFormat:(id)arg1 arguments:(struct __va_list_tag [1])arg2;
+// + (id)tsu_stringWithFormat:(id)arg1 arguments:(struct __va_list_tag [1])arg2;
 + (id)tsu_stringWithUUID;
 + (id)tsu_localizedDisplayNameWithPersonNameComponents:(id)arg1;
 + (id)tsu_fogFilenameFromShareToken:(id)arg1;
@@ -37,7 +37,7 @@
 - (id)CM_stringByAddingCSSEscapes;
 - (id)copyCsvRows:(NSUInteger )arg1;
 - (id)_copyCsvRows:(NSUInteger )arg1 usingDelimiter:(id)arg2 columnCountIsConstant:(BOOL )arg3;
-- (_NSRange)oi_rangeOfCharactersFromSet:(id)arg1 index:(int)arg2;
+- (NSRange)oi_rangeOfCharactersFromSet:(id)arg1 index:(int)arg2;
 - (double)oi_sizeWithFontName:(id)arg1 size:(int)arg2 bold:(BOOL)arg3 italic:(BOOL)arg4;
 - (double)oi_sizeWithFontName:(id)arg1 size:(int)arg2;
 - (id)tsu_stringByReplacing2DigitYearStringWith4DigitYearString;
@@ -63,8 +63,8 @@
 - (id)tsu_setOfContainedWordsIncludingPunctuationAndSymbols:(BOOL)arg1;
 - (BOOL)tsu_containsSubstring:(id)arg1;
 - (void)tsu_enumerateRangesOfCharactersInSet:(id)arg1 usingBlock:(id /* CDUnknownBlockType */)arg2;
-- (_NSRange)tsu_range;
-- (_NSRange)tsu_rangeOfString:(id)arg1 options:(NSUInteger)arg2 updatingSearchRange:(_NSRange )arg3;
+- (NSRange)tsu_range;
+- (NSRange)tsu_rangeOfString:(id)arg1 options:(NSUInteger)arg2 updatingSearchRange:(NSRange )arg3;
 - (id)tsu_tolerantStringByAppendingPathExtension:(id)arg1;
 - (BOOL)tsu_containsOnlyCharactersFromSet:(id)arg1;
 - (id)tsu_unescapeXML;
@@ -108,8 +108,8 @@
 - (id)tsu_keyPathByRemovingLastKey;
 - (id)tsu_initUnRedactedWithFormat:(id)arg1;
 - (id)tsu_initRedactedWithFormat:(id)arg1;
-- (id)tsu_initUnRedactedWithFormat:(id)arg1 arguments:(struct __va_list_tag [1])arg2;
-- (id)tsu_initRedactedWithFormat:(id)arg1 arguments:(struct __va_list_tag [1])arg2;
+// - (id)tsu_initUnRedactedWithFormat:(id)arg1 arguments:(struct __va_list_tag [1])arg2;
+// - (id)tsu_initRedactedWithFormat:(id)arg1 arguments:(struct __va_list_tag [1])arg2;
 - (unsigned short)tsu_spaceCharacterInCustomNumberFormatSpaceToken;
 - (unsigned short)tsu_scaleCharacterInCustomNumberFormatScaleToken;
 - (id)tsu_formatStringFromCustomNumberFormatScaleToken;
@@ -149,10 +149,10 @@
 - (unsigned short )cWideString;
 - (id)tc_escapedFragment;
 - (id)tc_escapedPath;
-- (int)tc_languageTypeAtIndex:(NSUInteger)arg1 effectiveRange:(_NSRange )arg2;
+- (int)tc_languageTypeAtIndex:(NSUInteger)arg1 effectiveRange:(NSRange )arg2;
 - (id)tc_initialsFromAuthorName;
 - (id)getDataUsingOfficeCryptographicEncoding;
-- (int)tc_fontTypeAtIndex:(NSUInteger)arg1 effectiveRange:(_NSRange )arg2 forXML:(BOOL)arg3;
+- (int)tc_fontTypeAtIndex:(NSUInteger)arg1 effectiveRange:(NSRange )arg2 forXML:(BOOL)arg3;
 - (int)fontTypeForCharacter:(unsigned short)arg1 isControl:(BOOL )arg2;
 @end
 

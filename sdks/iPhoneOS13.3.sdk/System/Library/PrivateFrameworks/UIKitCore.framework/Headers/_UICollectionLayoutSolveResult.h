@@ -26,7 +26,7 @@ __attribute__((visibility("hidden")))
 - (void)addInvalidatedAuxillaryOfKind:(id)arg1 indexes:(id)arg2;
 - (void)addInvalidatedAuxillaryOfKind:(id)arg1 index:(long long)arg2;
 - (void)addInvalidatedItemIndex:(long long)arg1;
-- (void)addInvalidatedItemIndexesInRange:(_NSRange)arg1;
+- (void)addInvalidatedItemIndexesInRange:(NSRange)arg1;
 - (void)addInvalidatedItemIndexes:(id)arg1;
 - (id)init;
 

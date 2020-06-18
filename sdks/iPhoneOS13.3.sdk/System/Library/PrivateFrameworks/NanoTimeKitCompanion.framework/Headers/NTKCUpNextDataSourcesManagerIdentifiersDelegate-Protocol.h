@@ -7,7 +7,12 @@
 
 @class NSArray, NTKCUpNextDataSourcesManager;
 
+#ifndef NTKCUpNextDataSourcesManagerIdentifiersDelegate_Protocol
+#define NTKCUpNextDataSourcesManagerIdentifiersDelegate_Protocol
+
 @protocol NTKCUpNextDataSourcesManagerIdentifiersDelegate <NSObject>
 - (void)manager:(NTKCUpNextDataSourcesManager *)arg1 didUpdateDataSourceEntries:(NSArray *)arg2;
 @end
+
+#endif
 

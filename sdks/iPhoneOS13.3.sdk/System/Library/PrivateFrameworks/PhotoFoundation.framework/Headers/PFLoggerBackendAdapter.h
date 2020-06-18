@@ -30,7 +30,7 @@
 @property(readonly, nonatomic) BOOL allowsConcurrentAccess;
 - (void)endTransaction;
 - (void)beginTransaction;
-- (void)logFromCodeLocation:(CDStruct_98c8119d)arg1 facility:(id)arg2 subsystem:(id)arg3 level:(int)arg4 message:(id)arg5 format:(id)arg6 args:(struct __va_list_tag [1])arg7;
+// - (void)logFromCodeLocation:(CDStruct_98c8119d)arg1 facility:(id)arg2 subsystem:(id)arg3 level:(int)arg4 message:(id)arg5 format:(id)arg6 args:(struct __va_list_tag [1])arg7;
 - (id)init;
 
 @end

@@ -24,7 +24,7 @@
 @property(readonly, retain, nonatomic) NSDictionary *featureCounts; // @synthesize featureCounts=_featureCounts;
 @property(readonly, retain, nonatomic) NSArray *inputNames; // @synthesize inputNames=_inputNames;
 @property(readonly, retain, nonatomic) NSString *modelName; // @synthesize modelName=_modelName;
-- (BOOL)_recursivelyPredictProbabilitiesForDrawing:(id)arg1 features:(vector_f9ed6fc8 )arg2 pointRange:(_NSRange)arg3 modelInputName:(id)arg4 modelOutputNames:(id)arg5 probabilities:(vector_e5be908c )arg6 probabilityPredictionBlock:(id /* CDUnknownBlockType */)arg7 error:(id )arg8;
+- (BOOL)_recursivelyPredictProbabilitiesForDrawing:(id)arg1 features:(vector_f9ed6fc8 )arg2 pointRange:(NSRange)arg3 modelInputName:(id)arg4 modelOutputNames:(id)arg5 probabilities:(vector_e5be908c )arg6 probabilityPredictionBlock:(id /* CDUnknownBlockType */)arg7 error:(id )arg8;
 - (vector_f9ed6fc8)_extractFeaturesFromDrawing:(id)arg1 inputName:(id)arg2 interpointDistance:(double)arg3 error:(id )arg4;
 - (id)normalizedDrawing:(id)arg1 minimumDrawingSize:(CGSize)arg2 interpolationDistance:(double)arg3 outputPointMap:(vector_1dba4e4e )arg4;
 - (void)dealloc;

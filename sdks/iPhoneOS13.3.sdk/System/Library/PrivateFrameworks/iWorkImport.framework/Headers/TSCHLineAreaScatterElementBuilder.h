@@ -40,8 +40,8 @@ __attribute__((visibility("hidden")))
 - (BOOL)p_addBottomStroke:(CDStruct_e0d92598 )arg1 toPath:(CGPath )arg2 seriesIndex:(NSUInteger)arg3 valuesStart:(NSUInteger)arg4 valuesEnd:(NSUInteger)arg5 withPointsArray:(CDStruct_460b8ffe )arg6 withCount:(NSUInteger)arg7;
 - (void)p_addTopStroke:(CDStruct_e0d92598 )arg1 toPath:(CGPath )arg2 withPointsArray:(CDStruct_460b8ffe )arg3 withCount:(NSUInteger)arg4 lineType:(int)arg5;
 - (void)p_addCurvedTopStroke:(CDStruct_e0d92598 )arg1 toPath:(CGPath )arg2 withPointsArray:(CDStruct_460b8ffe )arg3 withCount:(NSUInteger)arg4;
-- (CDStruct_40a92360 )p_centerPointsForSeries:(id)arg1 forGroupIndexes:(_NSRange)arg2 xAxis:(id)arg3 yAxis:(id)arg4 plotAreaFrame:(CGRect)arg5;
-- (CDStruct_40a92360 )p_centerPointsForSeries:(id)arg1 forGroupIndexes:(_NSRange)arg2 xAxis:(id)arg3 yAxis:(id)arg4 nullsUseIntercept:(BOOL)arg5 plotAreaFrame:(CGRect)arg6;
+- (CDStruct_40a92360 )p_centerPointsForSeries:(id)arg1 forGroupIndexes:(NSRange)arg2 xAxis:(id)arg3 yAxis:(id)arg4 plotAreaFrame:(CGRect)arg5;
+- (CDStruct_40a92360 )p_centerPointsForSeries:(id)arg1 forGroupIndexes:(NSRange)arg2 xAxis:(id)arg3 yAxis:(id)arg4 nullsUseIntercept:(BOOL)arg5 plotAreaFrame:(CGRect)arg6;
 - (BOOL)p_centerPointForSeries:(id)arg1 forGroupIndex:(NSUInteger)arg2 xAxis:(id)arg3 yAxis:(id)arg4 plotAreaFrame:(CGRect)arg5 nullsUseIntercept:(BOOL)arg6 outPoint:(CGPoint )arg7;
 - (CGPoint)labelPointForPosition:(unsigned int)arg1 rect:(CGRect)arg2 stringSize:(CGSize)arg3 symbolType:(int)arg4;
 - (CGPath )p_newPlusPath:(CGPoint)arg1 width:(double)arg2 pathLocation:(long long)arg3 stroke:(id)arg4 context:(CGContext )arg5;

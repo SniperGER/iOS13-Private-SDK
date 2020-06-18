@@ -66,9 +66,9 @@
 - (id)fullBodyDataForMessage:(id)arg1 andHeaderDataIfReadilyAvailable:(id )arg2 isComplete:(BOOL )arg3 downloadIfNecessary:(BOOL)arg4 usePartDatas:(BOOL)arg5 didDownload:(BOOL )arg6;
 - (id)_copyDataFromMimePart:(id)arg1 threshold:(unsigned int)arg2 downloadIfNecessary:(BOOL)arg3;
 - (id)storeData:(id)arg1 forMimePart:(id)arg2 isComplete:(BOOL)arg3;
-- (BOOL)dataForMimePart:(id)arg1 inRange:(_NSRange)arg2 isComplete:(BOOL )arg3 withConsumer:(id)arg4 downloadIfNecessary:(BOOL)arg5 didDownload:(BOOL )arg6;
-- (id)dataForMimePart:(id)arg1 inRange:(_NSRange)arg2 isComplete:(BOOL )arg3 downloadIfNecessary:(BOOL)arg4 didDownload:(BOOL )arg5;
-- (BOOL)_fetchDataForMimePart:(id)arg1 range:(_NSRange)arg2 isComplete:(BOOL )arg3 consumer:(id)arg4;
+- (BOOL)dataForMimePart:(id)arg1 inRange:(NSRange)arg2 isComplete:(BOOL )arg3 withConsumer:(id)arg4 downloadIfNecessary:(BOOL)arg5 didDownload:(BOOL )arg6;
+- (id)dataForMimePart:(id)arg1 inRange:(NSRange)arg2 isComplete:(BOOL )arg3 downloadIfNecessary:(BOOL)arg4 didDownload:(BOOL )arg5;
+- (BOOL)_fetchDataForMimePart:(id)arg1 range:(NSRange)arg2 isComplete:(BOOL )arg3 consumer:(id)arg4;
 - (id)_fetchFullBodyDataForMessage:(id)arg1 andHeaderDataIfReadilyAvailable:(id )arg2 downloadIfNecessary:(BOOL)arg3 didDownload:(BOOL )arg4;
 - (id)_fetchBodyDataForMessage:(id)arg1 andHeaderDataIfReadilyAvailable:(id )arg2 downloadIfNecessary:(BOOL)arg3 partial:(BOOL )arg4;
 - (id)_fetchHeaderDataForMessage:(id)arg1 downloadIfNecessary:(BOOL)arg2;
@@ -103,8 +103,8 @@
 - (id)copyOfAllMessagesForBodyLoadingFromRowID:(unsigned int)arg1 limit:(unsigned int)arg2;
 - (id)copyOfAllMessages;
 - (id)copyOfAllMessagesWithOptions:(unsigned int)arg1;
-- (id)copyOfMessagesInRange:(_NSRange)arg1 options:(unsigned int)arg2;
-- (id)copyOfMessagesInRange:(_NSRange)arg1 options:(unsigned int)arg2 generation:(NSUInteger )arg3;
+- (id)copyOfMessagesInRange:(NSRange)arg1 options:(unsigned int)arg2;
+- (id)copyOfMessagesInRange:(NSRange)arg1 options:(unsigned int)arg2 generation:(NSUInteger )arg3;
 - (id)messageWithLibraryID:(unsigned int)arg1 options:(unsigned int)arg2;
 - (NSUInteger)allNonDeletedCountIncludingServerSearch:(BOOL)arg1 andThreadSearch:(BOOL)arg2;
 - (NSUInteger)nonDeletedCountIncludingServerSearch:(BOOL)arg1 andThreadSearch:(BOOL)arg2;

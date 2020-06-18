@@ -19,7 +19,7 @@
 @property(retain, nonatomic) HUSiriHistoryItemManager *siriHistoryItemManager; // @synthesize siriHistoryItemManager=_siriHistoryItemManager;
 // - (void).cxx_destruct;
 - (void)tableView:(id)arg1 didSelectRowAtIndexPath:(id)arg2;
-- (BOOL)textView:(id)arg1 shouldInteractWithURL:(id)arg2 inRange:(_NSRange)arg3 interaction:(long long)arg4;
+- (BOOL)textView:(id)arg1 shouldInteractWithURL:(id)arg2 inRange:(NSRange)arg3 interaction:(long long)arg4;
 - (id)tableView:(id)arg1 viewForFooterInSection:(long long)arg2;
 - (void)updateCell:(id)arg1 forItem:(id)arg2 indexPath:(id)arg3 animated:(BOOL)arg4;
 - (Class)cellClassForItem:(id)arg1 indexPath:(id)arg2;

@@ -17,7 +17,7 @@
 // - (void).cxx_destruct;
 - (BOOL)wantsDrawerLayout;
 - (id)loadTimestampString;
-@property(readonly, nonatomic) _NSRange associatedMessageRange;
+@property(readonly, nonatomic) NSRange associatedMessageRange;
 @property(readonly, nonatomic) IMHandle *sender;
 @property(readonly, nonatomic) NSDate *time;
 - (id)loadTranscriptDrawerText;

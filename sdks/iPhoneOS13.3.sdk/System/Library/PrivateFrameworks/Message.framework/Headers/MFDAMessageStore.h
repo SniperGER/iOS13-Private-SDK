@@ -25,7 +25,7 @@
 - (BOOL)canFetchSearchResults;
 - (id)bestAlternativeForPart:(id)arg1;
 - (id)defaultAlternativeForPart:(id)arg1;
-- (BOOL)_fetchDataForMimePart:(id)arg1 range:(_NSRange)arg2 isComplete:(BOOL )arg3 consumer:(id)arg4;
+- (BOOL)_fetchDataForMimePart:(id)arg1 range:(NSRange)arg2 isComplete:(BOOL )arg3 consumer:(id)arg4;
 - (id)_downloadHeadersForMessages:(id)arg1;
 - (id)_fetchBodyDataForMessage:(id)arg1 andHeaderDataIfReadilyAvailable:(id )arg2 downloadIfNecessary:(BOOL)arg3 partial:(BOOL )arg4;
 - (id)_fetchBodyDataForNormalMessage:(id)arg1 format:(int)arg2 part:(id)arg3 streamConsumer:(id)arg4;

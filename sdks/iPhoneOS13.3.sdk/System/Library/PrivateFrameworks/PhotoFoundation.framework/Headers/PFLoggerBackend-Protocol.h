@@ -12,6 +12,6 @@
 @property(readonly, nonatomic) BOOL formatsMessage;
 @property(readonly, nonatomic) BOOL allowsConcurrentAccess;
 - (void)flushWithCompletionHandler:(void (^)(void))arg1;
-- (void)logFromCodeLocation:(CDStruct_98c8119d)arg1 facility:(NSString *)arg2 subsystem:(NSString *)arg3 level:(int)arg4 message:(NSString *)arg5 format:(NSString *)arg6 args:(struct __va_list_tag [1])arg7;
+// - (void)logFromCodeLocation:(CDStruct_98c8119d)arg1 facility:(NSString *)arg2 subsystem:(NSString *)arg3 level:(int)arg4 message:(NSString *)arg5 format:(NSString *)arg6 args:(struct __va_list_tag [1])arg7;
 @end
 

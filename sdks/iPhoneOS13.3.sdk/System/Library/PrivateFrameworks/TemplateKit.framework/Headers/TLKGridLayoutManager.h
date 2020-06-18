@@ -59,7 +59,7 @@
 - (CGSize)contentLayoutSizeFittingSize:(CGSize)arg1 forArrangedSubview:(id)arg2;
 - (long long)numberOfItemsInGridArrangement:(id)arg1;
 - (long long)effectiveUserInterfaceLayoutDirection;
-- (id)gridArrangement:(id)arg1 itemAtIndex:(long long)arg2 columns:(_NSRange )arg3 rows:(_NSRange )arg4 horizontalAlignment:(long long )arg5 verticalAlignment:(long long )arg6;
+- (id)gridArrangement:(id)arg1 itemAtIndex:(long long)arg2 columns:(NSRange )arg3 rows:(NSRange )arg4 horizontalAlignment:(long long )arg5 verticalAlignment:(long long )arg6;
 - (id)addItemsToDictionary:(id)arg1 forSection:(id)arg2 row:(NSUInteger)arg3 truncationPriorities:(id)arg4;
 - (void)placeViewsForSize:(CGSize)arg1 forRow:(id)arg2 completion:(id /* CDUnknownBlockType */)arg3;
 - (CGSize)sizeForFittingSize:(CGSize)arg1 forRow:(id)arg2;

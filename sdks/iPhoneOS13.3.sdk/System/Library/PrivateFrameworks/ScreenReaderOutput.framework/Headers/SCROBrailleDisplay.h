@@ -69,9 +69,9 @@
 - (void)brailleDisplayDeletedCharacter:(id)arg1;
 - (void)brailleDisplayInsertedCharacter:(id)arg1;
 - (void)didInsertScriptString:(id)arg1;
-- (void)scriptSelectionDidChange:(_NSRange)arg1;
-- (void)replaceScriptStringRange:(_NSRange)arg1 withScriptString:(id)arg2 cursorLocation:(NSUInteger)arg3;
-- (void)brailleDisplayStringDidChange:(id)arg1 brailleSelection:(_NSRange)arg2;
+- (void)scriptSelectionDidChange:(NSRange)arg1;
+- (void)replaceScriptStringRange:(NSRange)arg1 withScriptString:(id)arg2 cursorLocation:(NSUInteger)arg3;
+- (void)brailleDisplayStringDidChange:(id)arg1 brailleSelection:(NSRange)arg2;
 - (void)_delayedSleepNotification:(id)arg1;
 - (void)_sleepNotification:(id)arg1;
 - (void)_delayedConfigurationChangeNotification;
@@ -108,7 +108,7 @@
 @property(readonly, nonatomic) NSUInteger brailleLineGenerationID;
 - (void)_panHandler:(id)arg1;
 - (void)_processKeyEvents:(id)arg1;
-- (void)_replaceRange:(_NSRange)arg1 withString:(id)arg2 cursor:(NSUInteger)arg3;
+- (void)_replaceRange:(NSRange)arg1 withString:(id)arg2 cursor:(NSUInteger)arg3;
 - (void)_unpauseInput;
 - (void)_pauseInput;
 - (BOOL)_inputPaused;

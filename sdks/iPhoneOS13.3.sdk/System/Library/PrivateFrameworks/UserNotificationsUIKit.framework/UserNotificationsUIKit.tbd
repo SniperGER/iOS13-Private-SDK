@@ -8,8 +8,6 @@ compatibility-version: 1
 objc-constraint:       retain_release
 exports:
   - archs:              [ armv7, armv7s, arm64, arm64e ]
-    allowable-clients:  [ CoverSheet, CoverSheetTests, Crescent, SpringBoard, SpringBoardCore, "SpringBoardCore-Tests",
-                          "SpringBoardFramework-Tests", UNUIKitTestsHostApp, UserNotificationsUIKitTests ]
     symbols:            [ _NCBulletinDestinationBanner, _NCBulletinDestinationCar, _NCBulletinDestinationCoverSheet,
                           _NCBulletinDestinationLockScreen, _NCBulletinDestinationNotificationCenter,
                           _NCEventTrackerFeatureIdentifier, _NCFrictionForCriticallyDampedSpringWithTension, _NCGetEventTrackerQueue,

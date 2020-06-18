@@ -23,8 +23,8 @@
 - (BOOL)addedTrailingSpaces;
 - (id)quotedString;
 - (id)outputString;
-- (void)_outputQuotedParagraph:(id)arg1 range:(_NSRange)arg2 withQuoteLevel:(unsigned int)arg3;
-- (NSUInteger)_findLineBreakInRange:(_NSRange)arg1 maxCharWidthCount:(NSUInteger)arg2 endIsURL:(BOOL)arg3;
+- (void)_outputQuotedParagraph:(id)arg1 range:(NSRange)arg2 withQuoteLevel:(unsigned int)arg3;
+- (NSUInteger)_findLineBreakInRange:(NSRange)arg1 maxCharWidthCount:(NSUInteger)arg2 endIsURL:(BOOL)arg3;
 
 @end
 

@@ -13,7 +13,7 @@
 @interface PKDatePickerImpl_CCExpiryPickerView : UIPickerView <PKDatePickerInternalImplementationProtocol, UIPickerViewDataSource, UIPickerViewDelegate>
 {
     NSUInteger _calendarUnit[2];
-    _NSRange _possibleRange[2];
+    NSRange _possibleRange[2];
     double _width[2];
     NSDateFormatter *_dateFormatter[2];
     NSNumber *_useDoubleMonthStyle;

@@ -41,7 +41,7 @@
 @property(readonly, nonatomic) BOOL editorAllowsCaret;
 - (Class)wpEditorClassOverride;
 - (CGRect)interactiveCanvasController:(id)arg1 expandVisibleBoundsForTiling:(CGRect)arg2;
-- (void)interactiveCanvasController:(id)arg1 interactedWithHyperlink:(id)arg2 info:(id)arg3 range:(_NSRange)arg4 touchPoint:(CGPoint)arg5 touchAndHold:(BOOL)arg6;
+- (void)interactiveCanvasController:(id)arg1 interactedWithHyperlink:(id)arg2 info:(id)arg3 range:(NSRange)arg4 touchPoint:(CGPoint)arg5 touchAndHold:(BOOL)arg6;
 - (void)invalidateLayoutsAndFrames;
 - (CGSize)sizeThatFits;
 @property(readonly, nonatomic) TSDCanvasView *canvasView;

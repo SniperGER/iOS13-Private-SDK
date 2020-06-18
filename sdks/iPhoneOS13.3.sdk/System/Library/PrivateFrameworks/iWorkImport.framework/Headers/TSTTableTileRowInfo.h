@@ -30,8 +30,8 @@ __attribute__((visibility("hidden")))
 @property(readonly, nonatomic) unsigned short maxColumnIndex;
 - (void)_recalculateMaxColumnIndex;
 - (BOOL)searchCellStorageRefAtColumnIndex:(unsigned short)arg1 searchMask:(NSUInteger)arg2;
-- (void)enumerateStoragesInColumnRange:(_NSRange)arg1 getPreBNC:(BOOL)arg2 withBlock:(id /* CDUnknownBlockType */)arg3;
-- (void)enumerateStoragesInColumnRange:(_NSRange)arg1 withBlock:(id /* CDUnknownBlockType */)arg2;
+- (void)enumerateStoragesInColumnRange:(NSRange)arg1 getPreBNC:(BOOL)arg2 withBlock:(id /* CDUnknownBlockType */)arg3;
+- (void)enumerateStoragesInColumnRange:(NSRange)arg1 withBlock:(id /* CDUnknownBlockType */)arg2;
 - (void)moveColumnsFromIndex:(unsigned short)arg1 toIndex:(unsigned short)arg2 count:(unsigned int)arg3;
 - (void)removeColumnsAtIndex:(unsigned short)arg1 count:(unsigned int)arg2;
 - (void)insertColumnsAtIndex:(unsigned short)arg1 count:(unsigned int)arg2;

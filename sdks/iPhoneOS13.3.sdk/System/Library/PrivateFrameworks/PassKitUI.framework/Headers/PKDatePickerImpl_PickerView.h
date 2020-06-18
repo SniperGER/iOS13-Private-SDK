@@ -13,7 +13,7 @@
 @interface PKDatePickerImpl_PickerView : UIPickerView <PKDatePickerInternalImplementationProtocol, UIPickerViewDataSource, UIPickerViewDelegate>
 {
     NSUInteger _calendarUnit;
-    _NSRange _possibleRange;
+    NSRange _possibleRange;
     NSDateFormatter *_dateFormatter;
     NSCalendar *_calendar;
     NSLocale *_locale;

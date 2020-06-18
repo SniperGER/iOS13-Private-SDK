@@ -15,7 +15,7 @@
 + (id)propertySet;
 + (id)propertySetWithProperties:(int)arg1;
 + (id)propertySetWithProperty:(int)arg1;
-+ (id)p_mutableIndexSetWithFirstProperty:(int)arg1 argumentList:(struct __va_list_tag [1])arg2;
+// + (id)p_mutableIndexSetWithFirstProperty:(int)arg1 argumentList:(struct __va_list_tag [1])arg2;
 - (BOOL)isEqual:(id)arg1;
 - (NSUInteger)hash;
 - (id)mutableCopyWithZone:(_NSZone )arg1;
@@ -35,7 +35,7 @@
 - (NSUInteger)count;
 - (id)initWithProperties:(int)arg1;
 - (id)initWithPropertySet:(id)arg1;
-- (id)initWithFirstProperty:(int)arg1 argumentList:(struct __va_list_tag [1])arg2;
+// - (id)initWithFirstProperty:(int)arg1 argumentList:(struct __va_list_tag [1])arg2;
 - (void)dealloc;
 - (id)init;
 - (id)initWithIndexSet:(id)arg1;

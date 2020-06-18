@@ -26,12 +26,12 @@
 @property(retain, nonatomic) TIDocumentState *documentState; // @synthesize documentState=_documentState;
 // - (void).cxx_destruct;
 - (NSUInteger)characterIndexForPoint:(CGPoint)arg1;
-- (CGRect)firstRectForCharacterRange:(_NSRange)arg1;
-- (void)addTextRect:(CGRect)arg1 forCharacterRange:(_NSRange)arg2;
+- (CGRect)firstRectForCharacterRange:(NSRange)arg1;
+- (void)addTextRect:(CGRect)arg1 forCharacterRange:(NSRange)arg2;
 - (void)resetTextRects;
-- (_NSRange)deltaForSelectionRange:(_NSRange)arg1;
-@property(readonly, nonatomic) _NSRange markedTextRange;
-@property(nonatomic) _NSRange selectedTextRange;
+- (NSRange)deltaForSelectionRange:(NSRange)arg1;
+@property(readonly, nonatomic) NSRange markedTextRange;
+@property(nonatomic) NSRange selectedTextRange;
 - (BOOL)isEqual:(id)arg1;
 - (id)description;
 - (id)init;

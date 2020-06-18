@@ -15,7 +15,7 @@
     NSMutableDictionary *_bodyParameters;
     NSString *_contentTransferEncoding;
     NSMutableDictionary *_otherIvars;
-    _NSRange _range;
+    NSRange _range;
     MFWeakReferenceHolder *_parent;
     MFWeakReferenceHolder *_body;
     MFMimePart *_nextPart;
@@ -82,8 +82,8 @@
 - (void)setMimeBody:(id)arg1;
 - (id)mimeBody;
 - (id)decodedDataForData:(id)arg1;
-- (void)setRange:(_NSRange)arg1;
-- (_NSRange)range;
+- (void)setRange:(NSRange)arg1;
+- (NSRange)range;
 - (void)addSubpart:(id)arg1;
 - (void)setSubparts:(id)arg1;
 - (id)subpartAtIndex:(long long)arg1;

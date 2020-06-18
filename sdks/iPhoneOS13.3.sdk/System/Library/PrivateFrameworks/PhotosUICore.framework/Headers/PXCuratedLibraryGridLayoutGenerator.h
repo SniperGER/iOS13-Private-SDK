@@ -20,10 +20,10 @@
 }
 
 - (struct _PXCornerSpriteIndexes)cornerSpriteIndexes;
-- (_NSRange)geometriesRangeCoveringRect:(CGRect)arg1;
+- (NSRange)geometriesRangeCoveringRect:(CGRect)arg1;
 - (void)_prepareGeometriesBufferForCount:(NSUInteger)arg1;
 - (void)_prepareIfNeeded;
-- (void)getGeometries:(struct _PXLayoutGeometry )arg1 inRange:(_NSRange)arg2 withKind:(long long)arg3;
+- (void)getGeometries:(struct _PXLayoutGeometry )arg1 inRange:(NSRange)arg2 withKind:(long long)arg3;
 @property(readonly, nonatomic) double lastFullRowBottomEdge;
 - (CGSize)size;
 - (CGSize)estimatedSize;

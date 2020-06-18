@@ -20,7 +20,7 @@
     id <SXComponentLayout> _componentLayout;
     SXLayoutBlueprint *_parentLayoutBlueprint;
     NSDictionary *_infoFromLayouting;
-    _NSRange _columnRange;
+    NSRange _columnRange;
     CGSize _suggestedSizeAfterInvalidation;
     CGRect _frame;
     UIEdgeInsets _contentInsets;
@@ -48,7 +48,7 @@
 @property(nonatomic, getter=isHidden) BOOL hidden; // @synthesize hidden=_hidden;
 @property(nonatomic) BOOL hasValidPosition; // @synthesize hasValidPosition=_hasValidPosition;
 @property(nonatomic) BOOL hasValidSize; // @synthesize hasValidSize=_hasValidSize;
-@property(nonatomic) _NSRange columnRange; // @synthesize columnRange=_columnRange;
+@property(nonatomic) NSRange columnRange; // @synthesize columnRange=_columnRange;
 @property(nonatomic) __weak SXLayoutBlueprint *parentLayoutBlueprint; // @synthesize parentLayoutBlueprint=_parentLayoutBlueprint;
 @property(readonly, nonatomic) id <SXComponentLayout> componentLayout; // @synthesize componentLayout=_componentLayout;
 @property(readonly, nonatomic) SXComponentSizer *componentSizer; // @synthesize componentSizer=_componentSizer;

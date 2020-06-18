@@ -34,8 +34,8 @@
 - (void)_removeClient:(id)arg1;
 - (void)_addClient:(id)arg1;
 - (BOOL)listener:(id)arg1 shouldAcceptNewConnection:(id)arg2;
-- (void)stopWaitingForClientWithIdentifier:(id)arg1 forToken:(NSNumber )arg2;
-- (NSNumber )waitForClientWithIdentifier:(id)arg1 handler:(id /* CDUnknownBlockType */)arg2;
+- (void)stopWaitingForClientWithIdentifier:(id)arg1 forToken:(NSNumber *)arg2;
+- (NSNumber *)waitForClientWithIdentifier:(id)arg1 handler:(id /* CDUnknownBlockType */)arg2;
 - (void)enumerateClientsWithBlock:(id /* CDUnknownBlockType */)arg1;
 @property(readonly, nonatomic) NSDictionary *clientsByIdentifier;
 - (void)dealloc;

@@ -33,8 +33,8 @@
 - (id)accessibilityPreviousTextNavigationElement;
 - (id)accessibilityNextTextNavigationElement;
 - (id)interactiveCanvasController;
-- (void)_accessibilitySetSelectedTextRange:(_NSRange)arg1;
-- (_NSRange)_accessibilitySelectedTextRange;
+- (void)_accessibilitySetSelectedTextRange:(NSRange)arg1;
+- (NSRange)_accessibilitySelectedTextRange;
 - (NSUInteger)accessibilityTraits;
 - (CGRect)accessibilityFrameForScrolling;
 - (BOOL)isAccessibilityElement;

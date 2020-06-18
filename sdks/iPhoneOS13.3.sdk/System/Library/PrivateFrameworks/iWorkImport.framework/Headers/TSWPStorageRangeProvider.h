@@ -12,12 +12,12 @@ __attribute__((visibility("hidden")))
 @interface TSWPStorageRangeProvider : NSObject
 {
     NSString *_identifier;
-    _NSRange _range;
+    NSRange _range;
     NSObject *_object;
 }
 
 @property(readonly, nonatomic) NSObject *object; // @synthesize object=_object;
-@property(nonatomic) _NSRange range; // @synthesize range=_range;
+@property(nonatomic) NSRange range; // @synthesize range=_range;
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 // - (void).cxx_destruct;
 - (void)nextRange;

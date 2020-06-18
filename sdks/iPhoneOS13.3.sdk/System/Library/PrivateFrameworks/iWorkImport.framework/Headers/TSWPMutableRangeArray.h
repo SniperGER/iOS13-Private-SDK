@@ -13,13 +13,13 @@ __attribute__((visibility("hidden")))
 
 - (void)subtract:(id)arg1;
 - (void)unionWith:(id)arg1;
-- (_NSRange)replacedTextAtRange:(_NSRange)arg1 delta:(long long)arg2;
-- (void)replaceRangeAtIndex:(NSUInteger)arg1 withRange:(_NSRange)arg2;
-- (void)removeRange:(_NSRange)arg1;
-- (void)addRange:(_NSRange)arg1;
-- (void)insertRange:(_NSRange)arg1 atIndex:(NSUInteger)arg2;
-- (void)concatenateRange:(_NSRange)arg1;
-- (void)removeRangesInRange:(_NSRange)arg1;
+- (NSRange)replacedTextAtRange:(NSRange)arg1 delta:(long long)arg2;
+- (void)replaceRangeAtIndex:(NSUInteger)arg1 withRange:(NSRange)arg2;
+- (void)removeRange:(NSRange)arg1;
+- (void)addRange:(NSRange)arg1;
+- (void)insertRange:(NSRange)arg1 atIndex:(NSUInteger)arg2;
+- (void)concatenateRange:(NSRange)arg1;
+- (void)removeRangesInRange:(NSRange)arg1;
 - (void)clear;
 
 @end

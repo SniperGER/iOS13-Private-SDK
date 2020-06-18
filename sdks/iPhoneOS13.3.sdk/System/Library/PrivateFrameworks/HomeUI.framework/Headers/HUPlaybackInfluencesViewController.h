@@ -20,7 +20,7 @@
 @property(retain, nonatomic) HUPlaybackInfluencesItemManager *playbackInfluencesItemManager; // @synthesize playbackInfluencesItemManager=_playbackInfluencesItemManager;
 // - (void).cxx_destruct;
 - (void)dismissPrivacyController;
-- (BOOL)textView:(id)arg1 shouldInteractWithURL:(id)arg2 inRange:(_NSRange)arg3 interaction:(long long)arg4;
+- (BOOL)textView:(id)arg1 shouldInteractWithURL:(id)arg2 inRange:(NSRange)arg3 interaction:(long long)arg4;
 - (id)tableView:(id)arg1 viewForFooterInSection:(long long)arg2;
 - (void)switchCell:(id)arg1 didTurnOn:(BOOL)arg2;
 - (void)setupCell:(id)arg1 forItem:(id)arg2 indexPath:(id)arg3;

@@ -7,8 +7,13 @@
 
 @class NTKComplicationDisplayWrapperView, UIView;
 
+#ifndef NTKComplicationDisplayWrapperViewAnimationDelegate_Protocol
+#define NTKComplicationDisplayWrapperViewAnimationDelegate_Protocol
+
 @protocol NTKComplicationDisplayWrapperViewAnimationDelegate <NSObject>
 - (void)complicationDisplayWrapperView:(NTKComplicationDisplayWrapperView *)arg1 updateCustomDataAnimationFromEarlierView:(UIView *)arg2 laterView:(UIView *)arg3 isForward:(BOOL)arg4 animationType:(NSUInteger)arg5 animationDuration:(double)arg6 animationFraction:(float)arg7;
 - (BOOL)complicationDisplayWrapperView:(NTKComplicationDisplayWrapperView *)arg1 shouldStartCustomDataAnimationFromEarlierView:(UIView *)arg2 laterView:(UIView *)arg3 isForward:(BOOL)arg4 animationType:(NSUInteger)arg5;
 @end
+
+#endif
 

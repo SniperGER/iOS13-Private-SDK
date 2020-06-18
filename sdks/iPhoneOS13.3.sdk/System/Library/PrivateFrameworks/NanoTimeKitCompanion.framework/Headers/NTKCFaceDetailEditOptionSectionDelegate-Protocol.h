@@ -7,8 +7,13 @@
 
 @class NTKCFaceDetailEditOptionSectionController;
 
+#ifndef NTKCFaceDetailEditOptionSectionDelegate_Protocol
+#define NTKCFaceDetailEditOptionSectionDelegate_Protocol
+
 @protocol NTKCFaceDetailEditOptionSectionDelegate <NSObject>
 - (void)editOptionSection:(NTKCFaceDetailEditOptionSectionController *)arg1 didSelectActionForOptionAtIndex:(long long)arg2;
 - (void)editOptionSection:(NTKCFaceDetailEditOptionSectionController *)arg1 didSelectOptionAtIndex:(long long)arg2;
 @end
+
+#endif
 

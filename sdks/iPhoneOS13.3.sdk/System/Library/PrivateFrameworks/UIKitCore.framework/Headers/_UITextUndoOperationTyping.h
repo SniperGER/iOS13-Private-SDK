@@ -11,15 +11,15 @@
 __attribute__((visibility("hidden")))
 @interface _UITextUndoOperationTyping : _UIUndoTextOperation
 {
-    _NSRange _replacementRange;
+    NSRange _replacementRange;
     NSMutableAttributedString *_attributedString;
 }
 
 // - (void).cxx_destruct;
 - (BOOL)supportsCoalescing;
 - (void)undoRedo;
-- (BOOL)coalesceAffectedRange:(_NSRange)arg1 replacementRange:(_NSRange)arg2 selectedRange:(_NSRange)arg3 textStorage:(id)arg4;
-- (id)initWithAffectedRange:(_NSRange)arg1 inputController:(id)arg2 replacementRange:(_NSRange)arg3;
+- (BOOL)coalesceAffectedRange:(NSRange)arg1 replacementRange:(NSRange)arg2 selectedRange:(NSRange)arg3 textStorage:(id)arg4;
+- (id)initWithAffectedRange:(NSRange)arg1 inputController:(id)arg2 replacementRange:(NSRange)arg3;
 
 @end
 

@@ -8,13 +8,13 @@
 
 @interface NSString (AXExtensions)
 - (id)axAttributedStringWithAttributes:(id)arg1;
-- (_NSRange)_axUnit:(NSUInteger)arg1 fromPosition:(long long)arg2 inDirection:(NSUInteger)arg3;
-- (_NSRange)ax_lineRangeForPosition:(long long)arg1;
-- (_NSRange)ax_wordFromPosition:(long long)arg1 inDirection:(NSUInteger)arg2;
-- (_NSRange)ax_sentenceFromPosition:(long long)arg1 inDirection:(NSUInteger)arg2;
-- (_NSRange)ax_paragraphFromPosition:(long long)arg1 inDirection:(NSUInteger)arg2;
-- (_NSRange)ax_lineFromPosition:(long long)arg1 inDirection:(NSUInteger)arg2;
-- (_NSRange)_ax_rangeOfNextUnitWithStartPosition:(long long)arg1 direction:(NSUInteger)arg2 withCharacterSet:(id)arg3;
+- (NSRange)_axUnit:(NSUInteger)arg1 fromPosition:(long long)arg2 inDirection:(NSUInteger)arg3;
+- (NSRange)ax_lineRangeForPosition:(long long)arg1;
+- (NSRange)ax_wordFromPosition:(long long)arg1 inDirection:(NSUInteger)arg2;
+- (NSRange)ax_sentenceFromPosition:(long long)arg1 inDirection:(NSUInteger)arg2;
+- (NSRange)ax_paragraphFromPosition:(long long)arg1 inDirection:(NSUInteger)arg2;
+- (NSRange)ax_lineFromPosition:(long long)arg1 inDirection:(NSUInteger)arg2;
+- (NSRange)_ax_rangeOfNextUnitWithStartPosition:(long long)arg1 direction:(NSUInteger)arg2 withCharacterSet:(id)arg3;
 - (id)_axRecursivelyReconstitutedRepresentationFromPropertyListWithError:(id )arg1;
 - (id)_axRecursivelyPropertyListCoercedRepresentationWithError:(id )arg1;
 - (id)_axReconstitutedRepresentationForDictionaryKeyReplacement;

@@ -20,7 +20,7 @@
 - (id)fp_formatStringWithValues:(id)arg1 error:(id )arg2;
 - (id)fp_localizedFormatWithKeys:(id)arg1 fromDictionary:(id)arg2 error:(id )arg3;
 - (BOOL)fp_isCJKLanguageIdentifier;
-- (void)fp_enumerateTokensInRange:(_NSRange)arg1 tokenizer:(struct __CFStringTokenizer )arg2 usingBlock:(id /* CDUnknownBlockType */)arg3;
+- (void)fp_enumerateTokensInRange:(NSRange)arg1 tokenizer:(struct __CFStringTokenizer )arg2 usingBlock:(id /* CDUnknownBlockType */)arg3;
 - (id)fp_stringByDeletingPathExtension;
 - (id)fp_pathExtension;
 - (id)fp_representableHFSFileNameWithNumber:(id)arg1 addedExtension:(id)arg2 makeDotFile:(BOOL)arg3;

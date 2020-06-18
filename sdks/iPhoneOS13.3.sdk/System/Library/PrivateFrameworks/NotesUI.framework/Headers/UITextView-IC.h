@@ -11,16 +11,16 @@
 @interface UITextView (IC)
 @property(readonly, nonatomic) CGPoint ic_textContainerOrigin;
 @property(readonly, nonatomic) PKTiledView *ic_pkTiledView;
-- (id)ic_imageForRange:(_NSRange)arg1;
-- (CGRect)ic_rectForRange:(_NSRange)arg1;
-- (_NSRange)ic_rangeFromRect:(CGRect)arg1;
-- (_NSRange)ic_visibleRange;
-- (_NSRange)ic_characterRangeFromTextPosition:(id)arg1;
-- (id)ic_textRangeFromCharacterRange:(_NSRange)arg1;
-- (_NSRange)ic_characterRangeFromTextRange:(id)arg1;
+- (id)ic_imageForRange:(NSRange)arg1;
+- (CGRect)ic_rectForRange:(NSRange)arg1;
+- (NSRange)ic_rangeFromRect:(CGRect)arg1;
+- (NSRange)ic_visibleRange;
+- (NSRange)ic_characterRangeFromTextPosition:(id)arg1;
+- (id)ic_textRangeFromCharacterRange:(NSRange)arg1;
+- (NSRange)ic_characterRangeFromTextRange:(id)arg1;
 - (void)setIc_SelectedRanges:(id)arg1;
 - (id)ic_selectedRanges;
-- (void)ic_scrollRangeToTop:(_NSRange)arg1;
-- (void)ic_scrollRangeToVisible:(_NSRange)arg1 consideringInsets:(BOOL)arg2 animated:(BOOL)arg3;
+- (void)ic_scrollRangeToTop:(NSRange)arg1;
+- (void)ic_scrollRangeToVisible:(NSRange)arg1 consideringInsets:(BOOL)arg2 animated:(BOOL)arg3;
 @end
 

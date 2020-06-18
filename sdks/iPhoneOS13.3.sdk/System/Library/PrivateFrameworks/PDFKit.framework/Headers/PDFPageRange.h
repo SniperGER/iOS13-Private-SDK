@@ -17,11 +17,11 @@ __attribute__((visibility("hidden")))
 // - (void).cxx_destruct;
 - (id)description;
 - (BOOL)isEqual:(id)arg1;
-- (void)setRange:(_NSRange)arg1;
-- (_NSRange)range;
+- (void)setRange:(NSRange)arg1;
+- (NSRange)range;
 - (void)setPage:(id)arg1;
 - (id)page;
-- (id)initWithPage:(id)arg1 range:(_NSRange)arg2;
+- (id)initWithPage:(id)arg1 range:(NSRange)arg2;
 
 @end
 

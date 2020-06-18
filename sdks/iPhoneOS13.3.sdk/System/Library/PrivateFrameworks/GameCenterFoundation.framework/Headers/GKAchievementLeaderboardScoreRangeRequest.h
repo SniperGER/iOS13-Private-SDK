@@ -10,7 +10,7 @@
 {
 }
 
-+ (id)requestForRankRange:(_NSRange)arg1;
++ (id)requestForRankRange:(NSRange)arg1;
 
 @end
 

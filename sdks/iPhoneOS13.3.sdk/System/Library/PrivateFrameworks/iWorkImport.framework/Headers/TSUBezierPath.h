@@ -191,7 +191,7 @@ __attribute__((visibility("hidden")))
 - (void)appendBezierPathWithArcWithEllipseBounds:(CGRect)arg1 startRadialVector:(CGPoint)arg2 endRadialVector:(CGPoint)arg3 angleSign:(int)arg4 startNewPath:(BOOL)arg5;
 - (void)appendBezierPathWithArcWithEllipseBounds:(CGRect)arg1 startAngle:(double)arg2 swingAngle:(double)arg3 angleType:(int)arg4 startNewPath:(BOOL)arg5;
 - (id)chisel;
-- (void)recursiveSubdivideOntoPath:(id)arg1 withScaling:(CDStruct_c3b9c2ee)arg2 inElementRange:(_NSRange)arg3 into:(id)arg4;
+- (void)recursiveSubdivideOntoPath:(id)arg1 withScaling:(CDStruct_c3b9c2ee)arg2 inElementRange:(NSRange)arg3 into:(id)arg4;
 - (void)recursiveSubdivideOntoPath:(id)arg1 withScaling:(CDStruct_c3b9c2ee)arg2 into:(id)arg3;
 - (void)recursiveSubdivideOntoPath:(id)arg1 into:(id)arg2;
 - (double)curvatureAt:(double)arg1 fromElement:(long long)arg2;
@@ -221,9 +221,9 @@ __attribute__((visibility("hidden")))
 - (void)saveToArchive:(struct Path )arg1;
 - (id)initWithArchive:(const struct Path )arg1;
 @property(readonly, nonatomic) double flattenedArea;
-- (id)copyWithPointsInRange:(_NSRange)arg1;
-- (id)p_copyWithPointsInRange:(_NSRange)arg1 countingSubpaths:(NSUInteger )arg2;
-- (void)appendPointsInRange:(_NSRange)arg1 fromBezierPath:(id)arg2;
+- (id)copyWithPointsInRange:(NSRange)arg1;
+- (id)p_copyWithPointsInRange:(NSRange)arg1 countingSubpaths:(NSUInteger )arg2;
+- (void)appendPointsInRange:(NSRange)arg1 fromBezierPath:(id)arg2;
 - (id)aliasedPathWithViewScale:(float)arg1 effectiveStrokeWidth:(float)arg2;
 - (id)aliasedPathInContext:(CGContext )arg1 effectiveStrokeWidth:(float)arg2;
 - (id)p_aliasedPathInContext:(CGContext )arg1 viewScale:(float)arg2 effectiveStrokeWidth:(float)arg3;

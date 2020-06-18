@@ -10,15 +10,15 @@
 
 @interface _UIBoundingTextRectsSolver : NSObject
 {
-    _NSRange _range;
+    NSRange _range;
     CGRect _firstRect;
     CGRect _lastRect;
     CGRect _middleRect;
     CGRect _totalRect;
-    _NSRange _firstGlyphRange;
-    _NSRange _lastGlyphRange;
-    _NSRange _middleGlyphRange;
-    _NSRange _totalGlyphRange;
+    NSRange _firstGlyphRange;
+    NSRange _lastGlyphRange;
+    NSRange _middleGlyphRange;
+    NSRange _totalGlyphRange;
     BOOL _calculated;
     BOOL _unifyRects;
     NSLayoutManager *_layoutManager;
@@ -35,7 +35,7 @@
 @property(readonly, nonatomic) CGRect lastLineRect;
 @property(readonly, nonatomic) CGRect bodyRect;
 @property(readonly, nonatomic) CGRect firstLineRect;
-- (id)initWithLayoutManager:(id)arg1 range:(_NSRange)arg2 unifyRects:(BOOL)arg3;
+- (id)initWithLayoutManager:(id)arg1 range:(NSRange)arg2 unifyRects:(BOOL)arg3;
 
 @end
 

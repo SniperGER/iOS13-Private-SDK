@@ -7,7 +7,12 @@
 
 @class UITableView;
 
+#ifndef NTKCTableViewProviding_Protocol
+#define NTKCTableViewProviding_Protocol
+
 @protocol NTKCTableViewProviding <NSObject>
 @property(readonly, nonatomic) UITableView *ntk_tableView;
 @end
+
+#endif
 

@@ -29,9 +29,9 @@ __attribute__((visibility("hidden")))
 + (id)p_newEmptyStorageWithContext:(id)arg1 paragraphStyle:(id)arg2;
 + (id)defaultPlaceholderTextForLocale:(id)arg1;
 + (void)setDefaultInstructionalText:(id)arg1;
-+ (NSUInteger)numberOfDifferencesBetweenStyleProperties:(id)arg1 betweenOutgoingStorage:(id)arg2 outgoingRange:(_NSRange)arg3 incomingStorage:(id)arg4 incomingRange:(_NSRange)arg5 maxDifferencesBeforeReturning:(NSUInteger)arg6;
-+ (BOOL)shouldDisableTextMorphsFromPropertiesBetweenOutgoingStorage:(id)arg1 outgoingRange:(_NSRange)arg2 incomingStorage:(id)arg3 incomingRange:(_NSRange)arg4;
-+ (BOOL)stylesAreEqualWithOutgoingStorage:(id)arg1 outgoingRange:(_NSRange)arg2 incomingStorage:(id)arg3 incomingRange:(_NSRange)arg4;
++ (NSUInteger)numberOfDifferencesBetweenStyleProperties:(id)arg1 betweenOutgoingStorage:(id)arg2 outgoingRange:(NSRange)arg3 incomingStorage:(id)arg4 incomingRange:(NSRange)arg5 maxDifferencesBeforeReturning:(NSUInteger)arg6;
++ (BOOL)shouldDisableTextMorphsFromPropertiesBetweenOutgoingStorage:(id)arg1 outgoingRange:(NSRange)arg2 incomingStorage:(id)arg3 incomingRange:(NSRange)arg4;
++ (BOOL)stylesAreEqualWithOutgoingStorage:(id)arg1 outgoingRange:(NSRange)arg2 incomingStorage:(id)arg3 incomingRange:(NSRange)arg4;
 + (id)textPropertiesAffectingTextMorph;
 + (id)textPropertiesNotAffectingVisualStyle;
 + (id)textPropertiesAffectingVisualStyleExceptSize;

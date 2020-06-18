@@ -24,9 +24,9 @@ __attribute__((visibility("hidden")))
 + (id)regionFromPropertyListRepresentation:(id)arg1;
 + (id)regionFromColumnIndexes:(id)arg1 rowIndexes:(id)arg2;
 + (id)regionFromColumnIndices:(id)arg1;
-+ (id)regionFromColumnIndices:(id)arg1 rowRange:(_NSRange)arg2;
++ (id)regionFromColumnIndices:(id)arg1 rowRange:(NSRange)arg2;
 + (id)regionFromRowIndices:(id)arg1;
-+ (id)regionFromRowIndices:(id)arg1 columnRange:(_NSRange)arg2;
++ (id)regionFromRowIndices:(id)arg1 columnRange:(NSRange)arg2;
 + (id)regionFillingRowsFromRegion:(id)arg1;
 + (id)regionFillingColumnsFromRegion:(id)arg1;
 + (id)invalidRegion;
@@ -125,8 +125,8 @@ __attribute__((visibility("hidden")))
 - (id)regionAfterColumnIndex:(unsigned short)arg1;
 - (id)regionUpToColumnIndexRtoL:(unsigned short)arg1 maxColumnIndex:(unsigned short)arg2;
 - (id)regionUpToColumnIndex:(unsigned short)arg1;
-- (id)regionByMovingColumnsFromRange:(_NSRange)arg1 toIndex:(unsigned short)arg2;
-- (id)regionByMovingRowsFromRange:(_NSRange)arg1 toIndex:(unsigned int)arg2;
+- (id)regionByMovingColumnsFromRange:(NSRange)arg1 toIndex:(unsigned short)arg2;
+- (id)regionByMovingRowsFromRange:(NSRange)arg1 toIndex:(unsigned int)arg2;
 - (id)regionByApplyingRowMapping:(id)arg1;
 - (id)regionByAddingColumns:(id)arg1;
 - (id)regionByAddingRows:(id)arg1;

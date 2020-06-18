@@ -84,9 +84,9 @@ __attribute__((visibility("hidden")))
 - (BOOL)renderSeriesForClass:(Class)arg1;
 - (id)multiDataValueEnumeratorForAxisID:(id)arg1;
 - (void)setValue:(id)arg1 forAxisID:(id)arg2 index:(NSUInteger)arg3;
-- (id )valuesForAxis:(id)arg1 indexes:(_NSRange)arg2;
+- (id )valuesForAxis:(id)arg1 indexes:(NSRange)arg2;
 - (id)valueForAxis:(id)arg1 index:(NSUInteger)arg2;
-- (id )valuesForAxis:(id)arg1 indexes:(_NSRange)arg2 multiDataSetIndex:(NSUInteger)arg3;
+- (id )valuesForAxis:(id)arg1 indexes:(NSRange)arg2 multiDataSetIndex:(NSUInteger)arg3;
 - (id)valueForAxis:(id)arg1 index:(NSUInteger)arg2 multiDataSetIndex:(NSUInteger)arg3;
 - (id)valueForAxisID:(id)arg1 index:(NSUInteger)arg2;
 - (id)valueForAxisID:(id)arg1 index:(NSUInteger)arg2 multiDataSetIndex:(NSUInteger)arg3;

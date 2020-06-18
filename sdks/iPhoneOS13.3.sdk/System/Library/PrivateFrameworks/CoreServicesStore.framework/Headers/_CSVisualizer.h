@@ -23,7 +23,7 @@
 + (void)breakDownTable:(const struct Table )arg1 inStore:(const struct Store )arg2 buffer:(char )arg3;
 + (id)predicateForSearchingDescriptionWithString:(id)arg1 error:(id )arg2;
 + (void)enumerateValuesForTitlesInDescription:(id)arg1 block:(id /* CDUnknownBlockType */)arg2;
-+ (_NSRange)rangeOfValueForTitle:(id)arg1 inDescription:(id)arg2;
++ (NSRange)rangeOfValueForTitle:(id)arg1 inDescription:(id)arg2;
 + (id)new;
 @property(readonly) NSMutableDictionary *userInfo; // @synthesize userInfo=_userInfo;
 @property(readonly) const struct __CSStore store; // @synthesize store=_store;

@@ -31,7 +31,7 @@ __attribute__((visibility("hidden")))
 + (double)minimumHeightForStyle:(NSUInteger)arg1;
 @property(nonatomic) BOOL showAttributionText; // @synthesize showAttributionText=_showAttributionText;
 // - (void).cxx_destruct;
-- (BOOL)textView:(id)arg1 shouldInteractWithURL:(id)arg2 inRange:(_NSRange)arg3 interaction:(long long)arg4;
+- (BOOL)textView:(id)arg1 shouldInteractWithURL:(id)arg2 inRange:(NSRange)arg3 interaction:(long long)arg4;
 - (void)_setupUI;
 - (void)_updateFont;
 - (void)traitCollectionDidChange:(id)arg1;

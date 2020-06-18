@@ -44,10 +44,10 @@
 - (id)_timeIntervalFullAttributedTextWithStyle:(id)arg1;
 - (id)_attributedTextForSequenceItem:(long long)arg1 style:(id)arg2;
 - (id)_fallbackSequence;
-- (id)_stringByRemovingDesignatorRange:(_NSRange)arg1 fromString:(id)arg2;
-- (_NSRange)_rangeOfAnnontatedTime:(id)arg1 matchingPattern:(id /* CDUnknownBlockType */)arg2;
-- (_NSRange)_rangeOfHoursInAnnotatedTime:(id)arg1;
-- (_NSRange)_rangeOfDesignatorInAnnotatedTime:(id)arg1;
+- (id)_stringByRemovingDesignatorRange:(NSRange)arg1 fromString:(id)arg2;
+- (NSRange)_rangeOfAnnontatedTime:(id)arg1 matchingPattern:(id /* CDUnknownBlockType */)arg2;
+- (NSRange)_rangeOfHoursInAnnotatedTime:(id)arg1;
+- (NSRange)_rangeOfDesignatorInAnnotatedTime:(id)arg1;
 - (void)_validate;
 - (id)_sessionAttributedTextForIndex:(NSUInteger)arg1 withStyle:(id)arg2;
 

@@ -13,20 +13,20 @@
 }
 
 - (id)description;
-- (void)enumerateRangesInRange:(_NSRange)arg1 usingBlock:(id /* CDUnknownBlockType */)arg2;
+- (void)enumerateRangesInRange:(NSRange)arg1 usingBlock:(id /* CDUnknownBlockType */)arg2;
 - (void)enumerateRangesUsingBlock:(id /* CDUnknownBlockType */)arg1;
-- (void)removeRange:(_NSRange)arg1;
-- (_NSRange )rangeReferenceAtIndex:(NSUInteger)arg1;
-- (void)addRange:(_NSRange)arg1;
+- (void)removeRange:(NSRange)arg1;
+- (NSRange )rangeReferenceAtIndex:(NSUInteger)arg1;
+- (void)addRange:(NSRange)arg1;
 @property(readonly, nonatomic) NSUInteger start;
 @property(readonly, nonatomic) NSUInteger finish;
 @property(readonly, nonatomic) BOOL isEmpty;
-- (_NSRange)rangeAtIndex:(NSUInteger)arg1;
+- (NSRange)rangeAtIndex:(NSUInteger)arg1;
 @property(readonly, nonatomic) NSUInteger rangeCount;
 // - (id)copyWithZone:(_NSZone )arg1;
 - (void)dealloc;
 - (id)initWithRangeVector:(const void )arg1;
-- (id)initWithRange:(_NSRange)arg1;
+- (id)initWithRange:(NSRange)arg1;
 - (id)init;
 
 @end

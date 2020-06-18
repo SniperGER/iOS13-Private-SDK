@@ -20,7 +20,7 @@
 - (id)possibleValues;
 - (id)_loggingKeyStringRepresentationForValue:(id)arg1;
 - (BOOL)isValidValue:(id)arg1;
-- (_NSRange)validRange;
+- (NSRange)validRange;
 - (id)description;
 - (id)initWithName:(id)arg1 enumMapping:(id)arg2 autoSanitizeValues:(BOOL)arg3;
 

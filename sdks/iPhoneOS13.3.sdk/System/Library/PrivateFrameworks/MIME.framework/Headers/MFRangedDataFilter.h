@@ -8,13 +8,13 @@
 
 @interface MFRangedDataFilter : MFBaseFilterDataConsumer
 {
-    _NSRange _range;
+    NSRange _range;
     NSUInteger _consumedLength;
 }
 
-+ (id)rangedFilterWithConsumer:(id)arg1 range:(_NSRange)arg2;
-+ (id)rangedFilterWithConsumers:(id)arg1 range:(_NSRange)arg2;
-@property(nonatomic) _NSRange range; // @synthesize range=_range;
++ (id)rangedFilterWithConsumer:(id)arg1 range:(NSRange)arg2;
++ (id)rangedFilterWithConsumers:(id)arg1 range:(NSRange)arg2;
+@property(nonatomic) NSRange range; // @synthesize range=_range;
 - (long long)appendData:(id)arg1;
 
 @end

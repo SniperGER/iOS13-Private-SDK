@@ -13,14 +13,14 @@ __attribute__((visibility("hidden")))
 @interface TSWPStoragePasteboardProxy : TSPObject
 {
     TSWPStorage *_storage;
-    _NSRange _range;
+    NSRange _range;
     id <TSWPStyleProvider> _styleProvider;
 }
 
-@property(readonly, nonatomic) _NSRange storageRange; // @synthesize storageRange=_range;
+@property(readonly, nonatomic) NSRange storageRange; // @synthesize storageRange=_range;
 // - (void).cxx_destruct;
 - (void)saveToArchiver:(id)arg1;
-- (id)initWithContext:(id)arg1 storage:(id)arg2 range:(_NSRange)arg3 styleProvider:(id)arg4;
+- (id)initWithContext:(id)arg1 storage:(id)arg2 range:(NSRange)arg3 styleProvider:(id)arg4;
 
 @end
 

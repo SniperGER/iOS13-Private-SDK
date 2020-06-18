@@ -11,7 +11,7 @@
 @interface AXLanguageTaggedContent : NSObject
 {
     NSArray *_currentDialects;
-    _NSRange _currentChunk;
+    NSRange _currentChunk;
     BOOL _predictedByTagger;
     void _nlTagger;
     BOOL _tagged;
@@ -34,7 +34,7 @@
 - (id)primaryUnambiguousDialect;
 - (id)primaryAmbiguousDialect;
 - (void)_addTag;
-- (void)_manuallyProcessContentWithRange:(_NSRange)arg1;
+- (void)_manuallyProcessContentWithRange:(NSRange)arg1;
 - (BOOL)hasOnlyNonWesternLangMaps;
 - (BOOL)hasOnlyWesternLangMaps;
 - (id)ambiguousLangMaps;

@@ -23,7 +23,7 @@
 @property(retain, nonatomic) UITextView *callToActionTextView; // @synthesize callToActionTextView=_callToActionTextView;
 @property(retain, nonatomic) UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
 // - (void).cxx_destruct;
-- (BOOL)textView:(id)arg1 shouldInteractWithURL:(id)arg2 inRange:(_NSRange)arg3 interaction:(long long)arg4;
+- (BOOL)textView:(id)arg1 shouldInteractWithURL:(id)arg2 inRange:(NSRange)arg3 interaction:(long long)arg4;
 @property(readonly, nonatomic) NSAttributedString *callToActionTextViewString;
 - (void)setupConstraints;
 - (void)setupSubviews;

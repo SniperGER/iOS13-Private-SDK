@@ -8,7 +8,12 @@
 
 @class NTKCFaceDetailPhotosSectionController;
 
+#ifndef NTKCFaceDetailPhotosSectionDelegate_Protocol
+#define NTKCFaceDetailPhotosSectionDelegate_Protocol
+
 @protocol NTKCFaceDetailPhotosSectionDelegate <NTKCFaceDetailEditOptionSectionDelegate>
 - (void)photoSectionDidUpdate:(NTKCFaceDetailPhotosSectionController *)arg1;
 @end
+
+#endif
 

@@ -10,6 +10,6 @@
 @protocol TSWPStorageObserver <NSObject>
 
 @optional
-- (void)storage:(TSWPStorage *)arg1 didChangeRange:(_NSRange)arg2 delta:(long long)arg3 broadcastKind:(NSUInteger)arg4 attributeKindChanges:(NSArray *)arg5;
+- (void)storage:(TSWPStorage *)arg1 didChangeRange:(NSRange)arg2 delta:(long long)arg3 broadcastKind:(NSUInteger)arg4 attributeKindChanges:(NSArray *)arg5;
 @end
 

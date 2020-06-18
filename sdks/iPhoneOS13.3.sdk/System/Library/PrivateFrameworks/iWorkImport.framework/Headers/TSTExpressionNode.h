@@ -50,8 +50,8 @@ __attribute__((visibility("hidden")))
 - (BOOL)isFunctionNode;
 - (id)mostSpecificNodeContainingIndex:(NSUInteger)arg1 correspondingIndex:(NSUInteger)arg2;
 - (BOOL)subtreeContainsIndex:(NSUInteger)arg1;
-- (_NSRange)rangeEncompassingExpressionNodesInRange:(_NSRange)arg1;
-- (_NSRange)range;
+- (NSRange)rangeEncompassingExpressionNodesInRange:(NSRange)arg1;
+- (NSRange)range;
 - (NSUInteger)lastIndexOfSubtree;
 - (NSUInteger)firstIndexOfSubtree;
 - (long long)compareFirstLastIndices:(id)arg1;

@@ -40,8 +40,8 @@
 - (void)_invalidatePendingSynchronousCompletionHandlersWithError:(id)arg1;
 - (void)_onQueueInvalidatePendingCompletionHandlerWithToken:(id)arg1 withError:(id)arg2;
 - (void)_onQueueInvalidatePendingCompletionHandlersWithError:(id)arg1;
-- (void)_onQueueRemovePendingServiceMessageReplyBlockInvalidationHandlerForToken:(NSNumber )arg1;
-- (NSNumber )_onQueueAddPendingServiceMessageReplyBlockInvalidationHandler:(id /* CDUnknownBlockType */)arg1;
+- (void)_onQueueRemovePendingServiceMessageReplyBlockInvalidationHandlerForToken:(NSNumber *)arg1;
+- (NSNumber *)_onQueueAddPendingServiceMessageReplyBlockInvalidationHandler:(id /* CDUnknownBlockType */)arg1;
 - (void)_sendSynchronousServiceMessage:(SEL)arg1 withBasicReplyBlock:(id /* CDUnknownBlockType */)arg2 messagingBlock:(id /* CDUnknownBlockType */)arg3;
 - (void)_sendServiceMessage:(SEL)arg1 withBasicReplyBlock:(id /* CDUnknownBlockType */)arg2 messagingBlock:(id /* CDUnknownBlockType */)arg3;
 - (void)_sendServiceMessage:(SEL)arg1 withBasicReplyBlock:(id /* CDUnknownBlockType */)arg2 withServiceProxy:(id)arg3 messagingBlock:(id /* CDUnknownBlockType */)arg4;

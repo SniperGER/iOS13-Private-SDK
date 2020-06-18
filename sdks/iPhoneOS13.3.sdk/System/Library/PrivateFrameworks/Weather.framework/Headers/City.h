@@ -116,7 +116,7 @@
 - (id)naturalLanguageDescriptionWithDescribedCondition:(out long long )arg1;
 - (id)naturalLanguageDescription;
 - (long long)locationOfTime:(long long)arg1;
-- (long long)primaryConditionForRange:(_NSRange)arg1;
+- (long long)primaryConditionForRange:(NSRange)arg1;
 - (BOOL)isDuplicateOfCity:(id)arg1;
 - (double)distanceToLatitude:(double)arg1 longitude:(double)arg2;
 - (double)distanceToLocation:(id)arg1;

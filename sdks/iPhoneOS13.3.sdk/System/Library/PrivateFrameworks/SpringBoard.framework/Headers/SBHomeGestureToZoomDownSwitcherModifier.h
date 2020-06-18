@@ -22,7 +22,7 @@
 - (id)scaleSettingsForIndex:(NSUInteger)arg1;
 - (id)positionSettingsForIndex:(NSUInteger)arg1;
 - (id)layoutSettings;
-- (_NSRange)fullSizeSnapshotsRange;
+- (NSRange)fullSizeSnapshotsRange;
 - (NSUInteger)numberOfAppLayoutsToCacheSnapshots;
 - (BOOL)isSwitcherWindowUserInteractionEnabled;
 - (BOOL)isSwitcherWindowVisible;

@@ -42,7 +42,7 @@ __attribute__((visibility("hidden")))
 - (void)applyStroke:(int)arg1 fromPart:(int)arg2 normalToDir1:(int)arg3 i1:(int)arg4 fromI2:(int)arg5 dir2Span:(int)arg6;
 - (void)setStroke:(id)arg1 ofSegmentNormalToDir1:(int)arg2 i1:(int)arg3 fromI2:(int)arg4;
 - (id)strokeOfSegmentNormalToDir1:(int)arg1 i1:(int)arg2 fromI2:(int)arg3;
-- (struct OADTMatrixPos)dominantCellInRowRange:(_NSRange)arg1 columnRange:(_NSRange)arg2;
+- (struct OADTMatrixPos)dominantCellInRowRange:(NSRange)arg1 columnRange:(NSRange)arg2;
 - (void)applyCellStyles;
 - (void)applyCornerCellStyles;
 - (void)applyCornerCellStyleWithRowPos:(int)arg1 columnPos:(int)arg2 part:(int)arg3;

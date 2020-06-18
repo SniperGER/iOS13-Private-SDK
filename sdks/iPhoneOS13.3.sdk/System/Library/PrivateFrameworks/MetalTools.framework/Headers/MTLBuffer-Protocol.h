@@ -12,9 +12,9 @@
 @protocol MTLBuffer <MTLResource>
 @property(readonly) NSUInteger length;
 - (void)removeAllDebugMarkers;
-- (void)addDebugMarker:(NSString *)arg1 range:(_NSRange)arg2;
+- (void)addDebugMarker:(NSString *)arg1 range:(NSRange)arg2;
 - (id <MTLTexture>)newTextureWithDescriptor:(MTLTextureDescriptor *)arg1 offset:(NSUInteger)arg2 bytesPerRow:(NSUInteger)arg3;
-- (void)didModifyRange:(_NSRange)arg1;
+- (void)didModifyRange:(NSRange)arg1;
 - (void )contents;
 @end
 

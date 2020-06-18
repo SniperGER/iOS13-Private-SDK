@@ -8,7 +8,6 @@ compatibility-version: 1
 objc-constraint:       retain_release
 exports:
   - archs:              [ armv7, armv7s, arm64, arm64e ]
-    allowable-clients:  [ ASMessagesProvider, AppInstallExtension, AppStore, AppStoreTests, ProductPageExtension, SubscribePageExtension ]
     symbols:            [ _AMPGetBidiClass, _ASKBuildTypeConvergence, _ASKBuildTypeDebug, _ASKBuildTypeGetCurrent, _ASKBuildTypeInternal,
                           _ASKBuildTypeIsAnyOf, _ASKBuildTypeIsPerformanceTesting, _ASKBuildTypeIsUnitTesting, _ASKBuildTypeProduction,
                           _ASKBuildTypeSeed, _ASKDeviceTypeGetCurrent, _ASKDeviceTypeMac, _ASKDeviceTypePad, _ASKDeviceTypePhone,

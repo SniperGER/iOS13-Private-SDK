@@ -84,7 +84,7 @@
 - (long long)estimatedOutputBitRate;
 - (void)configureDroppableFrameRateForCompressionSession:(struct OpaqueVTCompressionSession )arg1 inputWidth:(int)arg2 inputHeight:(int)arg3;
 - (BOOL)setupConversionWithError:(id )arg1;
-- (id)outputDataInRange:(_NSRange)arg1 waitUntilAvailableWithTimeout:(NSUInteger)arg2 error:(id )arg3;
+- (id)outputDataInRange:(NSRange)arg1 waitUntilAvailableWithTimeout:(NSUInteger)arg2 error:(id )arg3;
 - (BOOL)startConversionWithError:(id )arg1 outputAvailableHandler:(id /* CDUnknownBlockType */)arg2;
 - (BOOL)preflight;
 - (void)dealloc;

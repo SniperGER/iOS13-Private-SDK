@@ -28,7 +28,7 @@
 - (NSUInteger)p_chunkCountForByBulletGroup;
 - (NSUInteger)p_chunkCountForByBullet;
 - (BOOL)p_hasListLabelOrContentForParagraphIndex:(NSUInteger)arg1;
-- (BOOL)p_hasContentForRange:(_NSRange)arg1;
+- (BOOL)p_hasContentForRange:(NSRange)arg1;
 - (BOOL)autoListTermination;
 - (BOOL)autoListRecognition;
 - (id)commandForPasteStyleWithContext:(id)arg1 pasteboardStyles:(id)arg2;

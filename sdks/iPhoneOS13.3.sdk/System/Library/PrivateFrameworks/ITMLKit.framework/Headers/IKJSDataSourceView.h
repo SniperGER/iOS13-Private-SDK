@@ -16,10 +16,10 @@
     } _delegateFlags;
     IKJSDataSource *_dataSource;
     id <IKJSDataSourceViewDelegate> _delegate;
-    _NSRange _usedIndexRange;
+    NSRange _usedIndexRange;
 }
 
-@property(nonatomic) _NSRange usedIndexRange; // @synthesize usedIndexRange=_usedIndexRange;
+@property(nonatomic) NSRange usedIndexRange; // @synthesize usedIndexRange=_usedIndexRange;
 @property(nonatomic) __weak id <IKJSDataSourceViewDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly, nonatomic) __weak IKJSDataSource *dataSource; // @synthesize dataSource=_dataSource;
 // - (void).cxx_destruct;

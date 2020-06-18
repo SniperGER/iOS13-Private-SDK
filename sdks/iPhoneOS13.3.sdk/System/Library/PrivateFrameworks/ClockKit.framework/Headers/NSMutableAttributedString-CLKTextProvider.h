@@ -7,6 +7,6 @@
 #import <Foundation/NSMutableAttributedString.h>
 
 @interface NSMutableAttributedString (CLKTextProvider)
-- (void)addAttributesPreservingOriginals:(id)arg1 range:(_NSRange)arg2;
+- (void)addAttributesPreservingOriginals:(id)arg1 range:(NSRange)arg2;
 @end
 

@@ -15,7 +15,7 @@
 
 @property(readonly, copy, nonatomic) NSArray *subparts; // @synthesize subparts=_subparts;
 // - (void).cxx_destruct;
-- (id)_initWithItem:(id)arg1 messagePartRange:(_NSRange)arg2 subparts:(id)arg3;
+- (id)_initWithItem:(id)arg1 messagePartRange:(NSRange)arg2 subparts:(id)arg3;
 // - (id)copyWithZone:(_NSZone )arg1;
 - (id)description;
 

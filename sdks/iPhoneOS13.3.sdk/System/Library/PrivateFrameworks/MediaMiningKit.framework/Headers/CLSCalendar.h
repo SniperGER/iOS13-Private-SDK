@@ -29,7 +29,7 @@
 + (BOOL)isFirstTwoWeeksOfMonthForLocalDate:(id)arg1;
 + (BOOL)isLastTwoWeeksOfMonthForLocalDate:(id)arg1;
 + (BOOL)isLastWeekOfMonthForLocalDate:(id)arg1;
-+ (_NSRange)rangeOfUnit:(NSUInteger)arg1 inUnit:(NSUInteger)arg2 forDate:(id)arg3;
++ (NSRange)rangeOfUnit:(NSUInteger)arg1 inUnit:(NSUInteger)arg2 forDate:(id)arg3;
 + (long long)compareDate:(id)arg1 toDate:(id)arg2 toUnitGranularity:(NSUInteger)arg3;
 + (id)dateFromComponents:(NSUInteger)arg1 ofDate:(id)arg2;
 + (id)dateByAddingWeeksOfYear:(long long)arg1 toDate:(id)arg2;

@@ -15,7 +15,7 @@
 @interface NTKRichComplicationProgressView : UIView <CLKMonochromeFilterProvider, CLKMonochromeComplicationView>
 {
     CLKDevice *_device;
-    NSNumber _updateToken;
+    NSNumber *_updateToken;
     float _currentBackgroundViewAlphaPercentage;
     BOOL _enabled;
     id <CLKMonochromeFilterProvider> _filterProvider;

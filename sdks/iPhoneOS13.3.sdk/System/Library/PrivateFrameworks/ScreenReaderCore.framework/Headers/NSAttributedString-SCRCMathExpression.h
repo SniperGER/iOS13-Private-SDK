@@ -16,14 +16,14 @@
 + (id)scrcStringWithString:(id)arg1 treePosition:(id)arg2;
 + (id)scrcStringWithString:(id)arg1;
 + (id)scrcStringWithFormat:(id)arg1;
-+ (id)_scrcStringWithFormat:(id)arg1 args:(struct __va_list_tag [1])arg2;
+// + (id)_scrcStringWithFormat:(id)arg1 args:(struct __va_list_tag [1])arg2;
 - (BOOL)scrcContainsPause;
 - (BOOL)_scrcHasPauseCommaAtIndex:(NSUInteger)arg1;
 - (id)scrcStringByAddingAttribute:(id)arg1 value:(id)arg2;
 - (id)scrcStringByReplacingOccurrencesOfString:(id)arg1 withString:(id)arg2;
 - (id)scrcStringByAppendingAttributedString:(id)arg1;
-- (_NSRange)_scrcRangeOfFormatSpecifierWithIndex:(NSUInteger)arg1;
-- (_NSRange)_scrcRangeOfVanillaFormatSpecifier;
+- (NSRange)_scrcRangeOfFormatSpecifierWithIndex:(NSUInteger)arg1;
+- (NSRange)_scrcRangeOfVanillaFormatSpecifier;
 - (id)scrcSplitBasedOnAttribute:(id)arg1 limit:(long long)arg2;
 @end
 

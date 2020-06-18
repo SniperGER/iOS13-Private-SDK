@@ -14,7 +14,7 @@
 + (id)validNameCharacterSet;
 - (id)_cleanNameString:(id)arg1;
 - (BOOL)_isOnlyWhitespace:(id)arg1;
-- (BOOL)isPartialStringValid:(id )arg1 proposedSelectedRange:(_NSRange )arg2 originalString:(id)arg3 originalSelectedRange:(_NSRange)arg4 errorDescription:(id )arg5;
+- (BOOL)isPartialStringValid:(id )arg1 proposedSelectedRange:(NSRange )arg2 originalString:(id)arg3 originalSelectedRange:(NSRange)arg4 errorDescription:(id )arg5;
 - (BOOL)getObjectValue:(out id )arg1 forString:(id)arg2 errorDescription:(out id )arg3;
 - (id)stringForObjectValue:(id)arg1;
 

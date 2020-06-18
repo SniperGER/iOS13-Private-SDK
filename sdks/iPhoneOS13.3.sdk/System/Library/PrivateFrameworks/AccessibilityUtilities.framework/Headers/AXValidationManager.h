@@ -89,8 +89,8 @@
 - (BOOL)validateClass:(id)arg1 hasProperty:(id)arg2 withType:(const char )arg3;
 - (BOOL)validateClass:(id)arg1 hasInstanceMethod:(id)arg2 withFullSignature:(const char )arg3;
 - (BOOL)client:(id)arg1 validateClass:(id)arg2 hasInstanceMethod:(id)arg3 withFullSignature:(const char )arg4;
-- (BOOL)client:(id)arg1 validateClass:(id)arg2 hasInstanceMethod:(id)arg3 withFullSignature:(const char )arg4 argList:(struct __va_list_tag [1])arg5;
-- (BOOL)_client:(id)arg1 validateClass:(id)arg2 hasClassMethod:(id)arg3 withFullSignature:(const char )arg4 argList:(struct __va_list_tag [1])arg5;
+// - (BOOL)client:(id)arg1 validateClass:(id)arg2 hasInstanceMethod:(id)arg3 withFullSignature:(const char )arg4 argList:(struct __va_list_tag [1])arg5;
+// - (BOOL)_client:(id)arg1 validateClass:(id)arg2 hasClassMethod:(id)arg3 withFullSignature:(const char )arg4 argList:(struct __va_list_tag [1])arg5;
 - (BOOL)client:(id)arg1 validateClass:(id)arg2 hasClassMethod:(id)arg3 withFullSignature:(const char )arg4;
 - (BOOL)validateClass:(id)arg1 hasClassMethod:(id)arg2 withFullSignature:(const char )arg3;
 - (BOOL)_client:(id)arg1 validateClass:(id)arg2 hasMethod:(id)arg3 methodType:(int)arg4 returnType:(id)arg5 arguments:(id)arg6;

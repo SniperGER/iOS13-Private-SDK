@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 - (void)setName:(id)arg1;
 - (id)name;
 - (void)setValue:(id)arg1 atIndex:(NSUInteger)arg2;
-- (id )valuesAtIndexes:(_NSRange)arg1;
+- (id )valuesAtIndexes:(NSRange)arg1;
 - (id)valueAtIndex:(NSUInteger)arg1;
 - (NSUInteger)count;
 

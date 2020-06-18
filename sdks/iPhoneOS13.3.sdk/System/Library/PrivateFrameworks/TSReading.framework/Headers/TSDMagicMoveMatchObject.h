@@ -16,13 +16,13 @@
     NSString *_stringValue;
     NSString *_name;
     CGPoint _position;
-    _NSRange _stringRange;
+    NSRange _stringRange;
 }
 
-+ (id)matchObjectWithTextRep:(id)arg1 position:(CGPoint)arg2 stringValue:(id)arg3 stringRange:(_NSRange)arg4;
++ (id)matchObjectWithTextRep:(id)arg1 position:(CGPoint)arg2 stringValue:(id)arg3 stringRange:(NSRange)arg4;
 + (id)matchObjectWithRep:(id)arg1 position:(CGPoint)arg2;
 @property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) _NSRange stringRange; // @synthesize stringRange=_stringRange;
+@property(nonatomic) NSRange stringRange; // @synthesize stringRange=_stringRange;
 @property(retain, nonatomic) NSString *stringValue; // @synthesize stringValue=_stringValue;
 @property(retain, nonatomic) NSMutableDictionary *attributes; // @synthesize attributes=_attributes;
 @property(nonatomic) long long zOrder; // @synthesize zOrder=_zOrder;
@@ -34,7 +34,7 @@
 - (BOOL)isEqual:(id)arg1;
 // - (id)copyWithZone:(_NSZone )arg1;
 - (void)dealloc;
-- (id)initWithRep:(id)arg1 position:(CGPoint)arg2 stringValue:(id)arg3 stringRange:(_NSRange)arg4;
+- (id)initWithRep:(id)arg1 position:(CGPoint)arg2 stringValue:(id)arg3 stringRange:(NSRange)arg4;
 
 @end
 

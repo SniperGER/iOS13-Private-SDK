@@ -42,7 +42,7 @@
 - (void)addData:(id)arg1 forKey:(id)arg2 contentType:(id)arg3 fileName:(id)arg4;
 - (void)setString:(id)arg1 forKey:(id)arg2;
 - (void)addString:(id)arg1 forKey:(id)arg2;
-- (NSUInteger)loadMutableData:(id)arg1 withDataInRange:(_NSRange)arg2;
+- (NSUInteger)loadMutableData:(id)arg1 withDataInRange:(NSRange)arg2;
 - (void)stream:(id)arg1 handleEvent:(NSUInteger)arg2;
 - (void)addPartWithType:(int)arg1 forKey:(id)arg2 contentType:(id)arg3 fileName:(id)arg4 data:(id)arg5;
 - (void)setPartWithType:(int)arg1 forKey:(id)arg2 contentType:(id)arg3 fileName:(id)arg4 data:(id)arg5;

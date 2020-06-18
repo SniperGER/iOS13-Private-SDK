@@ -19,11 +19,11 @@
 }
 
 + (BOOL)_hasZipSignature:(id)arg1;
-+ (_NSRange)_rangeOfCentralDirectory:(long long)arg1;
++ (NSRange)_rangeOfCentralDirectory:(long long)arg1;
 + (struct CentralDirectory )_centralDirectory:(id)arg1;
 + (struct CentralHeader )_centralHeader:(id)arg1;
 + (id)_entriesFromCentralDictionary:(struct CentralDirectory )arg1 inData:(id)arg2 archiveData:(id)arg3;
-+ (_NSRange)rangeOfCentralDirectoryInData:(id)arg1;
++ (NSRange)rangeOfCentralDirectoryInData:(id)arg1;
 + (id)archiveDirectory;
 @property(readonly, retain, nonatomic) NSError *error; // @synthesize error=_error;
 @property(retain, nonatomic) NSData *contents; // @synthesize contents=_contents;

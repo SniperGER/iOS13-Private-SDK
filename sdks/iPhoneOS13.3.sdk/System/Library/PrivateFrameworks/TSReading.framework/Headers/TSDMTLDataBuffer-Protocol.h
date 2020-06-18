@@ -25,8 +25,8 @@
 - (void)updateDataBufferAttributesWithBlock:(void (^)(struct , NSUInteger))arg1;
 - (void)drawWithEncoder:(id <MTLRenderCommandEncoder>)arg1 atIndex:(NSUInteger)arg2 advanceDynamicBuffer:(BOOL)arg3;
 - (void)drawWithEncoder:(id <MTLRenderCommandEncoder>)arg1 atIndex:(NSUInteger)arg2;
-- (void)drawWithEncoder:(id <MTLRenderCommandEncoder>)arg1 atIndex:(NSUInteger)arg2 range:(_NSRange)arg3 advanceDynamicBuffer:(BOOL)arg4;
-- (void)drawWithEncoder:(id <MTLRenderCommandEncoder>)arg1 atIndex:(NSUInteger)arg2 range:(_NSRange)arg3;
+- (void)drawWithEncoder:(id <MTLRenderCommandEncoder>)arg1 atIndex:(NSUInteger)arg2 range:(NSRange)arg3 advanceDynamicBuffer:(BOOL)arg4;
+- (void)drawWithEncoder:(id <MTLRenderCommandEncoder>)arg1 atIndex:(NSUInteger)arg2 range:(NSRange)arg3;
 - (void)encodeWithEncoder:(id <MTLRenderCommandEncoder>)arg1 atIndex:(NSUInteger)arg2;
 - (void)disableWithDevice:(id <MTLDevice>)arg1;
 - (void)enableDataBuffer;

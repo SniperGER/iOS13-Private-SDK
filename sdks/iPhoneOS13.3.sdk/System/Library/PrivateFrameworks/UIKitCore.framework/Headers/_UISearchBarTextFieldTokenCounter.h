@@ -19,15 +19,15 @@ __attribute__((visibility("hidden")))
 // - (void).cxx_destruct;
 - (NSUInteger)indexOfTokenAtCharacterIndex:(NSUInteger)arg1;
 - (id)tokenAtCharacterIndex:(NSUInteger)arg1;
-- (_NSRange)characterRangeForSubrangeOfTextAfterLastToken:(_NSRange)arg1;
-- (_NSRange)subrangeOfTextAfterLastTokenForCharacterRange:(_NSRange)arg1;
-- (_NSRange)characterRangeOfTextAfterLastToken;
+- (NSRange)characterRangeForSubrangeOfTextAfterLastToken:(NSRange)arg1;
+- (NSRange)subrangeOfTextAfterLastTokenForCharacterRange:(NSRange)arg1;
+- (NSRange)characterRangeOfTextAfterLastToken;
 - (NSUInteger)characterIndexForSelectingOrRemovingTokenAtIndex:(NSUInteger)arg1;
 - (NSUInteger)characterIndexForInsertingTokenAtIndex:(NSUInteger)arg1;
-@property(readonly, nonatomic) _NSRange characterRangeOfAllTokens;
+@property(readonly, nonatomic) NSRange characterRangeOfAllTokens;
 @property(readonly, nonatomic) NSIndexSet *tokenCharacterIndexes;
 - (void)_handleProcessEditing;
-- (void)_addCharacterIndexesOfTokensInRange:(_NSRange)arg1 toIndexSet:(id)arg2;
+- (void)_addCharacterIndexesOfTokensInRange:(NSRange)arg1 toIndexSet:(id)arg2;
 - (id)initWithTextStorage:(id)arg1;
 
 @end

@@ -51,7 +51,7 @@
 - (void)_standardizeInputAndOutputUnits;
 - (id)_normalizedUnitNamesForName:(id)arg1;
 - (void)_updateInputValueFromMatch:(id)arg1;
-- (id)_safe_subStringOf:(id)arg1 withRange:(_NSRange)arg2;
+- (id)_safe_subStringOf:(id)arg1 withRange:(NSRange)arg2;
 - (BOOL)_parseInputQuery;
 - (void)processConversionWithCompletion:(id /* CDUnknownBlockType */)arg1;
 - (void)dealloc;

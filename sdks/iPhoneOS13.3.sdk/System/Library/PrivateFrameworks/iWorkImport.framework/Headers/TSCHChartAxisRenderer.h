@@ -32,7 +32,7 @@ __attribute__((visibility("hidden")))
 - (void)p_addTickmarkPaths:(CGContext )arg1 axis:(id)arg2 locations:(id)arg3 stroke:(id)arg4 width:(float)arg5;
 - (void)p_debugRenderTickmarkArea:(CGContext )arg1;
 - (void)p_addLinePath:(CGContext )arg1 stroke:(id)arg2;
-- (void)p_drawTitle:(CGContext )arg1 rangePtr:(_NSRange )arg2;
+- (void)p_drawTitle:(CGContext )arg1 rangePtr:(NSRange )arg2;
 - (BOOL)isCompositeRenderer;
 - (id)axisLayoutItem;
 - (void)willBeginTransparencyLayer:(int)arg1 inContext:(CGContext )arg2;

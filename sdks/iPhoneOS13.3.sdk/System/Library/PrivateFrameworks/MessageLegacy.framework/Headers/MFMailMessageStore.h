@@ -113,7 +113,7 @@
 - (id)copyOfAllMessagesForBodyLoadingFromRowID:(unsigned int)arg1 limit:(unsigned int)arg2;
 - (id)copyOfAllMessagesWithOptions:(unsigned int)arg1;
 - (id)mutableCopyOfAllMessages;
-- (id)copyOfMessagesInRange:(_NSRange)arg1;
+- (id)copyOfMessagesInRange:(NSRange)arg1;
 - (id)copyOfAllMessages;
 - (NSUInteger)indexOfMessage:(id)arg1;
 - (BOOL)hasMessageForAccount:(id)arg1;

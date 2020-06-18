@@ -9,11 +9,11 @@
 @interface _IKDSEBoundItemsPrototypeBundleEntry : NSObject
 {
     NSUInteger _prototypeIndex;
-    _NSRange _range;
+    NSRange _range;
 }
 
 @property(nonatomic) NSUInteger prototypeIndex; // @synthesize prototypeIndex=_prototypeIndex;
-@property(nonatomic) _NSRange range; // @synthesize range=_range;
+@property(nonatomic) NSRange range; // @synthesize range=_range;
 
 @end
 

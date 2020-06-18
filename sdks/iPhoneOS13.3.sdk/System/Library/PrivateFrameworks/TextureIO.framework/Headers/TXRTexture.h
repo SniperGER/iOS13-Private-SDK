@@ -28,7 +28,7 @@
 // - (void).cxx_destruct;
 - (id)copyWithPixelFormat:(NSUInteger)arg1 options:(id)arg2 bufferAllocator:(id)arg3;
 // - (id)copyWithZone:(_NSZone )arg1;
-- (void)generateMipmapsForRange:(_NSRange)arg1 filter:(NSUInteger)arg2 error:(id )arg3;
+- (void)generateMipmapsForRange:(NSRange)arg1 filter:(NSUInteger)arg2 error:(id )arg3;
 - (void)reformat:(NSUInteger)arg1 gammaDegamma:(BOOL)arg2 bufferAllocator:(id)arg3 error:(id )arg4;
 - (BOOL)exportToURL:(id)arg1 error:(id )arg2;
 - (id)exportToAssetCatalogWithName:(id)arg1 location:(id)arg2 error:(id )arg3;

@@ -27,7 +27,7 @@
     long long _cachedSeparatorStyle;
 }
 
-+ (id)indexPathArrayWithRange:(_NSRange)arg1 inSection:(long long)arg2;
++ (id)indexPathArrayWithRange:(NSRange)arg1 inSection:(long long)arg2;
 + (id)indexPathArrayWithIndexSet:(id)arg1 inSection:(long long)arg2;
 @property(nonatomic) long long cachedSeparatorStyle; // @synthesize cachedSeparatorStyle=_cachedSeparatorStyle;
 @property(copy, nonatomic) id /* CDUnknownBlockType */ collectionSupplementaryConfigureBlock; // @synthesize collectionSupplementaryConfigureBlock=_collectionSupplementaryConfigureBlock;

@@ -24,7 +24,7 @@
 // - (void).cxx_destruct;
 - (int)_setupSocket;
 - (int)_logCStr:(const char )arg1 length:(NSUInteger)arg2;
-- (int)logv:(const char )arg1 args:(struct __va_list_tag [1])arg2;
+// - (int)logv:(const char )arg1 args:(struct __va_list_tag [1])arg2;
 - (int)logf:(const char )arg1;
 - (int)logJSON:(id)arg1;
 - (void)invalidate;

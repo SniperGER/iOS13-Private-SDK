@@ -44,7 +44,7 @@
     double _sunsetXInCurve;
     CGRect _solarPathViewRect;
     double _prevDiskTimePercentage;
-    NSNumber _clockTimerToken;
+    NSNumber *_clockTimerToken;
     CLKDevice *_device;
     BOOL _paused;
     BOOL _solarPathNeedsUpdate;

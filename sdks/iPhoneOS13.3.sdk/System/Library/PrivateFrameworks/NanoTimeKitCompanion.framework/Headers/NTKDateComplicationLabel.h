@@ -19,7 +19,7 @@
     UILabel *_internalLabel;
     UIView *_highlightView;
     CGSize _cachedSize;
-    _NSRange _dayTextRange;
+    NSRange _dayTextRange;
     BOOL _cachedSizeIsValid;
     UIColor *_textColor;
     UIColor *_computedTextColor;
@@ -66,7 +66,7 @@
 - (void)_computeTextColor;
 - (void)_updateTextColor;
 - (id)_attributedStringAccentingNumbersInString:(id)arg1;
-- (void)setDateComplicationText:(id)arg1 withDayRange:(_NSRange)arg2 forDateStyle:(NSUInteger)arg3;
+- (void)setDateComplicationText:(id)arg1 withDayRange:(NSRange)arg2 forDateStyle:(NSUInteger)arg3;
 - (CGSize)sizeThatFits:(CGSize)arg1;
 - (void)layoutSubviews;
 - (id)initWithSizeStyle:(long long)arg1 accentType:(long long)arg2 forDevice:(id)arg3;

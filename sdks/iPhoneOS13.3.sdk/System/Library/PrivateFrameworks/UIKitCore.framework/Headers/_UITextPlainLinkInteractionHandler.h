@@ -14,7 +14,7 @@
 __attribute__((visibility("hidden")))
 @interface _UITextPlainLinkInteractionHandler : NSObject <_UITextItemInteractionHandler>
 {
-    _NSRange _range;
+    NSRange _range;
     UIView<_UITextContent> *_view;
 }
 
@@ -30,7 +30,7 @@ __attribute__((visibility("hidden")))
 - (id)link;
 - (id)contextMenuConfiguration;
 - (id)defaultAction;
-- (id)initWithRange:(_NSRange)arg1 rect:(CGRect)arg2 inTextContentView:(id)arg3;
+- (id)initWithRange:(NSRange)arg1 rect:(CGRect)arg2 inTextContentView:(id)arg3;
 
 @end
 

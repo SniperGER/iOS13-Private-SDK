@@ -17,11 +17,11 @@ __attribute__((visibility("hidden")))
 // - (void).cxx_destruct;
 - (CGPath )newDragAndDropHighlightPathForSelection:(id)arg1;
 - (void)protected_iterateHitChartElements:(CGPoint)arg1 withBlock:(id /* CDUnknownBlockType */)arg2;
-- (CGAffineTransform)transformForRenderingLabel:(NSUInteger)arg1 paragraphStyle:(id)arg2 cellType:(int)arg3 range:(_NSRange)arg4 outElementSize:(CGSize )arg5 outClipRect:(CGRect )arg6;
-- (CGAffineTransform)transformForRenderingLabel:(NSUInteger)arg1 cellType:(int)arg2 range:(_NSRange)arg3 outElementSize:(CGSize )arg4 outClipRect:(CGRect )arg5;
+- (CGAffineTransform)transformForRenderingLabel:(NSUInteger)arg1 paragraphStyle:(id)arg2 cellType:(int)arg3 range:(NSRange)arg4 outElementSize:(CGSize )arg5 outClipRect:(CGRect )arg6;
+- (CGAffineTransform)transformForRenderingLabel:(NSUInteger)arg1 cellType:(int)arg2 range:(NSRange)arg3 outElementSize:(CGSize )arg4 outClipRect:(CGRect )arg5;
 - (CGAffineTransform)transformForRenderingLabel:(NSUInteger)arg1 cellType:(int)arg2 outElementSize:(CGSize )arg3 outClipRect:(CGRect )arg4;
 - (CGAffineTransform)transformForRenderingBadge:(NSUInteger)arg1 cellType:(int)arg2 outElementSize:(CGSize )arg3 outClipRect:(CGRect )arg4;
-- (CGAffineTransform)p_transformForRenderingLabel:(NSUInteger)arg1 paragraphStyle:(id)arg2 cellType:(int)arg3 rangePtr:(_NSRange )arg4 outElementSize:(CGSize )arg5 outClipRect:(CGRect )arg6;
+- (CGAffineTransform)p_transformForRenderingLabel:(NSUInteger)arg1 paragraphStyle:(id)arg2 cellType:(int)arg3 rangePtr:(NSRange )arg4 outElementSize:(CGSize )arg5 outClipRect:(CGRect )arg6;
 - (id)renderersWithRep:(id)arg1;
 - (void)updateLegendGeometryFrameFromLegendModelCache;
 @property(nonatomic) CGRect legendModelGeometryFrame;

@@ -21,8 +21,8 @@ __attribute__((visibility("hidden")))
 - (void)encodeWithCoder:(id)arg1;
 - (const char )getBytesForString:(id)arg1 lossByte:(unsigned char)arg2;
 - (id)initWithCoder:(id)arg1;
-- (_NSRange)matchedRangeForString:(id)arg1 range:(_NSRange)arg2 subexpressionRanges:(_NSRange )arg3 count:(unsigned int)arg4;
-- (_NSRange)matchedRangeForCString:(const char )arg1 range:(_NSRange)arg2 subexpressionRanges:(_NSRange )arg3 count:(unsigned int)arg4;
+- (NSRange)matchedRangeForString:(id)arg1 range:(NSRange)arg2 subexpressionRanges:(NSRange )arg3 count:(unsigned int)arg4;
+- (NSRange)matchedRangeForCString:(const char )arg1 range:(NSRange)arg2 subexpressionRanges:(NSRange )arg3 count:(unsigned int)arg4;
 - (id)expressionString;
 - (NSUInteger)hash;
 - (BOOL)isEqual:(id)arg1;

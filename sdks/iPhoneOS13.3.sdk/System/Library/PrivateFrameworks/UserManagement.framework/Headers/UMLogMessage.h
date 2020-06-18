@@ -23,8 +23,8 @@ __attribute__((visibility("hidden")))
 + (id)messageWithUser:(id)arg1 publicFormat:(id)arg2;
 + (id)messageWithUser:(id)arg1;
 + (void)_addUserInfoFrom:(id)arg1 toMessage:(id)arg2;
-+ (id)messageWithPrivateFormat:(id)arg1 arguments:(struct __va_list_tag [1])arg2;
-+ (id)messageWithPublicFormat:(id)arg1 arguments:(struct __va_list_tag [1])arg2;
+// + (id)messageWithPrivateFormat:(id)arg1 arguments:(struct __va_list_tag [1])arg2;
+// + (id)messageWithPublicFormat:(id)arg1 arguments:(struct __va_list_tag [1])arg2;
 + (id)messageWithPrivateFormat:(id)arg1;
 + (id)messageWithPublicFormat:(id)arg1;
 @property(retain, nonatomic) NSMutableArray *privateStrings; // @synthesize privateStrings=_privateStrings;

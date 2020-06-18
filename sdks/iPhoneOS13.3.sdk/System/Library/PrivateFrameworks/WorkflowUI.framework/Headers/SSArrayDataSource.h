@@ -27,10 +27,10 @@
 - (void)removeItems:(id)arg1;
 - (void)removeItemsAtIndexes:(id)arg1;
 - (void)removeItemAtIndex:(NSUInteger)arg1;
-- (void)removeItemsInRange:(_NSRange)arg1;
+- (void)removeItemsInRange:(NSRange)arg1;
 - (void)moveItemAtIndex:(NSUInteger)arg1 toIndex:(NSUInteger)arg2;
 - (void)replaceItemsAtIndexes:(id)arg1 withItemsFromArray:(id)arg2;
-- (void)replaceItemsInRange:(_NSRange)arg1 withItemsFromArray:(id)arg2;
+- (void)replaceItemsInRange:(NSRange)arg1 withItemsFromArray:(id)arg2;
 - (void)replaceItemAtIndex:(NSUInteger)arg1 withItem:(id)arg2;
 - (void)insertItems:(id)arg1 atIndexes:(id)arg2;
 - (void)insertItem:(id)arg1 atIndex:(NSUInteger)arg2;

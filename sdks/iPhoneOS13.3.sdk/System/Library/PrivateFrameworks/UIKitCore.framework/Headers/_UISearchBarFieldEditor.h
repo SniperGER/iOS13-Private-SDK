@@ -22,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (id)selectionRectsForRange:(id)arg1;
 - (void)_updateTokenViews;
 - (void)layoutManager:(id)arg1 didCompleteLayoutForTextContainer:(id)arg2 atEnd:(BOOL)arg3;
-- (BOOL)layoutManager:(id)arg1 shouldSetLineFragmentRect:(inout CGRect )arg2 lineFragmentUsedRect:(inout CGRect )arg3 baselineOffset:(inout double )arg4 inTextContainer:(id)arg5 forGlyphRange:(_NSRange)arg6;
+- (BOOL)layoutManager:(id)arg1 shouldSetLineFragmentRect:(inout CGRect )arg2 lineFragmentUsedRect:(inout CGRect )arg3 baselineOffset:(inout double )arg4 inTextContainer:(id)arg5 forGlyphRange:(NSRange)arg6;
 - (CGRect)_usedRectWithLayoutManager:(id)arg1 textContainer:(id)arg2;
 - (void)deactivateEditorDiscardingEdits:(BOOL)arg1;
 - (void)activateEditor;

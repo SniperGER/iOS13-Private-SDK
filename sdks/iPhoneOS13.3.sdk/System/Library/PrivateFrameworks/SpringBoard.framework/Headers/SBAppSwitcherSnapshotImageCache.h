@@ -26,7 +26,7 @@
     long long _lastKnownUserInterfaceStyle;
     SBAppSwitcherSettings *_settings;
     id <BSInvalidatable> _stateCaptureInvalidatable;
-    _NSRange _lastVisibleRange;
+    NSRange _lastVisibleRange;
     NSArray *_lastHighPriorityAppLayouts;
     NSArray *_lastAllAppLayouts;
     BOOL _lastPriorityBiasedForward;
@@ -78,7 +78,7 @@
 - (long long)_orientationForAppLayout:(id)arg1;
 - (id)_highPriorityAppLayouts;
 - (BOOL)_biasForwardLoading;
-- (_NSRange)_visibleAppLayoutRange;
+- (NSRange)_visibleAppLayoutRange;
 - (id)_allAppLayouts;
 - (void)activeInterfaceOrientationDidChangeToOrientation:(long long)arg1 willAnimateWithDuration:(double)arg2 fromOrientation:(long long)arg3;
 - (void)activeInterfaceOrientationWillChangeToOrientation:(long long)arg1;

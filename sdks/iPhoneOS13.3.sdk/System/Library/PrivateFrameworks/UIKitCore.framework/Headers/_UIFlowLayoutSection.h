@@ -36,14 +36,14 @@ __attribute__((visibility("hidden")))
     long long _indexOfIncompleteRow;
     CDStruct_2f5e8405 _rowAlignmentOptions;
     CGSize _itemSize;
-    _NSRange _validItemRange;
+    NSRange _validItemRange;
     UIEdgeInsets _sectionMargins;
     CGRect _frame;
     CGRect _headerFrame;
     CGRect _footerFrame;
 }
 
-@property(readonly, nonatomic) _NSRange validItemRange; // @synthesize validItemRange=_validItemRange;
+@property(readonly, nonatomic) NSRange validItemRange; // @synthesize validItemRange=_validItemRange;
 @property(readonly, nonatomic) long long indexOfIncompleteRow; // @synthesize indexOfIncompleteRow=_indexOfIncompleteRow;
 @property(readonly, nonatomic) long long itemsByRowCount; // @synthesize itemsByRowCount=_itemsByRowCount;
 @property(nonatomic) long long itemsCount; // @synthesize itemsCount=_itemsCount;

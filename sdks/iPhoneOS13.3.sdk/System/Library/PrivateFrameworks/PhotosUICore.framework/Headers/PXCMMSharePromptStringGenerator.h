@@ -10,8 +10,8 @@
 {
 }
 
-+ (id)_stringWithComponentsCount:(NSUInteger)arg1 components:(id)arg2 containsOtherPeople:(BOOL)arg3 outBoldRange1:(_NSRange )arg4 outBoldRange2:(_NSRange )arg5;
-+ (id)_attributedStringWithString:(id)arg1 attributes:(id)arg2 boldFont:(UIFont )arg3 boldRange1:(_NSRange)arg4 boldRange2:(_NSRange)arg5;
++ (id)_stringWithComponentsCount:(NSUInteger)arg1 components:(id)arg2 containsOtherPeople:(BOOL)arg3 outBoldRange1:(NSRange )arg4 outBoldRange2:(NSRange )arg5;
++ (id)_attributedStringWithString:(id)arg1 attributes:(id)arg2 boldFont:(UIFont )arg3 boldRange1:(NSRange)arg4 boldRange2:(NSRange)arg5;
 + (id)sharePromptStringWithAttributes:(id)arg1 boldFont:(UIFont )arg2 lines:(long long)arg3 width:(double)arg4 names:(id)arg5 containsUnverifiedPersons:(BOOL)arg6;
 
 @end

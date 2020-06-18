@@ -20,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (NSUInteger)countByEnumeratingWithState:(CDStruct_70511ce9 )arg1 objects:(id )arg2 count:(NSUInteger)arg3;
 @property(retain, nonatomic) NSString *name;
 - (void)setValue:(id)arg1 atIndex:(NSUInteger)arg2;
-- (id )valuesAtIndexes:(_NSRange)arg1;
+- (id )valuesAtIndexes:(NSRange)arg1;
 - (id)valueAtIndex:(NSUInteger)arg1;
 - (NSUInteger)count;
 - (void)dealloc;

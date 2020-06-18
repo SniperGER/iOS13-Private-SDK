@@ -8,7 +8,7 @@
 @class NSString;
 
 @protocol SXComponentAnchor <NSObject>
-@property(readonly, nonatomic) _NSRange range;
+@property(readonly, nonatomic) NSRange range;
 @property(readonly, nonatomic) NSString *targetComponentIdentifier;
 @property(readonly, nonatomic) long long originAnchorPosition;
 @property(readonly, nonatomic) long long targetAnchorPosition;

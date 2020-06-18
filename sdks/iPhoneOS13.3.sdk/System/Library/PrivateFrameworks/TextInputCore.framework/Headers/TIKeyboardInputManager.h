@@ -64,7 +64,7 @@
     TIAutocorrectionList *_lastContinuousPathAutocorrection;
     id <TICandidateHandler> _candidateHandlerForOpenRequest;
     NSUInteger _lastNumCandidatesRequest;
-    _NSRange _candidateRange;
+    NSRange _candidateRange;
 }
 
 + (id)offlineLearningHandleForInputMode:(id)arg1;
@@ -104,7 +104,7 @@
 @property(readonly, nonatomic) TILRUDictionary *autocorrectionHistory; // @synthesize autocorrectionHistory=_autocorrectionHistory;
 @property(readonly, nonatomic) TIRevisionHistory *revisionHistory; // @synthesize revisionHistory=_revisionHistory;
 @property(copy, nonatomic) id /* CDUnknownBlockType */ candidateGenerationCompletionHandler; // @synthesize candidateGenerationCompletionHandler=_candidateGenerationCompletionHandler;
-@property(nonatomic) _NSRange candidateRange; // @synthesize candidateRange=_candidateRange;
+@property(nonatomic) NSRange candidateRange; // @synthesize candidateRange=_candidateRange;
 @property(nonatomic, getter=isWordLearningEnabled) BOOL wordLearningEnabled; // @synthesize wordLearningEnabled=_wordLearningEnabled;
 @property(readonly, nonatomic) TIKeyboardInputManagerConfig *config; // @synthesize config=_config;
 @property(retain, nonatomic) TIKeyboardState *keyboardState; // @synthesize keyboardState=_keyboardState;
@@ -117,7 +117,7 @@
 @property(readonly, nonatomic) TILanguageSelectionController *languageSelectionController;
 - (id)resourceInputModes;
 - (void)installTypologyTraceLogger;
-- (BOOL)acceptsRange:(_NSRange)arg1 inString:(id)arg2;
+- (BOOL)acceptsRange:(NSRange)arg1 inString:(id)arg2;
 - (BOOL)acceptsCharacter:(unsigned int)arg1;
 - (id)candidateResultSet;
 - (BOOL)doesSelectedTextGenerateEmojiCandidates;
@@ -134,7 +134,7 @@
 - (id)predictionCandidates:(NSUInteger)arg1 predictionType:(int)arg2;
 - (BOOL)shouldInsertSpaceBeforePredictions;
 - (BOOL)stringEndsWithClosingQuote:(id)arg1;
-- (_NSRange)rangeOfUnclosedQuoteMatchingQuote:(id)arg1 inString:(id)arg2 range:(_NSRange)arg3;
+- (NSRange)rangeOfUnclosedQuoteMatchingQuote:(id)arg1 inString:(id)arg2 range:(NSRange)arg3;
 - (BOOL)shouldAutocapitalizePredictionAfterSpace;
 - (BOOL)shouldGenerateSuggestionsForSelectedText;
 - (void)reconcileCandidates:(struct CandidateCollection )arg1 forTypedString:(struct String )arg2 withPhraseCandidate:(struct Candidate )arg3 replacing:(const struct String )arg4;
@@ -148,9 +148,9 @@
 - (BOOL)usesRetrocorrection;
 - (id)shortcutConversionForInput:(id)arg1 andExistingString:(id)arg2 existingStringStartsInMiddleOfWord:(BOOL)arg3;
 - (id)shortcutConversionForString:(id)arg1 stringStartsInMiddleOfWord:(BOOL)arg2;
-- (_NSRange)shortcutSearchRangeForString:(id)arg1;
+- (NSRange)shortcutSearchRangeForString:(id)arg1;
 - (BOOL)shouldSkipShortcutConversionForDocumentState:(id)arg1;
-- (void)enumerateWordSuffixesOfString:(id)arg1 inRange:(_NSRange)arg2 usingBlock:(id /* CDUnknownBlockType */)arg3;
+- (void)enumerateWordSuffixesOfString:(id)arg1 inRange:(NSRange)arg2 usingBlock:(id /* CDUnknownBlockType */)arg3;
 - (BOOL)supportsShortcutConversion;
 - (id)autocorrectionCandidateForInput:(id)arg1 withCandidate:(const struct Candidate )arg2 insertingSpace:(BOOL)arg3 sharedPrefixLength:(NSUInteger)arg4;
 - (id)autocorrectionCandidateForInput:(id)arg1 withCandidate:(const struct Candidate )arg2;
@@ -228,9 +228,9 @@
 - (struct LanguageModelContext)sentenceContextForInputStem:(id)arg1;
 - (BOOL)canComputeSentenceContextForInputStem:(id)arg1;
 - (void)setInputStringFromDocumentState:(id)arg1 isDeleteEvent:(BOOL)arg2;
-- (_NSRange)inputStringRangeFromRevisionHistory;
-- (_NSRange)acceptableRangeFromRange:(_NSRange)arg1 inText:(id)arg2 withSelectionLocation:(NSUInteger)arg3;
-- (_NSRange)legacyInputRangeForTokenRange:(_NSRange)arg1;
+- (NSRange)inputStringRangeFromRevisionHistory;
+- (NSRange)acceptableRangeFromRange:(NSRange)arg1 inText:(id)arg2 withSelectionLocation:(NSUInteger)arg3;
+- (NSRange)legacyInputRangeForTokenRange:(NSRange)arg1;
 - (unsigned int)simulateAutoshiftIfNecessaryForFlags:(unsigned int)arg1;
 - (BOOL)hasLegacyInputString;
 - (BOOL)hasLegacyInputStem;
@@ -279,15 +279,15 @@
 - (void)textAccepted:(id)arg1 fromPredictiveInputBar:(BOOL)arg2 withInput:(id)arg3;
 - (void)adjustPhraseBoundaryInForwardDirection:(BOOL)arg1 granularity:(int)arg2;
 - (void)adjustPhraseBoundaryInForwardDirection:(BOOL)arg1;
-- (_NSRange)smartSelectionRangeForTextInDocument:(id)arg1 inRange:(_NSRange)arg2 language:(id)arg3 tokenizedRanges:(id)arg4 options:(NSUInteger)arg5;
+- (NSRange)smartSelectionRangeForTextInDocument:(id)arg1 inRange:(NSRange)arg2 language:(id)arg3 tokenizedRanges:(id)arg4 options:(NSUInteger)arg5;
 - (void)skipHitTestForTouchEvent:(id)arg1 keyboardState:(id)arg2;
 - (long long)performHitTestForTouchEvent:(id)arg1 keyboardState:(id)arg2;
 @property(retain, nonatomic) TIKeyboardLayout *keyLayout;
 - (id)generateReplacementsForString:(id)arg1 keyLayout:(id)arg2;
 - (id)handleAcceptedCandidate:(id)arg1 keyboardState:(id)arg2;
 - (void)candidatesOfferedFeedback:(id)arg1 keyboardState:(id)arg2;
-- (void)generateCandidatesWithKeyboardState:(id)arg1 candidateRange:(_NSRange)arg2 completionHandler:(id /* CDUnknownBlockType */)arg3;
-- (void)generateAutocorrectionsWithKeyboardState:(id)arg1 candidateRange:(_NSRange)arg2 candidateHandler:(id)arg3;
+- (void)generateCandidatesWithKeyboardState:(id)arg1 candidateRange:(NSRange)arg2 completionHandler:(id /* CDUnknownBlockType */)arg3;
+- (void)generateAutocorrectionsWithKeyboardState:(id)arg1 candidateRange:(NSRange)arg2 candidateHandler:(id)arg3;
 - (id)generateOneTimeCodeCandidatesWithKeyboardState:(id)arg1;
 - (id)generateAutofillFormWithKeyboardState:(id)arg1;
 - (void)trackProactiveMetrics:(id)arg1 keyboardState:(id)arg2;

@@ -14,7 +14,7 @@
 - (BOOL)overlapsOffsets:(id <_UICollectionLayoutAuxillaryOffsets>)arg1;
 - (long long)offsetForElementKind:(NSString *)arg1;
 - (NSIndexSet *)indexesForElementKind:(NSString *)arg1;
-- (_NSRange)rangeForElementKind:(NSString *)arg1;
+- (NSRange)rangeForElementKind:(NSString *)arg1;
 - (id)offsetsByRebasingOnOffsets:(id <_UICollectionLayoutAuxillaryOffsets>)arg1;
 - (id)offsetsByApplyingOffsets:(id <_UICollectionLayoutAuxillaryOffsets>)arg1;
 @end

@@ -19,7 +19,7 @@
 + (id)defaultStorage;
 // - (void).cxx_destruct;
 - (BOOL)_isAllDayOrMultiDayEvent:(id)arg1 guardedData:(id)arg2;
-- (id)_predicateForRange:(_NSRange)arg1;
+- (id)_predicateForRange:(NSRange)arg1;
 - (void)_loadCalendars;
 - (void)clearCaches;
 - (void)resetAfterQueryWithCompletion:(id /* CDUnknownBlockType */)arg1;
@@ -29,7 +29,7 @@
 - (id)eventWithExternalID:(id)arg1;
 - (id)resolveEventFromEKChange:(id)arg1;
 - (void)iterateEventsFrom:(id)arg1 to:(id)arg2 inChunks:(int)arg3 withBlock:(id /* CDUnknownBlockType */)arg4;
-- (id)eventsInRange:(_NSRange)arg1;
+- (id)eventsInRange:(NSRange)arg1;
 - (id)eventWithIdentifier:(id)arg1;
 - (id)_init;
 - (id)init;

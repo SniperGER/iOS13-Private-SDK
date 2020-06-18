@@ -25,11 +25,11 @@ __attribute__((visibility("hidden")))
 - (id)subselectionKnobPositionsForSelection:(id)arg1;
 - (void)protected_iterateHitChartElements:(CGPoint)arg1 withBlock:(id /* CDUnknownBlockType */)arg2;
 - (BOOL)pointHitsTitleRect:(CGPoint)arg1;
-- (CGAffineTransform)searchSelectionTransformForRenderingRange:(_NSRange)arg1 outElementSize:(CGSize )arg2 outClipRect:(CGRect )arg3;
-- (CGAffineTransform)transformForRenderingRange:(_NSRange)arg1 outElementSize:(CGSize )arg2 outClipRect:(CGRect )arg3;
+- (CGAffineTransform)searchSelectionTransformForRenderingRange:(NSRange)arg1 outElementSize:(CGSize )arg2 outClipRect:(CGRect )arg3;
+- (CGAffineTransform)transformForRenderingRange:(NSRange)arg1 outElementSize:(CGSize )arg2 outClipRect:(CGRect )arg3;
 - (CGAffineTransform)transformForRenderingOutElementSize:(CGSize )arg1 outClipRect:(CGRect )arg2;
 - (CGAffineTransform)transformForRenderingOutElementSize:(CGSize )arg1 outClipRect:(CGRect )arg2 forSubselection:(BOOL)arg3;
-- (CGAffineTransform)p_transformForRenderingRangePtr:(_NSRange )arg1 outElementSize:(CGSize )arg2 outClipRect:(CGRect )arg3 forSubselection:(BOOL)arg4 forSearchSelection:(BOOL)arg5;
+- (CGAffineTransform)p_transformForRenderingRangePtr:(NSRange )arg1 outElementSize:(CGSize )arg2 outClipRect:(CGRect )arg3 forSubselection:(BOOL)arg4 forSearchSelection:(BOOL)arg5;
 - (id)renderersWithRep:(id)arg1;
 - (CGRect)calcOverhangRect;
 - (CGRect)calcDrawingRect;

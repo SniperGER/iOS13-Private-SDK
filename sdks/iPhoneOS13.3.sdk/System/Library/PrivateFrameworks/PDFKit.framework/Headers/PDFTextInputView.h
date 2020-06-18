@@ -27,7 +27,7 @@ __attribute__((visibility("hidden")))
 @property(readonly, nonatomic) BOOL hasText;
 - (void)setBaseWritingDirection:(long long)arg1 forRange:(id)arg2;
 - (void)unmarkText;
-- (void)setMarkedText:(id)arg1 selectedRange:(_NSRange)arg2;
+- (void)setMarkedText:(id)arg1 selectedRange:(NSRange)arg2;
 @property(copy, nonatomic) NSDictionary *markedTextStyle;
 @property(readonly, nonatomic) UITextRange *markedTextRange;
 - (void)replaceRange:(id)arg1 withText:(id)arg2;

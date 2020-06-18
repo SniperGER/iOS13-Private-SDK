@@ -16,9 +16,9 @@
     NSMutableArray *_recentCacheKeys;
     NSUInteger _nextUpdateToken;
     NSMutableDictionary *_updateHandlersByToken;
-    NSNumber _secondTimerToken;
-    NSNumber _minuteTimerToken;
-    NSNumber _30fpsTimerToken;
+    NSNumber *_secondTimerToken;
+    NSNumber *_minuteTimerToken;
+    NSNumber *_30fpsTimerToken;
     BOOL _finalized;
     BOOL _ignoreUppercaseStyle;
     BOOL _paused;
@@ -33,7 +33,7 @@
 
 + (id)textProviderWithJSONObjectRepresentation:(id)arg1;
 + (BOOL)supportsSecureCoding;
-+ (id)textProviderWithFormat:(id)arg1 arguments:(struct __va_list_tag [1])arg2;
+// + (id)textProviderWithFormat:(id)arg1 arguments:(struct __va_list_tag [1])arg2;
 + (id)textProviderWithFormat:(id)arg1;
 + (id)localizableTextProviderWithStringsFileFormatKey:(id)arg1 textProviders:(id)arg2;
 + (id)localizableTextProviderWithStringsFileTextKey:(id)arg1 shortTextKey:(id)arg2;
@@ -75,8 +75,8 @@
 - (id)_timeFormatByRemovingDesignatorOfTimeFormat:(id)arg1;
 - (id)_timeFormatByRemovingWhitespaceAroundDesignatorOfTimeFormat:(id)arg1 designatorExists:(BOOL )arg2;
 - (id)description;
-- (void)stopUpdatesForToken:(NSNumber )arg1;
-- (NSNumber )startUpdatesWithHandler:(id /* CDUnknownBlockType */)arg1;
+- (void)stopUpdatesForToken:(NSNumber *)arg1;
+- (NSNumber *)startUpdatesWithHandler:(id /* CDUnknownBlockType */)arg1;
 - (id)finalizedCopy;
 - (void)finalize;
 - (void)validate;

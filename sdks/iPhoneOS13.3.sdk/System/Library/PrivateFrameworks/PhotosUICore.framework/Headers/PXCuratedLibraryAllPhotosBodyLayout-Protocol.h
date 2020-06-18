@@ -12,7 +12,7 @@
 @property(readonly, nonatomic) BOOL itemCaptionsVisible;
 @property(readonly, nonatomic) BOOL supportsContentMode;
 @property(readonly, nonatomic) CGRect loadedItemsRect;
-@property(readonly, nonatomic) _NSRange loadedItems;
+@property(readonly, nonatomic) NSRange loadedItems;
 @property(nonatomic) BOOL fillSafeAreaTopInset;
 @property(nonatomic) BOOL hideIncompleteLastRow;
 @property(readonly, nonatomic) double rowHeight;
@@ -27,7 +27,7 @@
 - (long long)columnForItem:(long long)arg1;
 - (CGRect)frameForItem:(long long)arg1;
 - (long long)itemClosestTo:(CGPoint)arg1;
-- (_NSRange)itemRangeInRect:(CGRect)arg1;
+- (NSRange)itemRangeInRect:(CGRect)arg1;
 - (BOOL)shiftItem:(long long)arg1 toColumn:(long long)arg2 hideIncompleteRows:(BOOL)arg3;
 
 @optional

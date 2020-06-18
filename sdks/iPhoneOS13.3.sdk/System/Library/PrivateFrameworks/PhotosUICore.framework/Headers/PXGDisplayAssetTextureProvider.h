@@ -65,9 +65,9 @@
 - (void)_processThumbnailRequestsOnRequestQueue:(BOOL)arg1;
 @property(readonly, nonatomic) CGImage placeholderImage;
 - (void)didFinishRequestingTextures;
-- (void)_requestQueue_requestTexturesForSpritesInRange:(struct _PXGSpriteIndexRange)arg1 observer:(id)arg2 textureRequestIDs:(_NSRange)arg3 displayAssetFetchResult:(id)arg4 presentationStyles:(NSUInteger)arg5 targetSize:(CGSize)arg6 screenScale:(double)arg7;
+- (void)_requestQueue_requestTexturesForSpritesInRange:(struct _PXGSpriteIndexRange)arg1 observer:(id)arg2 textureRequestIDs:(NSRange)arg3 displayAssetFetchResult:(id)arg4 presentationStyles:(NSUInteger)arg5 targetSize:(CGSize)arg6 screenScale:(double)arg7;
 - (BOOL)_imageSizeSatisfiedByThumbnail:(CGSize)arg1;
-- (_NSRange)requestTexturesForSpritesInRange:(struct _PXGSpriteIndexRange)arg1 geometries:(CDStruct_3ab912e1 )arg2 styles:(CDStruct_506f5052 )arg3 infos:(CDStruct_9d1ebe49 )arg4 inLayout:(id)arg5;
+- (NSRange)requestTexturesForSpritesInRange:(struct _PXGSpriteIndexRange)arg1 geometries:(CDStruct_3ab912e1 )arg2 styles:(CDStruct_506f5052 )arg3 infos:(CDStruct_9d1ebe49 )arg4 inLayout:(id)arg5;
 - (void)interactionStateDidChange:(CDStruct_93894d6c)arg1;
 - (void)registerImageDataSpecs:(id)arg1;
 - (id)_requestOptionsForUseCase:(NSUInteger)arg1 forDrawing:(BOOL)arg2;

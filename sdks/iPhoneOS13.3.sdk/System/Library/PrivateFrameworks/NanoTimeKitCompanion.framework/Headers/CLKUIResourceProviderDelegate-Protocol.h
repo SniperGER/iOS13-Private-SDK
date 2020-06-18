@@ -7,8 +7,13 @@
 
 @class CLKUIAtlasBacking, CLKUIResourceProviderKey, NSString;
 
+#ifndef CLKUIResourceProviderDelegate_Protocol
+#define CLKUIResourceProviderDelegate_Protocol
+
 @protocol CLKUIResourceProviderDelegate <NSObject>
 - (CLKUIResourceProviderKey *)resourceProviderKey;
 - (CLKUIAtlasBacking *)provideAtlasBacking:(NSString *)arg1;
 @end
+
+#endif
 

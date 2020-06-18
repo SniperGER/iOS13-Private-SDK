@@ -33,7 +33,7 @@
     id <SBSwitcherLiveContentOverlayCoordinating> _liveContentOverlayCoordinator;
     NSMutableDictionary *_liveContentOverlays;
     NSMutableDictionary *_appLayoutToHeaderItemController;
-    _NSRange _visibleItemRange;
+    NSRange _visibleItemRange;
     CGPoint _scrollViewLastContentOffset;
     BOOL _scrollViewLastScrolledForward;
     SBFluidSwitcherPageContentViewProvider *_pageContentViewProvider;
@@ -225,7 +225,7 @@
 - (long long)orientationForSnapshotOfAppLayout:(id)arg1 inImageCache:(id)arg2;
 - (id)highPriorityAppLayoutsForImageCache:(id)arg1;
 - (BOOL)biasForwardForImageCache:(id)arg1;
-- (_NSRange)visibleAppLayoutRangeForImageCache:(id)arg1;
+- (NSRange)visibleAppLayoutRangeForImageCache:(id)arg1;
 - (id)appLayoutsForImageCache:(id)arg1;
 - (id)delegateForForSnapshotPageViewFromProvider:(id)arg1;
 - (id)viewControllerForTransientOverlayAppLayout:(id)arg1 fromProvider:(id)arg2;

@@ -15,9 +15,9 @@
 
 // - (void).cxx_destruct;
 @property(nonatomic, readonly) NSString *description;
-- (void)addMappingWithReplica:(id)arg1 fromRange:(_NSRange)arg2;
+- (void)addMappingWithReplica:(id)arg1 fromRange:(NSRange)arg2;
 - (void)addMappingWithReplica:(id)arg1 from:(long long)arg2;
-- (id)renamedWithRange:(_NSRange)arg1 replica:(id)arg2;
+- (id)renamedWithRange:(NSRange)arg1 replica:(id)arg2;
 - (id)renamed:(long long)arg1 replica:(id)arg2;
 - (id)renamedWithReplica:(id)arg1;
 - (id)init;

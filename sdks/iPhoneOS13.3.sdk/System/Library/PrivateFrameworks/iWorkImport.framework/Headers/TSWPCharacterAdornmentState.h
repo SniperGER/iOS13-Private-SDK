@@ -20,8 +20,8 @@ __attribute__((visibility("hidden")))
     TSUSparseArray *_currentStrokePaths;
     TSUSparseArray *_currentRubyStrokePaths;
     TSDShadow *_currentStrokeShadow;
-    _NSRange _currentFillRange;
-    _NSRange _currentStrokeRange;
+    NSRange _currentFillRange;
+    NSRange _currentStrokeRange;
     CGRect _currentFillRect;
     CGRect _currentStrokeRect;
 }
@@ -31,18 +31,18 @@ __attribute__((visibility("hidden")))
 @property(retain, nonatomic) TSUSparseArray *currentRubyStrokePaths; // @synthesize currentRubyStrokePaths=_currentRubyStrokePaths;
 @property(retain, nonatomic) TSUSparseArray *currentStrokePaths; // @synthesize currentStrokePaths=_currentStrokePaths;
 @property(nonatomic) CGRect currentStrokeRect; // @synthesize currentStrokeRect=_currentStrokeRect;
-@property(nonatomic) _NSRange currentStrokeRange; // @synthesize currentStrokeRange=_currentStrokeRange;
+@property(nonatomic) NSRange currentStrokeRange; // @synthesize currentStrokeRange=_currentStrokeRange;
 @property(retain, nonatomic) TSDStroke *currentAdornmentStroke; // @synthesize currentAdornmentStroke=_currentAdornmentStroke;
 @property(nonatomic) BOOL fillsCurrentTextContainer; // @synthesize fillsCurrentTextContainer=_fillsCurrentTextContainer;
 @property(retain, nonatomic) TSDShadow *currentFillShadow; // @synthesize currentFillShadow=_currentFillShadow;
 @property(retain, nonatomic) TSUSparseArray *currentRubyFillPaths; // @synthesize currentRubyFillPaths=_currentRubyFillPaths;
 @property(retain, nonatomic) TSUSparseArray *currentFillPaths; // @synthesize currentFillPaths=_currentFillPaths;
 @property(nonatomic) CGRect currentFillRect; // @synthesize currentFillRect=_currentFillRect;
-@property(nonatomic) _NSRange currentFillRange; // @synthesize currentFillRange=_currentFillRange;
+@property(nonatomic) NSRange currentFillRange; // @synthesize currentFillRange=_currentFillRange;
 @property(retain, nonatomic) TSDFill *currentAdornmentFill; // @synthesize currentAdornmentFill=_currentAdornmentFill;
 // - (void).cxx_destruct;
-- (void)setStateWithFill:(id)arg1 range:(_NSRange)arg2 rect:(CGRect)arg3 paths:(id)arg4 rubyPaths:(id)arg5 shadow:(id)arg6 fillsCurrentTextContainer:(BOOL)arg7;
-- (void)setStateWithStroke:(id)arg1 range:(_NSRange)arg2 rect:(CGRect)arg3 paths:(id)arg4 rubyPaths:(id)arg5 shadow:(id)arg6;
+- (void)setStateWithFill:(id)arg1 range:(NSRange)arg2 rect:(CGRect)arg3 paths:(id)arg4 rubyPaths:(id)arg5 shadow:(id)arg6 fillsCurrentTextContainer:(BOOL)arg7;
+- (void)setStateWithStroke:(id)arg1 range:(NSRange)arg2 rect:(CGRect)arg3 paths:(id)arg4 rubyPaths:(id)arg5 shadow:(id)arg6;
 - (id)init;
 
 @end

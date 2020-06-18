@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
     NSDateComponents *_baseDateComponents;
     NSUInteger _elements;
     long long _yearsSinceBaseDate;
-    _NSRange _maxDayRange;
-    _NSRange _maxMonthRange;
+    NSRange _maxDayRange;
+    NSRange _maxMonthRange;
     NSString *_localizedFormatString;
     NSArray *_dateFormatters;
     UIColor *_todayTextColor;
@@ -79,7 +79,7 @@ __attribute__((visibility("hidden")))
 - (long long)rowForValue:(long long)arg1 forCalendarUnit:(NSUInteger)arg2 currentRow:(long long)arg3;
 - (long long)valueForDate:(id)arg1 dateComponents:(id)arg2 calendarUnit:(NSUInteger)arg3;
 - (long long)rowForDate:(id)arg1 dateComponents:(id)arg2 component:(long long)arg3 currentRow:(long long)arg4;
-- (_NSRange)rangeForCalendarUnit:(NSUInteger)arg1;
+- (NSRange)rangeForCalendarUnit:(NSUInteger)arg1;
 - (long long)titleAlignmentForCalendarUnit:(NSUInteger)arg1;
 - (id)titleForRow:(long long)arg1 inComponent:(long long)arg2;
 - (id)dateFormatForCalendarUnit:(NSUInteger)arg1;

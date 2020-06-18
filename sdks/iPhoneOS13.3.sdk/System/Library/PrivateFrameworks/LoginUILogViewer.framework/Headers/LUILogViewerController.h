@@ -81,7 +81,7 @@
 - (BOOL)gestureRecognizerShouldBegin:(id)arg1;
 - (void)handlePan:(id)arg1;
 - (void)observeValueForKeyPath:(id)arg1 ofObject:(id)arg2 change:(id)arg3 context:(void )arg4;
-- (_NSRange)_searchRangeForDate:(id)arg1 inText:(id)arg2;
+- (NSRange)_searchRangeForDate:(id)arg1 inText:(id)arg2;
 - (void)_cleanupHighlight;
 - (void)_updateHighlight;
 - (void)_setupInitialHighlight;

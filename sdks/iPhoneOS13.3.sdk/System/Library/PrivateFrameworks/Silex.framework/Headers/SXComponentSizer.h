@@ -33,7 +33,7 @@
 - (UIEdgeInsets)layoutMarginsWithUnitConverter:(id)arg1;
 - (UIEdgeInsets)contentInsetsWithUnitConverter:(id)arg1;
 - (long long)minimumColumnLength;
-- (_NSRange)overrideColumnLayoutForColumnRange:(_NSRange)arg1 inColumnLayout:(id)arg2;
+- (NSRange)overrideColumnLayoutForColumnRange:(NSRange)arg1 inColumnLayout:(id)arg2;
 - (NSUInteger)shouldIgnoreViewportPaddingForColumnLayout:(id)arg1;
 - (NSUInteger)shouldIgnoreMarginsForColumnLayout:(id)arg1;
 - (BOOL)allowComponentIntersection;

@@ -18,13 +18,13 @@
     NSObject<OS_dispatch_queue> *_stateTrackingQueue;
     NSMutableDictionary *_viewedMessages;
     NSMutableDictionary *_messageListMessages;
-    _NSRange _messageListVisibleRows;
+    NSRange _messageListVisibleRows;
 }
 
 + (id)remoteInterface;
 + (id)log;
 @property BOOL appLaunched; // @synthesize appLaunched=_appLaunched;
-@property(nonatomic) _NSRange messageListVisibleRows; // @synthesize messageListVisibleRows=_messageListVisibleRows;
+@property(nonatomic) NSRange messageListVisibleRows; // @synthesize messageListVisibleRows=_messageListVisibleRows;
 @property(retain, nonatomic) NSMutableDictionary *messageListMessages; // @synthesize messageListMessages=_messageListMessages;
 @property(retain, nonatomic) NSMutableDictionary *viewedMessages; // @synthesize viewedMessages=_viewedMessages;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *stateTrackingQueue; // @synthesize stateTrackingQueue=_stateTrackingQueue;

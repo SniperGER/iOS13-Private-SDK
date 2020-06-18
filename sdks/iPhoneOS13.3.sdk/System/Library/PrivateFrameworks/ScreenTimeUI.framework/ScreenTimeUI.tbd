@@ -8,10 +8,6 @@ compatibility-version: 1
 objc-constraint:       retain_release
 exports:
   - archs:              [ armv7, armv7s, arm64, arm64e ]
-    allowable-clients:  [ ChatKit, ChatKitTests, ContactsUI, FamilyCircleUI, IMCore, InCallService, LockoutUI, MobileSMS, MobileSafari,
-                          MobileSafariSettings, SafariServices, SafariShared, SafariSharedUnitTests, ScreenTimeAgent,
-                          ScreenTimeNotificationContentExtension, ScreenTimeSettings, ScreenTimeUI, ScreenTimeUnlock, ScreenTimeWidget,
-                          Tests, screentimetool ]
     symbols:            [ _STNotificationKeyPINSuccess, _STPINRemoteViewControllerInterface, _STPINServiceViewControllerInterface,
                           _STRestrictionsPINControllerDidFinishNotification, _STSharedServicesScreenTimeSpecifierId, _STUIBundle,
                           _STUISortedAvailableCategoriesExcludingSystemCategories ]

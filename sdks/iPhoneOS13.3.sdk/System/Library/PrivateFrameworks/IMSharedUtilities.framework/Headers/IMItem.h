@@ -93,7 +93,7 @@
 - (id)initWithSender:(id)arg1 time:(id)arg2 guid:(id)arg3 type:(long long)arg4;
 - (id)initWithDictionary:(id)arg1;
 - (id)description;
-- (_NSRange)associatedMessageRange;
+- (NSRange)associatedMessageRange;
 - (BOOL)isSticker;
 - (BOOL)isMessageEdit;
 - (BOOL)isBreadcrumb;

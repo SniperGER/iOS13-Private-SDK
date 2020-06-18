@@ -25,11 +25,11 @@ __attribute__((visibility("hidden")))
 - (void)useHeap:(id)arg1;
 - (void)useResources:(const id )arg1 count:(NSUInteger)arg2 usage:(NSUInteger)arg3;
 - (void)useHeaps:(const id )arg1 count:(NSUInteger)arg2;
-- (void)setTextures:(const id )arg1 withRange:(_NSRange)arg2 withCommand:(unsigned int)arg3 array:(id )arg4 rangeMax:(unsigned int)arg5;
-- (void)setSamplerStates:(const id )arg1 lodMinClamps:(const float )arg2 lodMaxClamps:(const float )arg3 withRange:(_NSRange)arg4 withCommand:(unsigned int)arg5 array:(id )arg6 rangeMax:(unsigned int)arg7;
-- (void)setSamplerStates:(const id )arg1 withRange:(_NSRange)arg2 withCommand:(unsigned int)arg3 array:(id )arg4 rangeMax:(unsigned int)arg5;
+- (void)setTextures:(const id )arg1 withRange:(NSRange)arg2 withCommand:(unsigned int)arg3 array:(id )arg4 rangeMax:(unsigned int)arg5;
+- (void)setSamplerStates:(const id )arg1 lodMinClamps:(const float )arg2 lodMaxClamps:(const float )arg3 withRange:(NSRange)arg4 withCommand:(unsigned int)arg5 array:(id )arg6 rangeMax:(unsigned int)arg7;
+- (void)setSamplerStates:(const id )arg1 withRange:(NSRange)arg2 withCommand:(unsigned int)arg3 array:(id )arg4 rangeMax:(unsigned int)arg5;
 - (void)setBytes:(const void )arg1 length:(NSUInteger)arg2 atIndex:(NSUInteger)arg3 withCommand:(unsigned int)arg4 array:(id )arg5 rangeMax:(unsigned int)arg6;
-- (void)setBuffers:(const id )arg1 offsets:(const NSUInteger )arg2 withRange:(_NSRange)arg3 withCommand:(unsigned int)arg4 array:(id )arg5 rangeMax:(unsigned int)arg6;
+- (void)setBuffers:(const id )arg1 offsets:(const NSUInteger )arg2 withRange:(NSRange)arg3 withCommand:(unsigned int)arg4 array:(id )arg5 rangeMax:(unsigned int)arg6;
 - (void)dealloc;
 - (id)initWithCommandBuffer:(id)arg1;
 

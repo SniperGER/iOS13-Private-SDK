@@ -8,7 +8,7 @@
 @class TSWPStorage;
 
 @protocol TSWPReplaceAction <NSObject>
-- (_NSRange)insertedRange;
+- (NSRange)insertedRange;
 - (long long)delta;
 - (NSUInteger)targetCharIndex;
 - (void)performWithStorage:(TSWPStorage *)arg1 delta:(long long)arg2 undoTransaction:(struct TSWPStorageTransaction )arg3 replaceBlock:(void (^)(TSWPSelection *, NSString *))arg4;

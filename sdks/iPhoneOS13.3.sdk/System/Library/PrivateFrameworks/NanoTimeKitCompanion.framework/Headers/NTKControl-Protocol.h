@@ -5,7 +5,12 @@
 //
 
 
+#ifndef NTKControl_Protocol
+#define NTKControl_Protocol
+
 @protocol NTKControl <NSObject>
 - (BOOL)shouldCancelTouchesInScrollview;
 @end
+
+#endif
 

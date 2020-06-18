@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_NSRange)_rangeOfTemplateInURLString:(id)arg1;
-+ (_NSRange)_rangeofSubstringWithOpeningTag:(id)arg1 closingTag:(id)arg2 inString:(id)arg3;
++ (NSRange)_rangeOfTemplateInURLString:(id)arg1;
++ (NSRange)_rangeofSubstringWithOpeningTag:(id)arg1 closingTag:(id)arg2 inString:(id)arg3;
 + (id)_firstVariableInTemplate:(id)arg1 includeTags:(BOOL)arg2;
 + (id)URLBySubstitutingVariablesInURLString:(id)arg1 usingBlock:(id /* CDUnknownBlockType */)arg2;
 

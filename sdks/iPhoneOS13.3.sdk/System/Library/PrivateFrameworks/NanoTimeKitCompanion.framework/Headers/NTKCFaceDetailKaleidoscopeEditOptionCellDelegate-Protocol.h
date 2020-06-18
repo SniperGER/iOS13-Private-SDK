@@ -8,7 +8,12 @@
 
 @class NTKCFaceDetailKaleidoscopeEditOptionCell;
 
+#ifndef NTKCFaceDetailKaleidoscopeEditOptionCellDelegate_Protocol
+#define NTKCFaceDetailKaleidoscopeEditOptionCellDelegate_Protocol
+
 @protocol NTKCFaceDetailKaleidoscopeEditOptionCellDelegate <NTKCFaceDetailEditOptionCellDelegate>
 - (void)kaleidoscopeEditOptionCellDidSelectUserOption:(NTKCFaceDetailKaleidoscopeEditOptionCell *)arg1;
 @end
+
+#endif
 

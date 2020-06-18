@@ -23,7 +23,7 @@
     double _descent;
     CGContext _context;
     NSShadow *_shadow;
-    _NSRange _stringRange;
+    NSRange _stringRange;
     CGPoint _origin;
     CGAffineTransform _transform;
 }
@@ -40,7 +40,7 @@
 @property(readonly, nonatomic, getter=isEndOfString) BOOL endOfString; // @synthesize endOfString=_endOfString;
 @property(readonly, nonatomic, getter=isTruncated) BOOL truncated; // @synthesize truncated=_truncated;
 @property(readonly, nonatomic) NSString *string; // @synthesize string=_string;
-@property(readonly, nonatomic) _NSRange stringRange; // @synthesize stringRange=_stringRange;
+@property(readonly, nonatomic) NSRange stringRange; // @synthesize stringRange=_stringRange;
 // - (void).cxx_destruct;
 - (id)description;
 - (void)_transformBy:(CGAffineTransform)arg1;

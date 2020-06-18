@@ -56,7 +56,7 @@ __attribute__((visibility("hidden")))
 - (void)parentDidChange;
 - (Class)repClassOverride;
 - (id)computeLayoutGeometry;
-- (void)storage:(id)arg1 didChangeRange:(_NSRange)arg2 delta:(long long)arg3 broadcastKind:(NSUInteger)arg4;
+- (void)storage:(id)arg1 didChangeRange:(NSRange)arg2 delta:(long long)arg3 broadcastKind:(NSUInteger)arg4;
 - (void)updateChildrenFromInfo;
 - (BOOL)containsLayoutForInfo:(id)arg1;
 - (void)setChildren:(id)arg1;

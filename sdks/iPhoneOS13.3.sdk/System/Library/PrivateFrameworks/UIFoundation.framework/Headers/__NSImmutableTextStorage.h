@@ -17,14 +17,14 @@ __attribute__((visibility("hidden")))
 }
 
 + (id)allocWithZone:(_NSZone )arg1;
-- (void)setAttributes:(id)arg1 range:(_NSRange)arg2;
-- (void)replaceCharactersInRange:(_NSRange)arg1 withString:(id)arg2;
+- (void)setAttributes:(id)arg1 range:(NSRange)arg2;
+- (void)replaceCharactersInRange:(NSRange)arg1 withString:(id)arg2;
 - (void)processEditing;
-- (void)fixAttributesInRange:(_NSRange)arg1;
-- (id)attribute:(id)arg1 atIndex:(NSUInteger)arg2 longestEffectiveRange:(_NSRange )arg3 inRange:(_NSRange)arg4;
-- (id)attributesAtIndex:(NSUInteger)arg1 longestEffectiveRange:(_NSRange )arg2 inRange:(_NSRange)arg3;
-- (id)attribute:(id)arg1 atIndex:(NSUInteger)arg2 effectiveRange:(_NSRange )arg3;
-- (id)attributesAtIndex:(NSUInteger)arg1 effectiveRange:(_NSRange )arg2;
+- (void)fixAttributesInRange:(NSRange)arg1;
+- (id)attribute:(id)arg1 atIndex:(NSUInteger)arg2 longestEffectiveRange:(NSRange )arg3 inRange:(NSRange)arg4;
+- (id)attributesAtIndex:(NSUInteger)arg1 longestEffectiveRange:(NSRange )arg2 inRange:(NSRange)arg3;
+- (id)attribute:(id)arg1 atIndex:(NSUInteger)arg2 effectiveRange:(NSRange )arg3;
+- (id)attributesAtIndex:(NSUInteger)arg1 effectiveRange:(NSRange )arg2;
 - (id)string;
 @property(readonly) NSLayoutManager *layoutManager;
 @property(readonly) NSTextContainer *textContainer;

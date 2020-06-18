@@ -81,7 +81,7 @@ __attribute__((visibility("hidden")))
 - (void)motionEnded:(long long)arg1 withEvent:(id)arg2;
 - (void)__textServiceDidDismiss;
 - (void)dismissHostedTextServiceSession:(id)arg1 animated:(BOOL)arg2;
-- (id)_showServiceForText:(id)arg1 selectedTextRange:(_NSRange)arg2 type:(long long)arg3 fromRect:(CGRect)arg4 inView:(id)arg5;
+- (id)_showServiceForText:(id)arg1 selectedTextRange:(NSRange)arg2 type:(long long)arg3 fromRect:(CGRect)arg4 inView:(id)arg5;
 - (id)_showServiceForText:(id)arg1 type:(long long)arg2 fromRect:(CGRect)arg3 inView:(id)arg4;
 - (id)_showServiceForType:(long long)arg1 withContext:(id)arg2;
 - (BOOL)_canShowTextServices;

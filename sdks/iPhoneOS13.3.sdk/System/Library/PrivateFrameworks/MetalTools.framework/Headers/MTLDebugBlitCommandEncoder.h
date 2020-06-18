@@ -18,9 +18,9 @@
 // - (void).cxx_destruct;
 - (void)copyFromTexture:(id)arg1 toTexture:(id)arg2;
 - (void)copyFromTexture:(id)arg1 sourceSlice:(NSUInteger)arg2 sourceLevel:(NSUInteger)arg3 toTexture:(id)arg4 destinationSlice:(NSUInteger)arg5 destinationLevel:(NSUInteger)arg6 sliceCount:(NSUInteger)arg7 levelCount:(NSUInteger)arg8;
-- (void)optimizeIndirectCommandBuffer:(id)arg1 withRange:(_NSRange)arg2;
-- (void)copyIndirectCommandBuffer:(id)arg1 sourceRange:(_NSRange)arg2 destination:(id)arg3 destinationIndex:(NSUInteger)arg4;
-- (void)resetCommandsInBuffer:(id)arg1 withRange:(_NSRange)arg2;
+- (void)optimizeIndirectCommandBuffer:(id)arg1 withRange:(NSRange)arg2;
+- (void)copyIndirectCommandBuffer:(id)arg1 sourceRange:(NSRange)arg2 destination:(id)arg3 destinationIndex:(NSUInteger)arg4;
+- (void)resetCommandsInBuffer:(id)arg1 withRange:(NSRange)arg2;
 - (void)optimizeContentsForCPUAccess:(id)arg1 slice:(NSUInteger)arg2 level:(NSUInteger)arg3;
 - (void)optimizeContentsForCPUAccess:(id)arg1;
 - (void)optimizeContentsForGPUAccess:(id)arg1 slice:(NSUInteger)arg2 level:(NSUInteger)arg3;
@@ -37,7 +37,7 @@
 - (void)waitForFence:(id)arg1;
 - (void)updateFence:(id)arg1;
 - (void)copyFromBuffer:(id)arg1 sourceOffset:(NSUInteger)arg2 toBuffer:(id)arg3 destinationOffset:(NSUInteger)arg4 size:(NSUInteger)arg5;
-- (void)fillBuffer:(id)arg1 range:(_NSRange)arg2 value:(unsigned char)arg3;
+- (void)fillBuffer:(id)arg1 range:(NSRange)arg2 value:(unsigned char)arg3;
 - (void)generateMipmapsForTexture:(id)arg1;
 - (void)copyFromTexture:(id)arg1 sourceSlice:(NSUInteger)arg2 sourceLevel:(NSUInteger)arg3 sourceOrigin:(CDStruct_14f26992)arg4 sourceSize:(CDStruct_14f26992)arg5 toBuffer:(id)arg6 destinationOffset:(NSUInteger)arg7 destinationBytesPerRow:(NSUInteger)arg8 destinationBytesPerImage:(NSUInteger)arg9 options:(NSUInteger)arg10;
 - (void)copyFromTexture:(id)arg1 sourceSlice:(NSUInteger)arg2 sourceLevel:(NSUInteger)arg3 sourceOrigin:(CDStruct_14f26992)arg4 sourceSize:(CDStruct_14f26992)arg5 toBuffer:(id)arg6 destinationOffset:(NSUInteger)arg7 destinationBytesPerRow:(NSUInteger)arg8 destinationBytesPerImage:(NSUInteger)arg9;

@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void)drawTextInRect:(CGRect)arg1;
-- (_NSRange)_extendedGlyphRangeForRange:(_NSRange)arg1 maxGlyphIndex:(NSUInteger)arg2;
+- (NSRange)_extendedGlyphRangeForRange:(NSRange)arg1 maxGlyphIndex:(NSUInteger)arg2;
 
 @end
 

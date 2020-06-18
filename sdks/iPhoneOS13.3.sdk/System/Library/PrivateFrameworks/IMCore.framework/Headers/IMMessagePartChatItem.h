@@ -15,7 +15,7 @@
     NSAttributedString *_text;
     NSAttributedString *_fallbackCorruptText;
     long long _index;
-    _NSRange _messagePartRange;
+    NSRange _messagePartRange;
     NSArray *_visibleAssociatedMessageChatItems;
     NSArray *_messageEditChatItems;
     BOOL _isBusiness;
@@ -40,15 +40,15 @@
 @property(nonatomic) BOOL chatInScrutinyMode; // @synthesize chatInScrutinyMode=_chatInScrutinyMode;
 @property(readonly, nonatomic) NSArray *messageEditChatItems; // @synthesize messageEditChatItems=_messageEditChatItems;
 @property(retain, nonatomic, setter=_setVisibleAssociatedMessageChatItems:) NSArray *visibleAssociatedMessageChatItems; // @synthesize visibleAssociatedMessageChatItems=_visibleAssociatedMessageChatItems;
-@property(nonatomic) _NSRange messagePartRange; // @synthesize messagePartRange=_messagePartRange;
+@property(nonatomic) NSRange messagePartRange; // @synthesize messagePartRange=_messagePartRange;
 @property(nonatomic) long long index; // @synthesize index=_index;
 @property(readonly, copy, nonatomic) NSAttributedString *text; // @synthesize text=_text;
 // - (void).cxx_destruct;
 @property(readonly, nonatomic) BOOL requiresSiriAttribution;
 - (BOOL)canSendMessageAcknowledgment;
 - (void)_setMessageEditChatItems:(id)arg1;
-- (id)_initWithItem:(id)arg1 text:(id)arg2 index:(long long)arg3 messagePartRange:(_NSRange)arg4 visibleAssociatedMessageChatItems:(id)arg5;
-- (id)_initWithItem:(id)arg1 messagePartRange:(_NSRange)arg2;
+- (id)_initWithItem:(id)arg1 text:(id)arg2 index:(long long)arg3 messagePartRange:(NSRange)arg4 visibleAssociatedMessageChatItems:(id)arg5;
+- (id)_initWithItem:(id)arg1 messagePartRange:(NSRange)arg2;
 @property(readonly, nonatomic) BOOL isCorrupt;
 - (id)transcriptText;
 @property(nonatomic) BOOL isBusiness; // @synthesize isBusiness=_isBusiness;

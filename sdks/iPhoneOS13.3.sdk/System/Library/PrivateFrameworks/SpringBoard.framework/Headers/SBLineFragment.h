@@ -10,12 +10,12 @@
 {
     NSUInteger _index;
     double _lineWidth;
-    _NSRange _range;
+    NSRange _range;
 }
 
 + (id)fragmentWithIndex:(NSUInteger)arg1 length:(NSUInteger)arg2 lineWidth:(double)arg3;
 @property(nonatomic) double lineWidth; // @synthesize lineWidth=_lineWidth;
-@property(nonatomic) _NSRange range; // @synthesize range=_range;
+@property(nonatomic) NSRange range; // @synthesize range=_range;
 @property(nonatomic) NSUInteger index; // @synthesize index=_index;
 - (id)description;
 

@@ -7,9 +7,14 @@
 
 @class NTKOlympusTimeContentView;
 
+#ifndef NTKOlympusContentViewDelegate_Protocol
+#define NTKOlympusContentViewDelegate_Protocol
+
 @protocol NTKOlympusContentViewDelegate <NSObject>
 - (void)olympusContentView:(NTKOlympusTimeContentView *)arg1 didHandleLogoTouchUpInsideFromRect:(CGRect)arg2;
 - (void)olympusContentViewDidHandleLogoResetHighlight:(NTKOlympusTimeContentView *)arg1;
 - (void)olympusContentViewDidHandleLogoHighlighted:(NTKOlympusTimeContentView *)arg1;
 @end
+
+#endif
 
